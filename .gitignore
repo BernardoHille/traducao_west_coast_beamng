@@ -5,6 +5,9 @@ source/originals/
 # Kept locally; SHA-256 in docs/inventory/original_files_manifest.csv
 source/reference_ptbr/t_sealbrik_logo_b.color_ptbr.png
 
+# Third-party tool binaries (download instructions in docs/BEAMNG_OVERRIDE_POC.md)
+tools/conversion/bin/
+
 # Temporary work
 working/temporary/*
 !working/temporary/.gitkeep

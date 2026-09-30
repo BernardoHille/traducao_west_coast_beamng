@@ -1,7 +1,7 @@
 # Status do projeto
 
 **Última atualização:** 30/09/2026
-**Fase atual:** Fase 0 — Preparação e versionamento (concluída)
+**Fase atual:** Fase 1 — Proof of Concept do override (concluída)
 
 ## Ambiente
 
@@ -14,8 +14,8 @@
 - **Originais extraídos:** 35 texturas, cada uma em DDS (formato do jogo) e PNG (base de edição). Ficam em `source/originals/`, só localmente, fora do Git.
 - **Traduções existentes:** 13 PNG `_ptbr` em `source/reference_ptbr/`, que correspondem a 11 texturas traduzidas e 1 máscara. O `t_sealbrik_logo` `_ptbr` é cópia idêntica do original.
 - **Status das traduções existentes:** servem **só de referência** até serem reconstruídas a partir dos originais. Não são masters aprovados.
-- **DDS PT-BR:** nenhum produzido (`export/dds/` vazio).
-- **Mod:** ainda não montado nem validado no jogo (`mod/traducao_ptbr_wcusa/` vazio).
+- **DDS PT-BR:** só o DDS **de teste** do PoC (`export/dds/poc/`). Nenhum DDS de tradução aprovado.
+- **Mod:** `mod/traducao_ptbr_wcusa/` contém só o override de PoC de `t_roadsigns_b.color`. O **override técnico foi validado**, mas a **tradução não foi aprovada** e precisa ser reconstruída a partir do original.
 - **Inventário:** `docs/inventory/original_files_manifest.csv` (SHA-256) e `docs/inventory/texture_families.md`.
 - **Auditoria inicial:** `docs/AUDITORIA_PROJETO_TRADUCAO.md`, snapshot de 30/09/2026 que não deve ser editado.
 
@@ -24,7 +24,7 @@
 - [x] Auditoria inicial
 - [x] Estrutura do projeto
 - [x] Versionamento
-- [ ] Proof of Concept do override
+- [x] Proof of Concept do override
 - [ ] Regras definitivas de localização
 - [ ] Validador
 - [ ] Reconstrução das traduções existentes
@@ -33,6 +33,19 @@
 - [ ] QA East Coast / Utah
 - [ ] QA ADAS
 - [ ] Release
+
+## Resultado da Fase 1 — PoC do override
+
+Detalhes em [`BEAMNG_OVERRIDE_POC.md`](BEAMNG_OVERRIDE_POC.md).
+
+- **Textura testada:** `t_roadsigns_b.color` (família `t_roadsigns`). O `t_roadsigns_o.data` não foi alterado.
+- **Caminho virtual confirmado:** `assets/materials/signage/roadsigns/t_roadsigns_b.color.dds` (original em `content/assets/materials/signage.zip`).
+- **Formato DDS:** DX10 BC7_UNORM_SRGB, 2048×1024, 12 mipmaps, gerado com texconv (DirectXTex may2026).
+- **User folder:** `C:\Users\Desktop\AppData\Local\BeamNG\BeamNG.drive\current\` → mod em `mods\unpacked\traducao_ptbr_wcusa\`.
+- **Teste A/B/C** (placa STOP id 94335, West Coast): ON = "PARE" · OFF = "STOP" · ON de novo = "PARE" ✔
+- **Asset global:** não confirmado nesta fase. O East Coast define o material `roadsigns`, mas as placas visíveis de lá usam `signs_usa`.
+- **Status da textura:** *override técnico validado*. **Tradução NÃO aprovada.**
+- **Achado:** o PoC mostrou na prática o deslocamento de UV da referência PT-BR (octógono do PARE deslocado, "E" cortado), o que confirma o problema 2 abaixo.
 
 ## Problemas conhecidos
 
