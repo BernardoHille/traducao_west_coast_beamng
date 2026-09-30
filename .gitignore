@@ -1,0 +1,40 @@
+# Exact BeamNG source assets (local-only; verified via docs/inventory/original_files_manifest.csv)
+source/originals/
+
+# Byte-identical copy of an original game texture (no translation inside) -> same rule as source/originals/
+# Kept locally; SHA-256 in docs/inventory/original_files_manifest.csv
+source/reference_ptbr/t_sealbrik_logo_b.color_ptbr.png
+
+# Temporary work
+working/temporary/*
+!working/temporary/.gitkeep
+
+# Local tooling
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+
+# Logs
+*.log
+
+# BeamNG temporary/cache files
+cache/
+temp/
+
+# Image editor backups / autosaves
+*.psd~
+*.xcf~
+*.kra~
+*.bak
+~$*

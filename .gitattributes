@@ -1,0 +1,26 @@
+# Normalize text files
+* text=auto
+*.md   text eol=lf
+*.csv  text eol=lf
+*.json text eol=lf
+*.py   text eol=lf
+*.lua  text eol=lf
+*.ps1  text eol=crlf
+*.bat  text eol=crlf
+
+# Snapshot documents: keep byte-exact (SHA-256 recorded in the manifest)
+docs/AUDITORIA_PROJETO_TRADUCAO.md -text
+docs/legacy/** -text
+
+# Git LFS — texture binaries and layered masters
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.xcf filter=lfs diff=lfs merge=lfs -text
+*.kra filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+# Texture PNGs are 0.05–5.4 MB each and will be revised repeatedly -> LFS
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+# Packaged mod releases
+*.zip filter=lfs diff=lfs merge=lfs -text
