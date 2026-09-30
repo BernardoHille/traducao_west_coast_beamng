@@ -1,7 +1,7 @@
 # Status do projeto
 
 **Última atualização:** 30/09/2026
-**Fase atual:** Fase 1 — Proof of Concept do override (concluída)
+**Fase atual:** Fase 2 — Automação de QA via MCP (concluída)
 
 ## Ambiente
 
@@ -46,6 +46,38 @@ Detalhes em [`BEAMNG_OVERRIDE_POC.md`](BEAMNG_OVERRIDE_POC.md).
 - **Asset global:** não confirmado nesta fase. O East Coast define o material `roadsigns`, mas as placas visíveis de lá usam `signs_usa`.
 - **Status da textura:** *override técnico validado*. **Tradução NÃO aprovada.**
 - **Achado:** o PoC mostrou na prática o deslocamento de UV da referência PT-BR (octógono do PARE deslocado, "E" cortado), o que confirma o problema 2 abaixo.
+
+## Resultado da Fase 2: Automação de QA
+
+Detalhes em [`BEAMNG_MCP_CAPABILITIES.md`](BEAMNG_MCP_CAPABILITIES.md), [`../tools/beamng/QA_PROTOCOL.md`](../tools/beamng/QA_PROTOCOL.md) e [`../tests/reports/t_roadsigns_automation_test.md`](../tests/reports/t_roadsigns_automation_test.md).
+
+- **MCP validado:** servidor `beamng-game` em `http://127.0.0.1:29292/mcp`, com 86 ferramentas. O que foi testado está documentado.
+- **Capacidades principais:**
+  - `load_level` / `get_status`;
+  - `set_free_camera` / `get_camera_state`;
+  - `set_time_of_day`;
+  - `toggle_ui`;
+  - `screenshot` (assíncrono);
+  - `file_info` (origem VFS);
+  - `get_logs`;
+  - `run_lua` para mods (`core_modmanager`), objetos/materiais (`scenetree`, `getMaterialNames`) e ambiente (`core_environment`).
+- **Automação:** runner `tools/beamng/qa_runner.py`, que fala direto com o MCP, mais o protocolo equivalente em `QA_PROTOCOL.md`.
+- **Catálogo:** `tests/qa_locations.json`, com **3 pontos** de `t_roadsigns` (STOP Chinatown, YIELD, SPEED LIMIT 25). Câmeras lidas do jogo.
+- **Presets:**
+  - `tests/presets/day.json`: `time 0.0` (meio-dia observado), `windSpeed 0`, `cloudCover 0`;
+  - `night.json`: `time 0.5`, mesmo ambiente;
+  - `camera_defaults.json`: free cam, FOV 50, UI oculta.
+- **Screenshot:** `screenshot` do MCP, com espera até o arquivo estabilizar. PNG 1920×993, copiado para `tests/screenshots/baseline|current/<família>/<ponto>_<estado>[_night].png`.
+- **ON/OFF:** `core_modmanager.activateMod/deactivateMod` **+ `load_level` obrigatório**. Sem recarga, o resultado é não determinístico. O runner sempre recarrega no início.
+- **Reprodutibilidade:** pose restaurada com deslocamento de 0 px. Diferença A×B de 0,5–1,0, contra ruído de 0,1–0,4.
+- **Limitações:**
+  - resolução presa ao tamanho da janela;
+  - ids de objeto mudam a cada carga (catálogo usa shape + posição);
+  - ~75 s por troca de estado do mod;
+  - semântica de `time` invertida em relação à descrição da ferramenta;
+  - sem ferramenta dedicada para mods e clima;
+  - `raycast` sem material.
+- **Achado de conteúdo** (para a reconstrução): a referência antiga também desloca o triângulo da YIELD. A SPEED LIMIT continua em inglês.
 
 ## Problemas conhecidos
 

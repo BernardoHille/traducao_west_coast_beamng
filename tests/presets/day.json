@@ -1,0 +1,15 @@
+{
+  "name": "day",
+  "purpose": "Inspect colors, text, UV placement, transparency, cut-outs and resolution.",
+  "time_of_day": {
+    "time": 0.0,
+    "play": false
+  },
+  "environment": {
+    "windSpeed": 0,
+    "cloudCover": 0
+  },
+  "_time_semantics": "Observed in BeamNG 0.39.4 West Coast USA: time 0.0 = midday (sun high, full daylight); 0.5 = midnight. The MCP tool description says the opposite (0.5 = noon) - trust the observation.",
+  "_environment": "windSpeed 0 (default 0.1) stops cloud drift inside one load; cloudCover 0 (default 1) removes clouds, which are laid out differently on every level load and shift auto-exposure. Applied with core_environment.setState via run_lua.",
+  "filename_suffix": ""
+}

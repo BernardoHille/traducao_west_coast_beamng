@@ -6,7 +6,7 @@ Projeto de tradução para o português do Brasil dos **elementos visuais** (tex
 
 ## Estado
 
-**Fase 1 — Proof of Concept do override (concluída).** O override de textura via mod foi validado no jogo (ver [`docs/BEAMNG_OVERRIDE_POC.md`](docs/BEAMNG_OVERRIDE_POC.md)). Ainda não existe tradução aprovada.
+**Fase 2 — Automação de QA via MCP (concluída).** O override de textura foi validado no jogo ([`docs/BEAMNG_OVERRIDE_POC.md`](docs/BEAMNG_OVERRIDE_POC.md)), e há um pipeline repetível de inspeção visual ([`tools/beamng/QA_PROTOCOL.md`](tools/beamng/QA_PROTOCOL.md)). Ainda não existe tradução aprovada.
 
 O acompanhamento detalhado fica em [`docs/PROJECT_STATUS.md`](docs/PROJECT_STATUS.md).
 

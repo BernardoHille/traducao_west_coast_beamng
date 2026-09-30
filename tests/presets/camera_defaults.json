@@ -1,0 +1,24 @@
+{
+  "_doc": "Shared QA capture settings. Per-location camera poses live in tests/qa_locations.json.",
+  "camera_mode": "free",
+  "fov": 50,
+  "ui_visible": false,
+  "settle_seconds_after_camera_move": 4,
+  "screenshot": {
+    "tool": "screenshot",
+    "format": "png",
+    "expected_resolution": [1920, 993],
+    "note": "Resolution = current game viewport; the MCP screenshot tool has no size parameter. The runner records the real size and warns on mismatch."
+  },
+  "level_load": {
+    "initial_wait_seconds": 15,
+    "poll_interval_seconds": 5,
+    "timeout_seconds": 240,
+    "settle_seconds_after_ready": 10,
+    "ready_condition": "get_status.level matches the map AND vehicleCount >= 1"
+  },
+  "mod_toggle": {
+    "reload_level_after_change": true,
+    "reason": "Phase 2: without a level reload the already-loaded texture stays cached for a while and is later re-read from the new VFS origin when streamed back in (non-deterministic)."
+  }
+}

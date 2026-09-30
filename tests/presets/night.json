@@ -1,0 +1,16 @@
+{
+  "name": "night",
+  "purpose": "Detect problems in emissive maps, lit signs, storefront lettering, fuel stations, billboards and night-only materials.",
+  "time_of_day": {
+    "time": 0.5,
+    "play": false
+  },
+  "environment": {
+    "windSpeed": 0,
+    "cloudCover": 0
+  },
+  "_time_semantics": "Observed in BeamNG 0.39.4 West Coast USA: time 0.5 = midnight (street lights on). See day.json.",
+  "_note": "With cloudCover 0 the night is moonlit: non-emissive signs stay readable (with default clouds they were black silhouettes). Street lights and lit storefronts are on - use NIGHT mainly for families with emissive maps.",
+  "filename_suffix": "_night",
+  "_environment": "windSpeed 0 (default 0.1) stops cloud drift inside one load; cloudCover 0 (default 1) removes clouds, which are laid out differently on every level load and shift auto-exposure. Applied with core_environment.setState via run_lua."
+}

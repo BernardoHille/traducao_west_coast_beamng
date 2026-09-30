@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "map": "west_coast_usa",
+  "mod_name": "traducao_ptbr_wcusa",
+  "_notes": [
+    "Scene object ids change on every level load (Phase 1 stop sign was 94335, later 281094). Objects are identified by object.shape + object.position; object.last_seen_id is informational only.",
+    "camera.* values are read back from the game with get_camera_state (never hand-written).",
+    "object.materials is the material list returned by TSStatic:getMaterialNames() in-game."
+  ],
+  "families": {
+    "t_roadsigns": {
+      "material": "roadsigns",
+      "vfs_checks": [
+        {
+          "path": "/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+          "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+          "original_origin_contains": "signage.zip"
+        }
+      ]
+    }
+  },
+  "locations": [
+    {
+      "id": "roadsigns_chinatown_stop",
+      "family": "t_roadsigns",
+      "description": "Placa STOP usada no PoC da Fase 1 (cruzamento em Chinatown).",
+      "object": {
+        "shape": "/levels/west_coast_usa/art/shapes/objects/sign_stop.dae",
+        "position": [
+          -712.667,
+          552.899,
+          122.435
+        ],
+        "match_tolerance_m": 1.0,
+        "last_seen_id": 281094,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "camera": {
+        "position": [
+          -710.782,
+          550.313,
+          122.835
+        ],
+        "rotation": [
+          0.00743,
+          0.00242,
+          -0.309899,
+          0.950737
+        ],
+        "fov": 50,
+        "captured": "2026-09-30T16:01:29",
+        "source": "get_camera_state"
+      },
+      "lighting": [
+        "day",
+        "night"
+      ],
+      "expected_elements": [
+        "STOP / PARE"
+      ],
+      "notes": "Fase 1: com a referência PT-BR antiga o octógono aparece deslocado (UV) e o 'E' cortado."
+    },
+    {
+      "id": "roadsigns_downtown_yield",
+      "family": "t_roadsigns",
+      "description": "Placa YIELD junto a uma cerca, perto do depósito Rent-a-Box.",
+      "object": {
+        "shape": "/levels/west_coast_usa/art/shapes/objects/sign_yield.dae",
+        "position": [
+          -108.5,
+          93.2,
+          127.0
+        ],
+        "match_tolerance_m": 1.0,
+        "last_seen_id": 281020,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "camera": {
+        "position": [
+          -110.5606,
+          96.0784,
+          126.7581
+        ],
+        "rotation": [
+          -0.008825,
+          0.027138,
+          0.950593,
+          0.309125
+        ],
+        "fov": 50,
+        "captured": "2026-09-30T16:01:31",
+        "source": "get_camera_state"
+      },
+      "lighting": [
+        "day"
+      ],
+      "expected_elements": [
+        "YIELD / DÊ A PREFERÊNCIA"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "roadsigns_hill_speed25",
+      "family": "t_roadsigns",
+      "description": "Placa SPEED LIMIT 25 com placa STOP no mesmo poste (rua em declive perto da ponte).",
+      "object": {
+        "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
+        "position": [
+          -169.321,
+          155.466,
+          123.426
+        ],
+        "match_tolerance_m": 1.0,
+        "last_seen_id": 281008,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "camera": {
+        "position": [
+          -171.7348,
+          158.6505,
+          123.1267
+        ],
+        "rotation": [
+          -0.011993,
+          0.035447,
+          0.94659,
+          0.320262
+        ],
+        "fov": 50,
+        "captured": "2026-09-30T16:01:32",
+        "source": "get_camera_state"
+      },
+      "lighting": [
+        "day"
+      ],
+      "expected_elements": [
+        "SPEED LIMIT 25",
+        "STOP / PARE (sign_stop no mesmo poste)"
+      ],
+      "notes": "Relevante para a futura decisão mph/km/h."
+    }
+  ]
+}

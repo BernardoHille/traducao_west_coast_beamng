@@ -1,0 +1,22 @@
+{
+  "location": "roadsigns_chinatown_stop",
+  "preset": "day",
+  "noise_floor_A_vs_A2": {
+    "mean_abs": 0.136,
+    "psnr_db": 52.54,
+    "pct_pixels_diff_gt_16": 0.024,
+    "center_mean_abs": 0.143
+  },
+  "restored_A_vs_B": {
+    "mean_abs": 1.01,
+    "psnr_db": 44.74,
+    "pct_pixels_diff_gt_16": 0.048,
+    "center_mean_abs": 1.085
+  },
+  "files": {
+    "A": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_162426_87.png",
+    "A2": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_162427_88.png",
+    "B": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_162436_89.png"
+  },
+  "date": "2026-09-30T16:24:38"
+}

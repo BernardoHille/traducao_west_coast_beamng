@@ -1,0 +1,22 @@
+{
+  "location": "roadsigns_hill_speed25",
+  "preset": "day",
+  "noise_floor_A_vs_A2": {
+    "mean_abs": 0.415,
+    "psnr_db": 38.66,
+    "pct_pixels_diff_gt_16": 0.713,
+    "center_mean_abs": 0.149
+  },
+  "restored_A_vs_B": {
+    "mean_abs": 0.509,
+    "psnr_db": 37.17,
+    "pct_pixels_diff_gt_16": 0.896,
+    "center_mean_abs": 0.204
+  },
+  "files": {
+    "A": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_162458_93.png",
+    "A2": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_162459_94.png",
+    "B": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_162508_95.png"
+  },
+  "date": "2026-09-30T16:25:09"
+}
