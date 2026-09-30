@@ -150,7 +150,7 @@ Não inventar unidade onde não existe.
 
 ## 14. Entidades públicas
 - Órgãos fictícios **não** viram instituições brasileiras reais (`Department of Transport` → "Departamento de Transportes").
-- Distintivo `FIRE · FIRWOOD · DEPARTMENT · POLICE`: recomendação **preservar** como emblema próprio; tradução só por decisão do dono (`CORPO DE BOMBEIROS DE FIRWOOD`, sem "POLICE"). Proibido: `BOMBEIROS FIRWOOD POLÍCIA`.
+- Distintivo `FIRE · FIRWOOD · DEPARTMENT · POLICE`: **preservar o original** (decisão da Fase 4). Proibido: `BOMBEIROS FIRWOOD POLÍCIA`.
 
 ## 15. Tipografia
 - Acentuação completa (ÔNIBUS, MÃO ÚNICA, TRÂNSITO, ELETRÔNICA, MÁXIMA, SAÍDA…). Remover acento só com limitação técnica **comprovada** — e registrar.

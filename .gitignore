@@ -8,6 +8,9 @@ source/reference_ptbr/t_sealbrik_logo_b.color_ptbr.png
 # Third-party tool binaries (download instructions in docs/BEAMNG_OVERRIDE_POC.md)
 tools/conversion/bin/
 
+# Regenerable validation heatmaps (python tools/validation/validate.py all)
+export/reports/validation/images/
+
 # Temporary work
 working/temporary/*
 !working/temporary/.gitkeep

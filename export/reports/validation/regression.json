@@ -1,0 +1,199 @@
+{
+  "title": "Regression: legacy PT-BR images (negative dataset)",
+  "subject": "",
+  "status": "PASS",
+  "counts": {
+    "PASS": 10,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-09-30T17:44:19",
+  "meta": {
+    "cases": [
+      {
+        "case": "old_eca_roadsigns_alpha",
+        "expected": [
+          "Alpha preservation"
+        ],
+        "obtained": "FAIL",
+        "fail_checks": [
+          "Alpha preservation",
+          "Changes (no allowed regions configured)",
+          "Semi-transparency"
+        ],
+        "ok": true
+      },
+      {
+        "case": "old_dealers_alpha",
+        "expected": [
+          "Alpha preservation",
+          "Alpha noise"
+        ],
+        "obtained": "FAIL",
+        "fail_checks": [
+          "Alpha noise",
+          "Alpha preservation",
+          "Changes (no allowed regions configured)"
+        ],
+        "ok": true
+      },
+      {
+        "case": "old_roadsigns_pixel_diff",
+        "expected": [
+          "Changes outside allowed regions",
+          "Alpha noise"
+        ],
+        "obtained": "FAIL",
+        "fail_checks": [
+          "Alpha noise",
+          "Changes outside allowed regions"
+        ],
+        "ok": true
+      },
+      {
+        "case": "old_roadmarkings_family",
+        "expected": [
+          "shape_changed"
+        ],
+        "obtained": "FAIL",
+        "fail_checks": [
+          "shape_changed"
+        ],
+        "ok": true
+      },
+      {
+        "case": "old_genericsigns_family",
+        "expected": [
+          "shape_changed",
+          "diffuse_legacy (eca_genericsigns_d.dds)"
+        ],
+        "obtained": "FAIL",
+        "fail_checks": [
+          "diffuse_legacy (eca_genericsigns_d.dds)",
+          "shape_changed"
+        ],
+        "ok": true
+      },
+      {
+        "case": "old_movie_studio",
+        "expected": [
+          "Changes (no allowed regions configured)"
+        ],
+        "obtained": "FAIL",
+        "fail_checks": [
+          "Alpha noise",
+          "Changes (no allowed regions configured)"
+        ],
+        "ok": true
+      },
+      {
+        "case": "old_industrial",
+        "expected": [
+          "Changes (no allowed regions configured)"
+        ],
+        "obtained": "FAIL",
+        "fail_checks": [
+          "Alpha noise",
+          "Changes (no allowed regions configured)"
+        ],
+        "ok": true
+      },
+      {
+        "case": "old_sponsors",
+        "expected": [
+          "Alpha preservation"
+        ],
+        "obtained": "FAIL",
+        "fail_checks": [
+          "Alpha noise",
+          "Alpha preservation",
+          "Changes (no allowed regions configured)",
+          "Semi-transparency"
+        ],
+        "ok": true
+      },
+      {
+        "case": "old_roadmarkings_texture",
+        "expected": [
+          "Changes outside allowed regions"
+        ],
+        "obtained": "FAIL",
+        "fail_checks": [
+          "Alpha noise",
+          "Changes outside allowed regions"
+        ],
+        "ok": true
+      },
+      {
+        "case": "old_sealbrik_identical",
+        "expected": "PASS",
+        "obtained": "PASS",
+        "fail_checks": [],
+        "ok": true
+      }
+    ]
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "old_eca_roadsigns_alpha",
+      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha preservation', 'Changes (no allowed regions configured)', 'Semi-transparency']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "old_dealers_alpha",
+      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Alpha preservation', 'Changes (no allowed regions configured)']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "old_roadsigns_pixel_diff",
+      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Changes outside allowed regions']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "old_roadmarkings_family",
+      "message": "detected as expected — got FAIL; FAIL checks: ['shape_changed']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "old_genericsigns_family",
+      "message": "detected as expected — got FAIL; FAIL checks: ['diffuse_legacy (eca_genericsigns_d.dds)', 'shape_changed']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "old_movie_studio",
+      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Changes (no allowed regions configured)']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "old_industrial",
+      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Changes (no allowed regions configured)']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "old_sponsors",
+      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Alpha preservation', 'Changes (no allowed regions configured)', 'Semi-transparency']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "old_roadmarkings_texture",
+      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Changes outside allowed regions']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "old_sealbrik_identical",
+      "message": "detected as expected — got PASS; FAIL checks: none",
+      "details": {}
+    }
+  ]
+}

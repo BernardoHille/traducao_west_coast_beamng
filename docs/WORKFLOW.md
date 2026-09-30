@@ -3,32 +3,46 @@
 Toda textura traduzida passa por este fluxo. Nenhuma etapa pode ser pulada.
 
 ```
-ORIGINAL DO JOGO
+ORIGINAL DO JOGO (SHA-256 conferido)
       ↓
 IDENTIFICAR MATERIAL E MAPAS ASSOCIADOS
       ↓
+REGISTRAR REGIÃO AUTORIZADA (config/allowed_regions.json)
+      ↓
 COPIAR PARA WORKING
       ↓
-EDITAR SOMENTE ÁREAS NECESSÁRIAS
+EDITAR
       ↓
-PRESERVAR UV / ALFA / RESOLUÇÃO
+VALIDATE PNG ............ validate.py texture <png>
       ↓
-VALIDAR
+CONVERTER
       ↓
-CONVERTER PARA DDS NO FORMATO ORIGINAL
+VALIDATE DDS ............ validate.py dds <dds>
       ↓
-VALIDAR DDS
+VALIDATE FAMILY ......... validate.py family <família> --source dir --dir <pacote> --shape-changed true|false
       ↓
-COLOCAR NA ÁRVORE DO MOD
+MONTAR MOD
       ↓
-TESTAR NO BEAMNG
+VALIDATE MOD TREE ....... validate.py mod --installed
       ↓
-SCREENSHOT / QA
+QA MCP .................. tools/beamng/qa_runner.py capture …
       ↓
-APROVAR
+APROVAR (humano)
       ↓
 COMMIT
 ```
+
+Para assets funcionais (placas R-19, meshes, limites de via, radares, zonas, ADAS):
+
+```
+IMPLEMENTAR PLACA / MESH / LIMITE
+      ↓
+VALIDATE SPEED CONSISTENCY ... validate.py speeds --refresh   (mapa carregado no BeamNG)
+      ↓
+QA MCP
+```
+
+Um passo só avança com **zero FAIL** (`exit code 0`). WARN exige justificativa no relatório de QA. Antes de um commit de produção: `python tools/validation/validate.py all` e `python -m unittest discover -s tools/validation/tests`.
 
 ## Regra de base
 
@@ -46,9 +60,9 @@ Os arquivos em `source/reference_ptbr/` servem só de consulta: texto escolhido,
 | 3. Copiar para working | Copiar o original para um master em camadas. O original nunca é editado diretamente | `working/layered/` |
 | 4. Editar | Só as regiões com texto. Nada de reposicionar, redimensionar ou regenerar o resto | `working/layered/` |
 | 5. Preservar | Mesma resolução, mesmas coordenadas UV, canal alfa do original (ou da máscara refeita) | — |
-| 6. Validar PNG | Resolução, alfa e diferença de pixels fora das áreas de texto (≈0) | `export/reports/` |
+| 6. Validar PNG | `validate.py texture`: resolução, alfa (perda e ruído), mudanças fora das regiões autorizadas (≈0) | `export/reports/validation/` |
 | 7. Converter | PNG → DDS no **mesmo formato do original**, com cadeia completa de mipmaps | `tools/conversion/` → `export/dds/` |
-| 8. Validar DDS | Formato, sRGB/linear, número de mipmaps, dimensões | `export/reports/` |
+| 8. Validar DDS | `validate.py dds` e `validate.py family`: formato, sRGB/linear, mipmaps, dimensões, mapas auxiliares | `export/reports/validation/` |
 | 9. Árvore do mod | Copiar para o caminho virtual exato do jogo, com o nome original (sem `_ptbr`) | `mod/traducao_ptbr_wcusa/` |
 | 10. Testar | Carregar o West Coast, conferir de dia e de noite. Se a textura for global, conferir também outros mapas | BeamNG |
 | 11. Screenshot / QA | Capturas antes/depois e relatório | `tests/screenshots/`, `tests/reports/` |

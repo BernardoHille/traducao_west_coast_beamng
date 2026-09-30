@@ -1,0 +1,57 @@
+{
+  "title": "Mod tree validation",
+  "subject": "mod/traducao_ptbr_wcusa",
+  "status": "WARN",
+  "counts": {
+    "PASS": 6,
+    "WARN": 1,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-09-30T17:44:19",
+  "meta": {},
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "mod_info",
+      "message": "Tradução PT-BR — West Coast USA 0.1.0-poc",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Case-insensitive duplicates",
+      "message": "none",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/signage/roadsigns/t_roadsigns_b.color.dds → t_roadsigns/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Installed copy",
+      "message": "identical to repo (2 files)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_roadsigns: base_color (t_roadsigns_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_roadsigns: opacity (t_roadsigns_o.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "WARN",
+      "name": "t_roadsigns: shape_changed",
+      "message": "modification does not declare shape_changed (config/modifications.json); auxiliary-map rule not evaluated",
+      "details": {}
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_doc": "Declaration of what each delivered modification changed, per source. shape_changed: true when the silhouette/position of any element changes (text wider, octagon moved, letters with a different contour) -> auxiliary maps listed in requires_on_shape_change must be delivered too. null = not declared (WARN).",
+  "mod": {
+    "t_roadsigns": {"status": "poc", "shape_changed": null, "note": "Phase 1 PoC texture (legacy reference); not a translation. Declare before production."}
+  },
+  "reference": {
+    "t_decal_roadmarkings": {"shape_changed": true, "note": "Legacy: letters replaced (PARE, ÔNIBUS, MANTENHA…) -> letter contours changed."},
+    "eca_genericsigns": {"shape_changed": true, "note": "Legacy: layout changed (Pousada Firwood, Nodeoline redrawn)."},
+    "t_spearleaf_refinery_logo": {"shape_changed": true, "note": "Legacy: text changed; opacity mask delivered."},
+    "t_roadsigns": {"shape_changed": true, "note": "Legacy: octagon/triangle displaced (Phases 1-2)."},
+    "t_billboardsigns_dealers": {"shape_changed": true, "note": "Legacy: alpha lost/texts redrawn."},
+    "t_steel_factory_brand": {"shape_changed": true, "note": "Legacy: brand text replaced."}
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "title": "PNG validation",
+  "subject": "source/reference_ptbr/t_decal_roadmarkings_b.color_ptbr.png",
+  "status": "FAIL",
+  "counts": {
+    "PASS": 3,
+    "WARN": 1,
+    "FAIL": 2,
+    "SKIP": 1
+  },
+  "generated": "2026-09-30T17:44:19",
+  "meta": {
+    "original": "source/originals/png/t_decal_roadmarkings_b.color.png",
+    "texture": "t_decal_roadmarkings_b.color",
+    "allowed_regions": 9,
+    "metrics": {
+      "pixels": 1048576,
+      "rgb": {
+        "changed": 907235,
+        "changed_pct": 86.5207,
+        "mean_abs": 13.7648,
+        "max_abs": 255,
+        "psnr_db": 19.72
+      },
+      "alpha": {
+        "changed": 4092,
+        "changed_pct": 0.3902,
+        "mean_abs": 0.0774,
+        "max_abs": 35,
+        "original": {
+          "transparent_pct": 0.0,
+          "semi_pct": 0.909,
+          "opaque_pct": 99.091,
+          "min": 254,
+          "max": 255,
+          "mean": 254.991
+        },
+        "candidate": {
+          "transparent_pct": 0.0,
+          "semi_pct": 0.39,
+          "opaque_pct": 99.61,
+          "min": 220,
+          "max": 255,
+          "mean": 254.932
+        },
+        "opaque_pixels_modified": 4056,
+        "opaque_pixels_modified_outside": 2521,
+        "transparent_pixels_modified": 0,
+        "semi_transparent_pixels_modified": 36,
+        "transparent_pixels_original": 0,
+        "semi_pixels_original": 9531
+      },
+      "changed_any": 908000,
+      "changed_any_pct": 86.5936,
+      "changed_inside_regions": 556617,
+      "changed_outside_regions": 351383,
+      "changed_outside_pct": 76.5954,
+      "outside_area_pixels": 458752,
+      "bbox_changes": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1024
+      },
+      "bbox_changes_outside": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    "heatmaps": [
+      "export/reports/validation/images/t_decal_roadmarkings_b.color_ptbr_diff.png",
+      "export/reports/validation/images/t_decal_roadmarkings_b.color_ptbr_alpha_diff.png"
+    ]
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (1a0c9c9c1b89…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "1024x1024",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Alpha preservation",
+      "message": "original has no fully transparent pixels outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "WARN",
+      "name": "Semi-transparency",
+      "message": "0.89% of 4028 originally semi-transparent pixels changed outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Alpha noise",
+      "message": "2521 originally opaque pixels outside allowed regions now have alpha < 255 (candidate alpha min 220)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Pixel diff (global, informative)",
+      "message": "86.5936% changed · RGB mean 13.7648 max 255 · alpha mean 0.0774 max 35 · PSNR 19.72 dB · bbox {'x': 0, 'y': 0, 'width': 1024, 'height': 1024}",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Changes outside allowed regions",
+      "message": "76.5954% of pixels outside allowed regions changed (351383 px, bbox {'x': 0, 'y': 0, 'width': 1024, 'height': 1024})",
+      "details": {}
+    }
+  ]
+}

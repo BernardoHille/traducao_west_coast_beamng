@@ -6,7 +6,7 @@ Projeto de tradução para o português do Brasil dos **elementos visuais** (tex
 
 ## Estado
 
-**Fase 3 — Especificação de localização PT-BR (concluída).** As regras definitivas de localização estão em [`docs/LOCALIZATION_RULES.md`](docs/LOCALIZATION_RULES.md). O override de textura foi validado ([`docs/BEAMNG_OVERRIDE_POC.md`](docs/BEAMNG_OVERRIDE_POC.md)) e há um pipeline de QA visual ([`tools/beamng/QA_PROTOCOL.md`](tools/beamng/QA_PROTOCOL.md)). Ainda não existe tradução implementada.
+**Fase 4 — Pipeline automático de validação (concluída).** O validador está em [`tools/validation/`](tools/validation/README.md). As regras definitivas de localização estão em [`docs/LOCALIZATION_RULES.md`](docs/LOCALIZATION_RULES.md). O override de textura foi validado ([`docs/BEAMNG_OVERRIDE_POC.md`](docs/BEAMNG_OVERRIDE_POC.md)) e há um pipeline de QA visual ([`tools/beamng/QA_PROTOCOL.md`](tools/beamng/QA_PROTOCOL.md)). Ainda não existe tradução implementada.
 
 O acompanhamento detalhado fica em [`docs/PROJECT_STATUS.md`](docs/PROJECT_STATUS.md).
 

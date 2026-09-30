@@ -1,0 +1,447 @@
+{
+  "title": "Self-test: originals vs themselves + PoC DDS",
+  "subject": "",
+  "status": "PASS",
+  "counts": {
+    "PASS": 72,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-09-30T17:44:16",
+  "meta": {},
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "original eca_roadsigns_d.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original eca_roadsigns_d.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original speed_sign.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original speed_sign.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_roadsigns_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_roadsigns_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_roadsigns_o.data.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_roadsigns_o.data.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_usa_roadsigns_text_e.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_usa_roadsigns_text_e.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_usa_roadsigns_text_o.data.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_usa_roadsigns_text_o.data.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original usa_roadsigns_text.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original usa_roadsigns_text.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original usa_roadsigns_turn_warning.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original usa_roadsigns_turn_warning.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original ut_roadsigns_d.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original ut_roadsigns_d.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original clutter_commercial_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original clutter_commercial_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original clutter_commercial_o.data.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original clutter_commercial_o.data.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original logos_dealership_garage_wca_d.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original logos_dealership_garage_wca_d.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_riverside_plaza_sign_LOD_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_riverside_plaza_sign_LOD_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_west_coast_garage_sign_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_west_coast_garage_sign_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original eca_genericsigns_emissive.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original eca_genericsigns_emissive.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_eca_genericsigns_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_eca_genericsigns_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_gasstation_tyrannos_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_gasstation_tyrannos_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original billboards_d.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original billboards_d.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_billboards_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_billboards_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_billboardsigns_dealers_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_billboardsigns_dealers_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original busstop_d.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original busstop_d.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_bus_routes_wca_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_bus_routes_wca_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_sign_busstop_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_sign_busstop_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_movie_studio_signage_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_movie_studio_signage_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original ind_industrial_signs_d.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original ind_industrial_signs_d.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_industrial_signs_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_industrial_signs_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_sealbrik_logo_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_sealbrik_logo_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_spearleaf_refinery_logo_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_spearleaf_refinery_logo_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_spearleaf_refinery_logo_o.data.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_spearleaf_refinery_logo_o.data.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_steel_factory_brand_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_steel_factory_brand_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original arrows_sign_d.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original arrows_sign_d.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original checkpoint_sign.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original checkpoint_sign.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_sign_drift.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_sign_drift.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_sponsors_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_sponsors_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_decal_roadmarkings_b.color.dds",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "original t_decal_roadmarkings_b.color.png",
+      "message": "identical to itself",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "PoC DDS metadata export/dds/poc/t_roadsigns_b.color.dds",
+      "message": "Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "PoC DDS metadata mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+      "message": "Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible)",
+      "details": {}
+    }
+  ]
+}

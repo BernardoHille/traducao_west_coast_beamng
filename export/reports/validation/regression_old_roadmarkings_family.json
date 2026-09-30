@@ -1,0 +1,64 @@
+{
+  "title": "Family validation",
+  "subject": "t_decal_roadmarkings (reference)",
+  "status": "FAIL",
+  "counts": {
+    "PASS": 6,
+    "WARN": 0,
+    "FAIL": 1,
+    "SKIP": 0
+  },
+  "generated": "2026-09-30T17:44:17",
+  "meta": {
+    "scope": "global",
+    "wcusa_usage": "confirmed",
+    "delivered": {
+      "base_color": "source/reference_ptbr/t_decal_roadmarkings_b.color_ptbr.png"
+    },
+    "notes": "Letter shape lives in opacity + normal + AO (audit §4.1). Roughness/metallic may stay original."
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "base_color (t_decal_roadmarkings_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "opacity (t_decal_roadmarkings_o.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "normal (t_decal_roadmarkings_nm.normal.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "ao (t_decal_roadmarkings_ao.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "roughness (t_decal_roadmarkings_r.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "metallic (t_decal_roadmarkings_m.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "shape_changed",
+      "message": "shape changed but these maps were not updated: opacity (t_decal_roadmarkings_o.data.dds), normal (t_decal_roadmarkings_nm.normal.dds), ao (t_decal_roadmarkings_ao.data.dds)",
+      "details": {}
+    }
+  ]
+}

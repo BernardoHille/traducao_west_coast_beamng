@@ -1,7 +1,7 @@
 # Status do projeto
 
 **Última atualização:** 30/09/2026
-**Fase atual:** Fase 3 — Especificação de localização PT-BR (concluída)
+**Fase atual:** Fase 4 — Pipeline automático de validação (concluída)
 
 ## Ambiente
 
@@ -27,7 +27,7 @@
 - [x] Versionamento
 - [x] Proof of Concept do override
 - [x] Regras definitivas de localização
-- [ ] Validador
+- [x] Validador
 - [ ] Reconstrução das traduções existentes
 - [ ] Tradução das texturas pendentes
 - [ ] QA West Coast
@@ -105,6 +105,21 @@ Detalhes em [`LOCALIZATION_RULES.md`](LOCALIZATION_RULES.md).
   - os letreiros de fachada são montados por glifos sem acento;
   - hoje placas e limite funcional já divergem no jogo original.
 
+## Resultado da Fase 4 — Pipeline de validação
+
+Detalhes em [`../tools/validation/README.md`](../tools/validation/README.md) e [`../tests/reports/validation_baseline.md`](../tests/reports/validation_baseline.md).
+
+- **Comando central:** `python tools/validation/validate.py texture|dds|family|mod|speeds|selftest|regression|all`. Exit 0/1/2; relatórios MD + JSON em `export/reports/validation/`; heatmaps regeneráveis (fora do Git).
+- **Parser DDS próprio** (sem depender do texconv): legado e DX10, BC1–BC7 com sRGB/linear, mipmaps e tamanho. Reconhece os 35 originais e o PoC, com tamanho calculado igual ao real byte a byte.
+- **PNG:** resolução, perda de transparência, ruído de alfa, diff RGB e alfa separados, regiões autorizadas (só as confirmadas por UV/decal) e heatmaps.
+- **Famílias** (`config/texture_families.json`) com a regra `shape_changed` → mapas auxiliares obrigatórios. **Árvore do mod:** nomes, caminhos virtuais, `_ptbr`, lixo e cópia instalada.
+- **Velocidades:** múltiplos de 10; placa = via; radar = via (salvo zona); ADAS de limite = via; Reaction Test excluído.
+- **Baseline:**
+  - self-test 72/72 PASS;
+  - regressão 10/10: as traduções antigas foram pegas e a cópia idêntica passou;
+  - mapa atual com 17 FAIL de velocidade, que são inconsistências reais.
+- **Testes:** 33 testes unitários (unittest, fixtures sintéticos), todos OK.
+
 ## Problemas conhecidos
 
 Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). **Nenhum foi resolvido ainda.**
@@ -131,11 +146,22 @@ Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). **Nenhum
 - **Marcas e nomes próprios fictícios preservados.** Só o tipo de logradouro é adaptado.
 - **R-2 sem legenda e R-3 sem texto**, conforme o MBST.
 
+## Decisões tomadas (Fase 4)
+
+- **Distintivo Firwood:** preservar o original.
+- **Radar:** o limite acompanha o limite regulamentado da via, salvo zona explicitamente sinalizada com outro valor.
+- **ADAS de reconhecimento/alerta de limite:** o limiar acompanha o limite regulamentado do cenário (ADAS 50 = R-19 50 = via 50).
+- **Reaction Test:** a faixa 40–70 km/h é experimental e independente do limite da via.
+
+Essas regras estão implementadas no validador (`validate.py speeds`). Nenhuma alteração funcional foi feita no mapa.
+
 ## Decisões pendentes
 
-- **ADAS × via:** as missões de 50 km/h e o reaction test rodam numa via de 120 km/h funcional. É preciso decidir se a rota ganha 50 km/h explícito com R-19, ou se o limiar ADAS continua independente da via (`inventory/speed_dependencies.md` §3).
-- **Radar em via de 100 km/h** (`junction1_wp25`).
-- **`ONLY` no pavimento** (BUS ONLY / EXIT ONLY): proposta de override de `main.decals.json` usando slots livres.
-- **Distintivo de Firwood:** preservar (recomendado) ou traduzir.
-- **Itens `needs_context` restantes** da matriz (Rush Rd, nomes de paradas, departamentos do estúdio, letreiros de fachada).
+- **Como aplicar as regras ADAS/radar no mapa** (fase de implementação funcional):
+  - rota das missões de 50 km/h: via de 120 km/h hoje;
+  - Event 01: 70 km/h numa via de 40,2 km/h;
+  - radar 4 a 56,3 km/h numa via de 100 km/h.
+- **`ONLY` no pavimento** (BUS ONLY / EXIT ONLY): proposta de override de `main.decals.json` com slots livres — não investigado além da Fase 3.
+- **Itens `needs_context`** da matriz (Rush Rd, nomes de paradas, departamentos do estúdio, letreiros de fachada) — não resolvidos.
 - **Estratégia para mapas auxiliares não extraídos** (quais extrair e quando).
+- **Regiões autorizadas** para as demais texturas: registrar antes de produzir cada uma.

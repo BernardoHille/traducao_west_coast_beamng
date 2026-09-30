@@ -21,7 +21,7 @@ Decisões em que a tradução direta erraria o sentido para um jogador brasileir
 | Publicidade | GOT A LEMON? | TEM UMA BOMBA? | "Lemon" (carro com defeito) ≈ "bomba" (gíria brasileira). |
 | Publicidade | SALE / STORE CLOSING | LIQUIDAÇÃO / QUEIMA TOTAL | Vocabulário de varejo brasileiro, variando conforme contexto. |
 | Publicidade | AMERICA'S TRUSTED TIRE BRAND | "… DE CONFIANÇA DOS EUA" | O universo continua americano; a referência antiga trocou por "do Brasil" — errado. |
-| Entidades públicas | FIRE · FIRWOOD · DEPARTMENT · POLICE | **preservar** (recomendado) | Emblema institucional fictício (canadense, folha de bordo). Traduzir cria "BOMBEIROS FIRWOOD POLÍCIA", sem sentido. Alternativa, se o dono decidir: "CORPO DE BOMBEIROS DE FIRWOOD". |
+| Entidades públicas | FIRE · FIRWOOD · DEPARTMENT · POLICE | **preservar** (decisão da Fase 4) | Emblema institucional fictício (canadense, folha de bordo). Traduzir criaria "BOMBEIROS FIRWOOD POLÍCIA", sem sentido. |
 | Entidades públicas | Department of Transport | Departamento de Transportes | Órgão fictício; não vira DETRAN/SENATRAN. |
 | Unidades | 14 FT 6 IN · 10 TONS · 1/4 MILE | 4,42 m · 9 t · 0,4 km | Sistema métrico. |
 | Segurança | SDS SHEETS | FDS | Termo técnico brasileiro atual (antiga FISPQ). |

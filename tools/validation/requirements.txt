@@ -1,0 +1,4 @@
+numpy>=1.24
+Pillow>=10.0
+# optional: the tests are stdlib unittest; pytest also collects them
+# pytest>=8.0

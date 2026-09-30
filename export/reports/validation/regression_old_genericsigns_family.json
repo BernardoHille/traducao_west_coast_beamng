@@ -1,0 +1,70 @@
+{
+  "title": "Family validation",
+  "subject": "eca_genericsigns (reference)",
+  "status": "FAIL",
+  "counts": {
+    "PASS": 6,
+    "WARN": 0,
+    "FAIL": 2,
+    "SKIP": 0
+  },
+  "generated": "2026-09-30T17:44:17",
+  "meta": {
+    "scope": "global (East Coast path)",
+    "wcusa_usage": "confirmed",
+    "delivered": {
+      "base_color": "source/reference_ptbr/t_eca_genericsigns_b.color_ptbr.png"
+    },
+    "notes": "West Coast fuel stations load eca_genericsigns_d.dds from the East Coast level path (Phase 3). t_eca_genericsigns_b.color has the same content."
+  },
+  "checks": [
+    {
+      "status": "FAIL",
+      "name": "diffuse_legacy (eca_genericsigns_d.dds)",
+      "message": "required map missing from the package",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "emissive (eca_genericsigns_emissive.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "base_color (t_eca_genericsigns_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "opacity (t_eca_genericsigns_o.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "normal (t_eca_genericsigns_nm.normal.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "ao (t_eca_genericsigns_ao.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "roughness (t_eca_genericsigns_r.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "shape_changed",
+      "message": "shape changed but these maps were not updated: diffuse_legacy (eca_genericsigns_d.dds), emissive (eca_genericsigns_emissive.dds), opacity (t_eca_genericsigns_o.data.dds)",
+      "details": {}
+    }
+  ]
+}

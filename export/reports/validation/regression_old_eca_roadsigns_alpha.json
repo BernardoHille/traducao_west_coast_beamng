@@ -1,0 +1,121 @@
+{
+  "title": "PNG validation",
+  "subject": "source/reference_ptbr/eca_roadsigns_d_ptbr.png",
+  "status": "FAIL",
+  "counts": {
+    "PASS": 4,
+    "WARN": 0,
+    "FAIL": 3,
+    "SKIP": 0
+  },
+  "generated": "2026-09-30T17:44:16",
+  "meta": {
+    "original": "source/originals/png/eca_roadsigns_d.png",
+    "texture": "eca_roadsigns_d",
+    "allowed_regions": 0,
+    "metrics": {
+      "pixels": 1048576,
+      "rgb": {
+        "changed": 712878,
+        "changed_pct": 67.9853,
+        "mean_abs": 17.7545,
+        "max_abs": 255,
+        "psnr_db": 15.35
+      },
+      "alpha": {
+        "changed": 158593,
+        "changed_pct": 15.1246,
+        "mean_abs": 34.5441,
+        "max_abs": 255,
+        "original": {
+          "transparent_pct": 11.642,
+          "semi_pct": 3.651,
+          "opaque_pct": 84.707,
+          "min": 0,
+          "max": 255,
+          "mean": 220.388
+        },
+        "candidate": {
+          "transparent_pct": 0.0,
+          "semi_pct": 0.39,
+          "opaque_pct": 99.61,
+          "min": 220,
+          "max": 255,
+          "mean": 254.932
+        },
+        "opaque_pixels_modified": 0,
+        "opaque_pixels_modified_outside": 0,
+        "transparent_pixels_modified": 122077,
+        "semi_transparent_pixels_modified": 36516,
+        "transparent_pixels_original": 122077,
+        "semi_pixels_original": 38285
+      },
+      "changed_any": 806575,
+      "changed_any_pct": 76.921,
+      "changed_inside_regions": 0,
+      "changed_outside_regions": 806575,
+      "changed_outside_pct": 76.921,
+      "outside_area_pixels": 1048576,
+      "bbox_changes": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1024
+      },
+      "bbox_changes_outside": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    "heatmaps": [
+      "export/reports/validation/images/eca_roadsigns_d_ptbr_diff.png",
+      "export/reports/validation/images/eca_roadsigns_d_ptbr_alpha_diff.png"
+    ]
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (8a346ff9688a…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "1024x1024",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Alpha preservation",
+      "message": "100.0% of originally transparent pixels outside allowed regions lost transparency (122077 px)",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Semi-transparency",
+      "message": "95.38% of 38285 originally semi-transparent pixels changed outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Alpha noise",
+      "message": "no opaque pixel lost opacity outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Pixel diff (global, informative)",
+      "message": "76.921% changed · RGB mean 17.7545 max 255 · alpha mean 34.5441 max 255 · PSNR 15.35 dB · bbox {'x': 0, 'y': 0, 'width': 1024, 'height': 1024}",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Changes (no allowed regions configured)",
+      "message": "76.921% of pixels outside allowed regions changed (806575 px, bbox {'x': 0, 'y': 0, 'width': 1024, 'height': 1024})",
+      "details": {}
+    }
+  ]
+}

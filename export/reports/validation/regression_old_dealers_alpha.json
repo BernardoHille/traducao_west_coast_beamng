@@ -1,0 +1,121 @@
+{
+  "title": "PNG validation",
+  "subject": "source/reference_ptbr/t_billboardsigns_dealers_b.color_ptbr.png",
+  "status": "FAIL",
+  "counts": {
+    "PASS": 3,
+    "WARN": 1,
+    "FAIL": 3,
+    "SKIP": 0
+  },
+  "generated": "2026-09-30T17:44:17",
+  "meta": {
+    "original": "source/originals/png/t_billboardsigns_dealers_b.color.png",
+    "texture": "t_billboardsigns_dealers_b.color",
+    "allowed_regions": 0,
+    "metrics": {
+      "pixels": 2097152,
+      "rgb": {
+        "changed": 1608811,
+        "changed_pct": 76.7141,
+        "mean_abs": 26.2903,
+        "max_abs": 255,
+        "psnr_db": 14.73
+      },
+      "alpha": {
+        "changed": 317018,
+        "changed_pct": 15.1166,
+        "mean_abs": 38.0271,
+        "max_abs": 255,
+        "original": {
+          "transparent_pct": 13.939,
+          "semi_pct": 21.935,
+          "opaque_pct": 64.126,
+          "min": 0,
+          "max": 255,
+          "mean": 216.988
+        },
+        "candidate": {
+          "transparent_pct": 0.0,
+          "semi_pct": 0.293,
+          "opaque_pct": 99.707,
+          "min": 201,
+          "max": 255,
+          "mean": 254.915
+        },
+        "opaque_pixels_modified": 2311,
+        "opaque_pixels_modified_outside": 2311,
+        "transparent_pixels_modified": 292324,
+        "semi_transparent_pixels_modified": 22383,
+        "transparent_pixels_original": 292324,
+        "semi_pixels_original": 460009
+      },
+      "changed_any": 1786718,
+      "changed_any_pct": 85.1974,
+      "changed_inside_regions": 0,
+      "changed_outside_regions": 1786718,
+      "changed_outside_pct": 85.1974,
+      "outside_area_pixels": 2097152,
+      "bbox_changes": {
+        "x": 0,
+        "y": 0,
+        "width": 2048,
+        "height": 1024
+      },
+      "bbox_changes_outside": {
+        "x": 0,
+        "y": 0,
+        "width": 2048,
+        "height": 1024
+      }
+    },
+    "heatmaps": [
+      "export/reports/validation/images/t_billboardsigns_dealers_b.color_ptbr_diff.png",
+      "export/reports/validation/images/t_billboardsigns_dealers_b.color_ptbr_alpha_diff.png"
+    ]
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (fc335ea5be0f…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "2048x1024",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Alpha preservation",
+      "message": "100.0% of originally transparent pixels outside allowed regions lost transparency (292324 px)",
+      "details": {}
+    },
+    {
+      "status": "WARN",
+      "name": "Semi-transparency",
+      "message": "4.87% of 460009 originally semi-transparent pixels changed outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Alpha noise",
+      "message": "2311 originally opaque pixels outside allowed regions now have alpha < 255 (candidate alpha min 201)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Pixel diff (global, informative)",
+      "message": "85.1974% changed · RGB mean 26.2903 max 255 · alpha mean 38.0271 max 255 · PSNR 14.73 dB · bbox {'x': 0, 'y': 0, 'width': 2048, 'height': 1024}",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Changes (no allowed regions configured)",
+      "message": "85.1974% of pixels outside allowed regions changed (1786718 px, bbox {'x': 0, 'y': 0, 'width': 2048, 'height': 1024})",
+      "details": {}
+    }
+  ]
+}

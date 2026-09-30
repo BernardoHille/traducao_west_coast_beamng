@@ -1,0 +1,239 @@
+{
+  "_doc": "Structured version of docs/inventory/texture_families.md (+ Phase 3 findings). maps: role -> {file, path (virtual dir inside the game/mod), local (copy exists in source/originals), required (must exist in a complete package)}. requires_on_shape_change: roles that must be re-delivered when a modification declares shape_changed=true.",
+  "_roles": ["base_color", "diffuse_legacy", "opacity", "emissive", "normal", "ao", "roughness", "metallic", "specular"],
+  "families": {
+    "t_roadsigns": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_roadsigns_b.color.dds", "path": "assets/materials/signage/roadsigns", "local": true, "required": true},
+        "opacity": {"file": "t_roadsigns_o.data.dds", "path": "assets/materials/signage/roadsigns", "local": true, "required": false}
+      },
+      "requires_on_shape_change": ["opacity"]
+    },
+    "eca_roadsigns": {
+      "scope": "global", "wcusa_usage": "not_found",
+      "maps": {
+        "diffuse_legacy": {"file": "eca_roadsigns_d.dds", "path": "assets/materials/signage/signs_usa", "local": true, "required": true},
+        "specular": {"file": "eca_roadsigns_s.dds", "path": "assets/materials/signage/signs_usa", "local": false, "required": false}
+      },
+      "requires_on_shape_change": [], "notes": "Cut-out comes from the DXT5 alpha of the diffuse itself: alpha must follow the new shape."
+    },
+    "ut_roadsigns": {
+      "scope": "global", "wcusa_usage": "not_found",
+      "maps": {
+        "diffuse_legacy": {"file": "ut_roadsigns_d.dds", "path": "assets/materials/signage/ut_roadsigns", "local": true, "required": true},
+        "specular": {"file": "ut_roadsigns_s.dds", "path": "assets/materials/signage/ut_roadsigns", "local": false, "required": false}
+      },
+      "requires_on_shape_change": []
+    },
+    "speed_sign": {
+      "scope": "global", "wcusa_usage": "not_found",
+      "maps": {"diffuse_legacy": {"file": "speed_sign.dds", "path": "assets/materials/signage/speed_sign_mat", "local": true, "required": true}},
+      "requires_on_shape_change": []
+    },
+    "usa_roadsigns_turn_warning": {
+      "scope": "global", "wcusa_usage": "not_found",
+      "maps": {"diffuse_legacy": {"file": "usa_roadsigns_turn_warning.dds", "path": "assets/materials/signage/usa_roadsigns_turn_warn", "local": true, "required": true}},
+      "requires_on_shape_change": []
+    },
+    "usa_roadsigns_text": {
+      "scope": "global", "wcusa_usage": "not_found",
+      "maps": {
+        "diffuse_legacy": {"file": "usa_roadsigns_text.dds", "path": "assets/materials/atlas/intro_text", "local": true, "required": true},
+        "emissive": {"file": "t_usa_roadsigns_text_e.color.dds", "path": "assets/materials/billboard_label/usa_roadsigns_text", "local": true, "required": false},
+        "opacity": {"file": "t_usa_roadsigns_text_o.data.dds", "path": "assets/materials/billboard_label/usa_roadsigns_text", "local": true, "required": false}
+      },
+      "requires_on_shape_change": ["emissive", "opacity"], "notes": "Grouping inferred by name (Phase 0)."
+    },
+    "clutter_commercial": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "clutter_commercial_b.color.dds", "path": "art/shapes/garage_and_dealership/Clutter", "local": true, "required": true},
+        "opacity": {"file": "clutter_commercial_o.data.dds", "path": "art/shapes/garage_and_dealership/Clutter", "local": true, "required": false},
+        "diffuse_legacy": {"file": "clutter_commercial_d.dds", "path": "art/shapes/garage_and_dealership/Clutter", "local": false, "required": false}
+      },
+      "extra_paths": {"base_color": ["levels/west_coast_usa/art/shapes/buildings"], "opacity": ["levels/west_coast_usa/art/shapes/buildings"]},
+      "requires_on_shape_change": ["opacity"], "notes": "Material used in West Coast loads the art/shapes path; the level folder holds an identical copy."
+    },
+    "logos_dealership_garage_wca": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {"base_color": {"file": "logos_dealership_garage_wca_d.color.dds", "path": "assets/materials/billboard_label/m_logos_dealership_garage", "local": true, "required": true}},
+      "requires_on_shape_change": []
+    },
+    "t_riverside_plaza_sign_LOD": {
+      "scope": "west_coast_only", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_riverside_plaza_sign_LOD_b.color.dds", "path": "levels/west_coast_usa/art/shapes/buildings/west_coast_LOD_materials/s_riverside_plaza_sign", "local": true, "required": true},
+        "metallic": {"file": "t_riverside_plaza_sign_LOD_m.data.dds", "path": "levels/west_coast_usa/art/shapes/buildings/west_coast_LOD_materials/s_riverside_plaza_sign", "local": false, "required": false},
+        "roughness": {"file": "t_riverside_plaza_sign_LOD_r.data.dds", "path": "levels/west_coast_usa/art/shapes/buildings/west_coast_LOD_materials/s_riverside_plaza_sign", "local": false, "required": false}
+      },
+      "requires_on_shape_change": []
+    },
+    "t_west_coast_garage_sign": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_west_coast_garage_sign_b.color.dds", "path": "assets/materials/billboard_label/m_west_coast_garage_sign", "local": true, "required": true},
+        "opacity": {"file": "t_west_coast_garage_sign_o.data.dds", "path": "assets/materials/billboard_label/m_west_coast_garage_sign", "local": false, "required": false},
+        "roughness": {"file": "t_west_coast_garage_sign_r.data.dds", "path": "assets/materials/billboard_label/m_west_coast_garage_sign", "local": false, "required": false}
+      },
+      "requires_on_shape_change": ["opacity"]
+    },
+    "eca_genericsigns": {
+      "scope": "global (East Coast path)", "wcusa_usage": "confirmed",
+      "maps": {
+        "diffuse_legacy": {"file": "eca_genericsigns_d.dds", "path": "levels/east_coast_usa/art/shapes/buildings", "local": false, "required": true},
+        "emissive": {"file": "eca_genericsigns_emissive.dds", "path": "levels/east_coast_usa/art/shapes/buildings", "local": true, "required": false},
+        "base_color": {"file": "t_eca_genericsigns_b.color.dds", "path": "assets/materials/billboard_label/eca_genericsigns", "local": true, "required": false},
+        "opacity": {"file": "t_eca_genericsigns_o.data.dds", "path": "assets/materials/billboard_label/eca_genericsigns", "local": false, "required": false},
+        "normal": {"file": "t_eca_genericsigns_nm.normal.dds", "path": "assets/materials/billboard_label/eca_genericsigns", "local": false, "required": false},
+        "ao": {"file": "t_eca_genericsigns_ao.data.dds", "path": "assets/materials/billboard_label/eca_genericsigns", "local": false, "required": false},
+        "roughness": {"file": "t_eca_genericsigns_r.data.dds", "path": "assets/materials/billboard_label/eca_genericsigns", "local": false, "required": false}
+      },
+      "extra_paths": {"emissive": ["art/shapes/garage_and_dealership/Clutter"]},
+      "requires_on_shape_change": ["diffuse_legacy", "emissive", "opacity"],
+      "notes": "West Coast fuel stations load eca_genericsigns_d.dds from the East Coast level path (Phase 3). t_eca_genericsigns_b.color has the same content."
+    },
+    "t_gasstation_tyrannos": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {"base_color": {"file": "t_gasstation_tyrannos_b.color.dds", "path": "assets/materials/billboard_label/m_gasstation_tyrannos", "local": true, "required": true}},
+      "requires_on_shape_change": []
+    },
+    "billboards": {
+      "scope": "west_coast_only", "wcusa_usage": "not_found",
+      "maps": {
+        "diffuse_legacy": {"file": "billboards_d.dds", "path": "levels/west_coast_usa/art/shapes/objects", "local": true, "required": true},
+        "specular": {"file": "billboards_s.dds", "path": "levels/west_coast_usa/art/shapes/objects", "local": false, "required": false}
+      },
+      "requires_on_shape_change": [], "notes": "The West Coast 'billboards' material uses t_billboards_b.color instead."
+    },
+    "t_billboards": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_billboards_b.color.dds", "path": "assets/materials/billboard_label/billboards", "local": true, "required": true},
+        "roughness": {"file": "t_billboards_r.data.dds", "path": "assets/materials/billboard_label/billboards", "local": false, "required": false}
+      },
+      "requires_on_shape_change": []
+    },
+    "t_billboardsigns_dealers": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_billboardsigns_dealers_b.color.dds", "path": "assets/materials/atlas/m_billboardsigns_dealers", "local": true, "required": true},
+        "opacity": {"file": "t_billboardsigns_dealers_o.data.dds", "path": "assets/materials/atlas/m_billboardsigns_dealers", "local": false, "required": false}
+      },
+      "requires_on_shape_change": ["opacity"]
+    },
+    "busstop": {
+      "scope": "global", "wcusa_usage": "likely",
+      "maps": {
+        "diffuse_legacy": {"file": "busstop_d.dds", "path": "assets/materials/atlas/busstop", "local": true, "required": true},
+        "normal": {"file": "busstop_n.dds", "path": "assets/materials/atlas/busstop", "local": false, "required": false},
+        "roughness": {"file": "busstop_r.dds", "path": "assets/materials/atlas/busstop", "local": false, "required": false},
+        "specular": {"file": "busstop_s.dds", "path": "assets/materials/atlas/busstop", "local": false, "required": false}
+      },
+      "requires_on_shape_change": []
+    },
+    "t_bus_routes_wca": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_bus_routes_wca_b.color.dds", "path": "assets/materials/billboard_label/m_bus_routes_wca", "local": true, "required": true},
+        "normal": {"file": "t_bus_routes_wca_nm.normal.dds", "path": "assets/materials/billboard_label/m_bus_routes_wca", "local": false, "required": false},
+        "ao": {"file": "t_bus_routes_wca_ao.data.dds", "path": "assets/materials/billboard_label/m_bus_routes_wca", "local": false, "required": false},
+        "roughness": {"file": "t_bus_routes_wca_r.data.dds", "path": "assets/materials/billboard_label/m_bus_routes_wca", "local": false, "required": false}
+      },
+      "requires_on_shape_change": []
+    },
+    "t_bus_routes_utah": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {"base_color": {"file": "t_bus_routes_utah_d.color.dds", "path": "assets/materials/billboard_label/m_bus_routes_utah", "local": false, "required": true}},
+      "requires_on_shape_change": [], "notes": "Found in Phase 3; not yet extracted to source/originals."
+    },
+    "t_sign_busstop": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_sign_busstop_b.color.dds", "path": "assets/materials/signage/m_sign_busstop", "local": true, "required": true},
+        "opacity": {"file": "t_sign_busstop_o.data.dds", "path": "assets/materials/signage/m_sign_busstop", "local": false, "required": false}
+      },
+      "requires_on_shape_change": ["opacity"]
+    },
+    "t_movie_studio_signage": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {"base_color": {"file": "t_movie_studio_signage_b.color.dds", "path": "assets/materials/billboard_label/m_movie_studio_signage", "local": true, "required": true}},
+      "requires_on_shape_change": []
+    },
+    "ind_industrial_signs": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {"base_color": {"file": "ind_industrial_signs_d.color.dds", "path": "assets/materials/billboard_label/industrial_signs", "local": true, "required": true}},
+      "requires_on_shape_change": []
+    },
+    "t_industrial_signs": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_industrial_signs_b.color.dds", "path": "assets/materials/billboard_label/industrial_signs", "local": true, "required": true},
+        "roughness": {"file": "t_industrial_signs_r.data.dds", "path": "assets/materials/billboard_label/industrial_signs", "local": false, "required": false}
+      },
+      "requires_on_shape_change": []
+    },
+    "t_sealbrik_logo": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {"base_color": {"file": "t_sealbrik_logo_b.color.dds", "path": "assets/materials/billboard_label/m_sealbrick_logo", "local": true, "required": true}},
+      "requires_on_shape_change": [], "notes": "Material uses alphaTest (ref 150) on the base colour alpha."
+    },
+    "t_spearleaf_refinery_logo": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_spearleaf_refinery_logo_b.color.dds", "path": "assets/materials/billboard_label/m_refinery_logo", "local": true, "required": true},
+        "opacity": {"file": "t_spearleaf_refinery_logo_o.data.dds", "path": "assets/materials/billboard_label/m_refinery_logo", "local": true, "required": false}
+      },
+      "requires_on_shape_change": ["opacity"]
+    },
+    "t_steel_factory_brand": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_steel_factory_brand_b.color.dds", "path": "assets/materials/billboard_label/m_steel_factory_brand", "local": true, "required": true},
+        "normal": {"file": "t_steel_factory_brand_nm.normal.dds", "path": "assets/materials/billboard_label/m_steel_factory_brand", "local": false, "required": false},
+        "ao": {"file": "t_steel_factory_brand_ao.data.dds", "path": "assets/materials/billboard_label/m_steel_factory_brand", "local": false, "required": false},
+        "roughness": {"file": "t_steel_factory_brand_r.data.dds", "path": "assets/materials/billboard_label/m_steel_factory_brand", "local": false, "required": false}
+      },
+      "requires_on_shape_change": ["normal", "ao"]
+    },
+    "arrows_sign": {
+      "scope": "global", "wcusa_usage": "not_found",
+      "maps": {
+        "diffuse_legacy": {"file": "arrows_sign_d.dds", "path": "assets/materials/signage/sign_arrows", "local": true, "required": true},
+        "specular": {"file": "arrows_sign_s.dds", "path": "assets/materials/signage/sign_arrows", "local": false, "required": false}
+      },
+      "requires_on_shape_change": []
+    },
+    "checkpoint_sign": {
+      "scope": "global", "wcusa_usage": "not_found",
+      "maps": {"diffuse_legacy": {"file": "checkpoint_sign.dds", "path": "assets/materials/signage/checkpoint_sign", "local": true, "required": true}},
+      "requires_on_shape_change": []
+    },
+    "t_sign_drift": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_sign_drift.color.dds", "path": "assets/materials/signage/m_sign_drift", "local": true, "required": true},
+        "opacity": {"file": "t_sign_drift_o.data.dds", "path": "assets/materials/signage/m_sign_drift", "local": false, "required": false}
+      },
+      "requires_on_shape_change": ["opacity"]
+    },
+    "t_sponsors": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {"base_color": {"file": "t_sponsors_b.color.dds", "path": "assets/materials/atlas/sponsorboards", "local": true, "required": true}},
+      "requires_on_shape_change": []
+    },
+    "t_decal_roadmarkings": {
+      "scope": "global", "wcusa_usage": "confirmed",
+      "maps": {
+        "base_color": {"file": "t_decal_roadmarkings_b.color.dds", "path": "assets/materials/decal/marking/m_decal_roadmarkings_01", "local": true, "required": true},
+        "opacity": {"file": "t_decal_roadmarkings_o.data.dds", "path": "assets/materials/decal/marking/m_decal_roadmarkings_01", "local": false, "required": false},
+        "normal": {"file": "t_decal_roadmarkings_nm.normal.dds", "path": "assets/materials/decal/marking/m_decal_roadmarkings_01", "local": false, "required": false},
+        "ao": {"file": "t_decal_roadmarkings_ao.data.dds", "path": "assets/materials/decal/marking/m_decal_roadmarkings_01", "local": false, "required": false},
+        "roughness": {"file": "t_decal_roadmarkings_r.data.dds", "path": "assets/materials/decal/marking/m_decal_roadmarkings_01", "local": false, "required": false},
+        "metallic": {"file": "t_decal_roadmarkings_m.data.dds", "path": "assets/materials/decal/marking/m_decal_roadmarkings_01", "local": false, "required": false}
+      },
+      "requires_on_shape_change": ["opacity", "normal", "ao"],
+      "notes": "Letter shape lives in opacity + normal + AO (audit §4.1). Roughness/metallic may stay original."
+    }
+  }
+}

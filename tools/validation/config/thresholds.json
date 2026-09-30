@@ -1,0 +1,43 @@
+{
+  "_doc": "Central thresholds of the validator. Each entry: value + why. Change here, never in code.",
+  "pixel_rgb_tolerance": {
+    "value": 2,
+    "doc": "Per-channel absolute RGB difference (0-255) ignored as noise. PNG is lossless, so edits must be exact outside edited areas; 2 absorbs 8-bit rounding of editors."
+  },
+  "alpha_tolerance": {
+    "value": 2,
+    "doc": "Absolute alpha difference (0-255) ignored as noise."
+  },
+  "outside_region_change_warn_pct": {
+    "value": 0.01,
+    "doc": "% of pixels outside allowed regions that may change before a WARN (e.g. anti-aliasing bleeding over a region edge)."
+  },
+  "outside_region_change_fail_pct": {
+    "value": 0.5,
+    "doc": "% of pixels outside allowed regions that changed -> FAIL. The legacy PT-BR images changed 25-78% (audit §4.2)."
+  },
+  "alpha_transparent_loss_fail_pct": {
+    "value": 1.0,
+    "doc": "% of the ORIGINAL fully transparent pixels (alpha=0) that became non-transparent outside allowed regions -> FAIL."
+  },
+  "alpha_semi_change_fail_pct": {
+    "value": 5.0,
+    "doc": "% of the ORIGINAL semi-transparent pixels whose alpha changed outside allowed regions -> FAIL."
+  },
+  "alpha_opaque_noise_fail_pixels": {
+    "value": 16,
+    "doc": "Originally opaque (255) pixels outside allowed regions that became < 255-alpha_tolerance -> FAIL above this count (the legacy images put 193-221 values in opaque areas)."
+  },
+  "speed_mps_tolerance": {
+    "value": 0.05,
+    "doc": "Tolerance in m/s when comparing speed values (0.05 m/s = 0.18 km/h). 40 km/h = 11.1111 m/s."
+  },
+  "speed_multiple_kmh": {
+    "value": 10,
+    "doc": "Regulatory speeds must be multiples of this value in km/h (MBST Vol. I)."
+  },
+  "speed_multiple_tolerance_kmh": {
+    "value": 0.05,
+    "doc": "A stored speed is a multiple of 10 km/h when within this distance. Values chosen in km/h and stored with 4 decimals in m/s are < 0.001 km/h off (13.8889 m/s = 50.0000); mph-derived values are rejected (11.18 m/s = 40.25 km/h, 13.4 m/s = 48.24 km/h). 0.3 was too loose (let 25 mph pass as 40)."
+  }
+}

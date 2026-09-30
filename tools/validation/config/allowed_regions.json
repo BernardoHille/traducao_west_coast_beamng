@@ -1,0 +1,29 @@
+{
+  "_doc": "Allowed edit regions per texture (pixel rectangles, origin top-left). Only regions whose location is technically confirmed are listed; 'source' says how. A texture without entries has NO allowed region: every changed pixel counts as 'outside'. Add regions before producing a translation.",
+  "t_roadsigns_b.color": {
+    "size": [2048, 1024],
+    "regions": [
+      {"id": "stop_r1", "x": 1164, "y": 231, "width": 126, "height": 127, "source": "UV of sign_stop.dae (roadsigns material), Phase 3"},
+      {"id": "yield_r2", "x": 1282, "y": 236, "width": 174, "height": 148, "source": "UV of sign_yield.dae, Phase 3"},
+      {"id": "speed_limit_tile", "x": 229, "y": 289, "width": 134, "height": 92, "source": "UV of sign_speed25/sign_speed5.dae, Phase 3"},
+      {"id": "speed_limit_board", "x": 370, "y": 189, "width": 146, "height": 192, "source": "UV of sign_speed25/sign_speed5.dae, Phase 3"},
+      {"id": "speed_red_light_camera", "x": 1473, "y": 786, "width": 167, "height": 235, "source": "UV of s_sign_speedlightcam.dae, Phase 3"},
+      {"id": "municipal_speed_camera", "x": 1643, "y": 788, "width": 160, "height": 231, "source": "UV of s_sign_speedcam.dae, Phase 3"},
+      {"id": "red_light_photo_enforced", "x": 1805, "y": 789, "width": 242, "height": 230, "source": "UV of s_sign_lightcam.dae, Phase 3"}
+    ]
+  },
+  "t_decal_roadmarkings_b.color": {
+    "size": [1024, 1024],
+    "regions": [
+      {"id": "slot3_stop", "x": 768, "y": 0, "width": 256, "height": 256, "source": "managedDecalData.json textureCoords (4x4 grid), Phase 3"},
+      {"id": "slot5_only", "x": 256, "y": 256, "width": 256, "height": 256, "source": "idem"},
+      {"id": "slot6_bus", "x": 512, "y": 256, "width": 256, "height": 256, "source": "idem"},
+      {"id": "slot7_keep", "x": 768, "y": 256, "width": 256, "height": 256, "source": "idem"},
+      {"id": "slot8_clear", "x": 0, "y": 512, "width": 256, "height": 256, "source": "idem"},
+      {"id": "slot9_no", "x": 256, "y": 512, "width": 256, "height": 256, "source": "idem"},
+      {"id": "slot10_left_unused", "x": 512, "y": 512, "width": 256, "height": 256, "source": "idem (slot not used by West Coast)"},
+      {"id": "slot11_turn_unused", "x": 768, "y": 512, "width": 256, "height": 256, "source": "idem (slot not used by West Coast)"},
+      {"id": "slot14_exit", "x": 512, "y": 768, "width": 256, "height": 256, "source": "idem"}
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "title": "PNG validation",
+  "subject": "source/reference_ptbr/t_sealbrik_logo_b.color_ptbr.png",
+  "status": "PASS",
+  "counts": {
+    "PASS": 6,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 1
+  },
+  "generated": "2026-09-30T17:44:19",
+  "meta": {
+    "original": "source/originals/png/t_sealbrik_logo_b.color.png",
+    "texture": "t_sealbrik_logo_b.color",
+    "allowed_regions": 0,
+    "metrics": {
+      "pixels": 524288,
+      "rgb": {
+        "changed": 0,
+        "changed_pct": 0.0,
+        "mean_abs": 0.0,
+        "max_abs": 0,
+        "psnr_db": null
+      },
+      "alpha": {
+        "changed": 0,
+        "changed_pct": 0.0,
+        "mean_abs": 0.0,
+        "max_abs": 0,
+        "original": {
+          "transparent_pct": 0.0,
+          "semi_pct": 6.941,
+          "opaque_pct": 93.059,
+          "min": 254,
+          "max": 255,
+          "mean": 254.931
+        },
+        "candidate": {
+          "transparent_pct": 0.0,
+          "semi_pct": 6.941,
+          "opaque_pct": 93.059,
+          "min": 254,
+          "max": 255,
+          "mean": 254.931
+        },
+        "opaque_pixels_modified": 0,
+        "opaque_pixels_modified_outside": 0,
+        "transparent_pixels_modified": 0,
+        "semi_transparent_pixels_modified": 0,
+        "transparent_pixels_original": 0,
+        "semi_pixels_original": 36390
+      },
+      "changed_any": 0,
+      "changed_any_pct": 0.0,
+      "changed_inside_regions": 0,
+      "changed_outside_regions": 0,
+      "changed_outside_pct": 0.0,
+      "outside_area_pixels": 524288,
+      "bbox_changes": null,
+      "bbox_changes_outside": null
+    }
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (9f56c0b2e673…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "1024x512",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Alpha preservation",
+      "message": "original has no fully transparent pixels outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Semi-transparency",
+      "message": "0.00% of 36390 originally semi-transparent pixels changed outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Alpha noise",
+      "message": "no opaque pixel lost opacity outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Pixel diff (global, informative)",
+      "message": "0.0% changed · RGB mean 0.0 max 0 · alpha mean 0.0 max 0 · PSNR ∞ dB · bbox None",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Changes (no allowed regions configured)",
+      "message": "0 px changed outside; 0 px inside 0 region(s)",
+      "details": {}
+    }
+  ]
+}

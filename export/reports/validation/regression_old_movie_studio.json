@@ -1,0 +1,121 @@
+{
+  "title": "PNG validation",
+  "subject": "source/reference_ptbr/t_movie_studio_signage_b.color_ptbr.png",
+  "status": "FAIL",
+  "counts": {
+    "PASS": 3,
+    "WARN": 1,
+    "FAIL": 2,
+    "SKIP": 1
+  },
+  "generated": "2026-09-30T17:44:17",
+  "meta": {
+    "original": "source/originals/png/t_movie_studio_signage_b.color.png",
+    "texture": "t_movie_studio_signage_b.color",
+    "allowed_regions": 0,
+    "metrics": {
+      "pixels": 524288,
+      "rgb": {
+        "changed": 464906,
+        "changed_pct": 88.6738,
+        "mean_abs": 42.576,
+        "max_abs": 255,
+        "psnr_db": 11.48
+      },
+      "alpha": {
+        "changed": 3068,
+        "changed_pct": 0.5852,
+        "mean_abs": 0.4106,
+        "max_abs": 35,
+        "original": {
+          "transparent_pct": 0.0,
+          "semi_pct": 30.974,
+          "opaque_pct": 69.026,
+          "min": 254,
+          "max": 255,
+          "mean": 254.69
+        },
+        "candidate": {
+          "transparent_pct": 0.0,
+          "semi_pct": 0.585,
+          "opaque_pct": 99.415,
+          "min": 220,
+          "max": 255,
+          "mean": 254.898
+        },
+        "opaque_pixels_modified": 2633,
+        "opaque_pixels_modified_outside": 2633,
+        "transparent_pixels_modified": 0,
+        "semi_transparent_pixels_modified": 435,
+        "transparent_pixels_original": 0,
+        "semi_pixels_original": 162392
+      },
+      "changed_any": 465230,
+      "changed_any_pct": 88.7356,
+      "changed_inside_regions": 0,
+      "changed_outside_regions": 465230,
+      "changed_outside_pct": 88.7356,
+      "outside_area_pixels": 524288,
+      "bbox_changes": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 512
+      },
+      "bbox_changes_outside": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 512
+      }
+    },
+    "heatmaps": [
+      "export/reports/validation/images/t_movie_studio_signage_b.color_ptbr_diff.png",
+      "export/reports/validation/images/t_movie_studio_signage_b.color_ptbr_alpha_diff.png"
+    ]
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (831ec96ebd0c…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "1024x512",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Alpha preservation",
+      "message": "original has no fully transparent pixels outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "WARN",
+      "name": "Semi-transparency",
+      "message": "0.27% of 162392 originally semi-transparent pixels changed outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Alpha noise",
+      "message": "2633 originally opaque pixels outside allowed regions now have alpha < 255 (candidate alpha min 220)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Pixel diff (global, informative)",
+      "message": "88.7356% changed · RGB mean 42.576 max 255 · alpha mean 0.4106 max 35 · PSNR 11.48 dB · bbox {'x': 0, 'y': 0, 'width': 1024, 'height': 512}",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Changes (no allowed regions configured)",
+      "message": "88.7356% of pixels outside allowed regions changed (465230 px, bbox {'x': 0, 'y': 0, 'width': 1024, 'height': 512})",
+      "details": {}
+    }
+  ]
+}
