@@ -1,7 +1,7 @@
 # Status do projeto
 
 **Última atualização:** 30/09/2026
-**Fase atual:** Fase 2 — Automação de QA via MCP (concluída)
+**Fase atual:** Fase 3 — Especificação de localização PT-BR (concluída)
 
 ## Ambiente
 
@@ -17,6 +17,7 @@
 - **DDS PT-BR:** só o DDS **de teste** do PoC (`export/dds/poc/`). Nenhum DDS de tradução aprovado.
 - **Mod:** `mod/traducao_ptbr_wcusa/` contém só o override de PoC de `t_roadsigns_b.color`. O **override técnico foi validado**, mas a **tradução não foi aprovada** e precisa ser reconstruída a partir do original.
 - **Inventário:** `docs/inventory/original_files_manifest.csv` (SHA-256) e `docs/inventory/texture_families.md`.
+- **Especificação de localização:** `docs/LOCALIZATION_RULES.md` (fonte de verdade) + `docs/localization/` + `docs/inventory/speed_*.md`.
 - **Auditoria inicial:** `docs/AUDITORIA_PROJETO_TRADUCAO.md`, snapshot de 30/09/2026 que não deve ser editado.
 
 ## Pipeline
@@ -25,7 +26,7 @@
 - [x] Estrutura do projeto
 - [x] Versionamento
 - [x] Proof of Concept do override
-- [ ] Regras definitivas de localização
+- [x] Regras definitivas de localização
 - [ ] Validador
 - [ ] Reconstrução das traduções existentes
 - [ ] Tradução das texturas pendentes
@@ -79,6 +80,31 @@ Detalhes em [`BEAMNG_MCP_CAPABILITIES.md`](BEAMNG_MCP_CAPABILITIES.md), [`../too
   - `raycast` sem material.
 - **Achado de conteúdo** (para a reconstrução): a referência antiga também desloca o triângulo da YIELD. A SPEED LIMIT continua em inglês.
 
+## Resultado da Fase 3 — Especificação de localização PT-BR
+
+Detalhes em [`LOCALIZATION_RULES.md`](LOCALIZATION_RULES.md).
+
+- **Matriz:** [`localization/LOCALIZATION_MASTER.csv`](localization/LOCALIZATION_MASTER.csv), com 308 entradas:
+  - 219 `rule_defined`;
+  - 13 `approved_rule`;
+  - 18 `needs_implementation`;
+  - 12 `needs_context`;
+  - 46 `preserve_original`.
+- **Documentos complementares:**
+  - glossário ([`GLOSSARY_PTBR.md`](localization/GLOSSARY_PTBR.md));
+  - placas de trânsito ([`traffic_signs.csv`](localization/traffic_signs.csv));
+  - adaptações culturais ([`cultural_adaptations.md`](localization/cultural_adaptations.md));
+  - revisão das traduções antigas ([`legacy_translation_review.md`](localization/legacy_translation_review.md)).
+- **Velocidades:** [`inventory/speed_limits.md`](inventory/speed_limits.md) e [`inventory/speed_dependencies.md`](inventory/speed_dependencies.md).
+- **Fontes normativas:** MBST SENATRAN/CONTRAN Vol. I (regulamentação) e Vol. IV (horizontal), com página citada para cada regra.
+- **Achados técnicos que afetam a implementação:**
+  - o R-19 exige material e mesh próprios, porque os algarismos do atlas são compartilhados;
+  - os postos do West Coast usam `eca_genericsigns_d.dds`, no caminho do East Coast;
+  - os outdoors usam `t_billboards_b`;
+  - há uma família nova, `t_bus_routes_utah_d`;
+  - os letreiros de fachada são montados por glifos sem acento;
+  - hoje placas e limite funcional já divergem no jogo original.
+
 ## Problemas conhecidos
 
 Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). **Nenhum foi resolvido ainda.**
@@ -91,13 +117,25 @@ Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). **Nenhum
 | 4 | **Emissivos incompatíveis:** `eca_genericsigns_emissive` não acompanha o novo layout | Auditoria §4.4 |
 | 5 | **Formatos DDS diferentes** entre texturas (BC7 sRGB, BC7 linear, BC4, DXT1, DXT5). Não dá para exportar tudo como BC7 | Auditoria §4.5 |
 | 6 | **Assets globais afetam outros mapas:** a maioria fica em `assets/materials/` e é usada também por East Coast, Utah etc. | Auditoria §3 |
-| 7 | **Política mph/km/h pendente:** placas PT-BR mostram km/h com números em mph | Auditoria §5.2 |
+| 7 | ~~Política mph/km/h pendente~~ → **definida na Fase 3**. A implementação continua pendente: R-19 com material/mesh próprios e `speedLimit` funcional | `LOCALIZATION_RULES.md` §2–3 |
 | 8 | Mapas auxiliares **não citados na auditoria** (`eca_genericsigns` `_o/_nm/_ao/_r`, `steel_factory_brand` `_nm/_ao/_r`, `billboardsigns_dealers` `_o`…) | `docs/inventory/texture_families.md` |
 | 9 | A auditoria diz "41 texturas", mas são **35** | `docs/inventory/texture_families.md` |
 
+## Decisões tomadas (Fase 3)
+
+- **Velocidades em km/h**, com limite visual e funcional **coincidentes** (placa = via = radar = zona = missão = ADAS).
+- Velocidades de placa em **múltiplos de 10** (MBST-I). Tabela padrão: 5→10, 15→20, 25→40, 30→50, 35→60, 50→80 mph→km/h.
+- **R$ sem conversão cambial** (`R$ 4,99`, `R$ 400`).
+- **Sistema métrico** (km, m, t, °C, litro), vírgula decimal e horário de 24 h.
+- **Assets globais permanecem globais.** O override fica no caminho original, e os efeitos em outros mapas serão testados no QA.
+- **Marcas e nomes próprios fictícios preservados.** Só o tipo de logradouro é adaptado.
+- **R-2 sem legenda e R-3 sem texto**, conforme o MBST.
+
 ## Decisões pendentes
 
-- **DECISÃO PENDENTE — política de velocidade mph/km/h.** O jogo, o tráfego e as missões ADAS continuam em mph. Opções na auditoria §5.2.
-- **DECISÃO PENDENTE — política de conversão $ → R$.** Preços como "4.99-" e "$400" estão inconsistentes entre as referências.
-- **DECISÃO PENDENTE — política definitiva para assets globais.** Aceitar que o mod traduza também outros mapas, ou limitar ao West Coast com materiais próprios.
-- **DECISÃO PENDENTE — estratégia para mapas auxiliares não extraídos** (quais extrair e quando).
+- **ADAS × via:** as missões de 50 km/h e o reaction test rodam numa via de 120 km/h funcional. É preciso decidir se a rota ganha 50 km/h explícito com R-19, ou se o limiar ADAS continua independente da via (`inventory/speed_dependencies.md` §3).
+- **Radar em via de 100 km/h** (`junction1_wp25`).
+- **`ONLY` no pavimento** (BUS ONLY / EXIT ONLY): proposta de override de `main.decals.json` usando slots livres.
+- **Distintivo de Firwood:** preservar (recomendado) ou traduzir.
+- **Itens `needs_context` restantes** da matriz (Rush Rd, nomes de paradas, departamentos do estúdio, letreiros de fachada).
+- **Estratégia para mapas auxiliares não extraídos** (quais extrair e quando).

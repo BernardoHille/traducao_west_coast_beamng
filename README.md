@@ -6,7 +6,7 @@ Projeto de tradução para o português do Brasil dos **elementos visuais** (tex
 
 ## Estado
 
-**Fase 2 — Automação de QA via MCP (concluída).** O override de textura foi validado no jogo ([`docs/BEAMNG_OVERRIDE_POC.md`](docs/BEAMNG_OVERRIDE_POC.md)), e há um pipeline repetível de inspeção visual ([`tools/beamng/QA_PROTOCOL.md`](tools/beamng/QA_PROTOCOL.md)). Ainda não existe tradução aprovada.
+**Fase 3 — Especificação de localização PT-BR (concluída).** As regras definitivas de localização estão em [`docs/LOCALIZATION_RULES.md`](docs/LOCALIZATION_RULES.md). O override de textura foi validado ([`docs/BEAMNG_OVERRIDE_POC.md`](docs/BEAMNG_OVERRIDE_POC.md)) e há um pipeline de QA visual ([`tools/beamng/QA_PROTOCOL.md`](tools/beamng/QA_PROTOCOL.md)). Ainda não existe tradução implementada.
 
 O acompanhamento detalhado fica em [`docs/PROJECT_STATUS.md`](docs/PROJECT_STATUS.md).
 
@@ -15,7 +15,8 @@ O acompanhamento detalhado fica em [`docs/PROJECT_STATUS.md`](docs/PROJECT_STATU
 - Tradução de **texturas**: placas de trânsito, comércio, postos, outdoors, pontos de ônibus, estúdios, indústria, pistas e marcações no asfalto.
 - Mapa principal: **West Coast USA**.
 - Versão de referência: **BeamNG.drive 0.39.4.0**.
-- Fora do escopo por enquanto: textos da interface, limites de velocidade do jogo e missões.
+- Velocidades localizadas **de forma funcional** para km/h: placa, limite da via, radares, zonas e missões mudam juntos (ver `docs/inventory/speed_dependencies.md`).
+- Fora do escopo por enquanto: textos da interface do jogo.
 
 ## Aviso: assets globais
 

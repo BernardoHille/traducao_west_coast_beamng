@@ -1,0 +1,120 @@
+family,texture,original_text,ptbr_text,category,localization_type,notes,status
+t_roadsigns,t_roadsigns_b.color,STOP,PARE,traffic,regulatory_br,"R-1 (MBST Vol I): octógono vermelho, orla branca, letras brancas. Reconstruir a partir do original sem deslocar o octógono (UV 1164-1290 x 231-358 px, compartilhada por sign_stop.dae e roadsigns.dae).",approved_rule
+t_roadsigns,t_roadsigns_b.color,YIELD,(sem legenda) — triângulo R-2 branco com orla vermelha,traffic,regulatory_br,"MBST Vol I: R-2 tem só fundo branco + orla vermelha, sem letras; informação complementar é proibida. 'DÊ A PREFERÊNCIA' é o NOME do sinal e pode ir como legenda no pavimento (Vol I p.44). UV 1282-1456 x 236-384 px.",rule_defined
+t_roadsigns,t_roadsigns_b.color,DO NOT ENTER,(sem legenda) — R-3 Sentido proibido,traffic,regulatory_br,"R-3 brasileiro: círculo vermelho com barra branca, sem texto. Remover 'DO NOT'/'ENTER' mantendo círculo e barra.",rule_defined
+t_roadsigns,t_roadsigns_b.color,WRONG WAY,CONTRAMÃO,traffic,contextual,Sem equivalente regulamentar direto; mantém placa retangular vermelha.,rule_defined
+t_roadsigns,t_roadsigns_b.color,ONE WAY,MÃO ÚNICA,traffic,contextual,Equivalente regulamentar é R-24a (circular); geometria existente é retangular com seta — manter formato com texto 'MÃO ÚNICA'.,approved_rule
+t_roadsigns,t_roadsigns_b.color,NO PARKING ANY TIME (+ seta),PROIBIDO ESTACIONAR (+ seta),traffic,regulatory_br,Base R-6a. 'ANY TIME' é omitido: sem informação complementar a proibição é permanente (MBST Vol I §4.3.1).,approved_rule
+t_roadsigns,t_roadsigns_b.color,NO PARKING BUS STOP (+ seta),PROIBIDO ESTACIONAR — PONTO DE ÔNIBUS (+ seta),traffic,regulatory_br,R-6a + informação complementar retangular nas mesmas cores.,rule_defined
+t_roadsigns,t_roadsigns_b.color,NO U TURN,PROIBIDO RETORNAR,traffic,contextual,Tile de texto (placas de pórtico). O pictograma R-5a vizinho é mantido.,rule_defined
+t_roadsigns,t_roadsigns_b.color,RED LIGHT VIOLATION $400 FINE,AVANÇO DE SINAL VERMELHO — MULTA R$ 400,traffic,contextual,Moeda: R$ sem conversão cambial.,rule_defined
+t_roadsigns,t_roadsigns_b.color,ROAD CLOSED (placa branca),VIA INTERDITADA,traffic,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,ROAD CLOSED (letreiro estêncil),VIA INTERDITADA,traffic,contextual,Usado em cavaletes/obras.,rule_defined
+t_roadsigns,t_roadsigns_b.color,DO NOT BLOCK INTERSECTION,NÃO BLOQUEIE O CRUZAMENTO,traffic,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,2 HOUR PARKING 8 A.M. TO 9 P.M. MON THRU SAT EXCEPT VEHICLES WITH AREA C PERMITS,ESTACIONAMENTO 2 h · 8h ÀS 21h · SEG A SÁB · EXCETO VEÍCULOS COM PERMISSÃO ZONA C,traffic,regulatory_br,Base R-6b + informação complementar; horário 24 h.,rule_defined
+t_roadsigns,t_roadsigns_b.color,2 HOUR PARKING 7AM TO 6PM EXCEPT SUNDAY,ESTACIONAMENTO 2 h · 7h ÀS 18h · EXCETO DOMINGOS,traffic,regulatory_br,,rule_defined
+t_roadsigns,t_roadsigns_b.color,LEFT TURN ON GREEN ARROW ONLY,CONVERSÃO À ESQUERDA SOMENTE COM SETA VERDE,traffic,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,TUNNEL,TÚNEL,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,ROAD WORK,OBRAS NA VIA,traffic,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,CAUTION TOLL PLAZA AHEAD,ATENÇÃO — PEDÁGIO À FRENTE,traffic,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,TOLL,PEDÁGIO,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,ONLY (placas de pórtico),SOMENTE,traffic,contextual,Ordem das palavras depende da composição da placa de pórtico; conferir no QA.,rule_defined
+t_roadsigns,t_roadsigns_b.color,PER VEHICLE,POR VEÍCULO,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,CARPOOLS ONLY 2 OR MORE PERSONS,SOMENTE VEÍCULOS COM 2 OU MAIS OCUPANTES,traffic,contextual,Evita 'carona' (sentido diferente em PT-BR).,rule_defined
+t_roadsigns,t_roadsigns_b.color,CAUTION UNDER CONSTRUCTION,ATENÇÃO — EM OBRAS,traffic,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,DANGER HIGH VOLTAGE,PERIGO — ALTA TENSÃO,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,SPEED & RED LIGHT (câmera),FISCALIZAÇÃO ELETRÔNICA — VELOCIDADE E AVANÇO DE SINAL,traffic,contextual,Placa s_sign_speedlightcam (UV 1473-1640 x 786-1021).,rule_defined
+t_roadsigns,t_roadsigns_b.color,MUNICIPAL SPEED CAMERA IN USE,FISCALIZAÇÃO ELETRÔNICA DE VELOCIDADE,traffic,contextual,Placa s_sign_speedcam.,rule_defined
+t_roadsigns,t_roadsigns_b.color,RED LIGHT PHOTO ENFORCED,FISCALIZAÇÃO ELETRÔNICA — AVANÇO DE SINAL,traffic,contextual,Placa s_sign_lightcam.,rule_defined
+t_roadsigns,t_roadsigns_b.color,EXIT,SAÍDA,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,NEXT,PRÓXIMA,traffic,contextual,'NEXT EXIT' → 'PRÓXIMA SAÍDA'.,rule_defined
+t_roadsigns,t_roadsigns_b.color,NORTH,NORTE,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,SOUTH,SUL,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,EAST,LESTE,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,WEST,OESTE,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,MPH,km/h,speed,unit_conversion,Tile usado com as placas de velocidade. Ver speed_limits.md: a troca exige R-19 com material/mesh próprios.,approved_rule
+t_roadsigns,t_roadsigns_b.color,SPEED LIMIT,(sem legenda) — R-19 circular,speed,regulatory_br,R-19 não tem texto além do número e 'km/h'. Tile UV 229-363 x 289-381 usado só por sign_speed5/25.,needs_implementation
+t_roadsigns,t_roadsigns_b.color,0 1 2 3 4 5 6 7 8 9 (linha de algarismos),(inalterado),traffic,preserve_original,"Glifos COMPARTILHADOS por sign_speed5/25, docas de armazém, pedágios, túnel. Não podem virar '40'/'10' sem quebrar outros objetos.",preserve_original
+t_roadsigns,t_roadsigns_b.color,1/4 1/2 3/4 + MILES,"0,4 · 0,8 · 1,2 + km",unit,unit_conversion,"Distâncias de pórtico em milhas; glifos de fração compostos por UV com o tile MILES. Conversão: 1/4 mi = 0,40 km; 1/2 mi = 0,80 km; 3/4 mi = 1,21 km. Exige recomposição (mesh roadsigns.dae) — ver LOCALIZATION_RULES §Distância.",needs_implementation
+t_roadsigns,t_roadsigns_b.color,MILES,km,unit,unit_conversion,,needs_implementation
+t_roadsigns,t_roadsigns_b.color,Brittlebush St,Rua Brittlebush,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Belasco City,Belasco,place_name,contextual,Destino em placa de pórtico: nome curto. 'Cidade de Belasco' só quando houver espaço e o contexto for institucional.,rule_defined
+t_roadsigns,t_roadsigns_b.color,Creosote St,Rua Creosote,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Fog Hill,Fog Hill,place_name,proper_name,Nome próprio de bairro.,preserve_original
+t_roadsigns,t_roadsigns_b.color,Rush Rd,Estrada Rush,place_name,contextual,Confirmar no mapa se é via urbana (→ Rua Rush) ou estrada.,needs_context
+t_roadsigns,t_roadsigns_b.color,Mariposa St,Rua Mariposa,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Sierra Vista,Sierra Vista,place_name,proper_name,,preserve_original
+t_roadsigns,t_roadsigns_b.color,Mojave Rd,Estrada Mojave,place_name,contextual,Via de deserto/fora do centro → Estrada.,rule_defined
+t_roadsigns,t_roadsigns_b.color,Outcrop Rd,Estrada Outcrop,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Agave Trail Rd,Estrada Agave Trail,place_name,contextual,'Trail' faz parte do nome próprio.,rule_defined
+t_roadsigns,t_roadsigns_b.color,Promenade,Calçadão,place_name,contextual,Substantivo comum (orla de praia).,rule_defined
+t_roadsigns,t_roadsigns_b.color,Sorrel St,Rua Sorrel,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Motorsports Park,Autódromo,place_name,contextual,Termo brasileiro natural; o nome completo 'Burnside International Motorsports Park' é marca e fica preservado.,rule_defined
+t_roadsigns,t_roadsigns_b.color,San Amaro,San Amaro,place_name,proper_name,,preserve_original
+t_roadsigns,t_roadsigns_b.color,Casilda Beach,Praia Casilda,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Mount Wallis,Monte Wallis,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Canal St,Rua do Canal,place_name,contextual,'Canal' é substantivo comum.,rule_defined
+t_roadsigns,t_roadsigns_b.color,Dockyards,Docas,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Financial District,Centro Financeiro,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Downtown Belasco,Centro de Belasco,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Spearleaf Island,Ilha Spearleaf,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,pictograma reboque,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
+t_roadsigns,t_roadsigns_b.color,pictograma proibido caminhões,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
+t_roadsigns,t_roadsigns_b.color,pictograma proibido retornar,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
+t_roadsigns,t_roadsigns_b.color,semáforo,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
+t_roadsigns,t_roadsigns_b.color,chevrons/setas pretas,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
+t_roadsigns,t_roadsigns_b.color,diamante (faixa preferencial),(inalterado),traffic,preserve_original,Sem texto.,preserve_original
+t_roadsigns,t_roadsigns_b.color,trabalhador em obra,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
+t_roadsigns,t_roadsigns_b.color,placas amarelas em branco,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
+t_roadsigns,t_roadsigns_b.color,escudo US highway,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
+t_roadsigns,t_roadsigns_b.color,"SPEED LIMIT 25 (sign_speed25.dae, 11 instâncias)",R-19 40 km/h,speed,regulatory_br,Composição por UV: painel branco + tile SPEED LIMIT + glifos '2' e '5' compartilhados → exige material/mesh R-19 próprios (ver speed_limits.md). Hoje as vias ao lado têm limite AUTOMÁTICO de 60 km/h (8) e 30 km/h (2).,needs_implementation
+t_roadsigns,t_roadsigns_b.color,"SPEED LIMIT 5 (sign_speed5.dae, 37 instâncias)",R-19 10 km/h,speed,regulatory_br,"Estacionamentos/pátios. 5 mph = 8,05 km/h → 10 km/h. Hoje as vias têm limite AUTOMÁTICO 30 km/h (mínimo da lista métrica do motor) → exige speedLimit explícito 2,7778 m/s.",needs_implementation
+eca_roadsigns,eca_roadsigns_d,STOP,PARE,traffic,regulatory_br,Atlas do East Coast; uso no West Coast não encontrado.,approved_rule
+eca_roadsigns,eca_roadsigns_d,YIELD,(sem legenda) — R-2,traffic,regulatory_br,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,DO NOT ENTER,(sem legenda) — R-3,traffic,regulatory_br,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,ONE WAY,MÃO ÚNICA,traffic,contextual,Atlas do East Coast; uso no West Coast não encontrado.,approved_rule
+eca_roadsigns,eca_roadsigns_d,NO PARKING ANY TIME,PROIBIDO ESTACIONAR,traffic,regulatory_br,Atlas do East Coast; uso no West Coast não encontrado.,approved_rule
+eca_roadsigns,eca_roadsigns_d,2 HR PARKING 8:30 AM TO 5:30 PM,ESTACIONAMENTO 2 h · 8h30 ÀS 17h30,traffic,regulatory_br,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,SPEED LIMIT 50,R-19 80 km/h,speed,regulatory_br,"Atlas do East Coast; uso no West Coast não encontrado. 50 mph = 80,47 km/h.",rule_defined
+eca_roadsigns,eca_roadsigns_d,"25 (curva, advertência)",40 km/h,speed,unit_conversion,Atlas do East Coast; uso no West Coast não encontrado. Velocidade de advertência.,rule_defined
+eca_roadsigns,eca_roadsigns_d,"35 (curva, advertência)",60 km/h,speed,unit_conversion,"Atlas do East Coast; uso no West Coast não encontrado. 35 mph = 56,33 km/h.",rule_defined
+eca_roadsigns,eca_roadsigns_d,40 30 35 / 15 / 2 (placas numéricas),a definir por uso,speed,unit_conversion,"Atlas do East Coast; uso no West Coast não encontrado. Números soltos: 40 mph→60, 30→50, 35→60, 15→20 km/h; uso real desconhecido.",needs_context
+eca_roadsigns,eca_roadsigns_d,WEIGHT LIMIT 10 TONS,PESO MÁXIMO 9 t (R-14),unit,unit_conversion,"Atlas do East Coast; uso no West Coast não encontrado. 10 short tons = 9,07 t; limite de peso arredonda para baixo.",rule_defined
+eca_roadsigns,eca_roadsigns_d,NORTH,NORTE,traffic,literal,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,EAST,LESTE,traffic,literal,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,SOUTH,SUL,traffic,literal,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,WEST,OESTE,traffic,literal,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,DEAD END,SEM SAÍDA,traffic,contextual,Atlas do East Coast; uso no West Coast não encontrado.,approved_rule
+eca_roadsigns,eca_roadsigns_d,NARROW BRIDGE,PONTE ESTREITA,traffic,literal,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,BUMP,LOMBADA,traffic,literal,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,DIP,DEPRESSÃO,traffic,literal,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,ROAD NARROWS,PISTA ESTREITA,traffic,literal,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+eca_roadsigns,eca_roadsigns_d,GRAVEL,CASCALHO,traffic,literal,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
+ut_roadsigns,ut_roadsigns_d,STOP,PARE,traffic,regulatory_br,Atlas de Utah; uso no West Coast não encontrado.,approved_rule
+ut_roadsigns,ut_roadsigns_d,YIELD,(sem legenda) — R-2,traffic,regulatory_br,Atlas de Utah; uso no West Coast não encontrado.,rule_defined
+ut_roadsigns,ut_roadsigns_d,DO NOT ENTER,(sem legenda) — R-3,traffic,regulatory_br,Atlas de Utah; uso no West Coast não encontrado.,rule_defined
+ut_roadsigns,ut_roadsigns_d,DEAD END,SEM SAÍDA,traffic,contextual,Atlas de Utah; uso no West Coast não encontrado.,approved_rule
+ut_roadsigns,ut_roadsigns_d,NARROW BRIDGE,PONTE ESTREITA,traffic,literal,Atlas de Utah; uso no West Coast não encontrado.,rule_defined
+ut_roadsigns,ut_roadsigns_d,DIP,DEPRESSÃO,traffic,literal,Atlas de Utah; uso no West Coast não encontrado.,rule_defined
+ut_roadsigns,ut_roadsigns_d,ROAD NARROWS,PISTA ESTREITA,traffic,literal,Atlas de Utah; uso no West Coast não encontrado.,rule_defined
+ut_roadsigns,ut_roadsigns_d,GRAVEL,CASCALHO,traffic,literal,Atlas de Utah; uso no West Coast não encontrado.,rule_defined
+ut_roadsigns,ut_roadsigns_d,NO DUMPING ALLOWED,PROIBIDO JOGAR LIXO,traffic,contextual,Atlas de Utah; uso no West Coast não encontrado.,rule_defined
+ut_roadsigns,ut_roadsigns_d,NORTH / EAST / SOUTH / WEST,NORTE / LESTE / SUL / OESTE,traffic,literal,Atlas de Utah; uso no West Coast não encontrado.,rule_defined
+ut_roadsigns,ut_roadsigns_d,SPEED LIMIT (painel em branco),(sem legenda) — R-19,speed,regulatory_br,Atlas de Utah; uso no West Coast não encontrado.,needs_implementation
+ut_roadsigns,ut_roadsigns_d,RAMP 30 MPH,ALÇA 50 km/h,speed,unit_conversion,"Atlas de Utah; uso no West Coast não encontrado. 30 mph = 48,28 km/h → 50.",rule_defined
+ut_roadsigns,ut_roadsigns_d,Alfabeto/algarismos (fonte),(inalterado),traffic,preserve_original,Atlas de Utah; uso no West Coast não encontrado. Sem acentos — limitação para textos compostos por glifos.,preserve_original
+speed_sign,speed_sign,Algarismos laranja + MPH,usar a variante azul km/h existente,speed,unit_conversion,A própria textura já tem variante km/h. Uso no West Coast não encontrado.,rule_defined
+usa_roadsigns_turn_warning,usa_roadsigns_turn_warning,"(chevron, sem texto)",(inalterado),traffic,preserve_original,,preserve_original
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,STOP (slot 3; 112 decais),PARE,roadmarking,regulatory_br,"MBST Vol IV §8.3: legenda 'PARE' ≥ 1,60 m antes da linha de retenção, reforço do R-1. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",approved_rule
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,BUS (slot 6; 4 decais),ÔNIBUS,roadmarking,regulatory_br,"Combinações no mapa: BUS+ONLY (2) e BUS+STOP (2); BUS é a palavra mais próxima do condutor. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",rule_defined
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,ONLY (slot 5; 10 decais),(ver combinações),roadmarking,contextual,"Usado em BUS ONLY e em EXIT ONLY (docas, x≈432 y≈1603–1642). Um único slot não concorda em gênero ('EXCLUSIVO'/'EXCLUSIVA'). Proposta: BUS ONLY → só 'ÔNIBUS' (legenda brasileira de faixa exclusiva) e EXIT ONLY → 'SÓ SAÍDA' via reatribuição de rectIdx para slots livres (10/11) num override de main.decals.json. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",needs_context
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,KEEP (slot 7; 57 decais),NÃO,roadmarking,contextual,"KEEP CLEAR (44 pares, lado a lado na mesma linha) → 'NÃO BLOQUEIE'. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",rule_defined
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,CLEAR (slot 8; 57 decais),BLOQUEIE,roadmarking,contextual,"Par com KEEP → 'NÃO BLOQUEIE'. Fonte condensada: 8 letras no espaço de 5. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",rule_defined
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,NO (slot 9; 2 decais),SEM,roadmarking,contextual,"Usado só em NO EXIT (x≈419–423 y≈1749–1820) → 'SEM SAÍDA'. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",rule_defined
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,EXIT (slot 14; 15 decais),SAÍDA,roadmarking,literal,"Sozinho, em NO EXIT e em EXIT ONLY. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",rule_defined
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,LEFT (slot 10; 0 decais),(slot livre),roadmarking,contextual,"Não usado no West Coast → disponível para 'SÓ' ou outra palavra nova. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",rule_defined
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,TURN (slot 11; 0 decais),(slot livre),roadmarking,contextual,"Não usado no West Coast → disponível. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",rule_defined
+t_decal_roadmarkings,t_decal_roadmarkings_b.color,"Setas (slots 0,1,2), diamante (4), caixa preta (12), moldura (13), grelha (15)",(inalterado),roadmarking,preserve_original,"Sem texto. Toda palavra nova exige refazer _o.data, _nm.normal e _ao.data (auditoria §4.1).",preserve_original
+eca_genericsigns,eca_genericsigns_d (+ t_eca_genericsigns_b.color),NO PARKING ANY TIME,PROIBIDO ESTACIONAR,traffic,regulatory_br,West Coast carrega levels/east_coast_usa/art/shapes/buildings/eca_genericsigns_d.dds (material eca_genericsigns de /art/shapes/garage_and_dealership/Clutter). Mesmo conteúdo de t_eca_genericsigns_b.color.,approved_rule
+industrial_signs,ind_industrial_signs_d.color / t_industrial_signs_b.color,SPEED LIMIT 15,R-19 20 km/h,speed,regulatory_br,"Mesmo conteúdo nas duas texturas. 15 mph = 24,14 km/h → 20 (pátio industrial, abaixo do matemático para manter segurança). Placa desenhada na textura (não composta).",rule_defined
+t_movie_studio_signage,t_movie_studio_signage_b.color,STOP (placa interna),PARE,private_signage,regulatory_br,,approved_rule

@@ -101,3 +101,17 @@ Material do West Coast que usa essa família: `roadmarkings1` em `levels/west_co
 3. **`clutter_commercial_d`** (.dds e .png) existe só em `art_shapes.zip` e também é da família `clutter_commercial`.
 
 Nada disso foi corrigido na Fase 0. Os mapas marcados com ✘ serão extraídos quando a família entrar em trabalho.
+
+## Observações da Fase 3 (uso real no West Coast)
+
+Levantado com o mapa carregado: materiais dos TSStatic (`getMaterialNames`) e caminhos dos materiais em execução.
+
+| Achado | Impacto |
+|---|---|
+| O material `eca_genericsigns` (postos) carrega **`levels/east_coast_usa/art/shapes/buildings/eca_genericsigns_d.dds`** e o emissivo no mesmo caminho | É esse arquivo, e não `t_eca_genericsigns_b.color`, que precisa de override para os postos do West Coast. O conteúdo é igual. |
+| O material `billboards` do West Coast usa **`t_billboards_b.color`** | A referência antiga foi feita sobre `billboards_d`, cujo uso no mapa não foi encontrado. |
+| Os abrigos `s_busstop_wcu*` também usam **`m_bus_routes_utah` → `t_bus_routes_utah_d.color`** | É uma família nova (mapa "Canyonlands National Park"), fora do inventário da Fase 0. Arquivo: `assets/materials/billboard_label/m_bus_routes_utah/`. |
+| Os letreiros de fachada (motel, Food Mart, Torres Tires…) são **montados por glifos** do `clutter_commercial` | Trocar a palavra exige mesh ou textura dedicada. Os glifos não têm acentos. |
+| `sign_speed25`/`sign_speed5` compõem a placa com **algarismos compartilhados** do `t_roadsigns_b` | O R-19 precisa de material e mesh próprios (`LOCALIZATION_RULES.md` §3.2). |
+| Os LOD `t_bld_motel_LOD_b.color` e `t_bld_turbo_burger_LOD_b.color` não têm texto legível | Preservados. |
+| Uso no West Coast **não encontrado** para `eca_roadsigns_d`, `ut_roadsigns_d`, `speed_sign`, `usa_roadsigns_text`, `checkpoint_sign` e `arrows_sign_d` | São atlas de outros mapas ou de objetos dinâmicos. A prioridade é baixa, mas as regras valem. |
