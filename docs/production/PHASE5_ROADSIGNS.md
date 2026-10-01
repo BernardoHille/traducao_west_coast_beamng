@@ -23,12 +23,12 @@ Primeira produção definitiva do projeto.
 | Palavras recortadas pela máscara | SAÍDA · PRÓXIMA · LESTE · OESTE · NORTE · SUL · PEDÁGIO (×2) · ATENÇÃO · À FRENTE · OBRAS + NA VIA · VIA INTERDITADA (estêncil) · ATENÇÃO / EM OBRAS | `_b.color` + `_o.data` |
 | Nomes de vias / destinos | Rua Brittlebush · Belasco · Estrada Mojave · Estrada Agave Trail · Calçadão · Autódromo · Praia Casilda · Monte Wallis · Rua do Canal · Docas · Centro Financeiro · Centro de Belasco · Ilha + Spearleaf | `_b.color` + `_o.data` |
 
-**Contagem:**
-- **Localizados:** 41 textos/elementos (40 entradas da matriz em `qa_passed`, mais o R-2 e o R-3, que viraram pictogramas sem texto).
-- **Preservados (13):** 9 pictogramas, algarismos, Sierra Vista, San Amaro e Fog Hill.
-- **Pendentes (registrados):**
-  - glifos compartilhados que não podem mudar sem mesh/asset próprio: SPEED LIMIT e MPH das placas do `roadsigns.dae`, ONLY, CARPOOLS / 2 OR MORE PERSONS / PER VEHICLE, ¼ ½ ¾ / MILES;
-  - regiões que nenhum mesh do West Coast usa (`not_used_wcusa`): ONE WAY, NO U TURN, TUNNEL, ROAD CLOSED (placa branca), SPEED & RED LIGHT, 6 nomes de rua.
+**Contagem** (70 entradas `t_roadsigns` da matriz):
+- **Localizadas no atlas:** 38, todas `qa_passed`, entre elas PARE, R-2 sem legenda e R-3 sem texto. Mais 2 entradas de velocidade (R-19 10/40) por asset dedicado, também `qa_passed`.
+- **Preservadas:** 13 (9 pictogramas, algarismos, Sierra Vista, San Amaro e Fog Hill).
+- **Pendentes, não editadas:** 17.
+  - **7 bloqueadas por glifos compartilhados** (exigem mesh/asset próprio): SPEED LIMIT, MPH, ONLY, CARPOOLS, PER VEHICLE, frações e MILES.
+  - **10 `not_used_wcusa`** (nenhum mesh instanciado do West Coast as amostra): ONE WAY, NO U TURN, TUNNEL, ROAD CLOSED (placa branca), SPEED & RED LIGHT, Creosote St, Rush Rd, Mariposa St, Outcrop Rd e Sorrel St.
 
 ### Validação da textura
 | | `t_roadsigns_b.color` | `t_roadsigns_o.data` |
