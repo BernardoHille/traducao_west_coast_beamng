@@ -8,11 +8,11 @@
     "FAIL": 2,
     "SKIP": 1
   },
-  "generated": "2026-09-30T17:44:17",
+  "generated": "2026-10-01T01:04:10",
   "meta": {
     "original": "source/originals/png/t_roadsigns_b.color.png",
     "texture": "t_roadsigns_b.color",
-    "allowed_regions": 7,
+    "allowed_regions": 44,
     "metrics": {
       "pixels": 2097152,
       "rgb": {
@@ -44,7 +44,7 @@
           "mean": 254.915
         },
         "opaque_pixels_modified": 6139,
-        "opaque_pixels_modified_outside": 6139,
+        "opaque_pixels_modified_outside": 6101,
         "transparent_pixels_modified": 0,
         "semi_transparent_pixels_modified": 1,
         "transparent_pixels_original": 0,
@@ -52,10 +52,10 @@
       },
       "changed_any": 1380221,
       "changed_any_pct": 65.8141,
-      "changed_inside_regions": 160331,
-      "changed_outside_regions": 1219890,
-      "changed_outside_pct": 64.7449,
-      "outside_area_pixels": 1884149,
+      "changed_inside_regions": 456654,
+      "changed_outside_regions": 923567,
+      "changed_outside_pct": 59.8802,
+      "outside_area_pixels": 1542358,
       "bbox_changes": {
         "x": 0,
         "y": 0,
@@ -96,13 +96,13 @@
     {
       "status": "WARN",
       "name": "Semi-transparency",
-      "message": "0.10% of 1001 originally semi-transparent pixels changed outside allowed regions",
+      "message": "0.13% of 749 originally semi-transparent pixels changed outside allowed regions",
       "details": {}
     },
     {
       "status": "FAIL",
       "name": "Alpha noise",
-      "message": "6139 originally opaque pixels outside allowed regions now have alpha < 255 (candidate alpha min 201)",
+      "message": "6101 originally opaque pixels outside allowed regions now have alpha < 255 (candidate alpha min 201)",
       "details": {}
     },
     {
@@ -114,7 +114,7 @@
     {
       "status": "FAIL",
       "name": "Changes outside allowed regions",
-      "message": "64.7449% of pixels outside allowed regions changed (1219890 px, bbox {'x': 0, 'y': 0, 'width': 2048, 'height': 1024})",
+      "message": "59.8802% of pixels outside allowed regions changed (923567 px, bbox {'x': 0, 'y': 0, 'width': 2048, 'height': 1024})",
       "details": {}
     }
   ]

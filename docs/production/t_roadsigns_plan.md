@@ -87,7 +87,10 @@ Ação: `edit` (alterado), `preserve`, `dedicated_asset`, `needs_implementation`
 | roadsigns_place_san_amaro | San Amaro | San Amaro | 4–179 × 726–752 | roadsigns.dae | sim | preserve — nome próprio |
 | roadsigns_picto_* | pictogramas (reboque, caminhão, retorno, semáforo, setas, diamante, trabalhador, escudo) | (inalterado) | vários | vários | sim | preserve — sem texto |
 
-O R-19 (`sign_speed5/25.dae`) virou `dedicated_asset`: família nova `roadsigns_ptbr_r19` (ver `PHASE5_ROADSIGNS.md`). Os meshes originais ainda referenciam o painel branco (370–516 × 189–381), o tile SPEED LIMIT e os algarismos do atlas, e essas regiões **não** foram alteradas.
+O R-19 virou `dedicated_asset`: família nova `roadsigns_ptbr_r19` (ver `PHASE5_ROADSIGNS.md`).
+- `sign_speed25.dae` é substituído no mesmo caminho (11 placas).
+- O R-19 10 é um mesh novo, atribuído só às 7 placas reais de 5 mph. Os outros 30 `sign_speed5.dae` (`port/portNumbersSigns`) são decalques de fundo dos números das baias e continuam usando o painel branco do atlas.
+- O painel branco (370–516 × 189–381), o tile SPEED LIMIT e os algarismos **não** foram alterados.
 
 ## 3. Elementos preservados por compartilhamento (pendências registradas)
 

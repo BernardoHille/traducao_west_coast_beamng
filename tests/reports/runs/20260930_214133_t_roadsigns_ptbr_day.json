@@ -1,0 +1,579 @@
+{
+  "started": "2026-09-30T21:40:11",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "day",
+  "mod_active": true,
+  "vfs": {
+    "t_roadsigns": [
+      {
+        "path": "/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      },
+      {
+        "path": "/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "roadsigns_chinatown_stop",
+      "object": {
+        "dist": 0.00039345261452402,
+        "id": 153240,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_chinatown_stop_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214015_19.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 550.313,
+          "x": -710.782,
+          "z": 122.835
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.0024199991452618,
+          "z": -0.30989910930395,
+          "x": 0.0074299973797647,
+          "w": 0.95073733533279
+        }
+      }
+    },
+    {
+      "location": "roadsigns_downtown_yield",
+      "object": {
+        "dist": 0.062178523498416,
+        "id": 153166,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_downtown_yield_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214020_20.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 96.0784,
+          "x": -110.5606,
+          "z": 126.7581
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.027137995500564,
+          "z": 0.95059315760697,
+          "x": -0.0088249985368117,
+          "w": 0.30912505125249
+        }
+      }
+    },
+    {
+      "location": "roadsigns_hill_speed25",
+      "object": {
+        "dist": 0.00036070441464473,
+        "id": 153154,
+        "materials": [
+          "roadsigns_ptbr_r19_40",
+          "roadsigns_ptbr_r19_back"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_hill_speed25_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214025_21.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 158.6505,
+          "x": -171.7348,
+          "z": 123.1267
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.035447012416473,
+          "z": 0.94658966842672,
+          "x": -0.011993004200847,
+          "w": 0.32026188781804
+        }
+      }
+    },
+    {
+      "location": "roadsigns_gantry_mount_wallis",
+      "object": {
+        "dist": 0,
+        "id": 154813,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_gantry_mount_wallis_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214031_22.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": 221.1599,
+          "x": -201.2021,
+          "z": 121.13
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.051151006102365,
+          "z": -0.92354288982024,
+          "x": -0.021018002507497,
+          "w": 0.37948695472676
+        }
+      }
+    },
+    {
+      "location": "roadsigns_do_not_enter_wrong_way",
+      "object": {
+        "dist": 0,
+        "id": 154813,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_do_not_enter_wrong_way_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214036_23.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 336.8118,
+          "x": -225.4641,
+          "z": 103.02
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.045719990086846,
+          "z": -0.82549817898712,
+          "x": -0.031108993254847,
+          "w": 0.56168912178721
+        }
+      }
+    },
+    {
+      "location": "roadsigns_no_parking",
+      "object": {
+        "dist": 0,
+        "id": 154813,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_no_parking_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214041_24.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 543.369,
+          "x": -717.346,
+          "z": 121.47
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.07088397031273,
+          "z": -0.99741241773118,
+          "x": -0.00084999964361184,
+          "w": 0.011967005011988
+        }
+      }
+    },
+    {
+      "location": "roadsigns_red_light_violation",
+      "object": {
+        "dist": 0,
+        "id": 154813,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_red_light_violation_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214046_25.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 690.6959,
+          "x": -418.2618,
+          "z": 76.67
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.020156000937362,
+          "z": -0.28361998681042,
+          "x": -0.067963003160572,
+          "w": 0.95631295552725
+        }
+      }
+    },
+    {
+      "location": "roadsigns_do_not_block",
+      "object": {
+        "dist": 0,
+        "id": 154813,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_do_not_block_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214051_26.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 680.9696,
+          "x": -438.7207,
+          "z": 80.32
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.066874984908836,
+          "z": 0.94099621234763,
+          "x": -0.023516994693035,
+          "w": 0.3309090746738
+        }
+      }
+    },
+    {
+      "location": "roadsigns_parking_2h",
+      "object": {
+        "dist": 0,
+        "id": 154813,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_parking_2h_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214056_27.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 757.8703,
+          "x": -511.3589,
+          "z": 77.17
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.070788982397196,
+          "z": -0.99607724769029,
+          "x": -0.003763999064111,
+          "w": 0.052961013169584
+        }
+      }
+    },
+    {
+      "location": "roadsigns_left_turn",
+      "object": {
+        "dist": 0,
+        "id": 154813,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_left_turn_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214101_28.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 665.519,
+          "x": -771.7203,
+          "z": 111.34
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.050476031587987,
+          "z": -0.71024755552318,
+          "x": -0.049774031149017,
+          "w": 0.70037356170236
+        }
+      }
+    },
+    {
+      "location": "roadsigns_bus_stop",
+      "object": {
+        "dist": 0,
+        "id": 154813,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_bus_stop_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214106_29.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 699.809,
+          "x": -454.3253,
+          "z": 76.96
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.070630031441948,
+          "z": 0.9938445575757,
+          "x": -0.0060500026934705,
+          "w": 0.085133962101368
+        }
+      }
+    },
+    {
+      "location": "roadsigns_speed_camera",
+      "object": {
+        "dist": 0.0043228840551638,
+        "id": 141775,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_speed_camera_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214111_30.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 345.7282,
+          "x": -279.0835,
+          "z": 105.34
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.64693887983597,
+          "x": 0,
+          "w": 0.76254185836358
+        }
+      }
+    },
+    {
+      "location": "roadsigns_red_light_camera",
+      "object": {
+        "dist": 0.0057954777128889,
+        "id": 141794,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_red_light_camera_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214117_31.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 287.0152,
+          "x": -524.33,
+          "z": 105.22
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.56515900124194,
+          "x": 0,
+          "w": 0.8249820018129
+        }
+      }
+    },
+    {
+      "location": "roadsigns_danger_high_voltage",
+      "object": null,
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_danger_high_voltage_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214122_32.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": -584.8546,
+          "x": -1171.9855,
+          "z": 106.3
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.022920004537963,
+          "z": 0.91738481836515,
+          "x": 0.0099240019649035,
+          "w": 0.39721692135423
+        }
+      }
+    },
+    {
+      "location": "roadsigns_construction_caution",
+      "object": {
+        "dist": 0.0041005360363526,
+        "id": 156467,
+        "materials": [
+          "metal_galvanized",
+          "roadsigns"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_construction_caution_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214127_33.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 588.3782,
+          "x": -346.8659,
+          "z": 75.5
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.97648596301218,
+          "x": 0,
+          "w": 0.21558099183412
+        }
+      }
+    },
+    {
+      "location": "roadsigns_road_closed",
+      "object": {
+        "dist": 0.0029888858058645,
+        "id": 148038,
+        "materials": [
+          "metal_galvanized",
+          "roadsigns"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_road_closed_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214132_34.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 760.1159,
+          "x": 45.2348,
+          "z": 76.36
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.67600814084631,
+          "x": 0,
+          "w": 0.73689415353191
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "E GELua.screenshot": 44
+    },
+    "relevant_lines": []
+  },
+  "finished": "2026-09-30T21:41:33"
+}

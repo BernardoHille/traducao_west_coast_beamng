@@ -1,6 +1,6 @@
 # Self-test: originals vs themselves + PoC DDS
 
-**Resultado:** `PASS` · PASS 72 · WARN 0 · FAIL 0 · SKIP 0
+**Resultado:** `PASS` · PASS 75 · WARN 0 · FAIL 0 · SKIP 0
 
 | Status | Verificação | Mensagem |
 |---|---|---|
@@ -74,5 +74,8 @@
 | PASS | original t_sponsors_b.color.png | identical to itself |
 | PASS | original t_decal_roadmarkings_b.color.dds | identical to itself |
 | PASS | original t_decal_roadmarkings_b.color.png | identical to itself |
-| PASS | PoC DDS metadata export/dds/poc/t_roadsigns_b.color.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |
-| PASS | PoC DDS metadata mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |
+| PASS | DDS metadata export/dds/poc/t_roadsigns_b.color.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |
+| PASS | DDS metadata export/dds/t_roadsigns/t_roadsigns_b.color.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |
+| PASS | DDS metadata export/dds/t_roadsigns/t_roadsigns_o.data.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM; Colour space: linear; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |
+| PASS | DDS metadata mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |
+| PASS | DDS metadata mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM; Colour space: linear; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |

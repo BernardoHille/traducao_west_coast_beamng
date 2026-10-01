@@ -3,12 +3,12 @@
   "subject": "",
   "status": "PASS",
   "counts": {
-    "PASS": 72,
+    "PASS": 75,
     "WARN": 0,
     "FAIL": 0,
     "SKIP": 0
   },
-  "generated": "2026-09-30T17:44:16",
+  "generated": "2026-10-01T01:04:09",
   "meta": {},
   "checks": [
     {
@@ -433,14 +433,32 @@
     },
     {
       "status": "PASS",
-      "name": "PoC DDS metadata export/dds/poc/t_roadsigns_b.color.dds",
+      "name": "DDS metadata export/dds/poc/t_roadsigns_b.color.dds",
       "message": "Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible)",
       "details": {}
     },
     {
       "status": "PASS",
-      "name": "PoC DDS metadata mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+      "name": "DDS metadata export/dds/t_roadsigns/t_roadsigns_b.color.dds",
       "message": "Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "DDS metadata export/dds/t_roadsigns/t_roadsigns_o.data.dds",
+      "message": "Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM; Colour space: linear; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "DDS metadata mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+      "message": "Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "DDS metadata mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds",
+      "message": "Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM; Colour space: linear; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible)",
       "details": {}
     }
   ]

@@ -35,12 +35,26 @@ COMMIT
 Para assets funcionais (placas R-19, meshes, limites de via, radares, zonas, ADAS):
 
 ```
-IMPLEMENTAR PLACA / MESH / LIMITE
+IMPLEMENTAR PLACA / MESH ........ working/layered/r19/build_r19.py + tools/production/r19_mesh.py
       ↓
-VALIDATE SPEED CONSISTENCY ... validate.py speeds --refresh   (mapa carregado no BeamNG)
+DECIDIR VIAS (placa → via) ...... working/speed/speed_changes.json (+ sign_instances.json)
+      ↓
+GERAR OVERRIDES DO NÍVEL ........ tools/production/speed_overrides.py   (só speedLimit/shapeName; + slotTraffic)
+      ↓
+VALIDATE NEW ASSETS ............. validate.py new
+      ↓
+INSTALAR ........................ tools/production/install_mod.py   (re-carimba os .cdae)
+      ↓
+VALIDATE SPEED CONSISTENCY ...... validate.py speeds --refresh   (mapa carregado no BeamNG)
       ↓
 QA MCP
 ```
+
+Regras aprendidas na Fase 5:
+- **Mesh no mesmo caminho do jogo:** só se **todas** as instâncias forem o objeto que se quer trocar (o `sign_speed5.dae` também é decalque das baias do porto). Senão, use um mesh novo e troque o `shapeName` das instâncias.
+- **`.cdae`:** o mod deve distribuir o `.cdae` compilado pelo jogo, mais novo que o `.dae`. Sem isso, o jogo grava cache em `current/temp`, que continua valendo com o mod desligado.
+- **Trocar o estado do mod no QA:** sempre passe por outro mapa (o runner usa `smallgrid`). Recarregar o mesmo mapa mantém texturas, shapes e dados do nível em cache.
+- **Clone novo:** rode `speed_overrides.py` antes de `validate.py mod`/`speeds`, porque os overrides de nível não são versionados.
 
 Um passo só avança com **zero FAIL** (`exit code 0`). WARN exige justificativa no relatório de QA. Antes de um commit de produção: `python tools/validation/validate.py all` e `python -m unittest discover -s tools/validation/tests`.
 

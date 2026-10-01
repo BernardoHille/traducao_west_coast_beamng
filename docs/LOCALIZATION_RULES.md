@@ -65,6 +65,11 @@ Restrição técnica descoberta na Fase 3: `sign_speed25.dae` e `sign_speed5.dae
 - criar **material + textura próprios de R-19** (ex.: `roadsigns_ptbr_r19`) e **meshes substitutos** (`levels/west_coast_usa/art/shapes/objects/sign_speed25.dae` → R-19 40; `sign_speed5.dae` → R-19 10), com o disco recortado por opacidade (cantos transparentes) na placa retangular existente;
 - limite funcional das vias adjacentes alterado no mesmo pacote (§2, `speed_dependencies.md`).
 
+**Implementado na Fase 5** (`docs/production/PHASE5_ROADSIGNS.md`):
+- família `roadsigns_ptbr_r19`, escopo de nível;
+- `sign_speed25.dae` substituído no mesmo caminho (11 placas → R-19 40);
+- `roadsigns_ptbr/sign_r19_10.dae` atribuído **por instância** às 7 placas reais de 5 mph. Não há substituição no mesmo caminho porque 30 objetos `sign_speed5.dae` do porto são decalques de fundo dos números das baias.
+
 ### 3.3 Dê a preferência (R-2)
 Decisão: **triângulo invertido branco com orla vermelha, sem legenda** — é o R-2 brasileiro (MBST-I p.15/p.154); informação complementar não é admitida (p.13). A palavra "YIELD" é removida e o interior fica branco.
 "DÊ A PREFERÊNCIA" é o **nome** do sinal e pode aparecer como **inscrição no pavimento** (MBST-I/2005 p.45), não dentro da placa. A referência antiga que espremeu "DÊ A PREFERÊNCIA" no triângulo **não** é seguida.
@@ -166,7 +171,7 @@ Números fictícios de publicidade (`444-999-2222`) são **preservados**. Nunca 
 - Coluna `wcusa_usage`: `confirmed` (objeto do West Coast usa o material), `likely`, `not_found` (atlas de outro mapa — prioridade baixa, mas a regra vale).
 
 ## 18. Status da matriz
-`inventory` · `needs_context` · `rule_defined` · `needs_implementation` (regra definida, mas exige mesh/JSON/sistema além da textura) · `approved_rule` (decisão explícita do dono) · `preserve_original`. Nada é `implemented` nesta fase.
+`inventory` · `needs_context` · `rule_defined` · `needs_implementation` (regra definida, mas exige mesh/JSON/sistema além da textura) · `approved_rule` (decisão explícita do dono) · `preserve_original` · **`implemented`** (asset/sistema produzido e validado pelos validadores, ainda não visto no jogo) · **`qa_passed`** (implementado e verificado no jogo pelo QA MCP, com captura em `tests/screenshots/`). Introduzidos na Fase 5; só entradas realmente produzidas mudam de status.
 
 ## 19. Achados técnicos da Fase 3 que afetam a implementação
 1. Placas de velocidade compostas por glifos compartilhados → R-19 exige material/mesh próprios (§3.2).

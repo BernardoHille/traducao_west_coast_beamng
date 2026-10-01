@@ -81,3 +81,14 @@ Ou seja: **hoje placa e comportamento já divergem**. A localização deve fecha
 ## 5. Pendências de contexto
 - Radar `speedCamera` junto a `junction1_wp25` (via automática de 100 km/h): igualar a 100 ou definir 60 explícito na via? Decisão caso a caso.
 - `eca_roadsigns_d` números soltos (40/30/35/15): uso real desconhecido (atlas de outro mapa).
+
+
+## Atualização da Fase 5 (implementado)
+
+- **40 km/h:** 83 vias a 11,1111 m/s.
+  - 74 explícitas herdadas de 25 mph (65 com 11,18, 8 com 12 e 1 com 11,5);
+  - 9 vias vistas pelas placas de 25 mph.
+- **10 km/h:** 18 vias a 2,7778 m/s (faixas das cabines das docas e caminhos de estacionamento junto às placas de 5 mph).
+- **Correção do inventário:** das "37 placas de 5 mph", só **7** são placas. As outras 30 (`port/portNumbersSigns`) são decalques de malha (`sign_speed5.dae`, `decalType: Visible Mesh Final`) que formam o fundo dos números das baias do porto.
+- Decisões por via em `working/speed/speed_changes.json`; detalhes em `docs/production/PHASE5_ROADSIGNS.md` e `tests/reports/phase5_speed_delta.md`.
+- Grupos 60/50/80, radares, zonas e ADAS **não** foram alterados.

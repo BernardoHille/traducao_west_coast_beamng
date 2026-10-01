@@ -1,0 +1,743 @@
+{
+  "started": "2026-09-30T21:44:36",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "t_roadsigns": [
+      {
+        "path": "/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+        "expected_contains": "signage.zip",
+        "ok": true
+      },
+      {
+        "path": "/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds",
+        "expected_contains": "signage.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "roadsigns_chinatown_stop",
+      "object": {
+        "dist": 0.00039345261452402,
+        "id": 212069,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_chinatown_stop_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214440_45.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 550.313,
+          "x": -710.782,
+          "z": 122.835
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.0024199991452618,
+          "z": -0.30989910930395,
+          "x": 0.0074299973797647,
+          "w": 0.95073733533279
+        }
+      }
+    },
+    {
+      "location": "roadsigns_downtown_yield",
+      "object": {
+        "dist": 0.062178523498416,
+        "id": 211995,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_downtown_yield_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214445_46.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 96.0784,
+          "x": -110.5606,
+          "z": 126.7581
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.027137995500564,
+          "z": 0.95059315760697,
+          "x": -0.0088249985368117,
+          "w": 0.30912505125249
+        }
+      }
+    },
+    {
+      "location": "roadsigns_hill_speed25",
+      "object": {
+        "dist": 0.00036070441464473,
+        "id": 211983,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_hill_speed25_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214450_47.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 158.6505,
+          "x": -171.7348,
+          "z": 123.1267
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.035447012416473,
+          "z": 0.94658966842672,
+          "x": -0.011993004200847,
+          "w": 0.32026188781804
+        }
+      }
+    },
+    {
+      "location": "roadsigns_gantry_mount_wallis",
+      "object": {
+        "dist": 0,
+        "id": 213642,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_gantry_mount_wallis_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214455_48.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": 221.1599,
+          "x": -201.2021,
+          "z": 121.13
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.051151006102365,
+          "z": -0.92354288982024,
+          "x": -0.021018002507497,
+          "w": 0.37948695472676
+        }
+      }
+    },
+    {
+      "location": "roadsigns_do_not_enter_wrong_way",
+      "object": {
+        "dist": 0,
+        "id": 213642,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_do_not_enter_wrong_way_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214500_49.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 336.8118,
+          "x": -225.4641,
+          "z": 103.02
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.045719990086846,
+          "z": -0.82549817898712,
+          "x": -0.031108993254847,
+          "w": 0.56168912178721
+        }
+      }
+    },
+    {
+      "location": "roadsigns_no_parking",
+      "object": {
+        "dist": 0,
+        "id": 213642,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_no_parking_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214506_50.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 543.369,
+          "x": -717.346,
+          "z": 121.47
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.07088397031273,
+          "z": -0.99741241773118,
+          "x": -0.00084999964361184,
+          "w": 0.011967005011988
+        }
+      }
+    },
+    {
+      "location": "roadsigns_red_light_violation",
+      "object": {
+        "dist": 0,
+        "id": 213642,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_red_light_violation_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214511_51.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 690.6959,
+          "x": -418.2618,
+          "z": 76.67
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.020156000937362,
+          "z": -0.28361998681042,
+          "x": -0.067963003160572,
+          "w": 0.95631295552725
+        }
+      }
+    },
+    {
+      "location": "roadsigns_do_not_block",
+      "object": {
+        "dist": 0,
+        "id": 213642,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_do_not_block_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214516_52.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 680.9696,
+          "x": -438.7207,
+          "z": 80.32
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.066874984908836,
+          "z": 0.94099621234763,
+          "x": -0.023516994693035,
+          "w": 0.3309090746738
+        }
+      }
+    },
+    {
+      "location": "roadsigns_parking_2h",
+      "object": {
+        "dist": 0,
+        "id": 213642,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_parking_2h_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214521_53.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 757.8703,
+          "x": -511.3589,
+          "z": 77.17
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.070788982397196,
+          "z": -0.99607724769029,
+          "x": -0.003763999064111,
+          "w": 0.052961013169584
+        }
+      }
+    },
+    {
+      "location": "roadsigns_left_turn",
+      "object": {
+        "dist": 0,
+        "id": 213642,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_left_turn_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214526_54.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 665.519,
+          "x": -771.7203,
+          "z": 111.34
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.050476031587987,
+          "z": -0.71024755552318,
+          "x": -0.049774031149017,
+          "w": 0.70037356170236
+        }
+      }
+    },
+    {
+      "location": "roadsigns_bus_stop",
+      "object": {
+        "dist": 0,
+        "id": 213642,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_bus_stop_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214531_55.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 699.809,
+          "x": -454.3253,
+          "z": 76.96
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.070630031441948,
+          "z": 0.9938445575757,
+          "x": -0.0060500026934705,
+          "w": 0.085133962101368
+        }
+      }
+    },
+    {
+      "location": "roadsigns_speed_camera",
+      "object": {
+        "dist": 0.0043228840551638,
+        "id": 200604,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_speed_camera_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214536_56.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 345.7282,
+          "x": -279.0835,
+          "z": 105.34
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.64693887983597,
+          "x": 0,
+          "w": 0.76254185836358
+        }
+      }
+    },
+    {
+      "location": "roadsigns_red_light_camera",
+      "object": {
+        "dist": 0.0057954777128889,
+        "id": 200623,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_red_light_camera_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214542_57.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 287.0152,
+          "x": -524.33,
+          "z": 105.22
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.56515900124194,
+          "x": 0,
+          "w": 0.8249820018129
+        }
+      }
+    },
+    {
+      "location": "roadsigns_danger_high_voltage",
+      "object": null,
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_danger_high_voltage_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214547_58.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": -584.8546,
+          "x": -1171.9855,
+          "z": 106.3
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.022920004537963,
+          "z": 0.91738481836515,
+          "x": 0.0099240019649035,
+          "w": 0.39721692135423
+        }
+      }
+    },
+    {
+      "location": "roadsigns_construction_caution",
+      "object": {
+        "dist": 0.0041005360363526,
+        "id": 215296,
+        "materials": [
+          "metal_galvanized",
+          "roadsigns"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_construction_caution_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214552_59.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 588.3782,
+          "x": -346.8659,
+          "z": 75.5
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.97648596301218,
+          "x": 0,
+          "w": 0.21558099183412
+        }
+      }
+    },
+    {
+      "location": "roadsigns_road_closed",
+      "object": {
+        "dist": 0.0029888858058645,
+        "id": 206867,
+        "materials": [
+          "metal_galvanized",
+          "roadsigns"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_road_closed_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214557_60.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 760.1159,
+          "x": 45.2348,
+          "z": 76.36
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.67600814084631,
+          "x": 0,
+          "w": 0.73689415353191
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "E GELua.screenshot": 50,
+      "W GELua.core_levels.": 1,
+      "E GELua.core_levels.": 1,
+      "W engine::GFXTextureManager::createTexture": 1,
+      "E GELua.jbeam.fillSlots": 4,
+      "W GELua.jbeam.prepareLinksDestructive": 36,
+      "W GELua.jbeam.events": 2,
+      "W engine::VehicleResourceContainer::getTSMeshByName": 72,
+      "E prop": 4,
+      "E GELua.jbeam.pushToPhysics": 68,
+      "E MaterialList.mapMaterials": 18,
+      "W GELua.core_vehicle_partmgmt.mesh": 8,
+      "W GELua.core_input_actions.": 4,
+      "E libbeamng.controller.init": 100,
+      "E cef_local": 4,
+      "E engine::BNGCefClient::OnResourceResponse": 4
+    },
+    "relevant_lines": [
+      "1023.78693|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json",
+      "1028.28569|W|engine::GFXTextureManager::createTexture| texture invalid filepath 'art/skies/clouds/clouds_normal_displacement' corrected to '/art/skies/clouds/clouds_normal_displacement.png'",
+      "1031.65669|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" reset to default part \"hcity7_emblem_F\" as the wished part \"hcity7_emblem_F\" was not found",
+      "1031.65673|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" left empty as part \"hcity7_emblem_F\" was not found",
+      "1031.75941|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2432 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RR/hcity7_door_RR - DATA DISCARDED",
+      "1031.75959|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2624 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RL/hcity7_door_RL - DATA DISCARDED",
+      "1031.76178|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5272 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_L/hcity7_sunvisor_L - DATA DISCARDED",
+      "1031.76181|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5291 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_R/hcity7_sunvisor_R - DATA DISCARDED",
+      "1031.76211|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5671 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1031.76212|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5672 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1031.76213|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5673 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1031.76213|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5674 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1031.76214|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5675 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1031.76214|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5676 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1031.76215|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5677 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1031.76216|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5678 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1031.76319|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/213 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1031.76322|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/214 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1031.76327|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/215 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1031.76332|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/263 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1031.76333|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/264 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1031.76333|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/265 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1032.07507|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steering_column_top' not found",
+      "1032.07509|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_steering_column_top",
+      "1032.07549|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_dash_key' not found",
+      "1032.07551|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_dash_key",
+      "1032.08055|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_roofrack_base_wagon' not found",
+      "1032.08336|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headlight_signalglass_R' not found",
+      "1032.09391|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_R' not found",
+      "1032.09413|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FR' not found",
+      "1032.09585|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_L' not found",
+      "1032.09606|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FL' not found",
+      "1032.09705|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RR' not found",
+      "1032.09707|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RR' not found",
+      "1032.09791|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RL' not found",
+      "1032.09794|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RL' not found",
+      "1032.10260|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_R' not found",
+      "1032.10291|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_L' not found",
+      "1032.10300|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_chmsl_wagon' not found",
+      "1032.10302|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_wiper_R' not found",
+      "1032.10309|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_trunkcarpet_wagon' not found",
+      "1032.10406|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_R' not found",
+      "1032.10409|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_L' not found",
+      "1032.10527|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_quarterpanels_wagon' not found",
+      "1032.10594|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_windshield_int' not found",
+      "1032.10617|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_TCS' not found",
+      "1032.10783|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steeringboot_R' not found",
+      "1032.11013|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_main' not found",
+      "1032.11015|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_sedan' not found",
+      "1032.11019|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sedan' not found",
+      "1032.11020|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sunvisors' not found",
+      "1032.11021|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_lamp' not found",
+      "1032.12119|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_L' not found",
+      "1032.12125|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_R' not found",
+      "1032.12126|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel' not found",
+      "1032.12127|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_hazard_button' not found",
+      "1032.12129|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_nav_empty' not found",
+      "1032.12188|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_gauges_KMH' not found",
+      "1032.12580|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_engine_belt' not found",
+      "1032.12611|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_radiator_pipes' not found",
+      "1032.42563|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1032.42758|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1032.42950|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1032.43125|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1032.43284|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1032.43481|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1033.43760|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1033.44028|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1033.44251|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1034.61499|E|libbeamng.controller.init:192640| Found duplicate controller of name \"gauge\", please make sure there are no name overlaps.",
+      "1034.66936|E|libbeamng.controller.init:192640| lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:",
+      "1034.67172|E|libbeamng.controller.init:192640|   errorStr = string[627]: \"lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:\\",
+      "1034.67183|E|libbeamng.controller.init:192640|   nodesMissing = boolean: false",
+      "1034.73730|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/vehicles/hcity7/fordscreen.png | response: 404 - Not Found",
+      "1034.78759|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/ui/common/nasalization-rg.ttf | response: 404 - Not Found",
+      "1106.71667|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" reset to default part \"hcity7_emblem_F\" as the wished part \"hcity7_emblem_F\" was not found",
+      "1106.71670|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" left empty as part \"hcity7_emblem_F\" was not found",
+      "1106.81015|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2432 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RR/hcity7_door_RR - DATA DISCARDED",
+      "1106.81032|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2624 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RL/hcity7_door_RL - DATA DISCARDED",
+      "1106.81236|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5272 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_L/hcity7_sunvisor_L - DATA DISCARDED",
+      "1106.81239|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5291 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_R/hcity7_sunvisor_R - DATA DISCARDED",
+      "1106.81266|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5671 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1106.81267|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5672 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1106.81268|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5673 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1106.81268|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5674 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1106.81269|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5675 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1106.81270|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5676 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1106.81270|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5677 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1106.81271|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5678 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1106.81363|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/213 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1106.81365|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/214 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1106.81365|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/215 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1106.81373|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/263 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1106.81374|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/264 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1106.81375|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/265 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1107.15563|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steering_column_top' not found",
+      "1107.15565|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_steering_column_top",
+      "1107.15630|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_dash_key' not found",
+      "1107.15633|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_dash_key",
+      "1107.16398|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_roofrack_base_wagon' not found",
+      "1107.16777|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headlight_signalglass_R' not found",
+      "1107.17978|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_R' not found",
+      "1107.18001|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FR' not found",
+      "1107.18286|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_L' not found",
+      "1107.18319|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FL' not found",
+      "1107.18464|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RR' not found",
+      "1107.18467|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RR' not found",
+      "1107.18573|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RL' not found",
+      "1107.18575|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RL' not found",
+      "1107.19233|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_R' not found",
+      "1107.19276|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_L' not found",
+      "1107.19287|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_chmsl_wagon' not found",
+      "1107.19288|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_wiper_R' not found",
+      "1107.19298|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_trunkcarpet_wagon' not found",
+      "1107.19426|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_R' not found",
+      "1107.19428|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_L' not found",
+      "1107.19576|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_quarterpanels_wagon' not found",
+      "1107.19653|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_windshield_int' not found",
+      "1107.19680|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_TCS' not found",
+      "1107.19873|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steeringboot_R' not found",
+      "1107.20064|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_main' not found",
+      "1107.20067|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_sedan' not found",
+      "1107.20068|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sedan' not found",
+      "1107.20069|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sunvisors' not found",
+      "1107.20071|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_lamp' not found",
+      "1107.21027|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_L' not found",
+      "1107.21032|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_R' not found",
+      "1107.21033|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel' not found",
+      "1107.21034|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_hazard_button' not found",
+      "1107.21035|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_nav_empty' not found",
+      "1107.21079|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_gauges_KMH' not found",
+      "1107.21444|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_engine_belt' not found",
+      "1107.21479|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_radiator_pipes' not found",
+      "1107.64067|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1107.64280|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1107.64525|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1107.64721|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1107.65028|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1107.65457|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1108.72837|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1108.73102|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1108.73317|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1110.01043|E|libbeamng.controller.init:249573| Found duplicate controller of name \"gauge\", please make sure there are no name overlaps.",
+      "1110.07203|E|libbeamng.controller.init:249573| lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:",
+      "1110.07450|E|libbeamng.controller.init:249573|   errorStr = string[627]: \"lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:\\",
+      "1110.07462|E|libbeamng.controller.init:249573|   nodesMissing = boolean: false",
+      "1110.15975|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/vehicles/hcity7/fordscreen.png | response: 404 - Not Found",
+      "1110.18781|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/ui/common/nasalization-rg.ttf | response: 404 - Not Found"
+    ]
+  },
+  "finished": "2026-09-30T21:45:58"
+}

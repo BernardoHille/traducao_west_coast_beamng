@@ -1,0 +1,159 @@
+[
+ {
+  "check": "R-19 40 hill (-169,155) -> 794151eb",
+  "decalroad_speedLimit": "11.1111",
+  "navgraph_mode_mps": 11.1111,
+  "navgraph_kmh": 40.0,
+  "samples": {
+   "11.1111": 20,
+   "8.3333": 1,
+   "22.2222": 1,
+   "27.7778": 1
+  },
+  "expected_mps": 11.1111,
+  "result": "PASS"
+ },
+ {
+  "check": "R-19 40 downtown (-274,-58) -> 515427bb",
+  "decalroad_speedLimit": "11.1111",
+  "navgraph_mode_mps": 11.1111,
+  "navgraph_kmh": 40.0,
+  "samples": {
+   "16.6667": 2,
+   "11.1111": 13
+  },
+  "expected_mps": 11.1111,
+  "result": "PASS"
+ },
+ {
+  "check": "R-19 40 public road at the parking corner -> 69a8ea4e",
+  "decalroad_speedLimit": "11.1111",
+  "navgraph_mode_mps": 11.1111,
+  "navgraph_kmh": 40.0,
+  "samples": {
+   "11.1111": 7
+  },
+  "expected_mps": 11.1111,
+  "result": "PASS"
+ },
+ {
+  "check": "R-19 40 dock, after the booths -> 3dd0522d",
+  "decalroad_speedLimit": "11.1111",
+  "navgraph_mode_mps": 11.1111,
+  "navgraph_kmh": 40.0,
+  "samples": {
+   "2.7778": 1,
+   "11.1111": 5,
+   "16.6667": 1
+  },
+  "expected_mps": 11.1111,
+  "result": "PASS"
+ },
+ {
+  "check": "R-19 40 island main road -> bd32eea0",
+  "decalroad_speedLimit": "11.1111",
+  "navgraph_mode_mps": 11.1111,
+  "navgraph_kmh": 40.0,
+  "samples": {
+   "16.6667": 1,
+   "11.1111": 39
+  },
+  "expected_mps": 11.1111,
+  "result": "PASS"
+ },
+ {
+  "check": "40 explicit residential (was 11.18) -> 920b4201",
+  "decalroad_speedLimit": "11.1111",
+  "navgraph_mode_mps": 11.1111,
+  "navgraph_kmh": 40.0,
+  "samples": {
+   "11.1111": 3
+  },
+  "expected_mps": 11.1111,
+  "result": "PASS"
+ },
+ {
+  "check": "40 explicit island one-way (was 12) -> 343ab351",
+  "decalroad_speedLimit": "11.1111",
+  "navgraph_mode_mps": 11.1111,
+  "navgraph_kmh": 40.0,
+  "samples": {
+   "11.1111": 32
+  },
+  "expected_mps": 11.1111,
+  "result": "PASS"
+ },
+ {
+  "check": "R-19 10 parking path (-144,22) -> 0176e4b4",
+  "decalroad_speedLimit": "2.7778",
+  "navgraph_mode_mps": 2.7778,
+  "navgraph_kmh": 10.0,
+  "samples": {
+   "2.7778": 5,
+   "11.1111": 1
+  },
+  "expected_mps": 2.7778,
+  "result": "PASS"
+ },
+ {
+  "check": "R-19 10 parking path (-54,78) -> 6d99423d",
+  "decalroad_speedLimit": "2.7778",
+  "navgraph_mode_mps": 2.7778,
+  "navgraph_kmh": 10.0,
+  "samples": {
+   "16.6667": 1,
+   "2.7778": 9
+  },
+  "expected_mps": 2.7778,
+  "result": "PASS"
+ },
+ {
+  "check": "R-19 10 dock exit lane -> c7478227",
+  "decalroad_speedLimit": "2.7778",
+  "navgraph_mode_mps": 2.7778,
+  "navgraph_kmh": 10.0,
+  "samples": {
+   "16.6667": 1,
+   "2.7778": 7
+  },
+  "expected_mps": 2.7778,
+  "result": "PASS"
+ },
+ {
+  "check": "R-19 10 dock entrance booth lane -> abc8a5c1",
+  "decalroad_speedLimit": "2.7778",
+  "navgraph_mode_mps": 2.7778,
+  "navgraph_kmh": 10.0,
+  "samples": {
+   "16.6667": 1,
+   "2.7778": 2,
+   "11.1111": 1
+  },
+  "expected_mps": 2.7778,
+  "result": "PASS"
+ },
+ {
+  "check": "public road next to parking (-191,-11), not reduced -> 491e00bc",
+  "decalroad_speedLimit": "nil",
+  "navgraph_mode_mps": 16.6667,
+  "navgraph_kmh": 60.0,
+  "samples": {
+   "16.6667": 8,
+   "11.1111": 1
+  },
+  "expected_mps": null,
+  "result": "PASS"
+ },
+ {
+  "check": "port yard path (no speed sign), unchanged -> 218ce2e4",
+  "decalroad_speedLimit": "nil",
+  "navgraph_mode_mps": 8.3333,
+  "navgraph_kmh": 30.0,
+  "samples": {
+   "8.3333": 25,
+   "22.2222": 1
+  },
+  "expected_mps": null,
+  "result": "PASS"
+ }
+]

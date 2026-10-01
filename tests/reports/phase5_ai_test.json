@@ -1,0 +1,24 @@
+[
+ {
+  "road": "515427bb",
+  "limit_mps": 11.1111,
+  "limit_kmh": 40.0,
+  "max_mps": 11.21,
+  "p90_mps": 10.97,
+  "max_kmh": 40.4,
+  "p90_kmh": 39.5,
+  "samples": 59,
+  "ai_state": "ai state requested (async); call again in a moment"
+ },
+ {
+  "road": "c7478227",
+  "limit_mps": 2.7778,
+  "limit_kmh": 10.0,
+  "max_mps": 1.88,
+  "p90_mps": 1.87,
+  "max_kmh": 6.8,
+  "p90_kmh": 6.7,
+  "samples": 69,
+  "ai_state": "{\"speedMode\":\"legal\",\"mode\":\"manual\",\"avoidCars\":\"auto\",\"aggression\":0.3,\"targetObjectID\":-1}"
+ }
+]

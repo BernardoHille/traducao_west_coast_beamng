@@ -1,0 +1,189 @@
+{
+  "started": "2026-09-30T21:45:58",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "roadsigns_ptbr_r19": [
+      {
+        "path": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\objects\\sign_speed25.dae",
+        "expected_contains": "west_coast_usa.zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.cdae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\objects\\sign_speed25.cdae",
+        "expected_contains": "west_coast_usa.zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main\\MissionGroup\\road_signs\\items.level.json",
+        "expected_contains": "west_coast_usa.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "r19_40_hill",
+      "object": {
+        "dist": 0.00036070441464473,
+        "id": 211983,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase5/roadsigns_ptbr_r19/r19_40_hill_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214602_61.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 158.0094,
+          "x": -171.2629,
+          "z": 123.426
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.94731513213437,
+          "x": 0,
+          "w": 0.32030304467683
+        }
+      }
+    },
+    {
+      "location": "r19_40_downtown",
+      "object": {
+        "dist": 0.0044969426156479,
+        "id": 211979,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase5/roadsigns_ptbr_r19/r19_40_downtown_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214608_62.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": -55.1994,
+          "x": -273.1913,
+          "z": 121.94
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.98350168911271,
+          "x": 0,
+          "w": 0.1808989428174
+        }
+      }
+    },
+    {
+      "location": "r19_40_dock_gate",
+      "object": {
+        "dist": 0.0056843325210849,
+        "id": 204461,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase5/roadsigns_ptbr_r19/r19_40_dock_gate_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214613_63.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 1613.09,
+          "x": 470.94,
+          "z": 76.76
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.0352240046238,
+          "z": 0.70622890729441,
+          "x": 0.0352240046238,
+          "w": 0.70622890729441
+        }
+      }
+    },
+    {
+      "location": "r19_10_dock_exit",
+      "object": null,
+      "file": "tests/screenshots/phase5/roadsigns_ptbr_r19/r19_10_dock_exit_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214618_64.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 1690.6991,
+          "x": 446.0038,
+          "z": 76.46
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.96574712881426,
+          "x": 0,
+          "w": 0.25948503461089
+        }
+      }
+    },
+    {
+      "location": "r19_10_downtown_parking",
+      "object": null,
+      "file": "tests/screenshots/phase5/roadsigns_ptbr_r19/r19_10_downtown_parking_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214623_65.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 25.5059,
+          "x": -144.5126,
+          "z": 124.08
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.99967716455037,
+          "x": 0,
+          "w": 0.025408004182247
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "E GELua.screenshot": 49
+    },
+    "relevant_lines": []
+  },
+  "finished": "2026-09-30T21:46:24"
+}

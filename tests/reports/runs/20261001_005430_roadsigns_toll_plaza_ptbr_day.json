@@ -1,0 +1,66 @@
+{
+  "started": "2026-10-01T00:54:23",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "day",
+  "mod_active": true,
+  "vfs": {
+    "t_roadsigns": [
+      {
+        "path": "/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      },
+      {
+        "path": "/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "roadsigns_toll_plaza",
+      "object": {
+        "dist": 0,
+        "id": 272468,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase5/t_roadsigns/roadsigns_toll_plaza_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261001_005429_109.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 558.4357,
+          "x": 285.5078,
+          "z": 124.62
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.0090530019434303,
+          "z": 0.4528359027879,
+          "x": -0.017820003825498,
+          "w": 0.89136980864607
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-01T00:54:30"
+}

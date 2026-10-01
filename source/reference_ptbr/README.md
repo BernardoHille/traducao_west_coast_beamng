@@ -23,3 +23,10 @@
 - `t_sealbrik_logo_b.color_ptbr.png` é **cópia byte a byte** do original, sem tradução. Por isso fica **só localmente** (está no `.gitignore`), pela mesma regra que exclui os originais do jogo.
 
 **Nunca sobrescreva nem edite estes arquivos.**
+
+
+## Status após a Fase 5
+
+| Arquivo | Status |
+|---|---|
+| `t_roadsigns_b.color_ptbr.png` | **superseded_by_phase5**: substituído pelo atlas reconstruído a partir do original (`working/layered/t_roadsigns/`, DDS em `mod/.../assets/materials/signage/roadsigns/`). Mantido só como histórico; não usar como base nem como referência geométrica (octógono e triângulo deslocados, ruído de alfa). |

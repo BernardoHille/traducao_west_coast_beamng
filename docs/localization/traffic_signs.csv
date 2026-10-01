@@ -1,63 +1,63 @@
 family,texture,original_text,ptbr_text,category,localization_type,notes,status
-t_roadsigns,t_roadsigns_b.color,STOP,PARE,traffic,regulatory_br,"R-1 (MBST Vol I): octógono vermelho, orla branca, letras brancas. Reconstruir a partir do original sem deslocar o octógono (UV 1164-1290 x 231-358 px, compartilhada por sign_stop.dae e roadsigns.dae).",approved_rule
-t_roadsigns,t_roadsigns_b.color,YIELD,(sem legenda) — triângulo R-2 branco com orla vermelha,traffic,regulatory_br,"MBST Vol I: R-2 tem só fundo branco + orla vermelha, sem letras; informação complementar é proibida. 'DÊ A PREFERÊNCIA' é o NOME do sinal e pode ir como legenda no pavimento (Vol I p.44). UV 1282-1456 x 236-384 px.",rule_defined
-t_roadsigns,t_roadsigns_b.color,DO NOT ENTER,(sem legenda) — R-3 Sentido proibido,traffic,regulatory_br,"R-3 brasileiro: círculo vermelho com barra branca, sem texto. Remover 'DO NOT'/'ENTER' mantendo círculo e barra.",rule_defined
-t_roadsigns,t_roadsigns_b.color,WRONG WAY,CONTRAMÃO,traffic,contextual,Sem equivalente regulamentar direto; mantém placa retangular vermelha.,rule_defined
+t_roadsigns,t_roadsigns_b.color,STOP,PARE,traffic,regulatory_br,"R-1 (MBST Vol I): octógono vermelho, orla branca, letras brancas. Reconstruir a partir do original sem deslocar o octógono (UV 1164-1290 x 231-358 px, compartilhada por sign_stop.dae e roadsigns.dae). | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).",qa_passed
+t_roadsigns,t_roadsigns_b.color,YIELD,(sem legenda) — triângulo R-2 branco com orla vermelha,traffic,regulatory_br,"MBST Vol I: R-2 tem só fundo branco + orla vermelha, sem letras; informação complementar é proibida. 'DÊ A PREFERÊNCIA' é o NOME do sinal e pode ir como legenda no pavimento (Vol I p.44). UV 1282-1456 x 236-384 px. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).",qa_passed
+t_roadsigns,t_roadsigns_b.color,DO NOT ENTER,(sem legenda) — R-3 Sentido proibido,traffic,regulatory_br,"R-3 brasileiro: círculo vermelho com barra branca, sem texto. Remover 'DO NOT'/'ENTER' mantendo círculo e barra. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).",qa_passed
+t_roadsigns,t_roadsigns_b.color,WRONG WAY,CONTRAMÃO,traffic,contextual,Sem equivalente regulamentar direto; mantém placa retangular vermelha. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,ONE WAY,MÃO ÚNICA,traffic,contextual,Equivalente regulamentar é R-24a (circular); geometria existente é retangular com seta — manter formato com texto 'MÃO ÚNICA'.,approved_rule
-t_roadsigns,t_roadsigns_b.color,NO PARKING ANY TIME (+ seta),PROIBIDO ESTACIONAR (+ seta),traffic,regulatory_br,Base R-6a. 'ANY TIME' é omitido: sem informação complementar a proibição é permanente (MBST Vol I §4.3.1).,approved_rule
-t_roadsigns,t_roadsigns_b.color,NO PARKING BUS STOP (+ seta),PROIBIDO ESTACIONAR — PONTO DE ÔNIBUS (+ seta),traffic,regulatory_br,R-6a + informação complementar retangular nas mesmas cores.,rule_defined
+t_roadsigns,t_roadsigns_b.color,NO PARKING ANY TIME (+ seta),PROIBIDO ESTACIONAR (+ seta),traffic,regulatory_br,Base R-6a. 'ANY TIME' é omitido: sem informação complementar a proibição é permanente (MBST Vol I §4.3.1). | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,NO PARKING BUS STOP (+ seta),PROIBIDO ESTACIONAR — PONTO DE ÔNIBUS (+ seta),traffic,regulatory_br,R-6a + informação complementar retangular nas mesmas cores. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,NO U TURN,PROIBIDO RETORNAR,traffic,contextual,Tile de texto (placas de pórtico). O pictograma R-5a vizinho é mantido.,rule_defined
-t_roadsigns,t_roadsigns_b.color,RED LIGHT VIOLATION $400 FINE,AVANÇO DE SINAL VERMELHO — MULTA R$ 400,traffic,contextual,Moeda: R$ sem conversão cambial.,rule_defined
+t_roadsigns,t_roadsigns_b.color,RED LIGHT VIOLATION $400 FINE,AVANÇO DE SINAL VERMELHO — MULTA R$ 400,traffic,contextual,Moeda: R$ sem conversão cambial. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,ROAD CLOSED (placa branca),VIA INTERDITADA,traffic,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,ROAD CLOSED (letreiro estêncil),VIA INTERDITADA,traffic,contextual,Usado em cavaletes/obras.,rule_defined
-t_roadsigns,t_roadsigns_b.color,DO NOT BLOCK INTERSECTION,NÃO BLOQUEIE O CRUZAMENTO,traffic,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,2 HOUR PARKING 8 A.M. TO 9 P.M. MON THRU SAT EXCEPT VEHICLES WITH AREA C PERMITS,ESTACIONAMENTO 2 h · 8h ÀS 21h · SEG A SÁB · EXCETO VEÍCULOS COM PERMISSÃO ZONA C,traffic,regulatory_br,Base R-6b + informação complementar; horário 24 h.,rule_defined
-t_roadsigns,t_roadsigns_b.color,2 HOUR PARKING 7AM TO 6PM EXCEPT SUNDAY,ESTACIONAMENTO 2 h · 7h ÀS 18h · EXCETO DOMINGOS,traffic,regulatory_br,,rule_defined
-t_roadsigns,t_roadsigns_b.color,LEFT TURN ON GREEN ARROW ONLY,CONVERSÃO À ESQUERDA SOMENTE COM SETA VERDE,traffic,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,ROAD CLOSED (letreiro estêncil),VIA INTERDITADA,traffic,contextual,Usado em cavaletes/obras. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,DO NOT BLOCK INTERSECTION,NÃO BLOQUEIE O CRUZAMENTO,traffic,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,2 HOUR PARKING 8 A.M. TO 9 P.M. MON THRU SAT EXCEPT VEHICLES WITH AREA C PERMITS,ESTACIONAMENTO 2 h · 8h ÀS 21h · SEG A SÁB · EXCETO VEÍCULOS COM PERMISSÃO ZONA C,traffic,regulatory_br,Base R-6b + informação complementar; horário 24 h. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,2 HOUR PARKING 7AM TO 6PM EXCEPT SUNDAY,ESTACIONAMENTO 2 h · 7h ÀS 18h · EXCETO DOMINGOS,traffic,regulatory_br,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,LEFT TURN ON GREEN ARROW ONLY,CONVERSÃO À ESQUERDA SOMENTE COM SETA VERDE,traffic,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,TUNNEL,TÚNEL,traffic,literal,,rule_defined
-t_roadsigns,t_roadsigns_b.color,ROAD WORK,OBRAS NA VIA,traffic,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,CAUTION TOLL PLAZA AHEAD,ATENÇÃO — PEDÁGIO À FRENTE,traffic,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,TOLL,PEDÁGIO,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,ROAD WORK,OBRAS NA VIA,traffic,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,CAUTION TOLL PLAZA AHEAD,ATENÇÃO — PEDÁGIO À FRENTE,traffic,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,TOLL,PEDÁGIO,traffic,literal,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,ONLY (placas de pórtico),SOMENTE,traffic,contextual,Ordem das palavras depende da composição da placa de pórtico; conferir no QA.,rule_defined
 t_roadsigns,t_roadsigns_b.color,PER VEHICLE,POR VEÍCULO,traffic,literal,,rule_defined
 t_roadsigns,t_roadsigns_b.color,CARPOOLS ONLY 2 OR MORE PERSONS,SOMENTE VEÍCULOS COM 2 OU MAIS OCUPANTES,traffic,contextual,Evita 'carona' (sentido diferente em PT-BR).,rule_defined
-t_roadsigns,t_roadsigns_b.color,CAUTION UNDER CONSTRUCTION,ATENÇÃO — EM OBRAS,traffic,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,DANGER HIGH VOLTAGE,PERIGO — ALTA TENSÃO,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,CAUTION UNDER CONSTRUCTION,ATENÇÃO — EM OBRAS,traffic,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,DANGER HIGH VOLTAGE,PERIGO — ALTA TENSÃO,traffic,literal,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,SPEED & RED LIGHT (câmera),FISCALIZAÇÃO ELETRÔNICA — VELOCIDADE E AVANÇO DE SINAL,traffic,contextual,Placa s_sign_speedlightcam (UV 1473-1640 x 786-1021).,rule_defined
-t_roadsigns,t_roadsigns_b.color,MUNICIPAL SPEED CAMERA IN USE,FISCALIZAÇÃO ELETRÔNICA DE VELOCIDADE,traffic,contextual,Placa s_sign_speedcam.,rule_defined
-t_roadsigns,t_roadsigns_b.color,RED LIGHT PHOTO ENFORCED,FISCALIZAÇÃO ELETRÔNICA — AVANÇO DE SINAL,traffic,contextual,Placa s_sign_lightcam.,rule_defined
-t_roadsigns,t_roadsigns_b.color,EXIT,SAÍDA,traffic,literal,,rule_defined
-t_roadsigns,t_roadsigns_b.color,NEXT,PRÓXIMA,traffic,contextual,'NEXT EXIT' → 'PRÓXIMA SAÍDA'.,rule_defined
-t_roadsigns,t_roadsigns_b.color,NORTH,NORTE,traffic,literal,,rule_defined
-t_roadsigns,t_roadsigns_b.color,SOUTH,SUL,traffic,literal,,rule_defined
-t_roadsigns,t_roadsigns_b.color,EAST,LESTE,traffic,literal,,rule_defined
-t_roadsigns,t_roadsigns_b.color,WEST,OESTE,traffic,literal,,rule_defined
+t_roadsigns,t_roadsigns_b.color,MUNICIPAL SPEED CAMERA IN USE,FISCALIZAÇÃO ELETRÔNICA DE VELOCIDADE,traffic,contextual,Placa s_sign_speedcam. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,RED LIGHT PHOTO ENFORCED,FISCALIZAÇÃO ELETRÔNICA — AVANÇO DE SINAL,traffic,contextual,Placa s_sign_lightcam. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,EXIT,SAÍDA,traffic,literal,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,NEXT,PRÓXIMA,traffic,contextual,'NEXT EXIT' → 'PRÓXIMA SAÍDA'. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,NORTH,NORTE,traffic,literal,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,SOUTH,SUL,traffic,literal,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,EAST,LESTE,traffic,literal,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,WEST,OESTE,traffic,literal,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,MPH,km/h,speed,unit_conversion,Tile usado com as placas de velocidade. Ver speed_limits.md: a troca exige R-19 com material/mesh próprios.,approved_rule
 t_roadsigns,t_roadsigns_b.color,SPEED LIMIT,(sem legenda) — R-19 circular,speed,regulatory_br,R-19 não tem texto além do número e 'km/h'. Tile UV 229-363 x 289-381 usado só por sign_speed5/25.,needs_implementation
 t_roadsigns,t_roadsigns_b.color,0 1 2 3 4 5 6 7 8 9 (linha de algarismos),(inalterado),traffic,preserve_original,"Glifos COMPARTILHADOS por sign_speed5/25, docas de armazém, pedágios, túnel. Não podem virar '40'/'10' sem quebrar outros objetos.",preserve_original
 t_roadsigns,t_roadsigns_b.color,1/4 1/2 3/4 + MILES,"0,4 · 0,8 · 1,2 + km",unit,unit_conversion,"Distâncias de pórtico em milhas; glifos de fração compostos por UV com o tile MILES. Conversão: 1/4 mi = 0,40 km; 1/2 mi = 0,80 km; 3/4 mi = 1,21 km. Exige recomposição (mesh roadsigns.dae) — ver LOCALIZATION_RULES §Distância.",needs_implementation
 t_roadsigns,t_roadsigns_b.color,MILES,km,unit,unit_conversion,,needs_implementation
-t_roadsigns,t_roadsigns_b.color,Brittlebush St,Rua Brittlebush,place_name,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,Belasco City,Belasco,place_name,contextual,Destino em placa de pórtico: nome curto. 'Cidade de Belasco' só quando houver espaço e o contexto for institucional.,rule_defined
+t_roadsigns,t_roadsigns_b.color,Brittlebush St,Rua Brittlebush,place_name,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,Belasco City,Belasco,place_name,contextual,Destino em placa de pórtico: nome curto. 'Cidade de Belasco' só quando houver espaço e o contexto for institucional. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,Creosote St,Rua Creosote,place_name,contextual,,rule_defined
 t_roadsigns,t_roadsigns_b.color,Fog Hill,Fog Hill,place_name,proper_name,Nome próprio de bairro.,preserve_original
-t_roadsigns,t_roadsigns_b.color,Rush Rd,Estrada Rush,place_name,contextual,Confirmar no mapa se é via urbana (→ Rua Rush) ou estrada.,needs_context
+t_roadsigns,t_roadsigns_b.color,Rush Rd,Estrada Rush,place_name,contextual,"needs_context resolvido na Fase 5: nenhum mesh instanciado do West Coast amostra o tile (not_used_wcusa) -> sem contexto físico; tile preservado; se vier a ser usado vale o padrão ""Estrada Rush"" (Rd fora do centro).",rule_defined
 t_roadsigns,t_roadsigns_b.color,Mariposa St,Rua Mariposa,place_name,contextual,,rule_defined
 t_roadsigns,t_roadsigns_b.color,Sierra Vista,Sierra Vista,place_name,proper_name,,preserve_original
-t_roadsigns,t_roadsigns_b.color,Mojave Rd,Estrada Mojave,place_name,contextual,Via de deserto/fora do centro → Estrada.,rule_defined
+t_roadsigns,t_roadsigns_b.color,Mojave Rd,Estrada Mojave,place_name,contextual,Via de deserto/fora do centro → Estrada. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,Outcrop Rd,Estrada Outcrop,place_name,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,Agave Trail Rd,Estrada Agave Trail,place_name,contextual,'Trail' faz parte do nome próprio.,rule_defined
-t_roadsigns,t_roadsigns_b.color,Promenade,Calçadão,place_name,contextual,Substantivo comum (orla de praia).,rule_defined
+t_roadsigns,t_roadsigns_b.color,Agave Trail Rd,Estrada Agave Trail,place_name,contextual,'Trail' faz parte do nome próprio. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,Promenade,Calçadão,place_name,contextual,Substantivo comum (orla de praia). | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,Sorrel St,Rua Sorrel,place_name,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,Motorsports Park,Autódromo,place_name,contextual,Termo brasileiro natural; o nome completo 'Burnside International Motorsports Park' é marca e fica preservado.,rule_defined
+t_roadsigns,t_roadsigns_b.color,Motorsports Park,Autódromo,place_name,contextual,Termo brasileiro natural; o nome completo 'Burnside International Motorsports Park' é marca e fica preservado. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,San Amaro,San Amaro,place_name,proper_name,,preserve_original
-t_roadsigns,t_roadsigns_b.color,Casilda Beach,Praia Casilda,place_name,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,Mount Wallis,Monte Wallis,place_name,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,Canal St,Rua do Canal,place_name,contextual,'Canal' é substantivo comum.,rule_defined
-t_roadsigns,t_roadsigns_b.color,Dockyards,Docas,place_name,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,Financial District,Centro Financeiro,place_name,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,Downtown Belasco,Centro de Belasco,place_name,contextual,,rule_defined
-t_roadsigns,t_roadsigns_b.color,Spearleaf Island,Ilha Spearleaf,place_name,contextual,,rule_defined
+t_roadsigns,t_roadsigns_b.color,Casilda Beach,Praia Casilda,place_name,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,Mount Wallis,Monte Wallis,place_name,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,Canal St,Rua do Canal,place_name,contextual,'Canal' é substantivo comum. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,Dockyards,Docas,place_name,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,Financial District,Centro Financeiro,place_name,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,Downtown Belasco,Centro de Belasco,place_name,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,Spearleaf Island,Ilha Spearleaf,place_name,contextual,Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
 t_roadsigns,t_roadsigns_b.color,pictograma reboque,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
 t_roadsigns,t_roadsigns_b.color,pictograma proibido caminhões,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
 t_roadsigns,t_roadsigns_b.color,pictograma proibido retornar,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
@@ -67,8 +67,8 @@ t_roadsigns,t_roadsigns_b.color,diamante (faixa preferencial),(inalterado),traff
 t_roadsigns,t_roadsigns_b.color,trabalhador em obra,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
 t_roadsigns,t_roadsigns_b.color,placas amarelas em branco,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
 t_roadsigns,t_roadsigns_b.color,escudo US highway,(inalterado),traffic,preserve_original,Sem texto.,preserve_original
-t_roadsigns,t_roadsigns_b.color,"SPEED LIMIT 25 (sign_speed25.dae, 11 instâncias)",R-19 40 km/h,speed,regulatory_br,Composição por UV: painel branco + tile SPEED LIMIT + glifos '2' e '5' compartilhados → exige material/mesh R-19 próprios (ver speed_limits.md). Hoje as vias ao lado têm limite AUTOMÁTICO de 60 km/h (8) e 30 km/h (2).,needs_implementation
-t_roadsigns,t_roadsigns_b.color,"SPEED LIMIT 5 (sign_speed5.dae, 37 instâncias)",R-19 10 km/h,speed,regulatory_br,"Estacionamentos/pátios. 5 mph = 8,05 km/h → 10 km/h. Hoje as vias têm limite AUTOMÁTICO 30 km/h (mínimo da lista métrica do motor) → exige speedLimit explícito 2,7778 m/s.",needs_implementation
+t_roadsigns,t_roadsigns_b.color,"SPEED LIMIT 25 (sign_speed25.dae, 11 instâncias)",R-19 40 km/h,speed,regulatory_br,Composição por UV: painel branco + tile SPEED LIMIT + glifos '2' e '5' compartilhados → exige material/mesh R-19 próprios (ver speed_limits.md). Hoje as vias ao lado têm limite AUTOMÁTICO de 60 km/h (8) e 30 km/h (2). | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).,qa_passed
+t_roadsigns,t_roadsigns_b.color,"SPEED LIMIT 5 (sign_speed5.dae, 37 instâncias)",R-19 10 km/h,speed,regulatory_br,"Estacionamentos/pátios. 5 mph = 8,05 km/h → 10 km/h. Hoje as vias têm limite AUTOMÁTICO 30 km/h (mínimo da lista métrica do motor) → exige speedLimit explícito 2,7778 m/s. | Fase 5: implementado e verificado no jogo (tests/screenshots/phase5).",qa_passed
 eca_roadsigns,eca_roadsigns_d,STOP,PARE,traffic,regulatory_br,Atlas do East Coast; uso no West Coast não encontrado.,approved_rule
 eca_roadsigns,eca_roadsigns_d,YIELD,(sem legenda) — R-2,traffic,regulatory_br,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined
 eca_roadsigns,eca_roadsigns_d,DO NOT ENTER,(sem legenda) — R-3,traffic,regulatory_br,Atlas do East Coast; uso no West Coast não encontrado.,rule_defined

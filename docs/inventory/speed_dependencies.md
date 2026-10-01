@@ -82,3 +82,14 @@ ADAS (já em km/h)
 3. `slotTraffic.json`, radares e zonas.
 4. QA funcional: IA respeitando 40/10 km/h, radar multando acima de 60, missões garageToGarage.
 5. ADAS conforme decisão do §3.
+
+
+## Atualização da Fase 5 (implementado)
+
+- **40 km/h:** 83 vias a 11,1111 m/s.
+  - 74 explícitas herdadas de 25 mph (65 com 11,18, 8 com 12 e 1 com 11,5);
+  - 9 vias vistas pelas placas de 25 mph.
+- **10 km/h:** 18 vias a 2,7778 m/s (faixas das cabines das docas e caminhos de estacionamento junto às placas de 5 mph).
+- **Correção do inventário:** das "37 placas de 5 mph", só **7** são placas. As outras 30 (`port/portNumbersSigns`) são decalques de malha (`sign_speed5.dae`, `decalType: Visible Mesh Final`) que formam o fundo dos números das baias do porto.
+- Decisões por via em `working/speed/speed_changes.json`; detalhes em `docs/production/PHASE5_ROADSIGNS.md` e `tests/reports/phase5_speed_delta.md`.
+- Grupos 60/50/80, radares, zonas e ADAS **não** foram alterados.

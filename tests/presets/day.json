@@ -11,5 +11,7 @@
   },
   "_time_semantics": "Observed in BeamNG 0.39.4 West Coast USA: time 0.0 = midday (sun high, full daylight); 0.5 = midnight. The MCP tool description says the opposite (0.5 = noon) - trust the observation.",
   "_environment": "windSpeed 0 (default 0.1) stops cloud drift inside one load; cloudCover 0 (default 1) removes clouds, which are laid out differently on every level load and shift auto-exposure. Applied with core_environment.setState via run_lua.",
-  "filename_suffix": ""
+  "filename_suffix": "",
+  "sun_elevation_deg": 40.66,
+  "_sun_elevation": "Phase 5: in some sessions (game window in the background, sim speedFactor 0) TimeOfDay does not tick, so set_time_of_day changes the time value but the sky keeps the sun where it was. The runner therefore also writes ScatterSky.elevation directly: night -20 deg (sun below the horizon, moonlit), day 40.66 deg (value observed at time 0.0)."
 }

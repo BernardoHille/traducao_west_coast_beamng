@@ -66,3 +66,12 @@ Imagens ficam em `working/temporary/qa_repro/` (fora do Git).
 
 ## Revisão
 Preencher `tests/reports/QA_TEMPLATE.md`. O resultado (APROVADO / REPROVADO / REQUER REVISÃO) é decidido por uma pessoa.
+
+
+## Atualizações da Fase 5
+
+1. **Troca de estado do mod:** `ensure_state` carrega `smallgrid` antes do West Coast. Recarregar o mesmo mapa mantém texturas, shapes compilados e dados do nível da carga anterior (com o mod desligado, a placa continuava PT-BR e as vias com os limites antigos).
+2. **Janela do jogo:** minimizada, as cargas de mapa e as capturas travam. Em segundo plano, o `TimeOfDay` pode não tickar (`speedFactor` 0). Os presets `day`/`night` têm `sun_elevation_deg`, que o runner grava direto no `ScatterSky` (noite −20°, dia 40,66°).
+3. **Pontos compostos** (faces de `roadsigns.dae`, objeto único na origem): use `target` (centro + normal da face, de `tools/production/render_signs.py`) com `frame-target` e depois `save-camera`.
+4. **Pasta da fase:** `capture … --out-dir phase5` grava em `tests/screenshots/phase5/<família>/` sem tocar no baseline da Fase 2.
+5. **Menu de pausa aberto:** `set_ui_state {"route":"play"}` fecha.

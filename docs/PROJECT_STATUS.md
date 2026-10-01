@@ -1,7 +1,7 @@
 # Status do projeto
 
-**Última atualização:** 30/09/2026
-**Fase atual:** Fase 4 — Pipeline automático de validação (concluída)
+**Última atualização:** 01/10/2026
+**Fase atual:** Fase 5 — t_roadsigns e R-19 10/40 concluídos
 
 ## Ambiente
 
@@ -14,8 +14,11 @@
 - **Originais extraídos:** 35 texturas, cada uma em DDS (formato do jogo) e PNG (base de edição). Ficam em `source/originals/`, só localmente, fora do Git.
 - **Traduções existentes:** 13 PNG `_ptbr` em `source/reference_ptbr/`, que correspondem a 11 texturas traduzidas e 1 máscara. O `t_sealbrik_logo` `_ptbr` é cópia idêntica do original.
 - **Status das traduções existentes:** servem **só de referência** até serem reconstruídas a partir dos originais. Não são masters aprovados.
-- **DDS PT-BR:** só o DDS **de teste** do PoC (`export/dds/poc/`). Nenhum DDS de tradução aprovado.
-- **Mod:** `mod/traducao_ptbr_wcusa/` contém só o override de PoC de `t_roadsigns_b.color`. O **override técnico foi validado**, mas a **tradução não foi aprovada** e precisa ser reconstruída a partir do original.
+- **DDS PT-BR definitivos:** `t_roadsigns_b.color` e `t_roadsigns_o.data` (`export/dds/t_roadsigns/`), mais os R-19 (`export/dds/r19/`). O DDS do PoC (`export/dds/poc/`) é só histórico.
+- **Mod** (`mod/traducao_ptbr_wcusa/`, versão 0.5.0):
+  - atlas `t_roadsigns` definitivo;
+  - família `roadsigns_ptbr_r19` (texturas, materiais, meshes e `.cdae`);
+  - overrides de dados do nível (limites de via, `slotTraffic.json`, 7 `shapeName`), gerados localmente e não versionados.
 - **Inventário:** `docs/inventory/original_files_manifest.csv` (SHA-256) e `docs/inventory/texture_families.md`.
 - **Especificação de localização:** `docs/LOCALIZATION_RULES.md` (fonte de verdade) + `docs/localization/` + `docs/inventory/speed_*.md`.
 - **Auditoria inicial:** `docs/AUDITORIA_PROJETO_TRADUCAO.md`, snapshot de 30/09/2026 que não deve ser editado.
@@ -28,7 +31,7 @@
 - [x] Proof of Concept do override
 - [x] Regras definitivas de localização
 - [x] Validador
-- [ ] Reconstrução das traduções existentes
+- [ ] Reconstrução das traduções existentes (`t_roadsigns` concluída na Fase 5; demais famílias legadas pendentes)
 - [ ] Tradução das texturas pendentes
 - [ ] QA West Coast
 - [ ] QA East Coast / Utah
@@ -120,6 +123,31 @@ Detalhes em [`../tools/validation/README.md`](../tools/validation/README.md) e [
   - mapa atual com 17 FAIL de velocidade, que são inconsistências reais.
 - **Testes:** 33 testes unitários (unittest, fixtures sintéticos), todos OK.
 
+## Resultado da Fase 5 - Primeira produção definitiva
+
+Detalhes em [`production/PHASE5_ROADSIGNS.md`](production/PHASE5_ROADSIGNS.md):
+- plano e inventário: [`production/t_roadsigns_plan.md`](production/t_roadsigns_plan.md);
+- `slotTraffic`: [`production/slotTraffic_update.md`](production/slotTraffic_update.md);
+- relatórios em `tests/reports/`: `r19_mesh_validation.md`, `phase5_speed_delta.md`, `phase5_navgraph_check.json` e `phase5_ai_test.json`.
+
+| Item | Situação |
+|---|---|
+| `t_roadsigns` | **reconstruído** a partir do original. 44 regiões com evidência de UV; 0 px fora das regiões; alfa intacto; BC7 sRGB/linear, 12 mips; máscara de opacidade refeita para as palavras recortadas |
+| R-19 10 | **implementado**: mesh próprio para as 7 placas reais de 5 mph (o `sign_speed5.dae` original continua nas 30 placas de baia do porto) |
+| R-19 40 | **implementado**: `sign_speed25.dae` substituído no mesmo caminho (11 placas) |
+| Limites associados | **sincronizados**: 83 vias a 40 km/h (11,1111 m/s) e 18 a 10 km/h (2,7778 m/s); `slotTraffic.json` coerente (939 linhas) |
+| PoC antigo | **substituído** (a referência antiga ficou como `superseded_by_phase5`) |
+| QA | **aprovado**: 33 pontos com par original × PT-BR (5 também à noite); navgraph 13/13; IA respeita 40/10; mod desligado volta ao original sem cache residual |
+| Matriz | 40 entradas `qa_passed`; `needs_context` 11 → 10 (Rush Rd: não usado no West Coast) |
+| Validador de velocidade | 17 → 13 FAIL, todos fora do escopo (60 km/h, zonas, radares, ADAS) |
+
+**Achados técnicos que valem para as próximas fases:**
+- **Recarregar o mesmo mapa não limpa caches:** texturas, shapes e dados do nível persistem. O QA passa por outro mapa a cada troca de estado.
+- **Mod com `.dae`:** precisa distribuir o `.cdae`, senão fica cache em `current/temp` válido mesmo com o mod desligado.
+- **`sign_speed5.dae` também é decalque das baias do porto:** antes de substituir um mesh no mesmo caminho, verificar o `decalType` das instâncias.
+- **Janela do jogo minimizada ou em segundo plano:** cargas de mapa travam se minimizada, e o `TimeOfDay` pode não tickar. Os presets fixam a elevação do sol.
+- **Palavras compostas por UV:** várias são recortadas pelo `_o.data` e compartilhadas entre placas. O `tools/production/render_signs.py` reconstrói as composições offline.
+
 ## Problemas conhecidos
 
 Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). **Nenhum foi resolvido ainda.**
@@ -155,6 +183,14 @@ Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). **Nenhum
 
 Essas regras estão implementadas no validador (`validate.py speeds`). Nenhuma alteração funcional foi feita no mapa.
 
+## Decisões tomadas (Fase 5)
+
+- **R-19 com material, textura e mesh próprios** (família `roadsigns_ptbr_r19`, escopo de nível); o atlas compartilhado não muda.
+- **Mesh no mesmo caminho só quando todas as instâncias são o alvo:** `sign_speed25` sim; o R-19 10 é por instância.
+- **Placa = via:** limites explícitos por `DecalRoad` (granularidade do jogo), decididos por posição, orientação e contexto; vias públicas não são reduzidas a 10.
+- **`slotTraffic.json`:** edição determinística das entradas derivadas, porque o editor oficial não vem no jogo.
+- **Overrides de dados do nível não são versionados:** são regenerados a partir da instalação local.
+
 ## Decisões pendentes
 
 - **Como aplicar as regras ADAS/radar no mapa** (fase de implementação funcional):
@@ -162,6 +198,7 @@ Essas regras estão implementadas no validador (`validate.py speeds`). Nenhuma a
   - Event 01: 70 km/h numa via de 40,2 km/h;
   - radar 4 a 56,3 km/h numa via de 100 km/h.
 - **`ONLY` no pavimento** (BUS ONLY / EXIT ONLY): proposta de override de `main.decals.json` com slots livres — não investigado além da Fase 3.
-- **Itens `needs_context`** da matriz (Rush Rd, nomes de paradas, departamentos do estúdio, letreiros de fachada) — não resolvidos.
+- **Itens `needs_context`** da matriz (nomes de paradas, departamentos do estúdio, letreiros de fachada): não resolvidos. Rush Rd foi resolvido na Fase 5.
+- **Placas compostas por glifos compartilhados** (SPEED LIMIT/MPH do `roadsigns.dae`, cabine de pedágio, ONLY, CARPOOLS, ½ MILE): exigem assets/meshes próprios.
 - **Estratégia para mapas auxiliares não extraídos** (quais extrair e quando).
 - **Regiões autorizadas** para as demais texturas: registrar antes de produzir cada uma.

@@ -2,9 +2,9 @@
 
 **Alvo:** `mod/traducao_ptbr_wcusa`  
 
-**Resultado:** `PASS` · PASS 23 · WARN 0 · FAIL 0 · SKIP 0
+**Resultado:** `PASS` · PASS 24 · WARN 0 · FAIL 0 · SKIP 0
 
-- functional_changed_lines: `1385`
+- functional_changed_lines: `1047`
 
 | Status | Verificação | Mensagem |
 |---|---|---|
@@ -18,16 +18,17 @@
 | PASS | Material roadsigns_ptbr_r19_10 | baseColor t_r19_10_b.color.dds · opacity t_r19_o.data.dds · alphaTest 128 |
 | PASS | Material roadsigns_ptbr_r19_40 | baseColor t_r19_40_b.color.dds · opacity t_r19_o.data.dds · alphaTest 128 |
 | PASS | Material roadsigns_ptbr_r19_back | baseColor t_metal_galvanized_01_b.color.png · opacity t_r19_o.data.dds · alphaTest 128 |
-| PASS | sign_speed5.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
-| PASS | sign_speed5.dae: materials | ['roadsigns_ptbr_r19_10', 'roadsigns_ptbr_r19_back'] |
-| PASS | sign_speed5.dae: compiled .cdae | present and newer than the .dae (no recompilation, no temp cache) |
+| PASS | sign_r19_10.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
+| PASS | sign_r19_10.dae: materials | ['roadsigns_ptbr_r19_10', 'roadsigns_ptbr_r19_back'] |
+| PASS | sign_r19_10.dae: compiled .cdae | present and newer than the .dae (no recompilation, no temp cache) |
 | PASS | sign_speed25.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
 | PASS | sign_speed25.dae: materials | ['roadsigns_ptbr_r19_40', 'roadsigns_ptbr_r19_back'] |
 | PASS | sign_speed25.dae: compiled .cdae | present and newer than the .dae (no recompilation, no temp cache) |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json | 48 line(s) differ from the game file, all only in speedLimit |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json | 39 line(s) differ from the game file, all only in speedLimit |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/beach/beach_decalRoads/beach_AiRoads/items.level.json | 5 line(s) differ from the game file, all only in speedLimit |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/dirt_decalroads/dirt_gravel/items.level.json | 18 line(s) differ from the game file, all only in speedLimit |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/island/island_ai_roads/items.level.json | 8 line(s) differ from the game file, all only in speedLimit |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_aiRoads/items.level.json | 12 line(s) differ from the game file, all only in speedLimit |
-| PASS | Override levels/west_coast_usa/slotTraffic.json | 1255 line(s) differ from the game file, all only in speedLimit |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json | 43 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json | 38 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/island/island_ai_roads/items.level.json | 8 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_aiRoads/items.level.json | 12 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_entrance/items.level.json | 1 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_exit/items.level.json | 2 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json | 4 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/slotTraffic.json | 939 line(s) differ from the game file, only in speedLimit / declared shapeName |

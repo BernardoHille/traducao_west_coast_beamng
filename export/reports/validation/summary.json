@@ -3,18 +3,18 @@
   "subject": "",
   "status": "FAIL",
   "counts": {
-    "PASS": 2,
-    "WARN": 1,
+    "PASS": 3,
+    "WARN": 0,
     "FAIL": 1,
     "SKIP": 0
   },
-  "generated": "2026-09-30T17:44:19",
+  "generated": "2026-10-01T01:04:13",
   "meta": {},
   "checks": [
     {
       "status": "PASS",
       "name": "Texture infrastructure (self-test)",
-      "message": "PASS 72 · WARN 0 · FAIL 0 · SKIP 0",
+      "message": "PASS 75 · WARN 0 · FAIL 0 · SKIP 0",
       "details": {}
     },
     {
@@ -24,15 +24,15 @@
       "details": {}
     },
     {
-      "status": "WARN",
+      "status": "PASS",
       "name": "Mod tree + families",
-      "message": "PASS 6 · WARN 1 · FAIL 0 · SKIP 0",
+      "message": "PASS 48 · WARN 0 · FAIL 0 · SKIP 0",
       "details": {}
     },
     {
       "status": "FAIL",
       "name": "Current map speed consistency",
-      "message": "PASS 5 · WARN 0 · FAIL 17 · SKIP 7",
+      "message": "PASS 9 · WARN 1 · FAIL 13 · SKIP 7",
       "details": {}
     }
   ]

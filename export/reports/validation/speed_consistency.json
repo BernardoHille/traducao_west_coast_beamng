@@ -3,15 +3,15 @@
   "subject": "west_coast_usa",
   "status": "FAIL",
   "counts": {
-    "PASS": 5,
-    "WARN": 0,
-    "FAIL": 17,
+    "PASS": 9,
+    "WARN": 1,
+    "FAIL": 13,
     "SKIP": 7
   },
-  "generated": "2026-09-30T17:44:19",
+  "generated": "2026-10-01T01:04:13",
   "meta": {
     "snapshot": {
-      "collected": "2026-09-30T17:39:50",
+      "collected": "2026-09-30T21:38:06",
       "level": "/levels/west_coast_usa/main.level.json",
       "source": "MCP map.getMap() + map.findClosestRoad, TSStatic sign_speed*.dae"
     },
@@ -65,388 +65,148 @@
         "result": "PASS"
       },
       {
-        "location": "sign_speed25.dae @ [-274, -58]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed25.dae @ [-151, 22]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed25.dae @ [-194, -78]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed25.dae @ [-169, 155]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed25.dae @ [-196, -57]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed25.dae @ [-260, -54]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-259, -44]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-191, -11]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-144, 22]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-54, 78]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-26, 732]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-26, 748]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-26, 764]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-26, 780]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-26, 796]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-22, 805]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-13, 805]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-4, 805]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-26, 716]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-1, 796]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-1, 780]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-1, 764]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [2, 749]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-65, 716]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-65, 732]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-65, 748]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-65, 764]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-65, 780]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-65, 796]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-65, 812]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-65, 828]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-22, 844]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-13, 844]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [-4, 844]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [39, 828]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [39, 812]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [39, 796]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [39, 780]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [39, 764]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
-        "location": "sign_speed5.dae @ [39, 748]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
-        "radar": "—",
-        "zone": "—",
-        "result": "FAIL"
-      },
-      {
         "location": "sign_speed25.dae @ [-1044, 2045]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
         "radar": "—",
         "zone": "—",
-        "result": "FAIL"
+        "result": "PASS"
       },
       {
         "location": "sign_speed25.dae @ [477, 1613]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
         "radar": "—",
         "zone": "—",
-        "result": "FAIL"
+        "result": "PASS"
       },
       {
         "location": "sign_speed25.dae @ [477, 1608]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
         "radar": "—",
         "zone": "—",
-        "result": "FAIL"
+        "result": "PASS"
       },
       {
         "location": "sign_speed25.dae @ [477, 1618]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "30.0 km/h (8.333 m/s)",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
         "radar": "—",
         "zone": "—",
-        "result": "FAIL"
+        "result": "PASS"
       },
       {
         "location": "sign_speed25.dae @ [477, 1623]",
-        "sign": "25 mph (= 40.2 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
         "radar": "—",
         "zone": "—",
-        "result": "FAIL"
+        "result": "PASS"
       },
       {
-        "location": "sign_speed5.dae @ [447, 1624]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
+        "location": "sign_r19_10.dae @ [447, 1624]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
         "radar": "—",
         "zone": "—",
-        "result": "FAIL"
+        "result": "PASS"
       },
       {
-        "location": "sign_speed5.dae @ [444, 1688]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
+        "location": "sign_r19_10.dae @ [444, 1688]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
         "radar": "—",
         "zone": "—",
-        "result": "FAIL"
+        "result": "PASS"
       },
       {
-        "location": "sign_speed5.dae @ [461, 1688]",
-        "sign": "5 mph (= 8.0 km/h)",
-        "road": "60.0 km/h (16.67 m/s)",
+        "location": "sign_r19_10.dae @ [461, 1688]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
         "radar": "—",
         "zone": "—",
-        "result": "FAIL"
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-274, -58]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-151, 22]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-194, -78]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-169, 155]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-196, -57]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-260, -54]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [-259, -44]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [-191, -11]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [-144, 22]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [-54, 78]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
       },
       {
         "location": "ADAS event01SpeedLimitRecognition spawn [-472, 155]",
@@ -454,7 +214,7 @@
         "radar": "—",
         "zone": "—",
         "adas": "70.0 km/h",
-        "road": "40.2 km/h (11.18 m/s)",
+        "road": "40.0 km/h (11.11 m/s)",
         "result": "FAIL"
       },
       {
@@ -490,334 +250,9 @@
     {
       "status": "FAIL",
       "name": "Road limits: multiples of 10 km/h",
-      "message": "85 explicit road limits are not multiples of 10: 40.2 km/h (11.18 m/s) ×65; 41.4 km/h (11.5 m/s) ×1; 43.2 km/h (12 m/s) ×8; 56.3 km/h (15.65 m/s) ×11",
+      "message": "11 explicit road limits are not multiples of 10: 56.3 km/h (15.65 m/s) ×11",
       "details": {
         "objects": [
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "34abd59f-b95e-4cbd-bcd6-27fe397b6990",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "3684dece-7d1a-4bc3-87ab-02efe5138b10",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "d36f7078-7c9b-45e6-bcbc-a89f2f0933a1",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "8468843a-f4fa-4f35-897f-c8f4bf4b9fde",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "b82fa360-4078-4ce8-8172-21bc0fb183d8",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "e8837c61-28af-4d51-88a4-c7c5721b6e5f",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "792f2e25-7e56-4309-8d97-b7f1f8399db8",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "37b23233-0473-40cd-a87b-024cfa65068c",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "efacdeb7-5bc1-4d73-ab9d-f3c68d87bc6e",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "89e4a75b-a88f-4978-8db4-988a3fdd3bf1",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "f7741ce7-71e8-468f-adf6-ffdaeea8eaa7",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "08f1b5cd-1707-4d62-8bc8-a171f31922a5",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "261cca88-0616-41fa-8b3c-64fdc8203439",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "ad9aecf5-b5fa-4ad9-a25f-b4763471de2d",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "5ece99f3-80bd-4c70-927f-8f2f77013e2d",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "7111e3a6-cdaa-4185-97ef-61671ccf9a39",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "01f3287c-a2d9-42ad-a7e6-a6a83ae6e692",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "86f3c425-277c-4448-8223-636648d29136",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "5051c0f4-6df5-450e-b48f-6809206a7509",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "001a6a71-f52f-4bfe-ae7d-864689b0309a",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "0c7b9495-9ed9-444e-a59a-9c1adddb52ad",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "1298d5f6-ec22-44ea-a14d-e8a1d4293c8e",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "21b005bc-c668-434f-b51e-f8502fd1d4c9",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "4fb00ba5-c852-4f95-867c-5d7f8f78c70f",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "52bf84cc-0022-45ec-98d1-617118d34ed9",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "706d4acc-9252-4873-b8b0-66a223bbe508",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "ba9978ab-9d7f-452e-bdf4-3893e326cfec",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "bd92df8a-2888-4af6-bc61-7df8ca4cd92a",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "c13d4e76-059f-44eb-b371-3737c5382518",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "AIWaypointsGroup/items.level.json",
-            "persistentId": "d500736f-c889-4333-8a00-2b1951c7cf1b",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "920b4201-6277-49de-a9ee-ecca541dff84",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "e32d4c7c-498a-403c-b273-70b5fda36725",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "1c10fc84-6489-4cc9-8af0-025aff1def54",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "b261d010-7426-4133-8f4d-dc5b8cdbd6fb",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "f06fe636-6a6d-416b-828e-dc6d981f2d4a",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "7ee413b2-cbb0-45d4-a36a-8037d8d7172a",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "411f745d-e342-4c18-ba9c-72a7acd7caee",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "098a84b7-a20d-4008-b55d-ce2026092609",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "0fc7e8b8-633f-419f-9b00-f43a80b6b2df",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "1a150997-2622-4c7b-a62b-55a5f7366d29",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "29ab6f49-b9c6-4365-ba69-e8af4cece0da",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "497c31ae-5052-4867-885a-ae3b77e34e55",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "4f45f1e4-71a5-4d01-b4fb-bef4cccd1227",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "65226d2f-9c90-4b3f-914f-2e8415262d77",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "7613a06a-7b38-4e99-b209-f5a0b32dc6b6",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "86c33039-3392-4a76-9c3c-a610d215dff4",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "8b456c30-b84f-443e-89c7-97ea489b2dac",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "8c1fc29c-7317-49c8-93d9-933c8e944974",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "8fc48211-b581-4030-b85e-0f506ff2b833",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "901679a6-b423-4067-90c9-8ce494302842",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "412545d8-8dae-4e31-acc9-511dacac1a76",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "a9180ff6-b763-47ad-a0bd-73a278f15cbf",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "ace58679-1c8a-4249-9af3-0ae9a779aa35",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "b198f306-501d-4c8f-99de-b761e39840da",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "c68722df-03c1-4374-bc82-604a5df20ca0",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "c752b595-80b8-465a-bdd5-130d97b61ef6",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "cb84369d-52d0-4eb7-9d92-13545760ddd8",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "cdce79a2-7c12-4b1b-8332-2eaf2e9656b1",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "d537370d-287b-435a-8275-e1de5063cfab",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "d8901916-7308-4e2e-a437-ca3c8d5b33aa",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "e4cd4744-9d8f-4046-b52e-bcc4a43ad32e",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "ebcd3c84-d25f-4449-944c-c451a8e52de7",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "ed1a81e1-fcc0-45f0-90b3-e8d46d18b132",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "f944e354-cd30-40d5-ad14-175a9619ad1a",
-            "speed_mps": 11.18
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "fd7dff71-e624-4aee-9d27-1e7836ecd05e",
-            "speed_mps": 11.18
-          },
           {
             "file": "AIWaypointsGroup/items.level.json",
             "persistentId": "8e3763b3-96f5-4df1-99c7-adf1680e6092",
@@ -872,51 +307,6 @@
             "file": "island_shippingYard/dock_aiRoads/items.level.json",
             "persistentId": "af1085ba-4d01-48d1-be41-c58d021c8f9c",
             "speed_mps": 15.6464
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "b1bd3be8-9e7d-4dcb-9b0f-899b0c6ef9b6",
-            "speed_mps": 11.5
-          },
-          {
-            "file": "DecalRoads/items.level.json",
-            "persistentId": "aeea3a1f-1881-482d-976e-232599d65b29",
-            "speed_mps": 12.0
-          },
-          {
-            "file": "island/island_ai_roads/items.level.json",
-            "persistentId": "343ab351-4b95-4bef-954e-117376a0a829",
-            "speed_mps": 12.0
-          },
-          {
-            "file": "island/island_ai_roads/items.level.json",
-            "persistentId": "9a85afde-c46c-4fdf-8d87-4ee9f4c0d5ec",
-            "speed_mps": 12.0
-          },
-          {
-            "file": "island/island_ai_roads/items.level.json",
-            "persistentId": "07b3adc4-fd1a-4acf-b91f-79de0f7571fb",
-            "speed_mps": 12.0
-          },
-          {
-            "file": "island/island_ai_roads/items.level.json",
-            "persistentId": "80637bd2-a494-4aa0-bf69-ebab79d39e23",
-            "speed_mps": 12.0
-          },
-          {
-            "file": "island/island_ai_roads/items.level.json",
-            "persistentId": "188524b9-10d6-4b9d-98d0-7030b3791b53",
-            "speed_mps": 12.0
-          },
-          {
-            "file": "island/island_ai_roads/items.level.json",
-            "persistentId": "b17d2fea-9fc2-45a1-9cb7-33f5cca44b8a",
-            "speed_mps": 12.0
-          },
-          {
-            "file": "island/island_ai_roads/items.level.json",
-            "persistentId": "d7a8c9ec-ab26-41c4-831b-cb2d164494af",
-            "speed_mps": 12.0
           }
         ]
       }
@@ -1006,33 +396,74 @@
       "details": {}
     },
     {
-      "status": "FAIL",
-      "name": "Speed sign 5 mph: unit",
-      "message": "37 signs show mph; project rule is km/h (R-19)",
+      "status": "PASS",
+      "name": "Speed sign 10 km/h: unit",
+      "message": "7 signs show km/h (R-19 mesh of the mod)",
       "details": {}
     },
     {
-      "status": "FAIL",
-      "name": "Speed sign 5 mph vs road",
-      "message": "37/37 signs disagree with the road limit next to them (roads: [30.0, 60.0] km/h)",
+      "status": "PASS",
+      "name": "Speed sign 10 km/h vs regulated roads",
+      "message": "7 signs == explicit limit of the 18 distinct road(s) they regulate",
       "details": {}
     },
     {
-      "status": "FAIL",
-      "name": "Speed sign 25 mph: unit",
-      "message": "11 signs show mph; project rule is km/h (R-19)",
+      "status": "PASS",
+      "name": "Speed sign 40 km/h: unit",
+      "message": "11 signs show km/h (R-19 mesh of the mod)",
       "details": {}
     },
     {
-      "status": "FAIL",
-      "name": "Speed sign 25 mph vs road",
-      "message": "11/11 signs disagree with the road limit next to them (roads: [30.0, 60.0] km/h)",
+      "status": "PASS",
+      "name": "Speed sign 40 km/h vs regulated roads",
+      "message": "11 signs == explicit limit of the 9 distinct road(s) they regulate",
       "details": {}
+    },
+    {
+      "status": "WARN",
+      "name": "Speed signs: nearest navgraph edge",
+      "message": "14/18 signs: nearest edge == sign value; 4 differ (sign at a transition: e.g. dock booths, where the sign regulates the next road)",
+      "details": {
+        "differ": [
+          {
+            "shape": "sign_speed25.dae",
+            "pos": [
+              476.9,
+              1613.1
+            ],
+            "nearest_edge": "10.0 km/h (2.778 m/s)"
+          },
+          {
+            "shape": "sign_speed25.dae",
+            "pos": [
+              476.9,
+              1608.1
+            ],
+            "nearest_edge": "10.0 km/h (2.778 m/s)"
+          },
+          {
+            "shape": "sign_speed25.dae",
+            "pos": [
+              476.9,
+              1618.0
+            ],
+            "nearest_edge": "10.0 km/h (2.778 m/s)"
+          },
+          {
+            "shape": "sign_speed25.dae",
+            "pos": [
+              476.9,
+              1623.1
+            ],
+            "nearest_edge": "10.0 km/h (2.778 m/s)"
+          }
+        ]
+      }
     },
     {
       "status": "FAIL",
       "name": "ADAS event01SpeedLimitRecognition (speed_limit_detection)",
-      "message": "threshold 70.0 km/h ≠ road limit at the scenario start (40.2 km/h (11.18 m/s)); limit-alert systems must follow the regulated road",
+      "message": "threshold 70.0 km/h ≠ road limit at the scenario start (40.0 km/h (11.11 m/s)); limit-alert systems must follow the regulated road",
       "details": {}
     },
     {

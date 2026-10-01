@@ -125,10 +125,19 @@ def set_mod(m, mod_name, enable):
     return True
 
 
+FLUSH_LEVEL = "smallgrid"
+
+
 def ensure_state(m, cat, enable_mod, force_reload=False):
-    """Known state: map loaded AFTER the mod reached the wanted state (textures are cached per load)."""
+    """Known state: map loaded AFTER the mod reached the wanted state.
+
+    Phase 5 finding: reloading the SAME level keeps textures, compiled shapes and level object data
+    cached in the session (mod disabled -> the PT-BR texture/R-19 shape stayed). Loading another level
+    first releases them, so every state change goes through FLUSH_LEVEL.
+    """
     changed = set_mod(m, cat["mod_name"], enable_mod)
     if changed or force_reload or not level_ready(m, cat["map"]):
+        load_level(m, FLUSH_LEVEL)
         load_level(m, cat["map"])
 
 
@@ -151,6 +160,10 @@ def apply_preset(m, pre):
     if env:  # e.g. windSpeed=0 freezes cloud drift (no dedicated MCP tool; core_environment via run_lua)
         fields = ", ".join(f"{k}={json.dumps(v)}" for k, v in env.items())
         m.lua(f"core_environment.setState({{{fields}}}) return 'ok'")
+    if "sun_elevation_deg" in pre:  # TimeOfDay may not tick (background window): pin the sun explicitly
+        m.lua('local o = scenetree.findObject(scenetree.findClassObjects("ScatterSky")[1]) '
+              f'o:setField("elevation", 0, "{pre["sun_elevation_deg"]}") o:postApply() return "ok"')
+        time.sleep(1)
     m.call("toggle_ui", show=bool(defaults()["ui_visible"]))
 
 
@@ -206,7 +219,12 @@ def scan_logs(text, extra_terms):
     return {"error_warning_counts": counts, "relevant_lines": rel}
 
 
-def dest_path(loc, state, pre):
+def dest_path(loc, state, pre, out_dir=None):
+    """Phase 2 layout: tests/screenshots/{baseline|current}/<family>/. With --out-dir (e.g. phase5) the
+    run goes to tests/screenshots/<out-dir>/<family>/ and never overwrites the historical baseline."""
+    if out_dir:
+        return os.path.join(REPO, "tests", "screenshots", out_dir, loc["family"],
+                            f'{loc["id"]}_{state}{pre.get("filename_suffix", "")}.png')
     sub = "baseline" if state == "original" else "current"
     return os.path.join(REPO, "tests", "screenshots", sub, loc["family"],
                         f'{loc["id"]}_{state}{pre.get("filename_suffix", "")}.png')
@@ -245,7 +263,7 @@ def cmd_capture(m, a):
         obj = resolve_object(m, loc["object"])
         place_camera(m, loc["camera"])
         time.sleep(settle)
-        dest = dest_path(loc, a.state, pre)
+        dest = dest_path(loc, a.state, pre, a.out_dir)
         src, size = screenshot(m, dest)
         cam = m.call_json("get_camera_state")
         exp = defaults()["screenshot"]["expected_resolution"]
@@ -335,6 +353,24 @@ return jsonEncode({{pos = {{x = cam.x, y = cam.y, z = cam.z}}, rot = {{x = q.x, 
     print(json.dumps(pose))
 
 
+def cmd_frame_target(m, a):
+    """Candidate camera from the location's `target` (centre + face normal), for composed faces of a
+    shared mesh (e.g. roadsigns.dae) where the object transform does not describe the sign face."""
+    cat = catalog()
+    loc = locations_for(cat, location=a.location)[0]
+    t = loc["target"]
+    c, n = t["center"], t["normal"]
+    code = f"""
+local c = vec3({c[0]}, {c[1]}, {c[2]})
+local cam = c + vec3({n[0]}, {n[1]}, {n[2]}):normalized() * {t.get("distance", 6)} + vec3(0, 0, {t.get("dz", -0.5)})
+local q = quatFromDir((c - cam):normalized(), vec3(0, 0, 1))
+return jsonEncode({{pos = {{x = cam.x, y = cam.y, z = cam.z}}, rot = {{x = q.x, y = q.y, z = q.z, w = q.w}}}})
+"""
+    pose = json.loads(m.lua(code))
+    m.call("set_free_camera", pos=pose["pos"], rot=pose["rot"], fov=t.get("fov", defaults()["fov"]))
+    print(json.dumps(pose))
+
+
 def cmd_save_camera(m, a):
     cat = catalog()
     cam = m.call_json("get_camera_state")
@@ -367,6 +403,7 @@ def main():
             g = p.add_mutually_exclusive_group(required=True)
             g.add_argument("--family"); g.add_argument("--location")
             p.add_argument("--state", required=True, help="original | poc | ptbr | ...")
+            p.add_argument("--out-dir", help="screenshot sub-folder under tests/screenshots (e.g. phase5)")
             p.add_argument("--no-reload", action="store_true",
                            help="skip the start-of-run level reload (only if the level was loaded after the last mod toggle)")
         else:
@@ -376,13 +413,14 @@ def main():
     p = sp.add_parser("frame"); p.add_argument("--location", required=True)
     p.add_argument("--side", default="-fwd", choices=["+fwd", "-fwd"])
     p.add_argument("--distance", type=float, default=3.5); p.add_argument("--dz", type=float, default=-0.2)
+    p = sp.add_parser("frame-target"); p.add_argument("--location", required=True)
     p = sp.add_parser("save-camera"); p.add_argument("--location", required=True)
     a = ap.parse_args()
     if a.cmd == "mod":
         a.enable = bool(a.enable)
     m = BeamNGMCP(a.url)
     {"status": cmd_status, "mod": cmd_mod, "capture": cmd_capture, "repro": cmd_repro,
-     "frame": cmd_frame, "save-camera": cmd_save_camera}[a.cmd](m, a)
+     "frame": cmd_frame, "frame-target": cmd_frame_target, "save-camera": cmd_save_camera}[a.cmd](m, a)
 
 
 if __name__ == "__main__":

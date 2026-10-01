@@ -3,14 +3,14 @@
   "subject": "mod/traducao_ptbr_wcusa",
   "status": "PASS",
   "counts": {
-    "PASS": 23,
+    "PASS": 24,
     "WARN": 0,
     "FAIL": 0,
     "SKIP": 0
   },
-  "generated": "2026-09-30T21:14:44",
+  "generated": "2026-10-01T01:04:15",
   "meta": {
-    "functional_changed_lines": 1385
+    "functional_changed_lines": 1047
   },
   "checks": [
     {
@@ -75,19 +75,19 @@
     },
     {
       "status": "PASS",
-      "name": "sign_speed5.dae: structure vs original",
+      "name": "sign_r19_10.dae: structure vs original",
       "message": "geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ",
       "details": {}
     },
     {
       "status": "PASS",
-      "name": "sign_speed5.dae: materials",
+      "name": "sign_r19_10.dae: materials",
       "message": "['roadsigns_ptbr_r19_10', 'roadsigns_ptbr_r19_back']",
       "details": {}
     },
     {
       "status": "PASS",
-      "name": "sign_speed5.dae: compiled .cdae",
+      "name": "sign_r19_10.dae: compiled .cdae",
       "message": "present and newer than the .dae (no recompilation, no temp cache)",
       "details": {}
     },
@@ -112,43 +112,49 @@
     {
       "status": "PASS",
       "name": "Override levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json",
-      "message": "48 line(s) differ from the game file, all only in speedLimit",
+      "message": "43 line(s) differ from the game file, only in speedLimit / declared shapeName",
       "details": {}
     },
     {
       "status": "PASS",
       "name": "Override levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json",
-      "message": "39 line(s) differ from the game file, all only in speedLimit",
-      "details": {}
-    },
-    {
-      "status": "PASS",
-      "name": "Override levels/west_coast_usa/main/MissionGroup/beach/beach_decalRoads/beach_AiRoads/items.level.json",
-      "message": "5 line(s) differ from the game file, all only in speedLimit",
-      "details": {}
-    },
-    {
-      "status": "PASS",
-      "name": "Override levels/west_coast_usa/main/MissionGroup/dirt_decalroads/dirt_gravel/items.level.json",
-      "message": "18 line(s) differ from the game file, all only in speedLimit",
+      "message": "38 line(s) differ from the game file, only in speedLimit / declared shapeName",
       "details": {}
     },
     {
       "status": "PASS",
       "name": "Override levels/west_coast_usa/main/MissionGroup/island/island_ai_roads/items.level.json",
-      "message": "8 line(s) differ from the game file, all only in speedLimit",
+      "message": "8 line(s) differ from the game file, only in speedLimit / declared shapeName",
       "details": {}
     },
     {
       "status": "PASS",
       "name": "Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_aiRoads/items.level.json",
-      "message": "12 line(s) differ from the game file, all only in speedLimit",
+      "message": "12 line(s) differ from the game file, only in speedLimit / declared shapeName",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_entrance/items.level.json",
+      "message": "1 line(s) differ from the game file, only in speedLimit / declared shapeName",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_exit/items.level.json",
+      "message": "2 line(s) differ from the game file, only in speedLimit / declared shapeName",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json",
+      "message": "4 line(s) differ from the game file, only in speedLimit / declared shapeName",
       "details": {}
     },
     {
       "status": "PASS",
       "name": "Override levels/west_coast_usa/slotTraffic.json",
-      "message": "1255 line(s) differ from the game file, all only in speedLimit",
+      "message": "939 line(s) differ from the game file, only in speedLimit / declared shapeName",
       "details": {}
     }
   ]

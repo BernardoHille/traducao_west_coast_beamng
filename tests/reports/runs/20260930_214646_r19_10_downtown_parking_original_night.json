@@ -1,0 +1,62 @@
+{
+  "started": "2026-09-30T21:46:41",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "night",
+  "mod_active": false,
+  "vfs": {
+    "roadsigns_ptbr_r19": [
+      {
+        "path": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\objects\\sign_speed25.dae",
+        "expected_contains": "west_coast_usa.zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.cdae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\objects\\sign_speed25.cdae",
+        "expected_contains": "west_coast_usa.zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main\\MissionGroup\\road_signs\\items.level.json",
+        "expected_contains": "west_coast_usa.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "r19_10_downtown_parking",
+      "object": null,
+      "file": "tests/screenshots/phase5/roadsigns_ptbr_r19/r19_10_downtown_parking_original_night.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20260930_214645_69.png",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 25.5059,
+          "x": -144.5126,
+          "z": 124.08
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.99967716455037,
+          "x": 0,
+          "w": 0.025408004182247
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-09-30T21:46:46"
+}

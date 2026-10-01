@@ -102,3 +102,17 @@ Várias capacidades **não têm ferramenta dedicada** e são feitas com `run_lua
 - Material atingido no `raycast` de TSStatic.
 - Identificador estável de objeto entre cargas.
 - Sinal de "nível pronto": é preciso fazer polling do `get_status`.
+
+
+## Achados da Fase 5
+
+| Capacidade | Observado | Testado |
+|---|---|---|
+| `load_level` do **mesmo** mapa | Recria os objetos, mas reaproveita texturas, shapes (`.dae`/`.cdae`) e dados do nível em cache da sessão. Para trocar o estado do mod de forma determinística, carregue outro mapa antes (`smallgrid`) | ✅ |
+| `load_level` com a janela minimizada | Não progride (nem gera log); funciona depois de restaurar a janela | ✅ |
+| `set_time_of_day` | Em algumas sessões o objeto `TimeOfDay` aceita o valor, mas não ticka (`get_simulation_state.speedFactor` = 0), e o sol fica parado. Contorno: `ScatterSky.elevation` via `run_lua` | ⚠️ |
+| `set_ui_state` | `{"route":"play"}` fecha o menu de pausa | ✅ |
+| `set_simulation_speed` | parâmetro `scale` | ✅ |
+| `drive_to` + `set_ai {speedMode:"legal"}` | IA segue o limite da via do navgraph (usado no teste 40/10 km/h) | ✅ |
+| Compilação de `.dae` | Um `.dae` mais novo que o `.cdae` é compilado para `current/temp/levels/…/*.cdae`; esse cache sobrevive à desativação do mod | ✅ |
+| `TSStatic.decalType` | `"Visible Mesh Final"` = mesh usado como decalque (ex.: placas das baias do porto com `sign_speed5.dae`); placas normais: `"Collision Mesh"` | ✅ |

@@ -2,11 +2,18 @@
 
 Projeto de tradução para o português do Brasil dos **elementos visuais** (texturas de placas, letreiros, outdoors, sinalização e marcações no asfalto) do mapa **West Coast USA** do BeamNG.drive.
 
-> ⚠️ **Projeto experimental.** Ainda não existe um mod validado no jogo. **Não há instruções de instalação**: elas serão escritas depois que o override de textura for testado e aprovado.
+> ⚠️ **Projeto em produção.** A primeira família definitiva (`t_roadsigns` + placas R-19 10/40 km/h) está pronta e validada no jogo. Ainda não há instruções de instalação para usuários finais: elas virão com o pacote de release.
 
 ## Estado
 
-**Fase 4 — Pipeline automático de validação (concluída).** O validador está em [`tools/validation/`](tools/validation/README.md). As regras definitivas de localização estão em [`docs/LOCALIZATION_RULES.md`](docs/LOCALIZATION_RULES.md). O override de textura foi validado ([`docs/BEAMNG_OVERRIDE_POC.md`](docs/BEAMNG_OVERRIDE_POC.md)) e há um pipeline de QA visual ([`tools/beamng/QA_PROTOCOL.md`](tools/beamng/QA_PROTOCOL.md)). Ainda não existe tradução implementada.
+**Fase 5 — `t_roadsigns` e R-19 10/40 concluídos.** Detalhes em [`docs/production/PHASE5_ROADSIGNS.md`](docs/production/PHASE5_ROADSIGNS.md):
+- atlas de placas reconstruído a partir do original (PARE, R-2, R-3, painéis, destinos);
+- placas R-19 10/40 km/h próprias;
+- 101 vias com limite funcional sincronizado.
+
+Ferramentas e referências: validador em [`tools/validation/`](tools/validation/README.md), ferramentas de produção em `tools/production/`, regras em [`docs/LOCALIZATION_RULES.md`](docs/LOCALIZATION_RULES.md) e QA visual em [`tools/beamng/QA_PROTOCOL.md`](tools/beamng/QA_PROTOCOL.md).
+
+**Clone novo:** os overrides de dados do nível (limites de via, `slotTraffic.json`) não são versionados, porque são cópias dos arquivos do jogo. Gere-os a partir da sua instalação com `python tools/production/speed_overrides.py`.
 
 O acompanhamento detalhado fica em [`docs/PROJECT_STATUS.md`](docs/PROJECT_STATUS.md).
 
