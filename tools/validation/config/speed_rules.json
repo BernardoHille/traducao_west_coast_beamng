@@ -7,29 +7,73 @@
     "level_zip": "content/levels/west_coast_usa.zip",
     "garages_sites": "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json",
     "arrive_missions_glob": "gameplay/missions/west_coast_usa/arrive/*/info.json",
-    "mods_unpacked": "mods/unpacked"
+    "mods_unpacked": "mods/unpacked",
+    "mod_dir": "mod/traducao_ptbr_wcusa"
   },
   "snapshot": "tools/validation/data/wcusa_speed_snapshot.json",
   "sign_shapes": {
     "pattern": "sign_speed(\\d+)\\.dae$",
     "current_unit": "mph",
-    "doc": "Value comes from the shape name (sign_speed25 = 25). Current signs are US (mph); after Phase 5 the R-19 meshes will declare km/h here."
+    "doc": "Value comes from the shape name (sign_speed25 = 25 mph) unless the mod replaces the mesh (r19_overrides): then the sign shows the R-19 value in km/h.",
+    "r19_overrides": {
+      "sign_speed25": {
+        "value": 40,
+        "unit": "km/h",
+        "mod_file": "levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
+        "material": "roadsigns_ptbr_r19_40"
+      },
+      "sign_speed5": {
+        "value": 10,
+        "unit": "km/h",
+        "mod_file": "levels/west_coast_usa/art/shapes/objects/sign_speed5.dae",
+        "material": "roadsigns_ptbr_r19_10"
+      }
+    },
+    "regulation": "tools/validation/config/sign_regulation.json"
   },
   "radar_policy": "radar_limit == regulatory_road_limit, unless the radar is inside a zone that explicitly regulates the radar value",
   "adas": [
-    {"id": "event01SpeedLimitRecognition", "mod": "adas_event01_speed_limit",
-     "lua": "lua/ge/extensions/event01SpeedLimitRecognition.lua",
-     "classification": "speed_limit_detection", "threshold_var": "alertSpeedKmh", "unit": "km/h", "spawn_var": "playerSpawn"},
-    {"id": "adasSpeedAlertTest", "mod": "adas_speed_alert_test",
-     "lua": "lua/ge/extensions/adasSpeedAlertTest.lua",
-     "classification": "speed_limit_alert", "threshold_var": "SpeedLimitKmh", "unit": "km/h", "spawn_var": "playerSpawn"},
-    {"id": "adasSpeedAlertWeb", "mod": "adas_speed_alert_web",
-     "lua": "lua/ge/extensions/adasSpeedAlertWeb.lua",
-     "classification": "speed_limit_alert", "threshold_var": "SpeedLimitKmh", "unit": "km/h", "spawn_var": "playerSpawn"},
-    {"id": "reactionTest", "mod": "reaction_test",
-     "lua": "lua/ge/extensions/reactionTest.lua",
-     "classification": "experimental_speed_instruction", "range_kmh": [40, 70],
-     "doc": "Experimental speed range of the experiment, NOT a regulatory limit: excluded from sign == road rules."}
+    {
+      "id": "event01SpeedLimitRecognition",
+      "mod": "adas_event01_speed_limit",
+      "lua": "lua/ge/extensions/event01SpeedLimitRecognition.lua",
+      "classification": "speed_limit_detection",
+      "threshold_var": "alertSpeedKmh",
+      "unit": "km/h",
+      "spawn_var": "playerSpawn"
+    },
+    {
+      "id": "adasSpeedAlertTest",
+      "mod": "adas_speed_alert_test",
+      "lua": "lua/ge/extensions/adasSpeedAlertTest.lua",
+      "classification": "speed_limit_alert",
+      "threshold_var": "SpeedLimitKmh",
+      "unit": "km/h",
+      "spawn_var": "playerSpawn"
+    },
+    {
+      "id": "adasSpeedAlertWeb",
+      "mod": "adas_speed_alert_web",
+      "lua": "lua/ge/extensions/adasSpeedAlertWeb.lua",
+      "classification": "speed_limit_alert",
+      "threshold_var": "SpeedLimitKmh",
+      "unit": "km/h",
+      "spawn_var": "playerSpawn"
+    },
+    {
+      "id": "reactionTest",
+      "mod": "reaction_test",
+      "lua": "lua/ge/extensions/reactionTest.lua",
+      "classification": "experimental_speed_instruction",
+      "range_kmh": [
+        40,
+        70
+      ],
+      "doc": "Experimental speed range of the experiment, NOT a regulatory limit: excluded from sign == road rules."
+    }
   ],
-  "adas_classes_compared_to_road": ["speed_limit_detection", "speed_limit_alert"]
+  "adas_classes_compared_to_road": [
+    "speed_limit_detection",
+    "speed_limit_alert"
+  ]
 }

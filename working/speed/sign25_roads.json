@@ -1,0 +1,620 @@
+[
+ {
+  "sign_pos": [
+   -1043.9,
+   2044.75,
+   76.43
+  ],
+  "sign_file": "island/island_signs/items.level.json",
+  "facing_xy": [
+   0.988,
+   0.155
+  ],
+  "roads": [
+   {
+    "road": "bd32eea0-2da1-48e2-ae29-0ed8d819da0a",
+    "pid": "bd32eea0-2da1-48e2-ae29-0ed8d819da0a",
+    "dist_m": 4.84,
+    "angle_face_vs_road_deg": 8.6,
+    "speedLimit": null,
+    "len_m": 509.4,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "island/island_ai_roads/items.level.json",
+    "line": 185
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   476.94,
+   1613.09,
+   76.16
+  ],
+  "sign_file": "island_shippingYard/dock_entrance/items.level.json",
+  "facing_xy": [
+   -1.0,
+   0.0
+  ],
+  "roads": [
+   {
+    "road": "91b75dd4-1651-414d-bd73-9a1c8ec245f7",
+    "pid": "91b75dd4-1651-414d-bd73-9a1c8ec245f7",
+    "dist_m": 2.51,
+    "angle_face_vs_road_deg": 0.0,
+    "speedLimit": null,
+    "len_m": 67.1,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 11
+   },
+   {
+    "road": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "pid": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "dist_m": 2.55,
+    "angle_face_vs_road_deg": 0.0,
+    "speedLimit": null,
+    "len_m": 59.7,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 34
+   },
+   {
+    "road": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "pid": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "dist_m": 7.54,
+    "angle_face_vs_road_deg": 0.4,
+    "speedLimit": null,
+    "len_m": 59.9,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 35
+   },
+   {
+    "road": "fdd1cc5c-087f-4b4e-aa61-ac40f5d1daac",
+    "pid": "fdd1cc5c-087f-4b4e-aa61-ac40f5d1daac",
+    "dist_m": 11.68,
+    "angle_face_vs_road_deg": 1.1,
+    "speedLimit": null,
+    "len_m": 66.6,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 38
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   476.94,
+   1608.08,
+   76.13
+  ],
+  "sign_file": "island_shippingYard/dock_entrance/items.level.json",
+  "facing_xy": [
+   -1.0,
+   0.0
+  ],
+  "roads": [
+   {
+    "road": "91b75dd4-1651-414d-bd73-9a1c8ec245f7",
+    "pid": "91b75dd4-1651-414d-bd73-9a1c8ec245f7",
+    "dist_m": 2.5,
+    "angle_face_vs_road_deg": 0.0,
+    "speedLimit": null,
+    "len_m": 67.1,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 11
+   },
+   {
+    "road": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "pid": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "dist_m": 7.56,
+    "angle_face_vs_road_deg": 0.0,
+    "speedLimit": null,
+    "len_m": 59.7,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 34
+   },
+   {
+    "road": "c41d4c3f-e88f-4438-a389-f5ce4b30b688",
+    "pid": "c41d4c3f-e88f-4438-a389-f5ce4b30b688",
+    "dist_m": 9.47,
+    "angle_face_vs_road_deg": 0.5,
+    "speedLimit": null,
+    "len_m": 80.7,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 36
+   },
+   {
+    "road": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "pid": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "dist_m": 12.55,
+    "angle_face_vs_road_deg": 0.4,
+    "speedLimit": null,
+    "len_m": 59.9,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 35
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   476.94,
+   1618.05,
+   76.08
+  ],
+  "sign_file": "island_shippingYard/dock_entrance/items.level.json",
+  "facing_xy": [
+   -1.0,
+   0.0
+  ],
+  "roads": [
+   {
+    "road": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "pid": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "dist_m": 2.4,
+    "angle_face_vs_road_deg": 0.0,
+    "speedLimit": null,
+    "len_m": 59.7,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 34
+   },
+   {
+    "road": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "pid": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "dist_m": 2.59,
+    "angle_face_vs_road_deg": 0.4,
+    "speedLimit": null,
+    "len_m": 59.9,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 35
+   },
+   {
+    "road": "91b75dd4-1651-414d-bd73-9a1c8ec245f7",
+    "pid": "91b75dd4-1651-414d-bd73-9a1c8ec245f7",
+    "dist_m": 7.47,
+    "angle_face_vs_road_deg": 0.0,
+    "speedLimit": null,
+    "len_m": 67.1,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 11
+   },
+   {
+    "road": "3dd0522d-9512-403f-a510-5b5869e02b08",
+    "pid": "3dd0522d-9512-403f-a510-5b5869e02b08",
+    "dist_m": 11.35,
+    "angle_face_vs_road_deg": 1.6,
+    "speedLimit": null,
+    "len_m": 65.7,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 39
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   476.94,
+   1623.08,
+   76.11
+  ],
+  "sign_file": "island_shippingYard/dock_entrance/items.level.json",
+  "facing_xy": [
+   -1.0,
+   0.0
+  ],
+  "roads": [
+   {
+    "road": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "pid": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "dist_m": 2.45,
+    "angle_face_vs_road_deg": 0.4,
+    "speedLimit": null,
+    "len_m": 59.9,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 35
+   },
+   {
+    "road": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "pid": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "dist_m": 7.44,
+    "angle_face_vs_road_deg": 0.0,
+    "speedLimit": null,
+    "len_m": 59.7,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 34
+   },
+   {
+    "road": "c8f3bfad-f434-4167-85ff-89d0556459a4",
+    "pid": "c8f3bfad-f434-4167-85ff-89d0556459a4",
+    "dist_m": 10.65,
+    "angle_face_vs_road_deg": 0.5,
+    "speedLimit": null,
+    "len_m": 37.1,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 82
+   },
+   {
+    "road": "3dd0522d-9512-403f-a510-5b5869e02b08",
+    "pid": "3dd0522d-9512-403f-a510-5b5869e02b08",
+    "dist_m": 11.26,
+    "angle_face_vs_road_deg": 1.6,
+    "speedLimit": null,
+    "len_m": 65.7,
+    "seen_by": "node order",
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 39
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -274.33,
+   -58.19,
+   121.94
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   0.356,
+   0.935
+  ],
+  "roads": [
+   {
+    "road": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "pid": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "dist_m": 7.13,
+    "angle_face_vs_road_deg": 24.9,
+    "speedLimit": null,
+    "len_m": 348.2,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 178
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -150.87,
+   21.89,
+   125.19
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   -0.823,
+   -0.567
+  ],
+  "roads": [
+   {
+    "road": "69a8ea4e-edb1-46e4-8025-a966cb9776d1",
+    "pid": "69a8ea4e-edb1-46e4-8025-a966cb9776d1",
+    "dist_m": 5.62,
+    "angle_face_vs_road_deg": 9.5,
+    "speedLimit": null,
+    "len_m": 137.1,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 109
+   },
+   {
+    "road": "0176e4b4-5e0b-4993-9566-779fa8a366b8",
+    "pid": "0176e4b4-5e0b-4993-9566-779fa8a366b8",
+    "dist_m": 9.88,
+    "angle_face_vs_road_deg": 79.2,
+    "speedLimit": null,
+    "len_m": 53.9,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1201
+   },
+   {
+    "road": "491e00bc-abee-4fd1-b331-a1685af8bafe",
+    "pid": "491e00bc-abee-4fd1-b331-a1685af8bafe",
+    "dist_m": 11.2,
+    "angle_face_vs_road_deg": 10.6,
+    "speedLimit": null,
+    "len_m": 275.8,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 107
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -193.95,
+   -78.41,
+   121.96
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   -0.877,
+   -0.48
+  ],
+  "roads": [
+   {
+    "road": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "pid": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "dist_m": 9.85,
+    "angle_face_vs_road_deg": 6.2,
+    "speedLimit": null,
+    "len_m": 348.2,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 178
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -169.32,
+   155.47,
+   123.43
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   -0.607,
+   0.795
+  ],
+  "roads": [
+   {
+    "road": "794151eb-77fd-456b-95c7-ab5cd67cdb59",
+    "pid": "794151eb-77fd-456b-95c7-ab5cd67cdb59",
+    "dist_m": 5.88,
+    "angle_face_vs_road_deg": 7.9,
+    "speedLimit": null,
+    "len_m": 357.0,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "DecalRoads/items.level.json",
+    "line": 3069
+   },
+   {
+    "road": "285c1e9e-540f-494d-b278-9c8731888b6f",
+    "pid": "285c1e9e-540f-494d-b278-9c8731888b6f",
+    "dist_m": 6.68,
+    "angle_face_vs_road_deg": 7.8,
+    "speedLimit": null,
+    "len_m": 13.3,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 122
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -195.76,
+   -57.11,
+   121.85
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   0.999,
+   -0.035
+  ],
+  "roads": [
+   {
+    "road": "f01c2753-7191-478b-be89-447cede21f60",
+    "pid": "f01c2753-7191-478b-be89-447cede21f60",
+    "dist_m": 5.19,
+    "angle_face_vs_road_deg": 3.2,
+    "speedLimit": null,
+    "len_m": 61.0,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1196
+   },
+   {
+    "road": "eae97808-842a-42d6-9b2f-b74562c5b440",
+    "pid": "eae97808-842a-42d6-9b2f-b74562c5b440",
+    "dist_m": 6.87,
+    "angle_face_vs_road_deg": 85.0,
+    "speedLimit": null,
+    "len_m": 12.5,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1283
+   },
+   {
+    "road": "c9baab02-c00b-4891-99de-3fb0063b3f5f",
+    "pid": "c9baab02-c00b-4891-99de-3fb0063b3f5f",
+    "dist_m": 6.96,
+    "angle_face_vs_road_deg": 54.6,
+    "speedLimit": null,
+    "len_m": 16.2,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1286
+   },
+   {
+    "road": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "pid": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "dist_m": 8.65,
+    "angle_face_vs_road_deg": 36.9,
+    "speedLimit": null,
+    "len_m": 348.2,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 178
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -260.34,
+   -54.29,
+   122.43
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   0.0,
+   -1.0
+  ],
+  "roads": [
+   {
+    "road": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "pid": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "dist_m": 7.09,
+    "angle_face_vs_road_deg": 4.1,
+    "speedLimit": null,
+    "len_m": 348.2,
+    "seen_by": "both directions",
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 178
+   }
+  ]
+ }
+]

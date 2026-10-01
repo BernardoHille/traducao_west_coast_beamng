@@ -57,6 +57,18 @@ def point_in_polygon(x, y, poly):
 
 
 # ------------------------------------------------------------------ offline data
+def sign_value(shape_name, rules):
+    """(value, unit, source) shown by a sign_speed*.dae: R-19 km/h when the mod replaces the mesh."""
+    cfg = rules["sign_shapes"]
+    stem = os.path.basename(shape_name).rsplit(".", 1)[0].lower()
+    ov = cfg.get("r19_overrides", {}).get(stem)
+    mod_dir = os.path.join(REPO, rules["paths"].get("mod_dir", "mod/traducao_ptbr_wcusa"))
+    if ov and os.path.exists(os.path.join(mod_dir, ov["mod_file"])):
+        return float(ov["value"]), ov["unit"], f"R-19 mesh in the mod ({ov['material']})"
+    m = re.search(cfg["pattern"], shape_name, re.I)
+    return float(m.group(1)), cfg["current_unit"], "original US sign"
+
+
 def _paths():
     r = load_config("speed_rules.json")
     return r, {k: v for k, v in r["paths"].items()}
@@ -68,12 +80,21 @@ def load_static():
     zpath = os.path.join(install, p["level_zip"])
     if not os.path.exists(zpath):
         raise ToolError(f"level zip not found: {zpath} (install_dir in config/speed_rules.json)")
-    data = {"explicit_roads": [], "radars": [], "zones": [], "mission_zones": [], "arrive": [], "adas": []}
+    data = {"explicit_roads": [], "radars": [], "zones": [], "mission_zones": [], "arrive": [], "adas": [], "overridden_files": []}
+    mod_dir = os.path.join(REPO, p.get("mod_dir", "mod/traducao_ptbr_wcusa"))
     with zipfile.ZipFile(zpath) as z:
         for name in z.namelist():
             if not name.endswith("items.level.json"):
                 continue
-            for line in z.read(name).decode("utf-8", "replace").splitlines():
+            # same precedence as the game's VFS: a file of the mod replaces the zip file
+            override = os.path.join(mod_dir, name)
+            if os.path.exists(override):
+                with open(override, encoding="utf-8") as f:
+                    text = f.read()
+                data["overridden_files"].append(name)
+            else:
+                text = z.read(name).decode("utf-8", "replace")
+            for line in text.splitlines():
                 if '"speedLimit"' not in line:
                     continue
                 o = json.loads(line)
@@ -238,34 +259,64 @@ def validate_speeds(refresh=False, report=None, static=None, snapshot=None):
                 rows_entry["result"] = "FAIL"
         rows.append(rows_entry)
 
-    # 3. visual speed signs vs road
-    pat = re.compile(rules["sign_shapes"]["pattern"], re.I)
-    unit = rules["sign_shapes"]["current_unit"]
-    if not snapshot:
-        rep.add(SKIP, "Speed signs vs road", "no navgraph snapshot (run: validate.py speeds --refresh with the map loaded)")
-    else:
+    # 3. visual speed signs vs the roads they regulate (declared association, static) ...
+    reg_path = os.path.join(REPO, rules["sign_shapes"].get("regulation", ""))
+    explicit_by_pid = {r["persistentId"]: r for r in static["explicit_roads"]}
+    if os.path.exists(reg_path):
+        with open(reg_path, encoding="utf-8") as f:
+            reg = json.load(f)
         groups = {}
-        for s in snapshot.get("signs", []):
-            mm = pat.search(s["shape"])
-            if not mm:
-                continue
-            val = float(mm.group(1))
+        for sg in reg["signs"]:
+            val, unit, src = sign_value(sg["shape"] + ".dae", rules)
             sign_mps = mps(val * MPH) if unit == "mph" else mps(val)
-            road = (s.get("road") or {}).get("limit")
-            res = "SKIP" if road is None else ("PASS" if same_speed(sign_mps, road) else "FAIL")
-            groups.setdefault((val, unit), []).append((s, road, res))
-            rows.append({"location": f"{os.path.basename(s['shape'])} @ {[round(x) for x in s['pos'][:2]]}",
-                         "sign": f"{val:g} {unit} (= {kmh(sign_mps):.1f} km/h)", "road": fmt(road) if road else "?",
+            roads = sg.get("regulated_roads", [])
+            vals = [explicit_by_pid.get(r["persistentId"], {}).get("speed_mps") for r in roads]
+            if not roads:
+                res = "FAIL"
+            elif any(v is None for v in vals):
+                res = "FAIL"
+            else:
+                res = "PASS" if all(same_speed(sign_mps, v) for v in vals) else "FAIL"
+            groups.setdefault((val, unit), []).append((sg, vals, res))
+            rows.append({"location": f"{sg['shape']}.dae @ {[round(x) for x in sg['position'][:2]]}",
+                         "sign": f"{val:g} {unit}" + (f" (= {kmh(sign_mps):.1f} km/h)" if unit == "mph" else ""),
+                         "road": ", ".join(sorted({fmt(v) for v in vals if v})) or "auto/?",
                          "radar": "—", "zone": "—", "result": res})
         for (val, u), items in sorted(groups.items()):
             if u != "km/h":
                 rep.add(FAIL, f"Speed sign {val:g} {u}: unit", f"{len(items)} signs show {u}; project rule is km/h (R-19)")
-            fails = [i for i in items if i[2] == "FAIL"]
-            roads = sorted({round(kmh(i[1]), 1) for i in items if i[1]})
-            if fails:
-                rep.add(FAIL, f"Speed sign {val:g} {u} vs road", f"{len(fails)}/{len(items)} signs disagree with the road limit next to them (roads: {roads} km/h)")
             else:
-                rep.add(PASS, f"Speed sign {val:g} {u} vs road", f"{len(items)} signs agree with the road")
+                rep.add(PASS, f"Speed sign {val:g} {u}: unit", f"{len(items)} signs show km/h (R-19 mesh of the mod)")
+            fails = [i for i in items if i[2] == "FAIL"]
+            nroads = len({r["persistentId"] for i in items for r in i[0].get("regulated_roads", [])})
+            if fails:
+                rep.add(FAIL, f"Speed sign {val:g} {u} vs regulated roads",
+                        f"{len(fails)}/{len(items)} signs disagree with (or have no explicit limit on) the roads they regulate",
+                        signs=[{"position": i[0]["position"], "roads": i[0].get("regulated_roads"), "values": i[1]} for i in fails])
+            else:
+                rep.add(PASS, f"Speed sign {val:g} {u} vs regulated roads", f"{len(items)} signs == explicit limit of the {nroads} distinct road(s) they regulate")
+    else:
+        rep.add(SKIP, "Speed signs vs regulated roads", f"no sign regulation config ({reg_path})")
+
+    # ... and, informative, the nearest navgraph edge at each sign (runtime snapshot)
+    if not snapshot:
+        rep.add(SKIP, "Speed signs: nearest navgraph edge", "no navgraph snapshot (run: validate.py speeds --refresh with the map loaded)")
+    else:
+        agree, differ = 0, []
+        for s_ in snapshot.get("signs", []):
+            val, unit, _ = sign_value(s_["shape"], rules)
+            sign_mps = mps(val * MPH) if unit == "mph" else mps(val)
+            road = (s_.get("road") or {}).get("limit")
+            if road is not None and same_speed(sign_mps, road):
+                agree += 1
+            else:
+                differ.append({"shape": os.path.basename(s_["shape"]), "pos": [round(x, 1) for x in s_["pos"][:2]],
+                               "nearest_edge": fmt(road) if road else None})
+        status = PASS if not differ else WARN
+        rep.add(status, "Speed signs: nearest navgraph edge",
+                f"{agree}/{agree + len(differ)} signs: nearest edge == sign value"
+                + (f"; {len(differ)} differ (sign at a transition: e.g. dock booths, where the sign regulates the next road)" if differ else ""),
+                differ=differ)
 
     # 4. ADAS
     for a in static["adas"]:

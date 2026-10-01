@@ -1,0 +1,5631 @@
+{
+ "_doc": "Phase 5 functional speed decisions (one record per DecalRoad). Values in m/s, written directly (no mph chain). Built by analysis in docs/production/PHASE5_ROADSIGNS.md.",
+ "changes": [
+  {
+   "pid": "34abd59f-b95e-4cbd-bcd6-27fe397b6990",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -844.5,
+    555.1
+   ],
+   "length_m": 151.8
+  },
+  {
+   "pid": "3684dece-7d1a-4bc3-87ab-02efe5138b10",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -582.2,
+    626.8
+   ],
+   "length_m": 108.1
+  },
+  {
+   "pid": "d36f7078-7c9b-45e6-bcbc-a89f2f0933a1",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -834.3,
+    769.4
+   ],
+   "length_m": 136.4
+  },
+  {
+   "pid": "8468843a-f4fa-4f35-897f-c8f4bf4b9fde",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -764.9,
+    769.2
+   ],
+   "length_m": 7.5
+  },
+  {
+   "pid": "b82fa360-4078-4ce8-8172-21bc0fb183d8",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -772.4,
+    769.2
+   ],
+   "length_m": 7.5
+  },
+  {
+   "pid": "e8837c61-28af-4d51-88a4-c7c5721b6e5f",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -768.5,
+    867.9
+   ],
+   "length_m": 9.8
+  },
+  {
+   "pid": "792f2e25-7e56-4309-8d97-b7f1f8399db8",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -768.8,
+    819.5
+   ],
+   "length_m": 87.9
+  },
+  {
+   "pid": "37b23233-0473-40cd-a87b-024cfa65068c",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -746.3,
+    769.3
+   ],
+   "length_m": 29.8
+  },
+  {
+   "pid": "efacdeb7-5bc1-4d73-ab9d-f3c68d87bc6e",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -715.1,
+    769.3
+   ],
+   "length_m": 33.1
+  },
+  {
+   "pid": "89e4a75b-a88f-4978-8db4-988a3fdd3bf1",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -768.8,
+    608.2
+   ],
+   "length_m": 107.3
+  },
+  {
+   "pid": "f7741ce7-71e8-468f-adf6-ffdaeea8eaa7",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -843.6,
+    661.6
+   ],
+   "length_m": 134.8
+  },
+  {
+   "pid": "08f1b5cd-1707-4d62-8bc8-a171f31922a5",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -666.3,
+    662.3
+   ],
+   "length_m": 137.2
+  },
+  {
+   "pid": "261cca88-0616-41fa-8b3c-64fdc8203439",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -769.0,
+    715.4
+   ],
+   "length_m": 109.0
+  },
+  {
+   "pid": "ad9aecf5-b5fa-4ad9-a25f-b4763471de2d",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -920.2,
+    663.3
+   ],
+   "length_m": 439.0
+  },
+  {
+   "pid": "5ece99f3-80bd-4c70-927f-8f2f77013e2d",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -768.8,
+    549.8
+   ],
+   "length_m": 10.4
+  },
+  {
+   "pid": "7111e3a6-cdaa-4185-97ef-61671ccf9a39",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -768.8,
+    414.8
+   ],
+   "length_m": 51.1
+  },
+  {
+   "pid": "01f3287c-a2d9-42ad-a7e6-a6a83ae6e692",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -768.9,
+    447.4
+   ],
+   "length_m": 13.5
+  },
+  {
+   "pid": "86f3c425-277c-4448-8223-636648d29136",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -775.0,
+    440.5
+   ],
+   "length_m": 12.2
+  },
+  {
+   "pid": "5051c0f4-6df5-450e-b48f-6809206a7509",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -768.8,
+    499.3
+   ],
+   "length_m": 91.8
+  },
+  {
+   "pid": "001a6a71-f52f-4bfe-ae7d-864689b0309a",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -529.1,
+    603.0
+   ],
+   "length_m": 44.1
+  },
+  {
+   "pid": "0c7b9495-9ed9-444e-a59a-9c1adddb52ad",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -917.6,
+    218.0
+   ],
+   "length_m": 149.8
+  },
+  {
+   "pid": "1298d5f6-ec22-44ea-a14d-e8a1d4293c8e",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -764.6,
+    -25.9
+   ],
+   "length_m": 117.2
+  },
+  {
+   "pid": "21b005bc-c668-434f-b51e-f8502fd1d4c9",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -452.1,
+    677.0
+   ],
+   "length_m": 23.7
+  },
+  {
+   "pid": "4fb00ba5-c852-4f95-867c-5d7f8f78c70f",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -913.1,
+    213.6
+   ],
+   "length_m": 146.7
+  },
+  {
+   "pid": "52bf84cc-0022-45ec-98d1-617118d34ed9",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -764.6,
+    57.0
+   ],
+   "length_m": 148.7
+  },
+  {
+   "pid": "706d4acc-9252-4873-b8b0-66a223bbe508",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -683.3,
+    14.0
+   ],
+   "length_m": 117.0
+  },
+  {
+   "pid": "ba9978ab-9d7f-452e-bdf4-3893e326cfec",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -179.1,
+    483.4
+   ],
+   "length_m": 26.2
+  },
+  {
+   "pid": "bd92df8a-2888-4af6-bc61-7df8ca4cd92a",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -587.1,
+    699.4
+   ],
+   "length_m": 133.3
+  },
+  {
+   "pid": "c13d4e76-059f-44eb-b371-3737c5382518",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -335.3,
+    477.8
+   ],
+   "length_m": 23.5
+  },
+  {
+   "pid": "d500736f-c889-4333-8a00-2b1951c7cf1b",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -472.6,
+    303.8
+   ],
+   "length_m": 63.4
+  },
+  {
+   "pid": "920b4201-6277-49de-a9ee-ecca541dff84",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -636.6,
+    339.7
+   ],
+   "length_m": 72.9
+  },
+  {
+   "pid": "e32d4c7c-498a-403c-b273-70b5fda36725",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -590.6,
+    386.0
+   ],
+   "length_m": 52.3
+  },
+  {
+   "pid": "1c10fc84-6489-4cc9-8af0-025aff1def54",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -491.4,
+    640.9
+   ],
+   "length_m": 73.0
+  },
+  {
+   "pid": "b261d010-7426-4133-8f4d-dc5b8cdbd6fb",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -626.7,
+    194.8
+   ],
+   "length_m": 74.9
+  },
+  {
+   "pid": "f06fe636-6a6d-416b-828e-dc6d981f2d4a",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -859.2,
+    59.9
+   ],
+   "length_m": 219.4
+  },
+  {
+   "pid": "7ee413b2-cbb0-45d4-a36a-8037d8d7172a",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -682.2,
+    91.7
+   ],
+   "length_m": 90.3
+  },
+  {
+   "pid": "411f745d-e342-4c18-ba9c-72a7acd7caee",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -768.5,
+    374.3
+   ],
+   "length_m": 29.3
+  },
+  {
+   "pid": "b1bd3be8-9e7d-4dcb-9b0f-899b0c6ef9b6",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.5",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Conector de mão única com 11,5 m/s (41,4 km/h; ~25 mph) -> 40 km/h.",
+   "center_xy": [
+    -452.9,
+    149.8
+   ],
+   "length_m": 22.1
+  },
+  {
+   "pid": "aeea3a1f-1881-482d-976e-232599d65b29",
+   "file": "DecalRoads/items.level.json",
+   "from": "12",
+   "to": "11.1111",
+   "category": "40_explicit_island",
+   "reason": "Via de mão única da Ilha Spearleaf com 12 m/s (43,2 km/h; ~25 mph); a ilha é sinalizada com placa de 25 mph na entrada -> 40 km/h.",
+   "center_xy": [
+    -1118.6,
+    1959.6
+   ],
+   "length_m": 24.0
+  },
+  {
+   "pid": "098a84b7-a20d-4008-b55d-ce2026092609",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -562.7,
+    182.3
+   ],
+   "length_m": 88.2
+  },
+  {
+   "pid": "0fc7e8b8-633f-419f-9b00-f43a80b6b2df",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -603.1,
+    435.4
+   ],
+   "length_m": 106.6
+  },
+  {
+   "pid": "1a150997-2622-4c7b-a62b-55a5f7366d29",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -744.7,
+    555.1
+   ],
+   "length_m": 44.2
+  },
+  {
+   "pid": "29ab6f49-b9c6-4365-ba69-e8af4cece0da",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -428.4,
+    472.8
+   ],
+   "length_m": 106.1
+  },
+  {
+   "pid": "497c31ae-5052-4867-885a-ae3b77e34e55",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -689.8,
+    522.2
+   ],
+   "length_m": 105.4
+  },
+  {
+   "pid": "4f45f1e4-71a5-4d01-b4fb-bef4cccd1227",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -548.1,
+    131.8
+   ],
+   "length_m": 226.8
+  },
+  {
+   "pid": "65226d2f-9c90-4b3f-914f-2e8415262d77",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -340.9,
+    480.8
+   ],
+   "length_m": 132.9
+  },
+  {
+   "pid": "7613a06a-7b38-4e99-b209-f5a0b32dc6b6",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -534.0,
+    365.2
+   ],
+   "length_m": 108.6
+  },
+  {
+   "pid": "86c33039-3392-4a76-9c3c-a610d215dff4",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -668.5,
+    307.6
+   ],
+   "length_m": 23.9
+  },
+  {
+   "pid": "8b456c30-b84f-443e-89c7-97ea489b2dac",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -442.7,
+    378.9
+   ],
+   "length_m": 148.2
+  },
+  {
+   "pid": "8c1fc29c-7317-49c8-93d9-933c8e944974",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -350.7,
+    394.8
+   ],
+   "length_m": 99.8
+  },
+  {
+   "pid": "8fc48211-b581-4030-b85e-0f506ff2b833",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -768.9,
+    772.7
+   ],
+   "length_m": 6.9
+  },
+  {
+   "pid": "901679a6-b423-4067-90c9-8ce494302842",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -680.9,
+    769.3
+   ],
+   "length_m": 35.9
+  },
+  {
+   "pid": "412545d8-8dae-4e31-acc9-511dacac1a76",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -665.3,
+    585.9
+   ],
+   "length_m": 182.4
+  },
+  {
+   "pid": "a9180ff6-b763-47ad-a0bd-73a278f15cbf",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -702.9,
+    429.0
+   ],
+   "length_m": 150.6
+  },
+  {
+   "pid": "ace58679-1c8a-4249-9af3-0ae9a779aa35",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -515.7,
+    461.2
+   ],
+   "length_m": 147.5
+  },
+  {
+   "pid": "b198f306-501d-4c8f-99de-b761e39840da",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -639.8,
+    259.7
+   ],
+   "length_m": 110.8
+  },
+  {
+   "pid": "c68722df-03c1-4374-bc82-604a5df20ca0",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -904.3,
+    337.6
+   ],
+   "length_m": 191.3
+  },
+  {
+   "pid": "c752b595-80b8-465a-bdd5-130d97b61ef6",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -600.1,
+    531.8
+   ],
+   "length_m": 152.1
+  },
+  {
+   "pid": "cb84369d-52d0-4eb7-9d92-13545760ddd8",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -706.2,
+    325.7
+   ],
+   "length_m": 111.2
+  },
+  {
+   "pid": "cdce79a2-7c12-4b1b-8332-2eaf2e9656b1",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -685.1,
+    136.4
+   ],
+   "length_m": 74.5
+  },
+  {
+   "pid": "d537370d-287b-435a-8275-e1de5063cfab",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -739.6,
+    237.4
+   ],
+   "length_m": 145.4
+  },
+  {
+   "pid": "d8901916-7308-4e2e-a437-ca3c8d5b33aa",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -505.5,
+    549.6
+   ],
+   "length_m": 109.3
+  },
+  {
+   "pid": "e4cd4744-9d8f-4046-b52e-bcc4a43ad32e",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -544.9,
+    276.6
+   ],
+   "length_m": 149.7
+  },
+  {
+   "pid": "ebcd3c84-d25f-4449-944c-c451a8e52de7",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -809.4,
+    322.5
+   ],
+   "length_m": 148.9
+  },
+  {
+   "pid": "ed1a81e1-fcc0-45f0-90b3-e8d46d18b132",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -765.4,
+    174.9
+   ],
+   "length_m": 223.2
+  },
+  {
+   "pid": "f944e354-cd30-40d5-ad14-175a9619ad1a",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -868.2,
+    440.7
+   ],
+   "length_m": 139.8
+  },
+  {
+   "pid": "fd7dff71-e624-4aee-9d27-1e7836ecd05e",
+   "file": "DecalRoads/items.level.json",
+   "from": "11.18",
+   "to": "11.1111",
+   "category": "40_explicit_25mph",
+   "reason": "Via local da malha residencial oeste com limite explícito de 25 mph (11,18 m/s = 40,23 km/h) -> 40 km/h (tabela 25->40, MBST-I Tabela 1: via local 30/40).",
+   "center_xy": [
+    -762.7,
+    381.5
+   ],
+   "length_m": 14.3
+  },
+  {
+   "pid": "343ab351-4b95-4bef-954e-117376a0a829",
+   "file": "island/island_ai_roads/items.level.json",
+   "from": "12",
+   "to": "11.1111",
+   "category": "40_explicit_island",
+   "reason": "Via de mão única da Ilha Spearleaf com 12 m/s (43,2 km/h; ~25 mph); a ilha é sinalizada com placa de 25 mph na entrada -> 40 km/h.",
+   "center_xy": [
+    -1037.0,
+    1877.8
+   ],
+   "length_m": 559.7
+  },
+  {
+   "pid": "9a85afde-c46c-4fdf-8d87-4ee9f4c0d5ec",
+   "file": "island/island_ai_roads/items.level.json",
+   "from": "12",
+   "to": "11.1111",
+   "category": "40_explicit_island",
+   "reason": "Via de mão única da Ilha Spearleaf com 12 m/s (43,2 km/h; ~25 mph); a ilha é sinalizada com placa de 25 mph na entrada -> 40 km/h.",
+   "center_xy": [
+    -1115.7,
+    1907.3
+   ],
+   "length_m": 54.7
+  },
+  {
+   "pid": "07b3adc4-fd1a-4acf-b91f-79de0f7571fb",
+   "file": "island/island_ai_roads/items.level.json",
+   "from": "12",
+   "to": "11.1111",
+   "category": "40_explicit_island",
+   "reason": "Via de mão única da Ilha Spearleaf com 12 m/s (43,2 km/h; ~25 mph); a ilha é sinalizada com placa de 25 mph na entrada -> 40 km/h.",
+   "center_xy": [
+    -1123.1,
+    1937.2
+   ],
+   "length_m": 13.8
+  },
+  {
+   "pid": "80637bd2-a494-4aa0-bf69-ebab79d39e23",
+   "file": "island/island_ai_roads/items.level.json",
+   "from": "12",
+   "to": "11.1111",
+   "category": "40_explicit_island",
+   "reason": "Via de mão única da Ilha Spearleaf com 12 m/s (43,2 km/h; ~25 mph); a ilha é sinalizada com placa de 25 mph na entrada -> 40 km/h.",
+   "center_xy": [
+    -1120.3,
+    1940.4
+   ],
+   "length_m": 16.7
+  },
+  {
+   "pid": "188524b9-10d6-4b9d-98d0-7030b3791b53",
+   "file": "island/island_ai_roads/items.level.json",
+   "from": "12",
+   "to": "11.1111",
+   "category": "40_explicit_island",
+   "reason": "Via de mão única da Ilha Spearleaf com 12 m/s (43,2 km/h; ~25 mph); a ilha é sinalizada com placa de 25 mph na entrada -> 40 km/h.",
+   "center_xy": [
+    -1145.3,
+    1949.1
+   ],
+   "length_m": 63.9
+  },
+  {
+   "pid": "b17d2fea-9fc2-45a1-9cb7-33f5cca44b8a",
+   "file": "island/island_ai_roads/items.level.json",
+   "from": "12",
+   "to": "11.1111",
+   "category": "40_explicit_island",
+   "reason": "Via de mão única da Ilha Spearleaf com 12 m/s (43,2 km/h; ~25 mph); a ilha é sinalizada com placa de 25 mph na entrada -> 40 km/h.",
+   "center_xy": [
+    -1120.6,
+    1940.8
+   ],
+   "length_m": 13.4
+  },
+  {
+   "pid": "d7a8c9ec-ab26-41c4-831b-cb2d164494af",
+   "file": "island/island_ai_roads/items.level.json",
+   "from": "12",
+   "to": "11.1111",
+   "category": "40_explicit_island",
+   "reason": "Via de mão única da Ilha Spearleaf com 12 m/s (43,2 km/h; ~25 mph); a ilha é sinalizada com placa de 25 mph na entrada -> 40 km/h.",
+   "center_xy": [
+    -1118.1,
+    1944.1
+   ],
+   "length_m": 12.5
+  },
+  {
+   "pid": "bd32eea0-2da1-48e2-ae29-0ed8d819da0a",
+   "file": "island/island_ai_roads/items.level.json",
+   "from": null,
+   "to": "11.1111",
+   "category": "40_sign",
+   "reason": "Via principal da Ilha Spearleaf; placa de 25 mph na entrada da ilha (demais vias da ilha já explícitas em ~25 mph). Via vista de frente por placa R-19 40 (ex-25 mph): PLACA = VIA = COMPORTAMENTO.",
+   "signs": [
+    [
+     -1043.9,
+     2044.75
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    -1056.9,
+    2010.5
+   ],
+   "length_m": 509.4,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 40 samples), 2026-09-30"
+  },
+  {
+   "pid": "124bf149-4e6b-4ee7-ba47-ec54adf30793",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "11.1111",
+   "category": "40_sign",
+   "reason": "Docas: faixa logo após as placas PARE+25 mph na saída da cobertura das cabines (x=476,9), sentido de entrada no pátio. Via vista de frente por placa R-19 40 (ex-25 mph): PLACA = VIA = COMPORTAMENTO.",
+   "signs": [
+    [
+     476.94,
+     1608.08
+    ],
+    [
+     476.94,
+     1613.09
+    ],
+    [
+     476.94,
+     1618.05
+    ],
+    [
+     476.94,
+     1623.08
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    510.4,
+    1617.1
+   ],
+   "length_m": 39.7,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 4 samples), 2026-09-30"
+  },
+  {
+   "pid": "fdd1cc5c-087f-4b4e-aa61-ac40f5d1daac",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "11.1111",
+   "category": "40_sign",
+   "reason": "Docas: faixa logo após as placas PARE+25 mph na saída da cobertura das cabines (x=476,9), sentido de entrada no pátio. Via vista de frente por placa R-19 40 (ex-25 mph): PLACA = VIA = COMPORTAMENTO.",
+   "signs": [
+    [
+     476.94,
+     1608.08
+    ],
+    [
+     476.94,
+     1613.09
+    ],
+    [
+     476.94,
+     1618.05
+    ],
+    [
+     476.94,
+     1623.08
+    ]
+   ],
+   "drivability": 0.25,
+   "center_xy": [
+    517.1,
+    1626.1
+   ],
+   "length_m": 66.6,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 7 samples), 2026-09-30"
+  },
+  {
+   "pid": "3dd0522d-9512-403f-a510-5b5869e02b08",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "11.1111",
+   "category": "40_sign",
+   "reason": "Docas: faixa logo após as placas PARE+25 mph na saída da cobertura das cabines (x=476,9), sentido de entrada no pátio. Via vista de frente por placa R-19 40 (ex-25 mph): PLACA = VIA = COMPORTAMENTO.",
+   "signs": [
+    [
+     476.94,
+     1608.08
+    ],
+    [
+     476.94,
+     1613.09
+    ],
+    [
+     476.94,
+     1618.05
+    ],
+    [
+     476.94,
+     1623.08
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    516.9,
+    1629.9
+   ],
+   "length_m": 65.7,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 7 samples), 2026-09-30"
+  },
+  {
+   "pid": "515427bb-609d-476b-8257-7bcaa84d569f",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "11.1111",
+   "category": "40_sign",
+   "reason": "Rua com três placas de 25 mph ao longo dela (setor do pátio APM/oficina). Via vista de frente por placa R-19 40 (ex-25 mph): PLACA = VIA = COMPORTAMENTO.",
+   "signs": [
+    [
+     -274.33,
+     -58.19
+    ],
+    [
+     -193.95,
+     -78.41
+    ],
+    [
+     -260.34,
+     -54.29
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    -177.9,
+    -38.9
+   ],
+   "length_m": 348.2,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 15 samples), 2026-09-30"
+  },
+  {
+   "pid": "69a8ea4e-edb1-46e4-8025-a966cb9776d1",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "11.1111",
+   "category": "40_sign",
+   "reason": "Via pública vista de frente pela placa de 25 mph (-150,9; 21,9). O caminho do estacionamento ao lado recebe 10. Via vista de frente por placa R-19 40 (ex-25 mph): PLACA = VIA = COMPORTAMENTO.",
+   "signs": [
+    [
+     -150.87,
+     21.89
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    -214.8,
+    -1.3
+   ],
+   "length_m": 137.1,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 7 samples), 2026-09-30"
+  },
+  {
+   "pid": "794151eb-77fd-456b-95c7-ab5cd67cdb59",
+   "file": "DecalRoads/items.level.json",
+   "from": null,
+   "to": "11.1111",
+   "category": "40_sign",
+   "reason": "Via local junto à placa de 25 mph com PARE no mesmo poste (ponto de QA roadsigns_hill_speed25). Via vista de frente por placa R-19 40 (ex-25 mph): PLACA = VIA = COMPORTAMENTO.",
+   "signs": [
+    [
+     -169.32,
+     155.47
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    -321.8,
+    195.7
+   ],
+   "length_m": 357.0,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 23 samples), 2026-09-30"
+  },
+  {
+   "pid": "285c1e9e-540f-494d-b278-9c8731888b6f",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "11.1111",
+   "category": "40_sign",
+   "reason": "Conector de 13 m alinhado à mesma placa de 25 mph (-169,3; 155,5). Via vista de frente por placa R-19 40 (ex-25 mph): PLACA = VIA = COMPORTAMENTO.",
+   "signs": [
+    [
+     -169.32,
+     155.47
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    -158.4,
+    153.4
+   ],
+   "length_m": 13.3,
+   "old_effective_mps": 27.7778,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 2 samples), 2026-09-30"
+  },
+  {
+   "pid": "f01c2753-7191-478b-be89-447cede21f60",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "11.1111",
+   "category": "40_sign",
+   "reason": "Caminho alinhado (3°) à placa de 25 mph (-195,8; -57,1); fora do raio das placas de 5 mph. Via vista de frente por placa R-19 40 (ex-25 mph): PLACA = VIA = COMPORTAMENTO.",
+   "signs": [
+    [
+     -195.76,
+     -57.11
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -207.7,
+    -60.0
+   ],
+   "length_m": 61.0,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 6 samples), 2026-09-30"
+  },
+  {
+   "pid": "91b75dd4-1651-414d-bd73-9a1c8ec245f7",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Docas: faixas das cabines de entrada, entre a placa de 5 mph da cabine (447,5; 1623,9) e as placas de 25 mph na saída da cobertura. Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     447.49,
+     1623.87
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    464.2,
+    1610.5
+   ],
+   "length_m": 67.1,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 5 samples), 2026-09-30"
+  },
+  {
+   "pid": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Docas: faixas das cabines de entrada, entre a placa de 5 mph da cabine (447,5; 1623,9) e as placas de 25 mph na saída da cobertura. Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     447.49,
+     1623.87
+    ]
+   ],
+   "drivability": 0.25,
+   "center_xy": [
+    455.9,
+    1615.6
+   ],
+   "length_m": 59.7,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 4 samples), 2026-09-30"
+  },
+  {
+   "pid": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Docas: faixas das cabines de entrada, entre a placa de 5 mph da cabine (447,5; 1623,9) e as placas de 25 mph na saída da cobertura. Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     447.49,
+     1623.87
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    456.1,
+    1620.6
+   ],
+   "length_m": 59.9,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 4 samples), 2026-09-30"
+  },
+  {
+   "pid": "c41d4c3f-e88f-4438-a389-f5ce4b30b688",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Docas: faixas das cabines de entrada, entre a placa de 5 mph da cabine (447,5; 1623,9) e as placas de 25 mph na saída da cobertura. Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     447.49,
+     1623.87
+    ]
+   ],
+   "drivability": 0.75,
+   "center_xy": [
+    467.3,
+    1603.7
+   ],
+   "length_m": 80.7,
+   "old_effective_mps": 13.8889,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 12 samples), 2026-09-30"
+  },
+  {
+   "pid": "2f01d0bd-0464-4d50-94e2-966f45a3cf7c",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Docas: faixas do portão norte com placas de 5 mph em y=1688. Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     444.4,
+     1687.93
+    ],
+    [
+     461.36,
+     1687.99
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    442.8,
+    1707.0
+   ],
+   "length_m": 58.9,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 5 samples), 2026-09-30"
+  },
+  {
+   "pid": "9c22eb33-974d-413a-86f8-911b997d225b",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Docas: faixas do portão norte com placas de 5 mph em y=1688. Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     444.4,
+     1687.93
+    ],
+    [
+     461.36,
+     1687.99
+    ]
+   ],
+   "drivability": 0.600000024,
+   "center_xy": [
+    439.0,
+    1709.7
+   ],
+   "length_m": 57.1,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 5 samples), 2026-09-30"
+  },
+  {
+   "pid": "c7478227-25a3-4dcf-9e65-c27dd2efcd45",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Docas: faixas do portão norte com placas de 5 mph em y=1688. Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     444.4,
+     1687.93
+    ],
+    [
+     461.36,
+     1687.99
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    453.4,
+    1701.8
+   ],
+   "length_m": 89.6,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 8 samples), 2026-09-30"
+  },
+  {
+   "pid": "3ce80825-1bfd-47bd-a34a-39dee86cf11c",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Docas: faixas do portão norte com placas de 5 mph em y=1688. Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     444.4,
+     1687.93
+    ],
+    [
+     461.36,
+     1687.99
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    457.4,
+    1700.3
+   ],
+   "length_m": 85.2,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 6 samples), 2026-09-30"
+  },
+  {
+   "pid": "f767b0b5-57f5-481e-84e9-75c2ae5981dd",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Docas: faixas do portão norte com placas de 5 mph em y=1688. Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     444.4,
+     1687.93
+    ],
+    [
+     461.36,
+     1687.99
+    ]
+   ],
+   "drivability": 1,
+   "center_xy": [
+    461.1,
+    1697.1
+   ],
+   "length_m": 78.9,
+   "old_effective_mps": 16.6667,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 7 samples), 2026-09-30"
+  },
+  {
+   "pid": "51a03967-74e3-4244-8ab2-b1d397744e08",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Caminho interno de estacionamento a ≤ 15 m de placa de 5 mph (setor centro/oficinas). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -258.85,
+     -43.84
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -263.0,
+    -37.8
+   ],
+   "length_m": 30.2,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 4 samples), 2026-09-30"
+  },
+  {
+   "pid": "b85fcca8-795b-4384-aa9c-a01ef822268c",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Caminho interno de estacionamento a ≤ 15 m de placa de 5 mph (setor centro/oficinas). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -258.85,
+     -43.84
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -241.7,
+    -43.8
+   ],
+   "length_m": 83.7,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 9 samples), 2026-09-30"
+  },
+  {
+   "pid": "4f2b25c5-61c5-43b8-944a-593757b2c272",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Caminho interno de estacionamento a ≤ 15 m de placa de 5 mph (setor centro/oficinas). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -258.85,
+     -43.84
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -213.5,
+    -45.1
+   ],
+   "length_m": 58.8,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 7 samples), 2026-09-30"
+  },
+  {
+   "pid": "0753d0e1-6cba-46a8-b992-89a49e4360b2",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Caminho interno de estacionamento a ≤ 15 m de placa de 5 mph (setor centro/oficinas). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -191.11,
+     -10.91
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -182.7,
+    -8.3
+   ],
+   "length_m": 18.0,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "a16f6a08-85db-41e0-8d4c-9d0d3dc1a507",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Caminho interno de estacionamento a ≤ 15 m de placa de 5 mph (setor centro/oficinas). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -191.11,
+     -10.91
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -218.1,
+    -27.5
+   ],
+   "length_m": 61.5,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 6 samples), 2026-09-30"
+  },
+  {
+   "pid": "66ad14c3-7a0e-4d34-8b32-c9b8874981c2",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Caminho interno de estacionamento a ≤ 15 m de placa de 5 mph (setor centro/oficinas). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -191.11,
+     -10.91
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -214.8,
+    -19.3
+   ],
+   "length_m": 56.5,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 4 samples), 2026-09-30"
+  },
+  {
+   "pid": "b9cebfab-b9e4-4d9d-a588-8fd20bc8c711",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Caminho interno de estacionamento a ≤ 15 m de placa de 5 mph (setor centro/oficinas). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -191.11,
+     -10.91
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -185.7,
+    -27.7
+   ],
+   "length_m": 25.9,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 4 samples), 2026-09-30"
+  },
+  {
+   "pid": "6d99423d-5103-450d-b8f2-9658d43211d6",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Caminho interno de estacionamento a ≤ 15 m de placa de 5 mph (setor centro/oficinas). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -144.35,
+     22.31
+    ],
+    [
+     -54.26,
+     77.96
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -81.6,
+    49.6
+   ],
+   "length_m": 121.6,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 10 samples), 2026-09-30"
+  },
+  {
+   "pid": "0176e4b4-5e0b-4993-9566-779fa8a366b8",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Caminho interno de estacionamento a ≤ 15 m de placa de 5 mph (setor centro/oficinas). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -144.35,
+     22.31
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -130.3,
+    12.0
+   ],
+   "length_m": 53.9,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 6 samples), 2026-09-30"
+  },
+  {
+   "pid": "bfd7d9f8-49a0-4a4c-bccf-b41d26dea860",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    35.4,
+    713.6
+   ],
+   "length_m": 35.3,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "105a8d42-698f-4a46-ac4a-97ff687b5eef",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    35.8,
+    709.0
+   ],
+   "length_m": 9.2,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 2 samples), 2026-09-30"
+  },
+  {
+   "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -41.4,
+    751.1
+   ],
+   "length_m": 190.7,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 14 samples), 2026-09-30"
+  },
+  {
+   "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -18.7,
+    720.8
+   ],
+   "length_m": 168.4,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 12 samples), 2026-09-30"
+  },
+  {
+   "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+   "file": "AIWaypointsGroup/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -4.5,
+    783.5
+   ],
+   "length_m": 422.6,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 26 samples), 2026-09-30"
+  },
+  {
+   "pid": "9b385b39-eb2b-4318-b651-35c2c4bd4cf7",
+   "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -12.2,
+    716.0
+   ],
+   "length_m": 16.3,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 2 samples), 2026-09-30"
+  },
+  {
+   "pid": "73507d1b-0264-49b9-81c3-0053b1a1f98e",
+   "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -12.3,
+    747.5
+   ],
+   "length_m": 16.2,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 2 samples), 2026-09-30"
+  },
+  {
+   "pid": "9e31202f-3031-4b21-9624-8dbfd5a13a0e",
+   "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -13.0,
+    764.1
+   ],
+   "length_m": 16.8,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 2 samples), 2026-09-30"
+  },
+  {
+   "pid": "bcb9e681-2305-42ef-8e43-7208d7a591ce",
+   "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -13.1,
+    780.6
+   ],
+   "length_m": 16.1,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 2 samples), 2026-09-30"
+  },
+  {
+   "pid": "30616173-e7e3-4073-adfd-d52c8c2938ce",
+   "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -12.5,
+    732.0
+   ],
+   "length_m": 16.4,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 2 samples), 2026-09-30"
+  },
+  {
+   "pid": "87a6b276-1cbe-4101-8fec-33d57954a1d3",
+   "file": "DecalRoads/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    35.7,
+    671.8
+   ],
+   "length_m": 21.3,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 2 samples), 2026-09-30"
+  },
+  {
+   "pid": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    24.9,
+    776.5
+   ],
+   "length_m": 141.9,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 8 samples), 2026-09-30"
+  },
+  {
+   "pid": "96dddde7-d80e-4e92-a030-4960bd0e3308",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -40.0,
+    827.7
+   ],
+   "length_m": 56.7,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 5 samples), 2026-09-30"
+  },
+  {
+   "pid": "96fc52db-9359-4bdb-94ed-a0f4722728a0",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -54.2,
+    812.4
+   ],
+   "length_m": 28.5,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "44b86227-5455-4cda-8078-a39beec672c3",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -54.9,
+    780.6
+   ],
+   "length_m": 28.4,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "27536d61-8d2a-43ce-a683-f75139d23648",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -54.9,
+    764.3
+   ],
+   "length_m": 28.3,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "4985a379-78e9-49ad-a945-225bce47fa8f",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -54.5,
+    748.5
+   ],
+   "length_m": 27.8,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "23202107-b6d3-4ed6-be4c-7c2190b1119e",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -31.4,
+    747.8
+   ],
+   "length_m": 21.5,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "168d7b42-f3a2-493e-b8ff-7ac28a5b5fba",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -29.8,
+    795.8
+   ],
+   "length_m": 25.2,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "188edb37-4239-4578-a510-f9d094d712f5",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -13.1,
+    805.5
+   ],
+   "length_m": 19.0,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 2 samples), 2026-09-30"
+  },
+  {
+   "pid": "907541b5-afa6-4150-9be8-59fb9fc82743",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -4.2,
+    813.2
+   ],
+   "length_m": 29.1,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    7.4,
+    795.8
+   ],
+   "length_m": 36.1,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "dcf3714d-5349-4179-9104-51676ea6bec2",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    10.1,
+    763.8
+   ],
+   "length_m": 28.6,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "a1c165f3-f3b1-4d2c-8466-609dbe17ce4f",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    8.2,
+    747.5
+   ],
+   "length_m": 28.9,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "4147c77e-9ed1-4acd-b267-c9ab04eef638",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    32.9,
+    763.7
+   ],
+   "length_m": 19.7,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "ceeb2766-f0e5-489f-a350-d1443b835417",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    33.2,
+    795.4
+   ],
+   "length_m": 20.9,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "24c2b3ac-c4b2-478d-9a3e-d3737e57084a",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    16.4,
+    827.4
+   ],
+   "length_m": 57.6,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 5 samples), 2026-09-30"
+  },
+  {
+   "pid": "050662bf-2017-43a0-99ae-6d3e0390e0a6",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -13.1,
+    831.1
+   ],
+   "length_m": 37.1,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  },
+  {
+   "pid": "3b6a268e-aa08-4c8f-9213-2f6f16a04cec",
+   "file": "dirt_decalroads/dirt_gravel/items.level.json",
+   "from": null,
+   "to": "2.7778",
+   "category": "10_sign",
+   "reason": "Pátio de armazéns do porto (30 placas de 5 mph; caminhos internos road_invisible contidos no pátio). Caminho interno de pátio/estacionamento regulamentado por placa R-19 10 (ex-5 mph); não é via pública.",
+   "signs": [
+    [
+     -25.54,
+     731.93
+    ],
+    [
+     -25.54,
+     747.93
+    ],
+    [
+     -25.54,
+     763.93
+    ],
+    [
+     -25.54,
+     779.93
+    ],
+    [
+     -25.54,
+     795.71
+    ],
+    [
+     -22.02,
+     804.77
+    ],
+    [
+     -13.04,
+     804.77
+    ],
+    [
+     -3.86,
+     804.77
+    ],
+    [
+     -25.54,
+     715.97
+    ],
+    [
+     -0.58,
+     796.03
+    ],
+    [
+     -0.58,
+     779.93
+    ],
+    [
+     -0.58,
+     763.83
+    ],
+    [
+     2.41,
+     748.67
+    ],
+    [
+     -65.04,
+     715.77
+    ],
+    [
+     -65.04,
+     732.04
+    ],
+    [
+     -65.04,
+     747.89
+    ],
+    [
+     -65.04,
+     764.11
+    ],
+    [
+     -65.04,
+     780.02
+    ],
+    [
+     -65.04,
+     795.89
+    ],
+    [
+     -65.04,
+     812.04
+    ],
+    [
+     -65.04,
+     827.77
+    ],
+    [
+     -21.76,
+     844.02
+    ],
+    [
+     -12.9,
+     844.02
+    ],
+    [
+     -3.89,
+     844.02
+    ],
+    [
+     38.95,
+     827.93
+    ],
+    [
+     38.95,
+     811.79
+    ],
+    [
+     38.95,
+     795.93
+    ],
+    [
+     38.95,
+     779.82
+    ],
+    [
+     38.95,
+     763.93
+    ],
+    [
+     38.95,
+     748.03
+    ]
+   ],
+   "drivability": 0.200000003,
+   "center_xy": [
+    -22.0,
+    837.6
+   ],
+   "length_m": 26.4,
+   "old_effective_mps": 8.3333,
+   "old_effective_source": "navgraph (map.findClosestRoad on the road nodes, mode of 3 samples), 2026-09-30"
+  }
+ ]
+}

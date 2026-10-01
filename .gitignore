@@ -44,3 +44,13 @@ temp/
 *.kra~
 *.bak
 ~$*
+
+# Phase 5 — level data overrides are copies of the game's level files (2.5 MB / 23.5 MB) with a few
+# speedLimit values changed: regenerate them from your own game install, deterministically:
+#   python tools/production/speed_overrides.py   (decisions: working/speed/speed_changes.json)
+mod/traducao_ptbr_wcusa/levels/west_coast_usa/main/
+mod/traducao_ptbr_wcusa/levels/west_coast_usa/slotTraffic.json
+
+# Generated renders (sources: working/layered/t_roadsigns, working/layered/r19)
+working/png/*.png
+working/png/r19/

@@ -1,0 +1,2695 @@
+[
+ {
+  "sign_pos": [
+   447.49,
+   1623.87,
+   76.72
+  ],
+  "sign_file": "island_shippingYard/dock_entrance/items.level.json",
+  "facing_xy": [
+   0.826,
+   -0.564
+  ],
+  "roads": [
+   {
+    "road": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "pid": "abc8a5c1-c2f8-4c63-8078-6d930fe19ec1",
+    "dist_m": 3.32,
+    "angle_face_vs_road_deg": 34.3,
+    "speedLimit": null,
+    "len_m": 59.9,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 35
+   },
+   {
+    "road": "d8060306-fca3-41bd-8d43-4cfaf371a209",
+    "pid": "d8060306-fca3-41bd-8d43-4cfaf371a209",
+    "dist_m": 6.44,
+    "angle_face_vs_road_deg": 60.2,
+    "speedLimit": null,
+    "len_m": 49.5,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 51
+   },
+   {
+    "road": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "pid": "7d177985-549d-42a0-8c18-ddfa3330dd5a",
+    "dist_m": 8.28,
+    "angle_face_vs_road_deg": 34.5,
+    "speedLimit": null,
+    "len_m": 59.7,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 34
+   },
+   {
+    "road": "d38c57b5-f15c-46f9-a16f-1222e80890d9",
+    "pid": "d38c57b5-f15c-46f9-a16f-1222e80890d9",
+    "dist_m": 10.96,
+    "angle_face_vs_road_deg": 3.1,
+    "speedLimit": null,
+    "len_m": 35.9,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 81
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   444.4,
+   1687.93,
+   76.46
+  ],
+  "sign_file": "island_shippingYard/dock_exit/items.level.json",
+  "facing_xy": [
+   -0.501,
+   0.865
+  ],
+  "roads": [
+   {
+    "road": "2f01d0bd-0464-4d50-94e2-966f45a3cf7c",
+    "pid": "2f01d0bd-0464-4d50-94e2-966f45a3cf7c",
+    "dist_m": 3.29,
+    "angle_face_vs_road_deg": 29.7,
+    "speedLimit": null,
+    "len_m": 58.9,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 45
+   },
+   {
+    "road": "c7478227-25a3-4dcf-9e65-c27dd2efcd45",
+    "pid": "c7478227-25a3-4dcf-9e65-c27dd2efcd45",
+    "dist_m": 3.5,
+    "angle_face_vs_road_deg": 29.0,
+    "speedLimit": null,
+    "len_m": 89.6,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 58
+   },
+   {
+    "road": "3ce80825-1bfd-47bd-a34a-39dee86cf11c",
+    "pid": "3ce80825-1bfd-47bd-a34a-39dee86cf11c",
+    "dist_m": 8.38,
+    "angle_face_vs_road_deg": 30.1,
+    "speedLimit": null,
+    "len_m": 85.2,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 59
+   },
+   {
+    "road": "9c22eb33-974d-413a-86f8-911b997d225b",
+    "pid": "9c22eb33-974d-413a-86f8-911b997d225b",
+    "dist_m": 8.69,
+    "angle_face_vs_road_deg": 30.8,
+    "speedLimit": null,
+    "len_m": 57.1,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 46
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   461.36,
+   1687.99,
+   76.45
+  ],
+  "sign_file": "island_shippingYard/dock_exit/items.level.json",
+  "facing_xy": [
+   0.596,
+   0.803
+  ],
+  "roads": [
+   {
+    "road": "f767b0b5-57f5-481e-84e9-75c2ae5981dd",
+    "pid": "f767b0b5-57f5-481e-84e9-75c2ae5981dd",
+    "dist_m": 3.56,
+    "angle_face_vs_road_deg": 37.2,
+    "speedLimit": null,
+    "len_m": 78.9,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 60
+   },
+   {
+    "road": "3ce80825-1bfd-47bd-a34a-39dee86cf11c",
+    "pid": "3ce80825-1bfd-47bd-a34a-39dee86cf11c",
+    "dist_m": 8.58,
+    "angle_face_vs_road_deg": 36.6,
+    "speedLimit": null,
+    "len_m": 85.2,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 59
+   },
+   {
+    "road": "b0e3e22e-6aac-452b-b8c4-c20f2b399dcc",
+    "pid": "b0e3e22e-6aac-452b-b8c4-c20f2b399dcc",
+    "dist_m": 11.16,
+    "angle_face_vs_road_deg": 38.0,
+    "speedLimit": null,
+    "len_m": 27.3,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 9
+   },
+   {
+    "road": "ec64d611-d2c6-4579-bcc7-6ddbdb6732e8",
+    "pid": "ec64d611-d2c6-4579-bcc7-6ddbdb6732e8",
+    "dist_m": 13.34,
+    "angle_face_vs_road_deg": 57.2,
+    "speedLimit": null,
+    "len_m": 26.6,
+    "oneWay": true,
+    "lanes": [
+     0,
+     null
+    ],
+    "file": "island_shippingYard/dock_aiRoads/items.level.json",
+    "line": 79
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -25.54,
+   731.93,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.447,
+   0.894
+  ],
+  "roads": [
+   {
+    "road": "30616173-e7e3-4073-adfd-d52c8c2938ce",
+    "pid": "30616173-e7e3-4073-adfd-d52c8c2938ce",
+    "dist_m": 4.88,
+    "angle_face_vs_road_deg": 64.0,
+    "speedLimit": null,
+    "len_m": 16.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 25
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 13.93,
+    "angle_face_vs_road_deg": 13.4,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   },
+   {
+    "road": "23202107-b6d3-4ed6-be4c-7c2190b1119e",
+    "pid": "23202107-b6d3-4ed6-be4c-7c2190b1119e",
+    "dist_m": 15.83,
+    "angle_face_vs_road_deg": 62.4,
+    "speedLimit": null,
+    "len_m": 21.5,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 205
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 15.99,
+    "angle_face_vs_road_deg": 26.8,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -25.54,
+   747.93,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.447,
+   0.894
+  ],
+  "roads": [
+   {
+    "road": "23202107-b6d3-4ed6-be4c-7c2190b1119e",
+    "pid": "23202107-b6d3-4ed6-be4c-7c2190b1119e",
+    "dist_m": 0.17,
+    "angle_face_vs_road_deg": 62.4,
+    "speedLimit": null,
+    "len_m": 21.5,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 205
+   },
+   {
+    "road": "73507d1b-0264-49b9-81c3-0053b1a1f98e",
+    "pid": "73507d1b-0264-49b9-81c3-0053b1a1f98e",
+    "dist_m": 5.16,
+    "angle_face_vs_road_deg": 62.8,
+    "speedLimit": null,
+    "len_m": 16.2,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 22
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 13.34,
+    "angle_face_vs_road_deg": 26.1,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 15.95,
+    "angle_face_vs_road_deg": 26.4,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -25.54,
+   763.93,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.447,
+   0.894
+  ],
+  "roads": [
+   {
+    "road": "9e31202f-3031-4b21-9624-8dbfd5a13a0e",
+    "pid": "9e31202f-3031-4b21-9624-8dbfd5a13a0e",
+    "dist_m": 4.16,
+    "angle_face_vs_road_deg": 65.2,
+    "speedLimit": null,
+    "len_m": 16.8,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 23
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 13.21,
+    "angle_face_vs_road_deg": 26.1,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   },
+   {
+    "road": "27536d61-8d2a-43ce-a683-f75139d23648",
+    "pid": "27536d61-8d2a-43ce-a683-f75139d23648",
+    "dist_m": 15.8,
+    "angle_face_vs_road_deg": 63.7,
+    "speedLimit": null,
+    "len_m": 28.3,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 203
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 15.93,
+    "angle_face_vs_road_deg": 26.7,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -25.54,
+   779.93,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.447,
+   0.894
+  ],
+  "roads": [
+   {
+    "road": "bcb9e681-2305-42ef-8e43-7208d7a591ce",
+    "pid": "bcb9e681-2305-42ef-8e43-7208d7a591ce",
+    "dist_m": 4.41,
+    "angle_face_vs_road_deg": 64.2,
+    "speedLimit": null,
+    "len_m": 16.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 24
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 13.43,
+    "angle_face_vs_road_deg": 27.4,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   },
+   {
+    "road": "168d7b42-f3a2-493e-b8ff-7ac28a5b5fba",
+    "pid": "168d7b42-f3a2-493e-b8ff-7ac28a5b5fba",
+    "dist_m": 15.89,
+    "angle_face_vs_road_deg": 64.1,
+    "speedLimit": null,
+    "len_m": 25.2,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 206
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 15.92,
+    "angle_face_vs_road_deg": 26.5,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -25.54,
+   795.71,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.447,
+   0.894
+  ],
+  "roads": [
+   {
+    "road": "168d7b42-f3a2-493e-b8ff-7ac28a5b5fba",
+    "pid": "168d7b42-f3a2-493e-b8ff-7ac28a5b5fba",
+    "dist_m": 0.11,
+    "angle_face_vs_road_deg": 64.1,
+    "speedLimit": null,
+    "len_m": 25.2,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 206
+   },
+   {
+    "road": "188edb37-4239-4578-a510-f9d094d712f5",
+    "pid": "188edb37-4239-4578-a510-f9d094d712f5",
+    "dist_m": 12.45,
+    "angle_face_vs_road_deg": 26.5,
+    "speedLimit": null,
+    "len_m": 19.0,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 207
+   },
+   {
+    "road": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "pid": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "dist_m": 12.7,
+    "angle_face_vs_road_deg": 63.9,
+    "speedLimit": null,
+    "len_m": 36.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 209
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 13.33,
+    "angle_face_vs_road_deg": 26.0,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -22.02,
+   804.77,
+   80.11
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.0,
+   1.0
+  ],
+  "roads": [
+   {
+    "road": "168d7b42-f3a2-493e-b8ff-7ac28a5b5fba",
+    "pid": "168d7b42-f3a2-493e-b8ff-7ac28a5b5fba",
+    "dist_m": 8.91,
+    "angle_face_vs_road_deg": 89.3,
+    "speedLimit": null,
+    "len_m": 25.2,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 206
+   },
+   {
+    "road": "188edb37-4239-4578-a510-f9d094d712f5",
+    "pid": "188edb37-4239-4578-a510-f9d094d712f5",
+    "dist_m": 8.92,
+    "angle_face_vs_road_deg": 0.1,
+    "speedLimit": null,
+    "len_m": 19.0,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 207
+   },
+   {
+    "road": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "pid": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "dist_m": 12.73,
+    "angle_face_vs_road_deg": 89.5,
+    "speedLimit": null,
+    "len_m": 36.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 209
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 12.94,
+    "angle_face_vs_road_deg": 0.5,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -13.04,
+   804.77,
+   80.11
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.0,
+   1.0
+  ],
+  "roads": [
+   {
+    "road": "188edb37-4239-4578-a510-f9d094d712f5",
+    "pid": "188edb37-4239-4578-a510-f9d094d712f5",
+    "dist_m": 0.07,
+    "angle_face_vs_road_deg": 0.1,
+    "speedLimit": null,
+    "len_m": 19.0,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 207
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 8.48,
+    "angle_face_vs_road_deg": 0.5,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   },
+   {
+    "road": "907541b5-afa6-4150-9be8-59fb9fc82743",
+    "pid": "907541b5-afa6-4150-9be8-59fb9fc82743",
+    "dist_m": 8.82,
+    "angle_face_vs_road_deg": 1.0,
+    "speedLimit": null,
+    "len_m": 29.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 208
+   },
+   {
+    "road": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "pid": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "dist_m": 8.82,
+    "angle_face_vs_road_deg": 89.5,
+    "speedLimit": null,
+    "len_m": 36.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 209
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -3.86,
+   804.77,
+   80.11
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.0,
+   1.0
+  ],
+  "roads": [
+   {
+    "road": "907541b5-afa6-4150-9be8-59fb9fc82743",
+    "pid": "907541b5-afa6-4150-9be8-59fb9fc82743",
+    "dist_m": 0.35,
+    "angle_face_vs_road_deg": 1.0,
+    "speedLimit": null,
+    "len_m": 29.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 208
+   },
+   {
+    "road": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "pid": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "dist_m": 8.74,
+    "angle_face_vs_road_deg": 89.5,
+    "speedLimit": null,
+    "len_m": 36.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 209
+   },
+   {
+    "road": "188edb37-4239-4578-a510-f9d094d712f5",
+    "pid": "188edb37-4239-4578-a510-f9d094d712f5",
+    "dist_m": 9.24,
+    "angle_face_vs_road_deg": 0.1,
+    "speedLimit": null,
+    "len_m": 19.0,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 207
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 11.87,
+    "angle_face_vs_road_deg": 0.5,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -25.54,
+   715.97,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.447,
+   0.894
+  ],
+  "roads": [
+   {
+    "road": "9b385b39-eb2b-4318-b651-35c2c4bd4cf7",
+    "pid": "9b385b39-eb2b-4318-b651-35c2c4bd4cf7",
+    "dist_m": 5.24,
+    "angle_face_vs_road_deg": 65.7,
+    "speedLimit": null,
+    "len_m": 16.3,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 21
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 16.03,
+    "angle_face_vs_road_deg": 25.8,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   },
+   {
+    "road": "30616173-e7e3-4073-adfd-d52c8c2938ce",
+    "pid": "30616173-e7e3-4073-adfd-d52c8c2938ce",
+    "dist_m": 16.69,
+    "angle_face_vs_road_deg": 64.0,
+    "speedLimit": null,
+    "len_m": 16.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 25
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 17.32,
+    "angle_face_vs_road_deg": 13.4,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -0.58,
+   796.03,
+   80.11
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.385,
+   -0.923
+  ],
+  "roads": [
+   {
+    "road": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "pid": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "dist_m": 0.02,
+    "angle_face_vs_road_deg": 67.9,
+    "speedLimit": null,
+    "len_m": 36.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 209
+   },
+   {
+    "road": "907541b5-afa6-4150-9be8-59fb9fc82743",
+    "pid": "907541b5-afa6-4150-9be8-59fb9fc82743",
+    "dist_m": 4.14,
+    "angle_face_vs_road_deg": 21.6,
+    "speedLimit": null,
+    "len_m": 29.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 208
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 11.62,
+    "angle_face_vs_road_deg": 22.1,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   },
+   {
+    "road": "188edb37-4239-4578-a510-f9d094d712f5",
+    "pid": "188edb37-4239-4578-a510-f9d094d712f5",
+    "dist_m": 12.51,
+    "angle_face_vs_road_deg": 22.5,
+    "speedLimit": null,
+    "len_m": 19.0,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 207
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -0.58,
+   779.93,
+   80.11
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.385,
+   -0.923
+  ],
+  "roads": [
+   {
+    "road": "bcb9e681-2305-42ef-8e43-7208d7a591ce",
+    "pid": "bcb9e681-2305-42ef-8e43-7208d7a591ce",
+    "dist_m": 4.52,
+    "angle_face_vs_road_deg": 68.1,
+    "speedLimit": null,
+    "len_m": 16.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 24
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 11.52,
+    "angle_face_vs_road_deg": 23.5,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   },
+   {
+    "road": "dcf3714d-5349-4179-9104-51676ea6bec2",
+    "pid": "dcf3714d-5349-4179-9104-51676ea6bec2",
+    "dist_m": 16.02,
+    "angle_face_vs_road_deg": 67.3,
+    "speedLimit": null,
+    "len_m": 28.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 210
+   },
+   {
+    "road": "9e31202f-3031-4b21-9624-8dbfd5a13a0e",
+    "pid": "9e31202f-3031-4b21-9624-8dbfd5a13a0e",
+    "dist_m": 16.03,
+    "angle_face_vs_road_deg": 69.2,
+    "speedLimit": null,
+    "len_m": 16.8,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 23
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -0.58,
+   763.83,
+   80.11
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.385,
+   -0.923
+  ],
+  "roads": [
+   {
+    "road": "dcf3714d-5349-4179-9104-51676ea6bec2",
+    "pid": "dcf3714d-5349-4179-9104-51676ea6bec2",
+    "dist_m": 0.09,
+    "angle_face_vs_road_deg": 67.3,
+    "speedLimit": null,
+    "len_m": 28.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 210
+   },
+   {
+    "road": "9e31202f-3031-4b21-9624-8dbfd5a13a0e",
+    "pid": "9e31202f-3031-4b21-9624-8dbfd5a13a0e",
+    "dist_m": 4.01,
+    "angle_face_vs_road_deg": 69.2,
+    "speedLimit": null,
+    "len_m": 16.8,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 23
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 11.75,
+    "angle_face_vs_road_deg": 22.2,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   },
+   {
+    "road": "a1c165f3-f3b1-4d2c-8466-609dbe17ce4f",
+    "pid": "a1c165f3-f3b1-4d2c-8466-609dbe17ce4f",
+    "dist_m": 15.6,
+    "angle_face_vs_road_deg": 79.2,
+    "speedLimit": null,
+    "len_m": 28.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 211
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   2.41,
+   748.67,
+   80.11
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.0,
+   1.0
+  ],
+  "roads": [
+   {
+    "road": "a1c165f3-f3b1-4d2c-8466-609dbe17ce4f",
+    "pid": "a1c165f3-f3b1-4d2c-8466-609dbe17ce4f",
+    "dist_m": 0.15,
+    "angle_face_vs_road_deg": 78.2,
+    "speedLimit": null,
+    "len_m": 28.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 211
+   },
+   {
+    "road": "73507d1b-0264-49b9-81c3-0053b1a1f98e",
+    "pid": "73507d1b-0264-49b9-81c3-0053b1a1f98e",
+    "dist_m": 6.68,
+    "angle_face_vs_road_deg": 89.3,
+    "speedLimit": null,
+    "len_m": 16.2,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 22
+   },
+   {
+    "road": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "pid": "6a336f9d-2271-4423-b604-cbca354ebf8e",
+    "dist_m": 14.61,
+    "angle_face_vs_road_deg": 0.5,
+    "speedLimit": null,
+    "len_m": 168.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1217
+   },
+   {
+    "road": "dcf3714d-5349-4179-9104-51676ea6bec2",
+    "pid": "dcf3714d-5349-4179-9104-51676ea6bec2",
+    "dist_m": 15.24,
+    "angle_face_vs_road_deg": 89.9,
+    "speedLimit": null,
+    "len_m": 28.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 210
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -65.04,
+   715.77,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.141,
+   -0.99
+  ],
+  "roads": [
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 2.57,
+    "angle_face_vs_road_deg": 8.0,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 23.47,
+    "angle_face_vs_road_deg": 8.9,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -65.04,
+   732.04,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.141,
+   -0.99
+  ],
+  "roads": [
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 3.34,
+    "angle_face_vs_road_deg": 12.3,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "4985a379-78e9-49ad-a945-225bce47fa8f",
+    "pid": "4985a379-78e9-49ad-a945-225bce47fa8f",
+    "dist_m": 16.31,
+    "angle_face_vs_road_deg": 81.4,
+    "speedLimit": null,
+    "len_m": 27.8,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 204
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 23.51,
+    "angle_face_vs_road_deg": 7.8,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   },
+   {
+    "road": "23202107-b6d3-4ed6-be4c-7c2190b1119e",
+    "pid": "23202107-b6d3-4ed6-be4c-7c2190b1119e",
+    "dist_m": 28.3,
+    "angle_face_vs_road_deg": 82.4,
+    "speedLimit": null,
+    "len_m": 21.5,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 205
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -65.04,
+   747.89,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.141,
+   -0.99
+  ],
+  "roads": [
+   {
+    "road": "4985a379-78e9-49ad-a945-225bce47fa8f",
+    "pid": "4985a379-78e9-49ad-a945-225bce47fa8f",
+    "dist_m": 0.47,
+    "angle_face_vs_road_deg": 81.4,
+    "speedLimit": null,
+    "len_m": 27.8,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 204
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 4.49,
+    "angle_face_vs_road_deg": 12.3,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "27536d61-8d2a-43ce-a683-f75139d23648",
+    "pid": "27536d61-8d2a-43ce-a683-f75139d23648",
+    "dist_m": 16.48,
+    "angle_face_vs_road_deg": 82.3,
+    "speedLimit": null,
+    "len_m": 28.3,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 203
+   },
+   {
+    "road": "23202107-b6d3-4ed6-be4c-7c2190b1119e",
+    "pid": "23202107-b6d3-4ed6-be4c-7c2190b1119e",
+    "dist_m": 23.4,
+    "angle_face_vs_road_deg": 82.4,
+    "speedLimit": null,
+    "len_m": 21.5,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 205
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -65.04,
+   764.11,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.141,
+   -0.99
+  ],
+  "roads": [
+   {
+    "road": "27536d61-8d2a-43ce-a683-f75139d23648",
+    "pid": "27536d61-8d2a-43ce-a683-f75139d23648",
+    "dist_m": 0.26,
+    "angle_face_vs_road_deg": 82.3,
+    "speedLimit": null,
+    "len_m": 28.3,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 203
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 4.87,
+    "angle_face_vs_road_deg": 9.3,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "4985a379-78e9-49ad-a945-225bce47fa8f",
+    "pid": "4985a379-78e9-49ad-a945-225bce47fa8f",
+    "dist_m": 15.75,
+    "angle_face_vs_road_deg": 81.4,
+    "speedLimit": null,
+    "len_m": 27.8,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 204
+   },
+   {
+    "road": "44b86227-5455-4cda-8078-a39beec672c3",
+    "pid": "44b86227-5455-4cda-8078-a39beec672c3",
+    "dist_m": 16.47,
+    "angle_face_vs_road_deg": 82.8,
+    "speedLimit": null,
+    "len_m": 28.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 202
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -65.04,
+   780.02,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.141,
+   -0.99
+  ],
+  "roads": [
+   {
+    "road": "44b86227-5455-4cda-8078-a39beec672c3",
+    "pid": "44b86227-5455-4cda-8078-a39beec672c3",
+    "dist_m": 0.55,
+    "angle_face_vs_road_deg": 82.8,
+    "speedLimit": null,
+    "len_m": 28.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 202
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 5.2,
+    "angle_face_vs_road_deg": 8.8,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "27536d61-8d2a-43ce-a683-f75139d23648",
+    "pid": "27536d61-8d2a-43ce-a683-f75139d23648",
+    "dist_m": 15.66,
+    "angle_face_vs_road_deg": 82.3,
+    "speedLimit": null,
+    "len_m": 28.3,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 203
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 23.58,
+    "angle_face_vs_road_deg": 8.2,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -65.04,
+   795.89,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.141,
+   -0.99
+  ],
+  "roads": [
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 5.38,
+    "angle_face_vs_road_deg": 8.8,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "44b86227-5455-4cda-8078-a39beec672c3",
+    "pid": "44b86227-5455-4cda-8078-a39beec672c3",
+    "dist_m": 15.31,
+    "angle_face_vs_road_deg": 82.8,
+    "speedLimit": null,
+    "len_m": 28.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 202
+   },
+   {
+    "road": "96fc52db-9359-4bdb-94ed-a0f4722728a0",
+    "pid": "96fc52db-9359-4bdb-94ed-a0f4722728a0",
+    "dist_m": 16.45,
+    "angle_face_vs_road_deg": 80.8,
+    "speedLimit": null,
+    "len_m": 28.5,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 201
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 23.62,
+    "angle_face_vs_road_deg": 8.1,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -65.04,
+   812.04,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.141,
+   -0.99
+  ],
+  "roads": [
+   {
+    "road": "96fc52db-9359-4bdb-94ed-a0f4722728a0",
+    "pid": "96fc52db-9359-4bdb-94ed-a0f4722728a0",
+    "dist_m": 0.3,
+    "angle_face_vs_road_deg": 80.8,
+    "speedLimit": null,
+    "len_m": 28.5,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 201
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 5.51,
+    "angle_face_vs_road_deg": 7.1,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "96dddde7-d80e-4e92-a030-4960bd0e3308",
+    "pid": "96dddde7-d80e-4e92-a030-4960bd0e3308",
+    "dist_m": 16.02,
+    "angle_face_vs_road_deg": 81.8,
+    "speedLimit": null,
+    "len_m": 56.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 200
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 23.63,
+    "angle_face_vs_road_deg": 8.0,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -65.04,
+   827.77,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.141,
+   -0.99
+  ],
+  "roads": [
+   {
+    "road": "96dddde7-d80e-4e92-a030-4960bd0e3308",
+    "pid": "96dddde7-d80e-4e92-a030-4960bd0e3308",
+    "dist_m": 0.29,
+    "angle_face_vs_road_deg": 81.8,
+    "speedLimit": null,
+    "len_m": 56.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 200
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 5.24,
+    "angle_face_vs_road_deg": 7.1,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "96fc52db-9359-4bdb-94ed-a0f4722728a0",
+    "pid": "96fc52db-9359-4bdb-94ed-a0f4722728a0",
+    "dist_m": 15.42,
+    "angle_face_vs_road_deg": 80.8,
+    "speedLimit": null,
+    "len_m": 28.5,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 201
+   },
+   {
+    "road": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "pid": "cb6c6327-3e96-495b-a854-41a114bc6d05",
+    "dist_m": 23.66,
+    "angle_face_vs_road_deg": 8.1,
+    "speedLimit": null,
+    "len_m": 190.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1216
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -21.76,
+   844.02,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.0,
+   -1.0
+  ],
+  "roads": [
+   {
+    "road": "3b6a268e-aa08-4c8f-9213-2f6f16a04cec",
+    "pid": "3b6a268e-aa08-4c8f-9213-2f6f16a04cec",
+    "dist_m": 0.27,
+    "angle_face_vs_road_deg": 0.4,
+    "speedLimit": null,
+    "len_m": 26.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 216
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 7.98,
+    "angle_face_vs_road_deg": 89.6,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "050662bf-2017-43a0-99ae-6d3e0390e0a6",
+    "pid": "050662bf-2017-43a0-99ae-6d3e0390e0a6",
+    "dist_m": 8.77,
+    "angle_face_vs_road_deg": 0.9,
+    "speedLimit": null,
+    "len_m": 37.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 215
+   },
+   {
+    "road": "96dddde7-d80e-4e92-a030-4960bd0e3308",
+    "pid": "96dddde7-d80e-4e92-a030-4960bd0e3308",
+    "dist_m": 16.67,
+    "angle_face_vs_road_deg": 88.5,
+    "speedLimit": null,
+    "len_m": 56.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 200
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -12.9,
+   844.02,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.0,
+   -1.0
+  ],
+  "roads": [
+   {
+    "road": "050662bf-2017-43a0-99ae-6d3e0390e0a6",
+    "pid": "050662bf-2017-43a0-99ae-6d3e0390e0a6",
+    "dist_m": 0.09,
+    "angle_face_vs_road_deg": 0.9,
+    "speedLimit": null,
+    "len_m": 37.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 215
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 7.92,
+    "angle_face_vs_road_deg": 89.6,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "3b6a268e-aa08-4c8f-9213-2f6f16a04cec",
+    "pid": "3b6a268e-aa08-4c8f-9213-2f6f16a04cec",
+    "dist_m": 9.13,
+    "angle_face_vs_road_deg": 0.4,
+    "speedLimit": null,
+    "len_m": 26.4,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 216
+   },
+   {
+    "road": "24c2b3ac-c4b2-478d-9a3e-d3737e57084a",
+    "pid": "24c2b3ac-c4b2-478d-9a3e-d3737e57084a",
+    "dist_m": 16.85,
+    "angle_face_vs_road_deg": 89.3,
+    "speedLimit": null,
+    "len_m": 57.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 214
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -3.89,
+   844.02,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   0.0,
+   -1.0
+  ],
+  "roads": [
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 7.9,
+    "angle_face_vs_road_deg": 89.1,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "050662bf-2017-43a0-99ae-6d3e0390e0a6",
+    "pid": "050662bf-2017-43a0-99ae-6d3e0390e0a6",
+    "dist_m": 9.1,
+    "angle_face_vs_road_deg": 0.9,
+    "speedLimit": null,
+    "len_m": 37.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 215
+   },
+   {
+    "road": "907541b5-afa6-4150-9be8-59fb9fc82743",
+    "pid": "907541b5-afa6-4150-9be8-59fb9fc82743",
+    "dist_m": 16.7,
+    "angle_face_vs_road_deg": 0.5,
+    "speedLimit": null,
+    "len_m": 29.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 208
+   },
+   {
+    "road": "24c2b3ac-c4b2-478d-9a3e-d3737e57084a",
+    "pid": "24c2b3ac-c4b2-478d-9a3e-d3737e57084a",
+    "dist_m": 16.73,
+    "angle_face_vs_road_deg": 88.9,
+    "speedLimit": null,
+    "len_m": 57.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 214
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   38.95,
+   827.93,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.124,
+   0.992
+  ],
+  "roads": [
+   {
+    "road": "24c2b3ac-c4b2-478d-9a3e-d3737e57084a",
+    "pid": "24c2b3ac-c4b2-478d-9a3e-d3737e57084a",
+    "dist_m": 0.47,
+    "angle_face_vs_road_deg": 81.9,
+    "speedLimit": null,
+    "len_m": 57.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 214
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 5.23,
+    "angle_face_vs_road_deg": 7.7,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "pid": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "dist_m": 15.54,
+    "angle_face_vs_road_deg": 7.3,
+    "speedLimit": null,
+    "len_m": 141.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 199
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   38.95,
+   811.79,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.124,
+   0.992
+  ],
+  "roads": [
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 5.51,
+    "angle_face_vs_road_deg": 6.1,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "pid": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "dist_m": 15.65,
+    "angle_face_vs_road_deg": 7.5,
+    "speedLimit": null,
+    "len_m": 141.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 199
+   },
+   {
+    "road": "24c2b3ac-c4b2-478d-9a3e-d3737e57084a",
+    "pid": "24c2b3ac-c4b2-478d-9a3e-d3737e57084a",
+    "dist_m": 15.66,
+    "angle_face_vs_road_deg": 81.9,
+    "speedLimit": null,
+    "len_m": 57.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 214
+   },
+   {
+    "road": "ceeb2766-f0e5-489f-a350-d1443b835417",
+    "pid": "ceeb2766-f0e5-489f-a350-d1443b835417",
+    "dist_m": 16.4,
+    "angle_face_vs_road_deg": 83.3,
+    "speedLimit": null,
+    "len_m": 20.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 213
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   38.95,
+   795.93,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.124,
+   0.992
+  ],
+  "roads": [
+   {
+    "road": "ceeb2766-f0e5-489f-a350-d1443b835417",
+    "pid": "ceeb2766-f0e5-489f-a350-d1443b835417",
+    "dist_m": 0.54,
+    "angle_face_vs_road_deg": 83.3,
+    "speedLimit": null,
+    "len_m": 20.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 213
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 5.36,
+    "angle_face_vs_road_deg": 7.7,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "pid": "b2bcbde9-9ca0-4ade-87ec-0d3b71e2c99d",
+    "dist_m": 15.73,
+    "angle_face_vs_road_deg": 78.9,
+    "speedLimit": null,
+    "len_m": 36.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 209
+   },
+   {
+    "road": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "pid": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "dist_m": 15.76,
+    "angle_face_vs_road_deg": 7.5,
+    "speedLimit": null,
+    "len_m": 141.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 199
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   38.95,
+   779.82,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.124,
+   0.992
+  ],
+  "roads": [
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 4.81,
+    "angle_face_vs_road_deg": 9.1,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "87a40900-e047-45e9-bec4-4f21daef858f",
+    "pid": "87a40900-e047-45e9-bec4-4f21daef858f",
+    "dist_m": 15.51,
+    "angle_face_vs_road_deg": 67.4,
+    "speedLimit": null,
+    "len_m": 246.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 12
+   },
+   {
+    "road": "ceeb2766-f0e5-489f-a350-d1443b835417",
+    "pid": "ceeb2766-f0e5-489f-a350-d1443b835417",
+    "dist_m": 15.57,
+    "angle_face_vs_road_deg": 83.3,
+    "speedLimit": null,
+    "len_m": 20.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 213
+   },
+   {
+    "road": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "pid": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "dist_m": 15.94,
+    "angle_face_vs_road_deg": 7.8,
+    "speedLimit": null,
+    "len_m": 141.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 199
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   38.95,
+   763.93,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.124,
+   0.992
+  ],
+  "roads": [
+   {
+    "road": "4147c77e-9ed1-4acd-b267-c9ab04eef638",
+    "pid": "4147c77e-9ed1-4acd-b267-c9ab04eef638",
+    "dist_m": 0.18,
+    "angle_face_vs_road_deg": 84.2,
+    "speedLimit": null,
+    "len_m": 19.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 212
+   },
+   {
+    "road": "87a40900-e047-45e9-bec4-4f21daef858f",
+    "pid": "87a40900-e047-45e9-bec4-4f21daef858f",
+    "dist_m": 3.71,
+    "angle_face_vs_road_deg": 67.4,
+    "speedLimit": null,
+    "len_m": 246.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "beach/beach_decalRoads/beach_AiRoads/items.level.json",
+    "line": 12
+   },
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 3.75,
+    "angle_face_vs_road_deg": 11.3,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "dcf3714d-5349-4179-9104-51676ea6bec2",
+    "pid": "dcf3714d-5349-4179-9104-51676ea6bec2",
+    "dist_m": 15.69,
+    "angle_face_vs_road_deg": 81.7,
+    "speedLimit": null,
+    "len_m": 28.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 210
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   38.95,
+   748.03,
+   80.13
+  ],
+  "sign_file": "port/portNumbersSigns/items.level.json",
+  "facing_xy": [
+   -0.124,
+   0.992
+  ],
+  "roads": [
+   {
+    "road": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "pid": "218ce2e4-eaa5-44a5-9bbf-06ff1c17d576",
+    "dist_m": 3.91,
+    "angle_face_vs_road_deg": 6.5,
+    "speedLimit": null,
+    "len_m": 422.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1218
+   },
+   {
+    "road": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "pid": "366fe1b9-7310-4de3-9f4c-77fa2ba21f8d",
+    "dist_m": 15.55,
+    "angle_face_vs_road_deg": 5.8,
+    "speedLimit": null,
+    "len_m": 141.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 199
+   },
+   {
+    "road": "a1c165f3-f3b1-4d2c-8466-609dbe17ce4f",
+    "pid": "a1c165f3-f3b1-4d2c-8466-609dbe17ce4f",
+    "dist_m": 15.59,
+    "angle_face_vs_road_deg": 72.9,
+    "speedLimit": null,
+    "len_m": 28.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 211
+   },
+   {
+    "road": "4147c77e-9ed1-4acd-b267-c9ab04eef638",
+    "pid": "4147c77e-9ed1-4acd-b267-c9ab04eef638",
+    "dist_m": 15.71,
+    "angle_face_vs_road_deg": 84.2,
+    "speedLimit": null,
+    "len_m": 19.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "dirt_decalroads/dirt_gravel/items.level.json",
+    "line": 212
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -258.85,
+   -43.84,
+   122.49
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   0.931,
+   0.366
+  ],
+  "roads": [
+   {
+    "road": "51a03967-74e3-4244-8ab2-b1d397744e08",
+    "pid": "51a03967-74e3-4244-8ab2-b1d397744e08",
+    "dist_m": 6.7,
+    "angle_face_vs_road_deg": 18.1,
+    "speedLimit": null,
+    "len_m": 30.2,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1195
+   },
+   {
+    "road": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "pid": "515427bb-609d-476b-8257-7bcaa84d569f",
+    "dist_m": 9.33,
+    "angle_face_vs_road_deg": 72.6,
+    "speedLimit": null,
+    "len_m": 348.2,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 178
+   },
+   {
+    "road": "b85fcca8-795b-4384-aa9c-a01ef822268c",
+    "pid": "b85fcca8-795b-4384-aa9c-a01ef822268c",
+    "dist_m": 11.68,
+    "angle_face_vs_road_deg": 80.7,
+    "speedLimit": null,
+    "len_m": 83.7,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1198
+   },
+   {
+    "road": "4f2b25c5-61c5-43b8-944a-593757b2c272",
+    "pid": "4f2b25c5-61c5-43b8-944a-593757b2c272",
+    "dist_m": 13.73,
+    "angle_face_vs_road_deg": 27.7,
+    "speedLimit": null,
+    "len_m": 58.8,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1282
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -191.11,
+   -10.91,
+   123.2
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   -0.73,
+   0.683
+  ],
+  "roads": [
+   {
+    "road": "66ad14c3-7a0e-4d34-8b32-c9b8874981c2",
+    "pid": "66ad14c3-7a0e-4d34-8b32-c9b8874981c2",
+    "dist_m": 5.05,
+    "angle_face_vs_road_deg": 50.3,
+    "speedLimit": null,
+    "len_m": 56.5,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1281
+   },
+   {
+    "road": "0753d0e1-6cba-46a8-b992-89a49e4360b2",
+    "pid": "0753d0e1-6cba-46a8-b992-89a49e4360b2",
+    "dist_m": 6.45,
+    "angle_face_vs_road_deg": 54.5,
+    "speedLimit": null,
+    "len_m": 18.0,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 111
+   },
+   {
+    "road": "69a8ea4e-edb1-46e4-8025-a966cb9776d1",
+    "pid": "69a8ea4e-edb1-46e4-8025-a966cb9776d1",
+    "dist_m": 6.6,
+    "angle_face_vs_road_deg": 51.8,
+    "speedLimit": null,
+    "len_m": 137.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 109
+   },
+   {
+    "road": "b9cebfab-b9e4-4d9d-a588-8fd20bc8c711",
+    "pid": "b9cebfab-b9e4-4d9d-a588-8fd20bc8c711",
+    "dist_m": 7.72,
+    "angle_face_vs_road_deg": 46.1,
+    "speedLimit": null,
+    "len_m": 25.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1285
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -144.35,
+   22.31,
+   124.08
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   0.051,
+   0.999
+  ],
+  "roads": [
+   {
+    "road": "0176e4b4-5e0b-4993-9566-779fa8a366b8",
+    "pid": "0176e4b4-5e0b-4993-9566-779fa8a366b8",
+    "dist_m": 5.0,
+    "angle_face_vs_road_deg": 48.3,
+    "speedLimit": null,
+    "len_m": 53.9,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1201
+   },
+   {
+    "road": "69a8ea4e-edb1-46e4-8025-a966cb9776d1",
+    "pid": "69a8ea4e-edb1-46e4-8025-a966cb9776d1",
+    "dist_m": 9.85,
+    "angle_face_vs_road_deg": 43.0,
+    "speedLimit": null,
+    "len_m": 137.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 109
+   },
+   {
+    "road": "6d99423d-5103-450d-b8f2-9658d43211d6",
+    "pid": "6d99423d-5103-450d-b8f2-9658d43211d6",
+    "dist_m": 10.85,
+    "angle_face_vs_road_deg": 53.7,
+    "speedLimit": null,
+    "len_m": 121.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1200
+   },
+   {
+    "road": "491e00bc-abee-4fd1-b331-a1685af8bafe",
+    "pid": "491e00bc-abee-4fd1-b331-a1685af8bafe",
+    "dist_m": 10.92,
+    "angle_face_vs_road_deg": 41.9,
+    "speedLimit": null,
+    "len_m": 275.8,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 107
+   }
+  ]
+ },
+ {
+  "sign_pos": [
+   -54.26,
+   77.96,
+   124.94
+  ],
+  "sign_file": "road_signs/items.level.json",
+  "facing_xy": [
+   -0.252,
+   0.968
+  ],
+  "roads": [
+   {
+    "road": "6d99423d-5103-450d-b8f2-9658d43211d6",
+    "pid": "6d99423d-5103-450d-b8f2-9658d43211d6",
+    "dist_m": 3.92,
+    "angle_face_vs_road_deg": 25.6,
+    "speedLimit": null,
+    "len_m": 121.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 1200
+   },
+   {
+    "road": "78a975b3-b273-4eb4-bca3-beb5a4e940bf",
+    "pid": "78a975b3-b273-4eb4-bca3-beb5a4e940bf",
+    "dist_m": 12.36,
+    "angle_face_vs_road_deg": 32.5,
+    "speedLimit": null,
+    "len_m": 36.6,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 125
+   },
+   {
+    "road": "10fb863b-63b2-43d4-9a71-6d5410868b0c",
+    "pid": "10fb863b-63b2-43d4-9a71-6d5410868b0c",
+    "dist_m": 16.53,
+    "angle_face_vs_road_deg": 60.3,
+    "speedLimit": null,
+    "len_m": 175.2,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 114
+   },
+   {
+    "road": "1faea382-e35f-4207-a66c-d74912bda1f2",
+    "pid": "1faea382-e35f-4207-a66c-d74912bda1f2",
+    "dist_m": 17.03,
+    "angle_face_vs_road_deg": 9.6,
+    "speedLimit": null,
+    "len_m": 27.1,
+    "oneWay": false,
+    "lanes": [
+     null,
+     null
+    ],
+    "file": "AIWaypointsGroup/items.level.json",
+    "line": 126
+   }
+  ]
+ }
+]
