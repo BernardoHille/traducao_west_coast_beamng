@@ -31,6 +31,9 @@ def validate_mod_tree(mod_dir=MOD_DIR, installed_dir=None, report=None):
         rep.add(FAIL, "Mod directory", f"not found: {mod_dir}")
         return rep
     known = expected_paths()
+    from validate_new_assets import declared_paths
+    import fnmatch
+    declared, functional = declared_paths()
     files = []
     for root, dirs, names in os.walk(mod_dir):
         for n in names:
@@ -67,6 +70,13 @@ def validate_mod_tree(mod_dir=MOD_DIR, installed_dir=None, report=None):
             rep.add(FAIL, "File name", f"{f}: forbidden suffix (e.g. _ptbr/_poc/backup). Use the exact game name: {texture_stem(base)}{os.path.splitext(base)[1]}")
             continue
         ext = os.path.splitext(base)[1].lower()
+        if f.lower() in declared:
+            n_assets += ext in (".dds", ".png")
+            rep.add(PASS, "Declared new asset", f"{f} (config/new_assets.json; checked by validate.py new)")
+            continue
+        if any(fnmatch.fnmatch(f, pat) for pat in functional):
+            rep.add(PASS, "Declared functional override", f"{f} (speedLimit-only override; checked by validate.py new)")
+            continue
         if ext in (".dds", ".png"):
             n_assets += 1
             key = f.lower()

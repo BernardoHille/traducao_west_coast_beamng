@@ -1,0 +1,83 @@
+{
+  "roadsigns_ptbr_r19_10": {
+    "name": "roadsigns_ptbr_r19_10",
+    "mapTo": "roadsigns_ptbr_r19_10",
+    "class": "Material",
+    "persistentId": "71d96224-7b84-56ef-bbe2-89b4268c6cce",
+    "Stages": [
+      {
+        "baseColorMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_10_b.color.dds",
+        "opacityMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_o.data.dds",
+        "retroreflectivity": 0.5,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 128,
+    "alphaTest": true,
+    "annotation": "TRAFFIC_SIGNS",
+    "materialTag0": "beamng",
+    "specularColor0": "1 1 1 1",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "roadsigns_ptbr_r19_40": {
+    "name": "roadsigns_ptbr_r19_40",
+    "mapTo": "roadsigns_ptbr_r19_40",
+    "class": "Material",
+    "persistentId": "3012b3c6-0f3e-5b0e-9512-5c2bd34547ee",
+    "Stages": [
+      {
+        "baseColorMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_40_b.color.dds",
+        "opacityMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_o.data.dds",
+        "retroreflectivity": 0.5,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 128,
+    "alphaTest": true,
+    "annotation": "TRAFFIC_SIGNS",
+    "materialTag0": "beamng",
+    "specularColor0": "1 1 1 1",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "roadsigns_ptbr_r19_back": {
+    "name": "roadsigns_ptbr_r19_back",
+    "mapTo": "roadsigns_ptbr_r19_back",
+    "class": "Material",
+    "persistentId": "eb4f5779-b573-543a-a145-12a8e7ec00b0",
+    "Stages": [
+      {
+        "baseColorMap": "/art/shapes/objects/t_metal_galvanized_01_b.color.png",
+        "detailScale": [
+          0.1,
+          0.1
+        ],
+        "metallicFactor": 1,
+        "metallicMap": "/art/shapes/objects/t_metal_galvanized_02_m.data.png",
+        "opacityMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_o.data.dds",
+        "pixelSpecular": true,
+        "roughnessMap": "/art/shapes/objects/t_metal_galvanized_02_r.data.png",
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 128,
+    "alphaTest": true,
+    "annotation": "TRAFFIC_SIGNS",
+    "doubleSided": true,
+    "groundType": "METAL",
+    "invertBackFaceNormals": true,
+    "materialTag0": "metal",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}

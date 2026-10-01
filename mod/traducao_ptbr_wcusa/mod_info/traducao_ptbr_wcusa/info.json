@@ -1,6 +1,6 @@
 {
   "name": "Tradução PT-BR — West Coast USA",
   "author": "Bernardo Hille",
-  "version": "0.1.0-poc",
-  "description": "Proof of Concept da tradução visual PT-BR do West Coast USA."
+  "version": "0.5.0",
+  "description": "Tradução PT-BR do West Coast USA: atlas de placas t_roadsigns reconstruído (PARE, R-2, R-3, textos e destinos), placas R-19 10/40 km/h e limites de via correspondentes (Fase 5)."
 }

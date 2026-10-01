@@ -1,0 +1,39 @@
+{
+  "_doc": "new_asset_spec: assets that have NO game original to compare with (Phase 5: Brazilian R-19). Every texture, material, mesh and functional level file the mod adds or replaces outside the texture families must be declared here; validate.py new checks them and validate.py mod accepts their paths.",
+  "families": {
+    "roadsigns_ptbr_r19": {
+      "doc": "R-19 (MBST Vol. I) for the West Coast sign_speed5/25.dae meshes. Level scope (the meshes live in the level), so materials load with the level (lua/ge/server/server.lua loads every *materials.json under the level dir).",
+      "dir": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr",
+      "textures": [
+        {"file": "t_r19_10_b.color.dds", "role": "base_color", "width": 512, "height": 1024, "format": "BC7_UNORM_SRGB", "srgb": true,
+         "mips": "full", "alpha_modes": ["STRAIGHT", "UNKNOWN", "OPAQUE"], "source_png": "working/png/r19/t_r19_10_b.color.png"},
+        {"file": "t_r19_40_b.color.dds", "role": "base_color", "width": 512, "height": 1024, "format": "BC7_UNORM_SRGB", "srgb": true,
+         "mips": "full", "alpha_modes": ["STRAIGHT", "UNKNOWN", "OPAQUE"], "source_png": "working/png/r19/t_r19_40_b.color.png"},
+        {"file": "t_r19_o.data.dds", "role": "opacity", "width": 512, "height": 1024, "format": "BC4_UNORM", "srgb": false,
+         "mips": "full", "source_png": "working/png/r19/t_r19_o.data.png",
+         "disc": {"corners_max": 8, "center_min": 247, "coverage_range": [0.52, 0.60],
+                  "doc": "disc of diameter 0.99 x panel width centred on the 0.7317 x 1.0 m panel: expected coverage pi/4 * 0.99^2 * 0.7317 = 0.563"}}
+      ],
+      "halo_check": {"color": ["t_r19_10_b.color.dds", "t_r19_40_b.color.dds"], "opacity": "t_r19_o.data.dds", "border_rgb": [196, 32, 40], "max_distance": 60,
+                     "doc": "pixels in the anti-aliased edge of the mask (16..240) must carry the border colour, so bilinear/mip filtering never shows a white/black halo"},
+      "materials_file": "main.materials.json",
+      "materials": {
+        "roadsigns_ptbr_r19_10": {"baseColorMap": "t_r19_10_b.color.dds", "opacityMap": "t_r19_o.data.dds", "alphaTest": true, "alphaRef": 128},
+        "roadsigns_ptbr_r19_40": {"baseColorMap": "t_r19_40_b.color.dds", "opacityMap": "t_r19_o.data.dds", "alphaTest": true, "alphaRef": 128},
+        "roadsigns_ptbr_r19_back": {"opacityMap": "t_r19_o.data.dds", "alphaTest": true, "alphaRef": 128}
+      },
+      "forbidden_material_names": ["roadsigns", "metal_galvanized"],
+      "meshes": [
+        {"file": "levels/west_coast_usa/art/shapes/objects/sign_speed5.dae", "original": "source/originals/meshes/objects/sign_speed5.dae",
+         "materials": ["roadsigns_ptbr_r19_10", "roadsigns_ptbr_r19_back"], "cdae": "levels/west_coast_usa/art/shapes/objects/sign_speed5.cdae"},
+        {"file": "levels/west_coast_usa/art/shapes/objects/sign_speed25.dae", "original": "source/originals/meshes/objects/sign_speed25.dae",
+         "materials": ["roadsigns_ptbr_r19_40", "roadsigns_ptbr_r19_back"], "cdae": "levels/west_coast_usa/art/shapes/objects/sign_speed25.cdae"}
+      ]
+    }
+  },
+  "functional_files": {
+    "doc": "Level data overridden for the 10/40 km/h limits (tools/production/speed_overrides.py). Each must differ from the game file only in declared speedLimit values.",
+    "patterns": ["levels/west_coast_usa/main/MissionGroup/*/items.level.json", "levels/west_coast_usa/main/MissionGroup/*/*/items.level.json",
+                 "levels/west_coast_usa/main/MissionGroup/*/*/*/items.level.json", "levels/west_coast_usa/slotTraffic.json"]
+  }
+}

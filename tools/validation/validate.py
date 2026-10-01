@@ -24,6 +24,7 @@ from common import FAIL, PASS, REPO, SKIP, WARN, Report, ToolError, load_config,
 from validate_dds import validate_dds  # noqa: E402
 from validate_family import validate_family  # noqa: E402
 from validate_mod_tree import MOD_DIR, validate_mod_tree  # noqa: E402
+from validate_new_assets import validate_new_assets  # noqa: E402
 from validate_speed_consistency import validate_speeds  # noqa: E402
 from validate_texture import validate_png  # noqa: E402
 
@@ -69,7 +70,12 @@ def mod_report(installed=True):
             for c in r.checks:
                 fam_rep.add(c.status, f"{name}: {c.name}", c.message)
     rep.extend(fam_rep)
+    rep.extend(validate_new_assets())
     return rep
+
+
+def cmd_new(a):
+    return _finish(validate_new_assets(), "new_assets")
 
 
 def cmd_mod(a):
@@ -94,10 +100,15 @@ def selftest(quiet=False):
         bad = [c for c in r.checks if c.status in (FAIL, WARN)]
         rep.add(PASS if st in (PASS, SKIP) else FAIL, f"original {row['filename']}",
                 "identical to itself" if not bad else "; ".join(c.line() for c in bad))
-    for poc in ("export/dds/poc/t_roadsigns_b.color.dds", "mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds"):
+    for poc in ("export/dds/poc/t_roadsigns_b.color.dds",
+                "export/dds/t_roadsigns/t_roadsigns_b.color.dds", "export/dds/t_roadsigns/t_roadsigns_o.data.dds",
+                "mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+                "mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds"):
+        if not os.path.exists(_abs(poc)):
+            continue
         r = validate_dds(_abs(poc))
         bad = [c for c in r.checks if c.status in (FAIL, WARN)]
-        rep.add(PASS if not bad else FAIL, f"PoC DDS metadata {poc}",
+        rep.add(PASS if not bad else FAIL, f"DDS metadata {poc}",
                 "; ".join(f"{c.name}: {c.message}" for c in r.checks if c.name in ("Resolution", "DDS format", "Colour space", "Mipmaps", "DX10 alpha mode"))
                 if not bad else "; ".join(c.line() for c in bad))
     return _finish(rep, "selftest", quiet)
@@ -159,6 +170,7 @@ def main(argv=None):
     p.add_argument("--dir"); p.add_argument("--shape-changed", choices=["true", "false"])
     p = sp.add_parser("mod", help="mod tree: names, virtual paths, stray files, mod_info, families")
     p.add_argument("--installed", action="store_true", help="also compare with the copy in the BeamNG user folder")
+    sp.add_parser("new", help="new_asset_spec: R-19 textures/materials/meshes + speedLimit-only level overrides")
     p = sp.add_parser("speeds", help="sign == road == radar == zone == ADAS (limit alert)")
     p.add_argument("--refresh", action="store_true", help="collect a new navgraph snapshot via MCP (map must be loaded)")
     sp.add_parser("selftest", help="originals vs themselves + PoC DDS metadata (must PASS)")
@@ -167,7 +179,7 @@ def main(argv=None):
     p.add_argument("--refresh", action="store_true")
     a = ap.parse_args(argv)
     try:
-        rep = {"texture": cmd_texture, "dds": cmd_dds, "family": cmd_family, "mod": cmd_mod, "speeds": cmd_speeds,
+        rep = {"texture": cmd_texture, "dds": cmd_dds, "family": cmd_family, "mod": cmd_mod, "speeds": cmd_speeds, "new": cmd_new,
                "selftest": lambda _: selftest(), "regression": lambda _: regression(), "all": cmd_all}[a.cmd](a)
     except ToolError as e:
         print(f"[ERROR] {e}", file=sys.stderr)

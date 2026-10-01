@@ -1,0 +1,155 @@
+{
+  "title": "New assets (new_asset_spec)",
+  "subject": "mod/traducao_ptbr_wcusa",
+  "status": "PASS",
+  "counts": {
+    "PASS": 23,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-09-30T21:14:44",
+  "meta": {
+    "functional_changed_lines": 1385
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "t_r19_10_b.color.dds: spec",
+      "message": "512x1024 BC7_UNORM_SRGB (DX10) sRGB, 11 mips",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_r19_40_b.color.dds: spec",
+      "message": "512x1024 BC7_UNORM_SRGB (DX10) sRGB, 11 mips",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_r19_o.data.dds: spec",
+      "message": "512x1024 BC4_UNORM (legacy BC4U) unspecified (legacy header), 11 mips",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_r19_o.data.dds: disc mask",
+      "message": "corners transparent, centre opaque, coverage 0.564 (alphaTest 128)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_r19_10_b.color.dds: edge halo",
+      "message": "1904 edge pixels carry the border colour (no halo)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_r19_40_b.color.dds: edge halo",
+      "message": "1904 edge pixels carry the border colour (no halo)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Materials: no game material redefined",
+      "message": "3 own materials, none named ['roadsigns', 'metal_galvanized']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Material roadsigns_ptbr_r19_10",
+      "message": "baseColor t_r19_10_b.color.dds · opacity t_r19_o.data.dds · alphaTest 128",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Material roadsigns_ptbr_r19_40",
+      "message": "baseColor t_r19_40_b.color.dds · opacity t_r19_o.data.dds · alphaTest 128",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Material roadsigns_ptbr_r19_back",
+      "message": "baseColor t_metal_galvanized_01_b.color.png · opacity t_r19_o.data.dds · alphaTest 128",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "sign_speed5.dae: structure vs original",
+      "message": "geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "sign_speed5.dae: materials",
+      "message": "['roadsigns_ptbr_r19_10', 'roadsigns_ptbr_r19_back']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "sign_speed5.dae: compiled .cdae",
+      "message": "present and newer than the .dae (no recompilation, no temp cache)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "sign_speed25.dae: structure vs original",
+      "message": "geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "sign_speed25.dae: materials",
+      "message": "['roadsigns_ptbr_r19_40', 'roadsigns_ptbr_r19_back']",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "sign_speed25.dae: compiled .cdae",
+      "message": "present and newer than the .dae (no recompilation, no temp cache)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json",
+      "message": "48 line(s) differ from the game file, all only in speedLimit",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json",
+      "message": "39 line(s) differ from the game file, all only in speedLimit",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main/MissionGroup/beach/beach_decalRoads/beach_AiRoads/items.level.json",
+      "message": "5 line(s) differ from the game file, all only in speedLimit",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main/MissionGroup/dirt_decalroads/dirt_gravel/items.level.json",
+      "message": "18 line(s) differ from the game file, all only in speedLimit",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main/MissionGroup/island/island_ai_roads/items.level.json",
+      "message": "8 line(s) differ from the game file, all only in speedLimit",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_aiRoads/items.level.json",
+      "message": "12 line(s) differ from the game file, all only in speedLimit",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/slotTraffic.json",
+      "message": "1255 line(s) differ from the game file, all only in speedLimit",
+      "details": {}
+    }
+  ]
+}
