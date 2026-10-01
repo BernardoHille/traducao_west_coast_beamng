@@ -66,7 +66,7 @@ def sign_value(shape_name, rules):
     if ov and os.path.exists(os.path.join(mod_dir, ov["mod_file"])):
         return float(ov["value"]), ov["unit"], f"R-19 mesh in the mod ({ov['material']})"
     m = re.search(cfg["pattern"], shape_name, re.I)
-    return float(m.group(1)), cfg["current_unit"], "original US sign"
+    return float(m.group(1)), cfg["current_unit"], "original US sign"  # sign_speed<N>: US mph
 
 
 def _paths():
@@ -158,7 +158,8 @@ for _, n in ipairs(scenetree.findClassObjects("TSStatic")) do
   local o = scenetree.findObject(n)
   if o then
     local s = (o:getField("shapeName", 0) or "")
-    if s:lower():find("sign_speed%%d+%%.dae$") then
+    local sl = s:lower()
+    if (sl:find("sign_speed%%d+%%.dae$") or sl:find("sign_r19_%%d+%%.dae$")) and not (o:getField("decalType", 0) or ""):find("Visible") then  -- "Visible Mesh*" = mesh decal (port bay plates)
       local p = o:getPosition()
       local r = limitAt({p.x, p.y, p.z})
       table.insert(out.signs, {shape = s, pos = {p.x, p.y, p.z}, road = r})

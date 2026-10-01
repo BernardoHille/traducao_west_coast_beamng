@@ -21,13 +21,13 @@ Detalhe linha a linha: `tests/reports/phase5_speed_diff.json`. A tabela abaixo �
 
 | Regra | Linhas | De → para (m/s) |
 |---|---:|---|
-| classe de valor | 630 | 11,18 / 11,5 / 12 → 11,1111 |
+| classe de valor | 630 | 11,18 / 11,5 / 12 → 11,1111 (172 faixas + 458 ligações: todas as ocorrências) |
 | geometria (40 km/h) | 197 | 16,667 / 8,333 → 11,1111 |
-| geometria (10 km/h) | 428 | 8,333 / 13,889 / 16,667 → 2,7778 |
-| **total** | **1.255** | 367 faixas + 888 ligações |
+| geometria (10 km/h) | 112 | 8,333 / 13,889 / 16,667 → 2,7778 |
+| **total** | **939** | 243 faixas + 696 ligações |
 
-- **Ignoradas:** 28 faixas cujo valor diverge do limite antigo da via (20 conectores manuais de 50 m/s; 8 faixas de vias vizinhas de 60/80/100 km/h).
-- **Sem faixa no slot traffic:** 9 caminhos internos de pátio/estacionamento (`road_invisible`, dirigibilidade 0,2) e conectores curtos. O slot traffic não os modela; o navgraph continua sendo a fonte do limite para IA e polícia.
+- **Ignoradas:** 28 faixas, cujo valor diverge do limite efetivo antigo da via. São 20 conectores manuais de 50 m/s, próprios do slot traffic, e 8 faixas de vias vizinhas de 60/80/100 km/h, casadas só por proximidade.
+- **Sem faixa no slot traffic:** 6 vias com decisão por placa: 5 faixas internas das cabines das docas e o conector de 13 m `285c1e9e`. O slot traffic não modela essas faixas; o navgraph (IA, polícia) continua sendo a fonte do limite e foi conferido no jogo. As 33 vias explícitas sem casamento geométrico já estão cobertas pela regra de classe de valor.
 
 ## Verificação
 - `python tools/validation/validate.py new`: cada linha diferente do `slotTraffic.json` do jogo precisa ser uma linha `"speedLimit": <número>` com a mesma estrutura; nada mais pode mudar.

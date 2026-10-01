@@ -1,0 +1,89 @@
+{
+ "_doc": "TSStatic shapeName overrides (Phase 5). Applied by tools/production/speed_overrides.py together with the speedLimit edits; only the shapeName of the listed objects changes.",
+ "instances": [
+  {
+   "file": "island_shippingYard/dock_entrance/items.level.json",
+   "pid": "2265ab8b-9585-4d8f-8069-e4a2033c6eb5",
+   "position": [
+    447.49,
+    1623.87,
+    76.72
+   ],
+   "from": "/levels/west_coast_usa/art/shapes/objects/sign_speed5.dae",
+   "to": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
+   "reason": "Placa real de 5 mph -> R-19 10 (mesh próprio). sign_speed5.dae NÃO é substituído no mesmo caminho porque o grupo port/portNumbersSigns usa o mesmo mesh como decalque de fundo dos números das baias (30 objetos, decalType 'Visible Mesh Final')."
+  },
+  {
+   "file": "island_shippingYard/dock_exit/items.level.json",
+   "pid": "d7dba8e2-1a77-4735-b3a3-b8db90e51980",
+   "position": [
+    444.4,
+    1687.93,
+    76.46
+   ],
+   "from": "/levels/west_coast_usa/art/shapes/objects/sign_speed5.dae",
+   "to": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
+   "reason": "Placa real de 5 mph -> R-19 10 (mesh próprio). sign_speed5.dae NÃO é substituído no mesmo caminho porque o grupo port/portNumbersSigns usa o mesmo mesh como decalque de fundo dos números das baias (30 objetos, decalType 'Visible Mesh Final')."
+  },
+  {
+   "file": "island_shippingYard/dock_exit/items.level.json",
+   "pid": "ae2ffd4b-6f28-4925-b046-a64619b86a74",
+   "position": [
+    461.36,
+    1687.99,
+    76.45
+   ],
+   "from": "/levels/west_coast_usa/art/shapes/objects/sign_speed5.dae",
+   "to": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
+   "reason": "Placa real de 5 mph -> R-19 10 (mesh próprio). sign_speed5.dae NÃO é substituído no mesmo caminho porque o grupo port/portNumbersSigns usa o mesmo mesh como decalque de fundo dos números das baias (30 objetos, decalType 'Visible Mesh Final')."
+  },
+  {
+   "file": "road_signs/items.level.json",
+   "pid": "0a0f6558-855f-485d-969c-da08cba43ef6",
+   "position": [
+    -258.85,
+    -43.84,
+    122.49
+   ],
+   "from": "/levels/west_coast_usa/art/shapes/objects/sign_speed5.dae",
+   "to": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
+   "reason": "Placa real de 5 mph -> R-19 10 (mesh próprio). sign_speed5.dae NÃO é substituído no mesmo caminho porque o grupo port/portNumbersSigns usa o mesmo mesh como decalque de fundo dos números das baias (30 objetos, decalType 'Visible Mesh Final')."
+  },
+  {
+   "file": "road_signs/items.level.json",
+   "pid": "894977fa-3f79-4b03-8cc9-cc10fb4ddb58",
+   "position": [
+    -191.11,
+    -10.91,
+    123.2
+   ],
+   "from": "/levels/west_coast_usa/art/shapes/objects/sign_speed5.dae",
+   "to": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
+   "reason": "Placa real de 5 mph -> R-19 10 (mesh próprio). sign_speed5.dae NÃO é substituído no mesmo caminho porque o grupo port/portNumbersSigns usa o mesmo mesh como decalque de fundo dos números das baias (30 objetos, decalType 'Visible Mesh Final')."
+  },
+  {
+   "file": "road_signs/items.level.json",
+   "pid": "4f7e62c2-706c-44dc-b535-db77a2f0ca11",
+   "position": [
+    -144.35,
+    22.31,
+    124.08
+   ],
+   "from": "/levels/west_coast_usa/art/shapes/objects/sign_speed5.dae",
+   "to": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
+   "reason": "Placa real de 5 mph -> R-19 10 (mesh próprio). sign_speed5.dae NÃO é substituído no mesmo caminho porque o grupo port/portNumbersSigns usa o mesmo mesh como decalque de fundo dos números das baias (30 objetos, decalType 'Visible Mesh Final')."
+  },
+  {
+   "file": "road_signs/items.level.json",
+   "pid": "a5f780be-4fb6-4c40-992e-6ceb82a16823",
+   "position": [
+    -54.26,
+    77.96,
+    124.94
+   ],
+   "from": "/levels/west_coast_usa/art/shapes/objects/sign_speed5.dae",
+   "to": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
+   "reason": "Placa real de 5 mph -> R-19 10 (mesh próprio). sign_speed5.dae NÃO é substituído no mesmo caminho porque o grupo port/portNumbersSigns usa o mesmo mesh como decalque de fundo dos números das baias (30 objetos, decalType 'Visible Mesh Final')."
+  }
+ ]
+}

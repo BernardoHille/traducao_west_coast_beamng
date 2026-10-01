@@ -12,9 +12,9 @@
   },
   "snapshot": "tools/validation/data/wcusa_speed_snapshot.json",
   "sign_shapes": {
-    "pattern": "sign_speed(\\d+)\\.dae$",
+    "pattern": "sign_(?:speed|r19_)(\\d+)\\.dae$",
     "current_unit": "mph",
-    "doc": "Value comes from the shape name (sign_speed25 = 25 mph) unless the mod replaces the mesh (r19_overrides): then the sign shows the R-19 value in km/h.",
+    "doc": "Value from the shape name: sign_speed<N> = N mph (US); R-19 meshes of the mod are read in km/h (r19_overrides: sign_speed25 replaced in place, sign_r19_10 is a new mesh assigned to the 7 real 5 mph signs). TSStatics with a decalType are mesh decals (port bay-number plates), not signs.",
     "r19_overrides": {
       "sign_speed25": {
         "value": 40,
@@ -22,10 +22,10 @@
         "mod_file": "levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
         "material": "roadsigns_ptbr_r19_40"
       },
-      "sign_speed5": {
+      "sign_r19_10": {
         "value": 10,
         "unit": "km/h",
-        "mod_file": "levels/west_coast_usa/art/shapes/objects/sign_speed5.dae",
+        "mod_file": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
         "material": "roadsigns_ptbr_r19_10"
       }
     },

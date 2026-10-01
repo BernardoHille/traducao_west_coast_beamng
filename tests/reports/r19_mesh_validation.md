@@ -1,12 +1,30 @@
 # Validação estrutural dos meshes R-19 (Fase 5)
 
-**Ferramenta:** `tools/production/r19_mesh.py compare` (também executada por `validate.py new`). **Originais:** extraídos só por leitura de `content/levels/west_coast_usa.zip` para `source/originals/meshes/objects/` (fora do Git). **Data:** 30/09/2026.
+**Ferramenta:** `tools/production/r19_mesh.py compare`, também executada por `validate.py new`.
+**Originais:** extraídos só por leitura de `content/levels/west_coast_usa.zip` para `source/originals/meshes/objects/`, fora do Git.
+**Data:** 30/09/2026.
 
 ## Resultado
 
-A única mudança necessária foi **material e UV**. Geometria, normais, cores de vértice, listas de triângulos, transformações dos nós (pivot, posição, escala, orientação) e bounding box são idênticos byte a byte (comparação por SHA-256 dos arrays).
+A única mudança necessária foi **material e UV**. Ficam idênticos byte a byte (comparação por SHA-256 dos arrays):
+- geometria, normais e cores de vértice;
+- listas de triângulos;
+- transformações dos nós: pivot, posição, escala e orientação;
+- bounding box.
 
-### `sign_speed25.dae` → R-19 40 km/h
+| Mesh no mod | Origem | Instâncias que o usam | Como |
+|---|---|---|---|
+| `levels/.../objects/sign_speed25.dae` → R-19 **40** | `sign_speed25.dae` | 11 (todas são placas de 25 mph) | **mesmo caminho virtual**: nenhum TSStatic editado |
+| `levels/.../objects/roadsigns_ptbr/sign_r19_10.dae` → R-19 **10** | `sign_speed5.dae` | 7 placas reais de 5 mph | **mesh novo** + `shapeName` trocado só nesses 7 TSStatic (`working/speed/sign_instances.json`) |
+
+### Por que o 10 não substitui `sign_speed5.dae` no mesmo caminho
+
+O nível tem **37** instâncias de `sign_speed5.dae`, mas **30** delas, no grupo `port/portNumbersSigns`, não são placas.
+- São decalques de malha (`"decalType":"Visible Mesh Final"`, deitados a 90°) que formam a **placa cinza de fundo dos números das baias** ("01", "24"…) nas paredes dos armazéns do porto.
+- No teste da substituição no mesmo caminho, essas placas viraram discos R-19 escuros (`tests/screenshots/phase5/roadsigns_ptbr_r19/port_bay_plate_side_effect_original_vs_inplace_override.jpg`).
+- Por isso, seguindo o §22 ("não alterar os objetos individualmente **se não for necessário**"), aqui foi necessário: o mesh original fica intacto, as placas das baias voltam a ser idênticas ao original (`…after_fix_original_vs_mod.jpg`) e só as 7 placas reais apontam para o mesh R-19 10.
+
+### `sign_speed25.dae` → `sign_speed25.dae` (R-19 40 km/h)
 
 | Verificação | Original | Mod | Igual |
 |---|---|---|---|
@@ -25,7 +43,7 @@ A única mudança necessária foi **material e UV**. Geometria, normais, cores d
 | triangles_per_material | `{"roadsigns": 8, "metal_galvanized": 2}` | `{"roadsigns_ptbr_r19_40": 8, "roadsigns_ptbr_r19_back": 2}` | alterado (esperado) |
 | materials | `["metal_galvanized", "roadsigns"]` | `["roadsigns_ptbr_r19_40", "roadsigns_ptbr_r19_back"]` | alterado (esperado) |
 
-### `sign_speed5.dae` → R-19 10 km/h
+### `sign_speed5.dae` → `roadsigns_ptbr/sign_r19_10.dae` (R-19 10 km/h)
 
 | Verificação | Original | Mod | Igual |
 |---|---|---|---|
@@ -49,22 +67,32 @@ A única mudança necessária foi **material e UV**. Geometria, normais, cores d
 | Parte | Antes | Depois | Motivo |
 |---|---|---|---|
 | Painel frontal (quad 0,7317 × 1,0 m) | `roadsigns`, UV no painel branco do atlas (370–516 × 189–381) | `roadsigns_ptbr_r19_<v>`, UV 0–1 sobre o painel inteiro | textura própria; o disco é recortado pela opacidade (alphaTest 128) |
-| Quads sobrepostos (tile SPEED LIMIT e glifos "2"/"5") | `roadsigns`, UV nos glifos compartilhados | mesmo material do R-19, UV num texel transparente (canto da textura) | ficam **invisíveis**, mas continuam no mesh: topologia, contagem de triângulos e bounding box preservadas (o "2" do 25 se estende 3 cm além do painel) |
-| Verso (quad galvanizado) | `metal_galvanized` (**doubleSided**) | `roadsigns_ptbr_r19_back` (mapas do galvanizado + a mesma máscara do disco) | o verso duplo-face apareceria **pela frente**, nos cantos transparentes do disco; agora também é um disco |
+| Quads sobrepostos (tile SPEED LIMIT e glifos "2"/"5") | `roadsigns`, UV nos glifos compartilhados | mesmo material do R-19, UV num texel transparente | ficam **invisíveis** mas continuam no mesh: topologia, contagem de triângulos e bounding box preservadas (o "2" do 25 passa 3 cm do painel) |
+| Verso (quad galvanizado) | `metal_galvanized` (**doubleSided**) | `roadsigns_ptbr_r19_back` (mapas do galvanizado + a mesma máscara do disco) | o verso duplo-face apareceria **pela frente** nos cantos transparentes do disco; agora também é um disco |
 
-**Orientação da UV:** o painel branco original é simétrico, e a UV dele estava girada 180° sem efeito visível. A orientação foi tirada dos quads de texto (SPEED LIMIT/algarismos), que aparecem corretos no jogo: mapa afim por triângulo, votação de sinal (du/dx = +1, dv/dz = +1). Foi conferida no render offline (`render_signs.py`) e no jogo (R-19 legível, não espelhado).
+**Orientação da UV:** o painel branco original é simétrico, e a UV dele estava girada 180° sem efeito visível. A orientação foi tirada dos quads de texto (mapa afim por triângulo, voto de sinal: du/dx = +1, dv/dz = +1). Foi conferida no render offline e no jogo: R-19 legível, não espelhado, de dia e de noite.
 
-**Colisão:** os meshes não têm nós de colisão (`Collision*`/`LOS*`), nem no original nem no mod.
-
-**Material próprio:** nenhum material do jogo foi redefinido. `roadsigns` e `metal_galvanized` continuam intactos para todas as outras placas.
+**Colisão:** os meshes não têm nós de colisão, nem no original nem no mod.
+**Materiais do jogo:** `roadsigns` e `metal_galvanized` não foram redefinidos.
 
 ## `.cdae` compilado no mod
 
-Ao carregar um `.dae` mais novo que o `.cdae` do zip, o jogo recompila e grava o resultado no **cache temporário do usuário** (`current/temp/levels/.../sign_speed*.cdae`). Esse cache **sobrevive à desativação do mod**: no teste, com o mod desligado, as placas continuaram usando o shape R-19 com materiais que já não existiam. Por isso o mod distribui o `.cdae` gerado pelo próprio motor a partir do `.dae` do mod, com data mais nova que a do `.dae`. Assim o jogo não recompila e não grava nada fora do mod.
-- `install_mod.py` re-carimba a data (o Git não preserva datas).
-- `validate.py new` recusa `.cdae` ausente ou mais velho que o `.dae`.
-- Os dois `.cdae` gravados em `temp` durante o teste foram removidos (eram cache gerado por este teste).
+Ao carregar um `.dae` mais novo que o `.cdae` do zip, o jogo recompila e grava o resultado no cache do usuário (`current/temp/levels/.../*.cdae`). Esse cache **sobrevive à desativação do mod**: na primeira sessão de teste, com o mod desligado, as 48 placas continuaram com o shape R-19.
 
-## Instâncias
+Por isso o mod distribui o `.cdae` gerado pelo próprio motor, com data mais nova que a do `.dae`:
+- `install_mod.py` re-carimba a data, porque o Git não preserva datas;
+- `validate.py new` recusa `.cdae` ausente ou mais velho que o `.dae`;
+- os `.dae` estão como `-text` no `.gitattributes`, para continuarem byte a byte iguais aos que geraram o `.cdae`.
 
-O caminho virtual do mesh é o mesmo, então as **11** instâncias de `sign_speed25.dae` e as **37** de `sign_speed5.dae` passaram a usar os materiais R-19 sem editar nenhum TSStatic. Isso foi confirmado no jogo com `TSStatic:getMaterialNames()` → `roadsigns_ptbr_r19_40/10, roadsigns_ptbr_r19_back` (48/48).
+**Prova (sessão nova, 30/09 21:25):**
+1. Carga a frio com o mod desligado: originais, sem `.cdae` em `temp`.
+2. Mod ligado (troca via outro mapa): 11 + 7 placas R-19, sem nenhum `.cdae` novo em `temp`.
+3. Mod desligado de novo: `roadsigns` original nas 11, nenhuma instância R-19.
+
+## Instâncias (confirmado no jogo, `TSStatic:getMaterialNames()`)
+
+| Shape | Instâncias | Materiais com o mod |
+|---|---:|---|
+| `sign_speed25.dae` | 11 | `roadsigns_ptbr_r19_40, roadsigns_ptbr_r19_back` |
+| `roadsigns_ptbr/sign_r19_10.dae` | 7 | `roadsigns_ptbr_r19_10, roadsigns_ptbr_r19_back` |
+| `sign_speed5.dae` (placas das baias do porto) | 30 | `roadsigns, metal_galvanized` (inalterado) |

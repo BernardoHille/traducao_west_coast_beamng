@@ -177,6 +177,11 @@ def check_functional(rep, spec):
     if not os.path.exists(zpath):
         rep.add(SKIP, "Functional overrides", "game zip not found")
         return
+    inst_path = os.path.join(REPO, "working", "speed", "sign_instances.json")
+    shapes = {}
+    if os.path.exists(inst_path):
+        with open(inst_path, encoding="utf-8") as fh:
+            shapes = {i["persistentId"] if "persistentId" in i else i["pid"]: i["to"] for i in json.load(fh)["instances"]}
     total = 0
     with zipfile.ZipFile(zpath) as z:
         for f in sorted(files):
@@ -196,13 +201,17 @@ def check_functional(rep, spec):
                         bad.append(y.strip()[:60])
                 else:
                     ox, oy = json.loads(x), json.loads(y)
+                    pid = oy.get("persistentId")
+                    if pid in shapes and oy.get("shapeName") == shapes[pid]:
+                        ox.pop("shapeName", None)
+                        oy.pop("shapeName", None)
                     ox.pop("speedLimit", None)
                     oy.pop("speedLimit", None)
                     if ox != oy:
-                        bad.append(oy.get("persistentId"))
+                        bad.append(pid)
             total += n
             rep.add(FAIL if bad else PASS, f"Override {f}", f"{len(bad)} lines change more than speedLimit: {bad[:3]}" if bad
-                    else f"{n} line(s) differ from the game file, all only in speedLimit")
+                    else f"{n} line(s) differ from the game file, only in speedLimit / declared shapeName")
     rep.meta["functional_changed_lines"] = total
 
 

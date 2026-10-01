@@ -32,6 +32,7 @@ import numpy as np
 REPO = Path(__file__).resolve().parents[2]
 GAME_ZIP = Path(r"C:/Program Files (x86)/Steam/steamapps/common/BeamNG.drive/content/levels/west_coast_usa.zip")
 CHANGES = REPO / "working/speed/speed_changes.json"
+INSTANCES = REPO / "working/speed/sign_instances.json"
 MOD_LEVEL = REPO / "mod/traducao_ptbr_wcusa/levels/west_coast_usa"
 REPORT = REPO / "tests/reports/phase5_speed_diff.json"
 LEVEL_PREFIX = "levels/west_coast_usa/main/MissionGroup/"
@@ -73,10 +74,34 @@ def edit_line(line: str, pid: str, old, new: str) -> str:
     return new_line
 
 
+def edit_shape(line: str, pid: str, old: str, new: str) -> str:
+    obj = json.loads(line)
+    if obj.get("persistentId") != pid or obj.get("class") != "TSStatic" or obj.get("shapeName") != old:
+        raise SystemExit(f"{pid}: not the TSStatic with shapeName {old}")
+    new_line = line.replace(f'"shapeName":"{old}"', f'"shapeName":"{new}"')
+    a, b = json.loads(line), json.loads(new_line)
+    a.pop("shapeName"), b.pop("shapeName")
+    if a != b or json.loads(new_line)["shapeName"] != new:
+        raise SystemExit(f"{pid}: shape edit changed more than shapeName")
+    return new_line
+
+
+def load_instances():
+    return json.loads(INSTANCES.read_text(encoding="utf8"))["instances"] if INSTANCES.exists() else []
+
+
 def build_level_files(changes, zf):
     by_file = {}
     for c in changes:
         by_file.setdefault(c["file"], []).append(c)
+    for inst in load_instances():
+        by_file.setdefault(inst["file"], []).append(dict(inst, kind="shape"))
+    # stale overrides from earlier decisions are removed (only files this tool generates live here)
+    root = MOD_LEVEL / "main/MissionGroup"
+    if root.exists():
+        for f in root.rglob("items.level.json"):
+            if f.relative_to(root).as_posix() not in by_file:
+                f.unlink()
     out = []
     for rel, items in sorted(by_file.items()):
         raw = zf.read(LEVEL_PREFIX + rel).decode("utf8")
@@ -88,7 +113,10 @@ def build_level_files(changes, zf):
                 idx[m.group(1)] = i
         for c in items:
             i = idx[c["pid"]]
-            lines[i] = edit_line(lines[i], c["pid"], c["from"], c["to"])
+            if c.get("kind") == "shape":
+                lines[i] = edit_shape(lines[i], c["pid"], c["from"], c["to"])
+            else:
+                lines[i] = edit_line(lines[i], c["pid"], c["from"], c["to"])
         dst = MOD_LEVEL / "main/MissionGroup" / rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         dst.write_bytes("\n".join(lines).encode("utf8"))
@@ -277,15 +305,21 @@ SIGN_REG = REPO / "tools/validation/config/sign_regulation.json"
 def write_sign_regulation(changes, zf):
     """Config for validate.py speeds: each speed sign -> roads it regulates (declared, reviewed decision)."""
     signs = []
+    shape_of = {i["pid"]: i["to"] for i in load_instances()}
     for n in zf.namelist():
         if not (n.startswith(LEVEL_PREFIX) and n.endswith("items.level.json")):
             continue
         for l in zf.read(n).decode("utf8", "replace").splitlines():
-            m = re.search(r'"shapeName":"([^"]*/(sign_speed\d+)\.dae)"', l)
-            if m:
-                o = json.loads(l)
-                signs.append({"shape": m.group(2), "position": [round(v, 2) for v in o["position"]],
-                              "group": n[len(LEVEL_PREFIX):].rsplit("/", 1)[0]})
+            if '"shapeName":' not in l or "sign_speed" not in l:
+                continue
+            o = json.loads(l)
+            if o.get("class") != "TSStatic" or not re.search(r"/sign_speed\d+\.dae$", o.get("shapeName", "")):
+                continue
+            if o.get("decalType"):
+                continue  # mesh decal (port bay-number plates), not a speed sign
+            shape = shape_of.get(o["persistentId"], o["shapeName"])
+            signs.append({"shape": shape.rsplit("/", 1)[-1].rsplit(".", 1)[0], "persistentId": o["persistentId"],
+                          "position": [round(v, 2) for v in o["position"]], "group": n[len(LEVEL_PREFIX):].rsplit("/", 1)[0]})
     for sg in signs:
         regs = []
         for c in changes:
@@ -303,6 +337,7 @@ def write_sign_regulation(changes, zf):
 def verify(changes, zf):
     """Every mod level file differs from the zip only in the speedLimit of the declared objects."""
     want = {(c["file"], c["pid"]): c["to"] for c in changes}
+    shapes = {(i["file"], i["pid"]): i["to"] for i in load_instances()}
     problems, n_diff = [], 0
     for dst in sorted((MOD_LEVEL / "main/MissionGroup").rglob("items.level.json")):
         rel = dst.relative_to(MOD_LEVEL / "main/MissionGroup").as_posix()
@@ -317,13 +352,18 @@ def verify(changes, zf):
             n_diff += 1
             ox, oy = json.loads(x), json.loads(y)
             pid = oy.get("persistentId")
+            if (rel, pid) in shapes:
+                ox.pop("shapeName", None)
+                if oy.pop("shapeName") != shapes[(rel, pid)] or ox != oy:
+                    problems.append(f"{rel}: {pid} changed beyond shapeName")
+                continue
             if (rel, pid) not in want:
                 problems.append(f"{rel}: undeclared change in {pid}")
                 continue
             ox.pop("speedLimit", None)
             if oy.pop("speedLimit") != want[(rel, pid)] or ox != oy:
                 problems.append(f"{rel}: {pid} changed beyond speedLimit")
-    declared = len(want)
+    declared = len(want) + len(shapes)
     return {"ok": not problems and n_diff == declared, "summary": f"{n_diff} changed lines / {declared} declared",
             "problems": problems}
 
