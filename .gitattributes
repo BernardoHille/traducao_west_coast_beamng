@@ -24,3 +24,5 @@ docs/legacy/** -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 # Packaged mod releases
 *.zip filter=lfs diff=lfs merge=lfs -text
+# Compiled meshes (engine output shipped next to the .dae, see docs/production/PHASE5_ROADSIGNS.md)
+*.cdae filter=lfs diff=lfs merge=lfs -text

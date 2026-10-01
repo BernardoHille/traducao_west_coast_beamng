@@ -1,29 +1,675 @@
 {
   "_doc": "Allowed edit regions per texture (pixel rectangles, origin top-left). Only regions whose location is technically confirmed are listed; 'source' says how. A texture without entries has NO allowed region: every changed pixel counts as 'outside'. Add regions before producing a translation.",
   "t_roadsigns_b.color": {
-    "size": [2048, 1024],
+    "size": [
+      2048,
+      1024
+    ],
     "regions": [
-      {"id": "stop_r1", "x": 1164, "y": 231, "width": 126, "height": 127, "source": "UV of sign_stop.dae (roadsigns material), Phase 3"},
-      {"id": "yield_r2", "x": 1282, "y": 236, "width": 174, "height": 148, "source": "UV of sign_yield.dae, Phase 3"},
-      {"id": "speed_limit_tile", "x": 229, "y": 289, "width": 134, "height": 92, "source": "UV of sign_speed25/sign_speed5.dae, Phase 3"},
-      {"id": "speed_limit_board", "x": 370, "y": 189, "width": 146, "height": 192, "source": "UV of sign_speed25/sign_speed5.dae, Phase 3"},
-      {"id": "speed_red_light_camera", "x": 1473, "y": 786, "width": 167, "height": 235, "source": "UV of s_sign_speedlightcam.dae, Phase 3"},
-      {"id": "municipal_speed_camera", "x": 1643, "y": 788, "width": 160, "height": 231, "source": "UV of s_sign_speedcam.dae, Phase 3"},
-      {"id": "red_light_photo_enforced", "x": 1805, "y": 789, "width": 242, "height": 230, "source": "UV of s_sign_lightcam.dae, Phase 3"}
+      {
+        "id": "stop_r1",
+        "x": 1164,
+        "y": 231,
+        "width": 126,
+        "height": 127,
+        "source": "UV quads of roadsigns.dae (1 inst.), sign_stop.dae (52 inst.); Phase 5"
+      },
+      {
+        "id": "yield_r2",
+        "x": 1282,
+        "y": 236,
+        "width": 174,
+        "height": 148,
+        "source": "UV quads of sign_yield.dae (4 inst.); Phase 5"
+      },
+      {
+        "id": "do_not_enter_r3",
+        "x": 640,
+        "y": 166,
+        "width": 154,
+        "height": 148,
+        "source": "UV quads of offramp_port.dae (1 inst.), roadsigns.dae (1 inst.), s_police_station.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "wrong_way",
+        "x": 643,
+        "y": 316,
+        "width": 148,
+        "height": 102,
+        "source": "UV quads of offramp_port.dae (1 inst.), roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "no_parking_any_time",
+        "x": 800,
+        "y": 198,
+        "width": 118,
+        "height": 126,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "no_parking_bus_stop",
+        "x": 919,
+        "y": 199,
+        "width": 116,
+        "height": 172,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "red_light_violation",
+        "x": 1035,
+        "y": 197,
+        "width": 127,
+        "height": 153,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "do_not_block_intersection",
+        "x": 1157,
+        "y": 359,
+        "width": 126,
+        "height": 151,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "parking_2h_green_box",
+        "x": 1004,
+        "y": 431,
+        "width": 50,
+        "height": 45,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "parking_2h_green_text",
+        "x": 1005,
+        "y": 430,
+        "width": 148,
+        "height": 162,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "parking_2h_7am_6pm",
+        "x": 860,
+        "y": 519,
+        "width": 110,
+        "height": 164,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "left_turn_green_arrow",
+        "x": 1094,
+        "y": 592,
+        "width": 104,
+        "height": 136,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "danger_header",
+        "x": 924,
+        "y": 712,
+        "width": 168,
+        "height": 60,
+        "source": "UV quads of transformer_ground.dae (31 inst.); Phase 5"
+      },
+      {
+        "id": "danger_body",
+        "x": 924,
+        "y": 772,
+        "width": 168,
+        "height": 64,
+        "source": "UV quads of transformer_ground.dae (31 inst.); Phase 5"
+      },
+      {
+        "id": "speed_camera",
+        "x": 1643,
+        "y": 788,
+        "width": 160,
+        "height": 231,
+        "source": "UV quads of s_sign_speedcam.dae (6 inst.); Phase 5"
+      },
+      {
+        "id": "red_light_camera",
+        "x": 1805,
+        "y": 789,
+        "width": 242,
+        "height": 230,
+        "source": "UV quads of s_sign_lightcam.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_exit",
+        "x": 244,
+        "y": 8,
+        "width": 96,
+        "height": 38,
+        "source": "UV quads of roadsigns.dae (1 inst.), s_police_station.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_next",
+        "x": 244,
+        "y": 48,
+        "width": 96,
+        "height": 37,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_east",
+        "x": 244,
+        "y": 87,
+        "width": 98,
+        "height": 38,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_west",
+        "x": 244,
+        "y": 126,
+        "width": 98,
+        "height": 36,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_north",
+        "x": 247,
+        "y": 162,
+        "width": 109,
+        "height": 36,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_south",
+        "x": 247,
+        "y": 199,
+        "width": 109,
+        "height": 37,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_toll",
+        "x": 438,
+        "y": 146,
+        "width": 83,
+        "height": 35,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_caution",
+        "x": 960,
+        "y": 10,
+        "width": 160,
+        "height": 32,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_toll_plaza",
+        "x": 926,
+        "y": 43,
+        "width": 222,
+        "height": 31,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_ahead",
+        "x": 978,
+        "y": 75,
+        "width": 123,
+        "height": 34,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_road",
+        "x": 657,
+        "y": 656,
+        "width": 92,
+        "height": 34,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_work",
+        "x": 750,
+        "y": 656,
+        "width": 99,
+        "height": 34,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_road_closed_stencil",
+        "x": 1208,
+        "y": 587,
+        "width": 182,
+        "height": 112,
+        "source": "UV quads of construction_sign_big_b.dae (1 inst.), construction_sign_small_c.dae (3 inst.); Phase 5"
+      },
+      {
+        "id": "g_caution_under_construction",
+        "x": 1409,
+        "y": 88,
+        "width": 333,
+        "height": 146,
+        "source": "UV quads of construction_sign_big_b.dae (1 inst.), construction_sign_small_a.dae (3 inst.); Phase 5"
+      },
+      {
+        "id": "n_brittlebush_st",
+        "x": 1,
+        "y": 231,
+        "width": 233,
+        "height": 37,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_belasco_city",
+        "x": 1,
+        "y": 269,
+        "width": 211,
+        "height": 40,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_mojave_rd",
+        "x": 1,
+        "y": 496,
+        "width": 195,
+        "height": 40,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_agave_trail_rd",
+        "x": 1,
+        "y": 574,
+        "width": 243,
+        "height": 40,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_promenade",
+        "x": 1,
+        "y": 614,
+        "width": 187,
+        "height": 35,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_motorsports_park",
+        "x": 1,
+        "y": 682,
+        "width": 285,
+        "height": 40,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_casilda_beach",
+        "x": 1,
+        "y": 755,
+        "width": 234,
+        "height": 35,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_mount_wallis",
+        "x": 1,
+        "y": 790,
+        "width": 212,
+        "height": 35,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_canal_st",
+        "x": 1,
+        "y": 825,
+        "width": 151,
+        "height": 33,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_dockyards",
+        "x": 0,
+        "y": 858,
+        "width": 210,
+        "height": 38,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_financial_district",
+        "x": 2,
+        "y": 896,
+        "width": 286,
+        "height": 38,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_downtown_belasco",
+        "x": 2,
+        "y": 934,
+        "width": 314,
+        "height": 39,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_spearleaf_island_a",
+        "x": 3,
+        "y": 978,
+        "width": 169,
+        "height": 45,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_spearleaf_island_b",
+        "x": 172,
+        "y": 978,
+        "width": 113,
+        "height": 39,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      }
     ]
   },
   "t_decal_roadmarkings_b.color": {
-    "size": [1024, 1024],
+    "size": [
+      1024,
+      1024
+    ],
     "regions": [
-      {"id": "slot3_stop", "x": 768, "y": 0, "width": 256, "height": 256, "source": "managedDecalData.json textureCoords (4x4 grid), Phase 3"},
-      {"id": "slot5_only", "x": 256, "y": 256, "width": 256, "height": 256, "source": "idem"},
-      {"id": "slot6_bus", "x": 512, "y": 256, "width": 256, "height": 256, "source": "idem"},
-      {"id": "slot7_keep", "x": 768, "y": 256, "width": 256, "height": 256, "source": "idem"},
-      {"id": "slot8_clear", "x": 0, "y": 512, "width": 256, "height": 256, "source": "idem"},
-      {"id": "slot9_no", "x": 256, "y": 512, "width": 256, "height": 256, "source": "idem"},
-      {"id": "slot10_left_unused", "x": 512, "y": 512, "width": 256, "height": 256, "source": "idem (slot not used by West Coast)"},
-      {"id": "slot11_turn_unused", "x": 768, "y": 512, "width": 256, "height": 256, "source": "idem (slot not used by West Coast)"},
-      {"id": "slot14_exit", "x": 512, "y": 768, "width": 256, "height": 256, "source": "idem"}
+      {
+        "id": "slot3_stop",
+        "x": 768,
+        "y": 0,
+        "width": 256,
+        "height": 256,
+        "source": "managedDecalData.json textureCoords (4x4 grid), Phase 3"
+      },
+      {
+        "id": "slot5_only",
+        "x": 256,
+        "y": 256,
+        "width": 256,
+        "height": 256,
+        "source": "idem"
+      },
+      {
+        "id": "slot6_bus",
+        "x": 512,
+        "y": 256,
+        "width": 256,
+        "height": 256,
+        "source": "idem"
+      },
+      {
+        "id": "slot7_keep",
+        "x": 768,
+        "y": 256,
+        "width": 256,
+        "height": 256,
+        "source": "idem"
+      },
+      {
+        "id": "slot8_clear",
+        "x": 0,
+        "y": 512,
+        "width": 256,
+        "height": 256,
+        "source": "idem"
+      },
+      {
+        "id": "slot9_no",
+        "x": 256,
+        "y": 512,
+        "width": 256,
+        "height": 256,
+        "source": "idem"
+      },
+      {
+        "id": "slot10_left_unused",
+        "x": 512,
+        "y": 512,
+        "width": 256,
+        "height": 256,
+        "source": "idem (slot not used by West Coast)"
+      },
+      {
+        "id": "slot11_turn_unused",
+        "x": 768,
+        "y": 512,
+        "width": 256,
+        "height": 256,
+        "source": "idem (slot not used by West Coast)"
+      },
+      {
+        "id": "slot14_exit",
+        "x": 512,
+        "y": 768,
+        "width": 256,
+        "height": 256,
+        "source": "idem"
+      }
+    ]
+  },
+  "t_roadsigns_o.data": {
+    "size": [
+      2048,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "g_exit",
+        "x": 244,
+        "y": 8,
+        "width": 96,
+        "height": 38,
+        "source": "UV quads of roadsigns.dae (1 inst.), s_police_station.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_next",
+        "x": 244,
+        "y": 48,
+        "width": 96,
+        "height": 37,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_east",
+        "x": 244,
+        "y": 87,
+        "width": 98,
+        "height": 38,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_west",
+        "x": 244,
+        "y": 126,
+        "width": 98,
+        "height": 36,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_north",
+        "x": 247,
+        "y": 162,
+        "width": 109,
+        "height": 36,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_south",
+        "x": 247,
+        "y": 199,
+        "width": 109,
+        "height": 37,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_toll",
+        "x": 438,
+        "y": 146,
+        "width": 83,
+        "height": 35,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_caution",
+        "x": 960,
+        "y": 10,
+        "width": 160,
+        "height": 32,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_toll_plaza",
+        "x": 926,
+        "y": 43,
+        "width": 222,
+        "height": 31,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_ahead",
+        "x": 978,
+        "y": 75,
+        "width": 123,
+        "height": 34,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_road",
+        "x": 657,
+        "y": 656,
+        "width": 92,
+        "height": 34,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_work",
+        "x": 750,
+        "y": 656,
+        "width": 99,
+        "height": 34,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "g_road_closed_stencil",
+        "x": 1208,
+        "y": 587,
+        "width": 182,
+        "height": 112,
+        "source": "UV quads of construction_sign_big_b.dae (1 inst.), construction_sign_small_c.dae (3 inst.); Phase 5"
+      },
+      {
+        "id": "g_caution_under_construction",
+        "x": 1409,
+        "y": 88,
+        "width": 333,
+        "height": 146,
+        "source": "UV quads of construction_sign_big_b.dae (1 inst.), construction_sign_small_a.dae (3 inst.); Phase 5"
+      },
+      {
+        "id": "n_brittlebush_st",
+        "x": 1,
+        "y": 231,
+        "width": 233,
+        "height": 37,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_belasco_city",
+        "x": 1,
+        "y": 269,
+        "width": 211,
+        "height": 40,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_mojave_rd",
+        "x": 1,
+        "y": 496,
+        "width": 195,
+        "height": 40,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_agave_trail_rd",
+        "x": 1,
+        "y": 574,
+        "width": 243,
+        "height": 40,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_promenade",
+        "x": 1,
+        "y": 614,
+        "width": 187,
+        "height": 35,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_motorsports_park",
+        "x": 1,
+        "y": 682,
+        "width": 285,
+        "height": 40,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_casilda_beach",
+        "x": 1,
+        "y": 755,
+        "width": 234,
+        "height": 35,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_mount_wallis",
+        "x": 1,
+        "y": 790,
+        "width": 212,
+        "height": 35,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_canal_st",
+        "x": 1,
+        "y": 825,
+        "width": 151,
+        "height": 33,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_dockyards",
+        "x": 0,
+        "y": 858,
+        "width": 210,
+        "height": 38,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_financial_district",
+        "x": 2,
+        "y": 896,
+        "width": 286,
+        "height": 38,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_downtown_belasco",
+        "x": 2,
+        "y": 934,
+        "width": 314,
+        "height": 39,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_spearleaf_island_a",
+        "x": 3,
+        "y": 978,
+        "width": 169,
+        "height": 45,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "n_spearleaf_island_b",
+        "x": 172,
+        "y": 978,
+        "width": 113,
+        "height": 39,
+        "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      }
     ]
   }
 }

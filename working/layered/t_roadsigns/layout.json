@@ -1,0 +1,1810 @@
+{
+ "_doc": "Overlay definitions for build_t_roadsigns.py. box = edit region (pixels, [x0,y0,x1,y1)); every line box is the CAPITAL-HEIGHT box (top of capitals .. baseline); accents may rise above it. Font: Bahnschrift (Windows system font, DIN 1451 design) as approximation of the MBST 'Serie D/E(M)' alphabets -> human_typography_review_required. Texts come from docs/localization/LOCALIZATION_MASTER.csv.",
+ "defaults": {
+  "font": "bahnschrift"
+ },
+ "elements": [
+  {
+   "id": "stop_r1",
+   "matrix": "roadsigns_stop",
+   "op": "panel",
+   "legend": "white",
+   "box": [
+    1164,
+    231,
+    1290,
+    358
+   ],
+   "erase": [
+    [
+     1172,
+     266,
+     1283,
+     322
+    ]
+   ],
+   "style": {
+    "wght": 620,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "PARE",
+     "box": [
+      1177,
+      273,
+      1278,
+      316
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yield_r2",
+   "matrix": "roadsigns_yield",
+   "op": "r2",
+   "box": [
+    1282,
+    236,
+    1456,
+    384
+   ],
+   "orla_px": 20,
+   "seed": [
+    1300,
+    245
+   ]
+  },
+  {
+   "id": "do_not_enter_r3",
+   "matrix": "roadsigns_do_not_enter",
+   "op": "r3",
+   "box": [
+    640,
+    166,
+    794,
+    314
+   ]
+  },
+  {
+   "id": "wrong_way",
+   "matrix": "roadsigns_wrong_way",
+   "op": "panel",
+   "legend": "white",
+   "box": [
+    643,
+    316,
+    791,
+    418
+   ],
+   "erase": [
+    [
+     648,
+     326,
+     786,
+     406
+    ]
+   ],
+   "style": {
+    "wght": 700,
+    "wdth": 90,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "CONTRAMÃO",
+     "box": [
+      652,
+      353,
+      782,
+      382
+     ]
+    }
+   ]
+  },
+  {
+   "id": "no_parking_any_time",
+   "matrix": "roadsigns_no_parking_any_time",
+   "op": "panel",
+   "legend": "red",
+   "box": [
+    800,
+    198,
+    918,
+    324
+   ],
+   "erase": [
+    [
+     812,
+     258,
+     906,
+     292
+    ],
+    [
+     812,
+     296,
+     906,
+     321
+    ]
+   ],
+   "fill_boxes": [
+    [
+     809,
+     208,
+     856,
+     256
+    ]
+   ],
+   "bg_from": [
+    862,
+    212,
+    904,
+    250
+   ],
+   "legend_from": [
+    812,
+    258,
+    906,
+    292
+   ],
+   "style": {
+    "wght": 560,
+    "wdth": 85,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO",
+     "box": [
+      815,
+      222,
+      903,
+      248
+     ]
+    },
+    {
+     "text": "ESTACIONAR",
+     "box": [
+      813,
+      264,
+      905,
+      290
+     ]
+    }
+   ]
+  },
+  {
+   "id": "no_parking_bus_stop",
+   "matrix": "roadsigns_no_parking_bus_stop",
+   "op": "panel",
+   "legend": "red",
+   "box": [
+    919,
+    199,
+    1035,
+    371
+   ],
+   "erase": [
+    [
+     957,
+     212,
+     1026,
+     242
+    ],
+    [
+     943,
+     260,
+     1011,
+     296
+    ],
+    [
+     935,
+     299,
+     1018,
+     335
+    ]
+   ],
+   "fill_boxes": [
+    [
+     926,
+     208,
+     958,
+     249
+    ]
+   ],
+   "bg_from": [
+    962,
+    252,
+    1022,
+    260
+   ],
+   "legend_from": [
+    943,
+    260,
+    1011,
+    296
+   ],
+   "style": {
+    "wght": 560,
+    "wdth": 85,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO",
+     "box": [
+      932,
+      213,
+      1022,
+      228
+     ]
+    },
+    {
+     "text": "ESTACIONAR",
+     "box": [
+      932,
+      232,
+      1022,
+      247
+     ]
+    },
+    {
+     "text": "PONTO DE",
+     "box": [
+      935,
+      266,
+      1017,
+      292
+     ]
+    },
+    {
+     "text": "ÔNIBUS",
+     "box": [
+      940,
+      306,
+      1014,
+      332
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red_light_violation",
+   "matrix": "roadsigns_red_light_violation",
+   "op": "panel",
+   "legend": "black",
+   "box": [
+    1035,
+    197,
+    1162,
+    350
+   ],
+   "erase": [
+    [
+     1045,
+     216,
+     1153,
+     238
+    ],
+    [
+     1045,
+     244,
+     1153,
+     267
+    ],
+    [
+     1050,
+     271,
+     1148,
+     308
+    ],
+    [
+     1076,
+     311,
+     1121,
+     334
+    ]
+   ],
+   "style": {
+    "wght": 450,
+    "wdth": 90,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "AVANÇO DE SINAL",
+     "box": [
+      1047,
+      220,
+      1151,
+      234
+     ]
+    },
+    {
+     "text": "VERMELHO",
+     "box": [
+      1049,
+      247,
+      1149,
+      261
+     ]
+    },
+    {
+     "text": "MULTA",
+     "box": [
+      1072,
+      273,
+      1126,
+      286
+     ]
+    },
+    {
+     "text": "R$ 400",
+     "box": [
+      1054,
+      295,
+      1144,
+      326
+     ],
+     "style": {
+      "wght": 500
+     }
+    }
+   ]
+  },
+  {
+   "id": "do_not_block_intersection",
+   "matrix": "roadsigns_do_not_block",
+   "op": "panel",
+   "legend": "black",
+   "box": [
+    1157,
+    359,
+    1283,
+    510
+   ],
+   "erase": [
+    [
+     1165,
+     378,
+     1276,
+     408
+    ],
+    [
+     1165,
+     419,
+     1276,
+     450
+    ],
+    [
+     1163,
+     461,
+     1278,
+     491
+    ]
+   ],
+   "style": {
+    "wght": 600,
+    "wdth": 90,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "NÃO",
+     "box": [
+      1180,
+      386,
+      1260,
+      407
+     ]
+    },
+    {
+     "text": "BLOQUEIE O",
+     "box": [
+      1168,
+      425,
+      1272,
+      446
+     ]
+    },
+    {
+     "text": "CRUZAMENTO",
+     "box": [
+      1167,
+      467,
+      1273,
+      488
+     ]
+    }
+   ]
+  },
+  {
+   "id": "parking_2h_green_box",
+   "matrix": "roadsigns_parking_2h_green",
+   "op": "panel",
+   "legend": "white",
+   "box": [
+    1004,
+    431,
+    1054,
+    476
+   ],
+   "erase": [
+    [
+     1008,
+     434,
+     1051,
+     472
+    ]
+   ],
+   "style": {
+    "wght": 600,
+    "wdth": 90,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "2 h",
+     "box": [
+      1009,
+      440,
+      1050,
+      468
+     ]
+    }
+   ]
+  },
+  {
+   "id": "parking_2h_green_text",
+   "matrix": "roadsigns_parking_2h_green",
+   "op": "panel",
+   "legend": "green",
+   "box": [
+    1005,
+    430,
+    1153,
+    592
+   ],
+   "erase": [
+    [
+     1056,
+     432,
+     1150,
+     476
+    ],
+    [
+     1007,
+     478,
+     1150,
+     506
+    ],
+    [
+     1007,
+     508,
+     1150,
+     532
+    ],
+    [
+     1007,
+     538,
+     1150,
+     551
+    ],
+    [
+     1007,
+     565,
+     1056,
+     581
+    ],
+    [
+     1094,
+     565,
+     1150,
+     581
+    ]
+   ],
+   "legend_from": [
+    1007,
+    478,
+    1150,
+    532
+   ],
+   "style": {
+    "wght": 600,
+    "wdth": 85,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "ESTACIONAMENTO",
+     "box": [
+      1058,
+      447,
+      1149,
+      460
+     ]
+    },
+    {
+     "text": "8h ÀS 21h",
+     "box": [
+      1010,
+      484,
+      1148,
+      503
+     ]
+    },
+    {
+     "text": "SEG A SÁB",
+     "box": [
+      1012,
+      513,
+      1146,
+      529
+     ]
+    },
+    {
+     "text": "EXCETO VEÍCULOS COM PERMISSÃO",
+     "box": [
+      1009,
+      541,
+      1148,
+      549
+     ],
+     "style": {
+      "wght": 500
+     }
+    },
+    {
+     "text": "ZONA",
+     "box": [
+      1012,
+      569,
+      1052,
+      577
+     ],
+     "style": {
+      "wght": 500
+     }
+    }
+   ]
+  },
+  {
+   "id": "parking_2h_7am_6pm",
+   "matrix": "roadsigns_parking_2h_7_6",
+   "op": "panel",
+   "legend": "green",
+   "box": [
+    860,
+    519,
+    970,
+    683
+   ],
+   "erase": [
+    [
+     902,
+     530,
+     962,
+     572
+    ],
+    [
+     866,
+     578,
+     964,
+     614
+    ],
+    [
+     866,
+     618,
+     964,
+     652
+    ],
+    [
+     866,
+     655,
+     964,
+     668
+    ]
+   ],
+   "fill_boxes": [
+    [
+     865,
+     527,
+     903,
+     572
+    ]
+   ],
+   "bg_from": [
+    920,
+    575,
+    960,
+    580
+   ],
+   "legend_from": [
+    866,
+    578,
+    964,
+    614
+   ],
+   "style": {
+    "wght": 600,
+    "wdth": 85,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "2 h",
+     "box": [
+      893,
+      536,
+      939,
+      566
+     ]
+    },
+    {
+     "text": "ESTACIONAMENTO",
+     "box": [
+      868,
+      588,
+      962,
+      602
+     ]
+    },
+    {
+     "text": "7h ÀS 18h",
+     "box": [
+      870,
+      626,
+      960,
+      646
+     ]
+    },
+    {
+     "text": "EXCETO DOMINGOS",
+     "box": [
+      874,
+      658,
+      956,
+      665
+     ],
+     "style": {
+      "wght": 500
+     }
+    }
+   ]
+  },
+  {
+   "id": "left_turn_green_arrow",
+   "matrix": "roadsigns_left_turn_green",
+   "op": "panel",
+   "legend": "black",
+   "box": [
+    1094,
+    592,
+    1198,
+    728
+   ],
+   "erase": [
+    [
+     1098,
+     671,
+     1192,
+     721
+    ]
+   ],
+   "style": {
+    "wght": 500,
+    "wdth": 85,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "CONVERSÃO À ESQUERDA",
+     "box": [
+      1100,
+      677,
+      1190,
+      686
+     ]
+    },
+    {
+     "text": "SOMENTE COM",
+     "box": [
+      1102,
+      692,
+      1188,
+      701
+     ]
+    },
+    {
+     "text": "SETA VERDE",
+     "box": [
+      1102,
+      707,
+      1188,
+      716
+     ]
+    }
+   ]
+  },
+  {
+   "id": "danger_header",
+   "matrix": "roadsigns_danger_high_voltage",
+   "op": "panel",
+   "legend": "white",
+   "box": [
+    924,
+    712,
+    1092,
+    772
+   ],
+   "erase": [
+    [
+     946,
+     735,
+     1070,
+     765
+    ]
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "PERIGO",
+     "box": [
+      956,
+      738,
+      1060,
+      761
+     ]
+    }
+   ]
+  },
+  {
+   "id": "danger_body",
+   "matrix": "roadsigns_danger_high_voltage",
+   "op": "panel",
+   "legend": "black",
+   "box": [
+    924,
+    772,
+    1092,
+    836
+   ],
+   "erase": [
+    [
+     930,
+     783,
+     1088,
+     821
+    ]
+   ],
+   "style": {
+    "wght": 600,
+    "wdth": 80,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "ALTA TENSÃO",
+     "box": [
+      936,
+      791,
+      1082,
+      816
+     ]
+    }
+   ]
+  },
+  {
+   "id": "speed_camera",
+   "matrix": "roadsigns_cam_municipal",
+   "op": "panel",
+   "legend": "black",
+   "box": [
+    1643,
+    788,
+    1803,
+    1019
+   ],
+   "erase": [
+    [
+     1651,
+     903,
+     1795,
+     1009
+    ]
+   ],
+   "style": {
+    "wght": 500,
+    "wdth": 90,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "FISCALIZAÇÃO",
+     "box": [
+      1653,
+      908,
+      1793,
+      925
+     ]
+    },
+    {
+     "text": "ELETRÔNICA",
+     "box": [
+      1656,
+      936,
+      1790,
+      952
+     ]
+    },
+    {
+     "text": "DE",
+     "box": [
+      1700,
+      962,
+      1746,
+      979
+     ]
+    },
+    {
+     "text": "VELOCIDADE",
+     "box": [
+      1656,
+      990,
+      1790,
+      1006
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red_light_camera",
+   "matrix": "roadsigns_cam_red_light",
+   "op": "panel",
+   "legend": "black",
+   "box": [
+    1805,
+    789,
+    2047,
+    1019
+   ],
+   "erase": [
+    [
+     1886,
+     800,
+     2042,
+     956
+    ],
+    [
+     1818,
+     968,
+     2042,
+     1009
+    ]
+   ],
+   "style": {
+    "wght": 500,
+    "wdth": 85,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "FISCALIZAÇÃO",
+     "box": [
+      1890,
+      830,
+      2038,
+      856
+     ]
+    },
+    {
+     "text": "ELETRÔNICA",
+     "box": [
+      1892,
+      894,
+      2036,
+      920
+     ]
+    },
+    {
+     "text": "AVANÇO DE SINAL",
+     "box": [
+      1822,
+      975,
+      2036,
+      1003
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_exit",
+   "matrix": "roadsigns_exit",
+   "op": "glyph",
+   "box": [
+    244,
+    8,
+    340,
+    46
+   ],
+   "safe": [
+    247,
+    10,
+    330,
+    44
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "SAÍDA",
+     "box": [
+      250,
+      16,
+      328,
+      39
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_next",
+   "matrix": "roadsigns_next",
+   "op": "glyph",
+   "box": [
+    244,
+    48,
+    340,
+    85
+   ],
+   "safe": [
+    247,
+    51,
+    329,
+    83
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "PRÓXIMA",
+     "box": [
+      249,
+      57,
+      327,
+      77
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_east",
+   "matrix": "roadsigns_dir_east",
+   "op": "glyph",
+   "box": [
+    244,
+    87,
+    342,
+    125
+   ],
+   "safe": [
+    248,
+    88,
+    329,
+    121
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "smallcaps": true,
+    "smallcaps_ratio": 0.76,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "LESTE",
+     "box": [
+      251,
+      93,
+      328,
+      117
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_west",
+   "matrix": "roadsigns_dir_west",
+   "op": "glyph",
+   "box": [
+    244,
+    126,
+    342,
+    162
+   ],
+   "safe": [
+    248,
+    126,
+    328,
+    162
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "smallcaps": true,
+    "smallcaps_ratio": 0.76,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "OESTE",
+     "box": [
+      249,
+      131,
+      327,
+      156
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_north",
+   "matrix": "roadsigns_dir_north",
+   "op": "glyph",
+   "box": [
+    247,
+    162,
+    356,
+    198
+   ],
+   "safe": [
+    250,
+    162,
+    353,
+    198
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "smallcaps": true,
+    "smallcaps_ratio": 0.76,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "NORTE",
+     "box": [
+      251,
+      168,
+      349,
+      192
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_south",
+   "matrix": "roadsigns_dir_south",
+   "op": "glyph",
+   "box": [
+    247,
+    199,
+    356,
+    236
+   ],
+   "safe": [
+    251,
+    199,
+    353,
+    236
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "smallcaps": true,
+    "smallcaps_ratio": 0.76,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "SUL",
+     "box": [
+      251,
+      202,
+      349,
+      227
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_toll",
+   "matrix": "roadsigns_toll",
+   "op": "glyph",
+   "box": [
+    438,
+    146,
+    521,
+    181
+   ],
+   "safe": [
+    440,
+    146,
+    519,
+    181
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "PEDÁGIO",
+     "box": [
+      442,
+      154,
+      517,
+      176
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_caution",
+   "matrix": "roadsigns_toll_plaza",
+   "op": "glyph",
+   "box": [
+    960,
+    10,
+    1120,
+    42
+   ],
+   "safe": [
+    962,
+    10,
+    1118,
+    42
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "ATENÇÃO",
+     "box": [
+      966,
+      16,
+      1112,
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_toll_plaza",
+   "matrix": "roadsigns_toll_plaza",
+   "op": "glyph",
+   "box": [
+    926,
+    43,
+    1148,
+    74
+   ],
+   "safe": [
+    930,
+    43,
+    1144,
+    74
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "PEDÁGIO",
+     "box": [
+      932,
+      50,
+      1136,
+      70
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_ahead",
+   "matrix": "roadsigns_toll_plaza",
+   "op": "glyph",
+   "box": [
+    978,
+    75,
+    1101,
+    109
+   ],
+   "safe": [
+    980,
+    75,
+    1099,
+    109
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "À FRENTE",
+     "box": [
+      982,
+      82,
+      1097,
+      102
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_road",
+   "matrix": "roadsigns_road_work",
+   "op": "glyph",
+   "box": [
+    657,
+    656,
+    749,
+    690
+   ],
+   "safe": [
+    659,
+    656,
+    747,
+    690
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "OBRAS",
+     "box": [
+      662,
+      663,
+      744,
+      685
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_work",
+   "matrix": "roadsigns_road_work",
+   "op": "glyph",
+   "box": [
+    750,
+    656,
+    849,
+    690
+   ],
+   "safe": [
+    752,
+    656,
+    847,
+    690
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "NA VIA",
+     "box": [
+      755,
+      663,
+      846,
+      685
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_road_closed_stencil",
+   "matrix": "roadsigns_road_closed_stencil",
+   "op": "glyph",
+   "box": [
+    1208,
+    587,
+    1390,
+    699
+   ],
+   "safe": [
+    1212,
+    590,
+    1386,
+    696
+   ],
+   "style": {
+    "wght": 700,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "VIA",
+     "box": [
+      1260,
+      606,
+      1330,
+      634
+     ]
+    },
+    {
+     "text": "INTERDITADA",
+     "box": [
+      1216,
+      652,
+      1382,
+      680
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g_caution_under_construction",
+   "matrix": "roadsigns_caution_construction",
+   "op": "glyph",
+   "box": [
+    1409,
+    88,
+    1742,
+    234
+   ],
+   "safe": [
+    1413,
+    90,
+    1738,
+    232
+   ],
+   "style": {
+    "wght": 700,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "ATENÇÃO",
+     "box": [
+      1470,
+      112,
+      1680,
+      142
+     ]
+    },
+    {
+     "text": "EM OBRAS",
+     "box": [
+      1450,
+      180,
+      1700,
+      214
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n_brittlebush_st",
+   "matrix": "roadsigns_place_brittlebush_st",
+   "op": "glyph",
+   "box": [
+    1,
+    231,
+    234,
+    268
+   ],
+   "safe": [
+    5,
+    231,
+    230,
+    268
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Rua Brittlebush"
+    }
+   ]
+  },
+  {
+   "id": "n_belasco_city",
+   "matrix": "roadsigns_place_belasco_city",
+   "op": "glyph",
+   "box": [
+    1,
+    269,
+    212,
+    309
+   ],
+   "safe": [
+    5,
+    270,
+    203,
+    307
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Belasco"
+    }
+   ]
+  },
+  {
+   "id": "n_mojave_rd",
+   "matrix": "roadsigns_place_mojave_rd",
+   "op": "glyph",
+   "box": [
+    1,
+    496,
+    196,
+    536
+   ],
+   "safe": [
+    4,
+    498,
+    166,
+    535
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Estrada Mojave"
+    }
+   ]
+  },
+  {
+   "id": "n_agave_trail_rd",
+   "matrix": "roadsigns_place_agave_trail_rd",
+   "op": "glyph",
+   "box": [
+    1,
+    574,
+    244,
+    614
+   ],
+   "safe": [
+    4,
+    575,
+    238,
+    612
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Estrada Agave Trail"
+    }
+   ]
+  },
+  {
+   "id": "n_promenade",
+   "matrix": "roadsigns_place_promenade",
+   "op": "glyph",
+   "box": [
+    1,
+    614,
+    188,
+    649
+   ],
+   "safe": [
+    4,
+    614,
+    184,
+    648
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Calçadão"
+    }
+   ]
+  },
+  {
+   "id": "n_motorsports_park",
+   "matrix": "roadsigns_place_motorsports_park",
+   "op": "glyph",
+   "box": [
+    1,
+    682,
+    286,
+    722
+   ],
+   "safe": [
+    4,
+    683,
+    281,
+    720
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Autódromo"
+    }
+   ]
+  },
+  {
+   "id": "n_casilda_beach",
+   "matrix": "roadsigns_place_casilda_beach",
+   "op": "glyph",
+   "box": [
+    1,
+    755,
+    235,
+    790
+   ],
+   "safe": [
+    4,
+    755,
+    230,
+    790
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Praia Casilda"
+    }
+   ]
+  },
+  {
+   "id": "n_mount_wallis",
+   "matrix": "roadsigns_place_mount_wallis",
+   "op": "glyph",
+   "box": [
+    1,
+    790,
+    213,
+    825
+   ],
+   "safe": [
+    4,
+    790,
+    207,
+    825
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Monte Wallis"
+    }
+   ]
+  },
+  {
+   "id": "n_canal_st",
+   "matrix": "roadsigns_place_canal_st",
+   "op": "glyph",
+   "box": [
+    1,
+    825,
+    152,
+    858
+   ],
+   "safe": [
+    4,
+    825,
+    149,
+    858
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Rua do Canal"
+    }
+   ]
+  },
+  {
+   "id": "n_dockyards",
+   "matrix": "roadsigns_place_dockyards",
+   "op": "glyph",
+   "box": [
+    0,
+    858,
+    210,
+    896
+   ],
+   "safe": [
+    4,
+    858,
+    179,
+    896
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Docas"
+    }
+   ]
+  },
+  {
+   "id": "n_financial_district",
+   "matrix": "roadsigns_place_financial_district",
+   "op": "glyph",
+   "box": [
+    2,
+    896,
+    288,
+    934
+   ],
+   "safe": [
+    5,
+    896,
+    285,
+    934
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Centro Financeiro"
+    }
+   ]
+  },
+  {
+   "id": "n_downtown_belasco",
+   "matrix": "roadsigns_place_downtown_belasco",
+   "op": "glyph",
+   "box": [
+    2,
+    934,
+    316,
+    973
+   ],
+   "safe": [
+    5,
+    934,
+    313,
+    973
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Centro de Belasco"
+    }
+   ]
+  },
+  {
+   "id": "n_spearleaf_island_a",
+   "matrix": "roadsigns_place_spearleaf_island",
+   "op": "glyph",
+   "box": [
+    3,
+    978,
+    172,
+    1023
+   ],
+   "safe": [
+    6,
+    980,
+    170,
+    1023
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "center"
+   },
+   "lines": [
+    {
+     "text": "Ilha"
+    }
+   ]
+  },
+  {
+   "id": "n_spearleaf_island_b",
+   "matrix": "roadsigns_place_spearleaf_island",
+   "op": "glyph",
+   "box": [
+    172,
+    978,
+    285,
+    1017
+   ],
+   "safe": [
+    174,
+    979,
+    283,
+    1017
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 100,
+    "min_wdth": 75,
+    "align": "center"
+   },
+   "lines": [
+    {
+     "text": "Spearleaf"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "centerDividerBarrier": {
+  "instances": 27,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "city_west9": {
+  "instances": 0,
+  "files": [],
+  "forest_item": false
+ },
+ "construction_sign_big_a": {
+  "instances": 3,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/constructionSite_001/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "construction_sign_big_b": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "construction_sign_big_c": {
+  "instances": 0,
+  "files": [],
+  "forest_item": false
+ },
+ "construction_sign_small_a": {
+  "instances": 3,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/constructionSite_001/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "construction_sign_small_b": {
+  "instances": 2,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "construction_sign_small_c": {
+  "instances": 3,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/beach/beach_props/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "garage_racetrack": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/fastAutomotive/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "grandstands_barrierwall": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/raceTrackParkingLotGrandStands/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "guardRailEndCap": {
+  "instances": 61,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "guardrail_end": {
+  "instances": 11,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "island_decals": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/island/island_meshes/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "offramp_port": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "overpass_S": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "roadsigns": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "s_police_station": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/PoliceStation/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "s_sign_lightcam": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/redlightCamera_001/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "s_sign_speedcam": {
+  "instances": 6,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_002/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_003/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_004/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_005/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_006/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_007/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "s_sign_speedlightcam": {
+  "instances": 0,
+  "files": [],
+  "forest_item": false
+ },
+ "s_toll_booth_center": {
+  "instances": 3,
+  "files": [
+   "levels/west_coast_usa/art/prefabs/p_toll_booth.prefab.json"
+  ],
+  "forest_item": false
+ },
+ "s_toll_booth_center_alt": {
+  "instances": 2,
+  "files": [
+   "levels/west_coast_usa/art/prefabs/p_toll_booth.prefab.json"
+  ],
+  "forest_item": false
+ },
+ "s_warehouse_storage_5bay": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/career_garage/career_garage_props/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "sign_chevron_L": {
+  "instances": 161,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/Track_meshes/track_entrance_guard_rail/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/career_garage/career_garage_props/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island/island_signs/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_entrance/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_exit/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/port_public_area/set_dress/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "sign_chevron_R": {
+  "instances": 140,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/concrete_batch_factory/CBF_assets/CBF_entrance_assets/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/fuel_stations/fuel_station_6/fs_6_meshes/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island/island_signs/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_entrance/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_exit/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/port_public_area/set_dress/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "sign_speed25": {
+  "instances": 11,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/island/island_signs/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_entrance/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "sign_speed25.cdae": {
+  "instances": 0,
+  "files": [],
+  "forest_item": false
+ },
+ "sign_speed5": {
+  "instances": 37,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_entrance/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_exit/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/port/portNumbersSigns/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "sign_speed5.cdae": {
+  "instances": 0,
+  "files": [],
+  "forest_item": false
+ },
+ "sign_stop": {
+  "instances": 52,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/career_garage/career_garage_exterior/career_garage_exterior_props/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/dealerships/jefferson_dealership/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/dealerships/quarryside_dealership/quarrySide_props/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island/island_signs/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/decals_extras/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_entrance/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_exit/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/movie_studio/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "sign_yield": {
+  "instances": 4,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/decals_extras/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "transformer_ground": {
+  "instances": 31,
+  "files": [
+   "levels/west_coast_usa/art/prefabs/test_cementfactory.prefab.json",
+   "levels/west_coast_usa/main/MissionGroup/Buildings/fastAutomotive/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/StaticObjects/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/concrete_batch_factory/CBF_assets/CBF_concreteStore/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island/island_meshes/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/island_shippingYard/electrical/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/quarry/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/steel_factory/Electric_stuff_1/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/steel_factory/interiors/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_NEa": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_NEb": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_NEc": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_NW2a": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_NW2b": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_S": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_bmaDrag": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/dragTunnel/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_city1": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_city2": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_city4": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_city5": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_city6": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "tunnel_mainTrackEntrance": {
+  "instances": 1,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Track_meshes/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "warehouse_large": {
+  "instances": 2,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/concrete_batch_factory/CBF_assets/CBF_concreteStore/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/steel_factory/exteriors/items.level.json"
+  ],
+  "forest_item": false
+ },
+ "warehouse_storage": {
+  "instances": 11,
+  "files": [
+   "levels/west_coast_usa/main/MissionGroup/Buildings/fastAutomotive/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/Buildings/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/dealerships/quarryside_dealership/quarrySide_props/items.level.json",
+   "levels/west_coast_usa/main/MissionGroup/steel_factory/exteriors/items.level.json"
+  ],
+  "forest_item": false
+ }
+}
