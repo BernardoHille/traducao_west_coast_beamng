@@ -158,7 +158,7 @@ Fase só de documentação: **nenhuma textura, família, limite, radar ou ADAS f
   - as anotações foram ancoradas em posições medidas no jogo.
 - **Dados:** [`article/DATA_SUMMARY.md`](article/DATA_SUMMARY.md), com a fonte de cada número. Revalidação em 02/10: unittest 44 OK; self-test 75; regressão 10/10; mod 48/48; new 24/24; velocidade 13 FAIL (fora do escopo).
 - **Reprodução:** `docs/article/tools/` (`capture_article.py`, `build_figures.py`, `md_to_html.py`).
-- **Estado do repositório na redação:** os 6 commits da Fase 5 ainda não estavam no remoto (`origin/main` = `0256004`).
+- **Estado do repositório na redação:** no início, os 6 commits da Fase 5 ainda não estavam no remoto (`origin/main` = `0256004`). Ao final, o remoto já estava em `70329b1`.
 
 ## Problemas conhecidos
 

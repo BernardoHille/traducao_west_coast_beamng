@@ -6,7 +6,7 @@
 |---|---|
 | Commit documentado | `70329b1bbea173e72edd421eb74b6542d82df862` (`docs: fix phase 5 element counts`) |
 | Branch | `main` |
-| Remoto no momento da redação | `origin/main` = `02560049329becfc2e94abcc4a7b3d9da9ecee6f` (Fase 4), conferido por `git ls-remote` em 02/10/2026. Os 6 commits da Fase 5 estavam só no repositório local |
+| Remoto no momento da redação | `origin/main` = `02560049329becfc2e94abcc4a7b3d9da9ecee6f` (Fase 4), conferido por `git ls-remote` em 02/10/2026. Os 6 commits da Fase 5 estavam só no repositório local. Ao final da fase, o remoto já estava em `70329b1` (Fase 5 publicada durante a redação) |
 | Data | 02/10/2026 |
 | BeamNG.drive | 0.39.4.0 (Steam), Direct3D 12 |
 | Mod | `traducao_ptbr_wcusa` 0.5.0, instalado em `current/mods/unpacked/` como cópia de `mod/traducao_ptbr_wcusa/` |

@@ -10,7 +10,7 @@
 | **Estado máximo documentado** | Fase 5 concluída e validada localmente. Primeira família definitiva (`t_roadsigns`), placas R-19 10/40 km/h e limites funcionais sincronizados |
 | **Repositório** | `github.com/BernardoHille/traducao_west_coast_beamng` |
 
-> **Nota de rastreabilidade.** Quando este artigo foi escrito, o remoto (`origin/main`) estava em `0256004` (Fase 4). Os seis commits da Fase 5 (`f83e4ce` → `70329b1`) existiam só no repositório local. Todos os resultados da Fase 5 citados aqui podem ser verificados nesses commits e nos arquivos indicados. As capturas novas desta fase documental foram feitas em 02/10/2026, com o mod no estado do commit `70329b1`.
+> **Nota de rastreabilidade.** Quando este artigo foi escrito, o remoto (`origin/main`) estava em `0256004` (Fase 4). Os seis commits da Fase 5 (`f83e4ce` → `70329b1`) existiam só no repositório local. Ao final desta fase documental, `git ls-remote` já mostrava o remoto em `70329b1`: a Fase 5 foi publicada durante a redação. Todos os resultados da Fase 5 citados aqui podem ser verificados nesses commits e nos arquivos indicados. As capturas novas desta fase documental foram feitas em 02/10/2026, com o mod no estado do commit `70329b1`.
 
 ---
 
