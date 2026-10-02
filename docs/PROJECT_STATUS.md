@@ -1,7 +1,7 @@
 # Status do projeto
 
-**Última atualização:** 01/10/2026
-**Fase atual:** Fase 5 — t_roadsigns e R-19 10/40 concluídos
+**Última atualização:** 02/10/2026
+**Fase atual:** Fase 5.5 — documentação técnica/artigo concluída (produção: Fase 5 — t_roadsigns e R-19 10/40 concluídos)
 
 ## Ambiente
 
@@ -147,6 +147,18 @@ Detalhes em [`production/PHASE5_ROADSIGNS.md`](production/PHASE5_ROADSIGNS.md):
 - **`sign_speed5.dae` também é decalque das baias do porto:** antes de substituir um mesh no mesmo caminho, verificar o `decalType` das instâncias.
 - **Janela do jogo minimizada ou em segundo plano:** cargas de mapa travam se minimizada, e o `TimeOfDay` pode não tickar. Os presets fixam a elevação do sol.
 - **Palavras compostas por UV:** várias são recortadas pelo `_o.data` e compartilhadas entre placas. O `tools/production/render_signs.py` reconstrói as composições offline.
+
+## Resultado da Fase 5.5 — Documentação técnica (artigo)
+
+Fase só de documentação: **nenhuma textura, família, limite, radar ou ADAS foi alterado.** Detalhes em [`article/METHODOLOGY_NOTES.md`](article/METHODOLOGY_NOTES.md).
+
+- **Artigo:** [`article/ARTIGO_TECNICO_PTBR.md`](article/ARTIGO_TECNICO_PTBR.md), estudo de caso das Fases 0–5, que descreve o commit `70329b1`. Versões [HTML](article/ARTIGO_TECNICO_PTBR.html) e [PDF](article/ARTIGO_TECNICO_PTBR.pdf).
+- **Figuras:** 21 (`article/figures/`), índice e rastreabilidade em [`article/FIGURE_INDEX.md`](article/FIGURE_INDEX.md).
+  - 19 capturas novas pelo MCP em `figures/raw/` (original, PoC reproduzido temporariamente e PT-BR), não editadas;
+  - as anotações foram ancoradas em posições medidas no jogo.
+- **Dados:** [`article/DATA_SUMMARY.md`](article/DATA_SUMMARY.md), com a fonte de cada número. Revalidação em 02/10: unittest 44 OK; self-test 75; regressão 10/10; mod 48/48; new 24/24; velocidade 13 FAIL (fora do escopo).
+- **Reprodução:** `docs/article/tools/` (`capture_article.py`, `build_figures.py`, `md_to_html.py`).
+- **Estado do repositório na redação:** os 6 commits da Fase 5 ainda não estavam no remoto (`origin/main` = `0256004`).
 
 ## Problemas conhecidos
 

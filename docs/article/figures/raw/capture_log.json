@@ -1,0 +1,583 @@
+[
+ {
+  "file": "docs/article/figures/raw/roadsigns_chinatown_stop__original.png",
+  "name": "roadsigns_chinatown_stop",
+  "state": "original",
+  "taken": "2026-10-02T11:06:06",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_110605_127.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 550.313,
+    "x": -710.782,
+    "z": 122.835
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.0024199991452618,
+    "z": -0.30989910930395,
+    "x": 0.0074299973797647,
+    "w": 0.95073733533279
+   }
+  },
+  "mod_active": false,
+  "vfs_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/roadsigns_downtown_yield__original.png",
+  "name": "roadsigns_downtown_yield",
+  "state": "original",
+  "taken": "2026-10-02T11:06:12",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_110611_128.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 96.0784,
+    "x": -110.5606,
+    "z": 126.7581
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.027137995500564,
+    "z": 0.95059315760697,
+    "x": -0.0088249985368117,
+    "w": 0.30912505125249
+   }
+  },
+  "mod_active": false,
+  "vfs_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/r19_40_hill__original.png",
+  "name": "r19_40_hill",
+  "state": "original",
+  "taken": "2026-10-02T11:06:18",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_110617_129.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 158.0094,
+    "x": -171.2629,
+    "z": 123.426
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0.94731513213437,
+    "x": 0,
+    "w": 0.32030304467683
+   }
+  },
+  "mod_active": false,
+  "vfs_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/r19_10_downtown_parking__original.png",
+  "name": "r19_10_downtown_parking",
+  "state": "original",
+  "taken": "2026-10-02T11:06:24",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_110623_130.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 25.5059,
+    "x": -144.5126,
+    "z": 124.08
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0.99967716455037,
+    "x": 0,
+    "w": 0.025408004182247
+   }
+  },
+  "mod_active": false,
+  "vfs_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/aerial_downtown__original.png",
+  "name": "aerial_downtown",
+  "state": "original",
+  "taken": "2026-10-02T11:06:33",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_110632_131.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 330,
+    "x": -420,
+    "z": 760
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "mod_active": false,
+  "vfs_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/qa_context_chinatown__original.png",
+  "name": "qa_context_chinatown",
+  "state": "original",
+  "taken": "2026-10-02T11:06:40",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_110639_132.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 528,
+    "x": -697,
+    "z": 136
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.065340285188171,
+    "z": -0.26497667959972,
+    "x": 0.2303285723514,
+    "w": 0.93405928888824
+   }
+  },
+  "mod_active": false,
+  "vfs_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/decal_bus_only_top__original.png",
+  "name": "decal_bus_only_top",
+  "state": "original",
+  "taken": "2026-10-02T11:06:46",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_110645_133.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 499,
+    "x": -445.7,
+    "z": 118
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "mod_active": false,
+  "vfs_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/decal_keep_clear_top__original.png",
+  "name": "decal_keep_clear_top",
+  "state": "original",
+  "taken": "2026-10-02T11:06:52",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_110651_134.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 477.9,
+    "x": -335.4,
+    "z": 108
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "mod_active": false,
+  "vfs_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/decal_stop_chinatown_oblique__original.png",
+  "name": "decal_stop_chinatown_oblique",
+  "state": "original",
+  "taken": "2026-10-02T11:06:58",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_110657_135.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 539,
+    "x": -703,
+    "z": 128
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.082002093941172,
+    "z": -0.3363925281631,
+    "x": 0.22218447985294,
+    "w": 0.91145476053273
+   }
+  },
+  "mod_active": false,
+  "vfs_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/roadsigns_chinatown_stop__poc.png",
+  "name": "roadsigns_chinatown_stop",
+  "state": "poc",
+  "taken": "2026-10-02T11:10:13",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111012_138.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 550.313,
+    "x": -710.782,
+    "z": 122.835
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.0024199991452618,
+    "z": -0.30989910930395,
+    "x": 0.0074299973797647,
+    "w": 0.95073733533279
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/roadsigns_downtown_yield__poc.png",
+  "name": "roadsigns_downtown_yield",
+  "state": "poc",
+  "taken": "2026-10-02T11:10:19",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111018_139.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 96.0784,
+    "x": -110.5606,
+    "z": 126.7581
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.027137995500564,
+    "z": 0.95059315760697,
+    "x": -0.0088249985368117,
+    "w": 0.30912505125249
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/roadsigns_chinatown_stop__ptbr.png",
+  "name": "roadsigns_chinatown_stop",
+  "state": "ptbr",
+  "taken": "2026-10-02T11:12:29",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111228_140.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 550.313,
+    "x": -710.782,
+    "z": 122.835
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.0024199991452618,
+    "z": -0.30989910930395,
+    "x": 0.0074299973797647,
+    "w": 0.95073733533279
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/roadsigns_downtown_yield__ptbr.png",
+  "name": "roadsigns_downtown_yield",
+  "state": "ptbr",
+  "taken": "2026-10-02T11:12:35",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111234_141.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 96.0784,
+    "x": -110.5606,
+    "z": 126.7581
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.027137995500564,
+    "z": 0.95059315760697,
+    "x": -0.0088249985368117,
+    "w": 0.30912505125249
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/r19_40_hill__ptbr.png",
+  "name": "r19_40_hill",
+  "state": "ptbr",
+  "taken": "2026-10-02T11:12:42",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111240_142.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 158.0094,
+    "x": -171.2629,
+    "z": 123.426
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0.94731513213437,
+    "x": 0,
+    "w": 0.32030304467683
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/r19_10_downtown_parking__ptbr.png",
+  "name": "r19_10_downtown_parking",
+  "state": "ptbr",
+  "taken": "2026-10-02T11:12:48",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111247_143.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 25.5059,
+    "x": -144.5126,
+    "z": 124.08
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0.99967716455037,
+    "x": 0,
+    "w": 0.025408004182247
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/aerial_downtown__ptbr.png",
+  "name": "aerial_downtown",
+  "state": "ptbr",
+  "taken": "2026-10-02T11:12:57",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111256_144.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 330,
+    "x": -420,
+    "z": 760
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/decal_bus_only_top__ptbr.png",
+  "name": "decal_bus_only_top",
+  "state": "ptbr",
+  "taken": "2026-10-02T11:13:03",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111302_145.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 499,
+    "x": -445.7,
+    "z": 118
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/decal_stop_chinatown_oblique__ptbr.png",
+  "name": "decal_stop_chinatown_oblique",
+  "state": "ptbr",
+  "taken": "2026-10-02T11:13:09",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111308_146.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 539,
+    "x": -703,
+    "z": 128
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.082002093941172,
+    "z": -0.3363925281631,
+    "x": 0.22218447985294,
+    "w": 0.91145476053273
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ },
+ {
+  "file": "docs/article/figures/raw/qa_context_side__ptbr.png",
+  "name": "qa_context_side",
+  "state": "ptbr",
+  "taken": "2026-10-02T11:15:55",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111554_147.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 559.8,
+    "x": -700.4,
+    "z": 128
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.16345787274324,
+    "z": -0.87575186845176,
+    "x": 0.083345193594098,
+    "w": 0.446535292498
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds",
+  "discarded": "camera inside a building; file deleted, replaced by qa_context_top"
+ },
+ {
+  "file": "docs/article/figures/raw/qa_context_top__ptbr.png",
+  "name": "qa_context_top",
+  "state": "ptbr",
+  "taken": "2026-10-02T11:16:27",
+  "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261002_111626_148.png",
+  "resolution": [
+   1920,
+   993
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 551.6,
+    "x": -711.7,
+    "z": 139
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "mod_active": true,
+  "vfs_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_o_data": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds"
+ }
+]

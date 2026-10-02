@@ -1,0 +1,79 @@
+{
+ "_doc": "Pixel positions used to annotate figures. Measured in the game by drawing a debug sphere (MCP debug_draw) at the map coordinate, taking a calibration screenshot (not kept) and averaging the magenta pixels. Aerial: 5 spheres r=9 m; others: r=0.25 m. null = sphere hidden under the road surface (label placed visually next to the word).",
+ "aerial_downtown": {
+  "stop_chinatown": [
+   465.6,
+   127.3
+  ],
+  "bus_only": [
+   917.7,
+   225.6
+  ],
+  "keep_clear": [
+   1095.3,
+   259.5
+  ],
+  "speed25_hill": [
+   1378.9,
+   788.3
+  ],
+  "yield_downtown": [
+   1479.6,
+   894.1
+  ],
+  "speed5_parking_projected_offframe": [
+   1421.5,
+   1011.7
+  ]
+ },
+ "_aerial_model": "vertical FOV 50 deg, pinhole; projected vs measured error <= 6 px",
+ "qa_context_top": {
+  "sign": [
+   896.7,
+   411.9,
+   788
+  ],
+  "qacam": [
+   1020.0,
+   581.0,
+   837
+  ],
+  "decal": [
+   931.7,
+   656.5,
+   579
+  ]
+ },
+ "decal_stop_chinatown_oblique": {
+  "sign": [
+   1062.2,
+   315.8,
+   692
+  ],
+  "decal": [
+   913.3,
+   562.6,
+   654
+  ]
+ },
+ "decal_bus_only_top": {
+  "bus": [
+   1086.6,
+   627.4,
+   464
+  ],
+  "only": null
+ },
+ "decal_keep_clear_top": {
+  "keep": [
+   756.0,
+   707.1,
+   56
+  ],
+  "clear": [
+   1142.3,
+   305.0,
+   412
+  ]
+ }
+}
