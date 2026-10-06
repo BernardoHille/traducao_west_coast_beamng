@@ -3,12 +3,12 @@
   "subject": "mod/traducao_ptbr_wcusa",
   "status": "PASS",
   "counts": {
-    "PASS": 48,
+    "PASS": 104,
     "WARN": 0,
     "FAIL": 0,
     "SKIP": 0
   },
-  "generated": "2026-10-01T01:04:13",
+  "generated": "2026-10-06T07:16:42",
   "meta": {},
   "checks": [
     {
@@ -26,6 +26,114 @@
     {
       "status": "PASS",
       "name": "Asset path",
+      "message": "assets/materials/billboard_label/billboards/t_billboards_b.color.dds → t_billboards/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds → eca_genericsigns/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds → ind_industrial_signs/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/m_movie_studio_signage/t_movie_studio_signage_b.color.dds → t_movie_studio_signage/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_b.color.dds → t_spearleaf_refinery_logo/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_o.data.dds → t_spearleaf_refinery_logo/opacity",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_ao.data.dds → t_steel_factory_brand/ao",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_b.color.dds → t_steel_factory_brand/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_nm.normal.dds → t_steel_factory_brand/normal",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_r.data.dds → t_steel_factory_brand/roughness",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_ao.data.dds → t_decal_roadmarkings/ao",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_b.color.dds → t_decal_roadmarkings/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_nm.normal.dds → t_decal_roadmarkings/normal",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_o.data.dds → t_decal_roadmarkings/opacity",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_ao.data.dds → t_decal_roadmarkings/ao",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_b.color.dds → t_decal_roadmarkings/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_nm.normal.dds → t_decal_roadmarkings/normal",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds → t_decal_roadmarkings/opacity",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
       "message": "assets/materials/signage/roadsigns/t_roadsigns_b.color.dds → t_roadsigns/base_color",
       "details": {}
     },
@@ -33,6 +141,12 @@
       "status": "PASS",
       "name": "Asset path",
       "message": "assets/materials/signage/roadsigns/t_roadsigns_o.data.dds → t_roadsigns/opacity",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "levels/jungle_rock_island/art/shapes/buildings/ind_industrial_signs_d.color.dds → ind_industrial_signs/base_color",
       "details": {}
     },
     {
@@ -86,6 +200,12 @@
     {
       "status": "PASS",
       "name": "Declared functional override",
+      "message": "levels/west_coast_usa/main.decals.json (speedLimit-only override; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared functional override",
       "message": "levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json (speedLimit-only override; checked by validate.py new)",
       "details": {}
     },
@@ -133,8 +253,38 @@
     },
     {
       "status": "PASS",
+      "name": "Duplicate file name",
+      "message": "ind_industrial_signs_d.color.dds at 2 declared paths of ind_industrial_signs (texture_families.json extra_paths)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Duplicate file name",
+      "message": "t_decal_roadmarkings_ao.data.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Duplicate file name",
+      "message": "t_decal_roadmarkings_b.color.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Duplicate file name",
+      "message": "t_decal_roadmarkings_nm.normal.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Duplicate file name",
+      "message": "t_decal_roadmarkings_o.data.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
       "name": "Installed copy",
-      "message": "identical to repo (19 files)",
+      "message": "identical to repo (39 files)",
       "details": {}
     },
     {
@@ -153,6 +303,186 @@
       "status": "PASS",
       "name": "t_roadsigns: shape_changed",
       "message": "all shape-dependent maps delivered: opacity",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "eca_genericsigns: diffuse_legacy (eca_genericsigns_d.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "eca_genericsigns: emissive (eca_genericsigns_emissive.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "eca_genericsigns: base_color (t_eca_genericsigns_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "eca_genericsigns: opacity (t_eca_genericsigns_o.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "eca_genericsigns: normal (t_eca_genericsigns_nm.normal.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "eca_genericsigns: ao (t_eca_genericsigns_ao.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "eca_genericsigns: roughness (t_eca_genericsigns_r.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "eca_genericsigns: shape_changed",
+      "message": "declared false (only colours/text inside the original silhouette)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_billboards: base_color (t_billboards_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_billboards: roughness (t_billboards_r.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_billboards: shape_changed",
+      "message": "declared false (only colours/text inside the original silhouette)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_movie_studio_signage: base_color (t_movie_studio_signage_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_movie_studio_signage: shape_changed",
+      "message": "declared false (only colours/text inside the original silhouette)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "ind_industrial_signs: base_color (ind_industrial_signs_d.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "ind_industrial_signs: shape_changed",
+      "message": "declared false (only colours/text inside the original silhouette)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_spearleaf_refinery_logo: base_color (t_spearleaf_refinery_logo_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_spearleaf_refinery_logo: opacity (t_spearleaf_refinery_logo_o.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_spearleaf_refinery_logo: shape_changed",
+      "message": "all shape-dependent maps delivered: opacity",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_steel_factory_brand: base_color (t_steel_factory_brand_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_steel_factory_brand: normal (t_steel_factory_brand_nm.normal.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_steel_factory_brand: ao (t_steel_factory_brand_ao.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_steel_factory_brand: roughness (t_steel_factory_brand_r.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_steel_factory_brand: shape_changed",
+      "message": "all shape-dependent maps delivered: normal, ao, roughness",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_decal_roadmarkings: base_color (t_decal_roadmarkings_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_decal_roadmarkings: opacity (t_decal_roadmarkings_o.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_decal_roadmarkings: normal (t_decal_roadmarkings_nm.normal.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_decal_roadmarkings: ao (t_decal_roadmarkings_ao.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_decal_roadmarkings: roughness (t_decal_roadmarkings_r.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_decal_roadmarkings: metallic (t_decal_roadmarkings_m.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_decal_roadmarkings: shape_changed",
+      "message": "all shape-dependent maps delivered: opacity, normal, ao",
       "details": {}
     },
     {
@@ -249,6 +579,12 @@
       "status": "PASS",
       "name": "sign_speed25.dae: compiled .cdae",
       "message": "present and newer than the .dae (no recompilation, no temp cache)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main.decals.json",
+      "message": "only the declared decal instances differ (9 deleted, 6 rectIdx changed)",
       "details": {}
     },
     {

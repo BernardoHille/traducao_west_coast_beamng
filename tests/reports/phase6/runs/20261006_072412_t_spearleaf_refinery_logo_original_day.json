@@ -1,0 +1,62 @@
+{
+  "started": "2026-10-06T07:24:03",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "t_spearleaf_refinery_logo": [
+      {
+        "path": "/assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_o.data.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\billboard_label.zip\\assets\\materials\\billboard_label\\m_refinery_logo\\t_spearleaf_refinery_logo_o.data.dds",
+        "expected_contains": ".zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "t_spea_refinery",
+      "object": {
+        "dist": 0.00063677052721966,
+        "id": 628882,
+        "materials": [
+          "concrete_precast1",
+          "concrete_plain",
+          "industrial_trim",
+          "m_refinery_logo",
+          "m_metal_trim_01",
+          "lod_vertcol",
+          "m_metal_wall_corrugate"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_spearleaf_refinery_logo/t_spea_refinery_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072411_316.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": 1865.722,
+          "x": -749.588,
+          "z": 92.074
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.01374000674466,
+          "z": -0.99381551215584,
+          "x": -0.0015230007478947,
+          "w": 0.11017994591486
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:24:12"
+}

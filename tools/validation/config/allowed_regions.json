@@ -1464,10 +1464,10 @@
       },
       {
         "id": "entr_only",
-        "x": 903,
-        "y": 323,
-        "width": 114,
-        "height": 42,
+        "x": 904,
+        "y": 327,
+        "width": 111,
+        "height": 33,
         "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
       },
       {
@@ -1504,9 +1504,9 @@
       },
       {
         "id": "req_title",
-        "x": 902,
-        "y": 450,
-        "width": 116,
+        "x": 901,
+        "y": 451,
+        "width": 119,
         "height": 10,
         "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
       },
@@ -1533,6 +1533,710 @@
         "width": 112,
         "height": 19,
         "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      }
+    ]
+  },
+  "ind_industrial_signs_d.color": {
+    "size": [
+      1024,
+      512
+    ],
+    "regions": [
+      {
+        "id": "flam_hdr",
+        "x": 391,
+        "y": 17,
+        "width": 117,
+        "height": 23,
+        "source": "UV of gas_terminal.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "flam_no",
+        "x": 447,
+        "y": 54,
+        "width": 48,
+        "height": 25,
+        "source": "UV of gas_terminal.dae (1 inst.), s_career_garage.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "flam_smoking",
+        "x": 391,
+        "y": 90,
+        "width": 118,
+        "height": 27,
+        "source": "UV of gas_terminal.dae (1 inst.), s_career_garage.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "exit",
+        "x": 515,
+        "y": 195,
+        "width": 122,
+        "height": 58,
+        "source": "UV of s_career_garage.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "ext_hdr",
+        "x": 646,
+        "y": 133,
+        "width": 119,
+        "height": 24,
+        "source": "UV of gas_terminal.dae (1 inst.), s_career_garage.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "ext_co2",
+        "x": 666,
+        "y": 162,
+        "width": 43,
+        "height": 18,
+        "source": "UV of gas_terminal.dae (1 inst.), s_career_garage.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "think",
+        "x": 773,
+        "y": 130,
+        "width": 118,
+        "height": 17,
+        "source": "UV of modular_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "nosmoke_hdr",
+        "x": 259,
+        "y": 317,
+        "width": 124,
+        "height": 22,
+        "source": "UV of modular_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "nosmoke_body",
+        "x": 260,
+        "y": 345,
+        "width": 122,
+        "height": 27,
+        "source": "UV of modular_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "toxic",
+        "x": 644,
+        "y": 312,
+        "width": 56,
+        "height": 66,
+        "source": "UV of modular_02.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "emergency",
+        "x": 419,
+        "y": 456,
+        "width": 89,
+        "height": 21,
+        "source": "UV of s_career_garage.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "trespass",
+        "x": 902,
+        "y": 391,
+        "width": 119,
+        "height": 121,
+        "source": "UV of s_metal_gate_left.dae (15 inst.), s_metal_gate_right.dae (35 inst.); Phase 6"
+      },
+      {
+        "id": "danger_small",
+        "x": 196,
+        "y": 461,
+        "width": 56,
+        "height": 28,
+        "source": "UV of s_career_garage.dae (1 inst.); Phase 6"
+      }
+    ]
+  },
+  "t_spearleaf_refinery_logo_b.color": {
+    "size": [
+      1024,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "refinery",
+        "x": 296,
+        "y": 846,
+        "width": 418,
+        "height": 82,
+        "source": "UV of s_refinery_billboard.dae (2 inst.); Phase 6"
+      }
+    ]
+  },
+  "t_spearleaf_refinery_logo_o.data": {
+    "size": [
+      1024,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "refinery",
+        "x": 296,
+        "y": 846,
+        "width": 418,
+        "height": 82,
+        "source": "UV of s_refinery_billboard.dae (2 inst.); Phase 6"
+      }
+    ]
+  },
+  "t_steel_factory_brand_b.color": {
+    "size": [
+      1024,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "steel_descriptor",
+        "x": 70,
+        "y": 916,
+        "width": 888,
+        "height": 100,
+        "source": "UV of s_steel_factory_brand.dae (3 inst.); Phase 6"
+      }
+    ]
+  },
+  "t_steel_factory_brand_nm.normal": {
+    "size": [
+      1024,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "steel_descriptor",
+        "x": 70,
+        "y": 916,
+        "width": 888,
+        "height": 100,
+        "source": "UV of s_steel_factory_brand.dae (3 inst.); Phase 6"
+      }
+    ]
+  },
+  "t_steel_factory_brand_ao.data": {
+    "size": [
+      1024,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "steel_descriptor",
+        "x": 70,
+        "y": 916,
+        "width": 888,
+        "height": 100,
+        "source": "UV of s_steel_factory_brand.dae (3 inst.); Phase 6"
+      }
+    ]
+  },
+  "t_steel_factory_brand_r.data": {
+    "size": [
+      1024,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "steel_descriptor",
+        "x": 70,
+        "y": 916,
+        "width": 888,
+        "height": 100,
+        "source": "UV of s_steel_factory_brand.dae (3 inst.); Phase 6"
+      }
+    ]
+  },
+  "t_bus_routes_wca_b.color": {
+    "size": [
+      512,
+      512
+    ],
+    "regions": [
+      {
+        "id": "title",
+        "x": 8,
+        "y": 8,
+        "width": 260,
+        "height": 15,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "bus_lines",
+        "x": 389,
+        "y": 125,
+        "width": 77,
+        "height": 11,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg2b",
+        "x": 406,
+        "y": 173,
+        "width": 56,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg3b",
+        "x": 406,
+        "y": 193,
+        "width": 56,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg4a",
+        "x": 406,
+        "y": 204,
+        "width": 52,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg4b",
+        "x": 406,
+        "y": 213,
+        "width": 58,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg5b",
+        "x": 406,
+        "y": 233,
+        "width": 40,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "belasco_boulevard",
+        "x": 50,
+        "y": 23,
+        "width": 50,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "fjord_street",
+        "x": 46,
+        "y": 50,
+        "width": 34,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "logan_park",
+        "x": 29,
+        "y": 78,
+        "width": 35,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "convention_center",
+        "x": 153,
+        "y": 72,
+        "width": 54,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "belasco_pier",
+        "x": 197,
+        "y": 98,
+        "width": 33,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "platin_gate",
+        "x": 256,
+        "y": 47,
+        "width": 51,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "canal_st",
+        "x": 266,
+        "y": 143,
+        "width": 26,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "tennis",
+        "x": 264,
+        "y": 206,
+        "width": 60,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "harlem_st",
+        "x": 82,
+        "y": 258,
+        "width": 28,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "single_pine",
+        "x": 422,
+        "y": 491,
+        "width": 47,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "station",
+        "x": 80,
+        "y": 42,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "stock_market",
+        "x": 43,
+        "y": 94,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "clinton_hotel",
+        "x": 65,
+        "y": 89,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "central_hospital",
+        "x": 168,
+        "y": 118,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "church_st",
+        "x": 0,
+        "y": 122,
+        "width": 77,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "winchester_rd",
+        "x": 51,
+        "y": 147,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "cloverfield_ln",
+        "x": 6,
+        "y": 177,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "dockyards",
+        "x": 218,
+        "y": 67,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "n_horizon",
+        "x": 90,
+        "y": 326,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "redwood_motel",
+        "x": 82,
+        "y": 427,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "e_horizon",
+        "x": 123,
+        "y": 453,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "motorsports_park",
+        "x": 340,
+        "y": 269,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "agave_lookout",
+        "x": 369,
+        "y": 382,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      }
+    ]
+  },
+  "t_bus_routes_wca_nm.normal": {
+    "size": [
+      512,
+      512
+    ],
+    "regions": [
+      {
+        "id": "title",
+        "x": 8,
+        "y": 8,
+        "width": 260,
+        "height": 15,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "bus_lines",
+        "x": 389,
+        "y": 125,
+        "width": 77,
+        "height": 11,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg2b",
+        "x": 406,
+        "y": 173,
+        "width": 56,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg3b",
+        "x": 406,
+        "y": 193,
+        "width": 56,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg4a",
+        "x": 406,
+        "y": 204,
+        "width": 52,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg4b",
+        "x": 406,
+        "y": 213,
+        "width": 58,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "leg5b",
+        "x": 406,
+        "y": 233,
+        "width": 40,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "belasco_boulevard",
+        "x": 50,
+        "y": 23,
+        "width": 50,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "fjord_street",
+        "x": 46,
+        "y": 50,
+        "width": 34,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "logan_park",
+        "x": 29,
+        "y": 78,
+        "width": 35,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "convention_center",
+        "x": 153,
+        "y": 72,
+        "width": 54,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "belasco_pier",
+        "x": 197,
+        "y": 98,
+        "width": 33,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "platin_gate",
+        "x": 256,
+        "y": 47,
+        "width": 51,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "canal_st",
+        "x": 266,
+        "y": 143,
+        "width": 26,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "tennis",
+        "x": 264,
+        "y": 206,
+        "width": 60,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "harlem_st",
+        "x": 82,
+        "y": 258,
+        "width": 28,
+        "height": 9,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "single_pine",
+        "x": 422,
+        "y": 491,
+        "width": 47,
+        "height": 8,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "station",
+        "x": 80,
+        "y": 42,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "stock_market",
+        "x": 43,
+        "y": 94,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "clinton_hotel",
+        "x": 65,
+        "y": 89,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "central_hospital",
+        "x": 168,
+        "y": 118,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "church_st",
+        "x": 0,
+        "y": 122,
+        "width": 77,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "winchester_rd",
+        "x": 51,
+        "y": 147,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "cloverfield_ln",
+        "x": 6,
+        "y": 177,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "dockyards",
+        "x": 218,
+        "y": 67,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "n_horizon",
+        "x": 90,
+        "y": 326,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "redwood_motel",
+        "x": 82,
+        "y": 427,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "e_horizon",
+        "x": 123,
+        "y": 453,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "motorsports_park",
+        "x": 340,
+        "y": 269,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
+      },
+      {
+        "id": "agave_lookout",
+        "x": 369,
+        "y": 382,
+        "width": 80,
+        "height": 80,
+        "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
       }
     ]
   }

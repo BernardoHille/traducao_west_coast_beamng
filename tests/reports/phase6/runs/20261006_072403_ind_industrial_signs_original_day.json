@@ -1,0 +1,595 @@
+{
+  "started": "2026-10-06T07:22:57",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "ind_industrial_signs": [
+      {
+        "path": "/assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\billboard_label.zip\\assets\\materials\\billboard_label\\industrial_signs\\ind_industrial_signs_d.color.dds",
+        "expected_contains": ".zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "ind_in_flam_no",
+      "object": {
+        "dist": 0.00024663982662549,
+        "id": 623167,
+        "materials": [
+          "lod_vertcol",
+          "m_stucco_white",
+          "m_concrete_floor_polish",
+          "m_plastic_trim",
+          "industrial",
+          "m_metal_trim_01",
+          "sidewalk1",
+          "m_glass_grid_dirty",
+          "ind_metal_expanded",
+          "m_worn_brushed_plaster",
+          "m_metal_wall_corrugate",
+          "tiles_marble_square",
+          "brick_painted",
+          "m_west_coast_garage_sign",
+          "bld_glass_transparent",
+          "ind_metal_trim",
+          "m_plaster_float",
+          "curbs",
+          "architraves",
+          "ind_metal",
+          "cladding_zinc",
+          "vertCol_light",
+          "industrial_signs"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_flam_no_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072305_304.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -541.9715,
+          "x": 907.422,
+          "z": 165.339
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.062920969275635,
+          "x": 0,
+          "w": 0.99801851266668
+        }
+      }
+    },
+    {
+      "location": "ind_in_flam_smoking",
+      "object": {
+        "dist": 0.00024663982662549,
+        "id": 623167,
+        "materials": [
+          "lod_vertcol",
+          "m_stucco_white",
+          "m_concrete_floor_polish",
+          "m_plastic_trim",
+          "industrial",
+          "m_metal_trim_01",
+          "sidewalk1",
+          "m_glass_grid_dirty",
+          "ind_metal_expanded",
+          "m_worn_brushed_plaster",
+          "m_metal_wall_corrugate",
+          "tiles_marble_square",
+          "brick_painted",
+          "m_west_coast_garage_sign",
+          "bld_glass_transparent",
+          "ind_metal_trim",
+          "m_plaster_float",
+          "curbs",
+          "architraves",
+          "ind_metal",
+          "cladding_zinc",
+          "vertCol_light",
+          "industrial_signs"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_flam_smoking_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072311_305.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -541.9818,
+          "x": 907.3566,
+          "z": 165.2269
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.062920969275635,
+          "x": 0,
+          "w": 0.99801851266668
+        }
+      }
+    },
+    {
+      "location": "ind_in_exit",
+      "object": {
+        "dist": 0.00024663982662549,
+        "id": 623167,
+        "materials": [
+          "lod_vertcol",
+          "m_stucco_white",
+          "m_concrete_floor_polish",
+          "m_plastic_trim",
+          "industrial",
+          "m_metal_trim_01",
+          "sidewalk1",
+          "m_glass_grid_dirty",
+          "ind_metal_expanded",
+          "m_worn_brushed_plaster",
+          "m_metal_wall_corrugate",
+          "tiles_marble_square",
+          "brick_painted",
+          "m_west_coast_garage_sign",
+          "bld_glass_transparent",
+          "ind_metal_trim",
+          "m_plaster_float",
+          "curbs",
+          "architraves",
+          "ind_metal",
+          "cladding_zinc",
+          "vertCol_light",
+          "industrial_signs"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_exit_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072316_306.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -532.6666,
+          "x": 907.2346,
+          "z": 166.1247
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.75019762752697,
+          "x": 0,
+          "w": 0.66121367170749
+        }
+      }
+    },
+    {
+      "location": "ind_in_ext_hdr",
+      "object": {
+        "dist": 0.00024663982662549,
+        "id": 623167,
+        "materials": [
+          "lod_vertcol",
+          "m_stucco_white",
+          "m_concrete_floor_polish",
+          "m_plastic_trim",
+          "industrial",
+          "m_metal_trim_01",
+          "sidewalk1",
+          "m_glass_grid_dirty",
+          "ind_metal_expanded",
+          "m_worn_brushed_plaster",
+          "m_metal_wall_corrugate",
+          "tiles_marble_square",
+          "brick_painted",
+          "m_west_coast_garage_sign",
+          "bld_glass_transparent",
+          "ind_metal_trim",
+          "m_plaster_float",
+          "curbs",
+          "architraves",
+          "ind_metal",
+          "cladding_zinc",
+          "vertCol_light",
+          "industrial_signs"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_ext_hdr_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072321_307.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -540.3528,
+          "x": 908.4516,
+          "z": 165.4301
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.66121367170749,
+          "x": 0,
+          "w": 0.75019762752697
+        }
+      }
+    },
+    {
+      "location": "ind_in_ext_co2",
+      "object": {
+        "dist": 0.00024663982662549,
+        "id": 623167,
+        "materials": [
+          "lod_vertcol",
+          "m_stucco_white",
+          "m_concrete_floor_polish",
+          "m_plastic_trim",
+          "industrial",
+          "m_metal_trim_01",
+          "sidewalk1",
+          "m_glass_grid_dirty",
+          "ind_metal_expanded",
+          "m_worn_brushed_plaster",
+          "m_metal_wall_corrugate",
+          "tiles_marble_square",
+          "brick_painted",
+          "m_west_coast_garage_sign",
+          "bld_glass_transparent",
+          "ind_metal_trim",
+          "m_plaster_float",
+          "curbs",
+          "architraves",
+          "ind_metal",
+          "cladding_zinc",
+          "vertCol_light",
+          "industrial_signs"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_ext_co2_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072326_308.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -540.3996,
+          "x": 908.3505,
+          "z": 165.3447
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.66121367170749,
+          "x": 0,
+          "w": 0.75019762752697
+        }
+      }
+    },
+    {
+      "location": "ind_in_think",
+      "object": {
+        "dist": 0.00053486063031337,
+        "id": 621908,
+        "materials": [
+          "ind_metal_trim",
+          "si_metal_roof",
+          "industrial_signs",
+          "ind_metal_plates",
+          "italy_guardrails",
+          "ind_glass_transparent",
+          "lod_vertcol",
+          "ind_metal_rust"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_think_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072331_309.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -924.2117,
+          "x": -1337.4842,
+          "z": 106.2141
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.40074895745148,
+          "x": 0,
+          "w": 0.91618790272605
+        }
+      }
+    },
+    {
+      "location": "ind_in_nosmoke_hdr",
+      "object": {
+        "dist": 0.00053486063031337,
+        "id": 621908,
+        "materials": [
+          "ind_metal_trim",
+          "si_metal_roof",
+          "industrial_signs",
+          "ind_metal_plates",
+          "italy_guardrails",
+          "ind_glass_transparent",
+          "lod_vertcol",
+          "ind_metal_rust"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_nosmoke_hdr_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072336_310.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -924.2138,
+          "x": -1337.4862,
+          "z": 105.8085
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.40074895745148,
+          "x": 0,
+          "w": 0.91618790272605
+        }
+      }
+    },
+    {
+      "location": "ind_in_nosmoke_body",
+      "object": {
+        "dist": 0.00053486063031337,
+        "id": 621908,
+        "materials": [
+          "ind_metal_trim",
+          "si_metal_roof",
+          "industrial_signs",
+          "ind_metal_plates",
+          "italy_guardrails",
+          "ind_glass_transparent",
+          "lod_vertcol",
+          "ind_metal_rust"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_nosmoke_body_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072341_311.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -924.2138,
+          "x": -1337.4862,
+          "z": 105.7484
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.40074895745148,
+          "x": 0,
+          "w": 0.91618790272605
+        }
+      }
+    },
+    {
+      "location": "ind_in_toxic",
+      "object": {
+        "dist": 0.00053258182320551,
+        "id": 621922,
+        "materials": [
+          "ind_metal_trim",
+          "ind_metal_plates",
+          "si_metal_roof",
+          "industrial_signs",
+          "lod_vertcol",
+          "ind_metal_rust"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_toxic_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072346_312.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -915.7054,
+          "x": -1412.0704,
+          "z": 108.6071
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.40074895745148,
+          "x": 0,
+          "w": 0.91618790272605
+        }
+      }
+    },
+    {
+      "location": "ind_in_emergency",
+      "object": {
+        "dist": 0.00024663982662549,
+        "id": 623167,
+        "materials": [
+          "lod_vertcol",
+          "m_stucco_white",
+          "m_concrete_floor_polish",
+          "m_plastic_trim",
+          "industrial",
+          "m_metal_trim_01",
+          "sidewalk1",
+          "m_glass_grid_dirty",
+          "ind_metal_expanded",
+          "m_worn_brushed_plaster",
+          "m_metal_wall_corrugate",
+          "tiles_marble_square",
+          "brick_painted",
+          "m_west_coast_garage_sign",
+          "bld_glass_transparent",
+          "ind_metal_trim",
+          "m_plaster_float",
+          "curbs",
+          "architraves",
+          "ind_metal",
+          "cladding_zinc",
+          "vertCol_light",
+          "industrial_signs"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_emergency_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072352_313.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -532.8809,
+          "x": 909.5482,
+          "z": 166.1322
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.66121367170749,
+          "x": 0,
+          "w": 0.75019762752697
+        }
+      }
+    },
+    {
+      "location": "ind_in_trespass",
+      "object": {
+        "dist": 0.0004166824163818,
+        "id": 612963,
+        "materials": [
+          "ind_metal_trim",
+          "metal_paint",
+          "ind_metal_expanded",
+          "industrial_signs",
+          "ind_metal_rust",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_trespass_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072357_314.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -103.1761,
+          "x": -716.4675,
+          "z": 102.0243
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.00049600003184953,
+          "z": -0.53185496586389,
+          "x": -0.00079000005069542,
+          "w": 0.8468349456475
+        }
+      }
+    },
+    {
+      "location": "ind_in_danger_small",
+      "object": {
+        "dist": 0.00024663982662549,
+        "id": 623167,
+        "materials": [
+          "lod_vertcol",
+          "m_stucco_white",
+          "m_concrete_floor_polish",
+          "m_plastic_trim",
+          "industrial",
+          "m_metal_trim_01",
+          "sidewalk1",
+          "m_glass_grid_dirty",
+          "ind_metal_expanded",
+          "m_worn_brushed_plaster",
+          "m_metal_wall_corrugate",
+          "tiles_marble_square",
+          "brick_painted",
+          "m_west_coast_garage_sign",
+          "bld_glass_transparent",
+          "ind_metal_trim",
+          "m_plaster_float",
+          "curbs",
+          "architraves",
+          "ind_metal",
+          "cladding_zinc",
+          "vertCol_light",
+          "industrial_signs"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_danger_small_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072402_315.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -540.7577,
+          "x": 899.5872,
+          "z": 166.2578
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.062920969275635,
+          "x": 0,
+          "w": 0.99801851266668
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "E GELua.screenshot": 43
+    },
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:24:03"
+}

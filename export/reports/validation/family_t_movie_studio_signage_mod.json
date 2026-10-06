@@ -1,0 +1,33 @@
+{
+  "title": "Family validation",
+  "subject": "t_movie_studio_signage (mod)",
+  "status": "PASS",
+  "counts": {
+    "PASS": 2,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-10-06T07:39:08",
+  "meta": {
+    "scope": "global",
+    "wcusa_usage": "confirmed",
+    "delivered": {
+      "base_color": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_movie_studio_signage/t_movie_studio_signage_b.color.dds"
+    }
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "base_color (t_movie_studio_signage_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "shape_changed",
+      "message": "declared false (only colours/text inside the original silhouette)",
+      "details": {}
+    }
+  ]
+}

@@ -61,6 +61,9 @@ NAMED = {
     "green": lambda a: (a[..., 1] > a[..., 0] + 20) & (a[..., 1] > 60) & (a[..., 0] < 150),
     "yellow": lambda a: (a[..., 0] > 160) & (a[..., 1] > 130) & (a[..., 2] < 110),
     "blue": lambda a: (a[..., 2] > a[..., 0] + 40) & (a[..., 2] > 90),
+    # neon tubes and their glow over a dark grey wall: saturated or bright pixels
+    "neon": lambda a: ((a.max(-1) - a.min(-1)) > 38) | (a.max(-1) > 105),
+    "neon_red": lambda a: (a[..., 0] > a[..., 1] + 35) & (a[..., 0] > a[..., 2] + 25) & (a[..., 0] > 70),
 }
 
 
@@ -324,6 +327,31 @@ def block_lines(block: dict, style: dict):
     return out
 
 
+def bend_to_arc(cov, box, arc):
+    """Wraps a straight line (rendered in `box`) around a circle: arc = {cx, cy, r, deg}. `r` is the radius of the
+    box bottom (baseline), `deg` the image angle (y down) of the line centre; box width = arc length at `r`.
+    Bottom-of-circle text (deg ~90) keeps the letter tops toward the centre and reads left to right."""
+    x0, y0, x1, y1 = box
+    cx, cy, r, dc = arc["cx"], arc["cy"], arc["r"], np.radians(arc.get("deg", 90))
+    yy, xx = np.mgrid[0:cov.shape[0], 0:cov.shape[1]]
+    rho = np.hypot(xx - cx, yy - cy)
+    th = np.arctan2(yy - cy, xx - cx)
+    dth = (th - dc + np.pi) % (2 * np.pi) - np.pi
+    us = (x0 + x1) / 2 - dth * r                       # source column (bottom text: angle grows to the left)
+    vs = y1 - (r - rho)                                # source row: baseline at radius r, tops toward the centre
+    ok = (us >= x0 - 2) & (us <= x1 + 1) & (vs >= y0 - (y1 - y0)) & (vs <= y1 + (y1 - y0)) & (np.abs(dth) < np.pi / 2)
+    out = np.zeros_like(cov)
+    u, v = us[ok], vs[ok]
+    u0, v0 = np.floor(u).astype(int), np.floor(v).astype(int)
+    fu, fv = u - u0, v - v0
+    H, W = cov.shape
+    def at(a, b):
+        return cov[np.clip(b, 0, H - 1), np.clip(a, 0, W - 1)]
+    out[ok] = (at(u0, v0) * (1 - fu) * (1 - fv) + at(u0 + 1, v0) * fu * (1 - fv) + at(u0, v0 + 1) * (1 - fu) * fv
+               + at(u0 + 1, v0 + 1) * fu * fv)
+    return out
+
+
 def text_coverage(el, shape):
     style = dict(el.get("style", {}))
     lines = list(el.get("lines", []))
@@ -337,7 +365,10 @@ def text_coverage(el, shape):
     for line in lines:
         spec = dict(style)
         spec.update(line.get("style", {}))
-        cov = np.maximum(cov, render_line(line["text"], spec, line["box"], shape))
+        lc = render_line(line["text"], spec, line["box"], shape)
+        if line.get("arc"):
+            lc = bend_to_arc(lc, line["box"], line["arc"])
+        cov = np.maximum(cov, lc)
     el["_lines"] = [{"text": l["text"], "box": l["box"]} for l in lines]
     if el.get("rotate"):  # lines are laid out unrotated around `pivot`, then rotated (degrees, counter-clockwise)
         r = el["rotate"]
@@ -416,6 +447,31 @@ def op_panel(fam: Family, el):
     rng = fam.rng
     hole = np.zeros(shape, bool)
     legend_sel = np.zeros(shape, bool)
+    poly = None
+    if el.get("erase_rot"):  # rotated labels: [cx, cy, length, height, deg] -> polygon limiting the erase
+        poly_img = Image.new("L", (shape[1], shape[0]), 0)
+        dr = ImageDraw.Draw(poly_img)
+        boxes = []
+        for cx, cy, ln, hh, deg in el["erase_rot"]:
+            a = np.radians(deg)
+            ux, uy = np.cos(a), -np.sin(a)          # reading direction (image y down)
+            vx, vy = -uy, ux
+            pts = [(cx + sx * ux * ln / 2 + sy * vx * hh / 2, cy + sx * uy * ln / 2 + sy * vy * hh / 2)
+                   for sx, sy in ((-1, -1), (1, -1), (1, 1), (-1, 1))]
+            dr.polygon(pts, fill=255)
+            xs, ys = [q[0] for q in pts], [q[1] for q in pts]
+            boxes.append([int(min(xs)) - 1, int(min(ys)) - 1, int(max(xs)) + 2, int(max(ys)) + 2])
+        poly = np.asarray(poly_img) > 0
+        el["erase"] = list(el.get("erase", [])) + boxes
+    if el.get("erase_ring"):  # curved labels: [cx, cy, r_in, r_out, deg0, deg1] (image angles, y down) limit the erase
+        yy, xx = np.mgrid[0:shape[0], 0:shape[1]]
+        ring = np.zeros(shape, bool)
+        for cx, cy, r0, r1, a0, a1 in el["erase_ring"]:
+            rho = np.hypot(xx - cx, yy - cy)
+            th = np.degrees(np.arctan2(yy - cy, xx - cx))
+            ring |= (rho >= r0) & (rho <= r1) & (th >= a0) & (th <= a1)
+            el["erase"] = list(el.get("erase", [])) + [[int(cx - r1) - 1, int(cy - r1) - 1, int(cx + r1) + 2, int(cy + r1) + 2]]
+        poly = ring if poly is None else (poly | ring)
     el["erase"] = [grow_box(rgb, el, b) for b in el.get("erase", [])]
     for b in el.get("erase", []):
         sy, sx = box_slices(b)
@@ -425,9 +481,15 @@ def op_panel(fam: Family, el):
     keep = np.zeros(shape, bool)
     for b in el.get("keep", []):
         keep[box_slices(b)] = True
+    if el.get("keep_legend"):  # pixels of another colour that must survive (e.g. the blue hanger of a red neon)
+        kb = np.zeros(shape, bool)
+        kb[box_slices(el["box"])] = True
+        keep |= dilate(legend_mask(rgb, el["keep_legend"]) & kb, 1)
     ebox = np.zeros(shape, bool)
     for b in el.get("erase", []):
         ebox[box_slices(b)] = True
+    if poly is not None:
+        ebox &= dilate(poly, 1)
     hole = dilate(hole, el.get("erase_dilate", 1)) & ~keep & ebox
     flat = np.zeros(shape, bool)
     for b in el.get("fill_boxes", []):
@@ -441,7 +503,17 @@ def op_panel(fam: Family, el):
         if "bg_from" in el:
             by, bx = box_slices(el["bg_from"])
             src[hole_c] = np.median(rgb[by, bx].reshape(-1, 3), 0)
-        if el.get("fill") == "solid":
+        if el.get("fill") == "texture":  # low frequency by diffusion + high-frequency texture tiled from a clean sample
+            low = inpaint(src, hole_c, rng, iters=el.get("inpaint_iters", 300), grain=0)
+            tx0, ty0, tx1, ty1 = el["texture_from"]
+            samp = rgb[ty0:ty1, tx0:tx1].astype(np.float64)
+            hf = samp - box_blur(samp, 3)
+            H, W = hole_c.shape
+            reps = (H // hf.shape[0] + 2, W // hf.shape[1] + 2, 1)
+            tile = np.tile(np.concatenate([hf, hf[:, ::-1]], 1), (reps[0], reps[1] // 2 + 1, 1))[:H, :W]
+            out = low + tile
+            crop = np.where(hole_c[..., None], out, crop).clip(0, 255).astype(np.uint8)
+        elif el.get("fill") == "solid":
             col = el.get("bg_color") or np.median(crop[~dilate(hole_c, 2)].reshape(-1, 3), 0)
             crop[hole_c] = np.array(col, float)
             crop = crop.astype(np.uint8)
@@ -472,6 +544,14 @@ def op_panel(fam: Family, el):
         col = np.array(s["color"], float)
         a = sc[ink][:, None]
         crop[ink] = (crop[ink] * (1 - a) + col * a).clip(0, 255).astype(np.uint8)
+    if st.get("glow"):  # neon: soft halo of the text colour around the tube
+        g = st["glow"]
+        r = max(1, int(g["px"]))
+        halo = box_blur(stroke_of(cov, max(1, r // 2))[..., None], r)[..., 0][sy, sx] * g.get("alpha", 0.8)
+        ink_h = halo > 0.02
+        col = np.array(g.get("color", el.get("color", [255, 255, 255])), float)
+        a_h = np.clip(halo[ink_h], 0, 1)[:, None]
+        crop[ink_h] = (crop[ink_h] * (1 - a_h) + col * a_h).clip(0, 255).astype(np.uint8)
     if st.get("shadow"):
         s = st["shadow"]
         sh = np.roll(np.roll(cov, s["dy"], 0), s["dx"], 1)[sy, sx]
@@ -492,10 +572,58 @@ def op_panel(fam: Family, el):
     rgb[sy, sx] = crop
     # alpha: unchanged unless the element asks to rebuild it from the new text (cut-out legends)
     for aux_role, how in el.get("aux", {}).items():
-        aux_apply(fam, aux_role, how, el, cov, hole)
+        aux_apply(fam, aux_role, how, el, cov, hole, legend_sel)
 
 
-def aux_apply(fam, role, how, el, cov_base, hole_base):
+def signed_distance(mask, rmax):
+    """Signed distance to the edge of `mask` (negative inside), in pixels, clipped to +-rmax."""
+    d = np.full(mask.shape, float(rmax))
+    d[mask] = -float(rmax)
+    ring = mask.copy()
+    for k in range(1, rmax + 1):
+        nxt = dilate(ring, 1)
+        d[nxt & ~ring] = k - 0.5
+        ring = nxt
+    inner = ~mask
+    for k in range(1, rmax + 1):
+        nxt = dilate(inner, 1)
+        d[nxt & ~inner] = -(k - 0.5)
+        inner = nxt
+    return d
+
+
+def edge_dir(cov):
+    g = box_blur(cov[..., None].astype(float), 2)[..., 0]
+    gy, gx = np.gradient(g)
+    n = np.hypot(gx, gy) + 1e-6
+    return -gx / n, -gy / n
+
+
+def edge_profile(vals, base, d_old, d_new, rmax, normal=False, g_old=None, g_new=None):
+    """Relief of the old letters (vals - base) as a function of the distance to their edge, re-applied
+    along the edge of the new letters. Normal maps: relief projected on the outward edge direction."""
+    delta = vals - base
+    if normal:
+        proj = delta[..., 0] * g_old[0] + delta[..., 1] * g_old[1]
+        src = proj[..., None]
+    else:
+        src = delta
+    bins = np.round(np.clip(d_old, -rmax, rmax) * 2) / 2
+    keys = np.unique(bins)
+    prof = np.array([src[bins == k].mean(0) if (bins == k).sum() > 5 else np.zeros(src.shape[-1]) for k in keys])
+    b_new = np.round(np.clip(d_new, -rmax, rmax) * 2) / 2
+    idx = np.clip(np.searchsorted(keys, b_new), 0, len(keys) - 1)
+    add = prof[idx]
+    out = base.copy()
+    if normal:
+        out[..., 0] += add[..., 0] * g_new[0]
+        out[..., 1] += add[..., 0] * g_new[1]
+    else:
+        out += add
+    return out
+
+
+def aux_apply(fam, role, how, el, cov_base, hole_base, legend_base=None):
     """Keep an auxiliary map in step with an edited legend (opacity cut-outs, normal/AO flattening)."""
     arr = fam.maps[role]
     H, W = arr.shape[:2]
@@ -511,6 +639,38 @@ def aux_apply(fam, role, how, el, cov_base, hole_base):
         crop = arr[sy, sx, :3].copy()
         h = dilate(hole[sy, sx], 1)
         arr[sy, sx, :3] = inpaint(crop, h, fam.rng, iters=200, grain=0.5).astype(np.uint8)
+    elif how in ("edge_profile", "edge_profile_normal"):  # letters embossed in normal/AO/roughness maps
+        leg = np.asarray(Image.fromarray(legend_base.astype(np.uint8) * 255).resize((W, H), Image.NEAREST)) > 0
+        rmax = max(2, int(round(el.get("relief_px", 5) * W / fam.base_shape[1])))
+        old = leg[sy, sx]
+        new = cov[sy, sx] > 0.5
+        vals = arr[sy, sx, :3].astype(np.float64)
+        base = inpaint(vals, dilate(old | new, rmax), fam.rng, iters=250, grain=0.6)
+        d_old, d_new = signed_distance(old, rmax), signed_distance(new, rmax)
+        if how == "edge_profile_normal":
+            res = edge_profile(vals, base, d_old, d_new, rmax, True, edge_dir(old.astype(float)), edge_dir(cov[sy, sx]))
+        else:
+            res = edge_profile(vals, base, d_old, d_new, rmax)
+        arr[sy, sx, :3] = np.clip(np.round(res), 0, 255).astype(np.uint8)
+    elif how == "gradient_normal":  # small printed text embossed in a normal map: relief = k * gradient(text coverage)
+        leg = np.asarray(Image.fromarray(legend_base.astype(np.uint8) * 255).resize((W, H), Image.NEAREST)) > 0
+        r = max(1, int(round(el.get("relief_px", 2) * W / fam.base_shape[1])))
+        old = leg[sy, sx].astype(float)
+        newc = cov[sy, sx]
+        vals = arr[sy, sx, :3].astype(np.float64)
+        base = inpaint(vals, dilate(old > 0, r + 1), fam.rng, iters=200, grain=0.6)
+        blur = lambda c: box_blur(c[..., None], 1)[..., 0]
+        gy_o, gx_o = np.gradient(blur(old))
+        gy_n, gx_n = np.gradient(blur(newc))
+        dx, dy = vals[..., 0] - base[..., 0], vals[..., 1] - base[..., 1]
+        num = (dx * gx_o + dy * gy_o).sum()
+        den = (gx_o ** 2 + gy_o ** 2).sum() + 1e-9
+        k = num / den * el.get("relief_gain", 1.0)  # least-squares amplitude (and sign) of the old relief
+        out = base.copy()
+        out[..., 0] += k * gx_n
+        out[..., 1] += k * gy_n
+        el.setdefault("_relief_k", {})[role] = round(float(k), 2)
+        arr[sy, sx, :3] = np.clip(np.round(out), 0, 255).astype(np.uint8)
     elif how == "keep":
         pass
     else:

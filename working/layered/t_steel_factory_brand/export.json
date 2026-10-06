@@ -1,0 +1,29 @@
+{
+ "family": "t_steel_factory_brand",
+ "items": [
+  {
+   "png": "working/png/t_steel_factory_brand_b.color.png",
+   "install": [
+    "assets/materials/billboard_label/m_steel_factory_brand"
+   ]
+  },
+  {
+   "png": "working/png/t_steel_factory_brand_nm.normal.png",
+   "install": [
+    "assets/materials/billboard_label/m_steel_factory_brand"
+   ]
+  },
+  {
+   "png": "working/png/t_steel_factory_brand_ao.data.png",
+   "install": [
+    "assets/materials/billboard_label/m_steel_factory_brand"
+   ]
+  },
+  {
+   "png": "working/png/t_steel_factory_brand_r.data.png",
+   "install": [
+    "assets/materials/billboard_label/m_steel_factory_brand"
+   ]
+  }
+ ]
+}

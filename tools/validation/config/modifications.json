@@ -20,6 +20,31 @@
    "status": "production",
    "shape_changed": false,
    "note": "Phase 6 (6C): slogans/prices on the billboard atlas; roughness map is a generic panel texture."
+  },
+  "t_movie_studio_signage": {
+   "status": "production",
+   "shape_changed": false,
+   "note": "Phase 6 (6D): texts inside the same sign panels; the material has only a base colour map."
+  },
+  "ind_industrial_signs": {
+   "status": "production",
+   "shape_changed": false,
+   "note": "Phase 6 (6D): texts inside the same sign panels; single base colour map."
+  },
+  "t_spearleaf_refinery_logo": {
+   "status": "production",
+   "shape_changed": true,
+   "note": "Phase 6 (6D): REFINERY -> REFINARIA; letters cut by the opacity map -> colour + opacity delivered."
+  },
+  "t_steel_factory_brand": {
+   "status": "production",
+   "shape_changed": true,
+   "note": "Phase 6 (6D): STEEL MANUFACTURING -> FABRICAÇÃO DE AÇO; letter relief re-applied in normal, AO and roughness."
+  },
+  "t_bus_routes_wca": {
+   "status": "production",
+   "shape_changed": true,
+   "note": "Phase 6 (6E): title, legend and stop names; the normal map embosses every label -> relief rebuilt for the new text (AO/roughness carry no text)."
   }
  },
  "reference": {

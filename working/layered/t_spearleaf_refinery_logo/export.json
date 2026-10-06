@@ -1,0 +1,17 @@
+{
+ "family": "t_spearleaf_refinery_logo",
+ "items": [
+  {
+   "png": "working/png/t_spearleaf_refinery_logo_b.color.png",
+   "install": [
+    "assets/materials/billboard_label/m_refinery_logo"
+   ]
+  },
+  {
+   "png": "working/png/t_spearleaf_refinery_logo_o.data.png",
+   "install": [
+    "assets/materials/billboard_label/m_refinery_logo"
+   ]
+  }
+ ]
+}

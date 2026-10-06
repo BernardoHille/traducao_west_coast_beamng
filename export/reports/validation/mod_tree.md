@@ -2,14 +2,33 @@
 
 **Alvo:** `mod/traducao_ptbr_wcusa`  
 
-**Resultado:** `PASS` · PASS 48 · WARN 0 · FAIL 0 · SKIP 0
+**Resultado:** `PASS` · PASS 104 · WARN 0 · FAIL 0 · SKIP 0
 
 | Status | Verificação | Mensagem |
 |---|---|---|
 | PASS | mod_info | Tradução PT-BR — West Coast USA 0.5.0 |
 | PASS | Case-insensitive duplicates | none |
+| PASS | Asset path | assets/materials/billboard_label/billboards/t_billboards_b.color.dds → t_billboards/base_color |
+| PASS | Asset path | assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds → eca_genericsigns/base_color |
+| PASS | Asset path | assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds → ind_industrial_signs/base_color |
+| PASS | Asset path | assets/materials/billboard_label/m_movie_studio_signage/t_movie_studio_signage_b.color.dds → t_movie_studio_signage/base_color |
+| PASS | Asset path | assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_b.color.dds → t_spearleaf_refinery_logo/base_color |
+| PASS | Asset path | assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_o.data.dds → t_spearleaf_refinery_logo/opacity |
+| PASS | Asset path | assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_ao.data.dds → t_steel_factory_brand/ao |
+| PASS | Asset path | assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_b.color.dds → t_steel_factory_brand/base_color |
+| PASS | Asset path | assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_nm.normal.dds → t_steel_factory_brand/normal |
+| PASS | Asset path | assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_r.data.dds → t_steel_factory_brand/roughness |
+| PASS | Asset path | assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_ao.data.dds → t_decal_roadmarkings/ao |
+| PASS | Asset path | assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_b.color.dds → t_decal_roadmarkings/base_color |
+| PASS | Asset path | assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_nm.normal.dds → t_decal_roadmarkings/normal |
+| PASS | Asset path | assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_o.data.dds → t_decal_roadmarkings/opacity |
+| PASS | Asset path | assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_ao.data.dds → t_decal_roadmarkings/ao |
+| PASS | Asset path | assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_b.color.dds → t_decal_roadmarkings/base_color |
+| PASS | Asset path | assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_nm.normal.dds → t_decal_roadmarkings/normal |
+| PASS | Asset path | assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds → t_decal_roadmarkings/opacity |
 | PASS | Asset path | assets/materials/signage/roadsigns/t_roadsigns_b.color.dds → t_roadsigns/base_color |
 | PASS | Asset path | assets/materials/signage/roadsigns/t_roadsigns_o.data.dds → t_roadsigns/opacity |
+| PASS | Asset path | levels/jungle_rock_island/art/shapes/buildings/ind_industrial_signs_d.color.dds → ind_industrial_signs/base_color |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/main.materials.json (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.cdae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae (config/new_assets.json; checked by validate.py new) |
@@ -18,6 +37,7 @@
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_o.data.dds (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/sign_speed25.cdae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/sign_speed25.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/main.decals.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/island/island_ai_roads/items.level.json (speedLimit-only override; checked by validate.py new) |
@@ -26,10 +46,45 @@
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_exit/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/slotTraffic.json (speedLimit-only override; checked by validate.py new) |
-| PASS | Installed copy | identical to repo (19 files) |
+| PASS | Duplicate file name | ind_industrial_signs_d.color.dds at 2 declared paths of ind_industrial_signs (texture_families.json extra_paths) |
+| PASS | Duplicate file name | t_decal_roadmarkings_ao.data.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
+| PASS | Duplicate file name | t_decal_roadmarkings_b.color.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
+| PASS | Duplicate file name | t_decal_roadmarkings_nm.normal.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
+| PASS | Duplicate file name | t_decal_roadmarkings_o.data.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
+| PASS | Installed copy | identical to repo (39 files) |
 | PASS | t_roadsigns: base_color (t_roadsigns_b.color.dds) | delivered |
 | PASS | t_roadsigns: opacity (t_roadsigns_o.data.dds) | delivered |
 | PASS | t_roadsigns: shape_changed | all shape-dependent maps delivered: opacity |
+| PASS | eca_genericsigns: diffuse_legacy (eca_genericsigns_d.dds) | not delivered — original stays in use |
+| PASS | eca_genericsigns: emissive (eca_genericsigns_emissive.dds) | not delivered — original stays in use |
+| PASS | eca_genericsigns: base_color (t_eca_genericsigns_b.color.dds) | delivered |
+| PASS | eca_genericsigns: opacity (t_eca_genericsigns_o.data.dds) | not delivered — original stays in use |
+| PASS | eca_genericsigns: normal (t_eca_genericsigns_nm.normal.dds) | not delivered — original stays in use |
+| PASS | eca_genericsigns: ao (t_eca_genericsigns_ao.data.dds) | not delivered — original stays in use |
+| PASS | eca_genericsigns: roughness (t_eca_genericsigns_r.data.dds) | not delivered — original stays in use |
+| PASS | eca_genericsigns: shape_changed | declared false (only colours/text inside the original silhouette) |
+| PASS | t_billboards: base_color (t_billboards_b.color.dds) | delivered |
+| PASS | t_billboards: roughness (t_billboards_r.data.dds) | not delivered — original stays in use |
+| PASS | t_billboards: shape_changed | declared false (only colours/text inside the original silhouette) |
+| PASS | t_movie_studio_signage: base_color (t_movie_studio_signage_b.color.dds) | delivered |
+| PASS | t_movie_studio_signage: shape_changed | declared false (only colours/text inside the original silhouette) |
+| PASS | ind_industrial_signs: base_color (ind_industrial_signs_d.color.dds) | delivered |
+| PASS | ind_industrial_signs: shape_changed | declared false (only colours/text inside the original silhouette) |
+| PASS | t_spearleaf_refinery_logo: base_color (t_spearleaf_refinery_logo_b.color.dds) | delivered |
+| PASS | t_spearleaf_refinery_logo: opacity (t_spearleaf_refinery_logo_o.data.dds) | delivered |
+| PASS | t_spearleaf_refinery_logo: shape_changed | all shape-dependent maps delivered: opacity |
+| PASS | t_steel_factory_brand: base_color (t_steel_factory_brand_b.color.dds) | delivered |
+| PASS | t_steel_factory_brand: normal (t_steel_factory_brand_nm.normal.dds) | delivered |
+| PASS | t_steel_factory_brand: ao (t_steel_factory_brand_ao.data.dds) | delivered |
+| PASS | t_steel_factory_brand: roughness (t_steel_factory_brand_r.data.dds) | delivered |
+| PASS | t_steel_factory_brand: shape_changed | all shape-dependent maps delivered: normal, ao, roughness |
+| PASS | t_decal_roadmarkings: base_color (t_decal_roadmarkings_b.color.dds) | delivered |
+| PASS | t_decal_roadmarkings: opacity (t_decal_roadmarkings_o.data.dds) | delivered |
+| PASS | t_decal_roadmarkings: normal (t_decal_roadmarkings_nm.normal.dds) | delivered |
+| PASS | t_decal_roadmarkings: ao (t_decal_roadmarkings_ao.data.dds) | delivered |
+| PASS | t_decal_roadmarkings: roughness (t_decal_roadmarkings_r.data.dds) | not delivered — original stays in use |
+| PASS | t_decal_roadmarkings: metallic (t_decal_roadmarkings_m.data.dds) | not delivered — original stays in use |
+| PASS | t_decal_roadmarkings: shape_changed | all shape-dependent maps delivered: opacity, normal, ao |
 | PASS | t_r19_10_b.color.dds: spec | 512x1024 BC7_UNORM_SRGB (DX10) sRGB, 11 mips |
 | PASS | t_r19_40_b.color.dds: spec | 512x1024 BC7_UNORM_SRGB (DX10) sRGB, 11 mips |
 | PASS | t_r19_o.data.dds: spec | 512x1024 BC4_UNORM (legacy BC4U) unspecified (legacy header), 11 mips |
@@ -46,6 +101,7 @@
 | PASS | sign_speed25.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
 | PASS | sign_speed25.dae: materials | ['roadsigns_ptbr_r19_40', 'roadsigns_ptbr_r19_back'] |
 | PASS | sign_speed25.dae: compiled .cdae | present and newer than the .dae (no recompilation, no temp cache) |
+| PASS | Override levels/west_coast_usa/main.decals.json | only the declared decal instances differ (9 deleted, 6 rectIdx changed) |
 | PASS | Override levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json | 43 line(s) differ from the game file, only in speedLimit / declared shapeName |
 | PASS | Override levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json | 38 line(s) differ from the game file, only in speedLimit / declared shapeName |
 | PASS | Override levels/west_coast_usa/main/MissionGroup/island/island_ai_roads/items.level.json | 8 line(s) differ from the game file, only in speedLimit / declared shapeName |

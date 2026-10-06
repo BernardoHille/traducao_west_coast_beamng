@@ -1,0 +1,57 @@
+{
+  "started": "2026-10-06T07:25:32",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "night",
+  "mod_active": false,
+  "vfs": {
+    "t_billboards": [
+      {
+        "path": "/assets/materials/billboard_label/billboards/t_billboards_b.color.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\billboard_label.zip\\assets\\materials\\billboard_label\\billboards\\t_billboards_b.color.dds",
+        "expected_contains": "billboard_label.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "bb_turbo_burger",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_turbo_burger_original_night.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072548_322.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 74.0582,
+          "x": -493.8569,
+          "z": 109.0855
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 9.999999999995e-07,
+          "x": 0,
+          "w": 0.9999999999995
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:25:49"
+}

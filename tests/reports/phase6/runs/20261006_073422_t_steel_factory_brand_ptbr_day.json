@@ -1,0 +1,58 @@
+{
+  "started": "2026-10-06T07:34:13",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "day",
+  "mod_active": true,
+  "vfs": {
+    "t_steel_factory_brand": [
+      {
+        "path": "/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_nm.normal.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\billboard_label\\m_steel_factory_brand\\t_steel_factory_brand_nm.normal.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "t_stee_steel_descriptor",
+      "object": {
+        "dist": 0.00033179420535856,
+        "id": 678782,
+        "materials": [
+          "m_steel_factory_brand",
+          "industrial_trim",
+          "metal_plates"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_steel_factory_brand/t_stee_steel_descriptor_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073421_387.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -868.7943,
+          "x": -1270.5954,
+          "z": 116.3749
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.4007481180508,
+          "x": 0,
+          "w": 0.91618826988712
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:34:22"
+}

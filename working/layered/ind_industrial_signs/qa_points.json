@@ -1,0 +1,340 @@
+{
+ "family": "ind_industrial_signs",
+ "family_entry": {
+  "material": "industrial_signs",
+  "vfs_checks": [
+   {
+    "path": "/assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": ".zip"
+   }
+  ]
+ },
+ "points": [
+  {
+   "id": "ind_in_flam_no",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    447,
+    54,
+    495,
+    79
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "flam_no"
+   ],
+   "description": "ind_industrial_signs (gas_terminal.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_flam_smoking",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    391,
+    90,
+    509,
+    117
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "flam_smoking"
+   ],
+   "description": "ind_industrial_signs (gas_terminal.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_exit",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    515,
+    195,
+    637,
+    253
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "exit"
+   ],
+   "description": "ind_industrial_signs (s_career_garage.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_ext_hdr",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    646,
+    133,
+    765,
+    157
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "ext_hdr"
+   ],
+   "description": "ind_industrial_signs (gas_terminal.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_ext_co2",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    666,
+    162,
+    709,
+    180
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "ext_co2"
+   ],
+   "description": "ind_industrial_signs (gas_terminal.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_think",
+   "kind": "uv",
+   "mesh": "art_shapes.zip::art/shapes/objects/modular_container/modular_03.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    773,
+    130,
+    891,
+    147
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "think"
+   ],
+   "description": "ind_industrial_signs (modular_03.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_nosmoke_hdr",
+   "kind": "uv",
+   "mesh": "art_shapes.zip::art/shapes/objects/modular_container/modular_03.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    259,
+    317,
+    383,
+    339
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "nosmoke_hdr"
+   ],
+   "description": "ind_industrial_signs (modular_03.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_nosmoke_body",
+   "kind": "uv",
+   "mesh": "art_shapes.zip::art/shapes/objects/modular_container/modular_03.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    260,
+    345,
+    382,
+    372
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "nosmoke_body"
+   ],
+   "description": "ind_industrial_signs (modular_03.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_toxic",
+   "kind": "uv",
+   "mesh": "art_shapes.zip::art/shapes/objects/modular_container/modular_02.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    644,
+    312,
+    700,
+    378
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "toxic"
+   ],
+   "description": "ind_industrial_signs (modular_02.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_emergency",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    419,
+    456,
+    508,
+    477
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "emergency"
+   ],
+   "description": "ind_industrial_signs (s_career_garage.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_trespass",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/s_metal_gate_right.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    902,
+    391,
+    1021,
+    512
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "trespass"
+   ],
+   "description": "ind_industrial_signs (s_metal_gate_right.dae)",
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "locate": "point"
+  },
+  {
+   "id": "ind_in_danger_small",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+   "material": "industrial_signs",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    196,
+    461,
+    252,
+    489
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "danger_small"
+   ],
+   "description": "ind_industrial_signs (s_career_garage.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  }
+ ]
+}

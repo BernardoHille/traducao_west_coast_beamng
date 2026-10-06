@@ -1,0 +1,54 @@
+{
+  "title": "Family validation",
+  "subject": "t_steel_factory_brand (mod)",
+  "status": "PASS",
+  "counts": {
+    "PASS": 5,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-10-06T07:39:09",
+  "meta": {
+    "scope": "global",
+    "wcusa_usage": "confirmed",
+    "delivered": {
+      "base_color": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_b.color.dds",
+      "normal": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_nm.normal.dds",
+      "ao": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_ao.data.dds",
+      "roughness": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_r.data.dds"
+    }
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "base_color (t_steel_factory_brand_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "normal (t_steel_factory_brand_nm.normal.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "ao (t_steel_factory_brand_ao.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "roughness (t_steel_factory_brand_r.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "shape_changed",
+      "message": "all shape-dependent maps delivered: normal, ao, roughness",
+      "details": {}
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "started": "2026-10-06T07:36:08",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "night",
+  "mod_active": true,
+  "vfs": {
+    "ind_industrial_signs": [
+      {
+        "path": "/assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\billboard_label\\industrial_signs\\ind_industrial_signs_d.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "ind_in_trespass",
+      "object": {
+        "dist": 0.0004166824163818,
+        "id": 671800,
+        "materials": [
+          "ind_metal_trim",
+          "metal_paint",
+          "ind_metal_expanded",
+          "industrial_signs",
+          "ind_metal_rust",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/ind_industrial_signs/ind_in_trespass_ptbr_night.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073624_394.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -103.1761,
+          "x": -716.4675,
+          "z": 102.0243
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.00049600003184953,
+          "z": -0.53185496586389,
+          "x": -0.00079000005069542,
+          "w": 0.8468349456475
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:36:25"
+}

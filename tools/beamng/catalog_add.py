@@ -83,7 +83,9 @@ def uv_pose(m, p):
     import dae_uv
     key = p["mesh"]
     local = asset_usage.extract([key], REPO / "source/originals/meshes/phase6")[0]
-    f = dae_uv.region_faces(local, p["material"], tuple(p["size"]), p["region"])
+    f = dae_uv.region_point(local, p["material"], tuple(p["size"]), p["region"]) if p.get("locate") == "point"         else dae_uv.region_faces(local, p["material"], tuple(p["size"]), p["region"])
+    if not f and p.get("locate") != "point":
+        f = dae_uv.region_point(local, p["material"], tuple(p["size"]), p["region"])
     if not f:
         raise SystemExit(f"{p['id']}: no face of {key} shows region {p['region']}")
     shape = "/" + key.split("::", 1)[1]
@@ -97,8 +99,14 @@ def uv_pose(m, p):
     n_local = np.array(p.get("local_normal", f["normal"]), float)
     target = np.array(o["pos"], float) + rot @ (c_local * sc)
     normal = rot @ (n_local / np.where(sc == 0, 1, sc)) * p.get("side", 1)
+    if p.get("horizontal"):
+        normal[2] = 0.0
     normal /= np.linalg.norm(normal)
-    cam = target + normal * p.get("distance", 2.0) + np.array([0, 0, p.get("dz", 0.0)])
+    dist = p.get("distance", 2.0)
+    if dist == "auto":  # frame the face: its largest extent fills ~60 % of the vertical field of view
+        ext = float(max(f["extent"]) * max(sc))
+        dist = max(0.8, ext / 0.6 / (2 * np.tan(np.radians(p.get("fov", 50) / 2))))
+    cam = target + normal * dist + np.array([0, 0, p.get("dz", 0.0)])
     return cam, target - cam, (0, 0, 1), o, f, len(objs)
 
 

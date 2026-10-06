@@ -1,0 +1,62 @@
+{
+  "started": "2026-10-06T07:34:58",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "night",
+  "mod_active": true,
+  "vfs": {
+    "eca_genericsigns": [
+      {
+        "path": "/assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\billboard_label\\eca_genericsigns\\t_eca_genericsigns_b.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "gs_octane_pump",
+      "object": {
+        "dist": 0.00059384980432052,
+        "id": 677919,
+        "materials": [
+          "m_metal_trim_01",
+          "bld_glass_transparent",
+          "m_plastic_trim",
+          "lod_vertcol",
+          "eca_genericsigns",
+          "clutter_commercial",
+          "SOFT_COLLISION_GENERAL"
+        ]
+      },
+      "file": "tests/screenshots/phase6/eca_genericsigns/gs_octane_pump_ptbr_night.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073514_390.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 18,
+        "pos": {
+          "y": 850.9343,
+          "x": -811.0689,
+          "z": 76.1021
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0,
+          "x": 0.087156028601641,
+          "w": 0.99619467308272
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:35:15"
+}

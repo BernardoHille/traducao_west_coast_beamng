@@ -1,0 +1,50 @@
+[
+ {
+  "png": "working/png/t_steel_factory_brand_b.color.png",
+  "dds": "export/dds/t_steel_factory_brand/t_steel_factory_brand_b.color.dds",
+  "original": "source/originals/dds/t_steel_factory_brand_b.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_b.color.dds"
+  ]
+ },
+ {
+  "png": "working/png/t_steel_factory_brand_nm.normal.png",
+  "dds": "export/dds/t_steel_factory_brand/t_steel_factory_brand_nm.normal.dds",
+  "original": "source/originals/dds/t_steel_factory_brand_nm.normal.dds",
+  "format": "BC5_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_nm.normal.dds"
+  ]
+ },
+ {
+  "png": "working/png/t_steel_factory_brand_ao.data.png",
+  "dds": "export/dds/t_steel_factory_brand/t_steel_factory_brand_ao.data.dds",
+  "original": "source/originals/dds/t_steel_factory_brand_ao.data.dds",
+  "format": "BC4_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_ao.data.dds"
+  ]
+ },
+ {
+  "png": "working/png/t_steel_factory_brand_r.data.png",
+  "dds": "export/dds/t_steel_factory_brand/t_steel_factory_brand_r.data.dds",
+  "original": "source/originals/dds/t_steel_factory_brand_r.data.dds",
+  "format": "BC4_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_r.data.dds"
+  ]
+ }
+]

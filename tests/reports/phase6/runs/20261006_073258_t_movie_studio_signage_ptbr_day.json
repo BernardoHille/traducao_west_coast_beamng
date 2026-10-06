@@ -1,0 +1,764 @@
+{
+  "started": "2026-10-06T07:31:27",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "day",
+  "mod_active": true,
+  "vfs": {
+    "t_movie_studio_signage": [
+      {
+        "path": "/assets/materials/billboard_label/m_movie_studio_signage/t_movie_studio_signage_b.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\billboard_label\\m_movie_studio_signage\\t_movie_studio_signage_b.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "st_closed_set",
+      "object": {
+        "dist": 0.00048898411323228,
+        "id": 681116,
+        "materials": [
+          "m_gm_concrete_plain",
+          "architraves",
+          "m_metal_trim_01",
+          "m_worn_brushed_plaster",
+          "m_plaster_float",
+          "m_metal_wall_corrugate",
+          "ind_metal_trim",
+          "m_fabric_padded_square",
+          "m_plastic_trim",
+          "ind_plywood_old",
+          "lod_vertcol",
+          "cladding_zinc",
+          "industrial",
+          "ind_metal_grate",
+          "m_movie_studio_signage",
+          "solar_panel",
+          "billboards",
+          "ind_metal",
+          "m_stucco_white"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_closed_set_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073135_357.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -647.9457,
+          "x": -824.6548,
+          "z": 106.1421
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.33964104807517,
+          "x": 0,
+          "w": 0.94055513313277
+        }
+      }
+    },
+    {
+      "location": "st_stage1",
+      "object": {
+        "dist": 0.00048898411323228,
+        "id": 681116,
+        "materials": [
+          "m_gm_concrete_plain",
+          "architraves",
+          "m_metal_trim_01",
+          "m_worn_brushed_plaster",
+          "m_plaster_float",
+          "m_metal_wall_corrugate",
+          "ind_metal_trim",
+          "m_fabric_padded_square",
+          "m_plastic_trim",
+          "ind_plywood_old",
+          "lod_vertcol",
+          "cladding_zinc",
+          "industrial",
+          "ind_metal_grate",
+          "m_movie_studio_signage",
+          "solar_panel",
+          "billboards",
+          "ind_metal",
+          "m_stucco_white"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_stage1_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073140_358.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -642.2274,
+          "x": -827.9026,
+          "z": 108.7323
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.90523549184852,
+          "x": 0,
+          "w": 0.42491023086973
+        }
+      }
+    },
+    {
+      "location": "st_stop_ped",
+      "object": {
+        "dist": 0.00048898411323228,
+        "id": 681116,
+        "materials": [
+          "m_gm_concrete_plain",
+          "architraves",
+          "m_metal_trim_01",
+          "m_worn_brushed_plaster",
+          "m_plaster_float",
+          "m_metal_wall_corrugate",
+          "ind_metal_trim",
+          "m_fabric_padded_square",
+          "m_plastic_trim",
+          "ind_plywood_old",
+          "lod_vertcol",
+          "cladding_zinc",
+          "industrial",
+          "ind_metal_grate",
+          "m_movie_studio_signage",
+          "solar_panel",
+          "billboards",
+          "ind_metal",
+          "m_stucco_white"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_stop_ped_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073145_359.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -623.6658,
+          "x": -799.8749,
+          "z": 106.3755
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.94055513313277,
+          "x": 0,
+          "w": 0.33964104807517
+        }
+      }
+    },
+    {
+      "location": "st_exit_entrance",
+      "object": {
+        "dist": 0.00048898411323228,
+        "id": 681116,
+        "materials": [
+          "m_gm_concrete_plain",
+          "architraves",
+          "m_metal_trim_01",
+          "m_worn_brushed_plaster",
+          "m_plaster_float",
+          "m_metal_wall_corrugate",
+          "ind_metal_trim",
+          "m_fabric_padded_square",
+          "m_plastic_trim",
+          "ind_plywood_old",
+          "lod_vertcol",
+          "cladding_zinc",
+          "industrial",
+          "ind_metal_grate",
+          "m_movie_studio_signage",
+          "solar_panel",
+          "billboards",
+          "ind_metal",
+          "m_stucco_white"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_exit_entrance_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073150_360.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": -624.275,
+          "x": -798.2023,
+          "z": 109.5822
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.94055513313277,
+          "x": 0,
+          "w": 0.33964104807517
+        }
+      }
+    },
+    {
+      "location": "st_requirements",
+      "object": {
+        "dist": 0.00048898411323228,
+        "id": 681116,
+        "materials": [
+          "m_gm_concrete_plain",
+          "architraves",
+          "m_metal_trim_01",
+          "m_worn_brushed_plaster",
+          "m_plaster_float",
+          "m_metal_wall_corrugate",
+          "ind_metal_trim",
+          "m_fabric_padded_square",
+          "m_plastic_trim",
+          "ind_plywood_old",
+          "lod_vertcol",
+          "cladding_zinc",
+          "industrial",
+          "ind_metal_grate",
+          "m_movie_studio_signage",
+          "solar_panel",
+          "billboards",
+          "ind_metal",
+          "m_stucco_white"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_requirements_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073155_361.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -648.2784,
+          "x": -824.0975,
+          "z": 105.9861
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.33964104807517,
+          "x": 0,
+          "w": 0.94055513313277
+        }
+      }
+    },
+    {
+      "location": "st_gates",
+      "object": {
+        "dist": 0,
+        "id": 681113,
+        "materials": [
+          "m_plaster_float",
+          "architraves",
+          "columns",
+          "m_metal_wall_corrugate",
+          "m_stucco_white",
+          "m_plastic_trim",
+          "industrial",
+          "catchfence",
+          "cladding_zinc",
+          "m_movie_studio_signage",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_gates_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073200_362.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": -598.2198,
+          "x": -806.9801,
+          "z": 106.144
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.93907879666833,
+          "x": 0,
+          "w": 0.34370192558081
+        }
+      }
+    },
+    {
+      "location": "st_no_taxi",
+      "object": {
+        "dist": 0,
+        "id": 681113,
+        "materials": [
+          "m_plaster_float",
+          "architraves",
+          "columns",
+          "m_metal_wall_corrugate",
+          "m_stucco_white",
+          "m_plastic_trim",
+          "industrial",
+          "catchfence",
+          "cladding_zinc",
+          "m_movie_studio_signage",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_no_taxi_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073205_363.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": -586.5351,
+          "x": -803.5447,
+          "z": 104.9285
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.34399306865535,
+          "x": 0,
+          "w": 0.93897218740337
+        }
+      }
+    },
+    {
+      "location": "st_trucks_entrance",
+      "object": {
+        "dist": 0,
+        "id": 681113,
+        "materials": [
+          "m_plaster_float",
+          "architraves",
+          "columns",
+          "m_metal_wall_corrugate",
+          "m_stucco_white",
+          "m_plastic_trim",
+          "industrial",
+          "catchfence",
+          "cladding_zinc",
+          "m_movie_studio_signage",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_trucks_entrance_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073211_364.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": -586.526,
+          "x": -803.5619,
+          "z": 105.6861
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.34750592151232,
+          "x": 0,
+          "w": 0.93767778821612
+        }
+      }
+    },
+    {
+      "location": "st_tour_parking",
+      "object": {
+        "dist": 0,
+        "id": 681113,
+        "materials": [
+          "m_plaster_float",
+          "architraves",
+          "columns",
+          "m_metal_wall_corrugate",
+          "m_stucco_white",
+          "m_plastic_trim",
+          "industrial",
+          "catchfence",
+          "cladding_zinc",
+          "m_movie_studio_signage",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_tour_parking_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073216_365.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": -717.0691,
+          "x": -854.546,
+          "z": 114.1545
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.32750991104767,
+          "x": 0,
+          "w": 0.9448477433775
+        }
+      }
+    },
+    {
+      "location": "st_visitors_office",
+      "object": {
+        "dist": 0,
+        "id": 681113,
+        "materials": [
+          "m_plaster_float",
+          "architraves",
+          "columns",
+          "m_metal_wall_corrugate",
+          "m_stucco_white",
+          "m_plastic_trim",
+          "industrial",
+          "catchfence",
+          "cladding_zinc",
+          "m_movie_studio_signage",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_visitors_office_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073221_366.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": -598.5254,
+          "x": -807.238,
+          "z": 105.8415
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.93907988308409,
+          "x": 0,
+          "w": 0.34369895720931
+        }
+      }
+    },
+    {
+      "location": "st_studio_tour",
+      "object": {
+        "dist": 0.0001828302884002,
+        "id": 681062,
+        "materials": [
+          "ind_plywood_old",
+          "m_movie_studio_signage",
+          "lod_vertcol",
+          "SOFT_COLLISION_GENERAL"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_studio_tour_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073226_367.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -667.6903,
+          "x": -877.8535,
+          "z": 108.5779
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.42261796517882,
+          "x": 0,
+          "w": 0.90630792532567
+        }
+      }
+    },
+    {
+      "location": "st_tour_parking_entrance",
+      "object": {
+        "dist": 0.0001828302884002,
+        "id": 681062,
+        "materials": [
+          "ind_plywood_old",
+          "m_movie_studio_signage",
+          "lod_vertcol",
+          "SOFT_COLLISION_GENERAL"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_tour_parking_entrance_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073231_368.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -667.9638,
+          "x": -879.6495,
+          "z": 108.5779
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.42261796517882,
+          "x": 0,
+          "w": 0.90630792532567
+        }
+      }
+    },
+    {
+      "location": "st_trespassing",
+      "object": {
+        "dist": 0.0004694129070978,
+        "id": 671750,
+        "materials": [
+          "ind_plywood_old",
+          "m_movie_studio_signage",
+          "lod_vertcol",
+          "SOFT_COLLISION_GENERAL"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_trespassing_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073236_369.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -296.8716,
+          "x": -914.7837,
+          "z": 100.8494
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.012971001249278,
+          "z": 0.48263595351611,
+          "x": -0.02352700226594,
+          "w": 0.87540891568716
+        }
+      }
+    },
+    {
+      "location": "st_security",
+      "object": {
+        "dist": 0.000401742138175,
+        "id": 681067,
+        "materials": [
+          "m_metal_trim_01",
+          "m_movie_studio_signage",
+          "lod_vertcol",
+          "shock_absorber"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_security_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073241_370.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -688.007,
+          "x": -877.3788,
+          "z": 107.6114
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0,
+          "x": 0,
+          "w": 1
+        }
+      }
+    },
+    {
+      "location": "st_surveillance",
+      "object": {
+        "dist": 0.00042585438792276,
+        "id": 681111,
+        "materials": [
+          "m_gm_concrete_plain",
+          "m_metal_wall_corrugate",
+          "bld_glass_transparent",
+          "m_plaster_float",
+          "m_worn_brushed_plaster",
+          "m_movie_studio_signage",
+          "industrial",
+          "ind_metal_grate",
+          "m_metal_trim_01",
+          "m_concrete_floor_polish",
+          "ind_metal",
+          "m_plastic_trim",
+          "m_fabric_padded_square",
+          "lod_vertcol",
+          "m_concrete_cinderblock_01"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_surveillance_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073246_371.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": -557.2131,
+          "x": -771.499,
+          "z": 103.5683
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.93329180707694,
+          "x": 0,
+          "w": 0.35911892576564
+        }
+      }
+    },
+    {
+      "location": "st_courier",
+      "object": {
+        "dist": 0.00042585438792276,
+        "id": 681111,
+        "materials": [
+          "m_gm_concrete_plain",
+          "m_metal_wall_corrugate",
+          "bld_glass_transparent",
+          "m_plaster_float",
+          "m_worn_brushed_plaster",
+          "m_movie_studio_signage",
+          "industrial",
+          "ind_metal_grate",
+          "m_metal_trim_01",
+          "m_concrete_floor_polish",
+          "ind_metal",
+          "m_plastic_trim",
+          "m_fabric_padded_square",
+          "lod_vertcol",
+          "m_concrete_cinderblock_01"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_courier_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073252_372.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": -562.9658,
+          "x": -778.613,
+          "z": 104.9663
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.93329180707694,
+          "x": 0,
+          "w": 0.35911892576564
+        }
+      }
+    },
+    {
+      "location": "st_loading",
+      "object": {
+        "dist": 0.00042585438792276,
+        "id": 681111,
+        "materials": [
+          "m_gm_concrete_plain",
+          "m_metal_wall_corrugate",
+          "bld_glass_transparent",
+          "m_plaster_float",
+          "m_worn_brushed_plaster",
+          "m_movie_studio_signage",
+          "industrial",
+          "ind_metal_grate",
+          "m_metal_trim_01",
+          "m_concrete_floor_polish",
+          "ind_metal",
+          "m_plastic_trim",
+          "m_fabric_padded_square",
+          "lod_vertcol",
+          "m_concrete_cinderblock_01"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_loading_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073257_373.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": -567.8856,
+          "x": -777.207,
+          "z": 103.8288
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.40600086355734,
+          "x": 0,
+          "w": 0.91387269287943
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "E GELua.screenshot": 42
+    },
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:32:58"
+}

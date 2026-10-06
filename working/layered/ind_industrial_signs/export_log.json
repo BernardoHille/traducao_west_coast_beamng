@@ -1,0 +1,26 @@
+[
+ {
+  "png": "working/png/ind_industrial_signs_d.color.png",
+  "dds": "export/dds/ind_industrial_signs/ind_industrial_signs_d.color.dds",
+  "original": "source/originals/dds/ind_industrial_signs_d.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds"
+  ]
+ },
+ {
+  "png": "working/png/jungle_rock_island/ind_industrial_signs_d.color.png",
+  "dds": "export/dds/ind_industrial_signs/jungle_rock_island/ind_industrial_signs_d.color.dds",
+  "original": "source/originals/dds/jungle_rock_island/ind_industrial_signs_d.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/levels/jungle_rock_island/art/shapes/buildings/ind_industrial_signs_d.color.dds"
+  ]
+ }
+]

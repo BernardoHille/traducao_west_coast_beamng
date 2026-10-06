@@ -1,0 +1,26 @@
+[
+ {
+  "png": "working/png/t_spearleaf_refinery_logo_b.color.png",
+  "dds": "export/dds/t_spearleaf_refinery_logo/t_spearleaf_refinery_logo_b.color.dds",
+  "original": "source/originals/dds/t_spearleaf_refinery_logo_b.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_b.color.dds"
+  ]
+ },
+ {
+  "png": "working/png/t_spearleaf_refinery_logo_o.data.png",
+  "dds": "export/dds/t_spearleaf_refinery_logo/t_spearleaf_refinery_logo_o.data.dds",
+  "original": "source/originals/dds/t_spearleaf_refinery_logo_o.data.dds",
+  "format": "BC4_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_o.data.dds"
+  ]
+ }
+]

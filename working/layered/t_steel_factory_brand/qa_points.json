@@ -1,0 +1,42 @@
+{
+ "family": "t_steel_factory_brand",
+ "family_entry": {
+  "material": "m_steel_factory_brand",
+  "vfs_checks": [
+   {
+    "path": "/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_nm.normal.dds",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": ".zip"
+   }
+  ]
+ },
+ "points": [
+  {
+   "id": "t_stee_steel_descriptor",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/steel_factory/s_steel_factory_brand.dae",
+   "material": "m_steel_factory_brand",
+   "size": [
+    1024,
+    1024
+   ],
+   "region": [
+    70,
+    916,
+    958,
+    1016
+   ],
+   "distance": "auto",
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "steel_descriptor"
+   ],
+   "description": "t_steel_factory_brand (s_steel_factory_brand.dae)",
+   "lighting": [
+    "day"
+   ],
+   "locate": "point"
+  }
+ ]
+}

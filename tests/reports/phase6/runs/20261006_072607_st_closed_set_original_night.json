@@ -1,0 +1,74 @@
+{
+  "started": "2026-10-06T07:25:49",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "night",
+  "mod_active": false,
+  "vfs": {
+    "t_movie_studio_signage": [
+      {
+        "path": "/assets/materials/billboard_label/m_movie_studio_signage/t_movie_studio_signage_b.color.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\billboard_label.zip\\assets\\materials\\billboard_label\\m_movie_studio_signage\\t_movie_studio_signage_b.color.dds",
+        "expected_contains": "billboard_label.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "st_closed_set",
+      "object": {
+        "dist": 0.00048898411323228,
+        "id": 622279,
+        "materials": [
+          "m_gm_concrete_plain",
+          "architraves",
+          "m_metal_trim_01",
+          "m_worn_brushed_plaster",
+          "m_plaster_float",
+          "m_metal_wall_corrugate",
+          "ind_metal_trim",
+          "m_fabric_padded_square",
+          "m_plastic_trim",
+          "ind_plywood_old",
+          "lod_vertcol",
+          "cladding_zinc",
+          "industrial",
+          "ind_metal_grate",
+          "m_movie_studio_signage",
+          "solar_panel",
+          "billboards",
+          "ind_metal",
+          "m_stucco_white"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_movie_studio_signage/st_closed_set_original_night.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072605_323.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": -647.9457,
+          "x": -824.6548,
+          "z": 106.1421
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.33964104807517,
+          "x": 0,
+          "w": 0.94055513313277
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:26:07"
+}

@@ -1,0 +1,53 @@
+{
+ "family": "t_spearleaf_refinery_logo",
+ "_doc": "Spearleaf refinery logo (Phase 6, 6D). Brand SPEARLEAF preserved; descriptor REFINERY -> REFINARIA. Letters are cut by the opacity map (material m_refinery_logo, alphaTest 135) -> mask rewritten with the colour.",
+ "maps": {
+  "color": {
+   "original": "source/originals/png/t_spearleaf_refinery_logo_b.color.png",
+   "out": "working/png/t_spearleaf_refinery_logo_b.color.png"
+  },
+  "opacity": {
+   "original": "source/originals/png/t_spearleaf_refinery_logo_o.data.png",
+   "out": "working/png/t_spearleaf_refinery_logo_o.data.png",
+   "mode": "L"
+  }
+ },
+ "materials": [
+  "m_refinery_logo"
+ ],
+ "usage_texture": "t_spearleaf_refinery_logo_b.color",
+ "uv_min_coverage": 0.4,
+ "region_maps": [
+  "color",
+  "opacity"
+ ],
+ "seed": 20261006,
+ "elements": [
+  {
+   "id": "refinery",
+   "matrix": "brand_spearleaf",
+   "op": "glyph",
+   "box": [
+    296,
+    846,
+    714,
+    928
+   ],
+   "bleed": 3,
+   "style": {
+    "font": "georgia"
+   },
+   "lines": [
+    {
+     "text": "REFINARIA",
+     "box": [
+      306,
+      856,
+      704,
+      918
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "family": "t_steel_factory_brand",
+ "_doc": "Hot Rolled Inc. steel factory sign (Phase 6, 6D). Brand HOT ROLLED INC. preserved (legacy reference translated it - reverted); descriptor STEEL MANUFACTURING -> FABRICAÇÃO DE AÇO. Letters are embossed in normal, AO and roughness: the relief profile of the old letters is measured and re-applied to the new ones (compose.py edge_profile).",
+ "maps": {
+  "color": {
+   "original": "source/originals/png/t_steel_factory_brand_b.color.png",
+   "out": "working/png/t_steel_factory_brand_b.color.png"
+  },
+  "nm": {
+   "original": "source/originals/png/t_steel_factory_brand_nm.normal.png",
+   "out": "working/png/t_steel_factory_brand_nm.normal.png"
+  },
+  "ao": {
+   "original": "source/originals/png/t_steel_factory_brand_ao.data.png",
+   "out": "working/png/t_steel_factory_brand_ao.data.png"
+  },
+  "r": {
+   "original": "source/originals/png/t_steel_factory_brand_r.data.png",
+   "out": "working/png/t_steel_factory_brand_r.data.png"
+  }
+ },
+ "materials": [
+  "m_steel_factory_brand"
+ ],
+ "usage_texture": "t_steel_factory_brand_b.color",
+ "uv_min_coverage": 0.4,
+ "region_maps": [
+  "color",
+  "nm",
+  "ao",
+  "r"
+ ],
+ "seed": 20261006,
+ "elements": [
+  {
+   "id": "steel_descriptor",
+   "matrix": "steel_descriptor",
+   "op": "panel",
+   "box": [
+    70,
+    916,
+    958,
+    1016
+   ],
+   "legend": {
+    "rgb": [
+     215,
+     165,
+     45
+    ],
+    "tol": 75
+   },
+   "erase": [
+    [
+     78,
+     926,
+     948,
+     990
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_from": [
+    100,
+    995,
+    900,
+    1015
+   ],
+   "relief_px": 5,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 100,
+    "min_wdth": 80
+   },
+   "lines": [
+    {
+     "text": "FABRICAÇÃO DE AÇO",
+     "box": [
+      83,
+      930,
+      942,
+      984
+     ]
+    }
+   ],
+   "aux": {
+    "nm": "edge_profile_normal",
+    "ao": "edge_profile",
+    "r": "edge_profile"
+   }
+  }
+ ]
+}

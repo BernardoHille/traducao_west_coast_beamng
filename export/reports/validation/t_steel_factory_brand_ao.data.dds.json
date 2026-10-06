@@ -1,0 +1,60 @@
+{
+  "title": "DDS validation",
+  "subject": "export/dds/t_steel_factory_brand/t_steel_factory_brand_ao.data.dds",
+  "status": "PASS",
+  "counts": {
+    "PASS": 7,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-10-06T07:39:39",
+  "meta": {
+    "original": "source/originals/dds/t_steel_factory_brand_ao.data.dds",
+    "original_format": "1024x1024 BC4_UNORM (legacy BC4U) unspecified (legacy header), 11 mips"
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "DDS header",
+      "message": "1024x1024 BC4_UNORM (legacy BC4U) unspecified (legacy header), 11 mips",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (19a717fef70d…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "File size",
+      "message": "699192 bytes consistent with header",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Mipmaps",
+      "message": "11 (full chain to 1x1)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "1024x1024",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "DDS format",
+      "message": "BC4_UNORM",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Colour space",
+      "message": "legacy header on both (colour space not encoded)",
+      "details": {}
+    }
+  ]
+}

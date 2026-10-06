@@ -404,7 +404,7 @@
     "normal": {
      "file": "t_bus_routes_wca_nm.normal.dds",
      "path": "assets/materials/billboard_label/m_bus_routes_wca",
-     "local": false,
+     "local": true,
      "required": false
     },
     "ao": {
@@ -420,7 +420,9 @@
      "required": false
     }
    },
-   "requires_on_shape_change": []
+   "requires_on_shape_change": [
+    "normal"
+   ]
   },
   "t_bus_routes_utah": {
    "scope": "global",
@@ -481,7 +483,13 @@
      "required": true
     }
    },
-   "requires_on_shape_change": []
+   "requires_on_shape_change": [],
+   "extra_paths": {
+    "base_color": [
+     "levels/jungle_rock_island/art/shapes/buildings"
+    ]
+   },
+   "notes": "Phase 6: the West Coast material industrial_signs names /levels/jungle_rock_island/art/shapes/buildings/ind_industrial_signs_d.color.png; that path exists in jungle_rock_island.zip with a near-identical copy (source/originals/*/jungle_rock_island/). Both the legacy path and assets/materials/billboard_label/industrial_signs are overridden, each from its own original."
   },
   "t_industrial_signs": {
    "scope": "global",
@@ -550,25 +558,26 @@
     "normal": {
      "file": "t_steel_factory_brand_nm.normal.dds",
      "path": "assets/materials/billboard_label/m_steel_factory_brand",
-     "local": false,
+     "local": true,
      "required": false
     },
     "ao": {
      "file": "t_steel_factory_brand_ao.data.dds",
      "path": "assets/materials/billboard_label/m_steel_factory_brand",
-     "local": false,
+     "local": true,
      "required": false
     },
     "roughness": {
      "file": "t_steel_factory_brand_r.data.dds",
      "path": "assets/materials/billboard_label/m_steel_factory_brand",
-     "local": false,
+     "local": true,
      "required": false
     }
    },
    "requires_on_shape_change": [
     "normal",
-    "ao"
+    "ao",
+    "roughness"
    ]
   },
   "arrows_sign": {

@@ -1,0 +1,55 @@
+{
+ "family": "t_spearleaf_refinery_logo",
+ "family_entry": {
+  "material": "m_refinery_logo",
+  "vfs_checks": [
+   {
+    "path": "/assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_o.data.dds",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": ".zip"
+   }
+  ]
+ },
+ "points": [
+  {
+   "id": "t_spea_refinery",
+   "kind": "pose",
+   "pos": [
+    -749.588,
+    1865.7220000000002,
+    92.074
+   ],
+   "look": [
+    -753.548,
+    1848.082,
+    92.574
+   ],
+   "fov": 40,
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_refinery_billboard.dae",
+    "position": [
+     -753.548,
+     1848.082,
+     85.074
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     296,
+     846,
+     714,
+     928
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 2
+   },
+   "expected": [
+    "SPEARLEAF / REFINARIA"
+   ],
+   "description": "Totem da refinaria Spearleaf (s_refinery_billboard).",
+   "lighting": [
+    "day",
+    "night"
+   ]
+  }
+ ]
+}

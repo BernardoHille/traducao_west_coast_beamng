@@ -9,21 +9,21 @@ Atlas 4 × 4 de painéis 512 × 256. Meshes: `billboards.dae` (um mesh único co
 
 | Painel | Uso | PT-BR | QA |
 |---|---|---|---|
-| BLASTR | sim | SINTA A FÚRIA!! (logo preservado) | ciclo seguinte |
-| Brightsmile | sim | "Recomendado por 4 em cada 5 dentistas" | ciclo seguinte |
+| BLASTR | sim | SINTA A FÚRIA!! (logo preservado) | dia |
+| Brightsmile | sim | "Recomendado por 4 em cada 5 dentistas" | dia |
 | Turbo Burger | sim | NOVO MENU TURBO · R$ 4,99 (sem câmbio) | dia/noite |
 | DriftGear | sim | SUPERANDO OS LIMITES DA INOVAÇÃO | dia |
 | QUEENZ | **não** (nenhum mesh instanciado) | não editado | — |
 | Feline Racerz | sim | JÁ / DISPONÍVEL · citação girada · DISPONÍVEL PARA GAMEMASTER720 E PC | dia |
 | WCUSA | sim | WCUSA / AUTÓDROMO | dia |
 | TastiCola | sim | NOVO SABOR! / AZUL / É O NOVO / VERMELHO | dia |
-| Mente | sim | EXPRESSE-SE | ciclo seguinte |
+| Mente | sim | EXPRESSE-SE | dia |
 | Rocking Rally Rental | sim | marca preservada · ECONOMIZE ATÉ / R$ 200 · linha Friendbook | dia |
 | Clockwise | sim | logo preservado (sem alteração) | — |
-| Alder | sim | Performance Americana Clássica | ciclo seguinte |
-| eShock | sim | DESEMPENHO CHOCANTE | ciclo seguinte |
+| Alder | sim | Performance Americana Clássica | dia |
+| eShock | sim | DESEMPENHO CHOCANTE | dia |
 | GripAll | sim | A MARCA DE PNEUS / DE CONFIANÇA / DOS EUA (universo americano mantido) | dia |
-| OJ | sim | VIVA SAUDÁVEL, / VIVA RÁPIDO | ciclo seguinte |
+| OJ | sim | VIVA SAUDÁVEL, / VIVA RÁPIDO | dia |
 | Nodeoline | sim | Resistência / testada e / comprovada (nas 3 caixas vermelhas originais) | dia |
 
 ### Método

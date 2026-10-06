@@ -1,0 +1,17 @@
+{
+ "family": "ind_industrial_signs",
+ "items": [
+  {
+   "png": "working/png/ind_industrial_signs_d.color.png",
+   "install": [
+    "assets/materials/billboard_label/industrial_signs"
+   ]
+  },
+  {
+   "png": "working/png/jungle_rock_island/ind_industrial_signs_d.color.png",
+   "install": [
+    "levels/jungle_rock_island/art/shapes/buildings"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "flam_hdr": [
+  {
+   "text": "INFLAMÁVEL",
+   "box": [
+    394,
+    20,
+    505,
+    37
+   ]
+  }
+ ],
+ "flam_no": [
+  {
+   "text": "PROIBIDO",
+   "box": [
+    450,
+    62,
+    492,
+    71
+   ]
+  }
+ ],
+ "flam_smoking": [
+  {
+   "text": "FUMAR",
+   "box": [
+    394,
+    93,
+    506,
+    114
+   ]
+  }
+ ],
+ "exit": [
+  {
+   "text": "SAÍDA",
+   "box": [
+    520,
+    208,
+    632,
+    249
+   ]
+  }
+ ],
+ "ext_hdr": [
+  {
+   "text": "Extintor",
+   "box": [
+    649,
+    136,
+    762,
+    154
+   ]
+  }
+ ],
+ "ext_co2": [
+  {
+   "text": "DIÓXIDO DE",
+   "box": [
+    669,
+    166,
+    706,
+    170
+   ]
+  },
+  {
+   "text": "CARBONO",
+   "box": [
+    669,
+    172,
+    706,
+    176
+   ]
+  }
+ ],
+ "think": [
+  {
+   "text": "PENSE EM SEGURANÇA",
+   "box": [
+    776,
+    133,
+    888,
+    144
+   ]
+  }
+ ],
+ "nosmoke_hdr": [
+  {
+   "text": "PROIBIDO FUMAR",
+   "box": [
+    262,
+    320,
+    380,
+    335
+   ]
+  }
+ ],
+ "nosmoke_body": [
+  {
+   "text": "Apague o cigarro",
+   "box": [
+    263,
+    348,
+    379,
+    357
+   ]
+  },
+  {
+   "text": "antes de entrar.",
+   "box": [
+    263,
+    360,
+    379,
+    369
+   ]
+  }
+ ],
+ "toxic": [
+  {
+   "text": "PRODUTOS",
+   "box": [
+    647,
+    315,
+    697,
+    323
+   ]
+  },
+  {
+   "text": "QUÍMICOS",
+   "box": [
+    647,
+    325,
+    697,
+    333
+   ]
+  },
+  {
+   "text": "TÓXICOS EM",
+   "box": [
+    647,
+    336,
+    697,
+    344
+   ]
+  },
+  {
+   "text": "USO NESTE",
+   "box": [
+    647,
+    346,
+    697,
+    354
+   ]
+  },
+  {
+   "text": "LOCAL · FDS",
+   "box": [
+    647,
+    357,
+    697,
+    365
+   ]
+  },
+  {
+   "text": "DISPONÍVEIS",
+   "box": [
+    647,
+    367,
+    697,
+    375
+   ]
+  }
+ ],
+ "emergency": [
+  {
+   "text": "Saída de emergência",
+   "box": [
+    422,
+    464,
+    505,
+    469
+   ]
+  }
+ ],
+ "trespass": [
+  {
+   "text": "ENTRADA",
+   "box": [
+    906,
+    420,
+    1016,
+    445
+   ]
+  },
+  {
+   "text": "PROIBIDA",
+   "box": [
+    906,
+    453,
+    1016,
+    478
+   ]
+  }
+ ],
+ "danger_small": [
+  {
+   "text": "Perigo",
+   "box": [
+    199,
+    470,
+    249,
+    481
+   ]
+  }
+ ]
+}

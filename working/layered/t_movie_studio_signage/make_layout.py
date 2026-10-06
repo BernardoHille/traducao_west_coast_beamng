@@ -48,12 +48,12 @@ E = [
  ("stop_sec", "studio_stop", [840, 278, 888, 297], "PARE", B),
  ("security", "studio_security_check", [835, 315, 894, 380], "INSPEÇÃO DE\nSEGURANÇA\nVEÍCULO EM\nINSPEÇÃO", B),
  ("exit_only", "studio_exit_entrance_only", [904, 268, 1016, 292], "SOMENTE SAÍDA", S),
- ("entr_only", "studio_exit_entrance_only", [904, 324, 1016, 364], "SOMENTE\nENTRADA", S),
+ ("entr_only", "studio_exit_entrance_only", [905, 328, 1014, 359], "SOMENTE\nENTRADA", S),
  ("courier", "studio_courier", [519, 393, 633, 462], "ÁREA DE\nENTREGAS", B),
  ("tour_parking", "studio_tour_parking", [652, 403, 756, 452], "ESTACIONAMENTO\nDA VISITA", B),
  ("loading_hdr", "studio_loading", [904, 388, 1016, 407], "PROIBIDO ESTACIONAR", B),
  ("loading_body", "studio_loading", [912, 409, 1008, 425], "CARGA E DESCARGA", B),
- ("req_title", "studio_stage_requirements", [903, 451, 1017, 459], "REQUISITOS PARA ENTRAR NO ESTÚDIO", S),
+ ("req_title", "studio_stage_requirements", [902, 452, 1019, 460], "REQUISITOS PARA ENTRAR NO ESTÚDIO", S),
  ("req_closed", "studio_stage_requirements", [918, 460, 1002, 470], "SET FECHADO", B),
  ("req_contact", "studio_stage_requirements", [905, 471, 1015, 488], "PARA ENTRAR,\nFALE COM A ADMINISTRAÇÃO", S),
  ("req_phones", "studio_stage_requirements", [905, 490, 1015, 507], "COLOQUE CELULARES E BIPES\nNO MODO VIBRAR", S),
@@ -62,6 +62,14 @@ E = [
  ("hardhat", "studio_ppe", [6, 452, 58, 502], "ÁREA DE\nCAPACETE\nOBRIGAT.", B),
  ("ppe", "studio_ppe", [68, 452, 120, 502], "EPI\nOBRIGA-\nTÓRIO", B),
 ]
+LEG = {"entr_only": ("white", [236, 238, 240]), "exit_only": ("white", [236, 238, 240]), "req_phones": ("white", [236, 238, 240]),
+       "surv_body": ("white", [236, 238, 240]), "closed_rec": ("dark", [38, 38, 44]), "req_title": ("dark", [38, 38, 44]),
+       "req_contact": ("dark", [38, 38, 44]), "visitors_office": ("white", [236, 238, 240])}
+# not sampled by any instanced West Coast mesh (compose.py regions, UV coverage 0): not edited
+NOT_USED = {"dne", "dne_oneway", "notice_hdr", "notice_body", "notrucks_hdr", "notrucks_id", "idling", "soon", "private_hdr",
+            "private_body", "gate2", "gate_oneway", "restricted_hdr", "restricted_keep", "stage4", "danger_exc_hdr", "danger_exc",
+            "hardhat", "ppe"}
+E = [e for e in E if e[0] not in NOT_USED]
 els = []
 for i, m, box, text, st in E:
     x0, y0, x1, y1 = box
@@ -70,6 +78,6 @@ for i, m, box, text, st in E:
                 "blocks": [{"box": [x0 + 2, y0 + 2, x1 - 2, y1 - 2], "text": text, "max_lines": text.count("\n") + 1, "leading": 1.35}]})
 lay = {"family": "t_movie_studio_signage", "_doc": "Lens Flare studio signage (Phase 6, 6D). Material m_movie_studio_signage (no alpha test). Only boxes sampled by instanced West Coast meshes are kept (compose.py regions). Logos 'LENS FLARE' preserved.",
        "maps": {"color": {"original": "source/originals/png/t_movie_studio_signage_b.color.png", "out": "working/png/t_movie_studio_signage_b.color.png"}},
-       "materials": ["m_movie_studio_signage"], "usage_texture": "t_movie_studio_signage_b.color", "uv_min_coverage": 0.4, "seed": 20261006, "elements": els}
+       "materials": ["m_movie_studio_signage"], "usage_texture": "t_movie_studio_signage_b.color", "uv_min_coverage": 0.4, "seed": 20261006, "elements": els, "_not_used": sorted(NOT_USED)}
 json.dump(lay, open(__file__.replace("make_layout.py", "layout.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 print(len(els))

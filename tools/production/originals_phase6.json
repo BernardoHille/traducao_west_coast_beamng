@@ -235,6 +235,14 @@
    "role": "data",
    "category": "09 - Marcacoes no Asfalto (Road Surface Markings)",
    "variant": "decalroad"
+  },
+  {
+   "zip": "levels/jungle_rock_island.zip",
+   "path": "levels/jungle_rock_island/art/shapes/buildings/ind_industrial_signs_d.color.DDS",
+   "family": "ind_industrial_signs",
+   "role": "color",
+   "category": "07 - Industria e Logistica (Industrial & Logistics)",
+   "variant": "jungle_rock_island"
   }
  ]
 }

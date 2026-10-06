@@ -82,6 +82,46 @@
      "original_origin_contains": "billboard_label.zip"
     }
    ]
+  },
+  "t_movie_studio_signage": {
+   "material": "m_movie_studio_signage",
+   "vfs_checks": [
+    {
+     "path": "/assets/materials/billboard_label/m_movie_studio_signage/t_movie_studio_signage_b.color.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "billboard_label.zip"
+    }
+   ]
+  },
+  "t_spearleaf_refinery_logo": {
+   "material": "m_refinery_logo",
+   "vfs_checks": [
+    {
+     "path": "/assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_o.data.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    }
+   ]
+  },
+  "ind_industrial_signs": {
+   "material": "industrial_signs",
+   "vfs_checks": [
+    {
+     "path": "/assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    }
+   ]
+  },
+  "t_steel_factory_brand": {
+   "material": "m_steel_factory_brand",
+   "vfs_checks": [
+    {
+     "path": "/assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_nm.normal.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    }
+   ]
   }
  },
  "locations": [
@@ -3329,6 +3369,1373 @@
     ],
     "fov": 50,
     "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_closed_set",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "PROIBIDA A ENTRADA… SET FECHADO… PROIBIDO FUMAR"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+    "position": [
+     -805.327,
+     -641.892,
+     103.911
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     901,
+     4,
+     1020,
+     122
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -824.6548,
+     -647.9457,
+     106.1421
+    ],
+    "rotation": [
+     0,
+     0,
+     0.339641,
+     0.940555
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_stage1",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "ESTÚDIO 1"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+    "position": [
+     -805.327,
+     -641.892,
+     103.911
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     258,
+     255,
+     374,
+     382
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -827.9026,
+     -642.2274,
+     108.7323
+    ],
+    "rotation": [
+     -0.0,
+     0.0,
+     0.905235,
+     0.42491
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_stop_ped",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "PARE / PROIBIDO PEDESTRES / SOMENTE CAMINHÕES"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+    "position": [
+     -805.327,
+     -641.892,
+     103.911
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     898,
+     130,
+     958,
+     255
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -799.8749,
+     -623.6658,
+     106.3755
+    ],
+    "rotation": [
+     0,
+     0,
+     0.940555,
+     -0.339641
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_exit_entrance",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "SOMENTE SAÍDA / SOMENTE ENTRADA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+    "position": [
+     -805.327,
+     -641.892,
+     103.911
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     902,
+     262,
+     1018,
+     372
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -798.2023,
+     -624.275,
+     109.5822
+    ],
+    "rotation": [
+     0,
+     0,
+     0.940555,
+     -0.339641
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_requirements",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "REQUISITOS… SET FECHADO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+    "position": [
+     -805.327,
+     -641.892,
+     103.911
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     898,
+     448,
+     1020,
+     510
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -824.0975,
+     -648.2784,
+     105.9861
+    ],
+    "rotation": [
+     0,
+     0,
+     0.339641,
+     0.940555
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_gates",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "PORTÃO 1 / PORTÃO 3"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     785,
+     130,
+     875,
+     222
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -806.9801,
+     -598.2198,
+     106.144
+    ],
+    "rotation": [
+     0,
+     0,
+     0.939079,
+     -0.343702
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_no_taxi",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "PROIBIDO DESEMBARQUE DE TÁXI"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     645,
+     0,
+     765,
+     122
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -803.5447,
+     -586.5351,
+     104.9285
+    ],
+    "rotation": [
+     0,
+     0,
+     0.343993,
+     0.938972
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_trucks_entrance",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "ENTRADA SÓ PARA CAMINHÕES"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     645,
+     255,
+     765,
+     380
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -803.5619,
+     -586.526,
+     105.6861
+    ],
+    "rotation": [
+     0,
+     0,
+     0.347506,
+     0.937678
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_tour_parking",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "ESTACIONAMENTO DA VISITA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     645,
+     390,
+     765,
+     505
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -854.546,
+     -717.0691,
+     114.1545
+    ],
+    "rotation": [
+     0,
+     0,
+     0.32751,
+     0.944848
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_visitors_office",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "Visitantes e entregadores…"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     0,
+     320,
+     126,
+     382
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -807.238,
+     -598.5254,
+     105.8415
+    ],
+    "rotation": [
+     0,
+     0,
+     0.93908,
+     -0.343699
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_studio_tour",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "VISITA AO ESTÚDIO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_moviestudio_parking.dae",
+    "position": [
+     -880.371,
+     -665.933,
+     105.888
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     515,
+     128,
+     765,
+     250
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -877.8535,
+     -667.6903,
+     108.5779
+    ],
+    "rotation": [
+     -0.0,
+     -0.0,
+     -0.422618,
+     0.906308
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_tour_parking_entrance",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "VISITA AO ESTÚDIO / ENTRADA DO ESTACIONAMENTO / SOMENTE VISITANTES"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_moviestudio_parking.dae",
+    "position": [
+     -880.371,
+     -665.933,
+     105.888
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     962,
+     130,
+     1022,
+     255
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -879.6495,
+     -667.9638,
+     108.5779
+    ],
+    "rotation": [
+     -0.0,
+     -0.0,
+     -0.422618,
+     0.906308
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_trespassing",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "ENTRADA PROIBIDA / INFRATORES SERÃO PROCESSADOS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_moviestudio_signwarn_002.dae",
+    "position": [
+     -913.432,
+     -295.753,
+     99.071
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     130,
+     255,
+     252,
+     380
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 3
+   },
+   "camera": {
+    "position": [
+     -914.7837,
+     -296.8716,
+     100.8494
+    ],
+    "rotation": [
+     -0.023527,
+     0.012971,
+     0.482636,
+     0.875409
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_security",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "PARE / INSPEÇÃO DE SEGURANÇA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_moviestudio_signwarn_004.dae",
+    "position": [
+     -877.549,
+     -686.157,
+     105.508
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     830,
+     255,
+     895,
+     380
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 3
+   },
+   "camera": {
+    "position": [
+     -877.3788,
+     -688.007,
+     107.6114
+    ],
+    "rotation": [
+     -0.0,
+     -0.0,
+     -0.0,
+     1.0
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_surveillance",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "AVISO / PRÉDIO SOB VIDEOMONITORAMENTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_building_moviestudio_delivery.dae",
+    "position": [
+     -757.545,
+     -573.871,
+     101.44
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     515,
+     255,
+     635,
+     380
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 2
+   },
+   "camera": {
+    "position": [
+     -771.499,
+     -557.2131,
+     103.5683
+    ],
+    "rotation": [
+     0,
+     0,
+     0.933292,
+     0.359119
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_courier",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "ÁREA DE ENTREGAS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_building_moviestudio_delivery.dae",
+    "position": [
+     -757.545,
+     -573.871,
+     101.44
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     515,
+     385,
+     640,
+     505
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 2
+   },
+   "camera": {
+    "position": [
+     -778.613,
+     -562.9658,
+     104.9663
+    ],
+    "rotation": [
+     0,
+     0,
+     0.933292,
+     0.359119
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "st_loading",
+   "family": "t_movie_studio_signage",
+   "description": "Estúdio Lens Flare.",
+   "expected_elements": [
+    "PROIBIDO ESTACIONAR / CARGA E DESCARGA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_building_moviestudio_delivery.dae",
+    "position": [
+     -757.545,
+     -573.871,
+     101.44
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     900,
+     382,
+     1020,
+     445
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 2
+   },
+   "camera": {
+    "position": [
+     -777.207,
+     -567.8856,
+     103.8288
+    ],
+    "rotation": [
+     0,
+     0,
+     0.406001,
+     0.913873
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "t_stee_steel_descriptor",
+   "family": "t_steel_factory_brand",
+   "description": "t_steel_factory_brand (s_steel_factory_brand.dae)",
+   "expected_elements": [
+    "steel_descriptor"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/steel_factory/s_steel_factory_brand.dae",
+    "position": [
+     -1282.27,
+     -858.024,
+     119.922
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     70,
+     916,
+     958,
+     1016
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 3
+   },
+   "camera": {
+    "position": [
+     -1270.5954,
+     -868.7943,
+     116.3749
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.400748,
+     0.916188
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_flam_no",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (gas_terminal.dae)",
+   "expected_elements": [
+    "flam_no"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+    "position": [
+     907.66,
+     -541.849,
+     163.546
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     447,
+     54,
+     495,
+     79
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     907.422,
+     -541.9715,
+     165.339
+    ],
+    "rotation": [
+     0,
+     0,
+     0.062921,
+     0.998019
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_flam_smoking",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (gas_terminal.dae)",
+   "expected_elements": [
+    "flam_smoking"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+    "position": [
+     907.66,
+     -541.849,
+     163.546
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     391,
+     90,
+     509,
+     117
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     907.3566,
+     -541.9818,
+     165.2269
+    ],
+    "rotation": [
+     0,
+     0,
+     0.062921,
+     0.998019
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_exit",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (s_career_garage.dae)",
+   "expected_elements": [
+    "exit"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+    "position": [
+     907.66,
+     -541.849,
+     163.546
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     515,
+     195,
+     637,
+     253
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     907.2346,
+     -532.6666,
+     166.1247
+    ],
+    "rotation": [
+     0,
+     0,
+     0.750198,
+     0.661214
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_ext_hdr",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (gas_terminal.dae)",
+   "expected_elements": [
+    "ext_hdr"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+    "position": [
+     907.66,
+     -541.849,
+     163.546
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     646,
+     133,
+     765,
+     157
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     908.4516,
+     -540.3528,
+     165.4301
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.661214,
+     0.750198
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_ext_co2",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (gas_terminal.dae)",
+   "expected_elements": [
+    "ext_co2"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+    "position": [
+     907.66,
+     -541.849,
+     163.546
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     666,
+     162,
+     709,
+     180
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     908.3505,
+     -540.3996,
+     165.3447
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.661214,
+     0.750198
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_think",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (modular_03.dae)",
+   "expected_elements": [
+    "think"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/objects/modular_container/modular_03.dae",
+    "position": [
+     -1338.957,
+     -922.857,
+     104.405
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     773,
+     130,
+     891,
+     147
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -1337.4842,
+     -924.2117,
+     106.2141
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.400749,
+     0.916188
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_nosmoke_hdr",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (modular_03.dae)",
+   "expected_elements": [
+    "nosmoke_hdr"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/objects/modular_container/modular_03.dae",
+    "position": [
+     -1338.957,
+     -922.857,
+     104.405
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     259,
+     317,
+     383,
+     339
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -1337.4862,
+     -924.2138,
+     105.8085
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.400749,
+     0.916188
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_nosmoke_body",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (modular_03.dae)",
+   "expected_elements": [
+    "nosmoke_body"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/objects/modular_container/modular_03.dae",
+    "position": [
+     -1338.957,
+     -922.857,
+     104.405
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     260,
+     345,
+     382,
+     372
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -1337.4862,
+     -924.2138,
+     105.7484
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.400749,
+     0.916188
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_toxic",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (modular_02.dae)",
+   "expected_elements": [
+    "toxic"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/objects/modular_container/modular_02.dae",
+    "position": [
+     -1413.943,
+     -914.77,
+     107.014
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     644,
+     312,
+     700,
+     378
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 3
+   },
+   "camera": {
+    "position": [
+     -1412.0704,
+     -915.7054,
+     108.6071
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.400749,
+     0.916188
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_emergency",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (s_career_garage.dae)",
+   "expected_elements": [
+    "emergency"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+    "position": [
+     907.66,
+     -541.849,
+     163.546
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     419,
+     456,
+     508,
+     477
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     909.5482,
+     -532.8809,
+     166.1322
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.661214,
+     0.750198
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_trespass",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (s_metal_gate_right.dae)",
+   "expected_elements": [
+    "trespass"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/s_metal_gate_right.dae",
+    "position": [
+     -716.097,
+     -99.599,
+     100.556
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     902,
+     391,
+     1021,
+     512
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 35
+   },
+   "camera": {
+    "position": [
+     -716.4675,
+     -103.1761,
+     102.0243
+    ],
+    "rotation": [
+     -0.00079,
+     -0.000496,
+     -0.531855,
+     0.846835
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "ind_in_danger_small",
+   "family": "ind_industrial_signs",
+   "description": "ind_industrial_signs (s_career_garage.dae)",
+   "expected_elements": [
+    "danger_small"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_career_garage.dae",
+    "position": [
+     907.66,
+     -541.849,
+     163.546
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     196,
+     461,
+     252,
+     489
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     899.5872,
+     -540.7577,
+     166.2578
+    ],
+    "rotation": [
+     0,
+     0,
+     0.062921,
+     0.998019
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "t_spea_refinery",
+   "family": "t_spearleaf_refinery_logo",
+   "description": "Totem da refinaria Spearleaf (s_refinery_billboard).",
+   "expected_elements": [
+    "SPEARLEAF / REFINARIA"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_refinery_billboard.dae",
+    "position": [
+     -753.548,
+     1848.082,
+     85.074
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     296,
+     846,
+     714,
+     928
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 2
+   },
+   "camera": {
+    "position": [
+     -749.588,
+     1865.722,
+     92.074
+    ],
+    "rotation": [
+     0.001523,
+     0.01374,
+     0.993816,
+     -0.11018
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (pose)"
    }
   }
  ]

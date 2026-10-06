@@ -1,0 +1,40 @@
+{
+  "title": "Family validation",
+  "subject": "t_spearleaf_refinery_logo (mod)",
+  "status": "PASS",
+  "counts": {
+    "PASS": 3,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-10-06T07:39:08",
+  "meta": {
+    "scope": "global",
+    "wcusa_usage": "confirmed",
+    "delivered": {
+      "base_color": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_b.color.dds",
+      "opacity": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_o.data.dds"
+    }
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "base_color (t_spearleaf_refinery_logo_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "opacity (t_spearleaf_refinery_logo_o.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "shape_changed",
+      "message": "all shape-dependent maps delivered: opacity",
+      "details": {}
+    }
+  ]
+}

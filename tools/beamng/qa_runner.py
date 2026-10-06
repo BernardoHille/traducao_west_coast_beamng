@@ -163,7 +163,9 @@ def apply_preset(m, pre):
     if "sun_elevation_deg" in pre:  # TimeOfDay may not tick (background window): pin the sun explicitly
         m.lua('local o = scenetree.findObject(scenetree.findClassObjects("ScatterSky")[1]) '
               f'o:setField("elevation", 0, "{pre["sun_elevation_deg"]}") o:postApply() return "ok"')
-        time.sleep(1)
+        # Phase 6: auto-exposure needs several seconds to adapt after a day->night switch (first night shots came out
+        # at day brightness); presets declare how long to wait
+        time.sleep(pre.get("settle_seconds_after_preset", 1))
     m.call("toggle_ui", show=bool(defaults()["ui_visible"]))
 
 

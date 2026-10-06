@@ -1,0 +1,458 @@
+{
+ "family": "t_movie_studio_signage",
+ "family_entry": {
+  "material": "m_movie_studio_signage",
+  "vfs_checks": [
+   {
+    "path": "/assets/materials/billboard_label/m_movie_studio_signage/t_movie_studio_signage_b.color.dds",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": "billboard_label.zip"
+   }
+  ]
+ },
+ "points": [
+  {
+   "id": "st_closed_set",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    901,
+    4,
+    1020,
+    122
+   ],
+   "distance": 1.1,
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "PROIBIDA A ENTRADA… SET FECHADO… PROIBIDO FUMAR"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day",
+    "night"
+   ]
+  },
+  {
+   "id": "st_stage1",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    258,
+    255,
+    374,
+    382
+   ],
+   "distance": 3.5,
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "ESTÚDIO 1"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_stop_ped",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    898,
+    130,
+    958,
+    255
+   ],
+   "distance": 1.6,
+   "fov": 45,
+   "side": 1,
+   "expected": [
+    "PARE / PROIBIDO PEDESTRES / SOMENTE CAMINHÕES"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_exit_entrance",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    902,
+    262,
+    1018,
+    372
+   ],
+   "distance": 2.2,
+   "fov": 35,
+   "side": 1,
+   "expected": [
+    "SOMENTE SAÍDA / SOMENTE ENTRADA"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_requirements",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_building_stage_01.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    898,
+    448,
+    1020,
+    510
+   ],
+   "distance": 1.0,
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "REQUISITOS… SET FECHADO"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_gates",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    785,
+    130,
+    875,
+    222
+   ],
+   "distance": 2.2,
+   "fov": 35,
+   "side": 1,
+   "expected": [
+    "PORTÃO 1 / PORTÃO 3"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_no_taxi",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    645,
+    0,
+    765,
+    122
+   ],
+   "distance": 1.3,
+   "fov": 35,
+   "side": 1,
+   "expected": [
+    "PROIBIDO DESEMBARQUE DE TÁXI"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_trucks_entrance",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    645,
+    255,
+    765,
+    380
+   ],
+   "distance": 1.3,
+   "fov": 35,
+   "side": 1,
+   "expected": [
+    "ENTRADA SÓ PARA CAMINHÕES"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_tour_parking",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    645,
+    390,
+    765,
+    505
+   ],
+   "distance": 1.6,
+   "fov": 35,
+   "side": 1,
+   "expected": [
+    "ESTACIONAMENTO DA VISITA"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_visitors_office",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_movie_studio_fences.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    0,
+    320,
+    126,
+    382
+   ],
+   "distance": 1.8,
+   "fov": 35,
+   "side": 1,
+   "expected": [
+    "Visitantes e entregadores…"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_studio_tour",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_moviestudio_parking.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    515,
+    128,
+    765,
+    250
+   ],
+   "distance": 3.0,
+   "fov": 45,
+   "side": 1,
+   "expected": [
+    "VISITA AO ESTÚDIO"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_tour_parking_entrance",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_moviestudio_parking.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    962,
+    130,
+    1022,
+    255
+   ],
+   "distance": 1.8,
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "VISITA AO ESTÚDIO / ENTRADA DO ESTACIONAMENTO / SOMENTE VISITANTES"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_trespassing",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_moviestudio_signwarn_002.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    130,
+    255,
+    252,
+    380
+   ],
+   "distance": 1.6,
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "ENTRADA PROIBIDA / INFRATORES SERÃO PROCESSADOS"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_security",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_moviestudio_signwarn_004.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    830,
+    255,
+    895,
+    380
+   ],
+   "distance": 1.8,
+   "fov": 40,
+   "side": 1,
+   "expected": [
+    "PARE / INSPEÇÃO DE SEGURANÇA"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_surveillance",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_building_moviestudio_delivery.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    515,
+    255,
+    635,
+    380
+   ],
+   "distance": 1.3,
+   "fov": 35,
+   "side": 1,
+   "expected": [
+    "AVISO / PRÉDIO SOB VIDEOMONITORAMENTO"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_courier",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_building_moviestudio_delivery.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    515,
+    385,
+    640,
+    505
+   ],
+   "distance": 1.8,
+   "fov": 35,
+   "side": 1,
+   "expected": [
+    "ÁREA DE ENTREGAS"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "st_loading",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_building_moviestudio_delivery.dae",
+   "material": "m_movie_studio_signage",
+   "size": [
+    1024,
+    512
+   ],
+   "region": [
+    900,
+    382,
+    1020,
+    445
+   ],
+   "distance": 1.4,
+   "fov": 35,
+   "side": 1,
+   "expected": [
+    "PROIBIDO ESTACIONAR / CARGA E DESCARGA"
+   ],
+   "description": "Estúdio Lens Flare.",
+   "lighting": [
+    "day"
+   ]
+  }
+ ]
+}

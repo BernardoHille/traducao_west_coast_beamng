@@ -1,0 +1,505 @@
+{
+  "started": "2026-10-06T07:20:10",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "t_billboards": [
+      {
+        "path": "/assets/materials/billboard_label/billboards/t_billboards_b.color.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\billboard_label.zip\\assets\\materials\\billboard_label\\billboards\\t_billboards_b.color.dds",
+        "expected_contains": "billboard_label.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "bb_turbo_burger",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_turbo_burger_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072018_273.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 74.0582,
+          "x": -493.8569,
+          "z": 109.0855
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 9.999999999995e-07,
+          "x": 0,
+          "w": 0.9999999999995
+        }
+      }
+    },
+    {
+      "location": "bb_feline_racerz",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_feline_racerz_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072023_274.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 173.716,
+          "x": -497.366,
+          "z": 109.0855
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.59694395486358,
+          "x": 0,
+          "w": 0.80228293933738
+        }
+      }
+    },
+    {
+      "location": "bb_tasticola",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_tasticola_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072028_275.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 219.3211,
+          "x": -523.9608,
+          "z": 113.5515
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "bb_rally_rental",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_rally_rental_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072033_276.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 301.0734,
+          "x": -372.3785,
+          "z": 110.9738
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.41744386738958,
+          "x": 0,
+          "w": 0.90870271133018
+        }
+      }
+    },
+    {
+      "location": "bb_gripall",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_gripall_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072039_277.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 375.2426,
+          "x": -379.8913,
+          "z": 110.2469
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "bb_nodeoline",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_nodeoline_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072044_278.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 107.5355,
+          "x": -479.6985,
+          "z": 109.0855
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.9569032023573,
+          "x": 0,
+          "w": 0.29040706141268
+        }
+      }
+    },
+    {
+      "location": "bb_wcusa_warehouse",
+      "object": {
+        "dist": 0,
+        "id": 629401,
+        "materials": [
+          "architraves",
+          "industrial_trim",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "m_stucco_scraped_01",
+          "columns",
+          "construction",
+          "clutter_commercial",
+          "billboards",
+          "m_bld_warehouse_002_LOD",
+          "brick_painted"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_wcusa_warehouse_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072049_279.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 170.4367,
+          "x": -740.0514,
+          "z": 156.6237
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "bb_driftgear_diner",
+      "object": {
+        "dist": 0,
+        "id": 629175,
+        "materials": [
+          "slabs_large",
+          "balustrades",
+          "m_stucco_white",
+          "construction",
+          "brick_plain",
+          "stone_brick_regular",
+          "wirefence",
+          "groundmesh_grass2",
+          "billboards"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_driftgear_diner_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072054_280.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 151.2445,
+          "x": -593.8084,
+          "z": 116.2597
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "bb_blastr",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_blastr_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072059_281.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 165.7702,
+          "x": -736.1652,
+          "z": 145.1323
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "bb_brightsmile",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_brightsmile_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072104_282.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 58.8929,
+          "x": -784.5968,
+          "z": 140.1818
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92387975383735,
+          "x": 0,
+          "w": 0.38268289803626
+        }
+      }
+    },
+    {
+      "location": "bb_mente",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_mente_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072109_283.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 355.8111,
+          "x": -312.067,
+          "z": 110.434
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92387975383735,
+          "x": 0,
+          "w": 0.38268289803626
+        }
+      }
+    },
+    {
+      "location": "bb_alder",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_alder_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072114_284.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 113.6376,
+          "x": -612.2651,
+          "z": 113.8536
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "bb_eshock",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_eshock_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072119_285.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 177.4252,
+          "x": -533.5243,
+          "z": 109.0855
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.59434621295518,
+          "x": 0,
+          "w": 0.80420928814945
+        }
+      }
+    },
+    {
+      "location": "bb_oj",
+      "object": {
+        "dist": 0,
+        "id": 625386,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_oj_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_072125_286.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 203.6544,
+          "x": -539.6272,
+          "z": 113.5515
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38267415537244,
+          "x": 0,
+          "w": 0.92388337511289
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "E GELua.screenshot": 43
+    },
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:21:26"
+}

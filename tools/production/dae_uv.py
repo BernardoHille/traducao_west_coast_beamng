@@ -110,8 +110,10 @@ def _raster_tri(mask: np.ndarray, p: np.ndarray) -> None:
 def uv_to_px(uv: np.ndarray, size: tuple[int, int]) -> np.ndarray:
     """UV (N,3,2) -> atlas pixels. Triangles are shifted into the 0..1 tile (atlas tiles never wrap)."""
     w, h = size
-    u = uv[..., 0] - np.floor(uv[..., 0].min(axis=-1, keepdims=True))
-    v = uv[..., 1] - np.floor(uv[..., 1].min(axis=-1, keepdims=True))
+    # tile chosen by the triangle centroid (Phase 6: full-texture quads with UV -0.004..1.003 were shifted
+    # one tile away when the tile came from the minimum)
+    u = uv[..., 0] - np.floor(uv[..., 0].mean(axis=-1, keepdims=True))
+    v = uv[..., 1] - np.floor(uv[..., 1].mean(axis=-1, keepdims=True))
     return np.stack([u * w, (1.0 - v) * h], axis=-1)
 
 
@@ -256,3 +258,44 @@ def region_faces(path, material, size, region):
     cen = (pos.mean(1) * area[:, None]).sum(0) / max(area.sum(), 1e-9)
     return {"centroid": cen.tolist(), "normal": (n / (np.linalg.norm(n) + 1e-9)).tolist(), "triangles": int(len(pos)),
             "node": best[2], "extent": (pos.reshape(-1, 3).max(0) - pos.reshape(-1, 3).min(0)).tolist()}
+
+
+def region_point(path, material, size, region):
+    """3D point/normal of the region centre via the UV triangle containing it (affine UV->xyz map of that
+    triangle), plus the region's size on the mesh. Most detailed LOD, collision nodes skipped."""
+    root = load(path)
+    mats = _node_matrices(root)
+    geoms = {g.get("id"): g.get("name") or g.get("id") for g in root.iterfind(".//c:library_geometries/c:geometry", NS)}
+    x0, y0, x1, y1 = region
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+    best = None
+    import re as _re
+    for gid, gname in geoms.items():
+        inst = mats.get(gid, [(np.eye(4), "")])
+        w, node = inst[0]
+        if node.lower().startswith(("col", "collision")):
+            continue
+        mm = _re.search(r"_?[lL](\d+)$", node)
+        lod = int(mm.group(1)) if mm else 0
+        for prim in primitives(root):
+            if prim["geometry"] not in (gname, gid) or prim["material"] != material or prim["uvs"] is None:
+                continue
+            px = uv_to_px(prim["uvs"], size)
+            pos = prim["positions"] @ w[:3, :3].T + w[:3, 3]
+            for t, p in zip(px, pos):
+                m = np.array([[t[1, 0] - t[0, 0], t[2, 0] - t[0, 0]], [t[1, 1] - t[0, 1], t[2, 1] - t[0, 1]]])
+                if abs(np.linalg.det(m)) < 1e-9:
+                    continue
+                inv = np.linalg.inv(m)
+                a, b = inv @ np.array([cx - t[0, 0], cy - t[0, 1]])
+                if a < -1e-6 or b < -1e-6 or a + b > 1 + 1e-6:
+                    continue
+                to3 = lambda u, v: p[0] + (inv @ np.array([u - t[0, 0], v - t[0, 1]]))[0] * (p[1] - p[0]) + (inv @ np.array([u - t[0, 0], v - t[0, 1]]))[1] * (p[2] - p[0])
+                pt = to3(cx, cy)
+                ext = max(np.linalg.norm(to3(x1, cy) - to3(x0, cy)), np.linalg.norm(to3(cx, y1) - to3(cx, y0)))
+                n = np.cross(p[1] - p[0], p[2] - p[0])
+                n /= np.linalg.norm(n) + 1e-12
+                key = (lod,)
+                if best is None or key > best[0]:
+                    best = (key, {"centroid": pt.tolist(), "normal": n.tolist(), "extent": [float(ext)] * 3, "triangles": 1, "node": node})
+    return best[1] if best else None

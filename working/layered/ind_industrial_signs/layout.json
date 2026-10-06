@@ -1,0 +1,623 @@
+{
+ "family": "ind_industrial_signs",
+ "_doc": "Industrial safety signs (Phase 6, 6D). Material industrial_signs names /levels/jungle_rock_island/.../ind_industrial_signs_d.color.png; that legacy path exists in jungle_rock_island.zip with a near-identical copy, and the same name exists in assets/materials/billboard_label/industrial_signs. Both copies are overridden, each rebuilt from its own original. Only signs sampled by instanced West Coast meshes are edited (SPEED LIMIT 15, Texas Waste, MAX HEADROOM… are not used in the map).",
+ "maps": {
+  "color": {
+   "original": "source/originals/png/ind_industrial_signs_d.color.png",
+   "out": "working/png/ind_industrial_signs_d.color.png"
+  }
+ },
+ "materials": [
+  "industrial_signs"
+ ],
+ "usage_texture": "ind_industrial_signs_d.color",
+ "uv_min_coverage": 0.4,
+ "seed": 20261006,
+ "elements": [
+  {
+   "id": "flam_hdr",
+   "matrix": "ind_flammable_no_smoking",
+   "op": "panel",
+   "box": [
+    391,
+    17,
+    508,
+    40
+   ],
+   "legend": "white",
+   "bg_tol": 30,
+   "erase": [
+    [
+     392,
+     18,
+     507,
+     39
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "blocks": [
+    {
+     "box": [
+      394,
+      20,
+      505,
+      37
+     ],
+     "text": "INFLAMÁVEL",
+     "max_lines": 1,
+     "leading": 1.3
+    }
+   ],
+   "color": [
+    245,
+    240,
+    235
+   ]
+  },
+  {
+   "id": "flam_no",
+   "matrix": "ind_flammable_no_smoking",
+   "op": "panel",
+   "box": [
+    447,
+    54,
+    495,
+    79
+   ],
+   "legend": "red",
+   "bg_tol": 30,
+   "erase": [
+    [
+     448,
+     55,
+     494,
+     78
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "blocks": [
+    {
+     "box": [
+      450,
+      57,
+      492,
+      76
+     ],
+     "text": "PROIBIDO",
+     "max_lines": 1,
+     "leading": 1.3
+    }
+   ]
+  },
+  {
+   "id": "flam_smoking",
+   "matrix": "ind_flammable_no_smoking",
+   "op": "panel",
+   "box": [
+    391,
+    90,
+    509,
+    117
+   ],
+   "legend": "red",
+   "bg_tol": 30,
+   "erase": [
+    [
+     392,
+     91,
+     508,
+     116
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "blocks": [
+    {
+     "box": [
+      394,
+      93,
+      506,
+      114
+     ],
+     "text": "FUMAR",
+     "max_lines": 1,
+     "leading": 1.3
+    }
+   ]
+  },
+  {
+   "id": "exit",
+   "matrix": "ind_exit",
+   "op": "panel",
+   "box": [
+    515,
+    195,
+    637,
+    253
+   ],
+   "legend": "red",
+   "bg_tol": 30,
+   "erase": [
+    [
+     516,
+     196,
+     636,
+     252
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 75,
+    "min_wdth": 70
+   },
+   "blocks": [
+    {
+     "box": [
+      520,
+      207,
+      632,
+      250
+     ],
+     "text": "SAÍDA",
+     "max_lines": 1,
+     "leading": 1.3
+    }
+   ]
+  },
+  {
+   "id": "ext_hdr",
+   "matrix": "ind_fire_extinguisher",
+   "op": "panel",
+   "box": [
+    646,
+    133,
+    765,
+    157
+   ],
+   "legend": "white",
+   "bg_tol": 30,
+   "erase": [
+    [
+     647,
+     134,
+     764,
+     156
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "arial_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      649,
+      136,
+      762,
+      154
+     ],
+     "text": "Extintor",
+     "max_lines": 1,
+     "leading": 1.3
+    }
+   ],
+   "color": [
+    245,
+    240,
+    235
+   ]
+  },
+  {
+   "id": "ext_co2",
+   "matrix": "ind_fire_extinguisher",
+   "op": "panel",
+   "box": [
+    666,
+    162,
+    709,
+    180
+   ],
+   "legend": "dark",
+   "bg_tol": 30,
+   "erase": [
+    [
+     667,
+     163,
+     708,
+     179
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "arial_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      669,
+      165,
+      706,
+      177
+     ],
+     "text": "DIÓXIDO DE\nCARBONO",
+     "max_lines": 2,
+     "leading": 1.3
+    }
+   ],
+   "color": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "id": "think",
+   "matrix": "ind_think_safe",
+   "op": "panel",
+   "box": [
+    773,
+    130,
+    891,
+    147
+   ],
+   "legend": "dark",
+   "bg_tol": 30,
+   "erase": [
+    [
+     774,
+     131,
+     890,
+     146
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "blocks": [
+    {
+     "box": [
+      776,
+      133,
+      888,
+      144
+     ],
+     "text": "PENSE EM SEGURANÇA",
+     "max_lines": 1,
+     "leading": 1.3
+    }
+   ],
+   "color": [
+    60,
+    60,
+    60
+   ]
+  },
+  {
+   "id": "nosmoke_hdr",
+   "matrix": "ind_extinguish",
+   "op": "panel",
+   "box": [
+    259,
+    317,
+    383,
+    339
+   ],
+   "legend": "white",
+   "bg_tol": 30,
+   "erase": [
+    [
+     260,
+     318,
+     382,
+     338
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "blocks": [
+    {
+     "box": [
+      262,
+      320,
+      380,
+      336
+     ],
+     "text": "PROIBIDO FUMAR",
+     "max_lines": 1,
+     "leading": 1.3
+    }
+   ],
+   "color": [
+    245,
+    240,
+    235
+   ]
+  },
+  {
+   "id": "nosmoke_body",
+   "matrix": "ind_extinguish",
+   "op": "panel",
+   "box": [
+    260,
+    345,
+    382,
+    372
+   ],
+   "legend": "red",
+   "bg_tol": 30,
+   "erase": [
+    [
+     261,
+     346,
+     381,
+     371
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "segoe"
+   },
+   "blocks": [
+    {
+     "box": [
+      263,
+      348,
+      379,
+      369
+     ],
+     "text": "Apague o cigarro\nantes de entrar.",
+     "max_lines": 2,
+     "leading": 1.3
+    }
+   ]
+  },
+  {
+   "id": "toxic",
+   "matrix": "ind_toxic",
+   "op": "panel",
+   "box": [
+    644,
+    312,
+    700,
+    378
+   ],
+   "legend": "dark",
+   "bg_tol": 30,
+   "erase": [
+    [
+     645,
+     313,
+     699,
+     377
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 75,
+    "min_wdth": 70
+   },
+   "blocks": [
+    {
+     "box": [
+      647,
+      315,
+      697,
+      375
+     ],
+     "text": "PRODUTOS\nQUÍMICOS\nTÓXICOS EM\nUSO NESTE\nLOCAL · FDS\nDISPONÍVEIS",
+     "max_lines": 6,
+     "leading": 1.3
+    }
+   ],
+   "color": [
+    25,
+    25,
+    25
+   ]
+  },
+  {
+   "id": "emergency",
+   "matrix": "ind_emergency_exit",
+   "op": "panel",
+   "box": [
+    419,
+    456,
+    508,
+    477
+   ],
+   "legend": "white",
+   "bg_tol": 30,
+   "erase": [
+    [
+     420,
+     457,
+     507,
+     476
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "arial_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      422,
+      459,
+      505,
+      474
+     ],
+     "text": "Saída de emergência",
+     "max_lines": 1,
+     "leading": 1.3
+    }
+   ],
+   "color": [
+    240,
+    245,
+    240
+   ]
+  },
+  {
+   "id": "trespass",
+   "matrix": "ind_no_trespassing",
+   "op": "panel",
+   "box": [
+    902,
+    391,
+    1021,
+    512
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      235,
+      225,
+      220
+     ],
+     [
+      205,
+      190,
+      185
+     ],
+     [
+      180,
+      165,
+      160
+     ],
+     [
+      165,
+      155,
+      150
+     ],
+     [
+      150,
+      150,
+      130
+     ]
+    ],
+    "tol": 28
+   },
+   "bg_tol": 30,
+   "erase": [
+    [
+     903,
+     392,
+     1020,
+     511
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 75,
+    "min_wdth": 70
+   },
+   "blocks": [
+    {
+     "box": [
+      906,
+      398,
+      1016,
+      500
+     ],
+     "text": "ENTRADA\nPROIBIDA",
+     "max_lines": 2,
+     "leading": 1.3
+    }
+   ],
+   "color": [
+    236,
+    228,
+    222
+   ]
+  },
+  {
+   "id": "danger_small",
+   "matrix": "ind_caution_generic",
+   "op": "panel",
+   "box": [
+    196,
+    461,
+    252,
+    489
+   ],
+   "legend": "dark",
+   "bg_tol": 30,
+   "erase": [
+    [
+     197,
+     462,
+     251,
+     488
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "style": {
+    "font": "arial_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      199,
+      464,
+      249,
+      486
+     ],
+     "text": "Perigo",
+     "max_lines": 1,
+     "leading": 1.3
+    }
+   ],
+   "color": [
+    25,
+    25,
+    25
+   ]
+  }
+ ]
+}

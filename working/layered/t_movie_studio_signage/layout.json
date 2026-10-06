@@ -1187,20 +1187,20 @@
    "matrix": "studio_exit_entrance_only",
    "op": "panel",
    "box": [
-    903,
-    323,
-    1017,
-    365
+    904,
+    327,
+    1015,
+    360
    ],
    "legend": "auto",
    "legend_tol": 55,
    "bg_tol": 26,
    "erase": [
     [
-     904,
-     324,
-     1016,
-     364
+     905,
+     328,
+     1014,
+     359
     ]
    ],
    "erase_dilate": 1,
@@ -1211,10 +1211,10 @@
    "blocks": [
     {
      "box": [
-      906,
-      326,
-      1014,
-      362
+      907,
+      330,
+      1012,
+      357
      ],
      "text": "SOMENTE\nENTRADA",
      "max_lines": 2,
@@ -1399,20 +1399,20 @@
    "matrix": "studio_stage_requirements",
    "op": "panel",
    "box": [
-    902,
-    450,
-    1018,
-    460
+    901,
+    451,
+    1020,
+    461
    ],
    "legend": "auto",
    "legend_tol": 55,
    "bg_tol": 26,
    "erase": [
     [
-     903,
-     451,
-     1017,
-     459
+     902,
+     452,
+     1019,
+     460
     ]
    ],
    "erase_dilate": 1,
@@ -1423,10 +1423,10 @@
    "blocks": [
     {
      "box": [
-      905,
-      453,
-      1015,
-      457
+      904,
+      454,
+      1017,
+      458
      ],
      "text": "REQUISITOS PARA ENTRAR NO ESTÚDIO",
      "max_lines": 1,

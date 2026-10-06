@@ -1,0 +1,66 @@
+{
+  "started": "2026-10-06T07:35:15",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "night",
+  "mod_active": true,
+  "vfs": {
+    "eca_genericsigns": [
+      {
+        "path": "/assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\billboard_label\\eca_genericsigns\\t_eca_genericsigns_b.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "gs_stop_engine_structure",
+      "object": {
+        "dist": 0.00057962887316517,
+        "id": 677804,
+        "materials": [
+          "m_metal_trim_01",
+          "m_plastic_trim",
+          "corrugation",
+          "vertcolor_glow",
+          "industrial_trim",
+          "m_gasstation_tyrannos",
+          "metal_plates",
+          "eca_genericsigns",
+          "lod_vertcol",
+          "slabs_large",
+          "SOFT_COLLISION_GENERAL"
+        ]
+      },
+      "file": "tests/screenshots/phase6/eca_genericsigns/gs_stop_engine_structure_ptbr_night.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_073531_391.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": 1766.1439,
+          "x": 148.4036,
+          "z": 103.5085
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.99026808132428,
+          "x": 0,
+          "w": 0.13917301142938
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T07:35:32"
+}
