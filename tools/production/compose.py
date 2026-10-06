@@ -100,6 +100,7 @@ class Family:
         base = self.layout.get("base_map", "color")
         self.base_shape = self.maps[base].shape[:2]
         self.rng = np.random.default_rng(self.layout.get("seed", 20261003))
+        self.clear_masks = {}
 
     def scale(self, role, box):
         """Box in base-map pixels -> box in `role` pixels (maps may have other resolutions)."""
@@ -361,20 +362,25 @@ def text_coverage(el, shape):
         for l in block_lines(b, st):
             l["style"] = b.get("style", {})
             lines.append(l)
-    cov = np.zeros(shape)
+    # rotated elements: the unrotated layout may run past the map edge (e.g. a vertical strip next to the border),
+    # so it is drawn on a canvas padded by P px and cropped after the rotation
+    P = 256 if el.get("rotate") else 0
+    shp = (shape[0] + 2 * P, shape[1] + 2 * P)
+    cov = np.zeros(shp)
     for line in lines:
         spec = dict(style)
         spec.update(line.get("style", {}))
-        lc = render_line(line["text"], spec, line["box"], shape)
+        box = [v + P for v in line["box"]]
+        lc = render_line(line["text"], spec, box, shp)
         if line.get("arc"):
-            lc = bend_to_arc(lc, line["box"], line["arc"])
+            lc = bend_to_arc(lc, box, dict(line["arc"], cx=line["arc"]["cx"] + P, cy=line["arc"]["cy"] + P))
         cov = np.maximum(cov, lc)
     el["_lines"] = [{"text": l["text"], "box": l["box"]} for l in lines]
     if el.get("rotate"):  # lines are laid out unrotated around `pivot`, then rotated (degrees, counter-clockwise)
         r = el["rotate"]
         img = Image.fromarray((cov * 255).astype(np.uint8))
-        img = img.rotate(r["deg"], resample=Image.BICUBIC, center=tuple(r["pivot"]))
-        cov = np.asarray(img, dtype=np.float64) / 255.0
+        img = img.rotate(r["deg"], resample=Image.BICUBIC, center=(r["pivot"][0] + P, r["pivot"][1] + P))
+        cov = np.asarray(img, dtype=np.float64)[P:P + shape[0], P:P + shape[1]] / 255.0
     return cov
 
 
@@ -571,6 +577,8 @@ def op_panel(fam: Family, el):
         crop[ink] = (c * (1 - a) + lc * a).clip(0, 255).astype(np.uint8)
     rgb[sy, sx] = crop
     # alpha: unchanged unless the element asks to rebuild it from the new text (cut-out legends)
+    cc = el.get("cutout_clear")  # opacity area to clear for the "cutout" aux rule: whole erase area (true) or legend + r px
+    fam.clear_masks[el["id"]] = (ebox & ~keep) if cc is True else ((dilate(hole, int(cc)) & ebox & ~keep) if cc else hole)
     for aux_role, how in el.get("aux", {}).items():
         aux_apply(fam, aux_role, how, el, cov, hole, legend_sel)
 
@@ -635,6 +643,30 @@ def aux_apply(fam, role, how, el, cov_base, hole_base, legend_base=None):
         v = (cov[sy, sx] * 255).round().astype(np.uint8)
         for ch in range(3):
             arr[sy, sx, ch] = v
+    elif how == "cutout":             # opacity cut-out letters: clear the erased legend, add the new ink (+stroke/glow)
+        st = el.get("style", {})
+        ink = cov_base.copy()
+        if st.get("stroke"):
+            ink = np.maximum(ink, stroke_of(cov_base, st["stroke"]["px"]))
+        if st.get("glow"):
+            g = st["glow"]
+            r = max(1, int(g["px"]))
+            ink = np.maximum(ink, np.clip(box_blur(stroke_of(cov_base, max(1, r // 2))[..., None], r)[..., 0] * g.get("alpha", 0.8), 0, 1))
+        ink = np.asarray(Image.fromarray((ink * 255).astype(np.uint8)).resize((W, H), Image.LANCZOS), float) / 255.0
+        sel = arr[sy, sx] if arr.ndim == 2 else arr[sy, sx, :3]
+        v = sel.astype(np.float64)
+        hc = hole[sy, sx]
+        if el.get("cutout_clear"):  # neon: the old glow halo reaches past the detected legend -> clear the whole erase area
+            cm = np.asarray(Image.fromarray(fam.clear_masks[el["id"]].astype(np.uint8) * 255).resize((W, H), Image.NEAREST)) > 0
+            hc = hc | cm[sy, sx]
+        if v.ndim == 3:
+            hc = hc[..., None]
+            nv = np.where(hc, 0, v)
+            nv = np.maximum(nv, (ink[sy, sx] * 255)[..., None])
+            arr[sy, sx, :3] = np.round(nv).astype(np.uint8)
+        else:
+            nv = np.maximum(np.where(hc, 0, v), ink[sy, sx] * 255)
+            arr[sy, sx] = np.round(nv).astype(np.uint8)
     elif how == "flatten_hole":       # normal/AO/roughness: remove the old letter relief where the legend was erased
         crop = arr[sy, sx, :3].copy()
         h = dilate(hole[sy, sx], 1)

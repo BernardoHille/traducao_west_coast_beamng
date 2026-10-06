@@ -1,0 +1,17 @@
+{
+ "family": "clutter_commercial",
+ "items": [
+  {
+   "png": "working/png/art_shapes/clutter_commercial_b.color.png",
+   "install": [
+    "art/shapes/garage_and_dealership/Clutter"
+   ]
+  },
+  {
+   "png": "working/png/art_shapes/clutter_commercial_o.data.png",
+   "install": [
+    "art/shapes/garage_and_dealership/Clutter"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "png": "working/png/art_shapes/clutter_commercial_b.color.png",
+  "dds": "export/dds/clutter_commercial/art_shapes/clutter_commercial_b.color.dds",
+  "original": "source/originals/dds/art_shapes/clutter_commercial_b.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 12,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds"
+  ]
+ },
+ {
+  "png": "working/png/art_shapes/clutter_commercial_o.data.png",
+  "dds": "export/dds/clutter_commercial/art_shapes/clutter_commercial_o.data.dds",
+  "original": "source/originals/dds/art_shapes/clutter_commercial_o.data.dds",
+  "format": "BC4_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 12,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds"
+  ]
+ }
+]

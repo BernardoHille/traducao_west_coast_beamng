@@ -1,0 +1,73 @@
+{
+  "started": "2026-10-06T12:16:02",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "night",
+  "mod_active": true,
+  "vfs": {
+    "clutter_commercial": [
+      {
+        "path": "/art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\art\\shapes\\garage_and_dealership\\Clutter\\clutter_commercial_b.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      },
+      {
+        "path": "/art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\art\\shapes\\garage_and_dealership\\Clutter\\clutter_commercial_o.data.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "cc_neon_nails",
+      "object": {
+        "dist": 0,
+        "id": 278629,
+        "materials": [
+          "slabs_large",
+          "balustrades",
+          "clutter_commercial",
+          "brick_plain",
+          "m_highrise_metal",
+          "architraves",
+          "windows_doors_reflective",
+          "columns",
+          "m_roof_slates_ochre",
+          "construction",
+          "tiles_marble_square",
+          "m_bld_chinatown_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_neon_nails_ptbr_night.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121619_121.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 512.2042,
+          "x": -671.0026,
+          "z": 119.6768
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38270983289725,
+          "x": 0,
+          "w": 0.92386859661088
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T12:16:20"
+}

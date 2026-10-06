@@ -2,15 +2,19 @@
 
 **Alvo:** `mod/traducao_ptbr_wcusa`  
 
-**Resultado:** `PASS` · PASS 104 · WARN 0 · FAIL 0 · SKIP 0
+**Resultado:** `PASS` · PASS 117 · WARN 0 · FAIL 0 · SKIP 0
 
 | Status | Verificação | Mensagem |
 |---|---|---|
 | PASS | mod_info | Tradução PT-BR — West Coast USA 0.5.0 |
 | PASS | Case-insensitive duplicates | none |
+| PASS | Asset path | art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds → clutter_commercial/base_color |
+| PASS | Asset path | art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds → clutter_commercial/opacity |
 | PASS | Asset path | assets/materials/billboard_label/billboards/t_billboards_b.color.dds → t_billboards/base_color |
 | PASS | Asset path | assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds → eca_genericsigns/base_color |
 | PASS | Asset path | assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds → ind_industrial_signs/base_color |
+| PASS | Asset path | assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_b.color.dds → t_bus_routes_wca/base_color |
+| PASS | Asset path | assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_nm.normal.dds → t_bus_routes_wca/normal |
 | PASS | Asset path | assets/materials/billboard_label/m_movie_studio_signage/t_movie_studio_signage_b.color.dds → t_movie_studio_signage/base_color |
 | PASS | Asset path | assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_b.color.dds → t_spearleaf_refinery_logo/base_color |
 | PASS | Asset path | assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_o.data.dds → t_spearleaf_refinery_logo/opacity |
@@ -51,10 +55,14 @@
 | PASS | Duplicate file name | t_decal_roadmarkings_b.color.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
 | PASS | Duplicate file name | t_decal_roadmarkings_nm.normal.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
 | PASS | Duplicate file name | t_decal_roadmarkings_o.data.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
-| PASS | Installed copy | identical to repo (39 files) |
+| PASS | Installed copy | identical to repo (43 files) |
 | PASS | t_roadsigns: base_color (t_roadsigns_b.color.dds) | delivered |
 | PASS | t_roadsigns: opacity (t_roadsigns_o.data.dds) | delivered |
 | PASS | t_roadsigns: shape_changed | all shape-dependent maps delivered: opacity |
+| PASS | clutter_commercial: base_color (clutter_commercial_b.color.dds) | delivered |
+| PASS | clutter_commercial: opacity (clutter_commercial_o.data.dds) | delivered |
+| PASS | clutter_commercial: diffuse_legacy (clutter_commercial_d.dds) | not delivered — original stays in use |
+| PASS | clutter_commercial: shape_changed | all shape-dependent maps delivered: opacity |
 | PASS | eca_genericsigns: diffuse_legacy (eca_genericsigns_d.dds) | not delivered — original stays in use |
 | PASS | eca_genericsigns: emissive (eca_genericsigns_emissive.dds) | not delivered — original stays in use |
 | PASS | eca_genericsigns: base_color (t_eca_genericsigns_b.color.dds) | delivered |
@@ -66,6 +74,11 @@
 | PASS | t_billboards: base_color (t_billboards_b.color.dds) | delivered |
 | PASS | t_billboards: roughness (t_billboards_r.data.dds) | not delivered — original stays in use |
 | PASS | t_billboards: shape_changed | declared false (only colours/text inside the original silhouette) |
+| PASS | t_bus_routes_wca: base_color (t_bus_routes_wca_b.color.dds) | delivered |
+| PASS | t_bus_routes_wca: normal (t_bus_routes_wca_nm.normal.dds) | delivered |
+| PASS | t_bus_routes_wca: ao (t_bus_routes_wca_ao.data.dds) | not delivered — original stays in use |
+| PASS | t_bus_routes_wca: roughness (t_bus_routes_wca_r.data.dds) | not delivered — original stays in use |
+| PASS | t_bus_routes_wca: shape_changed | all shape-dependent maps delivered: normal |
 | PASS | t_movie_studio_signage: base_color (t_movie_studio_signage_b.color.dds) | delivered |
 | PASS | t_movie_studio_signage: shape_changed | declared false (only colours/text inside the original silhouette) |
 | PASS | ind_industrial_signs: base_color (ind_industrial_signs_d.color.dds) | delivered |

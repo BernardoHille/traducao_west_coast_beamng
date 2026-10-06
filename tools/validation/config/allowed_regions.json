@@ -2239,5 +2239,1381 @@
         "source": "UV of s_busstop_wcu.dae (31 inst.), s_busstop_wcu_04.dae (9 inst.); Phase 6"
       }
     ]
+  },
+  "clutter_commercial_b.color": {
+    "size": [
+      2048,
+      2048
+    ],
+    "regions": [
+      {
+        "id": "nails_l1",
+        "x": 0,
+        "y": 2,
+        "width": 130,
+        "height": 64,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "nails_l2",
+        "x": 0,
+        "y": 2,
+        "width": 130,
+        "height": 64,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "beauty_l1",
+        "x": 130,
+        "y": 2,
+        "width": 123,
+        "height": 62,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_007.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "beauty_l2",
+        "x": 130,
+        "y": 2,
+        "width": 123,
+        "height": 62,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_007.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "open_oval",
+        "x": 21,
+        "y": 93,
+        "width": 76,
+        "height": 29,
+        "source": "UV of gasstation_north.dae (1 inst.), s_bld_chinatown_002.dae (1 inst.), s_bld_chinatown_003.dae (1 inst.), s_bld_chinatown_007.dae (1 inst.), s_bld_chinatown_013.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.) …; Phase 6"
+      },
+      {
+        "id": "open_tilt",
+        "x": 166,
+        "y": 146,
+        "width": 68,
+        "height": 44,
+        "source": "UV of s_bld_chinatown_005.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.), s_bld_chinatown_013.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "dry_cleaning",
+        "x": 117,
+        "y": 70,
+        "width": 130,
+        "height": 64,
+        "source": "UV of s_bld_chinatown_003.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "facial_waxing_l1",
+        "x": 155,
+        "y": 192,
+        "width": 98,
+        "height": 60,
+        "source": "UV of s_bld_chinatown_003.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "facial_waxing_l2",
+        "x": 155,
+        "y": 192,
+        "width": 98,
+        "height": 60,
+        "source": "UV of s_bld_chinatown_003.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "menu_3d",
+        "x": 263,
+        "y": 172,
+        "width": 78,
+        "height": 29,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "menu_airbrush",
+        "x": 263,
+        "y": 198,
+        "width": 78,
+        "height": 29,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "menu_gel",
+        "x": 425,
+        "y": 172,
+        "width": 82,
+        "height": 29,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "menu_acrylic",
+        "x": 425,
+        "y": 198,
+        "width": 82,
+        "height": 29,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "sale_red",
+        "x": 107,
+        "y": 255,
+        "width": 138,
+        "height": 72,
+        "source": "UV of chinatown_corner2.dae (1 inst.), grandstands_barrierwall.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "special_top",
+        "x": 131,
+        "y": 335,
+        "width": 92,
+        "height": 17,
+        "source": "UV of s_bld_chinatown_013.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "special_bottom",
+        "x": 131,
+        "y": 417,
+        "width": 92,
+        "height": 17,
+        "source": "UV of s_bld_chinatown_013.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "sale_white",
+        "x": 257,
+        "y": 249,
+        "width": 136,
+        "height": 74,
+        "source": "UV of chinatown_corner2.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "store_closing",
+        "x": 261,
+        "y": 346,
+        "width": 152,
+        "height": 169,
+        "source": "UV of s_bld_chinatown_002.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "entire_store_box",
+        "x": 137,
+        "y": 443,
+        "width": 112,
+        "height": 59,
+        "source": "UV of chinatown_corner2.dae (1 inst.), grandstands_barrierwall.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "logistics",
+        "x": 6,
+        "y": 1110,
+        "width": 564,
+        "height": 68,
+        "source": "UV of s_island_logistics_office.dae (1 inst.), s_port_warehouse.dae (1 inst.), sidewalk_warehouse.dae (1 inst.), sign_logistics.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "shop_personnel",
+        "x": 2,
+        "y": 1163,
+        "width": 152,
+        "height": 99,
+        "source": "UV of dealership_mid.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "employee_parking",
+        "x": 162,
+        "y": 1163,
+        "width": 144,
+        "height": 91,
+        "source": "UV of s_port_warehouse.dae (1 inst.), sidewalk_storage.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "visitors_report",
+        "x": 314,
+        "y": 1171,
+        "width": 153,
+        "height": 79,
+        "source": "UV of warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "own_risk_hdr",
+        "x": 475,
+        "y": 1171,
+        "width": 92,
+        "height": 22,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "own_risk_body",
+        "x": 476,
+        "y": 1194,
+        "width": 91,
+        "height": 105,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_dumping",
+        "x": 6,
+        "y": 1267,
+        "width": 143,
+        "height": 57,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "private_property",
+        "x": 158,
+        "y": 1264,
+        "width": 123,
+        "height": 89,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "caution_hdr",
+        "x": 298,
+        "y": 1263,
+        "width": 152,
+        "height": 29,
+        "source": "UV of dealership_mid.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "caution_body",
+        "x": 291,
+        "y": 1290,
+        "width": 164,
+        "height": 29,
+        "source": "UV of dealership_mid.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_parking_gate",
+        "x": 520,
+        "y": 1300,
+        "width": 154,
+        "height": 66,
+        "source": "UV of garage_industrial.dae (1 inst.), s_port_warehouse.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "towed",
+        "x": 519,
+        "y": 1364,
+        "width": 153,
+        "height": 30,
+        "source": "UV of garage_industrial.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "danger_flam_hdr",
+        "x": 624,
+        "y": 1399,
+        "width": 68,
+        "height": 22,
+        "source": "UV of gas_cylinder.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "danger_flam_body",
+        "x": 638,
+        "y": 1425,
+        "width": 55,
+        "height": 29,
+        "source": "UV of gas_cylinder.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "notice_auth_hdr",
+        "x": 702,
+        "y": 1402,
+        "width": 53,
+        "height": 20,
+        "source": "UV of grandstands_barrierwall.dae (1 inst.), s_port_warehouse.dae (1 inst.), s_wh_garage_closed.dae (3 inst.), s_wh_garage_open.dae (7 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "notice_auth_body",
+        "x": 690,
+        "y": 1427,
+        "width": 81,
+        "height": 25,
+        "source": "UV of grandstands_barrierwall.dae (1 inst.), s_port_warehouse.dae (1 inst.), s_wh_garage_closed.dae (3 inst.), s_wh_garage_open.dae (7 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "flam_gas_diamond",
+        "x": 681,
+        "y": 1324,
+        "width": 66,
+        "height": 66,
+        "source": "UV of gas_cylinder.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "warranty_banner",
+        "x": 946,
+        "y": 1350,
+        "width": 110,
+        "height": 43,
+        "source": "UV of dealership_mid.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "warranty_curve",
+        "x": 950,
+        "y": 1368,
+        "width": 106,
+        "height": 56,
+        "source": "UV of dealership_mid.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "warranty_available",
+        "x": 927,
+        "y": 1433,
+        "width": 151,
+        "height": 31,
+        "source": "UV of dealership_mid.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "best",
+        "x": 1180,
+        "y": 1228,
+        "width": 165,
+        "height": 73,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "deals",
+        "x": 1149,
+        "y": 1258,
+        "width": 222,
+        "height": 107,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "guaranteed",
+        "x": 1118,
+        "y": 1345,
+        "width": 287,
+        "height": 52,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "big_sale",
+        "x": 1718,
+        "y": 1209,
+        "width": 325,
+        "height": 96,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "great_deals",
+        "x": 1730,
+        "y": 1308,
+        "width": 303,
+        "height": 52,
+        "source": "UV of dealership_new.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "fresh_cars",
+        "x": 1767,
+        "y": 1351,
+        "width": 230,
+        "height": 49,
+        "source": "UV of dealership_new.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "auto_sales",
+        "x": 1801,
+        "y": 1409,
+        "width": 238,
+        "height": 45,
+        "source": "UV of industrial1_fencing.dae (1 inst.), s_dealership_sign.dae (2 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "and_service",
+        "x": 1799,
+        "y": 1440,
+        "width": 248,
+        "height": 61,
+        "source": "UV of industrial1_fencing.dae (1 inst.), s_dealership_sign.dae (2 inst.); Phase 6"
+      },
+      {
+        "id": "used_cars",
+        "x": 1449,
+        "y": 1424,
+        "width": 32,
+        "height": 206,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_tire",
+        "x": 1631,
+        "y": 1501,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_headlight",
+        "x": 1735,
+        "y": 1501,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_led",
+        "x": 1631,
+        "y": 1523,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_steering",
+        "x": 1735,
+        "y": 1523,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_smash",
+        "x": 1631,
+        "y": 1545,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_windscreen",
+        "x": 1735,
+        "y": 1545,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_aftermarket",
+        "x": 1631,
+        "y": 1567,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_brake",
+        "x": 1735,
+        "y": 1567,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "testing_station",
+        "x": 1839,
+        "y": 1554,
+        "width": 100,
+        "height": 34,
+        "source": "UV of garage_bridge.dae (1 inst.), garage_industrial.dae (1 inst.), industrial1_fencing.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "recycle",
+        "x": 1941,
+        "y": 1506,
+        "width": 106,
+        "height": 70,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "office",
+        "x": 1631,
+        "y": 1601,
+        "width": 67,
+        "height": 23,
+        "source": "UV of industrial1_fencing.dae (1 inst.), s_bld_dealership_sport.dae (1 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "entrance",
+        "x": 1725,
+        "y": 1608,
+        "width": 100,
+        "height": 26,
+        "source": "UV of dealership_new.dae (1 inst.), garage_industrial.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "exit",
+        "x": 1749,
+        "y": 1660,
+        "width": 52,
+        "height": 26,
+        "source": "UV of garage_bridge.dae (1 inst.), garage_industrial.dae (1 inst.), tunnel_mainTrackEntrance.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_smoking",
+        "x": 1852,
+        "y": 1604,
+        "width": 75,
+        "height": 35,
+        "source": "UV of warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "service",
+        "x": 1830,
+        "y": 1641,
+        "width": 95,
+        "height": 38,
+        "source": "UV of dealership_mid.dae (1 inst.), garage_bridge.dae (1 inst.), garage_industrial.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "notice_hdr",
+        "x": 1730,
+        "y": 1697,
+        "width": 92,
+        "height": 37,
+        "source": "UV of garage_bridge.dae (1 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "notice_body",
+        "x": 1728,
+        "y": 1768,
+        "width": 96,
+        "height": 30,
+        "source": "UV of garage_bridge.dae (1 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_parking_hdr",
+        "x": 1825,
+        "y": 1696,
+        "width": 106,
+        "height": 22,
+        "source": "UV of warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_parking_body",
+        "x": 1828,
+        "y": 1730,
+        "width": 100,
+        "height": 56,
+        "source": "UV of warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "drive_away",
+        "x": 1969,
+        "y": 1647,
+        "width": 32,
+        "height": 205,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "today",
+        "x": 1941,
+        "y": 1698,
+        "width": 32,
+        "height": 100,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_deposit_no",
+        "x": 1549,
+        "y": 1625,
+        "width": 148,
+        "height": 127,
+        "source": "UV of dealership_mid.dae (1 inst.), dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_deposit_deposit",
+        "x": 1553,
+        "y": 1732,
+        "width": 142,
+        "height": 38,
+        "source": "UV of dealership_mid.dae (1 inst.), dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_deposit_required",
+        "x": 1548,
+        "y": 1783,
+        "width": 150,
+        "height": 31,
+        "source": "UV of dealership_mid.dae (1 inst.), dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "rotopad",
+        "x": 1415,
+        "y": 1683,
+        "width": 101,
+        "height": 46,
+        "source": "UV of garage_racetrack.dae (1 inst.), grandstands_barrierwall.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "all_brands",
+        "x": 1305,
+        "y": 1837,
+        "width": 318,
+        "height": 50,
+        "source": "UV of garage_industrial.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tire_alignment",
+        "x": 1425,
+        "y": 1889,
+        "width": 176,
+        "height": 79,
+        "source": "UV of garage_racetrack.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tire_fine",
+        "x": 1433,
+        "y": 2020,
+        "width": 164,
+        "height": 13,
+        "source": "UV of garage_racetrack.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "rapid_repair",
+        "x": 1625,
+        "y": 1913,
+        "width": 300,
+        "height": 135,
+        "source": "UV of garage_industrial.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "got_a",
+        "x": 97,
+        "y": 1475,
+        "width": 160,
+        "height": 45,
+        "source": "UV of sign_lemon.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "lemon",
+        "x": 281,
+        "y": 1453,
+        "width": 304,
+        "height": 78,
+        "source": "UV of sign_lemon.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "lemon_body",
+        "x": 99,
+        "y": 1534,
+        "width": 278,
+        "height": 76,
+        "source": "UV of sign_lemon.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "big_sale_2",
+        "x": 1867,
+        "y": 1217,
+        "width": 174,
+        "height": 81,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_entry_cn",
+        "x": 587,
+        "y": 24,
+        "width": 60,
+        "height": 24,
+        "source": "UV of s_bld_chinatown_011.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_015.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.) …; Phase 6"
+      },
+      {
+        "id": "rentabox_storage",
+        "x": 577,
+        "y": 1140,
+        "width": 500,
+        "height": 61,
+        "source": "UV of s_port_warehouse.dae (1 inst.), sign_rentabox.dae (2 inst.); Phase 6"
+      },
+      {
+        "id": "notice_body_top",
+        "x": 1728,
+        "y": 1733,
+        "width": 96,
+        "height": 36,
+        "source": "UV of garage_bridge.dae (1 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tire_off",
+        "x": 1515,
+        "y": 1974,
+        "width": 98,
+        "height": 43,
+        "source": "UV of garage_racetrack.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      }
+    ]
+  },
+  "clutter_commercial_o.data": {
+    "size": [
+      2048,
+      2048
+    ],
+    "regions": [
+      {
+        "id": "nails_l1",
+        "x": 0,
+        "y": 2,
+        "width": 130,
+        "height": 64,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "nails_l2",
+        "x": 0,
+        "y": 2,
+        "width": 130,
+        "height": 64,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "beauty_l1",
+        "x": 130,
+        "y": 2,
+        "width": 123,
+        "height": 62,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_007.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "beauty_l2",
+        "x": 130,
+        "y": 2,
+        "width": 123,
+        "height": 62,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_007.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "open_oval",
+        "x": 21,
+        "y": 93,
+        "width": 76,
+        "height": 29,
+        "source": "UV of gasstation_north.dae (1 inst.), s_bld_chinatown_002.dae (1 inst.), s_bld_chinatown_003.dae (1 inst.), s_bld_chinatown_007.dae (1 inst.), s_bld_chinatown_013.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.) …; Phase 6"
+      },
+      {
+        "id": "open_tilt",
+        "x": 166,
+        "y": 146,
+        "width": 68,
+        "height": 44,
+        "source": "UV of s_bld_chinatown_005.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.), s_bld_chinatown_013.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "dry_cleaning",
+        "x": 117,
+        "y": 70,
+        "width": 130,
+        "height": 64,
+        "source": "UV of s_bld_chinatown_003.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "facial_waxing_l1",
+        "x": 155,
+        "y": 192,
+        "width": 98,
+        "height": 60,
+        "source": "UV of s_bld_chinatown_003.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "facial_waxing_l2",
+        "x": 155,
+        "y": 192,
+        "width": 98,
+        "height": 60,
+        "source": "UV of s_bld_chinatown_003.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "menu_3d",
+        "x": 263,
+        "y": 172,
+        "width": 78,
+        "height": 29,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "menu_airbrush",
+        "x": 263,
+        "y": 198,
+        "width": 78,
+        "height": 29,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "menu_gel",
+        "x": 425,
+        "y": 172,
+        "width": 82,
+        "height": 29,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "menu_acrylic",
+        "x": 425,
+        "y": 198,
+        "width": 82,
+        "height": 29,
+        "source": "UV of s_bld_chinatown_001.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "sale_red",
+        "x": 107,
+        "y": 255,
+        "width": 138,
+        "height": 72,
+        "source": "UV of chinatown_corner2.dae (1 inst.), grandstands_barrierwall.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "special_top",
+        "x": 131,
+        "y": 335,
+        "width": 92,
+        "height": 17,
+        "source": "UV of s_bld_chinatown_013.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "special_bottom",
+        "x": 131,
+        "y": 417,
+        "width": 92,
+        "height": 17,
+        "source": "UV of s_bld_chinatown_013.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "sale_white",
+        "x": 257,
+        "y": 249,
+        "width": 136,
+        "height": 74,
+        "source": "UV of chinatown_corner2.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "store_closing",
+        "x": 261,
+        "y": 346,
+        "width": 152,
+        "height": 169,
+        "source": "UV of s_bld_chinatown_002.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "entire_store_box",
+        "x": 137,
+        "y": 443,
+        "width": 112,
+        "height": 59,
+        "source": "UV of chinatown_corner2.dae (1 inst.), grandstands_barrierwall.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "logistics",
+        "x": 6,
+        "y": 1110,
+        "width": 564,
+        "height": 68,
+        "source": "UV of s_island_logistics_office.dae (1 inst.), s_port_warehouse.dae (1 inst.), sidewalk_warehouse.dae (1 inst.), sign_logistics.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "shop_personnel",
+        "x": 2,
+        "y": 1163,
+        "width": 152,
+        "height": 99,
+        "source": "UV of dealership_mid.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "employee_parking",
+        "x": 162,
+        "y": 1163,
+        "width": 144,
+        "height": 91,
+        "source": "UV of s_port_warehouse.dae (1 inst.), sidewalk_storage.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "visitors_report",
+        "x": 314,
+        "y": 1171,
+        "width": 153,
+        "height": 79,
+        "source": "UV of warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "own_risk_hdr",
+        "x": 475,
+        "y": 1171,
+        "width": 92,
+        "height": 22,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "own_risk_body",
+        "x": 476,
+        "y": 1194,
+        "width": 91,
+        "height": 105,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_dumping",
+        "x": 6,
+        "y": 1267,
+        "width": 143,
+        "height": 57,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "private_property",
+        "x": 158,
+        "y": 1264,
+        "width": 123,
+        "height": 89,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "caution_hdr",
+        "x": 298,
+        "y": 1263,
+        "width": 152,
+        "height": 29,
+        "source": "UV of dealership_mid.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "caution_body",
+        "x": 291,
+        "y": 1290,
+        "width": 164,
+        "height": 29,
+        "source": "UV of dealership_mid.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_parking_gate",
+        "x": 520,
+        "y": 1300,
+        "width": 154,
+        "height": 66,
+        "source": "UV of garage_industrial.dae (1 inst.), s_port_warehouse.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "towed",
+        "x": 519,
+        "y": 1364,
+        "width": 153,
+        "height": 30,
+        "source": "UV of garage_industrial.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "danger_flam_hdr",
+        "x": 624,
+        "y": 1399,
+        "width": 68,
+        "height": 22,
+        "source": "UV of gas_cylinder.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "danger_flam_body",
+        "x": 638,
+        "y": 1425,
+        "width": 55,
+        "height": 29,
+        "source": "UV of gas_cylinder.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "notice_auth_hdr",
+        "x": 702,
+        "y": 1402,
+        "width": 53,
+        "height": 20,
+        "source": "UV of grandstands_barrierwall.dae (1 inst.), s_port_warehouse.dae (1 inst.), s_wh_garage_closed.dae (3 inst.), s_wh_garage_open.dae (7 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "notice_auth_body",
+        "x": 690,
+        "y": 1427,
+        "width": 81,
+        "height": 25,
+        "source": "UV of grandstands_barrierwall.dae (1 inst.), s_port_warehouse.dae (1 inst.), s_wh_garage_closed.dae (3 inst.), s_wh_garage_open.dae (7 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "flam_gas_diamond",
+        "x": 681,
+        "y": 1324,
+        "width": 66,
+        "height": 66,
+        "source": "UV of gas_cylinder.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "warranty_banner",
+        "x": 946,
+        "y": 1350,
+        "width": 110,
+        "height": 43,
+        "source": "UV of dealership_mid.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "warranty_curve",
+        "x": 950,
+        "y": 1368,
+        "width": 106,
+        "height": 56,
+        "source": "UV of dealership_mid.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "warranty_available",
+        "x": 927,
+        "y": 1433,
+        "width": 151,
+        "height": 31,
+        "source": "UV of dealership_mid.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "best",
+        "x": 1180,
+        "y": 1228,
+        "width": 165,
+        "height": 73,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "deals",
+        "x": 1149,
+        "y": 1258,
+        "width": 222,
+        "height": 107,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "guaranteed",
+        "x": 1118,
+        "y": 1345,
+        "width": 287,
+        "height": 52,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "big_sale",
+        "x": 1718,
+        "y": 1209,
+        "width": 325,
+        "height": 96,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "great_deals",
+        "x": 1730,
+        "y": 1308,
+        "width": 303,
+        "height": 52,
+        "source": "UV of dealership_new.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "fresh_cars",
+        "x": 1767,
+        "y": 1351,
+        "width": 230,
+        "height": 49,
+        "source": "UV of dealership_new.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "auto_sales",
+        "x": 1801,
+        "y": 1409,
+        "width": 238,
+        "height": 45,
+        "source": "UV of industrial1_fencing.dae (1 inst.), s_dealership_sign.dae (2 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "and_service",
+        "x": 1799,
+        "y": 1440,
+        "width": 248,
+        "height": 61,
+        "source": "UV of industrial1_fencing.dae (1 inst.), s_dealership_sign.dae (2 inst.); Phase 6"
+      },
+      {
+        "id": "used_cars",
+        "x": 1449,
+        "y": 1424,
+        "width": 32,
+        "height": 206,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_tire",
+        "x": 1631,
+        "y": 1501,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_headlight",
+        "x": 1735,
+        "y": 1501,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_led",
+        "x": 1631,
+        "y": 1523,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_steering",
+        "x": 1735,
+        "y": 1523,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_smash",
+        "x": 1631,
+        "y": 1545,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_windscreen",
+        "x": 1735,
+        "y": 1545,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_aftermarket",
+        "x": 1631,
+        "y": 1567,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "svc_brake",
+        "x": 1735,
+        "y": 1567,
+        "width": 98,
+        "height": 18,
+        "source": "UV of garage_bridge.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "testing_station",
+        "x": 1839,
+        "y": 1554,
+        "width": 100,
+        "height": 34,
+        "source": "UV of garage_bridge.dae (1 inst.), garage_industrial.dae (1 inst.), industrial1_fencing.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "recycle",
+        "x": 1941,
+        "y": 1506,
+        "width": 106,
+        "height": 70,
+        "source": "UV of industrial1_fencing.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "office",
+        "x": 1631,
+        "y": 1601,
+        "width": 67,
+        "height": 23,
+        "source": "UV of industrial1_fencing.dae (1 inst.), s_bld_dealership_sport.dae (1 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "entrance",
+        "x": 1725,
+        "y": 1608,
+        "width": 100,
+        "height": 26,
+        "source": "UV of dealership_new.dae (1 inst.), garage_industrial.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "exit",
+        "x": 1749,
+        "y": 1660,
+        "width": 52,
+        "height": 26,
+        "source": "UV of garage_bridge.dae (1 inst.), garage_industrial.dae (1 inst.), tunnel_mainTrackEntrance.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_smoking",
+        "x": 1852,
+        "y": 1604,
+        "width": 75,
+        "height": 35,
+        "source": "UV of warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "service",
+        "x": 1830,
+        "y": 1641,
+        "width": 95,
+        "height": 38,
+        "source": "UV of dealership_mid.dae (1 inst.), garage_bridge.dae (1 inst.), garage_industrial.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "notice_hdr",
+        "x": 1730,
+        "y": 1697,
+        "width": 92,
+        "height": 37,
+        "source": "UV of garage_bridge.dae (1 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "notice_body",
+        "x": 1728,
+        "y": 1768,
+        "width": 96,
+        "height": 30,
+        "source": "UV of garage_bridge.dae (1 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_parking_hdr",
+        "x": 1825,
+        "y": 1696,
+        "width": 106,
+        "height": 22,
+        "source": "UV of warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_parking_body",
+        "x": 1828,
+        "y": 1730,
+        "width": 100,
+        "height": 56,
+        "source": "UV of warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "drive_away",
+        "x": 1969,
+        "y": 1647,
+        "width": 32,
+        "height": 205,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "today",
+        "x": 1941,
+        "y": 1698,
+        "width": 32,
+        "height": 100,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_deposit_no",
+        "x": 1549,
+        "y": 1625,
+        "width": 148,
+        "height": 127,
+        "source": "UV of dealership_mid.dae (1 inst.), dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_deposit_deposit",
+        "x": 1553,
+        "y": 1732,
+        "width": 142,
+        "height": 38,
+        "source": "UV of dealership_mid.dae (1 inst.), dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_deposit_required",
+        "x": 1548,
+        "y": 1783,
+        "width": 150,
+        "height": 31,
+        "source": "UV of dealership_mid.dae (1 inst.), dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "rotopad",
+        "x": 1415,
+        "y": 1683,
+        "width": 101,
+        "height": 46,
+        "source": "UV of garage_racetrack.dae (1 inst.), grandstands_barrierwall.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "all_brands",
+        "x": 1305,
+        "y": 1837,
+        "width": 318,
+        "height": 50,
+        "source": "UV of garage_industrial.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tire_alignment",
+        "x": 1425,
+        "y": 1889,
+        "width": 176,
+        "height": 79,
+        "source": "UV of garage_racetrack.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tire_fine",
+        "x": 1433,
+        "y": 2020,
+        "width": 164,
+        "height": 13,
+        "source": "UV of garage_racetrack.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "rapid_repair",
+        "x": 1625,
+        "y": 1913,
+        "width": 300,
+        "height": 135,
+        "source": "UV of garage_industrial.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "got_a",
+        "x": 97,
+        "y": 1475,
+        "width": 160,
+        "height": 45,
+        "source": "UV of sign_lemon.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "lemon",
+        "x": 281,
+        "y": 1453,
+        "width": 304,
+        "height": 78,
+        "source": "UV of sign_lemon.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "lemon_body",
+        "x": 99,
+        "y": 1534,
+        "width": 278,
+        "height": 76,
+        "source": "UV of sign_lemon.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "big_sale_2",
+        "x": 1867,
+        "y": 1217,
+        "width": 174,
+        "height": 81,
+        "source": "UV of dealership_new.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_entry_cn",
+        "x": 587,
+        "y": 24,
+        "width": 60,
+        "height": 24,
+        "source": "UV of s_bld_chinatown_011.dae (1 inst.), s_bld_chinatown_012.dae (1 inst.), s_bld_chinatown_014.dae (1 inst.), s_bld_chinatown_015.dae (1 inst.), s_bld_chinatown_016.dae (1 inst.), s_bld_chinatown_018.dae (1 inst.) …; Phase 6"
+      },
+      {
+        "id": "rentabox_storage",
+        "x": 577,
+        "y": 1140,
+        "width": 500,
+        "height": 61,
+        "source": "UV of s_port_warehouse.dae (1 inst.), sign_rentabox.dae (2 inst.); Phase 6"
+      },
+      {
+        "id": "notice_body_top",
+        "x": 1728,
+        "y": 1733,
+        "width": 96,
+        "height": 36,
+        "source": "UV of garage_bridge.dae (1 inst.), s_workshop.dae (1 inst.), warehouse_awning.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tire_off",
+        "x": 1515,
+        "y": 1974,
+        "width": 98,
+        "height": 43,
+        "source": "UV of garage_racetrack.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      }
+    ]
   }
 }

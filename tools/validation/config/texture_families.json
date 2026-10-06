@@ -161,7 +161,7 @@
    "requires_on_shape_change": [
     "opacity"
    ],
-   "notes": "Material used in West Coast loads the art/shapes path; the level folder holds an identical copy."
+   "notes": "Material used in West Coast loads the art/shapes path (verified in game). The level folder holds a copy that differs in the neon/sale tiles (original variant art_shapes); it is not referenced by the loaded material and is not overridden. Phase 6: opacity required on shape change (cut-out letters)."
   },
   "logos_dealership_garage_wca": {
    "scope": "global",

@@ -1,0 +1,112 @@
+{
+  "title": "PNG validation",
+  "subject": "working/png/art_shapes/clutter_commercial_o.data.png",
+  "status": "PASS",
+  "counts": {
+    "PASS": 5,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 2
+  },
+  "generated": "2026-10-06T12:07:36",
+  "meta": {
+    "original": "source/originals/png/art_shapes/clutter_commercial_o.data.png",
+    "texture": "clutter_commercial_o.data",
+    "allowed_regions": 85,
+    "metrics": {
+      "pixels": 4194304,
+      "rgb": {
+        "changed": 35699,
+        "changed_pct": 0.8511,
+        "mean_abs": 0.8472,
+        "max_abs": 255,
+        "psnr_db": 26.77
+      },
+      "alpha": {
+        "changed": 0,
+        "changed_pct": 0.0,
+        "mean_abs": 0.0,
+        "max_abs": 0,
+        "original": {
+          "transparent_pct": 0.0,
+          "semi_pct": 0.0,
+          "opaque_pct": 100.0,
+          "min": 255,
+          "max": 255,
+          "mean": 255.0
+        },
+        "candidate": {
+          "transparent_pct": 0.0,
+          "semi_pct": 0.0,
+          "opaque_pct": 100.0,
+          "min": 255,
+          "max": 255,
+          "mean": 255.0
+        },
+        "opaque_pixels_modified": 0,
+        "opaque_pixels_modified_outside": 0,
+        "transparent_pixels_modified": 0,
+        "semi_transparent_pixels_modified": 0,
+        "transparent_pixels_original": 0,
+        "semi_pixels_original": 0
+      },
+      "changed_any": 35699,
+      "changed_any_pct": 0.8511,
+      "changed_inside_regions": 35699,
+      "changed_outside_regions": 0,
+      "changed_outside_pct": 0.0,
+      "outside_area_pixels": 3565877,
+      "bbox_changes": {
+        "x": 0,
+        "y": 2,
+        "width": 388,
+        "height": 316
+      },
+      "bbox_changes_outside": null
+    }
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (fbe52b46a82d…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "2048x2048",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Alpha preservation",
+      "message": "original has no fully transparent pixels outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Semi-transparency",
+      "message": "original has no semi-transparent pixels outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Alpha noise",
+      "message": "no opaque pixel lost opacity outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Pixel diff (global, informative)",
+      "message": "0.8511% changed · RGB mean 0.8472 max 255 · alpha mean 0.0 max 0 · PSNR 26.77 dB · bbox {'x': 0, 'y': 2, 'width': 388, 'height': 316}",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Changes outside allowed regions",
+      "message": "0 px changed outside; 35699 px inside 85 region(s)",
+      "details": {}
+    }
+  ]
+}

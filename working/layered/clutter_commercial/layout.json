@@ -1,0 +1,5144 @@
+{
+ "family": "clutter_commercial",
+ "_doc": "layout.json for clutter_commercial (Phase 6, 6F). Atlas 2048x2048, art_shapes copy (the one the material\nclutter_commercial of art_shapes.zip names). Boxes read from coordinate grids of the ORIGINAL; texts from\nLOCALIZATION_MASTER.csv (commerce_*, dealer_*, fuel_*). Brands, logos, Chinese signs, product photos and the\nglyph alphabets are preserved. Elements without UV evidence are dropped by compose.py regions.\n\nElement tuple: id, matrix id, element box, list of (text, cap box) lines, legend, colour, style extras.",
+ "maps": {
+  "color": {
+   "original": "source/originals/png/art_shapes/clutter_commercial_b.color.png",
+   "out": "working/png/art_shapes/clutter_commercial_b.color.png"
+  },
+  "opacity": {
+   "original": "source/originals/png/art_shapes/clutter_commercial_o.data.png",
+   "out": "working/png/art_shapes/clutter_commercial_o.data.png",
+   "mode": "L"
+  }
+ },
+ "region_maps": [
+  "color",
+  "opacity"
+ ],
+ "materials": [
+  "clutter_commercial"
+ ],
+ "usage_texture": "clutter_commercial_b.color",
+ "uv_min_coverage": 0.4,
+ "seed": 20261007,
+ "elements": [
+  {
+   "id": "nails_l1",
+   "matrix": "commerce_nails",
+   "op": "panel",
+   "box": [
+    0,
+    2,
+    130,
+    66
+   ],
+   "legend": "neon",
+   "erase": [
+    [
+     0,
+     2,
+     129,
+     66
+    ]
+   ],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 500,
+    "wdth": 85,
+    "min_wdth": 70,
+    "glow": {
+     "px": 3,
+     "alpha": 0.5
+    }
+   },
+   "lines": [
+    {
+     "text": "UNHAS E",
+     "box": [
+      14,
+      14,
+      118,
+      32
+     ]
+    }
+   ],
+   "color": [
+    245,
+    80,
+    130
+   ],
+   "aux": {
+    "opacity": "cutout"
+   },
+   "cutout_clear": true
+  },
+  {
+   "id": "nails_l2",
+   "matrix": "commerce_nails",
+   "op": "panel",
+   "box": [
+    0,
+    2,
+    130,
+    66
+   ],
+   "legend": "neon",
+   "erase": [],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 500,
+    "wdth": 85,
+    "min_wdth": 70,
+    "glow": {
+     "px": 3,
+     "alpha": 0.5
+    }
+   },
+   "lines": [
+    {
+     "text": "DEPILAÇÃO",
+     "box": [
+      12,
+      42,
+      120,
+      56
+     ]
+    }
+   ],
+   "color": [
+    100,
+    235,
+    80
+   ],
+   "aux": {
+    "opacity": "cutout"
+   },
+   "cutout_clear": true
+  },
+  {
+   "id": "beauty_l1",
+   "matrix": "commerce_nails",
+   "op": "panel",
+   "box": [
+    130,
+    2,
+    253,
+    64
+   ],
+   "legend": "neon",
+   "erase": [
+    [
+     131,
+     2,
+     252,
+     64
+    ]
+   ],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70,
+    "glow": {
+     "px": 3,
+     "alpha": 0.5
+    }
+   },
+   "lines": [
+    {
+     "text": "SALÃO DE",
+     "box": [
+      138,
+      14,
+      238,
+      31
+     ]
+    }
+   ],
+   "color": [
+    245,
+    80,
+    80
+   ],
+   "aux": {
+    "opacity": "cutout"
+   },
+   "cutout_clear": true
+  },
+  {
+   "id": "beauty_l2",
+   "matrix": "commerce_nails",
+   "op": "panel",
+   "box": [
+    130,
+    2,
+    253,
+    64
+   ],
+   "legend": "neon",
+   "erase": [],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70,
+    "glow": {
+     "px": 3,
+     "alpha": 0.5
+    }
+   },
+   "lines": [
+    {
+     "text": "BELEZA",
+     "box": [
+      142,
+      38,
+      234,
+      56
+     ]
+    }
+   ],
+   "color": [
+    90,
+    215,
+    80
+   ],
+   "aux": {
+    "opacity": "cutout"
+   },
+   "cutout_clear": true
+  },
+  {
+   "id": "open_oval",
+   "matrix": "commerce_nails",
+   "op": "panel",
+   "box": [
+    21,
+    93,
+    97,
+    122
+   ],
+   "legend": "neon",
+   "erase": [
+    [
+     22,
+     97,
+     96,
+     122
+    ]
+   ],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70,
+    "glow": {
+     "px": 3,
+     "alpha": 0.5
+    }
+   },
+   "lines": [
+    {
+     "text": "ABERTO",
+     "box": [
+      28,
+      101,
+      90,
+      117
+     ]
+    }
+   ],
+   "color": [
+    90,
+    210,
+    245
+   ]
+  },
+  {
+   "id": "open_tilt",
+   "matrix": "commerce_nails",
+   "op": "panel",
+   "box": [
+    166,
+    146,
+    234,
+    190
+   ],
+   "legend": "neon_red",
+   "erase": [
+    [
+     168,
+     150,
+     232,
+     186
+    ]
+   ],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70,
+    "glow": {
+     "px": 3,
+     "alpha": 0.5
+    }
+   },
+   "lines": [
+    {
+     "text": "ABERTO",
+     "box": [
+      173,
+      159,
+      227,
+      176
+     ]
+    }
+   ],
+   "color": [
+    245,
+    75,
+    75
+   ],
+   "keep_legend": {
+    "rgbs": [
+     [
+      60,
+      220,
+      240
+     ],
+     [
+      120,
+      235,
+      245
+     ]
+    ],
+    "tol": 60
+   },
+   "rotate": {
+    "deg": 13,
+    "pivot": [
+     200,
+     168
+    ]
+   },
+   "aux": {
+    "opacity": "cutout"
+   },
+   "cutout_clear": true
+  },
+  {
+   "id": "dry_cleaning",
+   "matrix": "commerce_nails",
+   "op": "panel",
+   "box": [
+    117,
+    70,
+    247,
+    134
+   ],
+   "legend": "neon_red",
+   "erase": [
+    [
+     150,
+     70,
+     212,
+     100
+    ],
+    [
+     114,
+     101,
+     250,
+     137
+    ]
+   ],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 500,
+    "wdth": 85,
+    "min_wdth": 70,
+    "glow": {
+     "px": 3,
+     "alpha": 0.5
+    }
+   },
+   "lines": [
+    {
+     "text": "LAVANDERIA",
+     "box": [
+      124,
+      110,
+      240,
+      128
+     ]
+    }
+   ],
+   "color": [
+    245,
+    80,
+    85
+   ],
+   "keep_legend": {
+    "rgbs": [
+     [
+      60,
+      70,
+      230
+     ],
+     [
+      90,
+      110,
+      250
+     ]
+    ],
+    "tol": 70
+   },
+   "aux": {
+    "opacity": "cutout"
+   },
+   "cutout_clear": 4
+  },
+  {
+   "id": "facial_waxing_l1",
+   "matrix": "commerce_nails",
+   "op": "panel",
+   "box": [
+    155,
+    192,
+    253,
+    252
+   ],
+   "legend": "neon",
+   "erase": [
+    [
+     156,
+     192,
+     252,
+     252
+    ]
+   ],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "segoe_script_bold",
+    "glow": {
+     "px": 3,
+     "alpha": 0.5
+    }
+   },
+   "lines": [
+    {
+     "text": "Depilação",
+     "box": [
+      168,
+      206,
+      240,
+      226
+     ]
+    }
+   ],
+   "color": [
+    245,
+    70,
+    80
+   ],
+   "aux": {
+    "opacity": "cutout"
+   },
+   "cutout_clear": true
+  },
+  {
+   "id": "facial_waxing_l2",
+   "matrix": "commerce_nails",
+   "op": "panel",
+   "box": [
+    155,
+    192,
+    253,
+    252
+   ],
+   "legend": "neon",
+   "erase": [],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 500,
+    "wdth": 85,
+    "min_wdth": 70,
+    "glow": {
+     "px": 2,
+     "alpha": 0.5
+    }
+   },
+   "lines": [
+    {
+     "text": "FACIAL",
+     "box": [
+      176,
+      233,
+      228,
+      245
+     ]
+    }
+   ],
+   "color": [
+    70,
+    150,
+    245
+   ],
+   "aux": {
+    "opacity": "cutout"
+   },
+   "cutout_clear": true
+  },
+  {
+   "id": "menu_3d",
+   "matrix": "commerce_nail_menu",
+   "op": "panel",
+   "box": [
+    263,
+    172,
+    341,
+    201
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      240,
+      230,
+      70
+     ]
+    ],
+    "tol": 80
+   },
+   "erase": [
+    [
+     264,
+     174,
+     340,
+     200
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "franklin_demi_cond"
+   },
+   "lines": [
+    {
+     "text": "Design 3D",
+     "box": [
+      268,
+      180,
+      336,
+      196
+     ]
+    }
+   ],
+   "color": [
+    240,
+    232,
+    70
+   ]
+  },
+  {
+   "id": "menu_airbrush",
+   "matrix": "commerce_nail_menu",
+   "op": "panel",
+   "box": [
+    263,
+    198,
+    341,
+    227
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      240,
+      230,
+      70
+     ]
+    ],
+    "tol": 80
+   },
+   "erase": [
+    [
+     264,
+     201,
+     340,
+     226
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "franklin_demi_cond"
+   },
+   "lines": [
+    {
+     "text": "Aerografia",
+     "box": [
+      268,
+      206,
+      336,
+      222
+     ]
+    }
+   ],
+   "color": [
+    240,
+    232,
+    70
+   ]
+  },
+  {
+   "id": "menu_gel",
+   "matrix": "commerce_nail_menu",
+   "op": "panel",
+   "box": [
+    425,
+    172,
+    507,
+    201
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      240,
+      230,
+      70
+     ]
+    ],
+    "tol": 80
+   },
+   "erase": [
+    [
+     426,
+     174,
+     506,
+     200
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "franklin_demi_cond"
+   },
+   "lines": [
+    {
+     "text": "Unha em Gel",
+     "box": [
+      430,
+      180,
+      502,
+      196
+     ]
+    }
+   ],
+   "color": [
+    240,
+    232,
+    70
+   ]
+  },
+  {
+   "id": "menu_acrylic",
+   "matrix": "commerce_nail_menu",
+   "op": "panel",
+   "box": [
+    425,
+    198,
+    507,
+    227
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      240,
+      230,
+      70
+     ]
+    ],
+    "tol": 80
+   },
+   "erase": [
+    [
+     426,
+     201,
+     506,
+     226
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "franklin_demi_cond"
+   },
+   "lines": [
+    {
+     "text": "Unha Acrílica",
+     "box": [
+      430,
+      206,
+      502,
+      222
+     ]
+    }
+   ],
+   "color": [
+    240,
+    232,
+    70
+   ]
+  },
+  {
+   "id": "sale_red",
+   "matrix": "commerce_sales",
+   "op": "panel",
+   "box": [
+    107,
+    255,
+    245,
+    327
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      195,
+      20,
+      20
+     ]
+    ],
+    "tol": 80
+   },
+   "erase": [
+    [
+     108,
+     268,
+     244,
+     320
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "impact"
+   },
+   "lines": [
+    {
+     "text": "OFERTA%",
+     "box": [
+      112,
+      274,
+      240,
+      314
+     ]
+    }
+   ],
+   "color": [
+    190,
+    18,
+    22
+   ],
+   "aux": {
+    "opacity": "cutout"
+   }
+  },
+  {
+   "id": "special_top",
+   "matrix": "commerce_sales",
+   "op": "panel",
+   "box": [
+    131,
+    335,
+    223,
+    352
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     132,
+     337,
+     222,
+     352
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "ITENS SELECIONADOS",
+     "box": [
+      136,
+      340,
+      218,
+      349
+     ]
+    }
+   ],
+   "color": [
+    70,
+    60,
+    55
+   ]
+  },
+  {
+   "id": "special_bottom",
+   "matrix": "commerce_sales",
+   "op": "panel",
+   "box": [
+    131,
+    417,
+    223,
+    434
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     132,
+     419,
+     222,
+     434
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "ITENS SELECIONADOS",
+     "box": [
+      136,
+      422,
+      218,
+      431
+     ]
+    }
+   ],
+   "color": [
+    70,
+    60,
+    55
+   ]
+  },
+  {
+   "id": "sale_white",
+   "matrix": "commerce_sales",
+   "op": "panel",
+   "box": [
+    257,
+    249,
+    393,
+    323
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     258,
+     262,
+     392,
+     314
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "impact"
+   },
+   "lines": [
+    {
+     "text": "OFERTA%",
+     "box": [
+      262,
+      268,
+      388,
+      310
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "aux": {
+    "opacity": "cutout"
+   }
+  },
+  {
+   "id": "store_closing",
+   "matrix": "commerce_store_closing",
+   "op": "panel",
+   "box": [
+    261,
+    346,
+    413,
+    515
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      245,
+      210,
+      20
+     ]
+    ],
+    "tol": 80
+   },
+   "erase": [
+    [
+     262,
+     364,
+     412,
+     504
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "impact"
+   },
+   "lines": [
+    {
+     "text": "QUEIMA",
+     "box": [
+      282,
+      372,
+      394,
+      418
+     ]
+    },
+    {
+     "text": "TOTAL",
+     "box": [
+      276,
+      442,
+      400,
+      498
+     ]
+    }
+   ],
+   "color": [
+    245,
+    212,
+    22
+   ]
+  },
+  {
+   "id": "entire_store_box",
+   "matrix": "commerce_sales",
+   "op": "panel",
+   "box": [
+    137,
+    443,
+    249,
+    502
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     138,
+     446,
+     248,
+     502
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "LOJA",
+     "box": [
+      158,
+      452,
+      228,
+      470
+     ]
+    },
+    {
+     "text": "TODA",
+     "box": [
+      158,
+      478,
+      228,
+      496
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "logistics",
+   "matrix": "commerce_logistics",
+   "op": "panel",
+   "box": [
+    6,
+    1110,
+    570,
+    1178
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     9,
+     1126,
+     567,
+     1168
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 85,
+    "min_wdth": 70,
+    "italic_shear": 0.25
+   },
+   "lines": [
+    {
+     "text": "LOGÍSTICA E DISTRIBUIÇÃO",
+     "box": [
+      11,
+      1128,
+      565,
+      1166
+     ]
+    }
+   ],
+   "color": [
+    236,
+    236,
+    232
+   ]
+  },
+  {
+   "id": "shop_personnel",
+   "matrix": "commerce_shop_parking",
+   "op": "panel",
+   "box": [
+    2,
+    1163,
+    154,
+    1262
+   ],
+   "legend": "red",
+   "erase": [
+    [
+     5,
+     1171,
+     151,
+     1257
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 500,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "ESTACIONAMENTO",
+     "box": [
+      7,
+      1173,
+      149,
+      1195
+     ]
+    },
+    {
+     "text": "EXCLUSIVO DE",
+     "box": [
+      7,
+      1203,
+      149,
+      1225
+     ]
+    },
+    {
+     "text": "FUNCIONÁRIOS",
+     "box": [
+      7,
+      1233,
+      149,
+      1255
+     ]
+    }
+   ],
+   "color": [
+    205,
+    40,
+    40
+   ]
+  },
+  {
+   "id": "employee_parking",
+   "matrix": "commerce_shop_parking",
+   "op": "panel",
+   "box": [
+    162,
+    1163,
+    306,
+    1254
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     165,
+     1170,
+     303,
+     1252
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 600,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "ESTACIONAMENTO",
+     "box": [
+      168,
+      1173,
+      300,
+      1189
+     ]
+    },
+    {
+     "text": "EXCLUSIVO DE",
+     "box": [
+      168,
+      1194,
+      300,
+      1211
+     ]
+    },
+    {
+     "text": "FUNCIONÁRIOS",
+     "box": [
+      168,
+      1225,
+      300,
+      1247
+     ]
+    }
+   ],
+   "color": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "id": "visitors_report",
+   "matrix": "commerce_visitors_report",
+   "op": "panel",
+   "box": [
+    314,
+    1171,
+    467,
+    1250
+   ],
+   "legend": "red",
+   "erase": [
+    [
+     317,
+     1178,
+     464,
+     1246
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "VISITANTES DEVEM SE",
+     "box": [
+      319,
+      1180,
+      462,
+      1197
+     ]
+    },
+    {
+     "text": "APRESENTAR AO",
+     "box": [
+      319,
+      1203,
+      462,
+      1221
+     ]
+    },
+    {
+     "text": "ESCRITÓRIO",
+     "box": [
+      319,
+      1227,
+      462,
+      1244
+     ]
+    }
+   ],
+   "color": [
+    210,
+    35,
+    35
+   ]
+  },
+  {
+   "id": "own_risk_hdr",
+   "matrix": "commerce_own_risk",
+   "op": "panel",
+   "box": [
+    475,
+    1171,
+    567,
+    1193
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     478,
+     1173,
+     564,
+     1191
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "ATENÇÃO",
+     "box": [
+      484,
+      1177,
+      558,
+      1189
+     ]
+    }
+   ],
+   "color": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "id": "own_risk_body",
+   "matrix": "commerce_own_risk",
+   "op": "panel",
+   "box": [
+    476,
+    1194,
+    567,
+    1299
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     479,
+     1200,
+     564,
+     1295
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "ESTACIONE",
+     "box": [
+      481,
+      1202,
+      562,
+      1218
+     ]
+    },
+    {
+     "text": "POR SUA",
+     "box": [
+      481,
+      1225,
+      562,
+      1242
+     ]
+    },
+    {
+     "text": "CONTA E",
+     "box": [
+      481,
+      1250,
+      562,
+      1267
+     ]
+    },
+    {
+     "text": "RISCO",
+     "box": [
+      481,
+      1277,
+      562,
+      1293
+     ]
+    }
+   ],
+   "color": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "id": "no_dumping",
+   "matrix": "commerce_no_dumping",
+   "op": "panel",
+   "box": [
+    6,
+    1267,
+    149,
+    1324
+   ],
+   "legend": "red",
+   "erase": [
+    [
+     9,
+     1274,
+     146,
+     1320
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 500,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO",
+     "box": [
+      11,
+      1276,
+      144,
+      1294
+     ]
+    },
+    {
+     "text": "JOGAR LIXO",
+     "box": [
+      11,
+      1300,
+      144,
+      1318
+     ]
+    }
+   ],
+   "color": [
+    210,
+    40,
+    40
+   ]
+  },
+  {
+   "id": "private_property",
+   "matrix": "commerce_private_property",
+   "op": "panel",
+   "box": [
+    158,
+    1264,
+    281,
+    1353
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      40,
+      80,
+      140
+     ],
+     [
+      60,
+      100,
+      150
+     ]
+    ],
+    "tol": 60
+   },
+   "erase": [
+    [
+     161,
+     1269,
+     278,
+     1350
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 500,
+    "wdth": 85,
+    "min_wdth": 70,
+    "italic_shear": 0.15
+   },
+   "lines": [
+    {
+     "text": "PROPRIEDADE",
+     "box": [
+      163,
+      1271,
+      276,
+      1286
+     ]
+    },
+    {
+     "text": "PRIVADA",
+     "box": [
+      163,
+      1292,
+      276,
+      1307
+     ]
+    },
+    {
+     "text": "ENTRADA",
+     "box": [
+      163,
+      1312,
+      276,
+      1327
+     ]
+    },
+    {
+     "text": "PROIBIDA",
+     "box": [
+      163,
+      1333,
+      276,
+      1348
+     ]
+    }
+   ],
+   "color": [
+    40,
+    80,
+    140
+   ]
+  },
+  {
+   "id": "caution_hdr",
+   "matrix": "commerce_caution_smoking",
+   "op": "panel",
+   "box": [
+    298,
+    1263,
+    450,
+    1292
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      235,
+      205,
+      45
+     ],
+     [
+      205,
+      170,
+      30
+     ]
+    ],
+    "tol": 60
+   },
+   "erase": [
+    [
+     301,
+     1266,
+     447,
+     1290
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65,
+    "stroke": {
+     "px": 1.0,
+     "color": [
+      25,
+      25,
+      25
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "ATENÇÃO",
+     "box": [
+      308,
+      1271,
+      440,
+      1287
+     ]
+    }
+   ],
+   "color": [
+    240,
+    212,
+    40
+   ]
+  },
+  {
+   "id": "caution_body",
+   "matrix": "commerce_caution_smoking",
+   "op": "panel",
+   "box": [
+    291,
+    1290,
+    455,
+    1319
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     294,
+     1295,
+     452,
+     1317
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO FUMAR",
+     "box": [
+      298,
+      1298,
+      448,
+      1314
+     ]
+    }
+   ],
+   "color": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "id": "no_parking_gate",
+   "matrix": "commerce_towed",
+   "op": "panel",
+   "box": [
+    520,
+    1300,
+    674,
+    1366
+   ],
+   "legend": "red",
+   "erase": [
+    [
+     523,
+     1309,
+     671,
+     1361
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO",
+     "box": [
+      540,
+      1311,
+      654,
+      1331
+     ]
+    },
+    {
+     "text": "ESTACIONAR",
+     "box": [
+      525,
+      1336,
+      669,
+      1359
+     ]
+    }
+   ],
+   "color": [
+    210,
+    35,
+    35
+   ]
+  },
+  {
+   "id": "towed",
+   "matrix": "commerce_towed",
+   "op": "panel",
+   "box": [
+    519,
+    1364,
+    672,
+    1394
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     522,
+     1366,
+     669,
+     1392
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "VEÍCULOS BLOQUEANDO O PORTÃO",
+     "box": [
+      526,
+      1368,
+      665,
+      1376
+     ]
+    },
+    {
+     "text": "SERÃO GUINCHADOS",
+     "box": [
+      526,
+      1382,
+      665,
+      1390
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "danger_flam_hdr",
+   "matrix": "fuel_danger_flammable",
+   "op": "panel",
+   "box": [
+    624,
+    1399,
+    692,
+    1421
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     627,
+     1403,
+     689,
+     1419
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "PERIGO",
+     "box": [
+      631,
+      1405,
+      687,
+      1417
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "danger_flam_body",
+   "matrix": "fuel_danger_flammable",
+   "op": "panel",
+   "box": [
+    638,
+    1425,
+    693,
+    1454
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     641,
+     1428,
+     690,
+     1452
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "Altamente",
+     "box": [
+      645,
+      1430,
+      688,
+      1439
+     ]
+    },
+    {
+     "text": "Inflamável",
+     "box": [
+      645,
+      1442,
+      688,
+      1450
+     ]
+    }
+   ],
+   "color": [
+    60,
+    55,
+    55
+   ]
+  },
+  {
+   "id": "notice_auth_hdr",
+   "matrix": "fuel_notice_authorized",
+   "op": "panel",
+   "box": [
+    702,
+    1402,
+    755,
+    1422
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     705,
+     1405,
+     752,
+     1420
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "AVISO",
+     "box": [
+      709,
+      1407,
+      748,
+      1418
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "notice_auth_body",
+   "matrix": "fuel_notice_authorized",
+   "op": "panel",
+   "box": [
+    690,
+    1427,
+    771,
+    1452
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     693,
+     1429,
+     768,
+     1450
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "SOMENTE PESSOAL",
+     "box": [
+      697,
+      1431,
+      764,
+      1438
+     ]
+    },
+    {
+     "text": "AUTORIZADO",
+     "box": [
+      697,
+      1441,
+      764,
+      1448
+     ]
+    }
+   ],
+   "color": [
+    60,
+    55,
+    55
+   ]
+  },
+  {
+   "id": "flam_gas_diamond",
+   "matrix": "fuel_flammable_gas",
+   "op": "panel",
+   "box": [
+    681,
+    1324,
+    747,
+    1390
+   ],
+   "legend": "white",
+   "erase": [],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "GÁS",
+     "box": [
+      697,
+      1347,
+      721,
+      1357
+     ]
+    },
+    {
+     "text": "INFLAMÁVEL",
+     "box": [
+      680,
+      1363,
+      738,
+      1373
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "rotate": {
+    "deg": -45,
+    "pivot": [
+     709,
+     1360
+    ]
+   },
+   "keep": [
+    [
+     724,
+     1312,
+     756,
+     1350
+    ]
+   ],
+   "erase_rot": [
+    [
+     714,
+     1357,
+     68,
+     14,
+     -45
+    ],
+    [
+     704,
+     1364,
+     24,
+     13,
+     -45
+    ]
+   ]
+  },
+  {
+   "id": "warranty_banner",
+   "matrix": "dealer_warranty",
+   "op": "panel",
+   "box": [
+    946,
+    1350,
+    1056,
+    1393
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     949,
+     1358,
+     1053,
+     1388
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "GARANTIA",
+     "box": [
+      952,
+      1361,
+      1050,
+      1385
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "warranty_curve",
+   "matrix": "dealer_warranty",
+   "op": "panel",
+   "box": [
+    950,
+    1368,
+    1056,
+    1424
+   ],
+   "legend": "white",
+   "erase": [],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "DE 3 ANOS",
+     "box": [
+      955,
+      1406,
+      1051,
+      1418
+     ],
+     "arc": {
+      "cx": 1003,
+      "cy": 1372,
+      "r": 46,
+      "deg": 90
+     }
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "erase_ring": [
+    [
+     1003,
+     1372,
+     31,
+     48,
+     22,
+     158
+    ]
+   ]
+  },
+  {
+   "id": "warranty_available",
+   "matrix": "dealer_warranty",
+   "op": "panel",
+   "box": [
+    927,
+    1433,
+    1078,
+    1464
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     930,
+     1437,
+     1075,
+     1460
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "DISPONÍVEL",
+     "box": [
+      939,
+      1441,
+      1066,
+      1458
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 70
+  },
+  {
+   "id": "best",
+   "matrix": "dealer_best_deals",
+   "op": "panel",
+   "box": [
+    1180,
+    1228,
+    1345,
+    1301
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      200,
+      30,
+      40
+     ]
+    ],
+    "tol": 70
+   },
+   "erase": [
+    [
+     1183,
+     1245,
+     1342,
+     1290
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "MELHORES",
+     "box": [
+      1185,
+      1247,
+      1340,
+      1288
+     ]
+    }
+   ],
+   "color": [
+    200,
+    30,
+    40
+   ]
+  },
+  {
+   "id": "deals",
+   "matrix": "dealer_best_deals",
+   "op": "panel",
+   "box": [
+    1149,
+    1258,
+    1371,
+    1365
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1152,
+     1284,
+     1368,
+     1348
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "OFERTAS",
+     "box": [
+      1154,
+      1286,
+      1366,
+      1346
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "guaranteed",
+   "matrix": "dealer_best_deals",
+   "op": "panel",
+   "box": [
+    1118,
+    1345,
+    1405,
+    1397
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1121,
+     1357,
+     1402,
+     1390
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "GARANTIDAS",
+     "box": [
+      1123,
+      1359,
+      1400,
+      1388
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "big_sale",
+   "matrix": "dealer_big_sale",
+   "op": "panel",
+   "box": [
+    1718,
+    1209,
+    2043,
+    1305
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1721,
+     1220,
+     2040,
+     1301
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "impact",
+    "stroke": {
+     "px": 2.5,
+     "color": [
+      200,
+      25,
+      40
+     ]
+    },
+    "shadow": {
+     "dx": 3,
+     "dy": 2,
+     "color": [
+      30,
+      20,
+      20
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "MEGA",
+     "box": [
+      1728,
+      1234,
+      1862,
+      1288
+     ]
+    }
+   ],
+   "color": [
+    246,
+    240,
+    240
+   ],
+   "legend_tol": 60
+  },
+  {
+   "id": "great_deals",
+   "matrix": "dealer_great_deals",
+   "op": "panel",
+   "box": [
+    1730,
+    1308,
+    2033,
+    1360
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1733,
+     1312,
+     2030,
+     1355
+    ]
+   ],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "ÓTIMAS OFERTAS",
+     "box": [
+      1740,
+      1322,
+      2022,
+      1351
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "fresh_cars",
+   "matrix": "dealer_great_deals",
+   "op": "panel",
+   "box": [
+    1767,
+    1351,
+    1997,
+    1400
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1770,
+     1360,
+     1994,
+     1394
+    ]
+   ],
+   "erase_dilate": 3,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "CARROS NOVOS",
+     "box": [
+      1778,
+      1364,
+      1986,
+      1391
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 50
+  },
+  {
+   "id": "auto_sales",
+   "matrix": "dealer_auto_sales",
+   "op": "panel",
+   "box": [
+    1801,
+    1409,
+    2039,
+    1454
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      230,
+      200,
+      40
+     ]
+    ],
+    "tol": 70
+   },
+   "erase": [
+    [
+     1804,
+     1419,
+     2036,
+     1448
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "VENDAS E",
+     "box": [
+      1806,
+      1421,
+      2034,
+      1446
+     ]
+    }
+   ],
+   "color": [
+    232,
+    202,
+    42
+   ]
+  },
+  {
+   "id": "and_service",
+   "matrix": "dealer_auto_sales",
+   "op": "panel",
+   "box": [
+    1799,
+    1440,
+    2047,
+    1501
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1802,
+     1452,
+     2044,
+     1492
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "SERVIÇOS",
+     "box": [
+      1812,
+      1456,
+      2036,
+      1490
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "used_cars",
+   "matrix": "dealer_used_cars",
+   "op": "panel",
+   "box": [
+    1449,
+    1424,
+    1481,
+    1630
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1452,
+     1429,
+     1478,
+     1628
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 100,
+    "min_wdth": 60
+   },
+   "lines": [
+    {
+     "text": "S",
+     "box": [
+      1455,
+      1432,
+      1475,
+      1448
+     ]
+    },
+    {
+     "text": "E",
+     "box": [
+      1455,
+      1453,
+      1475,
+      1469
+     ]
+    },
+    {
+     "text": "M",
+     "box": [
+      1455,
+      1474,
+      1475,
+      1490
+     ]
+    },
+    {
+     "text": "I",
+     "box": [
+      1455,
+      1496,
+      1475,
+      1512
+     ]
+    },
+    {
+     "text": "N",
+     "box": [
+      1455,
+      1517,
+      1475,
+      1533
+     ]
+    },
+    {
+     "text": "O",
+     "box": [
+      1455,
+      1539,
+      1475,
+      1555
+     ]
+    },
+    {
+     "text": "V",
+     "box": [
+      1455,
+      1560,
+      1475,
+      1576
+     ]
+    },
+    {
+     "text": "O",
+     "box": [
+      1455,
+      1581,
+      1475,
+      1597
+     ]
+    },
+    {
+     "text": "S",
+     "box": [
+      1455,
+      1603,
+      1475,
+      1619
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "svc_tire",
+   "matrix": "dealer_services_list",
+   "op": "panel",
+   "box": [
+    1631,
+    1501,
+    1729,
+    1519
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1634,
+     1503,
+     1726,
+     1517
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "TROCA DE PNEUS",
+     "box": [
+      1636,
+      1506,
+      1724,
+      1514
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 40
+  },
+  {
+   "id": "svc_headlight",
+   "matrix": "dealer_services_list",
+   "op": "panel",
+   "box": [
+    1735,
+    1501,
+    1833,
+    1519
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1738,
+     1503,
+     1830,
+     1517
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "RESTAURAÇÃO DE FARÓIS",
+     "box": [
+      1740,
+      1506,
+      1828,
+      1514
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 40
+  },
+  {
+   "id": "svc_led",
+   "matrix": "dealer_services_list",
+   "op": "panel",
+   "box": [
+    1631,
+    1523,
+    1729,
+    1541
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1634,
+     1525,
+     1726,
+     1539
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "LUZES DE LED",
+     "box": [
+      1636,
+      1528,
+      1724,
+      1536
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 40
+  },
+  {
+   "id": "svc_steering",
+   "matrix": "dealer_services_list",
+   "op": "panel",
+   "box": [
+    1735,
+    1523,
+    1833,
+    1541
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1738,
+     1525,
+     1830,
+     1539
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "DIREÇÃO E SUSPENSÃO",
+     "box": [
+      1740,
+      1528,
+      1828,
+      1536
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 40
+  },
+  {
+   "id": "svc_smash",
+   "matrix": "dealer_services_list",
+   "op": "panel",
+   "box": [
+    1631,
+    1545,
+    1729,
+    1563
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1634,
+     1547,
+     1726,
+     1561
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "FUNILARIA",
+     "box": [
+      1636,
+      1550,
+      1724,
+      1558
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 40
+  },
+  {
+   "id": "svc_windscreen",
+   "matrix": "dealer_services_list",
+   "op": "panel",
+   "box": [
+    1735,
+    1545,
+    1833,
+    1563
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1738,
+     1547,
+     1830,
+     1561
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "REPARO DE PARA-BRISA",
+     "box": [
+      1740,
+      1550,
+      1828,
+      1558
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 40
+  },
+  {
+   "id": "svc_aftermarket",
+   "matrix": "dealer_services_list",
+   "op": "panel",
+   "box": [
+    1631,
+    1567,
+    1729,
+    1585
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1634,
+     1569,
+     1726,
+     1583
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "PEÇAS E ACESSÓRIOS",
+     "box": [
+      1636,
+      1572,
+      1724,
+      1580
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 40
+  },
+  {
+   "id": "svc_brake",
+   "matrix": "dealer_services_list",
+   "op": "panel",
+   "box": [
+    1735,
+    1567,
+    1833,
+    1585
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1738,
+     1569,
+     1830,
+     1583
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "FREIOS E EMBREAGEM",
+     "box": [
+      1740,
+      1572,
+      1828,
+      1580
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "legend_tol": 40
+  },
+  {
+   "id": "testing_station",
+   "matrix": "dealer_testing_station",
+   "op": "panel",
+   "box": [
+    1839,
+    1554,
+    1939,
+    1588
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1842,
+     1556,
+     1936,
+     1586
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "Posto de Inspeção Veicular",
+     "box": [
+      1844,
+      1559,
+      1934,
+      1566
+     ]
+    },
+    {
+     "text": "aprovado pelo",
+     "box": [
+      1844,
+      1568,
+      1934,
+      1575
+     ]
+    },
+    {
+     "text": "Departamento de Transportes",
+     "box": [
+      1844,
+      1577,
+      1934,
+      1584
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "recycle",
+   "matrix": "dealer_recycle",
+   "op": "panel",
+   "box": [
+    1941,
+    1506,
+    2047,
+    1576
+   ],
+   "legend": "red",
+   "erase": [
+    [
+     1944,
+     1508,
+     2044,
+     1574
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "RECEBEMOS ÓLEO",
+     "box": [
+      1948,
+      1511,
+      2040,
+      1520
+     ]
+    },
+    {
+     "text": "USADO E",
+     "box": [
+      1948,
+      1529,
+      2040,
+      1537
+     ]
+    },
+    {
+     "text": "BATERIAS",
+     "box": [
+      1948,
+      1546,
+      2040,
+      1554
+     ]
+    },
+    {
+     "text": "GRATUITAMENTE",
+     "box": [
+      1948,
+      1563,
+      2040,
+      1571
+     ]
+    }
+   ],
+   "color": [
+    205,
+    60,
+    60
+   ]
+  },
+  {
+   "id": "office",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1631,
+    1601,
+    1698,
+    1624
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      80,
+      180,
+      100
+     ]
+    ],
+    "tol": 70
+   },
+   "erase": [
+    [
+     1634,
+     1604,
+     1695,
+     1622
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "ESCRITÓRIO",
+     "box": [
+      1637,
+      1607,
+      1692,
+      1619
+     ]
+    }
+   ],
+   "color": [
+    70,
+    175,
+    95
+   ]
+  },
+  {
+   "id": "entrance",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1725,
+    1608,
+    1825,
+    1634
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1728,
+     1613,
+     1822,
+     1631
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "ENTRADA",
+     "box": [
+      1731,
+      1615,
+      1819,
+      1629
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "exit",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1749,
+    1660,
+    1801,
+    1686
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1752,
+     1665,
+     1798,
+     1683
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "SAÍDA",
+     "box": [
+      1750,
+      1667,
+      1800,
+      1681
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "no_smoking",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1852,
+    1604,
+    1927,
+    1639
+   ],
+   "legend": "red",
+   "erase": [
+    [
+     1855,
+     1606,
+     1924,
+     1637
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO",
+     "box": [
+      1858,
+      1609,
+      1922,
+      1619
+     ]
+    },
+    {
+     "text": "FUMAR",
+     "box": [
+      1858,
+      1625,
+      1922,
+      1635
+     ]
+    }
+   ],
+   "color": [
+    210,
+    50,
+    50
+   ]
+  },
+  {
+   "id": "service",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1830,
+    1641,
+    1925,
+    1679
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1833,
+     1649,
+     1922,
+     1674
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "SERVIÇOS",
+     "box": [
+      1835,
+      1651,
+      1920,
+      1672
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "notice_hdr",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1730,
+    1697,
+    1822,
+    1734
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1733,
+     1705,
+     1819,
+     1729
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "AVISO",
+     "box": [
+      1745,
+      1707,
+      1807,
+      1727
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "notice_body",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1728,
+    1768,
+    1824,
+    1798
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1731,
+     1770,
+     1821,
+     1796
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "NÃO NOS RESPONSABILIZAMOS",
+     "box": [
+      1734,
+      1773,
+      1818,
+      1779
+     ]
+    },
+    {
+     "text": "POR PERDA DE OBJETOS",
+     "box": [
+      1734,
+      1780,
+      1818,
+      1786
+     ]
+    },
+    {
+     "text": "PESSOAIS",
+     "box": [
+      1734,
+      1787,
+      1818,
+      1793
+     ]
+    }
+   ],
+   "color": [
+    236,
+    240,
+    246
+   ],
+   "legend_tol": 40
+  },
+  {
+   "id": "no_parking_hdr",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1825,
+    1696,
+    1931,
+    1718
+   ],
+   "legend": "red",
+   "erase": [
+    [
+     1828,
+     1700,
+     1928,
+     1716
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 70
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO ESTACIONAR",
+     "box": [
+      1831,
+      1702,
+      1925,
+      1714
+     ]
+    }
+   ],
+   "color": [
+    205,
+    40,
+    40
+   ]
+  },
+  {
+   "id": "no_parking_body",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1828,
+    1730,
+    1928,
+    1786
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1831,
+     1732,
+     1925,
+     1784
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "GARAGEM EM USO CONSTANTE",
+     "box": [
+      1834,
+      1734,
+      1922,
+      1742
+     ]
+    },
+    {
+     "text": "ACESSO 24 h",
+     "box": [
+      1834,
+      1749,
+      1922,
+      1756
+     ]
+    },
+    {
+     "text": "NECESSÁRIO",
+     "box": [
+      1834,
+      1761,
+      1922,
+      1768
+     ]
+    },
+    {
+     "text": "OBRIGADO",
+     "box": [
+      1834,
+      1774,
+      1922,
+      1782
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "drive_away",
+   "matrix": "dealer_drive_away",
+   "op": "panel",
+   "box": [
+    1969,
+    1647,
+    2001,
+    1852
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     1971,
+     1649,
+     1999,
+     1850
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "SAIA DIRIGINDO",
+     "box": [
+      1888,
+      1738,
+      2082,
+      1762
+     ]
+    }
+   ],
+   "color": [
+    25,
+    25,
+    25
+   ],
+   "rotate": {
+    "deg": -90,
+    "pivot": [
+     1985,
+     1750
+    ]
+   }
+  },
+  {
+   "id": "today",
+   "matrix": "dealer_drive_away",
+   "op": "panel",
+   "box": [
+    1941,
+    1698,
+    1973,
+    1798
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1943,
+     1700,
+     1971,
+     1796
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "HOJE",
+     "box": [
+      1913,
+      1737,
+      2001,
+      1759
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "rotate": {
+    "deg": -90,
+    "pivot": [
+     1957,
+     1748
+    ]
+   }
+  },
+  {
+   "id": "no_deposit_no",
+   "matrix": "dealer_no_deposit",
+   "op": "panel",
+   "box": [
+    1549,
+    1625,
+    1697,
+    1752
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      200,
+      225,
+      60
+     ]
+    ],
+    "tol": 70
+   },
+   "erase": [
+    [
+     1552,
+     1655,
+     1694,
+     1733
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "SEM",
+     "box": [
+      1560,
+      1658,
+      1690,
+      1730
+     ]
+    }
+   ],
+   "color": [
+    200,
+    225,
+    60
+   ]
+  },
+  {
+   "id": "no_deposit_deposit",
+   "matrix": "dealer_no_deposit",
+   "op": "panel",
+   "box": [
+    1553,
+    1732,
+    1695,
+    1770
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      200,
+      225,
+      60
+     ]
+    ],
+    "tol": 70
+   },
+   "erase": [
+    [
+     1556,
+     1739,
+     1692,
+     1766
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [
+    {
+     "text": "ENTRADA",
+     "box": [
+      1560,
+      1742,
+      1688,
+      1763
+     ]
+    }
+   ],
+   "color": [
+    200,
+    225,
+    60
+   ]
+  },
+  {
+   "id": "no_deposit_required",
+   "matrix": "dealer_no_deposit",
+   "op": "panel",
+   "box": [
+    1548,
+    1783,
+    1698,
+    1814
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      40,
+      70,
+      190
+     ]
+    ],
+    "tol": 70
+   },
+   "erase": [
+    [
+     1550,
+     1785,
+     1696,
+     1812
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65
+   },
+   "lines": [],
+   "color": [
+    40,
+    70,
+    190
+   ]
+  },
+  {
+   "id": "rotopad",
+   "matrix": "dealer_rotopad",
+   "op": "panel",
+   "box": [
+    1415,
+    1683,
+    1516,
+    1729
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     1418,
+     1685,
+     1513,
+     1727
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "segoe"
+   },
+   "lines": [
+    {
+     "text": "As pastilhas",
+     "box": [
+      1424,
+      1688,
+      1508,
+      1698
+     ]
+    },
+    {
+     "text": "certas para o",
+     "box": [
+      1424,
+      1701,
+      1508,
+      1711
+     ]
+    },
+    {
+     "text": "seu veículo",
+     "box": [
+      1424,
+      1714,
+      1508,
+      1724
+     ]
+    }
+   ],
+   "color": [
+    60,
+    60,
+    70
+   ]
+  },
+  {
+   "id": "all_brands",
+   "matrix": "commerce_all_brands",
+   "op": "panel",
+   "box": [
+    1305,
+    1837,
+    1623,
+    1887
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1308,
+     1846,
+     1620,
+     1881
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_bold",
+    "italic_shear": 0.2
+   },
+   "lines": [
+    {
+     "text": "Atendemos Todas as Marcas!",
+     "box": [
+      1312,
+      1850,
+      1616,
+      1878
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ]
+  },
+  {
+   "id": "tire_alignment",
+   "matrix": "dealer_tire_offer",
+   "op": "panel",
+   "box": [
+    1425,
+    1889,
+    1601,
+    1968
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      235,
+      225,
+      50
+     ]
+    ],
+    "tol": 70
+   },
+   "erase": [
+    [
+     1428,
+     1894,
+     1598,
+     1966
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "impact"
+   },
+   "lines": [
+    {
+     "text": "TROCA DE PNEUS",
+     "box": [
+      1428,
+      1900,
+      1598,
+      1923
+     ]
+    },
+    {
+     "text": "E ALINHAMENTO",
+     "box": [
+      1428,
+      1937,
+      1598,
+      1960
+     ]
+    }
+   ],
+   "color": [
+    236,
+    226,
+    50
+   ]
+  },
+  {
+   "id": "tire_fine",
+   "matrix": "dealer_tire_offer",
+   "op": "panel",
+   "box": [
+    1433,
+    2020,
+    1597,
+    2033
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     1436,
+     2022,
+     1594,
+     2031
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "NA COMPRA DE UM JOGO DE PNEUS",
+     "box": [
+      1440,
+      2024,
+      1590,
+      2030
+     ]
+    }
+   ],
+   "color": [
+    40,
+    60,
+    30
+   ]
+  },
+  {
+   "id": "rapid_repair",
+   "matrix": "commerce_rapid_repair",
+   "op": "panel",
+   "box": [
+    1625,
+    1913,
+    1925,
+    2048
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     1628,
+     1932,
+     1922,
+     2041
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_bold",
+    "italic_shear": 0.2
+   },
+   "lines": [
+    {
+     "text": "Conserto Rápido e",
+     "box": [
+      1630,
+      1934,
+      1920,
+      1979
+     ]
+    },
+    {
+     "text": "Instalação de Peças",
+     "box": [
+      1630,
+      1994,
+      1920,
+      2039
+     ]
+    }
+   ],
+   "color": [
+    25,
+    25,
+    25
+   ]
+  },
+  {
+   "id": "got_a",
+   "matrix": "commerce_lemon",
+   "op": "panel",
+   "box": [
+    97,
+    1475,
+    257,
+    1520
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     100,
+     1483,
+     254,
+     1516
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 400,
+    "wdth": 100,
+    "tracking": 3
+   },
+   "lines": [
+    {
+     "text": "TEM UMA",
+     "box": [
+      104,
+      1487,
+      250,
+      1512
+     ]
+    }
+   ],
+   "color": [
+    45,
+    45,
+    45
+   ]
+  },
+  {
+   "id": "lemon",
+   "matrix": "commerce_lemon",
+   "op": "panel",
+   "box": [
+    281,
+    1453,
+    585,
+    1531
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      235,
+      200,
+      30
+     ],
+     [
+      30,
+      30,
+      30
+     ]
+    ],
+    "tol": 60
+   },
+   "erase": [
+    [
+     284,
+     1469,
+     582,
+     1521
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 800,
+    "wdth": 80,
+    "min_wdth": 65,
+    "italic_shear": 0.25,
+    "stroke": {
+     "px": 1.5,
+     "color": [
+      30,
+      30,
+      30
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "BOMBA?",
+     "box": [
+      296,
+      1473,
+      574,
+      1517
+     ]
+    }
+   ],
+   "color": [
+    236,
+    202,
+    32
+   ]
+  },
+  {
+   "id": "lemon_body",
+   "matrix": "commerce_lemon",
+   "op": "panel",
+   "box": [
+    99,
+    1534,
+    377,
+    1610
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     100,
+     1536,
+     376,
+     1610
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "georgia_bold",
+    "italic_shear": 0.2
+   },
+   "lines": [
+    {
+     "text": "Pagamos o melhor preço",
+     "box": [
+      106,
+      1542,
+      370,
+      1559
+     ]
+    },
+    {
+     "text": "por carros para sucata",
+     "box": [
+      106,
+      1565,
+      370,
+      1581
+     ]
+    },
+    {
+     "text": "de qualquer marca!",
+     "box": [
+      106,
+      1587,
+      370,
+      1604
+     ]
+    }
+   ],
+   "color": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "id": "big_sale_2",
+   "matrix": "dealer_big_sale",
+   "op": "panel",
+   "box": [
+    1867,
+    1217,
+    2041,
+    1298
+   ],
+   "legend": "auto",
+   "erase": [],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "impact",
+    "stroke": {
+     "px": 2,
+     "color": [
+      120,
+      20,
+      25
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "OFERTA!",
+     "box": [
+      1874,
+      1238,
+      2034,
+      1284
+     ]
+    }
+   ],
+   "legend_tol": 55,
+   "color": [
+    220,
+    30,
+    40
+   ]
+  },
+  {
+   "id": "no_entry_cn",
+   "matrix": "commerce_chinese",
+   "op": "panel",
+   "box": [
+    587,
+    24,
+    647,
+    48
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     589,
+     27,
+     644,
+     41
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "ENTRADA",
+     "box": [
+      592,
+      28,
+      642,
+      35
+     ]
+    },
+    {
+     "text": "PROIBIDA",
+     "box": [
+      592,
+      38,
+      642,
+      45
+     ]
+    }
+   ],
+   "color": [
+    45,
+    40,
+    35
+   ]
+  },
+  {
+   "id": "rentabox_storage",
+   "matrix": "commerce_rentabox",
+   "op": "panel",
+   "box": [
+    577,
+    1140,
+    1077,
+    1201
+   ],
+   "legend": "dark",
+   "erase": [
+    [
+     580,
+     1152,
+     1074,
+     1193
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 100,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "GUARDA-VOLUMES SEGURO",
+     "box": [
+      584,
+      1156,
+      1068,
+      1190
+     ]
+    }
+   ],
+   "color": [
+    25,
+    25,
+    25
+   ]
+  },
+  {
+   "id": "notice_body_top",
+   "matrix": "dealer_facility",
+   "op": "panel",
+   "box": [
+    1728,
+    1733,
+    1824,
+    1769
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1731,
+     1735,
+     1821,
+     1767
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "RETIRE SEUS OBJETOS DE VALOR",
+     "box": [
+      1734,
+      1738,
+      1818,
+      1744
+     ]
+    },
+    {
+     "text": "ANTES DE DEIXAR O VEÍCULO",
+     "box": [
+      1734,
+      1747,
+      1818,
+      1753
+     ]
+    },
+    {
+     "text": "PARA O SERVIÇO",
+     "box": [
+      1734,
+      1756,
+      1818,
+      1762
+     ]
+    }
+   ],
+   "legend_tol": 30,
+   "color": [
+    120,
+    140,
+    190
+   ]
+  },
+  {
+   "id": "tire_off",
+   "matrix": "dealer_tire_offer",
+   "op": "panel",
+   "box": [
+    1515,
+    1974,
+    1613,
+    2017
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      70,
+      150,
+      50
+     ]
+    ],
+    "tol": 70
+   },
+   "erase": [
+    [
+     1520,
+     1978,
+     1610,
+     2015
+    ]
+   ],
+   "erase_dilate": 2,
+   "no_grow": true,
+   "bg_tol": 26,
+   "style": {
+    "font": "impact"
+   },
+   "lines": [
+    {
+     "text": "DE",
+     "box": [
+      1522,
+      1980,
+      1606,
+      1993
+     ]
+    },
+    {
+     "text": "DESCONTO",
+     "box": [
+      1522,
+      1999,
+      1606,
+      2012
+     ]
+    }
+   ],
+   "color": [
+    70,
+    150,
+    50
+   ]
+  }
+ ],
+ "_not_used": [
+  "big_sale_oval_1",
+  "big_sale_oval_2",
+  "entire_store_60",
+  "no_smoking_icon",
+  "stop_engine",
+  "tennis",
+  "warning_pump_body",
+  "warning_pump_hdr"
+ ],
+ "_fitted_boxes": {
+  "logistics": {
+   "orig": [
+    8,
+    1102,
+    568,
+    1138
+   ],
+   "fit": [
+    11,
+    1128,
+    565,
+    1166
+   ]
+  },
+  "shop_personnel": {
+   "orig": [
+    4,
+    1160,
+    156,
+    1242
+   ],
+   "fit": [
+    7,
+    1173,
+    149,
+    1255
+   ]
+  },
+  "employee_parking": {
+   "measured": [
+    163,
+    1168,
+    305,
+    1254
+   ]
+  },
+  "visitors_report": {
+   "orig": [
+    312,
+    1166,
+    468,
+    1226
+   ],
+   "fit": [
+    319,
+    1180,
+    462,
+    1244
+   ]
+  },
+  "own_risk_hdr": {
+   "measured": [
+    476,
+    1171,
+    566,
+    1193
+   ]
+  },
+  "own_risk_body": {
+   "measured": [
+    477,
+    1198,
+    566,
+    1297
+   ]
+  },
+  "no_dumping": {
+   "orig": [
+    4,
+    1252,
+    152,
+    1294
+   ],
+   "fit": [
+    11,
+    1276,
+    144,
+    1318
+   ]
+  },
+  "private_property": {
+   "orig": [
+    158,
+    1252,
+    284,
+    1330
+   ],
+   "fit": [
+    163,
+    1271,
+    276,
+    1348
+   ]
+  },
+  "caution_hdr": {
+   "measured": [
+    299,
+    1264,
+    449,
+    1292
+   ]
+  },
+  "caution_body": {
+   "measured": [
+    292,
+    1293,
+    454,
+    1319
+   ]
+  },
+  "no_smoking_icon": {
+   "orig": [
+    470,
+    1320,
+    516,
+    1332
+   ],
+   "fit": [
+    475,
+    1344,
+    514,
+    1353
+   ]
+  },
+  "tennis": {
+   "measured": [
+    6,
+    1363,
+    524,
+    1403
+   ]
+  },
+  "warranty_available": {
+   "measured": [
+    928,
+    1435,
+    1077,
+    1462
+   ]
+  },
+  "best": {
+   "orig": [
+    1180,
+    1218,
+    1346,
+    1272
+   ],
+   "fit": [
+    1185,
+    1247,
+    1340,
+    1288
+   ]
+  },
+  "deals": {
+   "orig": [
+    1160,
+    1274,
+    1360,
+    1330
+   ],
+   "fit": [
+    1154,
+    1286,
+    1366,
+    1346
+   ]
+  },
+  "guaranteed": {
+   "orig": [
+    1120,
+    1334,
+    1404,
+    1372
+   ],
+   "fit": [
+    1123,
+    1359,
+    1400,
+    1388
+   ]
+  },
+  "big_sale": {
+   "measured": [
+    1719,
+    1218,
+    2042,
+    1303
+   ]
+  },
+  "great_deals": {
+   "measured": [
+    1731,
+    1310,
+    2032,
+    1357
+   ]
+  },
+  "fresh_cars": {
+   "measured": [
+    1768,
+    1358,
+    1996,
+    1396
+   ]
+  },
+  "auto_sales": {
+   "orig": [
+    1806,
+    1400,
+    2044,
+    1446
+   ],
+   "fit": [
+    1806,
+    1421,
+    2034,
+    1446
+   ]
+  },
+  "no_deposit_required": {
+   "measured": [
+    1548,
+    1783,
+    1698,
+    1814
+   ]
+  },
+  "rapid_repair": {
+   "orig": [
+    1636,
+    1922,
+    1920,
+    2034
+   ],
+   "fit": [
+    1630,
+    1934,
+    1920,
+    2039
+   ]
+  },
+  "no_parking_gate": {
+   "measured": [
+    521,
+    1307,
+    673,
+    1363
+   ]
+  },
+  "towed": {
+   "measured": [
+    520,
+    1364,
+    671,
+    1394
+   ]
+  },
+  "warning_pump_hdr": {
+   "measured": [
+    519,
+    1401,
+    617,
+    1418
+   ]
+  },
+  "warning_pump_body": {
+   "measured": [
+    517,
+    1416,
+    621,
+    1459
+   ]
+  },
+  "danger_flam_hdr": {
+   "measured": [
+    625,
+    1401,
+    691,
+    1421
+   ]
+  },
+  "danger_flam_body": {
+   "measured": [
+    639,
+    1426,
+    692,
+    1454
+   ]
+  },
+  "notice_auth_hdr": {
+   "measured": [
+    703,
+    1403,
+    754,
+    1422
+   ]
+  },
+  "notice_auth_body": {
+   "measured": [
+    691,
+    1427,
+    770,
+    1452
+   ]
+  },
+  "stop_engine": {
+   "measured": [
+    768,
+    1312,
+    858,
+    1343
+   ]
+  },
+  "flam_gas_diamond": {
+   "measured": [
+    681,
+    1324,
+    747,
+    1390
+   ]
+  },
+  "warranty_banner": {
+   "measured": [
+    947,
+    1356,
+    1055,
+    1390
+   ]
+  },
+  "warranty_curve": {
+   "measured": [
+    951,
+    1368,
+    1055,
+    1424
+   ]
+  },
+  "and_service": {
+   "measured": [
+    1800,
+    1450,
+    2046,
+    1494
+   ]
+  },
+  "testing_station": {
+   "measured": [
+    1840,
+    1554,
+    1938,
+    1588
+   ]
+  },
+  "recycle": {
+   "measured": [
+    1942,
+    1506,
+    2046,
+    1576
+   ]
+  },
+  "office": {
+   "measured": [
+    1632,
+    1602,
+    1697,
+    1624
+   ]
+  },
+  "entrance": {
+   "measured": [
+    1726,
+    1611,
+    1824,
+    1633
+   ]
+  },
+  "exit": {
+   "measured": [
+    1750,
+    1663,
+    1800,
+    1685
+   ]
+  },
+  "no_smoking": {
+   "measured": [
+    1853,
+    1604,
+    1926,
+    1639
+   ]
+  },
+  "service": {
+   "measured": [
+    1831,
+    1647,
+    1924,
+    1676
+   ]
+  },
+  "notice_hdr": {
+   "measured": [
+    1731,
+    1703,
+    1821,
+    1731
+   ]
+  },
+  "notice_body": {
+   "measured": [
+    1729,
+    1768,
+    1823,
+    1798
+   ]
+  },
+  "no_parking_hdr": {
+   "measured": [
+    1826,
+    1698,
+    1930,
+    1718
+   ]
+  },
+  "no_parking_body": {
+   "measured": [
+    1829,
+    1730,
+    1927,
+    1786
+   ]
+  },
+  "no_deposit_no": {
+   "measured": [
+    1550,
+    1653,
+    1696,
+    1735
+   ]
+  },
+  "no_deposit_deposit": {
+   "measured": [
+    1554,
+    1737,
+    1694,
+    1768
+   ]
+  },
+  "rotopad": {
+   "measured": [
+    1416,
+    1683,
+    1515,
+    1729
+   ]
+  },
+  "all_brands": {
+   "measured": [
+    1306,
+    1844,
+    1622,
+    1883
+   ]
+  },
+  "tire_alignment": {
+   "measured": [
+    1426,
+    1892,
+    1600,
+    1968
+   ]
+  },
+  "tire_fine": {
+   "measured": [
+    1434,
+    2020,
+    1596,
+    2033
+   ]
+  },
+  "got_a": {
+   "measured": [
+    98,
+    1481,
+    256,
+    1518
+   ]
+  },
+  "lemon": {
+   "measured": [
+    282,
+    1467,
+    584,
+    1523
+   ]
+  },
+  "used_cars": {
+   "measured": [
+    1450,
+    1427,
+    1480,
+    1630
+   ]
+  },
+  "drive_away": {
+   "measured": [
+    1969,
+    1647,
+    2001,
+    1852
+   ]
+  },
+  "today": {
+   "measured": [
+    1941,
+    1698,
+    1973,
+    1798
+   ]
+  },
+  "svc_tire": {
+   "measured": [
+    1632,
+    1501,
+    1728,
+    1519
+   ]
+  },
+  "svc_headlight": {
+   "measured": [
+    1736,
+    1501,
+    1832,
+    1519
+   ]
+  },
+  "svc_led": {
+   "measured": [
+    1632,
+    1523,
+    1728,
+    1541
+   ]
+  },
+  "svc_steering": {
+   "measured": [
+    1736,
+    1523,
+    1832,
+    1541
+   ]
+  },
+  "svc_smash": {
+   "measured": [
+    1632,
+    1545,
+    1728,
+    1563
+   ]
+  },
+  "svc_windscreen": {
+   "measured": [
+    1736,
+    1545,
+    1832,
+    1563
+   ]
+  },
+  "svc_aftermarket": {
+   "measured": [
+    1632,
+    1567,
+    1728,
+    1585
+   ]
+  },
+  "svc_brake": {
+   "measured": [
+    1736,
+    1567,
+    1832,
+    1585
+   ]
+  }
+ }
+}

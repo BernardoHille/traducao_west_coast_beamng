@@ -3,12 +3,12 @@
   "subject": "mod/traducao_ptbr_wcusa",
   "status": "PASS",
   "counts": {
-    "PASS": 104,
+    "PASS": 117,
     "WARN": 0,
     "FAIL": 0,
     "SKIP": 0
   },
-  "generated": "2026-10-06T07:16:42",
+  "generated": "2026-10-06T12:07:59",
   "meta": {},
   "checks": [
     {
@@ -21,6 +21,18 @@
       "status": "PASS",
       "name": "Case-insensitive duplicates",
       "message": "none",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds → clutter_commercial/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds → clutter_commercial/opacity",
       "details": {}
     },
     {
@@ -39,6 +51,18 @@
       "status": "PASS",
       "name": "Asset path",
       "message": "assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds → ind_industrial_signs/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_b.color.dds → t_bus_routes_wca/base_color",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Asset path",
+      "message": "assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_nm.normal.dds → t_bus_routes_wca/normal",
       "details": {}
     },
     {
@@ -284,7 +308,7 @@
     {
       "status": "PASS",
       "name": "Installed copy",
-      "message": "identical to repo (39 files)",
+      "message": "identical to repo (43 files)",
       "details": {}
     },
     {
@@ -302,6 +326,30 @@
     {
       "status": "PASS",
       "name": "t_roadsigns: shape_changed",
+      "message": "all shape-dependent maps delivered: opacity",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "clutter_commercial: base_color (clutter_commercial_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "clutter_commercial: opacity (clutter_commercial_o.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "clutter_commercial: diffuse_legacy (clutter_commercial_d.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "clutter_commercial: shape_changed",
       "message": "all shape-dependent maps delivered: opacity",
       "details": {}
     },
@@ -369,6 +417,36 @@
       "status": "PASS",
       "name": "t_billboards: shape_changed",
       "message": "declared false (only colours/text inside the original silhouette)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_bus_routes_wca: base_color (t_bus_routes_wca_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_bus_routes_wca: normal (t_bus_routes_wca_nm.normal.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_bus_routes_wca: ao (t_bus_routes_wca_ao.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_bus_routes_wca: roughness (t_bus_routes_wca_r.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "t_bus_routes_wca: shape_changed",
+      "message": "all shape-dependent maps delivered: normal",
       "details": {}
     },
     {

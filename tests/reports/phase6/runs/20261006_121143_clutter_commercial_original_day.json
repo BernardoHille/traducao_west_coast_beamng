@@ -1,0 +1,1054 @@
+{
+  "started": "2026-10-06T12:09:51",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "clutter_commercial": [
+      {
+        "path": "/art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\art_shapes.zip\\art\\shapes\\garage_and_dealership\\Clutter\\clutter_commercial_b.color.dds",
+        "expected_contains": "art_shapes.zip",
+        "ok": true
+      },
+      {
+        "path": "/art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\art_shapes.zip\\art\\shapes\\garage_and_dealership\\Clutter\\clutter_commercial_o.data.dds",
+        "expected_contains": "art_shapes.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "cc_neon_nails",
+      "object": {
+        "dist": 0,
+        "id": 219811,
+        "materials": [
+          "slabs_large",
+          "balustrades",
+          "clutter_commercial",
+          "brick_plain",
+          "m_highrise_metal",
+          "architraves",
+          "windows_doors_reflective",
+          "columns",
+          "m_roof_slates_ochre",
+          "construction",
+          "tiles_marble_square",
+          "m_bld_chinatown_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_neon_nails_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_120959_77.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 512.2042,
+          "x": -671.0026,
+          "z": 119.6768
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38270983289725,
+          "x": 0,
+          "w": 0.92386859661088
+        }
+      }
+    },
+    {
+      "location": "cc_neon_dry",
+      "object": {
+        "dist": 0,
+        "id": 219813,
+        "materials": [
+          "slabs_large",
+          "balustrades",
+          "clutter_commercial",
+          "m_highrise_metal",
+          "brick_painted",
+          "architraves",
+          "windows_doors_reflective",
+          "columns",
+          "m_roof_slates_ochre",
+          "tiles_marble_square",
+          "m_bld_chinatown_003_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_neon_dry_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121005_78.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 524.6721,
+          "x": -683.2988,
+          "z": 120.7645
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "cc_nail_menu",
+      "object": {
+        "dist": 0,
+        "id": 219811,
+        "materials": [
+          "slabs_large",
+          "balustrades",
+          "clutter_commercial",
+          "brick_plain",
+          "m_highrise_metal",
+          "architraves",
+          "windows_doors_reflective",
+          "columns",
+          "m_roof_slates_ochre",
+          "construction",
+          "tiles_marble_square",
+          "m_bld_chinatown_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_nail_menu_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121010_79.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 506.4591,
+          "x": -671.0145,
+          "z": 120.7608
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.3826738018263,
+          "x": 0,
+          "w": 0.92388352155226
+        }
+      }
+    },
+    {
+      "location": "cc_sale",
+      "object": {
+        "dist": 0,
+        "id": 219826,
+        "materials": [
+          "windows_doors_reflective",
+          "slabs_large",
+          "balustrades",
+          "clutter_commercial",
+          "m_highrise_metal",
+          "brick_painted",
+          "architraves",
+          "columns",
+          "stone_brick_irregular",
+          "construction",
+          "tiles_marble_square",
+          "m_plaster_worn_01"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_sale_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121015_80.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 561.9381,
+          "x": -742.5452,
+          "z": 124.6476
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0,
+          "x": 0,
+          "w": 1
+        }
+      }
+    },
+    {
+      "location": "cc_logistics",
+      "object": {
+        "dist": 0.00030197388897119,
+        "id": 220868,
+        "materials": [
+          "clutter_commercial",
+          "industrial",
+          "lod_vertcol",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_logistics_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121020_81.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -50.25,
+          "x": -297.9467,
+          "z": 120.6661
+        },
+        "mode": "free",
+        "rot": {
+          "y": -4.999998041483e-06,
+          "z": 0.99949339229973,
+          "x": -1.2485731018311e-13,
+          "w": 0.031827012492057
+        }
+      }
+    },
+    {
+      "location": "cc_fencing_risk",
+      "object": {
+        "dist": 0,
+        "id": 218663,
+        "materials": [
+          "metal_galvanized",
+          "brick_plain",
+          "concrete_plain",
+          "chainlink",
+          "balustrades",
+          "clutter_commercial",
+          "industrial",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_fencing_risk_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121025_82.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 6.9861,
+          "x": -79.3284,
+          "z": 121.0538
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.0015800000795367,
+          "z": 0.93630795285475,
+          "x": -0.00059200002986171,
+          "w": 0.35117598231749
+        }
+      }
+    },
+    {
+      "location": "cc_garage_gate",
+      "object": {
+        "dist": 0,
+        "id": 218628,
+        "materials": [
+          "industrial_trim",
+          "clutter_commercial",
+          "lod_vertcol",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_garage_gate_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121030_83.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 16.1421,
+          "x": -64.5681,
+          "z": 121.0848
+        },
+        "mode": "free",
+        "rot": {
+          "y": 1.100000236688e-05,
+          "z": 0.31852693591207,
+          "x": -3.4000006789196e-05,
+          "w": 0.94791380927881
+        }
+      }
+    },
+    {
+      "location": "cc_gas_cylinder",
+      "object": {
+        "dist": 0.00040213833814643,
+        "id": 210368,
+        "materials": [
+          "metal_plates",
+          "clutter_commercial",
+          "industrial",
+          "curbs",
+          "slabs_large",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_gas_cylinder_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121035_84.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -760.0831,
+          "x": -1323.3535,
+          "z": 105.2797
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.91618826988712,
+          "x": 0,
+          "w": 0.4007481180508
+        }
+      }
+    },
+    {
+      "location": "cc_warranty",
+      "object": {
+        "dist": 6.5277099609462e-05,
+        "id": 219072,
+        "materials": [
+          "lod_vertcol",
+          "clutter_commercial",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "balustrades",
+          "m_highrise_metal",
+          "brick_painted",
+          "m_stucco_white",
+          "concrete_plain",
+          "construction",
+          "walls_transparent",
+          "tiles_marble_square",
+          "vertexColor_glow",
+          "corrugated_modern",
+          "m_dealership_mid_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_warranty_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121040_85.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 167.374,
+          "x": -405.8011,
+          "z": 106.5749
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.21790404422189,
+          "x": 0,
+          "w": 0.97597019806536
+        }
+      }
+    },
+    {
+      "location": "cc_no_deposit",
+      "object": {
+        "dist": 6.5277099609462e-05,
+        "id": 219072,
+        "materials": [
+          "lod_vertcol",
+          "clutter_commercial",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "balustrades",
+          "m_highrise_metal",
+          "brick_painted",
+          "m_stucco_white",
+          "concrete_plain",
+          "construction",
+          "walls_transparent",
+          "tiles_marble_square",
+          "vertexColor_glow",
+          "corrugated_modern",
+          "m_dealership_mid_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_no_deposit_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121046_86.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 170.8743,
+          "x": -413.1858,
+          "z": 106.5749
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.21790404422189,
+          "x": 0,
+          "w": 0.97597019806536
+        }
+      }
+    },
+    {
+      "location": "cc_best_deals",
+      "object": {
+        "dist": 0,
+        "id": 219074,
+        "materials": [
+          "industrial",
+          "clutter_commercial",
+          "m_highrise_metal",
+          "architraves",
+          "windows_doors_reflective",
+          "m_stucco_white",
+          "tiles_marble_square",
+          "concrete_precast1",
+          "curbs",
+          "walls_transparent",
+          "lod_vertcol",
+          "grass_garden",
+          "m_bld_dealership_new_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_best_deals_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121051_87.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 818.0354,
+          "x": -696.227,
+          "z": 82.5867
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.70710678118655,
+          "x": 0,
+          "w": 0.70710678118655
+        }
+      }
+    },
+    {
+      "location": "cc_big_sale",
+      "object": {
+        "dist": 0,
+        "id": 219074,
+        "materials": [
+          "industrial",
+          "clutter_commercial",
+          "m_highrise_metal",
+          "architraves",
+          "windows_doors_reflective",
+          "m_stucco_white",
+          "tiles_marble_square",
+          "concrete_precast1",
+          "curbs",
+          "walls_transparent",
+          "lod_vertcol",
+          "grass_garden",
+          "m_bld_dealership_new_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_big_sale_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121056_88.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 847.9842,
+          "x": -737.4496,
+          "z": 78.9183
+        },
+        "mode": "free",
+        "rot": {
+          "y": 1.6000000248382e-05,
+          "z": -0.9238759858901,
+          "x": 7.0000000971982e-06,
+          "w": 0.38269199415534
+        }
+      }
+    },
+    {
+      "location": "cc_drive_away",
+      "object": {
+        "dist": 0,
+        "id": 219074,
+        "materials": [
+          "industrial",
+          "clutter_commercial",
+          "m_highrise_metal",
+          "architraves",
+          "windows_doors_reflective",
+          "m_stucco_white",
+          "tiles_marble_square",
+          "concrete_precast1",
+          "curbs",
+          "walls_transparent",
+          "lod_vertcol",
+          "grass_garden",
+          "m_bld_dealership_new_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_drive_away_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121101_89.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 838.4684,
+          "x": -712.2351,
+          "z": 82.5867
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.9983639428252,
+          "x": 0,
+          "w": 0.057178996725445
+        }
+      }
+    },
+    {
+      "location": "cc_facility",
+      "object": {
+        "dist": 0.00059765498232879,
+        "id": 213336,
+        "materials": [
+          "industrial_trim",
+          "slabs_large",
+          "corrugated_modern",
+          "architraves",
+          "concrete_precast1",
+          "industrial",
+          "clutter_commercial",
+          "stucco1_white",
+          "walls_transparent",
+          "construction",
+          "tiles_marble_square",
+          "tactile_indicator",
+          "metal_galvanized",
+          "wood_rough",
+          "weatherboards",
+          "vertexColor_glow",
+          "line_yellow",
+          "windows_doors_reflective",
+          "ind_metal_grate",
+          "ind_metal_expanded",
+          "catchfence",
+          "sidewalk1",
+          "curbs",
+          "groundmesh_grass2",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_facility_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121106_90.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -34.1269,
+          "x": -194.6211,
+          "z": 124.383
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.00023100009307109,
+          "z": -0.75311769683812,
+          "x": -0.00020200008121768,
+          "w": 0.65788573517303
+        }
+      }
+    },
+    {
+      "location": "cc_rapid_repair",
+      "object": {
+        "dist": 0,
+        "id": 218628,
+        "materials": [
+          "industrial_trim",
+          "clutter_commercial",
+          "lod_vertcol",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_rapid_repair_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121111_91.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 24.675,
+          "x": -58.9166,
+          "z": 127.0758
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92624990246589,
+          "x": 0,
+          "w": 0.37690996031138
+        }
+      }
+    },
+    {
+      "location": "cc_lemon",
+      "object": {
+        "dist": 0.00057144704594442,
+        "id": 218662,
+        "materials": [
+          "clutter_commercial",
+          "industrial",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_lemon_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121116_92.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -33.3554,
+          "x": -112.5958,
+          "z": 129.8676
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.42887412343599,
+          "x": 0,
+          "w": 0.90336426000092
+        }
+      }
+    },
+    {
+      "location": "cc_used_cars",
+      "object": {
+        "dist": 0,
+        "id": 218663,
+        "materials": [
+          "metal_galvanized",
+          "brick_plain",
+          "concrete_plain",
+          "chainlink",
+          "balustrades",
+          "clutter_commercial",
+          "industrial",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_used_cars_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121121_93.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -24.9252,
+          "x": -114.7806,
+          "z": 122.8152
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.44500783806323,
+          "x": 0,
+          "w": 0.89552667412104
+        }
+      }
+    },
+    {
+      "location": "cc_auto_sales",
+      "object": {
+        "dist": 0.00064243549285377,
+        "id": 208245,
+        "materials": [
+          "m_plastic_trim",
+          "clutter_commercial",
+          "m_logos_dealership_garage",
+          "ind_metal_trim",
+          "m_worn_brushed_plaster",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_auto_sales_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121126_94.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -516.1849,
+          "x": 859.1716,
+          "z": 167.9443
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.00041900019260637,
+          "z": 0.068467968535043,
+          "x": -0.0061060028060535,
+          "w": 0.99763454152974
+        }
+      }
+    },
+    {
+      "location": "cc_tire",
+      "object": {
+        "dist": 0.00065750077807117,
+        "id": 218969,
+        "materials": [
+          "brick_painted",
+          "clutter_commercial",
+          "industrial",
+          "stucco1_white",
+          "windows_doors_reflective",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_tire_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121132_95.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -137.9506,
+          "x": 326.6018,
+          "z": 146.8336
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.11607601416881,
+          "z": -0.69751391485787,
+          "x": 0.11607601416885,
+          "w": 0.69751491485774
+        }
+      }
+    },
+    {
+      "location": "cc_no_entry_cn",
+      "object": {
+        "dist": 0,
+        "id": 219710,
+        "materials": [
+          "slabs_large",
+          "m_highrise_metal",
+          "windows_doors_reflective",
+          "m_plaster_worn_01",
+          "tiles_marble_square",
+          "balustrades",
+          "clutter_commercial",
+          "brick_painted",
+          "architraves",
+          "construction",
+          "m_bld_chinatown_011_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_no_entry_cn_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121137_96.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 40,
+        "pos": {
+          "y": 535.2595,
+          "x": -760.7137,
+          "z": 127.2195
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.70710678118655,
+          "x": 0,
+          "w": 0.70710678118655
+        }
+      }
+    },
+    {
+      "location": "cc_rentabox",
+      "object": {
+        "dist": 0.00062979010660481,
+        "id": 218660,
+        "materials": [
+          "clutter_commercial",
+          "industrial",
+          "lod_vertcol",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_rentabox_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_121142_97.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -6.728,
+          "x": -161.6604,
+          "z": 127.9034
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.4135310148745,
+          "x": 0,
+          "w": 0.91049003274987
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "E GELua.screenshot": 84,
+      "W GELua.core_levels.": 1,
+      "E GELua.core_levels.": 1,
+      "W engine::GFXTextureManager::createTexture": 1,
+      "E GELua.jbeam.fillSlots": 4,
+      "W GELua.jbeam.prepareLinksDestructive": 36,
+      "W GELua.jbeam.events": 2,
+      "W engine::VehicleResourceContainer::getTSMeshByName": 72,
+      "E prop": 4,
+      "E GELua.jbeam.pushToPhysics": 68,
+      "E MaterialList.mapMaterials": 18,
+      "W GELua.core_vehicle_partmgmt.mesh": 8,
+      "W GELua.core_input_actions.": 4,
+      "E libbeamng.controller.init": 100,
+      "E cef_local": 4,
+      "E engine::BNGCefClient::OnResourceResponse": 4
+    },
+    "relevant_lines": [
+      "1260.66703|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json",
+      "1265.19906|W|engine::GFXTextureManager::createTexture| texture invalid filepath 'art/skies/clouds/clouds_normal_displacement' corrected to '/art/skies/clouds/clouds_normal_displacement.png'",
+      "1268.66860|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" reset to default part \"hcity7_emblem_F\" as the wished part \"hcity7_emblem_F\" was not found",
+      "1268.66864|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" left empty as part \"hcity7_emblem_F\" was not found",
+      "1268.76017|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2432 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RR/hcity7_door_RR - DATA DISCARDED",
+      "1268.76035|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2624 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RL/hcity7_door_RL - DATA DISCARDED",
+      "1268.76252|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5272 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_L/hcity7_sunvisor_L - DATA DISCARDED",
+      "1268.76255|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5291 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_R/hcity7_sunvisor_R - DATA DISCARDED",
+      "1268.76285|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5671 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1268.76286|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5672 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1268.76292|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5673 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1268.76293|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5674 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1268.76294|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5675 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1268.76294|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5676 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1268.76295|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5677 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1268.76296|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5678 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1268.76401|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/213 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1268.76403|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/214 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1268.76404|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/215 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1268.76408|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/263 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1268.76408|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/264 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1268.76409|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/265 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1269.15022|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steering_column_top' not found",
+      "1269.15025|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_steering_column_top",
+      "1269.15059|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_dash_key' not found",
+      "1269.15061|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_dash_key",
+      "1269.15617|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_roofrack_base_wagon' not found",
+      "1269.15878|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headlight_signalglass_R' not found",
+      "1269.16765|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_R' not found",
+      "1269.16785|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FR' not found",
+      "1269.16954|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_L' not found",
+      "1269.16972|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FL' not found",
+      "1269.17057|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RR' not found",
+      "1269.17060|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RR' not found",
+      "1269.17134|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RL' not found",
+      "1269.17136|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RL' not found",
+      "1269.17537|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_R' not found",
+      "1269.17566|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_L' not found",
+      "1269.17574|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_chmsl_wagon' not found",
+      "1269.17575|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_wiper_R' not found",
+      "1269.17581|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_trunkcarpet_wagon' not found",
+      "1269.17675|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_R' not found",
+      "1269.17676|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_L' not found",
+      "1269.17783|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_quarterpanels_wagon' not found",
+      "1269.17847|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_windshield_int' not found",
+      "1269.17868|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_TCS' not found",
+      "1269.18046|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steeringboot_R' not found",
+      "1269.18215|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_main' not found",
+      "1269.18217|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_sedan' not found",
+      "1269.18219|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sedan' not found",
+      "1269.18220|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sunvisors' not found",
+      "1269.18225|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_lamp' not found",
+      "1269.19256|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_L' not found",
+      "1269.19259|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_R' not found",
+      "1269.19260|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel' not found",
+      "1269.19261|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_hazard_button' not found",
+      "1269.19263|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_nav_empty' not found",
+      "1269.19312|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_gauges_KMH' not found",
+      "1269.19790|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_engine_belt' not found",
+      "1269.19821|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_radiator_pipes' not found",
+      "1269.46287|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1269.46610|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1269.46951|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1269.47256|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1269.47531|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1269.47803|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1270.38685|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1270.39014|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1270.39311|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1271.47583|E|libbeamng.controller.init:194497| Found duplicate controller of name \"gauge\", please make sure there are no name overlaps.",
+      "1271.55436|E|libbeamng.controller.init:194497| lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:",
+      "1271.55705|E|libbeamng.controller.init:194497|   errorStr = string[627]: \"lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:\\",
+      "1271.56281|E|libbeamng.controller.init:194497|   nodesMissing = boolean: false",
+      "1271.63925|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/vehicles/hcity7/fordscreen.png | response: 404 - Not Found",
+      "1271.66731|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/ui/common/nasalization-rg.ttf | response: 404 - Not Found",
+      "1338.53085|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" reset to default part \"hcity7_emblem_F\" as the wished part \"hcity7_emblem_F\" was not found",
+      "1338.53088|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" left empty as part \"hcity7_emblem_F\" was not found",
+      "1338.62184|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2432 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RR/hcity7_door_RR - DATA DISCARDED",
+      "1338.62200|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2624 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RL/hcity7_door_RL - DATA DISCARDED",
+      "1338.62399|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5272 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_L/hcity7_sunvisor_L - DATA DISCARDED",
+      "1338.62403|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5291 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_R/hcity7_sunvisor_R - DATA DISCARDED",
+      "1338.62442|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5671 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1338.62445|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5672 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1338.62445|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5673 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1338.62446|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5674 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1338.62446|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5675 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1338.62447|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5676 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1338.62447|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5677 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1338.62448|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5678 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "1338.62540|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/213 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1338.62542|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/214 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1338.62543|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/215 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1338.62547|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/263 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1338.62551|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/264 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1338.62551|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/265 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "1339.04355|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steering_column_top' not found",
+      "1339.04356|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_steering_column_top",
+      "1339.04406|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_dash_key' not found",
+      "1339.04407|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_dash_key",
+      "1339.05219|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_roofrack_base_wagon' not found",
+      "1339.05589|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headlight_signalglass_R' not found",
+      "1339.06629|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_R' not found",
+      "1339.06648|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FR' not found",
+      "1339.06877|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_L' not found",
+      "1339.06903|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FL' not found",
+      "1339.07024|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RR' not found",
+      "1339.07027|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RR' not found",
+      "1339.07132|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RL' not found",
+      "1339.07135|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RL' not found",
+      "1339.07690|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_R' not found",
+      "1339.07719|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_L' not found",
+      "1339.07726|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_chmsl_wagon' not found",
+      "1339.07727|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_wiper_R' not found",
+      "1339.07733|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_trunkcarpet_wagon' not found",
+      "1339.07843|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_R' not found",
+      "1339.07845|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_L' not found",
+      "1339.08085|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_quarterpanels_wagon' not found",
+      "1339.08176|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_windshield_int' not found",
+      "1339.08199|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_TCS' not found",
+      "1339.08405|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steeringboot_R' not found",
+      "1339.08594|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_main' not found",
+      "1339.08596|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_sedan' not found",
+      "1339.08597|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sedan' not found",
+      "1339.08598|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sunvisors' not found",
+      "1339.08599|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_lamp' not found",
+      "1339.09915|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_L' not found",
+      "1339.09919|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_R' not found",
+      "1339.09920|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel' not found",
+      "1339.09924|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_hazard_button' not found",
+      "1339.09925|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_nav_empty' not found",
+      "1339.09968|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_gauges_KMH' not found",
+      "1339.10406|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_engine_belt' not found",
+      "1339.10436|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_radiator_pipes' not found",
+      "1339.43181|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1339.43478|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1339.43752|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1339.44050|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1339.44343|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1339.44635|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1340.40467|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "1340.40792|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "1340.41099|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "1341.57779|E|libbeamng.controller.init:251430| Found duplicate controller of name \"gauge\", please make sure there are no name overlaps.",
+      "1341.65585|E|libbeamng.controller.init:251430| lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:",
+      "1341.65854|E|libbeamng.controller.init:251430|   errorStr = string[627]: \"lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:\\",
+      "1341.66362|E|libbeamng.controller.init:251430|   nodesMissing = boolean: false",
+      "1341.73093|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/vehicles/hcity7/fordscreen.png | response: 404 - Not Found",
+      "1341.74691|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/ui/common/nasalization-rg.ttf | response: 404 - Not Found"
+    ]
+  },
+  "finished": "2026-10-06T12:11:43"
+}

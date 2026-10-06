@@ -45,6 +45,11 @@
    "status": "production",
    "shape_changed": true,
    "note": "Phase 6 (6E): title, legend and stop names; the normal map embosses every label -> relief rebuilt for the new text (AO/roughness carry no text)."
+  },
+  "clutter_commercial": {
+   "status": "production",
+   "shape_changed": true,
+   "note": "Phase 6 (6F): commercial and dealership clutter atlas (art_shapes copy loaded by material clutter_commercial). Neon signs and SALE% posters are opacity cut-outs -> opacity rebuilt for the new letters."
   }
  },
  "reference": {

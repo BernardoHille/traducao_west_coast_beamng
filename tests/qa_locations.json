@@ -122,6 +122,31 @@
      "original_origin_contains": ".zip"
     }
    ]
+  },
+  "clutter_commercial": {
+   "material": "clutter_commercial",
+   "vfs_checks": [
+    {
+     "path": "/art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "art_shapes.zip"
+    },
+    {
+     "path": "/art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "art_shapes.zip"
+    }
+   ]
+  },
+  "t_bus_routes_wca": {
+   "material": "m_bus_routes_wca",
+   "vfs_checks": [
+    {
+     "path": "/assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_b.color.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "billboard_label.zip"
+    }
+   ]
   }
  },
  "locations": [
@@ -4736,6 +4761,977 @@
     ],
     "fov": 40,
     "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "cc_neon_nails",
+   "family": "clutter_commercial",
+   "description": "Néons de Chinatown.",
+   "expected_elements": [
+    "UNHAS E DEPILAÇÃO · SALÃO DE BELEZA"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_chinatown_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     0,
+     2,
+     253,
+     66
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -671.0026,
+     512.2042,
+     119.6768
+    ],
+    "rotation": [
+     0,
+     0,
+     0.38271,
+     0.923869
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_neon_dry",
+   "family": "clutter_commercial",
+   "description": "Néon da lavanderia, Chinatown.",
+   "expected_elements": [
+    "LAVANDERIA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_chinatown_003.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     117,
+     70,
+     247,
+     134
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -683.2988,
+     524.6721,
+     120.7645
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_nail_menu",
+   "family": "clutter_commercial",
+   "description": "Cardápio do salão.",
+   "expected_elements": [
+    "Design 3D · Aerografia · Unha em Gel · Unha Acrílica"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_chinatown_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     263,
+     172,
+     507,
+     227
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -671.0145,
+     506.4591,
+     120.7608
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382674,
+     0.923884
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_sale",
+   "family": "clutter_commercial",
+   "description": "Cartazes de liquidação.",
+   "expected_elements": [
+    "OFERTA% (cartazes)"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/chinatown_corner2.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     107,
+     249,
+     393,
+     327
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -742.5452,
+     561.9381,
+     124.6476
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_logistics",
+   "family": "clutter_commercial",
+   "description": "Placa de logística.",
+   "expected_elements": [
+    "LOGÍSTICA E DISTRIBUIÇÃO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/sign_logistics.dae",
+    "position": [
+     -298.161,
+     -62.368,
+     120.283
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     6,
+     1110,
+     570,
+     1178
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -297.9467,
+     -50.25,
+     120.6661
+    ],
+    "rotation": [
+     0.0,
+     -5e-06,
+     0.999493,
+     0.031827
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_fencing_risk",
+   "family": "clutter_commercial",
+   "description": "Cerca industrial.",
+   "expected_elements": [
+    "ATENÇÃO · ESTACIONE POR SUA CONTA E RISCO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/industrial1_fencing.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     475,
+     1171,
+     567,
+     1299
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -79.3284,
+     6.9861,
+     121.0538
+    ],
+    "rotation": [
+     -0.000592,
+     0.00158,
+     0.936308,
+     0.351176
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_garage_gate",
+   "family": "clutter_commercial",
+   "description": "Garagem industrial.",
+   "expected_elements": [
+    "PROIBIDO ESTACIONAR · VEÍCULOS BLOQUEANDO O PORTÃO…"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/garage_industrial.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     520,
+     1300,
+     674,
+     1394
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -64.5681,
+     16.1421,
+     121.0848
+    ],
+    "rotation": [
+     -3.4e-05,
+     1.1e-05,
+     0.318527,
+     0.947914
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_gas_cylinder",
+   "family": "clutter_commercial",
+   "description": "Cilindros de gás.",
+   "expected_elements": [
+    "GÁS INFLAMÁVEL · PERIGO · Altamente Inflamável"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/gas_cylinder.dae",
+    "position": [
+     -1321.356,
+     -763.775,
+     104.313
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     624,
+     1324,
+     747,
+     1454
+    ],
+    "face_triangles": 4,
+    "instances_in_level": 4
+   },
+   "camera": {
+    "position": [
+     -1323.3535,
+     -760.0831,
+     105.2797
+    ],
+    "rotation": [
+     -0.0,
+     0.0,
+     0.916188,
+     0.400748
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_warranty",
+   "family": "clutter_commercial",
+   "description": "Concessionária (mid).",
+   "expected_elements": [
+    "GARANTIA DE 3 ANOS DISPONÍVEL"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/dealership_mid.dae",
+    "position": [
+     0,
+     -1.652,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     927,
+     1350,
+     1078,
+     1464
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -405.8011,
+     167.374,
+     106.5749
+    ],
+    "rotation": [
+     0,
+     0,
+     0.217904,
+     0.97597
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_no_deposit",
+   "family": "clutter_commercial",
+   "description": "Concessionária (mid).",
+   "expected_elements": [
+    "SEM ENTRADA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/dealership_mid.dae",
+    "position": [
+     0,
+     -1.652,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1549,
+     1625,
+     1698,
+     1814
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -413.1858,
+     170.8743,
+     106.5749
+    ],
+    "rotation": [
+     0,
+     0,
+     0.217904,
+     0.97597
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_best_deals",
+   "family": "clutter_commercial",
+   "description": "Concessionária (new).",
+   "expected_elements": [
+    "MELHORES OFERTAS GARANTIDAS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/dealership_new.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1118,
+     1228,
+     1405,
+     1397
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -696.227,
+     818.0354,
+     82.5867
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.707107,
+     0.707107
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_big_sale",
+   "family": "clutter_commercial",
+   "description": "Concessionária (new).",
+   "expected_elements": [
+    "MEGA OFERTA! · ÓTIMAS OFERTAS · CARROS NOVOS"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/dealership_new.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1718,
+     1209,
+     2043,
+     1400
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -737.4496,
+     847.9842,
+     78.9183
+    ],
+    "rotation": [
+     -7e-06,
+     -1.6e-05,
+     0.923876,
+     -0.382692
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_drive_away",
+   "family": "clutter_commercial",
+   "description": "Faixa vertical da concessionária.",
+   "expected_elements": [
+    "SAIA DIRIGINDO HOJE"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/dealership_new.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1941,
+     1647,
+     2001,
+     1852
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -712.2351,
+     838.4684,
+     82.5867
+    ],
+    "rotation": [
+     0,
+     0,
+     0.998364,
+     -0.057179
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_facility",
+   "family": "clutter_commercial",
+   "description": "Placas do galpão.",
+   "expected_elements": [
+    "PROIBIDO FUMAR · PROIBIDO ESTACIONAR · GARAGEM EM USO CONSTANTE"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/warehouse_awning.dae",
+    "position": [
+     -215.714,
+     -32.076,
+     120.893
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1825,
+     1604,
+     1931,
+     1786
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -194.6211,
+     -34.1269,
+     124.383
+    ],
+    "rotation": [
+     -0.000202,
+     -0.000231,
+     -0.753118,
+     0.657886
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_rapid_repair",
+   "family": "clutter_commercial",
+   "description": "Garagem industrial.",
+   "expected_elements": [
+    "Conserto Rápido e Instalação de Peças"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/garage_industrial.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1625,
+     1913,
+     1925,
+     2048
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -58.9166,
+     24.675,
+     127.0758
+    ],
+    "rotation": [
+     0,
+     0,
+     0.92625,
+     -0.37691
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_lemon",
+   "family": "clutter_commercial",
+   "description": "Placa TEM UMA BOMBA?",
+   "expected_elements": [
+    "TEM UMA BOMBA? · Pagamos o melhor preço…"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/sign_lemon.dae",
+    "position": [
+     -96.104,
+     -17.463,
+     129.31
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     97,
+     1453,
+     585,
+     1610
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -112.5958,
+     -33.3554,
+     129.8676
+    ],
+    "rotation": [
+     0,
+     0,
+     0.428874,
+     0.903364
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_used_cars",
+   "family": "clutter_commercial",
+   "description": "Faixa SEMINOVOS.",
+   "expected_elements": [
+    "SEMINOVOS (letras empilhadas)"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/industrial1_fencing.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1449,
+     1424,
+     1481,
+     1630
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -114.7806,
+     -24.9252,
+     122.8152
+    ],
+    "rotation": [
+     0,
+     0,
+     0.445008,
+     0.895527
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bus_map_shelter",
+   "family": "t_bus_routes_wca",
+   "description": "Abrigo de ônibus (s_busstop_wcu).",
+   "expected_elements": [
+    "Mapa de linhas de ônibus: título, legenda e nomes de paradas em PT-BR"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/objects/s_busstop_wcu.dae",
+    "position": [
+     -914.654,
+     230.679,
+     158.9
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     0,
+     0,
+     512,
+     512
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 31
+   },
+   "camera": {
+    "position": [
+     -914.0606,
+     231.1046,
+     160.5609
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_auto_sales",
+   "family": "clutter_commercial",
+   "description": "Totem da concessionária.",
+   "expected_elements": [
+    "VENDAS E SERVIÇOS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/s_dealership_sign.dae",
+    "position": [
+     859.902,
+     -510.661,
+     164.617
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1801,
+     1409,
+     2047,
+     1501
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 2
+   },
+   "camera": {
+    "position": [
+     859.1716,
+     -516.1849,
+     167.9443
+    ],
+    "rotation": [
+     -0.006106,
+     0.000419,
+     0.068468,
+     0.997635
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_tire",
+   "family": "clutter_commercial",
+   "description": "Garagem do autódromo.",
+   "expected_elements": [
+    "As pastilhas certas… · TROCA DE PNEUS E ALINHAMENTO · 15% DE DESCONTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/garage_racetrack.dae",
+    "position": [
+     323.008,
+     -168.35,
+     145.381
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1415,
+     1683,
+     1613,
+     2033
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     326.6018,
+     -137.9506,
+     146.8336
+    ],
+    "rotation": [
+     0.116076,
+     0.116076,
+     -0.697514,
+     0.697515
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_no_entry_cn",
+   "family": "clutter_commercial",
+   "description": "Placa chinesa em Chinatown.",
+   "expected_elements": [
+    "此路不通 · ENTRADA PROIBIDA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_chinatown_011.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     585,
+     5,
+     650,
+     50
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -760.7137,
+     535.2595,
+     127.2195
+    ],
+    "rotation": [
+     0,
+     0,
+     0.707107,
+     0.707107
+    ],
+    "fov": 40,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "cc_rentabox",
+   "family": "clutter_commercial",
+   "description": "Placa RENT-A-BOX.",
+   "expected_elements": [
+    "RENT-A-BOX · GUARDA-VOLUMES SEGURO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/sign_rentabox.dae",
+    "position": [
+     -150.494,
+     4.788,
+     126.381
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     575,
+     1085,
+     1075,
+     1198
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 2
+   },
+   "camera": {
+    "position": [
+     -161.6604,
+     -6.728,
+     127.9034
+    ],
+    "rotation": [
+     0,
+     0,
+     0.413531,
+     0.91049
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (uv)"
    }
   }
  ]

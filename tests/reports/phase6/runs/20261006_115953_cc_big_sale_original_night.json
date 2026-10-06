@@ -1,0 +1,74 @@
+{
+  "started": "2026-10-06T11:59:36",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "night",
+  "mod_active": false,
+  "vfs": {
+    "clutter_commercial": [
+      {
+        "path": "/art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\art_shapes.zip\\art\\shapes\\garage_and_dealership\\Clutter\\clutter_commercial_b.color.dds",
+        "expected_contains": "art_shapes.zip",
+        "ok": true
+      },
+      {
+        "path": "/art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\art_shapes.zip\\art\\shapes\\garage_and_dealership\\Clutter\\clutter_commercial_o.data.dds",
+        "expected_contains": "art_shapes.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "cc_big_sale",
+      "object": {
+        "dist": 0,
+        "id": 101443,
+        "materials": [
+          "industrial",
+          "clutter_commercial",
+          "m_highrise_metal",
+          "architraves",
+          "windows_doors_reflective",
+          "m_stucco_white",
+          "tiles_marble_square",
+          "concrete_precast1",
+          "curbs",
+          "walls_transparent",
+          "lod_vertcol",
+          "grass_garden",
+          "m_bld_dealership_new_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/clutter_commercial/cc_big_sale_original_night.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_115952_47.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 847.9842,
+          "x": -737.4496,
+          "z": 78.9183
+        },
+        "mode": "free",
+        "rot": {
+          "y": 1.6000000248382e-05,
+          "z": -0.9238759858901,
+          "x": 7.0000000971982e-06,
+          "w": 0.38269199415534
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T11:59:53"
+}
