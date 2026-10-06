@@ -1,0 +1,1198 @@
+{
+ "s_motel_sign": {
+  "deleted_quads": 20,
+  "new_quads": 28,
+  "lines": [
+   {
+    "face": -1,
+    "old": "MOTEL",
+    "new": "POUSADA",
+    "sx": 0.838,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "MOTEL",
+    "new": "POUSADA",
+    "sx": 0.838,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "CABLE",
+    "new": "TV A CABO",
+    "sx": 0.592,
+    "sy": 0.592,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "CABLE",
+    "new": "TV A CABO",
+    "sx": 0.592,
+    "sy": 0.592,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_motel_sign.dae"
+ },
+ "s_food_mart_sign_001": {
+  "deleted_quads": 58,
+  "new_quads": 70,
+  "lines": [
+   {
+    "face": -1,
+    "old": "DELI FOODMART",
+    "new": "LANCHES & MERCADO",
+    "sx": 0.92,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "DELI FOODMART",
+    "new": "LANCHES & MERCADO",
+    "sx": 0.921,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "ICECOLDBEER SODA",
+    "new": "CERVEJA & REFRI GELADOS",
+    "sx": 0.563,
+    "sy": 0.804,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "ICECOLDBEER SODA",
+    "new": "CERVEJA & REFRI GELADOS",
+    "sx": 0.562,
+    "sy": 0.804,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_food_mart_sign_001.dae"
+ },
+ "s_full_service_sign_001": {
+  "deleted_quads": 32,
+  "new_quads": 54,
+  "lines": [
+   {
+    "face": -1,
+    "old": "FULLSERVICE",
+    "new": "SERVIÇO COMPLETO",
+    "sx": 0.644,
+    "sy": 0.92,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "FULLSERVICE",
+    "new": "SERVIÇO COMPLETO",
+    "sx": 0.644,
+    "sy": 0.92,
+    "align": "center"
+   },
+   {
+    "face": 0,
+    "old": "$",
+    "new": "R$ (2 quads)"
+   },
+   {
+    "face": -1,
+    "old": "from",
+    "new": "a partir de",
+    "sx": 0.508,
+    "sy": 0.726,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "from",
+    "new": "a partir de",
+    "sx": 0.509,
+    "sy": 0.727,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_full_service_sign_001.dae"
+ },
+ "s_exhaust_sign_001": {
+  "deleted_quads": 75,
+  "new_quads": 111,
+  "lines": [
+   {
+    "face": -1,
+    "old": "EXHAUST",
+    "new": "ESCAPAMENTO",
+    "sx": 0.547,
+    "sy": 0.782,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "EXHAUST",
+    "new": "ESCAPAMENTO",
+    "sx": 0.547,
+    "sy": 0.782,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "EXHAUST",
+    "new": "ESCAPAMENTO",
+    "sx": 0.547,
+    "sy": 0.781,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "CARSTEREO",
+    "new": "SOM AUTOMOTIVO",
+    "sx": 0.692,
+    "sy": 0.989,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "CARSTEREO",
+    "new": "SOM AUTOMOTIVO",
+    "sx": 0.692,
+    "sy": 0.989,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "CARSTEREO",
+    "new": "SOM AUTOMOTIVO",
+    "sx": 0.692,
+    "sy": 0.989,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_exhaust_sign_001.dae"
+ },
+ "s_exhaust_sign_002": {
+  "deleted_quads": 25,
+  "new_quads": 37,
+  "lines": [
+   {
+    "face": -1,
+    "old": "EXHAUST",
+    "new": "ESCAPAMENTO",
+    "sx": 0.547,
+    "sy": 0.782,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "CARSTEREO",
+    "new": "SOM AUTOMOTIVO",
+    "sx": 0.692,
+    "sy": 0.988,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_exhaust_sign_002.dae"
+ },
+ "s_fix_sign_001": {
+  "deleted_quads": 43,
+  "new_quads": 46,
+  "lines": [
+   {
+    "face": -1,
+    "old": "WEFIX",
+    "new": "CONSERTAMOS:",
+    "sx": 0.579,
+    "sy": 0.828,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "RADIATORS",
+    "new": "RADIADORES",
+    "sx": 0.853,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "SUSPENSION",
+    "new": "SUSPENSÃO",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "TRANSMISSIONS",
+    "new": "CÂMBIOS",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "GLASS",
+    "new": "VIDROS",
+    "sx": 0.791,
+    "sy": 1.0,
+    "align": "left"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_fix_sign_001.dae"
+ },
+ "s_sound_sign_001": {
+  "deleted_quads": 20,
+  "new_quads": 26,
+  "lines": [
+   {
+    "face": -1,
+    "old": "SOUND",
+    "new": "SOM E",
+    "sx": 0.995,
+    "sy": 1.0,
+    "align": "right"
+   },
+   {
+    "face": 1,
+    "old": "SOUND",
+    "new": "SOM E",
+    "sx": 0.996,
+    "sy": 1.0,
+    "align": "right"
+   },
+   {
+    "face": -1,
+    "old": "TINT",
+    "new": "INSULFILM",
+    "sx": 0.658,
+    "sy": 0.939,
+    "align": "right"
+   },
+   {
+    "face": 1,
+    "old": "TINT",
+    "new": "INSULFILM",
+    "sx": 0.658,
+    "sy": 0.939,
+    "align": "right"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_sound_sign_001.dae"
+ },
+ "s_stereo_sign_001": {
+  "deleted_quads": 20,
+  "new_quads": 16,
+  "lines": [
+   {
+    "face": -1,
+    "old": "STEREOS",
+    "new": "SOM",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "ALARMS",
+    "new": "ALARMES",
+    "sx": 0.903,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "WINDOWS",
+    "new": "VIDROS",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_stereo_sign_001.dae"
+ },
+ "s_car_parts_sign_001": {
+  "deleted_quads": 108,
+  "new_quads": 124,
+  "lines": [
+   {
+    "face": -1,
+    "old": "RIMS",
+    "new": "RODAS",
+    "sx": 0.73,
+    "sy": 1.0,
+    "align": "right"
+   },
+   {
+    "face": 1,
+    "old": "RIMS",
+    "new": "RODAS",
+    "sx": 0.73,
+    "sy": 1.0,
+    "align": "left"
+   },
+   {
+    "face": -1,
+    "old": "TIRES",
+    "new": "PNEUS",
+    "sx": 0.812,
+    "sy": 1.0,
+    "align": "right"
+   },
+   {
+    "face": 1,
+    "old": "TIRES",
+    "new": "PNEUS",
+    "sx": 0.812,
+    "sy": 1.0,
+    "align": "left"
+   },
+   {
+    "face": -1,
+    "old": "LIFTKITS",
+    "new": "SUSPENSÃO",
+    "sx": 0.938,
+    "sy": 1.0,
+    "align": "right"
+   },
+   {
+    "face": 1,
+    "old": "LIFTKITS",
+    "new": "SUSPENSÃO",
+    "sx": 0.937,
+    "sy": 1.0,
+    "align": "left"
+   },
+   {
+    "face": -1,
+    "old": "HYDRAULICS",
+    "new": "HIDRÁULICA",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "right"
+   },
+   {
+    "face": 1,
+    "old": "HYDRAULICS",
+    "new": "HIDRÁULICA",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "left"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_car_parts_sign_001.dae"
+ },
+ "s_torres_tires_sign_001": {
+  "deleted_quads": 56,
+  "new_quads": 58,
+  "lines": [
+   {
+    "face": -1,
+    "old": "TIREROTATION",
+    "new": "RODÍZIO DE PNEUS &",
+    "sx": 0.82,
+    "sy": 1.0,
+    "align": "left"
+   },
+   {
+    "face": 1,
+    "old": "TIREROTATION",
+    "new": "RODÍZIO DE PNEUS &",
+    "sx": 0.82,
+    "sy": 1.0,
+    "align": "left"
+   },
+   {
+    "face": -1,
+    "old": "WHEELALIGNMENT",
+    "new": "ALINHAMENTO",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "left"
+   },
+   {
+    "face": 1,
+    "old": "WHEELALIGNMENT",
+    "new": "ALINHAMENTO",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "left"
+   },
+   {
+    "face": 0,
+    "old": "$",
+    "new": "R$ (2 quads)"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_torres_tires_sign_001.dae"
+ },
+ "diner_building": {
+  "deleted_quads": 34,
+  "new_quads": 44,
+  "lines": [
+   {
+    "face": -1,
+    "old": "OPEN",
+    "new": "ABERTO",
+    "sx": 0.731,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "OPEN",
+    "new": "ABERTO",
+    "sx": 0.731,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "HRS",
+    "new": "HORAS",
+    "sx": 0.683,
+    "sy": 0.975,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "HRS",
+    "new": "HORAS",
+    "sx": 0.683,
+    "sy": 0.975,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "RESTAURANT",
+    "new": "RESTAURANTE",
+    "sx": 0.903,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "RESTAURANT",
+    "new": "RESTAURANTE",
+    "sx": 0.903,
+    "sy": 1.0,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\diner_building.dae"
+ },
+ "gasstation_north": {
+  "deleted_quads": 27,
+  "new_quads": 37,
+  "lines": [
+   {
+    "face": 1,
+    "old": "SAVE",
+    "new": "OFERTA",
+    "sx": 0.697,
+    "sy": 0.995,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "PACK",
+    "new": "MAÇO",
+    "sx": 0.988,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "PACK",
+    "new": "MAÇO",
+    "sx": 0.992,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "NOWOPEN",
+    "new": "ABERTO",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "ATM",
+    "new": "CAIXA",
+    "sx": 0.589,
+    "sy": 0.589,
+    "align": "center"
+   },
+   {
+    "face": 0,
+    "old": "$",
+    "new": "R$ (5 quads)"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\gasstation_north.dae"
+ },
+ "s_fuel_main_05": {
+  "deleted_quads": 54,
+  "new_quads": 74,
+  "lines": [
+   {
+    "face": 1,
+    "old": "SAVE",
+    "new": "OFERTA",
+    "sx": 0.696,
+    "sy": 0.994,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "PACK",
+    "new": "MAÇO",
+    "sx": 0.988,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "PACK",
+    "new": "MAÇO",
+    "sx": 0.993,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "NOWOPEN",
+    "new": "ABERTO",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "ATM",
+    "new": "CAIXA",
+    "sx": 0.589,
+    "sy": 0.589,
+    "align": "center"
+   },
+   {
+    "face": 0,
+    "old": "$",
+    "new": "R$ (10 quads)"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_fuel_main_05.dae"
+ },
+ "s_bld_food_mart_001": {
+  "deleted_quads": 178,
+  "new_quads": 202,
+  "lines": [
+   {
+    "face": 1,
+    "old": "SAVE",
+    "new": "OFERTA",
+    "sx": 0.693,
+    "sy": 0.991,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "PACK",
+    "new": "MAÇO",
+    "sx": 0.993,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "NOWOPEN",
+    "new": "ABERTO",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "ATM",
+    "new": "CAIXA",
+    "sx": 0.778,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "ATM",
+    "new": "CAIXA",
+    "sx": 0.589,
+    "sy": 0.589,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "CANALSTDELI FOODMART",
+    "new": "CANAL ST DELI & MERCADO",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "CARWASH",
+    "new": "LAVA JATO",
+    "sx": 0.839,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "LOTTO TOBACCO COLDDRINKS ATM",
+    "new": "LOTERIA - TABACARIA - BEBIDAS - CAIXA",
+    "sx": 0.944,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 0,
+    "old": "$",
+    "new": "R$ (12 quads)"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_bld_food_mart_001.dae"
+ },
+ "s_bld_laundomat_001": {
+  "deleted_quads": 40,
+  "new_quads": 40,
+  "lines": [
+   {
+    "face": 1,
+    "old": "LAUNDROMAT",
+    "new": "LAVANDERIA",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "LAUNDROMAT",
+    "new": "LAVANDERIA",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_bld_laundomat_001.dae"
+ },
+ "s_bld_shops_001": {
+  "deleted_quads": 90,
+  "new_quads": 126,
+  "lines": [
+   {
+    "face": -1,
+    "old": "MINIMART",
+    "new": "MERCADINHO",
+    "sx": 0.929,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "MINIMART",
+    "new": "MERCADINHO",
+    "sx": 0.929,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "ATM",
+    "new": "CAIXA",
+    "sx": 0.802,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "ATM",
+    "new": "CAIXA",
+    "sx": 0.589,
+    "sy": 0.589,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "PACK",
+    "new": "MAÇO",
+    "sx": 0.966,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "GROCERY",
+    "new": "MERCEARIA",
+    "sx": 0.786,
+    "sy": 0.786,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "GROCERY",
+    "new": "MERCEARIA",
+    "sx": 0.786,
+    "sy": 0.786,
+    "align": "center"
+   },
+   {
+    "face": 0,
+    "old": "$",
+    "new": "R$ (10 quads)"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_bld_shops_001.dae"
+ },
+ "s_brick_walls_slums_car_shops": {
+  "deleted_quads": 139,
+  "new_quads": 180,
+  "lines": [
+   {
+    "face": -1,
+    "old": "SAVE",
+    "new": "OFERTA",
+    "sx": 0.693,
+    "sy": 0.99,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "PACK",
+    "new": "MAÇO",
+    "sx": 0.992,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "PACK",
+    "new": "MAÇO",
+    "sx": 0.99,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "NOWOPEN",
+    "new": "ABERTO",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "WEFIX",
+    "new": "CONSERTAMOS",
+    "sx": 0.634,
+    "sy": 0.905,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "NEW",
+    "new": "NOVOS",
+    "sx": 0.644,
+    "sy": 0.92,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "QUALITYBRANDS",
+    "new": "MARCAS DE QUALIDADE",
+    "sx": 0.753,
+    "sy": 1.0,
+    "align": "left"
+   },
+   {
+    "face": 1,
+    "old": "NEW USED",
+    "new": "NOVOS  USADOS",
+    "sx": 0.77,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "NEW USED",
+    "new": "NOVOS  USADOS",
+    "sx": 0.77,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "RADIATORS",
+    "new": "RADIADORES",
+    "sx": 0.853,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "SUSPENSION",
+    "new": "SUSPENSÃO",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "TRANSMISSIONS",
+    "new": "CÂMBIOS",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "TIRES",
+    "new": "PNEUS",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "FULLSERVICE",
+    "new": "SERVIÇO COMPLETO",
+    "sx": 0.644,
+    "sy": 0.921,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "GLASS",
+    "new": "VIDROS",
+    "sx": 0.791,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "USED",
+    "new": "USADOS",
+    "sx": 0.673,
+    "sy": 0.961,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "ENTRY",
+    "new": "ENTRADA",
+    "sx": 0.652,
+    "sy": 0.932,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "GOTAFLAT",
+    "new": "PNEU FURADO",
+    "sx": 0.964,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 0,
+    "old": "$",
+    "new": "R$ (8 quads)"
+   },
+   {
+    "face": 1,
+    "old": "from",
+    "new": "a partir de",
+    "sx": 0.508,
+    "sy": 0.726,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_brick_walls_slums_car_shops.dae"
+ },
+ "tunnel_mainTrackEntrance": {
+  "deleted_quads": 71,
+  "new_quads": 67,
+  "lines": [
+   {
+    "face": 1,
+    "old": "WELCOMETO",
+    "new": "BEM-VINDO AO",
+    "sx": 0.955,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "THANKSFORVISITING",
+    "new": "OBRIGADO PELA VISITA",
+    "sx": 0.931,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "MAXCLEARANCE",
+    "new": "ALTURA MÁXIMA",
+    "sx": 0.981,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "MAXCLEARANCE",
+    "new": "ALTURA MÁXIMA",
+    "sx": 0.981,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "13 FT 1 IN",
+    "new": "3,9 m"
+   },
+   {
+    "face": -1,
+    "old": "13 FT 1 IN",
+    "new": "3,9 m"
+   },
+   {
+    "face": 1,
+    "old": "13 FT 1 IN",
+    "new": "3,9 m"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\roads\\tunnel_mainTrackEntrance.dae"
+ },
+ "s_smash_auto_sign_001": {
+  "deleted_quads": 30,
+  "new_quads": 50,
+  "lines": [
+   {
+    "face": -1,
+    "old": "W",
+    "new": "C",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "right"
+   },
+   {
+    "face": 1,
+    "old": "W",
+    "new": "C",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "right"
+   },
+   {
+    "face": -1,
+    "old": "efixallbrands",
+    "new": "onsertamos todas as marcas!",
+    "sx": 0.544,
+    "sy": 0.777,
+    "align": "left"
+   },
+   {
+    "face": 1,
+    "old": "efixallbrands",
+    "new": "onsertamos todas as marcas!",
+    "sx": 0.544,
+    "sy": 0.777,
+    "align": "left"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_smash_auto_sign_001.dae"
+ },
+ "dragstrip_tree_alder": {
+  "deleted_quads": 36,
+  "new_quads": 40,
+  "lines": [
+   {
+    "face": -1,
+    "old": "IRSENSOR",
+    "new": "SENSOR IV",
+    "sx": 0.935,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": -1,
+    "old": "IRSENSOR",
+    "new": "SENSOR IV",
+    "sx": 0.935,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "IRSENSOR",
+    "new": "SENSOR IV",
+    "sx": 0.936,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "IRSENSOR",
+    "new": "SENSOR IV",
+    "sx": 0.935,
+    "sy": 1.0,
+    "align": "center"
+   },
+   {
+    "face": 1,
+    "old": "N SEP",
+    "new": "NÃO PISE",
+    "sx": 0.875,
+    "sy": 1.0,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\art\\shapes\\race\\dragstrip\\dragstrip_tree_alder.dae"
+ },
+ "dragDriversWinLightBoxShort": {
+  "deleted_quads": 8,
+  "new_quads": 8,
+  "lines": [
+   {
+    "face": 1,
+    "old": "WINLIGHT",
+    "new": "VENCEDOR",
+    "sx": 1.0,
+    "sy": 1.0,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\art\\shapes\\race\\dragstrip\\dragDriversWinLightBoxShort.dae"
+ },
+ "dragStrip_irSensorBox": {
+  "deleted_quads": 8,
+  "new_quads": 8,
+  "lines": [
+   {
+    "face": 1,
+    "old": "IRSENSOR",
+    "new": "SENSOR IV",
+    "sx": 0.935,
+    "sy": 1.0,
+    "align": "center"
+   }
+  ],
+  "out": "working\\glyph_meshes\\art\\shapes\\race\\dragstrip\\dragStrip_irSensorBox.dae"
+ },
+ "s_busstop_wcu": {
+  "deleted_quads": 6,
+  "new_quads": 8,
+  "lines": [
+   {
+    "face": 0,
+    "old": "MAP",
+    "new": "MAPA",
+    "sx": 0.745,
+    "sy": 1.0
+   },
+   {
+    "face": 0,
+    "old": "MAP",
+    "new": "MAPA",
+    "sx": 0.745,
+    "sy": 1.0
+   }
+  ],
+  "out": "working\\glyph_meshes\\art\\shapes\\objects\\s_busstop_wcu.dae"
+ },
+ "s_busstop_wcu_04": {
+  "deleted_quads": 6,
+  "new_quads": 8,
+  "lines": [
+   {
+    "face": 0,
+    "old": "MAP",
+    "new": "MAPA",
+    "sx": 0.745,
+    "sy": 1.0
+   },
+   {
+    "face": 0,
+    "old": "MAP",
+    "new": "MAPA",
+    "sx": 0.745,
+    "sy": 1.0
+   }
+  ],
+  "out": "working\\glyph_meshes\\art\\shapes\\objects\\s_busstop_wcu_04.dae"
+ },
+ "roadsigns": {
+  "deleted_quads": 20,
+  "new_quads": 20,
+  "lines": [
+   {
+    "face": 0,
+    "old": "rs_frac_3q_0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_miles_blank",
+    "new": "2 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_frac_half_0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_carpools_1",
+    "new": "2 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_carpools_2",
+    "new": "2 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_per_vehicle",
+    "new": "2 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_only_0",
+    "new": "3 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_frac_quarter",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_frac_half_1",
+    "new": "2 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_frac_3q_1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "rs_only_1",
+    "new": "3 quads"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\roads\\roadsigns.dae"
+ }
+}

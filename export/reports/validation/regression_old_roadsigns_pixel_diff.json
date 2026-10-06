@@ -8,11 +8,11 @@
     "FAIL": 2,
     "SKIP": 1
   },
-  "generated": "2026-10-06T12:20:40",
+  "generated": "2026-10-06T18:07:09",
   "meta": {
     "original": "source/originals/png/t_roadsigns_b.color.png",
     "texture": "t_roadsigns_b.color",
-    "allowed_regions": 44,
+    "allowed_regions": 54,
     "metrics": {
       "pixels": 2097152,
       "rgb": {
@@ -52,10 +52,10 @@
       },
       "changed_any": 1380221,
       "changed_any_pct": 65.8141,
-      "changed_inside_regions": 456654,
-      "changed_outside_regions": 923567,
-      "changed_outside_pct": 59.8802,
-      "outside_area_pixels": 1542358,
+      "changed_inside_regions": 460902,
+      "changed_outside_regions": 919319,
+      "changed_outside_pct": 61.8713,
+      "outside_area_pixels": 1485858,
       "bbox_changes": {
         "x": 0,
         "y": 0,
@@ -114,7 +114,7 @@
     {
       "status": "FAIL",
       "name": "Changes outside allowed regions",
-      "message": "59.8802% of pixels outside allowed regions changed (923567 px, bbox {'x': 0, 'y': 0, 'width': 2048, 'height': 1024})",
+      "message": "61.8713% of pixels outside allowed regions changed (919319 px, bbox {'x': 0, 'y': 0, 'width': 2048, 'height': 1024})",
       "details": {}
     }
   ]

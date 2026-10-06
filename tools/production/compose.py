@@ -762,7 +762,88 @@ def op_copy(fam: Family, el):
         fam.maps[role][box_slices(dst)] = patch
 
 
-OPS = {"panel": op_panel, "glyph": op_glyph, "fill": op_fill, "copy": op_copy}
+def accent_mask(shape, w, h, stroke, ss=4):
+    """Anti-aliased coverage (h, w) of an accent mark drawn as a stroke of `stroke` px."""
+    W, H = w * ss, h * ss
+    img = Image.new("L", (W, H), 0)
+    d = ImageDraw.Draw(img)
+    t = max(1, int(round(stroke * ss)))
+    m = t / 2 + ss  # margin so round caps stay inside the cell
+    X = lambda f: m + f * (W - 2 * m)
+    Y = lambda f: m + f * (H - 2 * m)
+    if shape == "acute":
+        pts = [(X(0.2), Y(1.0)), (X(0.8), Y(0.0))]
+    elif shape == "circ":
+        pts = [(X(0.0), Y(1.0)), (X(0.5), Y(0.0)), (X(1.0), Y(1.0))]
+    elif shape == "tilde":
+        pts = [(X(f), Y(0.5 - 0.5 * np.sin(2 * np.pi * f))) for f in np.linspace(0, 1, 24)]
+    elif shape == "cedil":
+        def bez(p0, p1, p2, p3, n=16):
+            return [tuple((1 - t) ** 3 * np.array(p0) + 3 * (1 - t) ** 2 * t * np.array(p1) + 3 * (1 - t) * t ** 2 * np.array(p2)
+                          + t ** 3 * np.array(p3)) for t in np.linspace(0, 1, n)]
+        pts = [(0.5, 0.0), (0.5, 0.32)] + bez((0.5, 0.32), (1.05, 0.30), (1.05, 0.98), (0.1, 0.92))[1:]
+        pts = [(X(a), Y(b)) for a, b in pts]
+    elif shape == "hyphen":
+        pts = [(X(0.0), Y(0.5)), (X(1.0), Y(0.5))]
+    elif shape == "comma":
+        pts = [(X(0.6), Y(0.0)), (X(0.6), Y(0.45)), (X(0.3), Y(1.0))]
+    else:
+        raise SystemExit(f"unknown accent {shape}")
+    d.line(pts, fill=255, width=t, joint="curve")
+    for x, y in (pts[0], pts[-1]):
+        d.ellipse([x - t / 2, y - t / 2, x + t / 2, y + t / 2], fill=255)
+    return np.asarray(img.resize((w, h), Image.LANCZOS), dtype=np.float64) / 255.0
+
+
+def op_accent(fam: Family, el):
+    """Accent mark (´ ~ ^ ¸) for glyph-built signs, drawn in an unused transparent cell of the atlas.
+
+    el: box, shape, stroke (px), fill (rgb), edge (rgb or None), edge_px, outline_layer (true: dark mark dilated by
+    edge_px with a light rim - the outline layer drawn behind a filled glyph)."""
+    x0, y0, x1, y1 = el["box"]
+    w, h = x1 - x0, y1 - y0
+    dil = int(el.get("dilate", 0))
+    if dil:  # outline layer: the fill-layer mark (cell minus 2*dil) grown by dil px
+        from PIL import ImageFilter
+        core = np.pad(accent_mask(el["shape"], w - 2 * dil, h - 2 * dil, el["stroke"]), dil)
+        img = Image.fromarray((core * 255).astype(np.uint8)).filter(ImageFilter.MaxFilter(2 * dil + 1))
+        cov = np.asarray(img, dtype=np.float64) / 255.0
+        if el.get("ring"):  # outline layer drawn IN FRONT of the fill layer: hollow where the fill mark is
+            cov = np.clip(cov - core, 0, 1)
+    else:
+        cov = accent_mask(el["shape"], w, h, el["stroke"])
+    col = fam.maps[el.get("map", "color")]
+    op = fam.maps[el.get("opacity_map", "opacity")]
+    if el.get("outline_layer") or el.get("edge"):
+        e = el.get("edge_px", 1)
+        if dil:
+            outer = cov
+        else:
+            outer = np.clip(accent_mask(el["shape"], w, h, el["stroke"] + 2 * e), 0, 1)
+    else:
+        outer = cov
+    fill = np.array(el["fill"], float)
+    edge = np.array(el.get("edge") or el["fill"], float)
+    if el.get("outline_layer"):  # dark body + light rim
+        rgb = edge[None, None] * (outer - cov)[..., None] + fill[None, None] * cov[..., None]
+        rgb = np.where(outer[..., None] > 0.02, rgb / np.maximum(outer[..., None], 1e-6), 0)
+    else:
+        rgb = fill[None, None] * cov[..., None] + edge[None, None] * (outer - cov)[..., None]
+        rgb = np.where(outer[..., None] > 0.02, rgb / np.maximum(outer[..., None], 1e-6), 0)
+    sy, sx = box_slices(el["box"])
+    region = col[sy, sx, :3].astype(np.float64)
+    a = outer[..., None]
+    col[sy, sx, :3] = np.clip(region * (1 - a) + rgb * a, 0, 255).astype(np.uint8)
+    ob = fam.scale(el.get("opacity_map", "opacity"), el["box"])
+    osy, osx = box_slices(ob)
+    oo = np.asarray(Image.fromarray((outer * 255).astype(np.uint8)).resize((ob[2] - ob[0], ob[3] - ob[1]), Image.LANCZOS), float)
+    cur = op[osy, osx, 0].astype(np.float64)
+    v = np.clip(np.maximum(cur, oo), 0, 255).astype(np.uint8)
+    for ch in range(3):
+        op[osy, osx, ch] = v
+
+
+OPS = {"panel": op_panel, "glyph": op_glyph, "fill": op_fill, "copy": op_copy, "accent": op_accent}
 
 
 # ---------------------------------------------------------------- commands

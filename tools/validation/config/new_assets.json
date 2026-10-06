@@ -126,5 +126,15 @@
    "levels/west_coast_usa/slotTraffic.json",
    "levels/west_coast_usa/main.decals.json"
   ]
+ },
+ "glyph_meshes": {
+  "doc": "Phase 6: sign meshes whose words are built from glyph quads (letters pointing at alphabet cells). The mod ships rewritten copies (tools/production/glyph_rewrite.py, spec below): only the letter quads of the listed materials change; every other triangle, the node tree and the transforms stay identical; new quads stay inside the original sign; the engine-compiled .cdae is shipped next to each .dae.",
+  "spec": "working/layered/glyph_signs/spec.json",
+  "materials": [
+   "clutter_commercial",
+   "roadsigns",
+   "m_billboardsigns_dealers"
+  ],
+  "bbox_margin": 0.05
  }
 }

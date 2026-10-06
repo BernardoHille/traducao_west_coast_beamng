@@ -6,7 +6,7 @@
 
 - original: `source/originals/png/art_shapes/clutter_commercial_b.color.png`
 - texture: `clutter_commercial_b.color`
-- allowed_regions: `85`
+- allowed_regions: `98`
 
 | Status | Verificação | Mensagem |
 |---|---|---|
@@ -15,5 +15,5 @@
 | SKIP | Alpha preservation | original has no fully transparent pixels outside allowed regions |
 | PASS | Semi-transparency | 0.00% of 3174 originally semi-transparent pixels changed outside allowed regions |
 | PASS | Alpha noise | no opaque pixel lost opacity outside allowed regions |
-| PASS | Pixel diff (global, informative) | 8.4098% changed · RGB mean 7.3834 max 255 · alpha mean 0.0 max 0 · PSNR 19.8 dB · bbox {'x': 2, 'y': 6, 'width': 2042, 'height': 2042} |
-| PASS | Changes outside allowed regions | 0 px changed outside; 352733 px inside 85 region(s) |
+| PASS | Pixel diff (global, informative) | 8.3844% changed · RGB mean 7.3803 max 255 · alpha mean 0.0 max 0 · PSNR 19.75 dB · bbox {'x': 2, 'y': 5, 'width': 2042, 'height': 2043} |
+| PASS | Changes outside allowed regions | 0 px changed outside; 351668 px inside 98 region(s) |

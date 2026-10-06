@@ -147,6 +147,131 @@
      "original_origin_contains": "billboard_label.zip"
     }
    ]
+  },
+  "glyph_signs": {
+   "material": "clutter_commercial",
+   "vfs_checks": [
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_motel_sign.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_food_mart_sign_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_full_service_sign_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_002.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_sound_sign_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_torres_tires_sign_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/diner_building.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/gasstation_north.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_bld_laundomat_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/buildings/s_smash_auto_sign_001.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/art/shapes/race/dragstrip/dragstrip_tree_alder.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/art/shapes/race/dragstrip/dragStrip_irSensorBox.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/art/shapes/objects/s_busstop_wcu.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/art/shapes/objects/s_busstop_wcu_04.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": ".zip"
+    }
+   ]
   }
  },
  "locations": [
@@ -5732,6 +5857,3102 @@
     ],
     "fov": 45,
     "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "gl_motel_sign_motel",
+   "family": "glyph_signs",
+   "description": "s_motel_sign: MOTEL -> POUSADA (1 instance(s) in the level)",
+   "expected_elements": [
+    "POUSADA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_motel_sign.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -542.666,
+     141.25,
+     108.538
+    ],
+    "rotation": [
+     0,
+     0,
+     0.925589,
+     -0.378531
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_motel_sign_cable",
+   "family": "glyph_signs",
+   "description": "s_motel_sign: CABLE -> TV A CABO (1 instance(s) in the level)",
+   "expected_elements": [
+    "TV A CABO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_motel_sign.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -544.198,
+     138.099,
+     107.165
+    ],
+    "rotation": [
+     0,
+     0,
+     0.92547,
+     -0.378821
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_food_mart_sign_001_delifoodmart",
+   "family": "glyph_signs",
+   "description": "s_food_mart_sign_001: DELIFOODMART -> LANCHES & MERCADO (1 instance(s) in the level)",
+   "expected_elements": [
+    "LANCHES & MERCADO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_food_mart_sign_001.dae",
+    "position": [
+     -642.968,
+     70.553,
+     102.635
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -650.298,
+     63.316,
+     110.544
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382586,
+     0.92392
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_food_mart_sign_001_icecoldbeersod",
+   "family": "glyph_signs",
+   "description": "s_food_mart_sign_001: ICECOLDBEERSODA -> CERVEJA & REFRI GELADOS (1 instance(s) in the level)",
+   "expected_elements": [
+    "CERVEJA & REFRI GELADOS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_food_mart_sign_001.dae",
+    "position": [
+     -642.968,
+     70.553,
+     102.635
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -650.304,
+     63.324,
+     109.718
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382911,
+     0.923785
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_full_service_sign_001_fullservice",
+   "family": "glyph_signs",
+   "description": "s_full_service_sign_001: FULLSERVICE -> SERVIÇO COMPLETO (1 instance(s) in the level)",
+   "expected_elements": [
+    "SERVIÇO COMPLETO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_full_service_sign_001.dae",
+    "position": [
+     -612.499,
+     100.273,
+     102.01
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -609.067,
+     96.883,
+     108.451
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382614,
+     0.923908
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_full_service_sign_001_from",
+   "family": "glyph_signs",
+   "description": "s_full_service_sign_001: from -> a partir de (1 instance(s) in the level)",
+   "expected_elements": [
+    "a partir de"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_full_service_sign_001.dae",
+    "position": [
+     -612.499,
+     100.273,
+     102.01
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -611.281,
+     98.482,
+     107.935
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_exhaust_sign_001_exhaust",
+   "family": "glyph_signs",
+   "description": "s_exhaust_sign_001: EXHAUST -> ESCAPAMENTO (1 instance(s) in the level)",
+   "expected_elements": [
+    "ESCAPAMENTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_001.dae",
+    "position": [
+     -557.504,
+     162.51,
+     102.952
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -552.152,
+     161.772,
+     107.61
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.668875,
+     0.743375
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_exhaust_sign_001_carstereo",
+   "family": "glyph_signs",
+   "description": "s_exhaust_sign_001: CARSTEREO -> SOM AUTOMOTIVO (1 instance(s) in the level)",
+   "expected_elements": [
+    "SOM AUTOMOTIVO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_001.dae",
+    "position": [
+     -557.504,
+     162.51,
+     102.952
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -552.197,
+     161.818,
+     107.045
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.669153,
+     0.743125
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_exhaust_sign_002_exhaust",
+   "family": "glyph_signs",
+   "description": "s_exhaust_sign_002: EXHAUST -> ESCAPAMENTO (2 instance(s) in the level)",
+   "expected_elements": [
+    "ESCAPAMENTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_002.dae",
+    "position": [
+     -571.835,
+     164.634,
+     106.236
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -568.497,
+     161.256,
+     106.626
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_exhaust_sign_002_carstereo",
+   "family": "glyph_signs",
+   "description": "s_exhaust_sign_002: CARSTEREO -> SOM AUTOMOTIVO (2 instance(s) in the level)",
+   "expected_elements": [
+    "SOM AUTOMOTIVO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_002.dae",
+    "position": [
+     -571.835,
+     164.634,
+     106.236
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -568.505,
+     161.319,
+     106.061
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382826,
+     0.923821
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_fix_sign_001_wefix",
+   "family": "glyph_signs",
+   "description": "s_fix_sign_001: WEFIX -> CONSERTAMOS: (1 instance(s) in the level)",
+   "expected_elements": [
+    "CONSERTAMOS:"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae",
+    "position": [
+     -600.603,
+     112.437,
+     105.295
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -603.213,
+     110.023,
+     105.717
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382589,
+     0.923919
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_fix_sign_001_radiators",
+   "family": "glyph_signs",
+   "description": "s_fix_sign_001: RADIATORS -> RADIADORES (1 instance(s) in the level)",
+   "expected_elements": [
+    "RADIADORES"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae",
+    "position": [
+     -600.603,
+     112.437,
+     105.295
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -603.487,
+     109.613,
+     105.263
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382434,
+     0.923983
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_fix_sign_001_suspension",
+   "family": "glyph_signs",
+   "description": "s_fix_sign_001: SUSPENSION -> SUSPENSÃO (1 instance(s) in the level)",
+   "expected_elements": [
+    "SUSPENSÃO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae",
+    "position": [
+     -600.603,
+     112.437,
+     105.295
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -603.45,
+     109.624,
+     104.95
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382516,
+     0.923949
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_fix_sign_001_transmissions",
+   "family": "glyph_signs",
+   "description": "s_fix_sign_001: TRANSMISSIONS -> CÂMBIOS (1 instance(s) in the level)",
+   "expected_elements": [
+    "CÂMBIOS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae",
+    "position": [
+     -600.603,
+     112.437,
+     105.295
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -603.42,
+     109.638,
+     104.642
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382768,
+     0.923844
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_fix_sign_001_glass",
+   "family": "glyph_signs",
+   "description": "s_fix_sign_001: GLASS -> VIDROS (1 instance(s) in the level)",
+   "expected_elements": [
+    "VIDROS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae",
+    "position": [
+     -600.603,
+     112.437,
+     105.295
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -597.919,
+     115.008,
+     106.054
+    ],
+    "rotation": [
+     0,
+     0,
+     0.923805,
+     -0.382864
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_sound_sign_001_sound",
+   "family": "glyph_signs",
+   "description": "s_sound_sign_001: SOUND -> SOM E (1 instance(s) in the level)",
+   "expected_elements": [
+    "SOM E"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_sound_sign_001.dae",
+    "position": [
+     -563.841,
+     149.621,
+     100.718
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -560.18,
+     152.345,
+     105.322
+    ],
+    "rotation": [
+     0,
+     0,
+     0.923943,
+     -0.382531
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_sound_sign_001_tint",
+   "family": "glyph_signs",
+   "description": "s_sound_sign_001: TINT -> INSULFILM (1 instance(s) in the level)",
+   "expected_elements": [
+    "INSULFILM"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_sound_sign_001.dae",
+    "position": [
+     -563.841,
+     149.621,
+     100.718
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -561.281,
+     151.684,
+     104.692
+    ],
+    "rotation": [
+     0,
+     0,
+     0.92388,
+     -0.382683
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_stereo_sign_001_stereos",
+   "family": "glyph_signs",
+   "description": "s_stereo_sign_001: STEREOS -> SOM (1 instance(s) in the level)",
+   "expected_elements": [
+    "SOM"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.dae",
+    "position": [
+     -577.693,
+     158.677,
+     104.621
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -575.316,
+     156.288,
+     104.98
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382783,
+     0.923838
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_stereo_sign_001_alarms",
+   "family": "glyph_signs",
+   "description": "s_stereo_sign_001: ALARMS -> ALARMES (1 instance(s) in the level)",
+   "expected_elements": [
+    "ALARMES"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.dae",
+    "position": [
+     -577.693,
+     158.677,
+     104.621
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -575.249,
+     156.221,
+     104.623
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_stereo_sign_001_windows",
+   "family": "glyph_signs",
+   "description": "s_stereo_sign_001: WINDOWS -> VIDROS (1 instance(s) in the level)",
+   "expected_elements": [
+    "VIDROS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.dae",
+    "position": [
+     -577.693,
+     158.677,
+     104.621
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -575.281,
+     156.268,
+     104.255
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382486,
+     0.923961
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_car_parts_sign_001_rims",
+   "family": "glyph_signs",
+   "description": "s_car_parts_sign_001: RIMS -> RODAS (1 instance(s) in the level)",
+   "expected_elements": [
+    "RODAS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.dae",
+    "position": [
+     -587.41,
+     126.007,
+     101.3
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -584.827,
+     129.187,
+     108.754
+    ],
+    "rotation": [
+     0,
+     0,
+     0.923914,
+     -0.382601
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_car_parts_sign_001_tires",
+   "family": "glyph_signs",
+   "description": "s_car_parts_sign_001: TIRES -> PNEUS (1 instance(s) in the level)",
+   "expected_elements": [
+    "PNEUS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.dae",
+    "position": [
+     -587.41,
+     126.007,
+     101.3
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -584.28,
+     129.469,
+     107.996
+    ],
+    "rotation": [
+     0,
+     0,
+     0.92388,
+     -0.382683
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_car_parts_sign_001_liftkits",
+   "family": "glyph_signs",
+   "description": "s_car_parts_sign_001: LIFTKITS -> SUSPENSÃO (1 instance(s) in the level)",
+   "expected_elements": [
+    "SUSPENSÃO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.dae",
+    "position": [
+     -587.41,
+     126.007,
+     101.3
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -582.482,
+     130.3,
+     107.126
+    ],
+    "rotation": [
+     0,
+     0,
+     0.923858,
+     -0.382734
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_car_parts_sign_001_hydraulics",
+   "family": "glyph_signs",
+   "description": "s_car_parts_sign_001: HYDRAULICS -> HIDRÁULICA (1 instance(s) in the level)",
+   "expected_elements": [
+    "HIDRÁULICA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.dae",
+    "position": [
+     -587.41,
+     126.007,
+     101.3
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -581.364,
+     131.103,
+     106.322
+    ],
+    "rotation": [
+     0,
+     0,
+     0.923967,
+     -0.382473
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_torres_tires_sign_001_tirerotation",
+   "family": "glyph_signs",
+   "description": "s_torres_tires_sign_001: TIREROTATION -> RODÍZIO DE PNEUS & (1 instance(s) in the level)",
+   "expected_elements": [
+    "RODÍZIO DE PNEUS &"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_torres_tires_sign_001.dae",
+    "position": [
+     -579.454,
+     133.935,
+     100.161
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -582.375,
+     129.33,
+     108.811
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_torres_tires_sign_001_wheelalignment",
+   "family": "glyph_signs",
+   "description": "s_torres_tires_sign_001: WHEELALIGNMENT -> ALINHAMENTO (1 instance(s) in the level)",
+   "expected_elements": [
+    "ALINHAMENTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_torres_tires_sign_001.dae",
+    "position": [
+     -579.454,
+     133.935,
+     100.161
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -582.722,
+     128.668,
+     108.359
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382851,
+     0.92381
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_diner_building_open",
+   "family": "glyph_signs",
+   "description": "diner_building: OPEN -> ABERTO (1 instance(s) in the level)",
+   "expected_elements": [
+    "ABERTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/diner_building.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -693.374,
+     114.32,
+     131.048
+    ],
+    "rotation": [
+     0,
+     0,
+     0.707107,
+     0.707107
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_diner_building_hrs",
+   "family": "glyph_signs",
+   "description": "diner_building: HRS -> HORAS (1 instance(s) in the level)",
+   "expected_elements": [
+    "HORAS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/diner_building.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -692.439,
+     113.827,
+     130.293
+    ],
+    "rotation": [
+     0,
+     0,
+     0.707107,
+     0.707107
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_diner_building_restaurant",
+   "family": "glyph_signs",
+   "description": "diner_building: RESTAURANT -> RESTAURANTE (1 instance(s) in the level)",
+   "expected_elements": [
+    "RESTAURANTE"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/diner_building.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -700.501,
+     114.303,
+     127.791
+    ],
+    "rotation": [
+     0,
+     0,
+     0.707137,
+     0.707077
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_gasstation_north_save",
+   "family": "glyph_signs",
+   "description": "gasstation_north: SAVE -> OFERTA (1 instance(s) in the level)",
+   "expected_elements": [
+    "OFERTA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/gasstation_north.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     926.173,
+     -501.161,
+     165.099
+    ],
+    "rotation": [
+     0,
+     0,
+     0.994465,
+     -0.105073
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_gasstation_north_pack",
+   "family": "glyph_signs",
+   "description": "gasstation_north: PACK -> MAÇO (1 instance(s) in the level)",
+   "expected_elements": [
+    "MAÇO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/gasstation_north.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     925.692,
+     -501.059,
+     164.759
+    ],
+    "rotation": [
+     0,
+     0,
+     0.994459,
+     -0.105125
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_gasstation_north_nowopen",
+   "family": "glyph_signs",
+   "description": "gasstation_north: NOWOPEN -> ABERTO (1 instance(s) in the level)",
+   "expected_elements": [
+    "ABERTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/gasstation_north.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     925.994,
+     -500.404,
+     164.03
+    ],
+    "rotation": [
+     0,
+     0,
+     0.994503,
+     -0.104708
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_gasstation_north_atm",
+   "family": "glyph_signs",
+   "description": "gasstation_north: ATM -> CAIXA (1 instance(s) in the level)",
+   "expected_elements": [
+    "CAIXA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/gasstation_north.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     919.678,
+     -498.879,
+     164.645
+    ],
+    "rotation": [
+     0,
+     0,
+     0.994474,
+     -0.10498
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_fuel_main_05_save",
+   "family": "glyph_signs",
+   "description": "s_fuel_main_05: SAVE -> OFERTA (1 instance(s) in the level)",
+   "expected_elements": [
+    "OFERTA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.dae",
+    "position": [
+     126.24,
+     1765.189,
+     102.745
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     134.459,
+     1759.037,
+     104.845
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.798287,
+     0.602278
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_fuel_main_05_pack",
+   "family": "glyph_signs",
+   "description": "s_fuel_main_05: PACK -> MAÇO (1 instance(s) in the level)",
+   "expected_elements": [
+    "MAÇO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.dae",
+    "position": [
+     126.24,
+     1765.189,
+     102.745
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     134.324,
+     1759.51,
+     104.505
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.798287,
+     0.602278
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_fuel_main_05_nowopen",
+   "family": "glyph_signs",
+   "description": "s_fuel_main_05: NOWOPEN -> ABERTO (1 instance(s) in the level)",
+   "expected_elements": [
+    "ABERTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.dae",
+    "position": [
+     126.24,
+     1765.189,
+     102.745
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     135.044,
+     1759.55,
+     103.776
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.798502,
+     0.601993
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_fuel_main_05_atm",
+   "family": "glyph_signs",
+   "description": "s_fuel_main_05: ATM -> CAIXA (1 instance(s) in the level)",
+   "expected_elements": [
+    "CAIXA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.dae",
+    "position": [
+     126.24,
+     1765.189,
+     102.745
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     133.4,
+     1765.836,
+     104.391
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.79828,
+     0.602287
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_food_mart_001_save",
+   "family": "glyph_signs",
+   "description": "s_bld_food_mart_001: SAVE -> OFERTA (1 instance(s) in the level)",
+   "expected_elements": [
+    "OFERTA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -635.973,
+     93.655,
+     105.25
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382404,
+     0.923995
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_food_mart_001_pack",
+   "family": "glyph_signs",
+   "description": "s_bld_food_mart_001: PACK -> MAÇO (1 instance(s) in the level)",
+   "expected_elements": [
+    "MAÇO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -635.604,
+     94.358,
+     104.726
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382839,
+     0.923815
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_food_mart_001_nowopen",
+   "family": "glyph_signs",
+   "description": "s_bld_food_mart_001: NOWOPEN -> ABERTO (1 instance(s) in the level)",
+   "expected_elements": [
+    "ABERTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -634.657,
+     93.061,
+     103.607
+    ],
+    "rotation": [
+     0.000125,
+     5.2e-05,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_food_mart_001_atm",
+   "family": "glyph_signs",
+   "description": "s_bld_food_mart_001: ATM -> CAIXA (1 instance(s) in the level)",
+   "expected_elements": [
+    "CAIXA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -643.096,
+     86.341,
+     106.34
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382537,
+     0.92394
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_food_mart_001_canalstdelifoo",
+   "family": "glyph_signs",
+   "description": "s_bld_food_mart_001: CANALSTDELIFOODMART -> CANAL ST DELI & MERCADO (1 instance(s) in the level)",
+   "expected_elements": [
+    "CANAL ST DELI & MERCADO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -629.126,
+     80.823,
+     107.799
+    ],
+    "rotation": [
+     -3e-05,
+     -1.3e-05,
+     -0.382619,
+     0.923906
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_food_mart_001_carwash",
+   "family": "glyph_signs",
+   "description": "s_bld_food_mart_001: CARWASH -> LAVA JATO (1 instance(s) in the level)",
+   "expected_elements": [
+    "LAVA JATO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -634.274,
+     92.581,
+     107.223
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382808,
+     0.923828
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_food_mart_001_lottotobaccoco",
+   "family": "glyph_signs",
+   "description": "s_bld_food_mart_001: LOTTOTOBACCOCOLDDRINKSATM -> LOTERIA - TABACARIA - BEBIDAS - CAIXA (1 instance(s) in the level)",
+   "expected_elements": [
+    "LOTERIA - TABACARIA - BEBIDAS - CAIXA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -626.642,
+     78.683,
+     106.577
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382633,
+     0.923901
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_laundomat_001_laundromat",
+   "family": "glyph_signs",
+   "description": "s_bld_laundomat_001: LAUNDROMAT -> LAVANDERIA (1 instance(s) in the level)",
+   "expected_elements": [
+    "LAVANDERIA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_laundomat_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -721.729,
+     105.206,
+     124.026
+    ],
+    "rotation": [
+     -5.6e-05,
+     -2.3e-05,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_shops_001_minimart",
+   "family": "glyph_signs",
+   "description": "s_bld_shops_001: MINIMART -> MERCADINHO (1 instance(s) in the level)",
+   "expected_elements": [
+    "MERCADINHO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -720.17,
+     125.382,
+     124.599
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_shops_001_atm",
+   "family": "glyph_signs",
+   "description": "s_bld_shops_001: ATM -> CAIXA (1 instance(s) in the level)",
+   "expected_elements": [
+    "CAIXA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -705.154,
+     130.381,
+     121.052
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_bld_shops_001_grocery",
+   "family": "glyph_signs",
+   "description": "s_bld_shops_001: GROCERY -> MERCEARIA (1 instance(s) in the level)",
+   "expected_elements": [
+    "MERCEARIA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -712.543,
+     125.353,
+     128.442
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382799,
+     0.923832
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_save",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: SAVE -> OFERTA (1 instance(s) in the level)",
+   "expected_elements": [
+    "OFERTA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -624.521,
+     91.678,
+     105.133
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382445,
+     0.923978
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_pack",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: PACK -> MAÇO (1 instance(s) in the level)",
+   "expected_elements": [
+    "MAÇO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -623.631,
+     91.212,
+     104.468
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382817,
+     0.923824
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_nowopen",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: NOWOPEN -> ABERTO (1 instance(s) in the level)",
+   "expected_elements": [
+    "ABERTO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -625.276,
+     90.007,
+     102.572
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382537,
+     0.92394
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_wefix",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: WEFIX -> CONSERTAMOS (1 instance(s) in the level)",
+   "expected_elements": [
+    "CONSERTAMOS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -614.335,
+     92.372,
+     104.437
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382778,
+     0.92384
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_new",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: NEW -> NOVOS (1 instance(s) in the level)",
+   "expected_elements": [
+    "NOVOS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -592.805,
+     115.121,
+     104.277
+    ],
+    "rotation": [
+     0.00018,
+     7.5e-05,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_qualitybrands",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: QUALITYBRANDS -> MARCAS DE QUALIDADE (1 instance(s) in the level)",
+   "expected_elements": [
+    "MARCAS DE QUALIDADE"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -586.457,
+     115.401,
+     104.249
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_newused",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: NEWUSED -> NOVOS  USADOS (1 instance(s) in the level)",
+   "expected_elements": [
+    "NOVOS  USADOS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -584.263,
+     118.373,
+     103.999
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382787,
+     0.923837
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_radiators",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: RADIATORS -> RADIADORES (1 instance(s) in the level)",
+   "expected_elements": [
+    "RADIADORES"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -613.926,
+     92.098,
+     103.984
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382767,
+     0.923845
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_suspension",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: SUSPENSION -> SUSPENSÃO (1 instance(s) in the level)",
+   "expected_elements": [
+    "SUSPENSÃO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -613.936,
+     92.136,
+     103.67
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382935,
+     0.923775
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_transmissions",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: TRANSMISSIONS -> CÂMBIOS (1 instance(s) in the level)",
+   "expected_elements": [
+    "CÂMBIOS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -613.95,
+     92.165,
+     103.362
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382599,
+     0.923915
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_tires",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: TIRES -> PNEUS (1 instance(s) in the level)",
+   "expected_elements": [
+    "PNEUS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -584.384,
+     121.984,
+     103.963
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_fullservice",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: FULLSERVICE -> SERVIÇO COMPLETO (1 instance(s) in the level)",
+   "expected_elements": [
+    "SERVIÇO COMPLETO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -595.117,
+     109.854,
+     103.905
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_glass",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: GLASS -> VIDROS (1 instance(s) in the level)",
+   "expected_elements": [
+    "VIDROS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -611.072,
+     95.323,
+     103.857
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_used",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: USED -> USADOS (1 instance(s) in the level)",
+   "expected_elements": [
+    "USADOS"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -592.448,
+     114.92,
+     103.627
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382904,
+     0.923788
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_entry",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: ENTRY -> ENTRADA (1 instance(s) in the level)",
+   "expected_elements": [
+    "ENTRADA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -559.378,
+     148.413,
+     102.116
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382808,
+     0.923828
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_gotaflat",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: GOTAFLAT -> PNEU FURADO (1 instance(s) in the level)",
+   "expected_elements": [
+    "PNEU FURADO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -587.279,
+     115.491,
+     101.964
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382631,
+     0.923901
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_brick_walls_slums_car_sh_from",
+   "family": "glyph_signs",
+   "description": "s_brick_walls_slums_car_shops: from -> a partir de (1 instance(s) in the level)",
+   "expected_elements": [
+    "a partir de"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -597.333,
+     111.451,
+     103.389
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382193,
+     0.924082
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_tunnel_mainTrackEntrance_welcometo",
+   "family": "glyph_signs",
+   "description": "tunnel_mainTrackEntrance: WELCOMETO -> BEM-VINDO AO (1 instance(s) in the level)",
+   "expected_elements": [
+    "BEM-VINDO AO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae",
+    "position": [
+     341.109,
+     -194.747,
+     144.047
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     332.09,
+     -326.334,
+     144.397
+    ],
+    "rotation": [
+     -9.1e-05,
+     0.0,
+     0.001362,
+     0.999999
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_tunnel_mainTrackEntrance_thanksforvisit",
+   "family": "glyph_signs",
+   "description": "tunnel_mainTrackEntrance: THANKSFORVISITING -> OBRIGADO PELA VISITA (1 instance(s) in the level)",
+   "expected_elements": [
+    "OBRIGADO PELA VISITA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae",
+    "position": [
+     341.109,
+     -194.747,
+     144.047
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     332.138,
+     -217.316,
+     144.334
+    ],
+    "rotation": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_tunnel_mainTrackEntrance_maxclearance",
+   "family": "glyph_signs",
+   "description": "tunnel_mainTrackEntrance: MAXCLEARANCE -> ALTURA MÁXIMA (1 instance(s) in the level)",
+   "expected_elements": [
+    "ALTURA MÁXIMA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae",
+    "position": [
+     341.109,
+     -194.747,
+     144.047
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     362.08,
+     -343.758,
+     152.697
+    ],
+    "rotation": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_tunnel_mainTrackEntrance_ft",
+   "family": "glyph_signs",
+   "description": "tunnel_mainTrackEntrance: 13FT1IN -> 3,9 (1 instance(s) in the level)",
+   "expected_elements": [
+    "3,9 m"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae",
+    "position": [
+     341.109,
+     -194.747,
+     144.047
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     359.945,
+     -345.663,
+     152.738
+    ],
+    "rotation": [
+     0,
+     0,
+     0.999999,
+     -0.00125
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_smash_auto_sign_001_w",
+   "family": "glyph_signs",
+   "description": "s_smash_auto_sign_001: W -> C (1 instance(s) in the level)",
+   "expected_elements": [
+    "C"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_smash_auto_sign_001.dae",
+    "position": [
+     -607.303,
+     103.495,
+     103.111
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -604.749,
+     103.847,
+     108.412
+    ],
+    "rotation": [
+     0,
+     0,
+     0.923744,
+     -0.38301
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_smash_auto_sign_001_efixallbrands",
+   "family": "glyph_signs",
+   "description": "s_smash_auto_sign_001: efixallbrands -> onsertamos todas as marcas! (1 instance(s) in the level)",
+   "expected_elements": [
+    "onsertamos todas as marcas!"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_smash_auto_sign_001.dae",
+    "position": [
+     -607.303,
+     103.495,
+     103.111
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -604.06,
+     105.962,
+     108.393
+    ],
+    "rotation": [
+     0,
+     0,
+     0.923913,
+     -0.382601
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_dragstrip_tree_alder_irsensor",
+   "family": "glyph_signs",
+   "description": "dragstrip_tree_alder: IRSENSOR -> SENSOR IV (1 instance(s) in the level)",
+   "expected_elements": [
+    "SENSOR IV"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/race/dragstrip/dragstrip_tree_alder.dae",
+    "position": [
+     -179.977,
+     -145.092,
+     120.021
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -196.882,
+     -147.449,
+     119.549
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.308055,
+     0.951369
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_dragstrip_tree_alder_nsep",
+   "family": "glyph_signs",
+   "description": "dragstrip_tree_alder: N SEP -> NÃO PISE (1 instance(s) in the level)",
+   "expected_elements": [
+    "NÃO PISE"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/race/dragstrip/dragstrip_tree_alder.dae",
+    "position": [
+     -179.977,
+     -145.092,
+     120.021
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -192.259,
+     -154.018,
+     120.669
+    ],
+    "rotation": [
+     0.637173,
+     0.287536,
+     -0.294129,
+     0.651783
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_dragStrip_irSensorBox_irsensor",
+   "family": "glyph_signs",
+   "description": "dragStrip_irSensorBox: IRSENSOR -> SENSOR IV (14 instance(s) in the level)",
+   "expected_elements": [
+    "SENSOR IV"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/race/dragstrip/dragStrip_irSensorBox.dae",
+    "position": [
+     -182.898,
+     -135.877,
+     119.398
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -182.196,
+     -136.82,
+     119.549
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.30905,
+     0.951046
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_s_busstop_wcu_mapa",
+   "family": "glyph_signs",
+   "description": "s_busstop_wcu: MAP -> MAPA",
+   "expected_elements": [
+    "MAPA / INFO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/objects/s_busstop_wcu.dae",
+    "position": [
+     -914.654,
+     230.679,
+     158.9
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -914.368,
+     230.997,
+     160.84
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382683,
+     0.92388
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_s_busstop_wcu_04_mapa",
+   "family": "glyph_signs",
+   "description": "s_busstop_wcu_04: MAP -> MAPA",
+   "expected_elements": [
+    "MAPA / INFO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/art/shapes/objects/s_busstop_wcu_04.dae",
+    "position": [
+     -800.571,
+     547.668,
+     125.386
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -799.199,
+     547.277,
+     127.325
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.707107,
+     0.707107
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_only_0_1",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_only_0 (re-targeted)",
+   "expected_elements": [
+    "rs_only_0"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -149.604,
+     -752.811,
+     125.374
+    ],
+    "rotation": [
+     0,
+     0,
+     0.938389,
+     0.34558
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_only_0_2",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_only_0 (re-targeted)",
+   "expected_elements": [
+    "rs_only_0"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     790.942,
+     -319.732,
+     161.692
+    ],
+    "rotation": [
+     0,
+     0,
+     0.548204,
+     0.836345
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_only_0_3",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_only_0 (re-targeted)",
+   "expected_elements": [
+    "rs_only_0"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     787.313,
+     -315.318,
+     161.76
+    ],
+    "rotation": [
+     0,
+     0,
+     0.548214,
+     0.836338
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_only_1_4",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_only_1 (re-targeted)",
+   "expected_elements": [
+    "rs_only_1"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -109.282,
+     475.35,
+     99.021
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.522127,
+     0.852868
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_only_1_5",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_only_1 (re-targeted)",
+   "expected_elements": [
+    "rs_only_1"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -281.142,
+     566.279,
+     83.333
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.400385,
+     0.916347
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_carpools_1_6",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_carpools_1 (re-targeted)",
+   "expected_elements": [
+    "rs_carpools_1"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     289.849,
+     569.022,
+     125.988
+    ],
+    "rotation": [
+     0,
+     0,
+     0.452963,
+     0.891529
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_carpools_1_7",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_carpools_1 (re-targeted)",
+   "expected_elements": [
+    "rs_carpools_1"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     -293.425,
+     67.934,
+     120.555
+    ],
+    "rotation": [
+     0,
+     0,
+     0.386217,
+     0.922408
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_frac_quarter_8",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_frac_quarter (re-targeted)",
+   "expected_elements": [
+    "rs_frac_quarter"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     800.252,
+     -299.445,
+     162.92
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.836071,
+     0.548622
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_frac_half_0_9",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_frac_half_0 (re-targeted)",
+   "expected_elements": [
+    "rs_frac_half_0"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     293.408,
+     564.546,
+     124.842
+    ],
+    "rotation": [
+     0,
+     0,
+     0.452963,
+     0.891529
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
+   }
+  },
+  {
+   "id": "gl_roadsigns_rs_frac_3q_0_10",
+   "family": "glyph_signs",
+   "description": "roadsigns.dae: tile rs_frac_3q_0 (re-targeted)",
+   "expected_elements": [
+    "rs_frac_3q_0"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "camera": {
+    "position": [
+     287.759,
+     -722.961,
+     151.246
+    ],
+    "rotation": [
+     0,
+     0,
+     0.702593,
+     0.711592
+    ],
+    "fov": 45,
+    "source": "tools/beamng/catalog_add.py (pose)"
    }
   }
  ]

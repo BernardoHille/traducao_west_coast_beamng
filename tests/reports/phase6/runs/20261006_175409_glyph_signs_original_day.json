@@ -1,0 +1,3684 @@
+{
+  "started": "2026-10-06T17:46:39",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "glyph_signs": [
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_motel_sign.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_motel_sign.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_food_mart_sign_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_food_mart_sign_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_full_service_sign_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_full_service_sign_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_exhaust_sign_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_002.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_exhaust_sign_002.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_fix_sign_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_sound_sign_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_sound_sign_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_stereo_sign_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_car_parts_sign_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_torres_tires_sign_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_torres_tires_sign_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/diner_building.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\diner_building.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/gasstation_north.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\gasstation_north.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_fuel_main_05.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_bld_food_mart_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_bld_laundomat_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_bld_laundomat_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_bld_shops_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_brick_walls_slums_car_shops.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\roads\\tunnel_mainTrackEntrance.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/buildings/s_smash_auto_sign_001.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\buildings\\s_smash_auto_sign_001.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/art/shapes/race/dragstrip/dragstrip_tree_alder.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\art_shapes.zip\\art\\shapes\\race\\dragstrip\\dragstrip_tree_alder.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/art/shapes/race/dragstrip/dragStrip_irSensorBox.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\art_shapes.zip\\art\\shapes\\race\\dragstrip\\dragStrip_irSensorBox.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/art/shapes/objects/s_busstop_wcu.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\art_shapes.zip\\art\\shapes\\objects\\s_busstop_wcu.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/art/shapes/objects/s_busstop_wcu_04.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\art_shapes.zip\\art\\shapes\\objects\\s_busstop_wcu_04.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\art\\shapes\\roads\\roadsigns.dae",
+        "expected_contains": ".zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "gl_motel_sign_motel",
+      "object": {
+        "dist": 0,
+        "id": 103316,
+        "materials": [
+          "industrial",
+          "metal_plates",
+          "clutter_commercial",
+          "weatherboards",
+          "architraves"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_motel_sign_motel_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174648_1.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 141.25,
+          "x": -542.666,
+          "z": 108.538
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92558866915672,
+          "x": 0,
+          "w": 0.37853086469757
+        }
+      }
+    },
+    {
+      "location": "gl_motel_sign_cable",
+      "object": {
+        "dist": 0,
+        "id": 103316,
+        "materials": [
+          "industrial",
+          "metal_plates",
+          "clutter_commercial",
+          "weatherboards",
+          "architraves"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_motel_sign_cable_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174653_2.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 138.099,
+          "x": -544.198,
+          "z": 107.165
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92546996717312,
+          "x": 0,
+          "w": 0.37882098656303
+        }
+      }
+    },
+    {
+      "location": "gl_food_mart_sign_001_delifoodmart",
+      "object": {
+        "dist": 0.00041844072614076,
+        "id": 103526,
+        "materials": [
+          "architraves",
+          "industrial",
+          "slabs_large",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_food_mart_sign_001_delifoodmart_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174658_3.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 63.316,
+          "x": -650.298,
+          "z": 110.544
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38258595910233,
+          "x": 0,
+          "w": 0.92391990123482
+        }
+      }
+    },
+    {
+      "location": "gl_food_mart_sign_001_icecoldbeersod",
+      "object": {
+        "dist": 0.00041844072614076,
+        "id": 103526,
+        "materials": [
+          "architraves",
+          "industrial",
+          "slabs_large",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_food_mart_sign_001_icecoldbeersod_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174703_4.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 63.324,
+          "x": -650.304,
+          "z": 109.718
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.3829110842125,
+          "x": 0,
+          "w": 0.92378520316533
+        }
+      }
+    },
+    {
+      "location": "gl_full_service_sign_001_fullservice",
+      "object": {
+        "dist": 0.00038811787461648,
+        "id": 103520,
+        "materials": [
+          "architraves",
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_full_service_sign_001_fullservice_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174708_5.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 96.883,
+          "x": -609.067,
+          "z": 108.451
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38261410226128,
+          "x": 0,
+          "w": 0.92390824693299
+        }
+      }
+    },
+    {
+      "location": "gl_full_service_sign_001_from",
+      "object": {
+        "dist": 0.00038811787461648,
+        "id": 103520,
+        "materials": [
+          "architraves",
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_full_service_sign_001_from_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174714_6.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 98.482,
+          "x": -611.281,
+          "z": 107.935
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_exhaust_sign_001_exhaust",
+      "object": {
+        "dist": 0.00046285476626233,
+        "id": 103516,
+        "materials": [
+          "architraves",
+          "construction",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_exhaust_sign_001_exhaust_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174719_7.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 161.772,
+          "x": -552.152,
+          "z": 107.61
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.66887494774415,
+          "x": 0,
+          "w": 0.74337494192383
+        }
+      }
+    },
+    {
+      "location": "gl_exhaust_sign_001_carstereo",
+      "object": {
+        "dist": 0.00046285476626233,
+        "id": 103516,
+        "materials": [
+          "architraves",
+          "construction",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_exhaust_sign_001_carstereo_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174724_8.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 161.818,
+          "x": -552.197,
+          "z": 107.045
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.66915283169671,
+          "x": 0,
+          "w": 0.7431248130915
+        }
+      }
+    },
+    {
+      "location": "gl_exhaust_sign_002_exhaust",
+      "object": {
+        "dist": 0.00037419783705314,
+        "id": 103518,
+        "materials": [
+          "architraves",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_exhaust_sign_002_exhaust_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174729_9.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 161.256,
+          "x": -568.497,
+          "z": 106.626
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_exhaust_sign_002_carstereo",
+      "object": {
+        "dist": 0.00037419783705314,
+        "id": 103518,
+        "materials": [
+          "architraves",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_exhaust_sign_002_carstereo_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174734_10.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 161.319,
+          "x": -568.505,
+          "z": 106.061
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38282581120624,
+          "x": 0,
+          "w": 0.92382054441016
+        }
+      }
+    },
+    {
+      "location": "gl_fix_sign_001_wefix",
+      "object": {
+        "dist": 0.00040731807292771,
+        "id": 103524,
+        "materials": [
+          "architraves",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_fix_sign_001_wefix_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174739_11.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 110.023,
+          "x": -603.213,
+          "z": 105.717
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38258887346219,
+          "x": 0,
+          "w": 0.92391869442226
+        }
+      }
+    },
+    {
+      "location": "gl_fix_sign_001_radiators",
+      "object": {
+        "dist": 0.00040731807292771,
+        "id": 103524,
+        "materials": [
+          "architraves",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_fix_sign_001_radiators_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174744_12.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 109.613,
+          "x": -603.487,
+          "z": 105.263
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38243393333317,
+          "x": 0,
+          "w": 0.92398283892902
+        }
+      }
+    },
+    {
+      "location": "gl_fix_sign_001_suspension",
+      "object": {
+        "dist": 0.00040731807292771,
+        "id": 103524,
+        "materials": [
+          "architraves",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_fix_sign_001_suspension_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174749_13.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 109.624,
+          "x": -603.45,
+          "z": 104.95
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38251595316915,
+          "x": 0,
+          "w": 0.92394888688233
+        }
+      }
+    },
+    {
+      "location": "gl_fix_sign_001_transmissions",
+      "object": {
+        "dist": 0.00040731807292771,
+        "id": 103524,
+        "materials": [
+          "architraves",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_fix_sign_001_transmissions_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174754_14.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 109.638,
+          "x": -603.42,
+          "z": 104.642
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38276817642555,
+          "x": 0,
+          "w": 0.92384442581847
+        }
+      }
+    },
+    {
+      "location": "gl_fix_sign_001_glass",
+      "object": {
+        "dist": 0.00040731807292771,
+        "id": 103524,
+        "materials": [
+          "architraves",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_fix_sign_001_glass_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174800_15.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 115.008,
+          "x": -597.919,
+          "z": 106.054
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92380475957014,
+          "x": 0,
+          "w": 0.38286390035566
+        }
+      }
+    },
+    {
+      "location": "gl_sound_sign_001_sound",
+      "object": {
+        "dist": 0.00058518640059978,
+        "id": 103525,
+        "materials": [
+          "architraves",
+          "construction",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_sound_sign_001_sound_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174805_16.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 152.345,
+          "x": -560.18,
+          "z": 105.322
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92394270747517,
+          "x": 0,
+          "w": 0.38253087888883
+        }
+      }
+    },
+    {
+      "location": "gl_sound_sign_001_tint",
+      "object": {
+        "dist": 0.00058518640059978,
+        "id": 103525,
+        "materials": [
+          "architraves",
+          "construction",
+          "clutter_commercial",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_sound_sign_001_tint_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174810_17.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 151.684,
+          "x": -561.281,
+          "z": 104.692
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92387975383735,
+          "x": 0,
+          "w": 0.38268289803626
+        }
+      }
+    },
+    {
+      "location": "gl_stereo_sign_001_stereos",
+      "object": {
+        "dist": 0.00038788484797585,
+        "id": 103529,
+        "materials": [
+          "architraves",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_stereo_sign_001_stereos_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174815_18.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 156.288,
+          "x": -575.316,
+          "z": 104.98
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38278310041684,
+          "x": 0,
+          "w": 0.92383824235375
+        }
+      }
+    },
+    {
+      "location": "gl_stereo_sign_001_alarms",
+      "object": {
+        "dist": 0.00038788484797585,
+        "id": 103529,
+        "materials": [
+          "architraves",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_stereo_sign_001_alarms_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174820_19.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 156.221,
+          "x": -575.249,
+          "z": 104.623
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_stereo_sign_001_windows",
+      "object": {
+        "dist": 0.00038788484797585,
+        "id": 103529,
+        "materials": [
+          "architraves",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_stereo_sign_001_windows_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174825_20.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 156.268,
+          "x": -575.281,
+          "z": 104.255
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38248610141295,
+          "x": 0,
+          "w": 0.9239612449805
+        }
+      }
+    },
+    {
+      "location": "gl_car_parts_sign_001_rims",
+      "object": {
+        "dist": 0.00011579712351412,
+        "id": 103517,
+        "materials": [
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_car_parts_sign_001_rims_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174830_21.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 129.187,
+          "x": -584.827,
+          "z": 108.754
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92391372070231,
+          "x": 0,
+          "w": 0.38260088434034
+        }
+      }
+    },
+    {
+      "location": "gl_car_parts_sign_001_tires",
+      "object": {
+        "dist": 0.00011579712351412,
+        "id": 103517,
+        "materials": [
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_car_parts_sign_001_tires_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174835_22.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 129.469,
+          "x": -584.28,
+          "z": 107.996
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92387975383735,
+          "x": 0,
+          "w": 0.38268289803626
+        }
+      }
+    },
+    {
+      "location": "gl_car_parts_sign_001_liftkits",
+      "object": {
+        "dist": 0.00011579712351412,
+        "id": 103517,
+        "materials": [
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_car_parts_sign_001_liftkits_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174841_23.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 130.3,
+          "x": -582.482,
+          "z": 107.126
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92385849938261,
+          "x": 0,
+          "w": 0.3827342068832
+        }
+      }
+    },
+    {
+      "location": "gl_car_parts_sign_001_hydraulics",
+      "object": {
+        "dist": 0.00011579712351412,
+        "id": 103517,
+        "materials": [
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_car_parts_sign_001_hydraulics_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174846_24.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 131.103,
+          "x": -581.364,
+          "z": 106.322
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92396671688833,
+          "x": 0,
+          "w": 0.38247288280688
+        }
+      }
+    },
+    {
+      "location": "gl_torres_tires_sign_001_tirerotation",
+      "object": {
+        "dist": 0.00049496311973571,
+        "id": 103528,
+        "materials": [
+          "architraves",
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_torres_tires_sign_001_tirerotation_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174851_25.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 129.33,
+          "x": -582.375,
+          "z": 108.811
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_torres_tires_sign_001_wheelalignment",
+      "object": {
+        "dist": 0.00049496311973571,
+        "id": 103528,
+        "materials": [
+          "architraves",
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_torres_tires_sign_001_wheelalignment_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174856_26.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 128.668,
+          "x": -582.722,
+          "z": 108.359
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38285103746178,
+          "x": 0,
+          "w": 0.92381009039436
+        }
+      }
+    },
+    {
+      "location": "gl_diner_building_open",
+      "object": {
+        "dist": 0,
+        "id": 103318,
+        "materials": [
+          "industrial",
+          "slabs_large",
+          "concrete_plain",
+          "street_lines1",
+          "clutter_commercial",
+          "brick_plain",
+          "curbs",
+          "groundmesh_grass2",
+          "lod_vertcol",
+          "corrugation"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_diner_building_open_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174901_27.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 114.32,
+          "x": -693.374,
+          "z": 131.048
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.70710678118655,
+          "x": 0,
+          "w": 0.70710678118655
+        }
+      }
+    },
+    {
+      "location": "gl_diner_building_hrs",
+      "object": {
+        "dist": 0,
+        "id": 103318,
+        "materials": [
+          "industrial",
+          "slabs_large",
+          "concrete_plain",
+          "street_lines1",
+          "clutter_commercial",
+          "brick_plain",
+          "curbs",
+          "groundmesh_grass2",
+          "lod_vertcol",
+          "corrugation"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_diner_building_hrs_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174906_28.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 113.827,
+          "x": -692.439,
+          "z": 130.293
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.70710678118655,
+          "x": 0,
+          "w": 0.70710678118655
+        }
+      }
+    },
+    {
+      "location": "gl_diner_building_restaurant",
+      "object": {
+        "dist": 0,
+        "id": 103318,
+        "materials": [
+          "industrial",
+          "slabs_large",
+          "concrete_plain",
+          "street_lines1",
+          "clutter_commercial",
+          "brick_plain",
+          "curbs",
+          "groundmesh_grass2",
+          "lod_vertcol",
+          "corrugation"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_diner_building_restaurant_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174911_29.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 114.303,
+          "x": -700.501,
+          "z": 127.791
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.70713678054084,
+          "x": 0,
+          "w": 0.70707678055946
+        }
+      }
+    },
+    {
+      "location": "gl_gasstation_north_save",
+      "object": {
+        "dist": 0,
+        "id": 102870,
+        "materials": [
+          "highrise",
+          "clutter_commercial",
+          "curbs",
+          "slabs_large",
+          "architraves",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "brick_painted",
+          "concrete_precast1",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_gasstation_north_save_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174916_30.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -501.161,
+          "x": 926.173,
+          "z": 165.099
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.99446451691213,
+          "x": 0,
+          "w": 0.10507294895799
+        }
+      }
+    },
+    {
+      "location": "gl_gasstation_north_pack",
+      "object": {
+        "dist": 0,
+        "id": 102870,
+        "materials": [
+          "highrise",
+          "clutter_commercial",
+          "curbs",
+          "slabs_large",
+          "architraves",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "brick_painted",
+          "concrete_precast1",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_gasstation_north_pack_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174921_31.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -501.059,
+          "x": 925.692,
+          "z": 164.759
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.99445901575919,
+          "x": 0,
+          "w": 0.10512500166592
+        }
+      }
+    },
+    {
+      "location": "gl_gasstation_north_nowopen",
+      "object": {
+        "dist": 0,
+        "id": 102870,
+        "materials": [
+          "highrise",
+          "clutter_commercial",
+          "curbs",
+          "slabs_large",
+          "architraves",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "brick_painted",
+          "concrete_precast1",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_gasstation_north_nowopen_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174927_32.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -500.404,
+          "x": 925.994,
+          "z": 164.03
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.99450300881478,
+          "x": 0,
+          "w": 0.10470800092808
+        }
+      }
+    },
+    {
+      "location": "gl_gasstation_north_atm",
+      "object": {
+        "dist": 0,
+        "id": 102870,
+        "materials": [
+          "highrise",
+          "clutter_commercial",
+          "curbs",
+          "slabs_large",
+          "architraves",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "brick_painted",
+          "concrete_precast1",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_gasstation_north_atm_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174932_33.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -498.879,
+          "x": 919.678,
+          "z": 164.645
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.9944743296305,
+          "x": 0,
+          "w": 0.1049800347969
+        }
+      }
+    },
+    {
+      "location": "gl_fuel_main_05_save",
+      "object": {
+        "dist": 0.00057855211736465,
+        "id": 93323,
+        "materials": [
+          "brick_painted",
+          "industrial",
+          "corrugation",
+          "concrete_precast1",
+          "highrise",
+          "windows_doors_reflective",
+          "slabs_large",
+          "m_metal_trim_01",
+          "m_gasstation_tyrannos",
+          "clutter_commercial",
+          "architraves",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_fuel_main_05_save_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174937_34.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 1759.037,
+          "x": 134.459,
+          "z": 104.845
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.79828663133016,
+          "x": 0,
+          "w": 0.60227772185225
+        }
+      }
+    },
+    {
+      "location": "gl_fuel_main_05_pack",
+      "object": {
+        "dist": 0.00057855211736465,
+        "id": 93323,
+        "materials": [
+          "brick_painted",
+          "industrial",
+          "corrugation",
+          "concrete_precast1",
+          "highrise",
+          "windows_doors_reflective",
+          "slabs_large",
+          "m_metal_trim_01",
+          "m_gasstation_tyrannos",
+          "clutter_commercial",
+          "architraves",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_fuel_main_05_pack_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174942_35.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 1759.51,
+          "x": 134.324,
+          "z": 104.505
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.79828663133016,
+          "x": 0,
+          "w": 0.60227772185225
+        }
+      }
+    },
+    {
+      "location": "gl_fuel_main_05_nowopen",
+      "object": {
+        "dist": 0.00057855211736465,
+        "id": 93323,
+        "materials": [
+          "brick_painted",
+          "industrial",
+          "corrugation",
+          "concrete_precast1",
+          "highrise",
+          "windows_doors_reflective",
+          "slabs_large",
+          "m_metal_trim_01",
+          "m_gasstation_tyrannos",
+          "clutter_commercial",
+          "architraves",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_fuel_main_05_nowopen_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174947_36.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 1759.55,
+          "x": 135.044,
+          "z": 103.776
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.79850159434013,
+          "x": 0,
+          "w": 0.60199269417184
+        }
+      }
+    },
+    {
+      "location": "gl_fuel_main_05_atm",
+      "object": {
+        "dist": 0.00057855211736465,
+        "id": 93323,
+        "materials": [
+          "brick_painted",
+          "industrial",
+          "corrugation",
+          "concrete_precast1",
+          "highrise",
+          "windows_doors_reflective",
+          "slabs_large",
+          "m_metal_trim_01",
+          "m_gasstation_tyrannos",
+          "clutter_commercial",
+          "architraves",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_fuel_main_05_atm_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174952_37.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 1765.836,
+          "x": 133.4,
+          "z": 104.391
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.79827976499885,
+          "x": 0,
+          "w": 0.60228682269612
+        }
+      }
+    },
+    {
+      "location": "gl_bld_food_mart_001_save",
+      "object": {
+        "dist": 0,
+        "id": 103535,
+        "materials": [
+          "clutter_commercial",
+          "wirefence",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "m_stucco_scraped_01",
+          "stone_brick_regular",
+          "curbs",
+          "m_bld_food_mart_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_food_mart_001_save_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_174957_38.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 93.655,
+          "x": -635.973,
+          "z": 105.25
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38240408044999,
+          "x": 0,
+          "w": 0.92399519438967
+        }
+      }
+    },
+    {
+      "location": "gl_bld_food_mart_001_pack",
+      "object": {
+        "dist": 0,
+        "id": 103535,
+        "materials": [
+          "clutter_commercial",
+          "wirefence",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "m_stucco_scraped_01",
+          "stone_brick_regular",
+          "curbs",
+          "m_bld_food_mart_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_food_mart_001_pack_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175002_39.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 94.358,
+          "x": -635.604,
+          "z": 104.726
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.3828390279193,
+          "x": 0,
+          "w": 0.92381506737106
+        }
+      }
+    },
+    {
+      "location": "gl_bld_food_mart_001_nowopen",
+      "object": {
+        "dist": 0,
+        "id": 103535,
+        "materials": [
+          "clutter_commercial",
+          "wirefence",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "m_stucco_scraped_01",
+          "stone_brick_regular",
+          "curbs",
+          "m_bld_food_mart_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_food_mart_001_nowopen_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175007_40.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 93.061,
+          "x": -634.657,
+          "z": 103.607
+        },
+        "mode": "free",
+        "rot": {
+          "y": 5.2000014226563e-05,
+          "z": -0.38268289452916,
+          "x": 0.00012500003449466,
+          "w": 0.92387974537045
+        }
+      }
+    },
+    {
+      "location": "gl_bld_food_mart_001_atm",
+      "object": {
+        "dist": 0,
+        "id": 103535,
+        "materials": [
+          "clutter_commercial",
+          "wirefence",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "m_stucco_scraped_01",
+          "stone_brick_regular",
+          "curbs",
+          "m_bld_food_mart_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_food_mart_001_atm_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175013_41.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 86.341,
+          "x": -643.096,
+          "z": 106.34
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38253706121186,
+          "x": 0,
+          "w": 0.92394014784476
+        }
+      }
+    },
+    {
+      "location": "gl_bld_food_mart_001_canalstdelifoo",
+      "object": {
+        "dist": 0,
+        "id": 103535,
+        "materials": [
+          "clutter_commercial",
+          "wirefence",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "m_stucco_scraped_01",
+          "stone_brick_regular",
+          "curbs",
+          "m_bld_food_mart_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_food_mart_001_canalstdelifoo_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175018_42.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 80.823,
+          "x": -629.126,
+          "z": 107.799
+        },
+        "mode": "free",
+        "rot": {
+          "y": -1.2999997579056e-05,
+          "z": -0.38261907708513,
+          "x": -2.9999993873939e-05,
+          "w": 0.92390618613663
+        }
+      }
+    },
+    {
+      "location": "gl_bld_food_mart_001_carwash",
+      "object": {
+        "dist": 0,
+        "id": 103535,
+        "materials": [
+          "clutter_commercial",
+          "wirefence",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "m_stucco_scraped_01",
+          "stone_brick_regular",
+          "curbs",
+          "m_bld_food_mart_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_food_mart_001_carwash_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175023_43.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 92.581,
+          "x": -634.274,
+          "z": 107.223
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.3828079735005,
+          "x": 0,
+          "w": 0.92382793604894
+        }
+      }
+    },
+    {
+      "location": "gl_bld_food_mart_001_lottotobaccoco",
+      "object": {
+        "dist": 0,
+        "id": 103535,
+        "materials": [
+          "clutter_commercial",
+          "wirefence",
+          "industrial",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "m_stucco_scraped_01",
+          "stone_brick_regular",
+          "curbs",
+          "m_bld_food_mart_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_food_mart_001_lottotobaccoco_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175028_44.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 78.683,
+          "x": -626.642,
+          "z": 106.577
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38263279519776,
+          "x": 0,
+          "w": 0.92390050548701
+        }
+      }
+    },
+    {
+      "location": "gl_bld_laundomat_001_laundromat",
+      "object": {
+        "dist": 0,
+        "id": 103612,
+        "materials": [
+          "industrial",
+          "windows_doors_reflective",
+          "slabs_large",
+          "balustrades",
+          "brick_painted",
+          "construction",
+          "clutter_commercial",
+          "stone_brick_regular",
+          "m_bld_laundomat_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_laundomat_001_laundromat_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175033_45.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 105.206,
+          "x": -721.729,
+          "z": 124.026
+        },
+        "mode": "free",
+        "rot": {
+          "y": -2.3000006260098e-05,
+          "z": -0.38268289733499,
+          "x": -5.6000014986344e-05,
+          "w": 0.92387975214434
+        }
+      }
+    },
+    {
+      "location": "gl_bld_shops_001_minimart",
+      "object": {
+        "dist": 0,
+        "id": 103761,
+        "materials": [
+          "architraves",
+          "industrial_trim",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "brick_painted",
+          "m_plaster_worn_01",
+          "clutter_commercial",
+          "tiles_marble_square",
+          "m_bld_shops_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_shops_001_minimart_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175038_46.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 125.382,
+          "x": -720.17,
+          "z": 124.599
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_bld_shops_001_atm",
+      "object": {
+        "dist": 0,
+        "id": 103761,
+        "materials": [
+          "architraves",
+          "industrial_trim",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "brick_painted",
+          "m_plaster_worn_01",
+          "clutter_commercial",
+          "tiles_marble_square",
+          "m_bld_shops_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_shops_001_atm_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175043_47.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 130.381,
+          "x": -705.154,
+          "z": 121.052
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_bld_shops_001_pack",
+      "object": {
+        "dist": 0,
+        "id": 103761,
+        "materials": [
+          "architraves",
+          "industrial_trim",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "brick_painted",
+          "m_plaster_worn_01",
+          "clutter_commercial",
+          "tiles_marble_square",
+          "m_bld_shops_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_shops_001_pack_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175048_48.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 137.75,
+          "x": -702.624,
+          "z": 120.222
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_bld_shops_001_grocery",
+      "object": {
+        "dist": 0,
+        "id": 103761,
+        "materials": [
+          "architraves",
+          "industrial_trim",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "brick_painted",
+          "m_plaster_worn_01",
+          "clutter_commercial",
+          "tiles_marble_square",
+          "m_bld_shops_001_LOD"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_bld_shops_001_grocery_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175053_49.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 125.353,
+          "x": -712.543,
+          "z": 128.442
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38279887776755,
+          "x": 0,
+          "w": 0.92383170500904
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_save",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_save_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175059_50.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 91.678,
+          "x": -624.521,
+          "z": 105.133
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38244509130706,
+          "x": 0,
+          "w": 0.92397822059567
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_pack",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_pack_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175104_51.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 91.212,
+          "x": -623.631,
+          "z": 104.468
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38281706920089,
+          "x": 0,
+          "w": 0.9238241669974
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_nowopen",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_nowopen_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175109_52.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 90.007,
+          "x": -625.276,
+          "z": 102.572
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38253706121186,
+          "x": 0,
+          "w": 0.92394014784476
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_wefix",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_wefix_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175114_53.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 92.372,
+          "x": -614.335,
+          "z": 104.437
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38277812576484,
+          "x": 0,
+          "w": 0.92384030353517
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_new",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_new_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175119_54.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 115.121,
+          "x": -592.805,
+          "z": 104.277
+        },
+        "mode": "free",
+        "rot": {
+          "y": 7.500002119404e-05,
+          "z": -0.3826828907605,
+          "x": 0.00018000005147141,
+          "w": 0.92387973627208
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_qualitybrands",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_qualitybrands_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175124_55.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 115.401,
+          "x": -586.457,
+          "z": 104.249
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_newused",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_newused_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175129_56.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 118.373,
+          "x": -584.263,
+          "z": 103.999
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38278686795042,
+          "x": 0,
+          "w": 0.92383668130504
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_radiators",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_radiators_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175134_57.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 92.098,
+          "x": -613.926,
+          "z": 103.984
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38276696931855,
+          "x": 0,
+          "w": 0.92384492594737
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_suspension",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_suspension_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175139_58.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 92.136,
+          "x": -613.936,
+          "z": 103.67
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38293510246387,
+          "x": 0,
+          "w": 0.92377524717919
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_transmissions",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_transmissions_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175145_59.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 92.165,
+          "x": -613.95,
+          "z": 103.362
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38259882361701,
+          "x": 0,
+          "w": 0.92391457406347
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_tires",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_tires_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175150_60.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 121.984,
+          "x": -584.384,
+          "z": 103.963
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_fullservice",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_fullservice_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175155_61.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 109.854,
+          "x": -595.117,
+          "z": 103.905
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_glass",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_glass_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175200_62.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 95.323,
+          "x": -611.072,
+          "z": 103.857
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_used",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_used_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175205_63.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 114.92,
+          "x": -592.448,
+          "z": 103.627
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38290404936399,
+          "x": 0,
+          "w": 0.92378811909477
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_entry",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_entry_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175210_64.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 148.413,
+          "x": -559.378,
+          "z": 102.116
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.3828079735005,
+          "x": 0,
+          "w": 0.92382793604894
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_gotaflat",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_gotaflat_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175215_65.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 115.491,
+          "x": -587.279,
+          "z": 101.964
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38263108801243,
+          "x": 0,
+          "w": 0.92390121251486
+        }
+      }
+    },
+    {
+      "location": "gl_brick_walls_slums_car_sh_from",
+      "object": {
+        "dist": 0,
+        "id": 103537,
+        "materials": [
+          "industrial_trim",
+          "windows_doors_reflective",
+          "balustrades",
+          "m_stucco_scraped_01",
+          "clutter_commercial",
+          "brick_plain",
+          "stone_brick_regular",
+          "groundmesh_grass2",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_brick_walls_slums_car_sh_from_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175220_66.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 111.451,
+          "x": -597.333,
+          "z": 103.389
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38219318498671,
+          "x": 0,
+          "w": 0.92408244726849
+        }
+      }
+    },
+    {
+      "location": "gl_tunnel_mainTrackEntrance_welcometo",
+      "object": {
+        "dist": 0.0007569396507901,
+        "id": 98322,
+        "materials": [
+          "ind_metal_trim",
+          "street_concrete1",
+          "slabs_large",
+          "brick_painted",
+          "concrete_plain",
+          "canal",
+          "asphalt_track",
+          "concrete_painted",
+          "retainingwall",
+          "roadsigns",
+          "curbs",
+          "slabs_marble",
+          "tiles_marble_square",
+          "vertexColor_glow",
+          "clutter_commercial",
+          "industrial",
+          "stucco1_white",
+          "metal_galvanized",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_tunnel_mainTrackEntrance_welcometo_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175225_67.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -326.334,
+          "x": 332.09,
+          "z": 144.397
+        },
+        "mode": "free",
+        "rot": {
+          "y": -1.6939635993984e-14,
+          "z": 0.001362000093075,
+          "x": -9.0999993781356e-05,
+          "w": 0.99999906833694
+        }
+      }
+    },
+    {
+      "location": "gl_tunnel_mainTrackEntrance_thanksforvisit",
+      "object": {
+        "dist": 0.0007569396507901,
+        "id": 98322,
+        "materials": [
+          "ind_metal_trim",
+          "street_concrete1",
+          "slabs_large",
+          "brick_painted",
+          "concrete_plain",
+          "canal",
+          "asphalt_track",
+          "concrete_painted",
+          "retainingwall",
+          "roadsigns",
+          "curbs",
+          "slabs_marble",
+          "tiles_marble_square",
+          "vertexColor_glow",
+          "clutter_commercial",
+          "industrial",
+          "stucco1_white",
+          "metal_galvanized",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_tunnel_mainTrackEntrance_thanksforvisit_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175231_68.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -217.316,
+          "x": 332.138,
+          "z": 144.334
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 1,
+          "x": 0,
+          "w": 6.1232339957368e-17
+        }
+      }
+    },
+    {
+      "location": "gl_tunnel_mainTrackEntrance_maxclearance",
+      "object": {
+        "dist": 0.0007569396507901,
+        "id": 98322,
+        "materials": [
+          "ind_metal_trim",
+          "street_concrete1",
+          "slabs_large",
+          "brick_painted",
+          "concrete_plain",
+          "canal",
+          "asphalt_track",
+          "concrete_painted",
+          "retainingwall",
+          "roadsigns",
+          "curbs",
+          "slabs_marble",
+          "tiles_marble_square",
+          "vertexColor_glow",
+          "clutter_commercial",
+          "industrial",
+          "stucco1_white",
+          "metal_galvanized",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_tunnel_mainTrackEntrance_maxclearance_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175236_69.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -343.758,
+          "x": 362.08,
+          "z": 152.697
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 1,
+          "x": 0,
+          "w": 6.1232339957368e-17
+        }
+      }
+    },
+    {
+      "location": "gl_tunnel_mainTrackEntrance_ft",
+      "object": {
+        "dist": 0.0007569396507901,
+        "id": 98322,
+        "materials": [
+          "ind_metal_trim",
+          "street_concrete1",
+          "slabs_large",
+          "brick_painted",
+          "concrete_plain",
+          "canal",
+          "asphalt_track",
+          "concrete_painted",
+          "retainingwall",
+          "roadsigns",
+          "curbs",
+          "slabs_marble",
+          "tiles_marble_square",
+          "vertexColor_glow",
+          "clutter_commercial",
+          "industrial",
+          "stucco1_white",
+          "metal_galvanized",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_tunnel_mainTrackEntrance_ft_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175241_70.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -345.663,
+          "x": 359.945,
+          "z": 152.738
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.99999921874935,
+          "x": 0,
+          "w": 0.001250000273437
+        }
+      }
+    },
+    {
+      "location": "gl_smash_auto_sign_001_w",
+      "object": {
+        "dist": 0.0006785020712664,
+        "id": 103527,
+        "materials": [
+          "architraves",
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_smash_auto_sign_001_w_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175246_71.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 103.847,
+          "x": -604.749,
+          "z": 108.412
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92374416736583,
+          "x": 0,
+          "w": 0.38301006939454
+        }
+      }
+    },
+    {
+      "location": "gl_smash_auto_sign_001_efixallbrands",
+      "object": {
+        "dist": 0.0006785020712664,
+        "id": 103527,
+        "materials": [
+          "architraves",
+          "industrial",
+          "construction",
+          "clutter_commercial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_smash_auto_sign_001_efixallbrands_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175251_72.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 105.962,
+          "x": -604.06,
+          "z": 108.393
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.92391357431872,
+          "x": 0,
+          "w": 0.38260123783074
+        }
+      }
+    },
+    {
+      "location": "gl_dragstrip_tree_alder_irsensor",
+      "object": {
+        "dist": 0.00050864080221485,
+        "id": 98333,
+        "materials": [
+          "industrial",
+          "concrete_plain",
+          "clutter_commercial",
+          "barrierfence",
+          "ind_metal_trim",
+          "m_metal_trim_01",
+          "m_plastic_trim",
+          "ind_metal_grate",
+          "walls_transparent"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_dragstrip_tree_alder_irsensor_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175256_73.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -147.449,
+          "x": -196.882,
+          "z": 119.549
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.30805486796987,
+          "x": 0,
+          "w": 0.95136859225017
+        }
+      }
+    },
+    {
+      "location": "gl_dragstrip_tree_alder_nsep",
+      "object": {
+        "dist": 0.00050864080221485,
+        "id": 98333,
+        "materials": [
+          "industrial",
+          "concrete_plain",
+          "clutter_commercial",
+          "barrierfence",
+          "ind_metal_trim",
+          "m_metal_trim_01",
+          "m_plastic_trim",
+          "ind_metal_grate",
+          "walls_transparent"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_dragstrip_tree_alder_nsep_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175301_74.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -154.018,
+          "x": -192.259,
+          "z": 120.669
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.28753175923236,
+          "z": -0.29413333807021,
+          "x": 0.63716360251502,
+          "w": 0.65179261310519
+        }
+      }
+    },
+    {
+      "location": "gl_dragStrip_irSensorBox_irsensor",
+      "object": {
+        "dist": 0.00056234804060328,
+        "id": 104818,
+        "materials": [
+          "clutter_commercial",
+          "ind_metal_trim",
+          "m_metal_trim_01"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_dragStrip_irSensorBox_irsensor_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175306_75.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -136.82,
+          "x": -182.196,
+          "z": 119.549
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.30904993871293,
+          "x": 0,
+          "w": 0.95104581140003
+        }
+      }
+    },
+    {
+      "location": "gl_s_busstop_wcu_mapa",
+      "object": {
+        "dist": 0.00049783961153414,
+        "id": 104621,
+        "materials": [
+          "ind_glass_transparent",
+          "m_bus_routes_wca",
+          "m_sign_busstop",
+          "industrial_trim",
+          "m_metal_new_01",
+          "m_plastic_trim",
+          "m_plastic_01",
+          "m_billboardsigns_dealers",
+          "ind_concrete",
+          "lod_vertcol",
+          "m_bus_routes_utah"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_s_busstop_wcu_mapa_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175311_76.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 230.997,
+          "x": -914.368,
+          "z": 160.84
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "gl_s_busstop_wcu_04_mapa",
+      "object": {
+        "dist": 0.00049044184832544,
+        "id": 118554,
+        "materials": [
+          "industrial_trim",
+          "m_plastic_01",
+          "m_bus_routes_wca",
+          "m_billboardsigns_dealers",
+          "m_sign_busstop",
+          "ind_concrete",
+          "lod_vertcol"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_s_busstop_wcu_04_mapa_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175317_77.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 547.277,
+          "x": -799.199,
+          "z": 127.325
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.70710678118655,
+          "x": 0,
+          "w": 0.70710678118655
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_only_0_1",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_only_0_1_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175322_78.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -752.811,
+          "x": -149.604,
+          "z": 125.374
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.9383892572496,
+          "x": 0,
+          "w": 0.34558009473717
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_only_0_2",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_only_0_2_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175327_79.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -319.732,
+          "x": 790.942,
+          "z": 161.692
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.5482038397488,
+          "x": 0,
+          "w": 0.83634475551932
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_only_0_3",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_only_0_3_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175332_80.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -315.318,
+          "x": 787.313,
+          "z": 161.76
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.54821404384616,
+          "x": 0,
+          "w": 0.83633806689032
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_only_1_4",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_only_1_4_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175337_81.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 475.35,
+          "x": -109.282,
+          "z": 99.021
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.52212688785943,
+          "x": 0,
+          "w": 0.85286781682405
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_only_1_5",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_only_1_5_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175342_82.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 566.279,
+          "x": -281.142,
+          "z": 83.333
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.40038500547847,
+          "x": 0,
+          "w": 0.91634701253838
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_carpools_1_6",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_carpools_1_6_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175347_83.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 569.022,
+          "x": 289.849,
+          "z": 125.988
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.45296312746158,
+          "x": 0,
+          "w": 0.89152925087191
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_carpools_1_7",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_carpools_1_7_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175352_84.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 67.934,
+          "x": -293.425,
+          "z": 120.555
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38621698270656,
+          "x": 0,
+          "w": 0.9224079586978
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_frac_quarter_8",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_frac_quarter_8_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175357_85.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -299.445,
+          "x": 800.252,
+          "z": 162.92
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.83607065891459,
+          "x": 0,
+          "w": 0.54862177618293
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_frac_half_0_9",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_frac_half_0_9_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175403_86.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 564.546,
+          "x": 293.408,
+          "z": 124.842
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.45296312746158,
+          "x": 0,
+          "w": 0.89152925087191
+        }
+      }
+    },
+    {
+      "location": "gl_roadsigns_rs_frac_3q_0_10",
+      "object": {
+        "dist": 0,
+        "id": 99730,
+        "materials": [
+          "roadsigns",
+          "wood_rough",
+          "metal_galvanized",
+          "industrial",
+          "wca_objects1"
+        ]
+      },
+      "file": "tests/screenshots/phase6/glyph_signs/gl_roadsigns_rs_frac_3q_0_10_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_175408_87.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": -722.961,
+          "x": 287.759,
+          "z": 151.246
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.70259296553325,
+          "x": 0,
+          "w": 0.71159196509179
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "W GELua.core_levels.": 4,
+      "E GELua.core_levels.": 4,
+      "W engine::GFXTextureManager::createTexture": 1,
+      "E GELua.jbeam.fillSlots": 4,
+      "W GELua.jbeam.prepareLinksDestructive": 36,
+      "W GELua.jbeam.events": 2,
+      "W engine::VehicleResourceContainer::getTSMeshByName": 72,
+      "E prop": 4,
+      "E GELua.jbeam.pushToPhysics": 68,
+      "E MaterialList.mapMaterials": 18,
+      "W GELua.core_vehicle_partmgmt.mesh": 8,
+      "W GELua.core_input_actions.": 4,
+      "E libbeamng.controller.init": 100,
+      "E cef_local": 4,
+      "E engine::BNGCefClient::OnResourceResponse": 4,
+      "E GELua.screenshot": 338
+    },
+    "relevant_lines": [
+      "149.65732|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json",
+      "149.74811|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json",
+      "149.83158|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json",
+      "174.06847|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json",
+      "178.34754|W|engine::GFXTextureManager::createTexture| texture invalid filepath 'art/skies/clouds/clouds_normal_displacement' corrected to '/art/skies/clouds/clouds_normal_displacement.png'",
+      "181.83241|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" reset to default part \"hcity7_emblem_F\" as the wished part \"hcity7_emblem_F\" was not found",
+      "181.83245|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" left empty as part \"hcity7_emblem_F\" was not found",
+      "181.91363|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2432 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RR/hcity7_door_RR - DATA DISCARDED",
+      "181.91379|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2624 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RL/hcity7_door_RL - DATA DISCARDED",
+      "181.91596|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5272 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_L/hcity7_sunvisor_L - DATA DISCARDED",
+      "181.91603|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5291 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_R/hcity7_sunvisor_R - DATA DISCARDED",
+      "181.91633|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5671 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "181.91634|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5672 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "181.91638|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5673 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "181.91638|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5674 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "181.91639|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5675 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "181.91639|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5676 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "181.91640|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5677 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "181.91641|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5678 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "181.91734|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/213 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "181.91735|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/214 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "181.91736|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/215 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "181.91740|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/263 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "181.91741|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/264 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "181.91741|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/265 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "182.32826|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steering_column_top' not found",
+      "182.32828|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_steering_column_top",
+      "182.32863|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_dash_key' not found",
+      "182.32865|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_dash_key",
+      "182.33464|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_roofrack_base_wagon' not found",
+      "182.33755|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headlight_signalglass_R' not found",
+      "182.34718|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_R' not found",
+      "182.34741|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FR' not found",
+      "182.34914|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_L' not found",
+      "182.34932|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FL' not found",
+      "182.35024|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RR' not found",
+      "182.35027|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RR' not found",
+      "182.35110|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RL' not found",
+      "182.35112|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RL' not found",
+      "182.35516|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_R' not found",
+      "182.35546|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_L' not found",
+      "182.35556|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_chmsl_wagon' not found",
+      "182.35557|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_wiper_R' not found",
+      "182.35564|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_trunkcarpet_wagon' not found",
+      "182.35661|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_R' not found",
+      "182.35664|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_L' not found",
+      "182.35835|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_quarterpanels_wagon' not found",
+      "182.35908|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_windshield_int' not found",
+      "182.35932|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_TCS' not found",
+      "182.36097|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steeringboot_R' not found",
+      "182.36273|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_main' not found",
+      "182.36275|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_sedan' not found",
+      "182.36277|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sedan' not found",
+      "182.36278|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sunvisors' not found",
+      "182.36279|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_lamp' not found",
+      "182.37297|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_L' not found",
+      "182.37302|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_R' not found",
+      "182.37303|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel' not found",
+      "182.37305|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_hazard_button' not found",
+      "182.37306|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_nav_empty' not found",
+      "182.37355|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_gauges_KMH' not found",
+      "182.37758|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_engine_belt' not found",
+      "182.37788|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_radiator_pipes' not found",
+      "182.98008|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "182.98478|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "182.98922|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "182.99339|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "182.99724|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "183.00113|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "184.02032|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "184.02461|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "184.02916|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "185.04289|E|libbeamng.controller.init:78728| Found duplicate controller of name \"gauge\", please make sure there are no name overlaps.",
+      "185.12410|E|libbeamng.controller.init:78728| lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:",
+      "185.12683|E|libbeamng.controller.init:78728|   errorStr = string[627]: \"lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:\\",
+      "185.12994|E|libbeamng.controller.init:78728|   nodesMissing = boolean: false",
+      "185.22657|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/vehicles/hcity7/fordscreen.png | response: 404 - Not Found",
+      "185.27974|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/ui/common/nasalization-rg.ttf | response: 404 - Not Found",
+      "253.48356|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" reset to default part \"hcity7_emblem_F\" as the wished part \"hcity7_emblem_F\" was not found",
+      "253.48360|E|GELua.jbeam.fillSlots| slot \"hcity7_emblem_F\" left empty as part \"hcity7_emblem_F\" was not found",
+      "253.56662|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2432 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RR/hcity7_door_RR - DATA DISCARDED",
+      "253.56677|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/2624 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_door_RL/hcity7_door_RL - DATA DISCARDED",
+      "253.56854|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5272 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_L/hcity7_sunvisor_L - DATA DISCARDED",
+      "253.56858|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5291 > nodes/id2: id1:nil, id2:nil, partPath: /hcity7_body/hcity7_interior_sedan/hcity7_sunvisor_R/hcity7_sunvisor_R - DATA DISCARDED",
+      "253.56882|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5671 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "253.56883|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5672 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "253.56883|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5673 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "253.56884|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5674 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "253.56911|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5675 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "253.56912|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5676 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "253.56912|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5677 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "253.56913|W|GELua.jbeam.prepareLinksDestructive| link target not found: beams/5678 > nodes/em1r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_engine/hcity7_engine_1_5 - DATA DISCARDED",
+      "253.57018|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/213 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "253.57020|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/214 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "253.57020|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/215 > nodes/p10r id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "253.57024|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/263 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "253.57024|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/264 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "253.57025|W|GELua.jbeam.prepareLinksDestructive| link target not found: triangles/265 > nodes/p10l id1:nil, id2:nil, partPath: /hcity7_body/hcity7_body_wagon - DATA DISCARDED",
+      "253.98139|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steering_column_top' not found",
+      "253.98141|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_steering_column_top",
+      "253.98187|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_dash_key' not found",
+      "253.98189|E|prop| Error while initializing prop: unable to find rigid mesh: hcity7_dash_key",
+      "253.98834|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_roofrack_base_wagon' not found",
+      "253.99128|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headlight_signalglass_R' not found",
+      "254.00240|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_R' not found",
+      "254.00258|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FR' not found",
+      "254.00477|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_mirrorsignal_L' not found",
+      "254.00499|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_FL' not found",
+      "254.00627|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RR' not found",
+      "254.00635|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RR' not found",
+      "254.00732|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_door_sheet_RL' not found",
+      "254.00734|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_doorpanel_RL' not found",
+      "254.01239|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_R' not found",
+      "254.01266|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_tailgate_light_innerglass_hatch_L' not found",
+      "254.01276|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_chmsl_wagon' not found",
+      "254.01277|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_wiper_R' not found",
+      "254.01283|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_trunkcarpet_wagon' not found",
+      "254.01423|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_R' not found",
+      "254.01426|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_foglight_cap_L' not found",
+      "254.01637|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_quarterpanels_wagon' not found",
+      "254.01711|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_windshield_int' not found",
+      "254.01732|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_TCS' not found",
+      "254.01932|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_steeringboot_R' not found",
+      "254.02155|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_main' not found",
+      "254.02158|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_interior_sedan' not found",
+      "254.02159|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sedan' not found",
+      "254.02161|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_sunvisors' not found",
+      "254.02162|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_headliner_lamp' not found",
+      "254.03484|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_L' not found",
+      "254.03488|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel_button_blank_R' not found",
+      "254.03492|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_shifter_panel' not found",
+      "254.03494|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_hazard_button' not found",
+      "254.03495|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_nav_empty' not found",
+      "254.03542|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_gauges_KMH' not found",
+      "254.03942|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_engine_belt' not found",
+      "254.03971|W|engine::VehicleResourceContainer::getTSMeshByName|  Mesh 'hcity7_radiator_pipes' not found",
+      "254.38574|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "254.38904|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "254.39221|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "254.39521|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "254.39810|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "254.40132|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "255.29711|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcity7_interior_detail in unknown",
+      "255.30038|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: interiorfifthhcity in unknown",
+      "255.30365|E|MaterialList.mapMaterials| [NO-MATERIAL] Unable to find material mapping to: hcitygaugesredwarn in unknown",
+      "256.31392|E|libbeamng.controller.init:135661| Found duplicate controller of name \"gauge\", please make sure there are no name overlaps.",
+      "256.40751|E|libbeamng.controller.init:135661| lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:",
+      "256.41067|E|libbeamng.controller.init:135661|   errorStr = string[627]: \"lua/common/luaCore.lua:23: module 'controller/lua/needleSweep' not found:\\",
+      "256.41083|E|libbeamng.controller.init:135661|   nodesMissing = boolean: false",
+      "256.50171|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/vehicles/hcity7/fordscreen.png | response: 404 - Not Found",
+      "256.54618|E|engine::BNGCefClient::OnResourceResponse| VehicleTex-@hcity7_gps_screen | local://local/ui/common/nasalization-rg.ttf | response: 404 - Not Found"
+    ]
+  },
+  "finished": "2026-10-06T17:54:09"
+}

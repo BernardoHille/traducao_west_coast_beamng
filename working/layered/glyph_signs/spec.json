@@ -1,0 +1,521 @@
+{
+ "_doc": "Glyph-built storefront signs of West Coast (Phase 6). old = text as decoded from the mesh (spaces ignored); new = PT-BR. Names of businesses preserved (MOUNTAINVIEW, TORRES TIRES, SMASH AUTO REPAIRS, BELASCO AUTO, AUTO of AUTO GLASS).",
+ "out_dir": "working/glyph_meshes",
+ "accents_file": "working/layered/glyph_signs/accents.json",
+ "signs": {
+  "s_motel_sign": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_motel_sign.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "MOTEL",
+     "new": "POUSADA"
+    },
+    {
+     "old": "CABLE",
+     "new": "TV A CABO"
+    }
+   ]
+  },
+  "s_food_mart_sign_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_food_mart_sign_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "DELIFOODMART",
+     "new": "LANCHES & MERCADO"
+    },
+    {
+     "old": "ICECOLDBEERSODA",
+     "new": "CERVEJA & REFRI GELADOS"
+    }
+   ]
+  },
+  "s_full_service_sign_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_full_service_sign_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "FULLSERVICE",
+     "new": "SERVIÇO COMPLETO"
+    },
+    {
+     "old": "$",
+     "new": "R$",
+     "custom": "currency"
+    },
+    {
+     "old": "from",
+     "new": "a partir de"
+    }
+   ]
+  },
+  "s_exhaust_sign_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "EXHAUST",
+     "new": "ESCAPAMENTO"
+    },
+    {
+     "old": "CARSTEREO",
+     "new": "SOM AUTOMOTIVO"
+    }
+   ]
+  },
+  "s_exhaust_sign_002": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_002.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "EXHAUST",
+     "new": "ESCAPAMENTO"
+    },
+    {
+     "old": "CARSTEREO",
+     "new": "SOM AUTOMOTIVO"
+    }
+   ]
+  },
+  "s_fix_sign_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "WEFIX",
+     "new": "CONSERTAMOS:"
+    },
+    {
+     "old": "RADIATORS",
+     "new": "RADIADORES"
+    },
+    {
+     "old": "SUSPENSION",
+     "new": "SUSPENSÃO"
+    },
+    {
+     "old": "TRANSMISSIONS",
+     "new": "CÂMBIOS"
+    },
+    {
+     "old": "GLASS",
+     "new": "VIDROS"
+    }
+   ]
+  },
+  "s_sound_sign_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_sound_sign_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "SOUND",
+     "new": "SOM E"
+    },
+    {
+     "old": "TINT",
+     "new": "INSULFILM"
+    }
+   ]
+  },
+  "s_stereo_sign_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "STEREOS",
+     "new": "SOM"
+    },
+    {
+     "old": "ALARMS",
+     "new": "ALARMES"
+    },
+    {
+     "old": "WINDOWS",
+     "new": "VIDROS"
+    }
+   ]
+  },
+  "s_car_parts_sign_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "RIMS",
+     "new": "RODAS"
+    },
+    {
+     "old": "TIRES",
+     "new": "PNEUS"
+    },
+    {
+     "old": "LIFTKITS",
+     "new": "SUSPENSÃO"
+    },
+    {
+     "old": "HYDRAULICS",
+     "new": "HIDRÁULICA"
+    }
+   ]
+  },
+  "s_torres_tires_sign_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_torres_tires_sign_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "TIREROTATION",
+     "new": "RODÍZIO DE PNEUS &"
+    },
+    {
+     "old": "WHEELALIGNMENT",
+     "new": "ALINHAMENTO"
+    },
+    {
+     "old": "$",
+     "new": "R$",
+     "custom": "currency"
+    }
+   ]
+  },
+  "diner_building": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/diner_building.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "OPEN",
+     "new": "ABERTO"
+    },
+    {
+     "old": "HRS",
+     "new": "HORAS"
+    },
+    {
+     "old": "RESTAURANT",
+     "new": "RESTAURANTE"
+    }
+   ]
+  },
+  "gasstation_north": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/gasstation_north.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "SAVE",
+     "new": "OFERTA"
+    },
+    {
+     "old": "PACK",
+     "new": "MAÇO"
+    },
+    {
+     "old": "NOWOPEN",
+     "new": "ABERTO"
+    },
+    {
+     "old": "ATM",
+     "new": "CAIXA"
+    },
+    {
+     "old": "$",
+     "new": "R$",
+     "custom": "currency"
+    }
+   ]
+  },
+  "s_fuel_main_05": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "SAVE",
+     "new": "OFERTA"
+    },
+    {
+     "old": "PACK",
+     "new": "MAÇO"
+    },
+    {
+     "old": "NOWOPEN",
+     "new": "ABERTO"
+    },
+    {
+     "old": "ATM",
+     "new": "CAIXA"
+    },
+    {
+     "old": "$",
+     "new": "R$",
+     "custom": "currency"
+    }
+   ]
+  },
+  "s_bld_food_mart_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "SAVE",
+     "new": "OFERTA"
+    },
+    {
+     "old": "PACK",
+     "new": "MAÇO"
+    },
+    {
+     "old": "NOWOPEN",
+     "new": "ABERTO"
+    },
+    {
+     "old": "ATM",
+     "new": "CAIXA"
+    },
+    {
+     "old": "CANALSTDELIFOODMART",
+     "new": "CANAL ST DELI & MERCADO"
+    },
+    {
+     "old": "CARWASH",
+     "new": "LAVA JATO"
+    },
+    {
+     "old": "LOTTOTOBACCOCOLDDRINKSATM",
+     "new": "LOTERIA - TABACARIA - BEBIDAS - CAIXA"
+    },
+    {
+     "old": "$",
+     "new": "R$",
+     "custom": "currency"
+    }
+   ]
+  },
+  "s_bld_laundomat_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_bld_laundomat_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "LAUNDROMAT",
+     "new": "LAVANDERIA"
+    }
+   ]
+  },
+  "s_bld_shops_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "MINIMART",
+     "new": "MERCADINHO"
+    },
+    {
+     "old": "ATM",
+     "new": "CAIXA"
+    },
+    {
+     "old": "PACK",
+     "new": "MAÇO"
+    },
+    {
+     "old": "GROCERY",
+     "new": "MERCEARIA"
+    },
+    {
+     "old": "$",
+     "new": "R$",
+     "custom": "currency"
+    }
+   ]
+  },
+  "s_brick_walls_slums_car_shops": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "SAVE",
+     "new": "OFERTA"
+    },
+    {
+     "old": "PACK",
+     "new": "MAÇO"
+    },
+    {
+     "old": "NOWOPEN",
+     "new": "ABERTO"
+    },
+    {
+     "old": "WEFIX",
+     "new": "CONSERTAMOS"
+    },
+    {
+     "old": "NEW",
+     "new": "NOVOS"
+    },
+    {
+     "old": "QUALITYBRANDS",
+     "new": "MARCAS DE QUALIDADE"
+    },
+    {
+     "old": "NEWUSED",
+     "new": "NOVOS  USADOS"
+    },
+    {
+     "old": "RADIATORS",
+     "new": "RADIADORES"
+    },
+    {
+     "old": "SUSPENSION",
+     "new": "SUSPENSÃO"
+    },
+    {
+     "old": "TRANSMISSIONS",
+     "new": "CÂMBIOS"
+    },
+    {
+     "old": "TIRES",
+     "new": "PNEUS"
+    },
+    {
+     "old": "FULLSERVICE",
+     "new": "SERVIÇO COMPLETO"
+    },
+    {
+     "old": "GLASS",
+     "new": "VIDROS"
+    },
+    {
+     "old": "USED",
+     "new": "USADOS"
+    },
+    {
+     "old": "ENTRY",
+     "new": "ENTRADA"
+    },
+    {
+     "old": "GOTAFLAT",
+     "new": "PNEU FURADO"
+    },
+    {
+     "old": "$",
+     "new": "R$",
+     "custom": "currency"
+    },
+    {
+     "old": "from",
+     "new": "a partir de"
+    }
+   ]
+  },
+  "tunnel_mainTrackEntrance": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae",
+   "install": "levels/west_coast_usa/art/shapes/roads",
+   "lines": [
+    {
+     "old": "WELCOMETO",
+     "new": "BEM-VINDO AO"
+    },
+    {
+     "old": "THANKSFORVISITING",
+     "new": "OBRIGADO PELA VISITA"
+    },
+    {
+     "old": "MAXCLEARANCE",
+     "new": "ALTURA MÁXIMA"
+    },
+    {
+     "old": "13FT1IN",
+     "new": "3,9",
+     "custom": "clearance"
+    }
+   ]
+  },
+  "s_smash_auto_sign_001": {
+   "src": "source/originals/meshes/phase6/west_coast_usa/levels/west_coast_usa/art/shapes/buildings/s_smash_auto_sign_001.dae",
+   "install": "levels/west_coast_usa/art/shapes/buildings",
+   "lines": [
+    {
+     "old": "W",
+     "new": "C",
+     "align": "right",
+     "orphans": false
+    },
+    {
+     "old": "efixallbrands",
+     "new": "onsertamos todas as marcas!",
+     "align": "left"
+    }
+   ]
+  },
+  "dragstrip_tree_alder": {
+   "src": "source/originals/meshes/phase6/art_shapes/art/shapes/race/dragstrip/dragstrip_tree_alder.dae",
+   "install": "art/shapes/race/dragstrip",
+   "lines": [
+    {
+     "old": "IRSENSOR",
+     "new": "SENSOR IV"
+    },
+    {
+     "old": "N SEP",
+     "new": "NÃO PISE"
+    }
+   ]
+  },
+  "dragDriversWinLightBoxShort": {
+   "src": "source/originals/meshes/phase6/art_shapes/art/shapes/race/dragstrip/dragDriversWinLightBoxShort.dae",
+   "install": "art/shapes/race/dragstrip",
+   "lines": [
+    {
+     "old": "WINLIGHT",
+     "new": "VENCEDOR"
+    }
+   ]
+  },
+  "dragStrip_irSensorBox": {
+   "src": "source/originals/meshes/phase6/art_shapes/art/shapes/race/dragstrip/dragStrip_irSensorBox.dae",
+   "install": "art/shapes/race/dragstrip",
+   "lines": [
+    {
+     "old": "IRSENSOR",
+     "new": "SENSOR IV"
+    }
+   ]
+  },
+  "s_busstop_wcu": {
+   "src": "source/originals/meshes/phase6/art_shapes/art/shapes/objects/s_busstop_wcu.dae",
+   "install": "art/shapes/objects",
+   "lines": [
+    {
+     "old": "MAP",
+     "new": "MAPA",
+     "custom": "dealer_word"
+    }
+   ]
+  },
+  "s_busstop_wcu_04": {
+   "src": "source/originals/meshes/phase6/art_shapes/art/shapes/objects/s_busstop_wcu_04.dae",
+   "install": "art/shapes/objects",
+   "lines": [
+    {
+     "old": "MAP",
+     "new": "MAPA",
+     "custom": "dealer_word"
+    }
+   ]
+  },
+  "roadsigns": {
+   "src": "source/originals/meshes/roads/roadsigns.dae",
+   "install": "levels/west_coast_usa/art/shapes/roads",
+   "lines": [
+    {
+     "old": "(t_roadsigns word tiles)",
+     "new": "SOMENTE / FAIXA EXCLUSIVA / 2 OU MAIS OCUPANTES / POR VEÍCULO / 400 m / 800 m / 1,2 km",
+     "custom": "uv_map",
+     "material": "roadsigns",
+     "size": [
+      2048,
+      1024
+     ],
+     "map_file": "working/layered/t_roadsigns/glyph_tiles.json"
+    }
+   ]
+  }
+ }
+}

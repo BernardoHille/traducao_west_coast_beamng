@@ -1,0 +1,63 @@
+{
+  "started": "2026-10-06T18:03:39",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "day",
+  "mod_active": true,
+  "vfs": {
+    "t_roadsigns": [
+      {
+        "path": "/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      },
+      {
+        "path": "/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\signage\\roadsigns\\t_roadsigns_o.data.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "roadsigns_downtown_yield",
+      "object": {
+        "dist": 0.062178523498416,
+        "id": 156907,
+        "materials": [
+          "roadsigns",
+          "metal_galvanized"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_roadsigns/roadsigns_downtown_yield_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_180347_176.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 96.0784,
+          "x": -110.5606,
+          "z": 126.7581
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.027137995500564,
+          "z": 0.95059315760697,
+          "x": -0.0088249985368117,
+          "w": 0.30912505125249
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T18:03:48"
+}

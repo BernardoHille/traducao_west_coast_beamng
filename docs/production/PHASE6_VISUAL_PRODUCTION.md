@@ -2,10 +2,7 @@
 
 **Período:** 05–06/10/2026 · **Mapa:** West Coast USA (BeamNG.drive 0.39.4.0).
 
-**Situação:**
-- todas as famílias de **textura** usadas pelo West Coast foram produzidas, validadas e conferidas no jogo;
-- continuam em inglês as **palavras montadas por glifos no mesh** (fachadas, abrigo de ônibus, pista de arrancada, cabine de pedágio), que exigem recomposição de malha;
-- veja o veredito no fim deste documento.
+**Situação:** todas as famílias visuais usadas pelo West Coast foram produzidas, validadas e conferidas no jogo, inclusive as palavras montadas por glifos no mesh (bloco 6I). Fica para a Fase 7 apenas o que é **limite de velocidade** (tiles MPH / SPEED LIMIT e a placa da cabine de pedágio), conforme a regra da fase.
 
 ## Pipeline aplicado a cada família
 1. **Hash** do original: manifesto SHA-256.
@@ -34,26 +31,30 @@ Regras mantidas o tempo todo:
 | 6B | `eca_genericsigns` (PBR de art_shapes) | Placas de posto: PERIGO, DESLIGUE O MOTOR, octanagem (R+M)/2, PROIBIDO ESTACIONAR… | [GENERICSIGNS](phase6/GENERICSIGNS.md) |
 | 6C | `t_billboards`; `t_billboardsigns_dealers` | 14 outdoors com QA. Os painéis de concessionária não são amostrados no West Coast (só glifos MAP/INFO); os textos equivalentes foram produzidos no 6F | [BILLBOARDS_DEALERS](phase6/BILLBOARDS_DEALERS.md) |
 | 6D | `t_movie_studio_signage`, `ind_industrial_signs` (2 cópias), `t_spearleaf_refinery_logo` (cor + opacidade), `t_steel_factory_brand` (cor + nm/ao/r) | 17 placas do estúdio, 9 grupos industriais, REFINARIA, FABRICAÇÃO DE AÇO | [STUDIO_INDUSTRY_SPONSORS](phase6/STUDIO_INDUSTRY_SPONSORS.md) |
-| 6E | `t_bus_routes_wca` (cor + normal) | Mapa de linhas: título, legenda e 23 paradas. MAP no abrigo pendente (mesh) | [BUS_TRANSPORT](phase6/BUS_TRANSPORT.md) |
+| 6E | `t_bus_routes_wca` (cor + normal) | Mapa de linhas: título, legenda e 23 paradas. MAP → MAPA no abrigo (malha, 6I) | [BUS_TRANSPORT](phase6/BUS_TRANSPORT.md) |
 | 6F | `clutter_commercial` (cor + opacidade) | 85 elementos: néons, cartazes, galpões, concessionárias, oficinas, limão, ENTRADA PROIBIDA, GUARDA-VOLUMES. Letreiros de glifos pendentes (mesh) | [COMMERCIAL](phase6/COMMERCIAL.md) |
 | 6G | placas globais restantes | Nenhuma usada no West Coast (0 instâncias); DRIFT preservado | [GLOBAL_SIGNS](phase6/GLOBAL_SIGNS.md) |
-| 6H | auditoria | 311 linhas classificadas; 2 traduções esquecidas achadas e produzidas; 12 linhas pendentes de mesh | [COVERAGE_AUDIT](phase6/COVERAGE_AUDIT.md) |
+| 6H | auditoria | 311 linhas classificadas; 2 traduções esquecidas achadas e produzidas; 12 linhas pendentes de mesh, resolvidas no 6I | [COVERAGE_AUDIT](phase6/COVERAGE_AUDIT.md) |
+| 6I | letreiros montados por glifos (25 meshes) | Fachadas, totens, cartazes de preço (R$), MAPA do abrigo, túnel do autódromo (ALTURA MÁXIMA 3,9 m), arrancada, pórticos (SOMENTE, FAIXA EXCLUSIVA, 400 m / 800 m / 1,2 km); 13 acentos + 10 tiles novos; `.cdae` do jogo distribuído | [GLYPH_SIGNS](phase6/GLYPH_SIGNS.md) |
 
 ## Números
-- **DDS novos no mod:** 23, somados aos 5 da Fase 5, num total de 28. Todos no formato e com os mips do original: BC7 sRGB para cor, BC4 para opacidade/AO/rugosidade, BC5 para normal.
-- **Pontos de QA da Fase 6** em `tests/qa_locations.json`: 84.
-- **Capturas JPEG** em `tests/screenshots/phase6/`: 193 (pares original/PT-BR, 22 à noite).
-- **Runs** em `tests/reports/phase6/runs/`: 82, com 0 problemas de VFS em todos.
-- **Matriz (311 linhas):**
+- **DDS no mod:** 28, todos no formato e com os mips do original (BC7 sRGB para cor, BC4 para opacidade/AO/rugosidade, BC5 para normal).
+  - 23 novos na Fase 6, somados aos 5 da Fase 5.
+  - O `t_roadsigns` foi re-exportado com os 10 tiles novos; os 44 elementos da Fase 5 ficaram idênticos.
+- **Malhas no mod:** 27 `.dae` + 27 `.cdae` (25 de letreiros de glifos + 2 da Fase 5).
+- **Pontos de QA da Fase 6** em `tests/qa_locations.json`: 170 (84 de textura + 86 de letreiros de glifos).
+- **Capturas JPEG** em `tests/screenshots/phase6/`: 365 (pares original/PT-BR, 22 à noite).
+- **Runs** em `tests/reports/phase6/runs/`: 92, com 0 problemas de VFS.
+- **Matriz (320 linhas):**
 
 | Classe | Linhas |
 |---|---|
-| produzido + QA | 127 |
+| produzido + QA | 148 |
 | produzido sem ponto próprio | 11 |
 | não usado no West Coast | 101 |
 | `preserve_original` | 45 |
 | Fase 7 | 15 |
-| pendente de mesh | 12 |
+| pendente | 0 |
 | `needs_context` | 0 |
 
 ## Ferramentas criadas ou ampliadas
@@ -64,6 +65,7 @@ Regras mantidas o tempo todo:
   - regras auxiliares `mask_from_text`, `cutout`, `flatten_hole`, `edge_profile(_normal)` e `gradient_normal`.
 - **`tools/production/dae_uv.py`** e **`asset_usage.py`:** evidência UV e uso real das texturas no nível.
 - **`tools/production/extract_originals.py`, `export_family.py`, `decal_overrides.py`, `matrix_update.py`.**
+- **`tools/production/glyph_signs.py`, `glyph_rewrite.py`, `glyph_sync.py`:** leitura, render e reescrita das palavras montadas por glifos no mesh; envio de `.dae` + `.cdae`.
 - **`tools/beamng/catalog_add.py`:** pontos de QA por UV/decal com pose calculada no jogo.
 - **`tools/beamng/qa_cycle.py`, `qa_sheet.py`, `frame_check.py`, `shots_to_jpeg.py`.**
 - **Validador:**
@@ -77,28 +79,23 @@ Regras mantidas o tempo todo:
 |---|---|
 | `validate.py selftest` | PASS (121) |
 | `validate.py regression` | PASS (10/10): as imagens PT-BR antigas continuam reprovadas |
-| `validate.py mod --installed` | PASS (117) |
-| `validate.py new` | PASS (25) |
+| `validate.py mod --installed` | PASS (217) |
+| `validate.py new` | PASS (75), incluindo os 25 meshes de glifos (estrutura igual ao original exceto as letras; `.cdae` atual) |
 | Testes unitários | 44 OK |
 | `validate.py speeds` | FAIL 13, **idêntico ao fim da Fase 5** (radares/ADAS/zonas, escopo da Fase 7) |
 
-## Pendências que impedem dar a produção visual por concluída
-Palavras **montadas por glifos no mesh**, ainda em inglês:
-- MOTEL, FOOD MART, FULL SERVICE, EXHAUST, FIX, SOUND, STEREO, CAR PARTS (fachadas);
-- MAP (abrigos de ônibus);
-- rótulos do placar e dos sensores da pista de arrancada;
-- ONLY, CARPOOLS, PER VEHICLE, ½ MILE (pórticos e cabine de pedágio).
+## Fora do escopo da Fase 6 (Fase 7)
+- Tiles MPH e SPEED LIMIT do `roadsigns.dae` (placas 15–30 MPH, SPEED LIMIT 30/40/70).
+- Placa DO NOT STOP / SPEED LIMIT 25 da cabine de pedágio.
 
-**O que exige:**
-- recompor quads nos `.dae`, distribuindo o `.cdae` gerado pelo jogo, como no R-19 da Fase 5;
-- acrescentar glifos acentuados aos alfabetos;
-- QA dessas placas.
+Trocar a unidade sem mudar o valor e o limite funcional criaria "25 km/h" falso. A regra da Fase 6 proíbe mexer em velocidades.
 
-**Revisões humanas registradas:**
-- tipografia substituta (Bahnschrift/Arial/Impact/Georgia);
-- cabide do néon LAVANDERIA com falhas;
-- brilho dos néons novos um pouco menor;
-- face da lista de serviços da oficina não localizada no jogo.
+## Revisões humanas registradas
+- Tipografia substituta (Bahnschrift/Arial/Impact/Georgia).
+- Cabide do néon LAVANDERIA com falhas.
+- Brilho dos néons novos um pouco menor.
+- Face da lista de serviços da oficina não localizada no jogo.
+- Letreiros de glifos: acentos desenhados (não existiam nos alfabetos) e palavras longas condensadas até 52 % (ESCAPAMENTO, "Consertamos todas as marcas!"). WIN LIGHT → VENCEDOR pertence ao prefab da missão de arrancada e só foi conferido no render offline.
 
 ## Veredito
-**FASE 6 INCOMPLETA** — ainda existem famílias visuais relevantes sem qualidade de produção. As palavras compostas por glifos no mesh continuam em inglês. Todo o resto do inventário visual usado pelo West Coast foi produzido e passou pelo QA.
+**FASE 6 APROVADA — produção visual do mod concluída.**

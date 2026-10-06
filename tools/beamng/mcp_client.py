@@ -42,7 +42,7 @@ class BeamNGMCP:
             return None
         if text.startswith(("event:", "data:")):
             text = [l[5:] for l in text.splitlines() if l.startswith("data:")][-1]
-        msg = json.loads(text)
+        msg = json.loads(text, strict=False)  # game logs may carry raw control characters
         if "error" in msg:
             raise MCPError(f"{method}: {msg['error']}")
         return msg.get("result")

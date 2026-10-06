@@ -161,6 +161,67 @@ def check_meshes(rep, fam):
             rep.add(PASS, f"{label}: compiled .cdae", "present and newer than the .dae (no recompilation, no temp cache)")
 
 
+def _mesh_signature(path, letter_mats):
+    sys.path.insert(0, os.path.join(REPO, "tools", "production"))
+    import dae_uv
+    import numpy as np
+    root = dae_uv.load(path)
+    other, letters = [], {}
+    for p in dae_uv.primitives(root):
+        if p["material"] in letter_mats:
+            letters.setdefault(p["geometry"], []).append(p["positions"].reshape(-1, 3))
+        else:
+            other.append((p["geometry"], p["material"], np.round(p["positions"], 5).tobytes(),
+                          np.round(p["uvs"], 6).tobytes() if p["uvs"] is not None else b""))
+    nodes = sorted((k, [np.round(w, 6).tobytes() for w, _ in v]) for k, v in dae_uv._node_matrices(root).items())
+    return sorted(other), nodes, {g: np.concatenate(v) for g, v in letters.items()}
+
+
+def check_glyph_meshes(rep, spec):
+    gm = spec.get("glyph_meshes")
+    if not gm:
+        return
+    import numpy as np
+    with open(os.path.join(REPO, gm["spec"]), encoding="utf-8") as fh:
+        signs = json.load(fh)["signs"]
+    mats = set(gm["materials"])
+    for name, s in signs.items():
+        src = os.path.join(REPO, s["src"])
+        rel_dae = f"{s['install']}/{os.path.basename(s['src'])}"
+        new = os.path.join(MOD_DIR, rel_dae)
+        label = os.path.basename(new)
+        if not os.path.exists(new):
+            rep.add(FAIL, f"{label}: present", "missing in the mod")
+            continue
+        if not os.path.exists(src):
+            rep.add(SKIP, f"{label}: structure", "original not extracted")
+            continue
+        o_other, o_nodes, o_let = _mesh_signature(src, mats)
+        n_other, n_nodes, n_let = _mesh_signature(new, mats)
+        probs = []
+        if o_other != n_other:
+            probs.append("triangles of other materials changed")
+        if o_nodes != n_nodes:
+            probs.append("node tree / transforms changed")
+        for g, pts in n_let.items():
+            if g not in o_let:
+                probs.append(f"letters added to geometry {g}")
+                continue
+            lo, hi = o_let[g].min(0), o_let[g].max(0)
+            m = (hi - lo).max() * gm.get("bbox_margin", 0.05) + 1e-3
+            if (pts < lo - m).any() or (pts > hi + m).any():
+                probs.append(f"letter quads outside the original sign in {g}")
+        rep.add(FAIL if probs else PASS, f"{label}: structure vs original", "; ".join(probs) if probs else
+                "other materials, node tree and transforms identical; only glyph quads of " + "/".join(sorted(mats)) + " changed, inside the original sign")
+        cd = new[:-4] + ".cdae"
+        if not os.path.exists(cd):
+            rep.add(FAIL, f"{label}: compiled .cdae", "missing: the game would compile it into the user temp cache, which outlives the mod")
+        elif os.path.getmtime(cd) < os.path.getmtime(new):
+            rep.add(FAIL, f"{label}: compiled .cdae", ".cdae older than .dae")
+        else:
+            rep.add(PASS, f"{label}: compiled .cdae", "present and newer than the .dae")
+
+
 def check_functional(rep, spec):
     pats = spec["functional_files"]["patterns"]
     files = []
@@ -235,6 +296,7 @@ def validate_new_assets(report=None):
         check_halo(rep, fam)
         check_materials(rep, fam)
         check_meshes(rep, fam)
+    check_glyph_meshes(rep, spec)
     check_functional(rep, spec)
     return rep
 
@@ -250,4 +312,11 @@ def declared_paths():
         for me in fam["meshes"]:
             out.add(me["file"].lower())
             out.add(me["cdae"].lower())
+    gm = spec.get("glyph_meshes")
+    if gm:
+        with open(os.path.join(REPO, gm["spec"]), encoding="utf-8") as fh:
+            for s in json.load(fh)["signs"].values():
+                base = f"{s['install']}/{os.path.basename(s['src'])}"
+                out.add(base.lower())
+                out.add(base[:-4].lower() + ".cdae")
     return out, spec["functional_files"]["patterns"]

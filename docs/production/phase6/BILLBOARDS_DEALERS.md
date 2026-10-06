@@ -38,7 +38,7 @@ Atlas 4 × 4 de painéis 512 × 256. Meshes: `billboards.dae` (um mesh único co
 - **Uso no West Coast:** a pegada UV dos 3 meshes instanciados (`s_busstop_wcu` ×31, `s_busstop_wcu_04` ×9, `s_flag_floor_teardrop_01` ×2) cobre **apenas glifos do alfabeto**. Nenhum painel é amostrado (BIG SALE, GREAT DEALS, USED CARS, 0% FINANCING…).
 - **O que os glifos compõem:** pelo render offline (`render_signs.py`), o abrigo de ônibus mostra **"MAP"** e **"INFO"**.
   - "INFO" é corrente em português.
-  - "MAP" exige mesh próprio, porque "MAPA" precisa de mais um quad. Tratado no bloco de transporte (`BUS_TRANSPORT.md`).
+  - "MAP" exigia mesh próprio, porque "MAPA" precisa de mais um quad: refeito na malha do abrigo (`BUS_TRANSPORT.md`, `GLYPH_SIGNS.md`).
 - **Consequência:**
   - os painéis da concessionária ficam como no original (asset global, sem uso no West Coast, prioridade baixa);
   - o problema de alfa da referência antiga não chega ao mod, porque nenhuma versão dela é distribuída;

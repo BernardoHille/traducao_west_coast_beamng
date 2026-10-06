@@ -1,7 +1,7 @@
 # Status do projeto
 
 **Última atualização:** 06/10/2026
-**Fase atual:** Fase 6 — Produção visual das famílias restantes: **incompleta**. Todas as famílias de textura usadas pelo West Coast foram produzidas e passaram pelo QA; as palavras montadas por glifos no mesh continuam pendentes. A Fase 7 não foi iniciada.
+**Fase atual:** Fase 6 — Produção visual das famílias restantes concluída. A Fase 7 (integração funcional de velocidades, radares, zonas e ADAS) não foi iniciada.
 
 ## Ambiente
 
@@ -18,8 +18,9 @@
   - Fase 5: `t_roadsigns` (2) e R-19 (3).
   - Fase 6 (23): road markings (2 cópias × 4 mapas), `eca_genericsigns`, `t_billboards`, estúdio, industrial (2 cópias), Spearleaf (cor + opacidade), Hot Rolled (cor + nm/ao/r), mapa de ônibus (cor + normal), `clutter_commercial` (cor + opacidade).
   - O DDS do PoC (`export/dds/poc/`) é só histórico.
-- **Mod** (`mod/traducao_ptbr_wcusa/`, versão 0.5.0; o 0.6.0 fica para quando a Fase 6 for concluída):
+- **Mod** (`mod/traducao_ptbr_wcusa/`, versão 0.6.0):
   - atlas `t_roadsigns` definitivo e as 9 famílias visuais da Fase 6;
+  - 25 malhas de letreiros montados por glifos, cada uma com o `.cdae` compilado pelo jogo;
   - override de `main.decals.json` (EXIT ONLY → SÓ SAÍDA, ONLY removido), gerado localmente e não versionado;
   - família `roadsigns_ptbr_r19` (texturas, materiais, meshes e `.cdae`);
   - overrides de dados do nível (limites de via, `slotTraffic.json`, 7 `shapeName`), gerados localmente e não versionados.
@@ -36,7 +37,7 @@
 - [x] Regras definitivas de localização
 - [x] Validador
 - [x] Reconstrução das traduções existentes (Fase 5: `t_roadsigns`; Fase 6: road markings, genericsigns, billboards, estúdio, industrial, Spearleaf. As referências antigas de dealers/sponsors/eca_roadsigns não são usadas no West Coast)
-- [ ] Tradução das texturas pendentes (texturas: concluída; **palavras montadas por glifos no mesh: pendentes**)
+- [x] Tradução das texturas pendentes (texturas e palavras montadas por glifos no mesh; só o que é limite de velocidade fica para a Fase 7)
 - [ ] QA West Coast (visual da Fase 6 aprovado ponto a ponto; falta o funcional da Fase 7)
 - [ ] QA East Coast / Utah
 - [ ] QA ADAS
@@ -174,15 +175,16 @@ Detalhes em [`production/PHASE6_VISUAL_PRODUCTION.md`](production/PHASE6_VISUAL_
 | 6B postos | **concluído**: `eca_genericsigns` PBR, o material carregado de fato. A nota da Fase 3 sobre o emissivo está superada |
 | 6C outdoors/concessionárias | **concluído**: 14 outdoors com QA; os painéis da concessionária não são usados no West Coast |
 | 6D estúdio/indústria/patrocinadores | **concluído**: QA dia/noite; marcas preservadas |
-| 6E transporte | **mapa de linhas concluído**; MAP do abrigo pendente (mesh) |
-| 6F comercial | **atlas concluído** (85 elementos, opacidade recortada refeita); **letreiros por glifos pendentes** (mesh) |
+| 6E transporte | **concluído**: mapa de linhas + MAP → MAPA no abrigo (malha) |
+| 6F comercial | **concluído**: atlas (85 elementos, opacidade recortada refeita) + letreiros de glifos (6I) |
 | 6G placas globais | **classificadas**: 0 instâncias no West Coast |
-| 6H auditoria | 311 linhas classificadas; 0 `needs_context`; 12 pendentes de mesh |
+| 6H auditoria | 320 linhas classificadas; 0 `needs_context`; 0 pendentes (as 12 de mesh foram resolvidas no 6I) |
+| 6I letreiros de glifos | **concluído**: 25 malhas reescritas (fachadas, preços R$, MAPA, túnel ALTURA MÁXIMA 3,9 m, arrancada, pórticos SOMENTE / FAIXA EXCLUSIVA / 400 m–1,2 km); 86 pontos de QA original × PT-BR; `.cdae` distribuído |
 
 **Validação:**
-- selftest 121, regressão 10/10, mod instalado 117, new 25, unittest 44;
+- selftest, regressão 10/10, mod instalado, new 75 (inclui as 25 malhas de glifos), unittest 44: todos PASS;
 - velocidade 13 FAIL, idêntico ao da Fase 5 (escopo da Fase 7).
-- **QA:** 84 pontos novos; 82 runs com 0 problemas de VFS.
+- **QA:** 170 pontos novos (84 de textura + 86 de letreiros de glifos); 92 runs, todos com 0 problemas de VFS.
 
 **Achados técnicos:**
 - O mesmo nome de textura existe em vários caminhos com conteúdo diferente (variantes). Cada cópia que o jogo carrega é refeita a partir do seu original.
@@ -205,7 +207,7 @@ Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). Situaç�
 | 7 | ~~Política mph/km/h pendente~~ → **definida na Fase 3**. A implementação continua pendente: R-19 com material/mesh próprios e `speedLimit` funcional | `LOCALIZATION_RULES.md` §2–3 | R-19 feito na Fase 5; radares, zonas e ADAS ficam para a **Fase 7** |
 | 8 | Mapas auxiliares **não citados na auditoria** (`eca_genericsigns` `_o/_nm/_ao/_r`, `steel_factory_brand` `_nm/_ao/_r`, `billboardsigns_dealers` `_o`…) | `docs/inventory/texture_families.md` | **Resolvido:** extraídos; refeitos onde contêm letra (steel nm/ao/r, Spearleaf `_o`, clutter `_o`, ônibus `_nm`) |
 | 9 | A auditoria diz "41 texturas", mas são **35** | `docs/inventory/texture_families.md` | Registrado |
-| 10 | **Palavras montadas por glifos no mesh** (fachadas, MAP do abrigo, pista de arrancada, pedágio) | `production/phase6/COVERAGE_AUDIT.md` | **Aberto:** exige recomposição de mesh (pendência que impede concluir a Fase 6) |
+| 10 | **Palavras montadas por glifos no mesh** (fachadas, MAP do abrigo, pista de arrancada, pedágio) | `production/phase6/GLYPH_SIGNS.md` | **Resolvido** (6I), exceto a placa de limite de velocidade da cabine de pedágio (Fase 7) |
 
 ## Decisões tomadas (Fase 3)
 
@@ -238,7 +240,9 @@ Essas regras estão implementadas no validador (`validate.py speeds`). Nenhuma a
 
 - **Uso real decide o escopo:** só se produz região amostrada por mesh/decal instanciado no West Coast. O resto é `not_found`, com evidência.
 - **Variantes de textura:** quando o jogo tem cópias diferentes com o mesmo nome, cada cópia carregada é refeita a partir do seu próprio original.
-- **"% OFF"** mantido (uso corrente no varejo); **SALE% → OFERTA%** (o `%` faz parte da arte); **MOTEL → POUSADA** segue como regra, a implementar junto com os glifos.
+- **"% OFF"** mantido (uso corrente no varejo); **SALE% → OFERTA%** (o `%` faz parte da arte); **MOTEL → POUSADA** aplicado na malha.
+- **Letreiros de glifos:** traduzidos na geometria (quads novos no plano dos antigos), nunca trocando a célula do alfabeto. Acentos em células novas não amostradas. `.cdae` sempre recompilado pelo jogo e distribuído (o `.cdae` antigo é apagado quando o `.dae` muda).
+- **Distâncias em milhas** dos pórticos: 1/4 → 400 m, 1/2 → 800 m, 3/4 → 1,2 km, com a unidade no próprio tile.
 - **ONLY no pavimento:** slot 5 virou "SÓ"; EXIT ONLY → SÓ SAÍDA por troca de `rectIdx`; BUS ONLY/STOP → ÔNIBUS.
 
 ## Decisões pendentes
@@ -249,7 +253,7 @@ Essas regras estão implementadas no validador (`validate.py speeds`). Nenhuma a
   - radar 4 a 56,3 km/h numa via de 100 km/h.
 - ~~`ONLY` no pavimento~~ → resolvido na Fase 6 (SÓ SAÍDA / ÔNIBUS).
 - ~~Itens `needs_context`~~ → todos resolvidos na Fase 6 (0 na matriz).
-- **Letreiros por glifos no mesh** (MOTEL, FOOD MART, FULL SERVICE, EXHAUST, FIX, SOUND, STEREO, CAR PARTS, MAP do abrigo, placar da arrancada): definir as palavras PT-BR dentro dos limites de cada totem e acrescentar glifos acentuados.
-- **Placas compostas por glifos compartilhados** (SPEED LIMIT/MPH do `roadsigns.dae`, cabine de pedágio, ONLY, CARPOOLS, ½ MILE): exigem assets/meshes próprios.
+- ~~Letreiros por glifos no mesh~~ → resolvidos na Fase 6 (6I).
+- **Placas de velocidade compostas por glifos** (SPEED LIMIT/MPH do `roadsigns.dae`, DO NOT STOP / SPEED LIMIT 25 da cabine de pedágio): Fase 7, junto com os limites funcionais. ONLY, CARPOOLS e ½ MILE foram resolvidos no 6I.
 - **Estratégia para mapas auxiliares não extraídos** (quais extrair e quando).
 - **Regiões autorizadas** para as demais texturas: registrar antes de produzir cada uma.

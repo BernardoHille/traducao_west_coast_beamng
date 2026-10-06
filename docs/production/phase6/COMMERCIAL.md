@@ -1,6 +1,6 @@
 # 6F — Comercial (`clutter_commercial`)
 
-**Data:** 06/10/2026 · **Status:** atlas produzido e validado; QA no jogo (dia, e noite nos néons e na concessionária). Os letreiros compostos por glifos ficam pendentes (ver abaixo).
+**Data:** 06/10/2026 · **Status:** atlas produzido e validado; QA no jogo (dia, e noite nos néons e na concessionária). Os letreiros compostos por glifos foram refeitos na malha (6I, `GLYPH_SIGNS.md`).
 
 ## Qual arquivo o West Coast usa
 O material `clutter_commercial` carregado no West Coast é o de `art_shapes.zip`:
@@ -78,19 +78,9 @@ A pasta do nível (`levels/west_coast_usa/art/shapes/buildings`) tem **outra có
   - os néons novos têm brilho um pouco menor que o original, porque o halo abaixo do `alphaTest` é cortado;
   - tipografia Bahnschrift/Arial/Impact no lugar das fontes originais (`human_typography_review_required`).
 
-## Letreiros compostos por glifos (pendente)
-Fachadas como MOTEL, FOOD MART, FULL SERVICE, EXHAUST, FIX, SOUND, STEREO e CAR PARTS (`s_*_sign_001.dae`, 1 instância cada) **não estão escritas no atlas**. Cada palavra é montada no **mesh**: um quad por letra, apontando para a célula do alfabeto e recortado pela opacidade, com laterais.
+## Letreiros compostos por glifos
+Fachadas como MOTEL, FOOD MART, FULL SERVICE, EXHAUST, FIX, SOUND, STEREO e CAR PARTS **não estão escritas no atlas**: cada letra é um quad do mesh apontando para uma célula de alfabeto.
 
-Pelo mesmo mecanismo:
-- o abrigo de ônibus mostra "MAP";
-- o placar da pista de arrancada mostra seus rótulos (`timerboard`, `dragStrip_irSensorBox`, `dragDriversWinLightBox`).
+Foram traduzidas reescrevendo as malhas (bloco 6I). Detalhes, lista completa e QA em [`GLYPH_SIGNS.md`](GLYPH_SIGNS.md). O atlas recebeu 13 células de acento/sinal em espaço que nenhum mesh do jogo amostra.
 
-**Por que nenhuma edição de textura resolve:**
-- trocar a célula de uma letra no atlas trocaria **a mesma letra em todas as palavras** que a usam;
-- palavras em PT-BR têm outro número de letras (MOTEL → POUSADA, 5 → 7) e exigem quads novos e reposicionamento nos totens.
-
-**O que exige:**
-- recompor a geometria desses `.dae`;
-- o nível traz `.cdae` compilado ao lado de cada `.dae`. A Fase 5 já provou o caminho (R-19 com `.dae` e o `.cdae` compilado pelo próprio jogo dentro do mod), então a técnica existe, mas o trabalho não foi feito nesta fase.
-
-Os nomes próprios (TORRES TIRES, SMASH AUTO, BELASCO AUTO, TURBO BURGER, RIVERSIDE PLAZA) seguem `preserve_original`.
+Os nomes próprios (TORRES TIRES, SMASH AUTO REPAIRS, BELASCO AUTO, TURBO BURGER, RIVERSIDE PLAZA, MOUNTAINVIEW) seguem `preserve_original`.

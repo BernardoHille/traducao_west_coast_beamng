@@ -73,11 +73,13 @@ el("menu_acrylic", "commerce_nail_menu", [426, 201, 506, 226], [("Unha Acrílica
 # --- sale posters
 el("entire_store_60", "commerce_sales", [2, 272, 90, 334], [("LOJA", [10, 279, 84, 297]), ("TODA", [10, 309, 84, 328])], "white",
    WHITE, dict(BAHN, wght=400, wdth=90))
-el("sale_red", "commerce_sales", [108, 268, 244, 320], [("OFERTA%", [112, 274, 240, 314])], {"rgbs": [[195, 20, 20]], "tol": 80},
-   [190, 18, 22], IMPACT, erase_dilate=2)
+# the % of both posters stays where it is: it is also sampled by the price posters of the gas stations ("SAVE 40%")
+el("sale_red", "commerce_sales", [108, 268, 205, 320], [("OFERTA", [112, 274, 198, 314])], {"rgbs": [[195, 20, 20]], "tol": 80},
+   [190, 18, 22], IMPACT, erase_dilate=1, keep=[[206, 262, 246, 322]])
 el("special_top", "commerce_sales", [132, 337, 222, 352], [("ITENS SELECIONADOS", [136, 340, 218, 349])], "dark", [70, 60, 55], NARROW)
 el("special_bottom", "commerce_sales", [132, 419, 222, 434], [("ITENS SELECIONADOS", [136, 422, 218, 431])], "dark", [70, 60, 55], NARROW)
-el("sale_white", "commerce_sales", [258, 262, 392, 314], [("OFERTA%", [262, 268, 388, 310])], "white", WHITE, IMPACT, erase_dilate=2)
+el("sale_white", "commerce_sales", [258, 262, 352, 314], [("OFERTA", [262, 268, 347, 310])], "white", WHITE, IMPACT, erase_dilate=1,
+   keep=[[353, 256, 395, 316]])
 el("store_closing", "commerce_store_closing", [262, 364, 412, 504], [("QUEIMA", [282, 372, 394, 418]), ("TOTAL", [276, 442, 400, 498])],
    {"rgbs": [[245, 210, 20]], "tol": 80}, [245, 212, 22], IMPACT, erase_dilate=2)
 el("big_sale_oval_1", "commerce_sales", [420, 380, 468, 460], [("MEGA", [414, 410, 474, 428])], {"rgbs": [[240, 240, 240], [40, 60, 200]], "tol": 70},
@@ -411,6 +413,13 @@ for e in E:
         e["aux"] = {"opacity": "cutout"}
         if not e["id"].startswith("sale_"):
             e["cutout_clear"] = 4 if e["id"] == "dry_cleaning" else True  # the hanger crosses the DRY CLEANING erase area
+# accent marks for the glyph-built signs (working/layered/glyph_signs): drawn in transparent cells that no mesh of
+# the game samples; the evidence is the UV of the rebuilt sign meshes distributed by the mod (glyph_rewrite.py)
+ACC = json.load(open(HERE.parent / "glyph_signs/accents.json", encoding="utf-8"))
+for k, a in ACC.items():
+    E.append({"id": "accent_" + k.replace(":", "_"), "matrix": "commerce_glyph_fonts", "op": "accent", **{kk: vv for kk, vv in a.items()
+              if kk not in ("ink_top", "ink_bottom", "gap")},
+              "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"})
 # not sampled by any instanced West Coast mesh (compose.py regions, UV coverage below 0.4): not edited
 NOT_USED = {"entire_store_60", "big_sale_oval_1", "big_sale_oval_2", "no_smoking_icon", "tennis", "warning_pump_hdr",
             "warning_pump_body", "stop_engine"}

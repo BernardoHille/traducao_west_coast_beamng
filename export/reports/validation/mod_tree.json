@@ -3,18 +3,18 @@
   "subject": "mod/traducao_ptbr_wcusa",
   "status": "PASS",
   "counts": {
-    "PASS": 117,
+    "PASS": 217,
     "WARN": 0,
     "FAIL": 0,
     "SKIP": 0
   },
-  "generated": "2026-10-06T12:20:18",
+  "generated": "2026-10-06T18:07:14",
   "meta": {},
   "checks": [
     {
       "status": "PASS",
       "name": "mod_info",
-      "message": "Tradução PT-BR — West Coast USA 0.5.0",
+      "message": "Tradução PT-BR — West Coast USA 0.6.0",
       "details": {}
     },
     {
@@ -33,6 +33,66 @@
       "status": "PASS",
       "name": "Asset path",
       "message": "art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds → clutter_commercial/opacity",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/objects/s_busstop_wcu.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/objects/s_busstop_wcu.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/objects/s_busstop_wcu_04.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/objects/s_busstop_wcu_04.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/race/dragstrip/dragDriversWinLightBoxShort.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/race/dragstrip/dragDriversWinLightBoxShort.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/race/dragstrip/dragStrip_irSensorBox.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/race/dragstrip/dragStrip_irSensorBox.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/race/dragstrip/dragstrip_tree_alder.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "art/shapes/race/dragstrip/dragstrip_tree_alder.dae (config/new_assets.json; checked by validate.py new)",
       "details": {}
     },
     {
@@ -176,6 +236,222 @@
     {
       "status": "PASS",
       "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/diner_building.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/diner_building.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/gasstation_north.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/gasstation_north.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_bld_laundomat_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_bld_laundomat_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_002.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_002.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_food_mart_sign_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_food_mart_sign_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_full_service_sign_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_full_service_sign_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_motel_sign.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_motel_sign.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_smash_auto_sign_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_smash_auto_sign_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_sound_sign_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_sound_sign_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_torres_tires_sign_001.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/buildings/s_torres_tires_sign_001.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
       "message": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/main.materials.json (config/new_assets.json; checked by validate.py new)",
       "details": {}
     },
@@ -219,6 +495,30 @@
       "status": "PASS",
       "name": "Declared new asset",
       "message": "levels/west_coast_usa/art/shapes/objects/sign_speed25.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/roads/roadsigns.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/roads/roadsigns.dae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.cdae (config/new_assets.json; checked by validate.py new)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Declared new asset",
+      "message": "levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae (config/new_assets.json; checked by validate.py new)",
       "details": {}
     },
     {
@@ -308,7 +608,7 @@
     {
       "status": "PASS",
       "name": "Installed copy",
-      "message": "identical to repo (43 files)",
+      "message": "identical to repo (93 files)",
       "details": {}
     },
     {
@@ -657,6 +957,306 @@
       "status": "PASS",
       "name": "sign_speed25.dae: compiled .cdae",
       "message": "present and newer than the .dae (no recompilation, no temp cache)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_motel_sign.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_motel_sign.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_food_mart_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_food_mart_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_full_service_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_full_service_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_exhaust_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_exhaust_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_exhaust_sign_002.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_exhaust_sign_002.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_fix_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_fix_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_sound_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_sound_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_stereo_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_stereo_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_car_parts_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_car_parts_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_torres_tires_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_torres_tires_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "diner_building.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "diner_building.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "gasstation_north.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "gasstation_north.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_fuel_main_05.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_fuel_main_05.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_food_mart_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_food_mart_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_laundomat_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_laundomat_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_shops_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_shops_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_brick_walls_slums_car_shops.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_brick_walls_slums_car_shops.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "tunnel_mainTrackEntrance.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "tunnel_mainTrackEntrance.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_smash_auto_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_smash_auto_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragstrip_tree_alder.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragstrip_tree_alder.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragDriversWinLightBoxShort.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragDriversWinLightBoxShort.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragStrip_irSensorBox.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragStrip_irSensorBox.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_busstop_wcu.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_busstop_wcu.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_busstop_wcu_04.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_busstop_wcu_04.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "roadsigns.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "roadsigns.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
       "details": {}
     },
     {

@@ -2,14 +2,24 @@
 
 **Alvo:** `mod/traducao_ptbr_wcusa`  
 
-**Resultado:** `PASS` · PASS 117 · WARN 0 · FAIL 0 · SKIP 0
+**Resultado:** `PASS` · PASS 217 · WARN 0 · FAIL 0 · SKIP 0
 
 | Status | Verificação | Mensagem |
 |---|---|---|
-| PASS | mod_info | Tradução PT-BR — West Coast USA 0.5.0 |
+| PASS | mod_info | Tradução PT-BR — West Coast USA 0.6.0 |
 | PASS | Case-insensitive duplicates | none |
 | PASS | Asset path | art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds → clutter_commercial/base_color |
 | PASS | Asset path | art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds → clutter_commercial/opacity |
+| PASS | Declared new asset | art/shapes/objects/s_busstop_wcu.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | art/shapes/objects/s_busstop_wcu.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | art/shapes/objects/s_busstop_wcu_04.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | art/shapes/objects/s_busstop_wcu_04.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | art/shapes/race/dragstrip/dragDriversWinLightBoxShort.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | art/shapes/race/dragstrip/dragDriversWinLightBoxShort.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | art/shapes/race/dragstrip/dragStrip_irSensorBox.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | art/shapes/race/dragstrip/dragStrip_irSensorBox.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | art/shapes/race/dragstrip/dragstrip_tree_alder.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | art/shapes/race/dragstrip/dragstrip_tree_alder.dae (config/new_assets.json; checked by validate.py new) |
 | PASS | Asset path | assets/materials/billboard_label/billboards/t_billboards_b.color.dds → t_billboards/base_color |
 | PASS | Asset path | assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds → eca_genericsigns/base_color |
 | PASS | Asset path | assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds → ind_industrial_signs/base_color |
@@ -33,6 +43,42 @@
 | PASS | Asset path | assets/materials/signage/roadsigns/t_roadsigns_b.color.dds → t_roadsigns/base_color |
 | PASS | Asset path | assets/materials/signage/roadsigns/t_roadsigns_o.data.dds → t_roadsigns/opacity |
 | PASS | Asset path | levels/jungle_rock_island/art/shapes/buildings/ind_industrial_signs_d.color.dds → ind_industrial_signs/base_color |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/diner_building.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/diner_building.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/gasstation_north.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/gasstation_north.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_bld_food_mart_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_bld_laundomat_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_bld_laundomat_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_bld_shops_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_brick_walls_slums_car_shops.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_car_parts_sign_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_002.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_exhaust_sign_002.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_fix_sign_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_food_mart_sign_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_food_mart_sign_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_fuel_main_05.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_full_service_sign_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_full_service_sign_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_motel_sign.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_motel_sign.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_smash_auto_sign_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_smash_auto_sign_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_sound_sign_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_sound_sign_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_stereo_sign_001.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_torres_tires_sign_001.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/s_torres_tires_sign_001.dae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/main.materials.json (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.cdae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae (config/new_assets.json; checked by validate.py new) |
@@ -41,6 +87,10 @@
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_o.data.dds (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/sign_speed25.cdae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/sign_speed25.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/roads/roadsigns.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/roads/roadsigns.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main.decals.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json (speedLimit-only override; checked by validate.py new) |
@@ -55,7 +105,7 @@
 | PASS | Duplicate file name | t_decal_roadmarkings_b.color.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
 | PASS | Duplicate file name | t_decal_roadmarkings_nm.normal.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
 | PASS | Duplicate file name | t_decal_roadmarkings_o.data.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
-| PASS | Installed copy | identical to repo (43 files) |
+| PASS | Installed copy | identical to repo (93 files) |
 | PASS | t_roadsigns: base_color (t_roadsigns_b.color.dds) | delivered |
 | PASS | t_roadsigns: opacity (t_roadsigns_o.data.dds) | delivered |
 | PASS | t_roadsigns: shape_changed | all shape-dependent maps delivered: opacity |
@@ -114,6 +164,56 @@
 | PASS | sign_speed25.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
 | PASS | sign_speed25.dae: materials | ['roadsigns_ptbr_r19_40', 'roadsigns_ptbr_r19_back'] |
 | PASS | sign_speed25.dae: compiled .cdae | present and newer than the .dae (no recompilation, no temp cache) |
+| PASS | s_motel_sign.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_motel_sign.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_food_mart_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_food_mart_sign_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_full_service_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_full_service_sign_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_exhaust_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_exhaust_sign_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_exhaust_sign_002.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_exhaust_sign_002.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_fix_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_fix_sign_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_sound_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_sound_sign_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_stereo_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_stereo_sign_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_car_parts_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_car_parts_sign_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_torres_tires_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_torres_tires_sign_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | diner_building.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | diner_building.dae: compiled .cdae | present and newer than the .dae |
+| PASS | gasstation_north.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | gasstation_north.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_fuel_main_05.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_fuel_main_05.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_bld_food_mart_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_bld_food_mart_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_bld_laundomat_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_bld_laundomat_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_bld_shops_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_bld_shops_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_brick_walls_slums_car_shops.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_brick_walls_slums_car_shops.dae: compiled .cdae | present and newer than the .dae |
+| PASS | tunnel_mainTrackEntrance.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | tunnel_mainTrackEntrance.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_smash_auto_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_smash_auto_sign_001.dae: compiled .cdae | present and newer than the .dae |
+| PASS | dragstrip_tree_alder.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | dragstrip_tree_alder.dae: compiled .cdae | present and newer than the .dae |
+| PASS | dragDriversWinLightBoxShort.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | dragDriversWinLightBoxShort.dae: compiled .cdae | present and newer than the .dae |
+| PASS | dragStrip_irSensorBox.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | dragStrip_irSensorBox.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_busstop_wcu.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_busstop_wcu.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_busstop_wcu_04.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_busstop_wcu_04.dae: compiled .cdae | present and newer than the .dae |
+| PASS | roadsigns.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | roadsigns.dae: compiled .cdae | present and newer than the .dae |
 | PASS | Override levels/west_coast_usa/main.decals.json | only the declared decal instances differ (9 deleted, 6 rectIdx changed) |
 | PASS | Override levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json | 43 line(s) differ from the game file, only in speedLimit / declared shapeName |
 | PASS | Override levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json | 38 line(s) differ from the game file, only in speedLimit / declared shapeName |

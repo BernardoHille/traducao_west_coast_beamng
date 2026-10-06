@@ -1,0 +1,290 @@
+{
+ "E:tilde": {
+  "box": [
+   1643,
+   5,
+   1679,
+   26
+  ],
+  "shape": "tilde",
+  "stroke": 6,
+  "fill": [
+   254,
+   254,
+   254
+  ],
+  "edge": [
+   254,
+   254,
+   254
+  ],
+  "edge_px": 0,
+  "outline_layer": true,
+  "dilate": 3,
+  "ring": true,
+  "ink_top": 157,
+  "ink_bottom": 222,
+  "gap": 3
+ },
+ "E:acute": {
+  "box": [
+   1689,
+   5,
+   1717,
+   29
+  ],
+  "shape": "acute",
+  "stroke": 6,
+  "fill": [
+   254,
+   254,
+   254
+  ],
+  "edge": [
+   254,
+   254,
+   254
+  ],
+  "edge_px": 0,
+  "outline_layer": true,
+  "dilate": 3,
+  "ring": true,
+  "ink_top": 157,
+  "ink_bottom": 222,
+  "gap": 3
+ },
+ "F:tilde": {
+  "box": [
+   1637,
+   77,
+   1667,
+   92
+  ],
+  "shape": "tilde",
+  "stroke": 6,
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "edge": [
+   10,
+   10,
+   10
+  ],
+  "edge_px": 2,
+  "ink_top": 248,
+  "ink_bottom": 309,
+  "gap": 3
+ },
+ "F:acute": {
+  "box": [
+   1533,
+   85,
+   1555,
+   103
+  ],
+  "shape": "acute",
+  "stroke": 6,
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "edge": [
+   10,
+   10,
+   10
+  ],
+  "edge_px": 2,
+  "ink_top": 248,
+  "ink_bottom": 309,
+  "gap": 3
+ },
+ "H:cedil": {
+  "box": [
+   1711,
+   39,
+   1727,
+   61
+  ],
+  "shape": "cedil",
+  "stroke": 6,
+  "fill": [
+   180,
+   180,
+   180
+  ],
+  "edge": [
+   38,
+   38,
+   38
+  ],
+  "edge_px": 2,
+  "ink_top": 396,
+  "ink_bottom": 447,
+  "gap": 3
+ },
+ "R1:comma": {
+  "box": [
+   1611,
+   85,
+   1620,
+   101
+  ],
+  "shape": "comma",
+  "stroke": 5,
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "ink_top": 46,
+  "ink_bottom": 70,
+  "gap": -2
+ },
+ "R1:acute": {
+  "box": [
+   1631,
+   103,
+   1643,
+   114
+  ],
+  "shape": "acute",
+  "stroke": 4.5,
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "ink_top": 46,
+  "ink_bottom": 70,
+  "gap": -2
+ },
+ "R1:cedil": {
+  "box": [
+   1653,
+   103,
+   1663,
+   116
+  ],
+  "shape": "cedil",
+  "stroke": 4,
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "ink_top": 46,
+  "ink_bottom": 70,
+  "gap": -2
+ },
+ "R1:tilde": {
+  "box": [
+   1801,
+   5,
+   1817,
+   13
+  ],
+  "shape": "tilde",
+  "stroke": 4,
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "ink_top": 46,
+  "ink_bottom": 70,
+  "gap": -2
+ },
+ "R1:hyphen": {
+  "box": [
+   1533,
+   113,
+   1547,
+   120
+  ],
+  "shape": "hyphen",
+  "stroke": 5,
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "ink_top": 46,
+  "ink_bottom": 70,
+  "gap": -2
+ },
+ "R0:tilde": {
+  "box": [
+   1831,
+   173,
+   1847,
+   179
+  ],
+  "shape": "tilde",
+  "stroke": 2.4,
+  "fill": [
+   254,
+   254,
+   254
+  ],
+  "edge": [
+   139,
+   139,
+   139
+  ],
+  "edge_px": 1,
+  "ink_top": 9,
+  "ink_bottom": 33,
+  "gap": 0
+ },
+ "R0:circ": {
+  "box": [
+   1713,
+   71,
+   1728,
+   77
+  ],
+  "shape": "circ",
+  "stroke": 2.4,
+  "fill": [
+   254,
+   254,
+   254
+  ],
+  "edge": [
+   139,
+   139,
+   139
+  ],
+  "edge_px": 1,
+  "ink_top": 9,
+  "ink_bottom": 33,
+  "gap": 0
+ },
+ "R0:acute": {
+  "box": [
+   1827,
+   5,
+   1837,
+   13
+  ],
+  "shape": "acute",
+  "stroke": 2.4,
+  "fill": [
+   254,
+   254,
+   254
+  ],
+  "edge": [
+   139,
+   139,
+   139
+  ],
+  "edge_px": 1,
+  "ink_top": 9,
+  "ink_bottom": 33,
+  "gap": 0
+ }
+}

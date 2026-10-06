@@ -1,6 +1,6 @@
 {
   "name": "Tradução PT-BR — West Coast USA",
   "author": "Bernardo Hille",
-  "version": "0.5.0",
-  "description": "Tradução PT-BR do West Coast USA: atlas de placas t_roadsigns reconstruído (PARE, R-2, R-3, textos e destinos), placas R-19 10/40 km/h e limites de via correspondentes (Fase 5)."
+  "version": "0.6.0",
+  "description": "Tradução PT-BR do West Coast USA: placas de trânsito (t_roadsigns, R-19 10/40 km/h), marcações no pavimento, postos, outdoors, estúdio, indústria, mapa de ônibus, comércio e concessionárias, e os letreiros montados por glifos (fachadas, preços em R$, pórticos, túnel do autódromo). Fases 5 e 6."
 }

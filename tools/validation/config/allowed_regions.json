@@ -357,6 +357,86 @@
         "width": 113,
         "height": 39,
         "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "rs_only_0",
+        "x": 1712,
+        "y": 6,
+        "width": 88,
+        "height": 44,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [352, 141, 440, 185]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_only_1",
+        "x": 1812,
+        "y": 6,
+        "width": 85,
+        "height": 41,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [354, 144, 439, 185]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_carpools_1",
+        "x": 1748,
+        "y": 62,
+        "width": 290,
+        "height": 44,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [1409, 0, 1699, 44]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_carpools_2",
+        "x": 1748,
+        "y": 118,
+        "width": 289,
+        "height": 43,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [1417, 41, 1706, 84]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_per_vehicle",
+        "x": 1748,
+        "y": 174,
+        "width": 191,
+        "height": 44,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [685, 72, 876, 116]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_quarter",
+        "x": 1952,
+        "y": 174,
+        "width": 52,
+        "height": 53,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [343, 85, 395, 138]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_half_0",
+        "x": 1748,
+        "y": 230,
+        "width": 61,
+        "height": 59,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [398, 84, 459, 143]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_half_1",
+        "x": 1822,
+        "y": 230,
+        "width": 52,
+        "height": 53,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [405, 85, 457, 138]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_3q_0",
+        "x": 1462,
+        "y": 240,
+        "width": 67,
+        "height": 55,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [453, 86, 520, 141]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_3q_1",
+        "x": 1886,
+        "y": 230,
+        "width": 52,
+        "height": 53,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [461, 85, 513, 138]); Phase 6 glyph signs"
       }
     ]
   },
@@ -653,6 +733,86 @@
         "width": 113,
         "height": 39,
         "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      },
+      {
+        "id": "rs_only_0",
+        "x": 1712,
+        "y": 6,
+        "width": 88,
+        "height": 44,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [352, 141, 440, 185]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_only_1",
+        "x": 1812,
+        "y": 6,
+        "width": 85,
+        "height": 41,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [354, 144, 439, 185]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_carpools_1",
+        "x": 1748,
+        "y": 62,
+        "width": 290,
+        "height": 44,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [1409, 0, 1699, 44]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_carpools_2",
+        "x": 1748,
+        "y": 118,
+        "width": 289,
+        "height": 43,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [1417, 41, 1706, 84]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_per_vehicle",
+        "x": 1748,
+        "y": 174,
+        "width": 191,
+        "height": 44,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [685, 72, 876, 116]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_quarter",
+        "x": 1952,
+        "y": 174,
+        "width": 52,
+        "height": 53,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [343, 85, 395, 138]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_half_0",
+        "x": 1748,
+        "y": 230,
+        "width": 61,
+        "height": 59,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [398, 84, 459, 143]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_half_1",
+        "x": 1822,
+        "y": 230,
+        "width": 52,
+        "height": 53,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [405, 85, 457, 138]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_3q_0",
+        "x": 1462,
+        "y": 240,
+        "width": 67,
+        "height": 55,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [453, 86, 520, 141]); Phase 6 glyph signs"
+      },
+      {
+        "id": "rs_frac_3q_1",
+        "x": 1886,
+        "y": 230,
+        "width": 52,
+        "height": 53,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [461, 85, 513, 138]); Phase 6 glyph signs"
       }
     ]
   },
@@ -2354,7 +2514,7 @@
         "id": "sale_red",
         "x": 107,
         "y": 255,
-        "width": 138,
+        "width": 99,
         "height": 72,
         "source": "UV of chinatown_corner2.dae (1 inst.), grandstands_barrierwall.dae (1 inst.); Phase 6"
       },
@@ -2378,7 +2538,7 @@
         "id": "sale_white",
         "x": 257,
         "y": 249,
-        "width": 136,
+        "width": 96,
         "height": 74,
         "source": "UV of chinatown_corner2.dae (1 inst.); Phase 6"
       },
@@ -2925,6 +3085,110 @@
         "width": 98,
         "height": 43,
         "source": "UV of garage_racetrack.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "accent_E_tilde",
+        "x": 1643,
+        "y": 5,
+        "width": 36,
+        "height": 21,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_E_acute",
+        "x": 1689,
+        "y": 5,
+        "width": 28,
+        "height": 24,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_F_tilde",
+        "x": 1637,
+        "y": 77,
+        "width": 30,
+        "height": 15,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_F_acute",
+        "x": 1533,
+        "y": 85,
+        "width": 22,
+        "height": 18,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_H_cedil",
+        "x": 1711,
+        "y": 39,
+        "width": 16,
+        "height": 22,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_comma",
+        "x": 1611,
+        "y": 85,
+        "width": 9,
+        "height": 16,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_acute",
+        "x": 1631,
+        "y": 103,
+        "width": 12,
+        "height": 11,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_cedil",
+        "x": 1653,
+        "y": 103,
+        "width": 10,
+        "height": 13,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_tilde",
+        "x": 1801,
+        "y": 5,
+        "width": 16,
+        "height": 8,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_hyphen",
+        "x": 1533,
+        "y": 113,
+        "width": 14,
+        "height": 7,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R0_tilde",
+        "x": 1831,
+        "y": 173,
+        "width": 16,
+        "height": 6,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R0_circ",
+        "x": 1713,
+        "y": 71,
+        "width": 15,
+        "height": 6,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R0_acute",
+        "x": 1827,
+        "y": 5,
+        "width": 10,
+        "height": 8,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
       }
     ]
   },
@@ -3042,7 +3306,7 @@
         "id": "sale_red",
         "x": 107,
         "y": 255,
-        "width": 138,
+        "width": 99,
         "height": 72,
         "source": "UV of chinatown_corner2.dae (1 inst.), grandstands_barrierwall.dae (1 inst.); Phase 6"
       },
@@ -3066,7 +3330,7 @@
         "id": "sale_white",
         "x": 257,
         "y": 249,
-        "width": 136,
+        "width": 96,
         "height": 74,
         "source": "UV of chinatown_corner2.dae (1 inst.); Phase 6"
       },
@@ -3613,6 +3877,110 @@
         "width": 98,
         "height": 43,
         "source": "UV of garage_racetrack.dae (1 inst.), s_workshop.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "accent_E_tilde",
+        "x": 1643,
+        "y": 5,
+        "width": 36,
+        "height": 21,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_E_acute",
+        "x": 1689,
+        "y": 5,
+        "width": 28,
+        "height": 24,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_F_tilde",
+        "x": 1637,
+        "y": 77,
+        "width": 30,
+        "height": 15,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_F_acute",
+        "x": 1533,
+        "y": 85,
+        "width": 22,
+        "height": 18,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_H_cedil",
+        "x": 1711,
+        "y": 39,
+        "width": 16,
+        "height": 22,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_comma",
+        "x": 1611,
+        "y": 85,
+        "width": 9,
+        "height": 16,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_acute",
+        "x": 1631,
+        "y": 103,
+        "width": 12,
+        "height": 11,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_cedil",
+        "x": 1653,
+        "y": 103,
+        "width": 10,
+        "height": 13,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_tilde",
+        "x": 1801,
+        "y": 5,
+        "width": 16,
+        "height": 8,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R1_hyphen",
+        "x": 1533,
+        "y": 113,
+        "width": 14,
+        "height": 7,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R0_tilde",
+        "x": 1831,
+        "y": 173,
+        "width": 16,
+        "height": 6,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R0_circ",
+        "x": 1713,
+        "y": 71,
+        "width": 15,
+        "height": 6,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
+      },
+      {
+        "id": "accent_R0_acute",
+        "x": 1827,
+        "y": 5,
+        "width": 10,
+        "height": 8,
+        "source": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json); Phase 6"
       }
     ]
   }

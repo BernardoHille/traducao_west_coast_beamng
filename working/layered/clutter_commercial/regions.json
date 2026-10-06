@@ -313,7 +313,7 @@
    "box": [
     107,
     255,
-    245,
+    206,
     327
    ],
    "meshes": {
@@ -362,13 +362,13 @@
    "box": [
     257,
     249,
-    393,
+    353,
     323
    ],
    "meshes": {
     "chinatown_corner2.dae": {
      "instances": 1,
-     "coverage": 0.7
+     "coverage": 0.716
     }
    }
   },
@@ -1627,6 +1627,136 @@
      "coverage": 1.0
     }
    }
+  },
+  {
+   "id": "accent_E_tilde",
+   "box": [
+    1643,
+    5,
+    1679,
+    26
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_E_acute",
+   "box": [
+    1689,
+    5,
+    1717,
+    29
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_F_tilde",
+   "box": [
+    1637,
+    77,
+    1667,
+    92
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_F_acute",
+   "box": [
+    1533,
+    85,
+    1555,
+    103
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_H_cedil",
+   "box": [
+    1711,
+    39,
+    1727,
+    61
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_R1_comma",
+   "box": [
+    1611,
+    85,
+    1620,
+    101
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_R1_acute",
+   "box": [
+    1631,
+    103,
+    1643,
+    114
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_R1_cedil",
+   "box": [
+    1653,
+    103,
+    1663,
+    116
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_R1_tilde",
+   "box": [
+    1801,
+    5,
+    1817,
+    13
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_R1_hyphen",
+   "box": [
+    1533,
+    113,
+    1547,
+    120
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_R0_tilde",
+   "box": [
+    1831,
+    173,
+    1847,
+    179
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_R0_circ",
+   "box": [
+    1713,
+    71,
+    1728,
+    77
+   ],
+   "meshes": {}
+  },
+  {
+   "id": "accent_R0_acute",
+   "box": [
+    1827,
+    5,
+    1837,
+    13
+   ],
+   "meshes": {}
   }
  ]
 }

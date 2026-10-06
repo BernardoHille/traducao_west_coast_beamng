@@ -3,12 +3,12 @@
   "subject": "mod/traducao_ptbr_wcusa",
   "status": "PASS",
   "counts": {
-    "PASS": 25,
+    "PASS": 75,
     "WARN": 0,
     "FAIL": 0,
     "SKIP": 0
   },
-  "generated": "2026-10-06T12:20:19",
+  "generated": "2026-10-06T18:07:17",
   "meta": {
     "functional_changed_lines": 1047
   },
@@ -107,6 +107,306 @@
       "status": "PASS",
       "name": "sign_speed25.dae: compiled .cdae",
       "message": "present and newer than the .dae (no recompilation, no temp cache)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_motel_sign.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_motel_sign.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_food_mart_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_food_mart_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_full_service_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_full_service_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_exhaust_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_exhaust_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_exhaust_sign_002.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_exhaust_sign_002.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_fix_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_fix_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_sound_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_sound_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_stereo_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_stereo_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_car_parts_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_car_parts_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_torres_tires_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_torres_tires_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "diner_building.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "diner_building.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "gasstation_north.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "gasstation_north.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_fuel_main_05.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_fuel_main_05.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_food_mart_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_food_mart_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_laundomat_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_laundomat_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_shops_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_bld_shops_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_brick_walls_slums_car_shops.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_brick_walls_slums_car_shops.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "tunnel_mainTrackEntrance.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "tunnel_mainTrackEntrance.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_smash_auto_sign_001.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_smash_auto_sign_001.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragstrip_tree_alder.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragstrip_tree_alder.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragDriversWinLightBoxShort.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragDriversWinLightBoxShort.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragStrip_irSensorBox.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "dragStrip_irSensorBox.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_busstop_wcu.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_busstop_wcu.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_busstop_wcu_04.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "s_busstop_wcu_04.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "roadsigns.dae: structure vs original",
+      "message": "other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "roadsigns.dae: compiled .cdae",
+      "message": "present and newer than the .dae",
       "details": {}
     },
     {

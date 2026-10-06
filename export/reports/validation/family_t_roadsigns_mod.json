@@ -1,0 +1,40 @@
+{
+  "title": "Family validation",
+  "subject": "t_roadsigns (mod)",
+  "status": "PASS",
+  "counts": {
+    "PASS": 3,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-10-06T16:57:13",
+  "meta": {
+    "scope": "global",
+    "wcusa_usage": "confirmed",
+    "delivered": {
+      "base_color": "mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+      "opacity": "mod/traducao_ptbr_wcusa/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds"
+    }
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "base_color (t_roadsigns_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "opacity (t_roadsigns_o.data.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "shape_changed",
+      "message": "all shape-dependent maps delivered: opacity",
+      "details": {}
+    }
+  ]
+}

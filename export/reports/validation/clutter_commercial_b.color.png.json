@@ -8,19 +8,19 @@
     "FAIL": 0,
     "SKIP": 1
   },
-  "generated": "2026-10-06T12:07:35",
+  "generated": "2026-10-06T16:56:59",
   "meta": {
     "original": "source/originals/png/art_shapes/clutter_commercial_b.color.png",
     "texture": "clutter_commercial_b.color",
-    "allowed_regions": 85,
+    "allowed_regions": 98,
     "metrics": {
       "pixels": 4194304,
       "rgb": {
-        "changed": 352733,
-        "changed_pct": 8.4098,
-        "mean_abs": 7.3834,
+        "changed": 351668,
+        "changed_pct": 8.3844,
+        "mean_abs": 7.3803,
         "max_abs": 255,
-        "psnr_db": 19.8
+        "psnr_db": 19.75
       },
       "alpha": {
         "changed": 0,
@@ -50,17 +50,17 @@
         "transparent_pixels_original": 0,
         "semi_pixels_original": 3804
       },
-      "changed_any": 352733,
-      "changed_any_pct": 8.4098,
-      "changed_inside_regions": 352733,
+      "changed_any": 351668,
+      "changed_any_pct": 8.3844,
+      "changed_inside_regions": 351668,
       "changed_outside_regions": 0,
       "changed_outside_pct": 0.0,
-      "outside_area_pixels": 3565877,
+      "outside_area_pixels": 3568121,
       "bbox_changes": {
         "x": 2,
-        "y": 6,
+        "y": 5,
         "width": 2042,
-        "height": 2042
+        "height": 2043
       },
       "bbox_changes_outside": null
     }
@@ -99,13 +99,13 @@
     {
       "status": "PASS",
       "name": "Pixel diff (global, informative)",
-      "message": "8.4098% changed · RGB mean 7.3834 max 255 · alpha mean 0.0 max 0 · PSNR 19.8 dB · bbox {'x': 2, 'y': 6, 'width': 2042, 'height': 2042}",
+      "message": "8.3844% changed · RGB mean 7.3803 max 255 · alpha mean 0.0 max 0 · PSNR 19.75 dB · bbox {'x': 2, 'y': 5, 'width': 2042, 'height': 2043}",
       "details": {}
     },
     {
       "status": "PASS",
       "name": "Changes outside allowed regions",
-      "message": "0 px changed outside; 352733 px inside 85 region(s)",
+      "message": "0 px changed outside; 351668 px inside 98 region(s)",
       "details": {}
     }
   ]

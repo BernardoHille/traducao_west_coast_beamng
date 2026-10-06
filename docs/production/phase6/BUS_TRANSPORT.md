@@ -1,6 +1,6 @@
 # 6E — Transporte público
 
-**Data:** 06/10/2026 · **Status:** mapa de linhas produzido, validado e com QA no jogo (dia e noite). O rótulo "MAP" do abrigo fica pendente (glifos no mesh).
+**Data:** 06/10/2026 · **Status:** mapa de linhas produzido, validado e com QA no jogo (dia e noite); rótulo MAP → MAPA refeito na malha do abrigo (6I).
 
 ## Mapa de linhas (`t_bus_routes_wca`, material `m_bus_routes_wca`)
 **Uso:**
@@ -35,6 +35,6 @@
 |---|---|
 | `t_bus_routes_utah` (Canyonlands) | Cobertura UV 0 no West Coast: o mapa é do Utah |
 | `t_sign_busstop`, atlas `busstop` | Pictograma de ônibus e colunas *lorem ipsum*: sem texto em inglês |
-| Rótulos **MAP** / **INFO** do abrigo | São quads do mesh `s_busstop_wcu` apontando para glifos de `t_billboardsigns_dealers` (ver `BILLBOARDS_DEALERS.md`) |
 
-**INFO** é português. **MAP** → "MAPA" exige um quad a mais no mesh, e trocar o glifo no atlas mudaria a mesma letra em todos os mapas que usam esse alfabeto. Fica **pendente de recomposição de mesh**, no mesmo grupo dos letreiros de fachada (`COMMERCIAL.md`).
+## Rótulo MAP do abrigo (6I)
+"MAP" é feito de 3 quads do mesh `s_busstop_wcu` / `_04` apontando para glifos de `t_billboardsigns_dealers`. Nos dois meshes (31 + 9 instâncias), as duas faces foram reescritas para **MAPA**, com 4 quads e o mesmo alfabeto. INFO já é português. QA: `gl_s_busstop_wcu_mapa`, `gl_s_busstop_wcu_04_mapa`. Ver `GLYPH_SIGNS.md`.

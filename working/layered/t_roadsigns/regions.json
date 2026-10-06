@@ -718,6 +718,126 @@
    "uv_coverage": {
     "roadsigns": 0.974
    }
+  },
+  {
+   "id": "rs_only_0",
+   "op": "glyph",
+   "box": [
+    1712,
+    6,
+    1800,
+    50
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "rs_only_1",
+   "op": "glyph",
+   "box": [
+    1812,
+    6,
+    1897,
+    47
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "rs_carpools_1",
+   "op": "glyph",
+   "box": [
+    1748,
+    62,
+    2038,
+    106
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "rs_carpools_2",
+   "op": "glyph",
+   "box": [
+    1748,
+    118,
+    2037,
+    161
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "rs_per_vehicle",
+   "op": "glyph",
+   "box": [
+    1748,
+    174,
+    1939,
+    218
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "rs_frac_quarter",
+   "op": "glyph",
+   "box": [
+    1952,
+    174,
+    2004,
+    227
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "rs_frac_half_0",
+   "op": "glyph",
+   "box": [
+    1748,
+    230,
+    1809,
+    289
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "rs_frac_half_1",
+   "op": "glyph",
+   "box": [
+    1822,
+    230,
+    1874,
+    283
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "rs_frac_3q_0",
+   "op": "glyph",
+   "box": [
+    1462,
+    240,
+    1529,
+    295
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "rs_frac_3q_1",
+   "op": "glyph",
+   "box": [
+    1886,
+    230,
+    1938,
+    283
+   ],
+   "meshes": {},
+   "uv_coverage": {}
   }
  ]
 }

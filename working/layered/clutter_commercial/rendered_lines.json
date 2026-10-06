@@ -144,11 +144,11 @@
  ],
  "sale_red": [
   {
-   "text": "OFERTA%",
+   "text": "OFERTA",
    "box": [
     112,
     274,
-    240,
+    198,
     314
    ]
   }
@@ -177,11 +177,11 @@
  ],
  "sale_white": [
   {
-   "text": "OFERTA%",
+   "text": "OFERTA",
    "box": [
     262,
     268,
-    388,
+    347,
     310
    ]
   }

@@ -326,6 +326,9 @@ def op_panel(el, color, opacity, rng, cover_log):
     cover_log.append(el["id"])
 
 
+ORIG_OP_MASK = np.asarray(Image.open(ORIG_OPACITY).convert("L")) > 128
+
+
 def op_glyph(el, color, opacity, rng, cover_log):
     """Glyph tile: the letter shape lives in the opacity map; rewrite mask + base colour of the tile."""
     sy, sx = box_slices(el["box"])
@@ -348,7 +351,14 @@ def op_glyph(el, color, opacity, rng, cover_log):
     # base colour: letters painted with the original letter colour (+grain), bled 3 px so that
     # bilinear/mip filtering at the mask edge never picks the old background
     ink = dilate(cov_c > 0.02, 3)
-    lc = grain_color(rgb, letter_sel, rng, ink.sum())
+    if el.get("letters_from"):  # new tile in empty atlas space: letter colour taken from the word it replaces
+        fy, fx = box_slices(el["letters_from"])
+        letter_sel = np.zeros(opacity.shape[:2], bool)
+        letter_sel[fy, fx] = ORIG_OP_MASK[fy, fx]
+    if letter_sel.any():
+        lc = grain_color(rgb, letter_sel, rng, ink.sum())
+    else:
+        lc = np.tile(np.array(el.get("letter_rgb", [30, 30, 30]), float), (int(ink.sum()), 1))
     crop = color[sy, sx, :3].copy()
     crop[ink] = lc.clip(0, 255).astype(np.uint8)
     color[sy, sx, :3] = crop
@@ -498,7 +508,7 @@ def cmd_regions(layout):
         rec = {"id": el["id"], "op": el["op"], "box": el["box"], **ev}
         out["elements"].append(rec)
         x0, y0, x1, y1 = el["box"]
-        src = "UV quads of " + ", ".join(f"{m}.dae ({n} inst.)" for m, n in sorted(ev["meshes"].items())) + "; Phase 5"
+        src = ("UV quads of " + ", ".join(f"{m}.dae ({n} inst.)" for m, n in sorted(ev["meshes"].items())) + "; Phase 5")             if ev["meshes"] else el["uv_override"]
         reg = {"id": el["id"], "x": x0, "y": y0, "width": x1 - x0, "height": y1 - y0, "source": src}
         regions_color.append(reg)
         if el["op"] == "glyph":
@@ -565,6 +575,9 @@ def main(argv=None):
     ap.add_argument("--out", default=str(REPO / "working/temporary/t_roadsigns_preview"))
     a = ap.parse_args(argv)
     layout = json.loads(LAYOUT.read_text(encoding="utf8"))
+    tiles = HERE / "glyph_tiles.json"  # Phase 6: new word tiles for the glyph-built gantry plates
+    if tiles.exists():
+        layout["elements"] += json.loads(tiles.read_text(encoding="utf8"))["elements"]
     if a.only:
         layout["elements"] = [e for e in layout["elements"] if e["id"] in a.only]
     if a.cmd == "regions":

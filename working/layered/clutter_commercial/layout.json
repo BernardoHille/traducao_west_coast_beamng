@@ -726,7 +726,7 @@
    "box": [
     107,
     255,
-    245,
+    206,
     327
    ],
    "legend": {
@@ -743,11 +743,11 @@
     [
      108,
      268,
-     244,
+     205,
      320
     ]
    ],
-   "erase_dilate": 2,
+   "erase_dilate": 1,
    "no_grow": true,
    "bg_tol": 26,
    "style": {
@@ -755,11 +755,11 @@
    },
    "lines": [
     {
-     "text": "OFERTA%",
+     "text": "OFERTA",
      "box": [
       112,
       274,
-      240,
+      198,
       314
      ]
     }
@@ -768,6 +768,14 @@
     190,
     18,
     22
+   ],
+   "keep": [
+    [
+     206,
+     262,
+     246,
+     322
+    ]
    ],
    "aux": {
     "opacity": "cutout"
@@ -864,7 +872,7 @@
    "box": [
     257,
     249,
-    393,
+    353,
     323
    ],
    "legend": "white",
@@ -872,11 +880,11 @@
     [
      258,
      262,
-     392,
+     352,
      314
     ]
    ],
-   "erase_dilate": 2,
+   "erase_dilate": 1,
    "no_grow": true,
    "bg_tol": 26,
    "style": {
@@ -884,11 +892,11 @@
    },
    "lines": [
     {
-     "text": "OFERTA%",
+     "text": "OFERTA",
      "box": [
       262,
       268,
-      388,
+      347,
       310
      ]
     }
@@ -897,6 +905,14 @@
     242,
     242,
     240
+   ],
+   "keep": [
+    [
+     353,
+     256,
+     395,
+     316
+    ]
    ],
    "aux": {
     "opacity": "cutout"
@@ -4541,6 +4557,307 @@
     150,
     50
    ]
+  },
+  {
+   "id": "accent_E_tilde",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1643,
+    5,
+    1679,
+    26
+   ],
+   "shape": "tilde",
+   "stroke": 6,
+   "fill": [
+    254,
+    254,
+    254
+   ],
+   "edge": [
+    254,
+    254,
+    254
+   ],
+   "edge_px": 0,
+   "outline_layer": true,
+   "dilate": 3,
+   "ring": true,
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_E_acute",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1689,
+    5,
+    1717,
+    29
+   ],
+   "shape": "acute",
+   "stroke": 6,
+   "fill": [
+    254,
+    254,
+    254
+   ],
+   "edge": [
+    254,
+    254,
+    254
+   ],
+   "edge_px": 0,
+   "outline_layer": true,
+   "dilate": 3,
+   "ring": true,
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_F_tilde",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1637,
+    77,
+    1667,
+    92
+   ],
+   "shape": "tilde",
+   "stroke": 6,
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "edge": [
+    10,
+    10,
+    10
+   ],
+   "edge_px": 2,
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_F_acute",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1533,
+    85,
+    1555,
+    103
+   ],
+   "shape": "acute",
+   "stroke": 6,
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "edge": [
+    10,
+    10,
+    10
+   ],
+   "edge_px": 2,
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_H_cedil",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1711,
+    39,
+    1727,
+    61
+   ],
+   "shape": "cedil",
+   "stroke": 6,
+   "fill": [
+    180,
+    180,
+    180
+   ],
+   "edge": [
+    38,
+    38,
+    38
+   ],
+   "edge_px": 2,
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_R1_comma",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1611,
+    85,
+    1620,
+    101
+   ],
+   "shape": "comma",
+   "stroke": 5,
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_R1_acute",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1631,
+    103,
+    1643,
+    114
+   ],
+   "shape": "acute",
+   "stroke": 4.5,
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_R1_cedil",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1653,
+    103,
+    1663,
+    116
+   ],
+   "shape": "cedil",
+   "stroke": 4,
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_R1_tilde",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1801,
+    5,
+    1817,
+    13
+   ],
+   "shape": "tilde",
+   "stroke": 4,
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_R1_hyphen",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1533,
+    113,
+    1547,
+    120
+   ],
+   "shape": "hyphen",
+   "stroke": 5,
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_R0_tilde",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1831,
+    173,
+    1847,
+    179
+   ],
+   "shape": "tilde",
+   "stroke": 2.4,
+   "fill": [
+    254,
+    254,
+    254
+   ],
+   "edge": [
+    139,
+    139,
+    139
+   ],
+   "edge_px": 1,
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_R0_circ",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1713,
+    71,
+    1728,
+    77
+   ],
+   "shape": "circ",
+   "stroke": 2.4,
+   "fill": [
+    254,
+    254,
+    254
+   ],
+   "edge": [
+    139,
+    139,
+    139
+   ],
+   "edge_px": 1,
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
+  },
+  {
+   "id": "accent_R0_acute",
+   "matrix": "commerce_glyph_fonts",
+   "op": "accent",
+   "box": [
+    1827,
+    5,
+    1837,
+    13
+   ],
+   "shape": "acute",
+   "stroke": 2.4,
+   "fill": [
+    254,
+    254,
+    254
+   ],
+   "edge": [
+    139,
+    139,
+    139
+   ],
+   "edge_px": 1,
+   "evidence": "UV of the PT-BR glyph sign meshes of the mod (working/layered/glyph_signs/build_report.json)"
   }
  ],
  "_not_used": [

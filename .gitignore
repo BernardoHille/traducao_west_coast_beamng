@@ -58,3 +58,6 @@ mod/traducao_ptbr_wcusa/levels/west_coast_usa/main.decals.json
 working/png/*.png
 working/png/r19/
 working/png/*/
+
+# Phase 6 glyph signs: build output of tools/production/glyph_rewrite.py (the shipped copies live in mod/)
+working/glyph_meshes/

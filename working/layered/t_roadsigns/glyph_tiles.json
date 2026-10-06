@@ -1,0 +1,631 @@
+{
+ "_doc": "New word tiles for the gantry / lane-use plates of roadsigns.dae (Phase 6, glyph signs).\n\nONLY, CARPOOLS ONLY / 2 OR MORE PERSONS / PER VEHICLE, the fractions 1/4 1/2 3/4 and MILES are opacity cut-out\nwords of t_roadsigns whose atlas cells are SHARED with other signs (the toll booth builds DO NOT STOP from the\nO/N of ONLY, the no-parking sign uses the P of CARPOOLS). They are therefore not edited in place: each word\ngets a new tile of the same size in transparent atlas space that no mesh of the game samples, and the quads of\nroadsigns.dae (mod copy) are re-targeted to it (tools/production/glyph_rewrite.py, custom \"uv_map\").\n\nDistances (LOCALIZATION_RULES, distances): 1/4 mi = 0,4 km -> \"400 m\"; 1/2 mi -> \"800 m\"; 3/4 mi -> \"1,2 km\".\nThe unit goes into the fraction tile, so the MILES quads are mapped to an empty transparent cell.\n\nWrites glyph_tiles.json: {\"elements\": [...] (op glyph, read by build_t_roadsigns.py), \"uv_map\": [...]}.",
+ "elements": [
+  {
+   "id": "rs_only_0",
+   "matrix": "roadsigns_only",
+   "op": "glyph",
+   "box": [
+    1712,
+    6,
+    1800,
+    50
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    352,
+    141,
+    440,
+    185
+   ],
+   "letter_rgb": [
+    28,
+    28,
+    28
+   ],
+   "lines": [
+    {
+     "text": "SOMENTE",
+     "box": [
+      1715,
+      16,
+      1797,
+      40
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [352, 141, 440, 185]); Phase 6 glyph signs"
+  },
+  {
+   "id": "rs_only_1",
+   "matrix": "roadsigns_only",
+   "op": "glyph",
+   "box": [
+    1812,
+    6,
+    1897,
+    47
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    354,
+    144,
+    439,
+    185
+   ],
+   "letter_rgb": [
+    28,
+    28,
+    28
+   ],
+   "lines": [
+    {
+     "text": "SOMENTE",
+     "box": [
+      1815,
+      15,
+      1894,
+      38
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [354, 144, 439, 185]); Phase 6 glyph signs"
+  },
+  {
+   "id": "rs_carpools_1",
+   "matrix": "roadsigns_carpools",
+   "op": "glyph",
+   "box": [
+    1748,
+    62,
+    2038,
+    106
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    1409,
+    0,
+    1699,
+    44
+   ],
+   "letter_rgb": [
+    28,
+    28,
+    28
+   ],
+   "lines": [
+    {
+     "text": "FAIXA EXCLUSIVA",
+     "box": [
+      1754,
+      72,
+      2030,
+      97
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [1409, 0, 1699, 44]); Phase 6 glyph signs"
+  },
+  {
+   "id": "rs_carpools_2",
+   "matrix": "roadsigns_carpools",
+   "op": "glyph",
+   "box": [
+    1748,
+    118,
+    2037,
+    161
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    1417,
+    41,
+    1706,
+    84
+   ],
+   "letter_rgb": [
+    28,
+    28,
+    28
+   ],
+   "lines": [
+    {
+     "text": "2",
+     "box": [
+      1756,
+      124,
+      1782,
+      155
+     ]
+    },
+    {
+     "text": "OU MAIS OCUPANTES",
+     "box": [
+      1794,
+      131,
+      2027,
+      149
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [1417, 41, 1706, 84]); Phase 6 glyph signs"
+  },
+  {
+   "id": "rs_per_vehicle",
+   "matrix": "roadsigns_per_vehicle",
+   "op": "glyph",
+   "box": [
+    1748,
+    174,
+    1939,
+    218
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    685,
+    72,
+    876,
+    116
+   ],
+   "letter_rgb": [
+    28,
+    28,
+    28
+   ],
+   "lines": [
+    {
+     "text": "POR VEÍCULO",
+     "box": [
+      1770,
+      187,
+      1917,
+      207
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [685, 72, 876, 116]); Phase 6 glyph signs"
+  },
+  {
+   "id": "rs_frac_quarter",
+   "matrix": "roadsigns_fractions_miles",
+   "op": "glyph",
+   "box": [
+    1952,
+    174,
+    2004,
+    227
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    343,
+    85,
+    395,
+    138
+   ],
+   "letter_rgb": [
+    240,
+    240,
+    240
+   ],
+   "lines": [
+    {
+     "text": "400",
+     "box": [
+      1955,
+      178,
+      2001,
+      203
+     ]
+    },
+    {
+     "text": "m",
+     "box": [
+      1955,
+      207,
+      2001,
+      223
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [343, 85, 395, 138]); Phase 6 glyph signs"
+  },
+  {
+   "id": "rs_frac_half_0",
+   "matrix": "roadsigns_fractions_miles",
+   "op": "glyph",
+   "box": [
+    1748,
+    230,
+    1809,
+    289
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    398,
+    84,
+    459,
+    143
+   ],
+   "letter_rgb": [
+    240,
+    240,
+    240
+   ],
+   "lines": [
+    {
+     "text": "800",
+     "box": [
+      1751,
+      235,
+      1806,
+      262
+     ]
+    },
+    {
+     "text": "m",
+     "box": [
+      1751,
+      267,
+      1806,
+      284
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [398, 84, 459, 143]); Phase 6 glyph signs"
+  },
+  {
+   "id": "rs_frac_half_1",
+   "matrix": "roadsigns_fractions_miles",
+   "op": "glyph",
+   "box": [
+    1822,
+    230,
+    1874,
+    283
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    405,
+    85,
+    457,
+    138
+   ],
+   "letter_rgb": [
+    240,
+    240,
+    240
+   ],
+   "lines": [
+    {
+     "text": "800",
+     "box": [
+      1825,
+      234,
+      1871,
+      259
+     ]
+    },
+    {
+     "text": "m",
+     "box": [
+      1825,
+      263,
+      1871,
+      279
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [405, 85, 457, 138]); Phase 6 glyph signs"
+  },
+  {
+   "id": "rs_frac_3q_0",
+   "matrix": "roadsigns_fractions_miles",
+   "op": "glyph",
+   "box": [
+    1462,
+    240,
+    1529,
+    295
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    453,
+    86,
+    520,
+    141
+   ],
+   "letter_rgb": [
+    240,
+    240,
+    240
+   ],
+   "lines": [
+    {
+     "text": "1,2",
+     "box": [
+      1465,
+      244,
+      1526,
+      270
+     ]
+    },
+    {
+     "text": "km",
+     "box": [
+      1465,
+      274,
+      1526,
+      291
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [453, 86, 520, 141]); Phase 6 glyph signs"
+  },
+  {
+   "id": "rs_frac_3q_1",
+   "matrix": "roadsigns_fractions_miles",
+   "op": "glyph",
+   "box": [
+    1886,
+    230,
+    1938,
+    283
+   ],
+   "style": {
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 65
+   },
+   "letters_from": [
+    461,
+    85,
+    513,
+    138
+   ],
+   "letter_rgb": [
+    240,
+    240,
+    240
+   ],
+   "lines": [
+    {
+     "text": "1,2",
+     "box": [
+      1889,
+      234,
+      1935,
+      259
+     ]
+    },
+    {
+     "text": "km",
+     "box": [
+      1889,
+      263,
+      1935,
+      279
+     ]
+    }
+   ],
+   "uv_override": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [461, 85, 513, 138]); Phase 6 glyph signs"
+  }
+ ],
+ "uv_map": [
+  {
+   "from": [
+    352,
+    141,
+    440,
+    185
+   ],
+   "to": [
+    1712,
+    6,
+    1800,
+    50
+   ],
+   "id": "rs_only_0"
+  },
+  {
+   "from": [
+    354,
+    144,
+    439,
+    185
+   ],
+   "to": [
+    1812,
+    6,
+    1897,
+    47
+   ],
+   "id": "rs_only_1"
+  },
+  {
+   "from": [
+    1409,
+    0,
+    1699,
+    44
+   ],
+   "to": [
+    1748,
+    62,
+    2038,
+    106
+   ],
+   "id": "rs_carpools_1"
+  },
+  {
+   "from": [
+    1417,
+    41,
+    1706,
+    84
+   ],
+   "to": [
+    1748,
+    118,
+    2037,
+    161
+   ],
+   "id": "rs_carpools_2"
+  },
+  {
+   "from": [
+    685,
+    72,
+    876,
+    116
+   ],
+   "to": [
+    1748,
+    174,
+    1939,
+    218
+   ],
+   "id": "rs_per_vehicle"
+  },
+  {
+   "from": [
+    343,
+    85,
+    395,
+    138
+   ],
+   "to": [
+    1952,
+    174,
+    2004,
+    227
+   ],
+   "id": "rs_frac_quarter"
+  },
+  {
+   "from": [
+    398,
+    84,
+    459,
+    143
+   ],
+   "to": [
+    1748,
+    230,
+    1809,
+    289
+   ],
+   "id": "rs_frac_half_0"
+  },
+  {
+   "from": [
+    405,
+    85,
+    457,
+    138
+   ],
+   "to": [
+    1822,
+    230,
+    1874,
+    283
+   ],
+   "id": "rs_frac_half_1"
+  },
+  {
+   "from": [
+    453,
+    86,
+    520,
+    141
+   ],
+   "to": [
+    1462,
+    240,
+    1529,
+    295
+   ],
+   "id": "rs_frac_3q_0"
+  },
+  {
+   "from": [
+    461,
+    85,
+    513,
+    138
+   ],
+   "to": [
+    1886,
+    230,
+    1938,
+    283
+   ],
+   "id": "rs_frac_3q_1"
+  },
+  {
+   "from": [
+    638,
+    118,
+    754,
+    151
+   ],
+   "to": [
+    1910,
+    6,
+    2026,
+    39
+   ],
+   "id": "rs_miles_blank"
+  },
+  {
+   "from": [
+    641,
+    116,
+    779,
+    153
+   ],
+   "to": [
+    1542,
+    240,
+    1680,
+    277
+   ],
+   "id": "rs_miles_blank"
+  }
+ ]
+}
