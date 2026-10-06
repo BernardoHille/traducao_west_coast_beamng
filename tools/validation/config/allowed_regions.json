@@ -1231,5 +1231,309 @@
         "source": "UV of billboards.dae (1 inst.), dragbillboard_sign03.dae (4 inst.); Phase 6"
       }
     ]
+  },
+  "t_movie_studio_signage_b.color": {
+    "size": [
+      1024,
+      512
+    ],
+    "regions": [
+      {
+        "id": "notrucks_box",
+        "x": 517,
+        "y": 48,
+        "width": 119,
+        "height": 44,
+        "source": "UV of s_moviestudio_signwarn_004.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "notaxi",
+        "x": 646,
+        "y": 21,
+        "width": 117,
+        "height": 80,
+        "source": "UV of s_movie_studio_fences.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "closed_top",
+        "x": 902,
+        "y": 5,
+        "width": 116,
+        "height": 43,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "closed_set",
+        "x": 904,
+        "y": 48,
+        "width": 112,
+        "height": 16,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "closed_rec",
+        "x": 904,
+        "y": 67,
+        "width": 112,
+        "height": 32,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "closed_smoke",
+        "x": 904,
+        "y": 104,
+        "width": 112,
+        "height": 17,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tour",
+        "x": 555,
+        "y": 190,
+        "width": 170,
+        "height": 29,
+        "source": "UV of s_movie_studio_logo.dae (2 inst.), s_moviestudio_parking.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "gate1",
+        "x": 786,
+        "y": 132,
+        "width": 88,
+        "height": 26,
+        "source": "UV of s_movie_studio_fences.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "gate3",
+        "x": 786,
+        "y": 196,
+        "width": 88,
+        "height": 26,
+        "source": "UV of s_movie_studio_fences.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "stop_top",
+        "x": 900,
+        "y": 132,
+        "width": 57,
+        "height": 25,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.), s_moviestudio_signwarn_004.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "ped",
+        "x": 899,
+        "y": 157,
+        "width": 59,
+        "height": 39,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.), s_moviestudio_signwarn_004.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "trucks_only",
+        "x": 899,
+        "y": 221,
+        "width": 59,
+        "height": 34,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.), s_moviestudio_signwarn_004.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "tourpark_hdr",
+        "x": 963,
+        "y": 142,
+        "width": 58,
+        "height": 13,
+        "source": "UV of s_moviestudio_parking.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tourpark_ent",
+        "x": 965,
+        "y": 155,
+        "width": 54,
+        "height": 21,
+        "source": "UV of s_moviestudio_parking.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tourpark_vis",
+        "x": 967,
+        "y": 229,
+        "width": 50,
+        "height": 24,
+        "source": "UV of s_moviestudio_parking.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "visitors_office",
+        "x": 3,
+        "y": 345,
+        "width": 123,
+        "height": 37,
+        "source": "UV of s_movie_studio_fences.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tresp_hdr",
+        "x": 133,
+        "y": 263,
+        "width": 120,
+        "height": 50,
+        "source": "UV of s_moviestudio_signwarn_002.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "tresp_body",
+        "x": 139,
+        "y": 324,
+        "width": 110,
+        "height": 49,
+        "source": "UV of s_moviestudio_signwarn_002.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "stage1",
+        "x": 265,
+        "y": 262,
+        "width": 79,
+        "height": 24,
+        "source": "UV of s_building_stage_01.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "stage2",
+        "x": 393,
+        "y": 262,
+        "width": 79,
+        "height": 24,
+        "source": "UV of s_building_stage_02.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "stage3",
+        "x": 265,
+        "y": 390,
+        "width": 79,
+        "height": 24,
+        "source": "UV of s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "surv_hdr",
+        "x": 521,
+        "y": 259,
+        "width": 107,
+        "height": 27,
+        "source": "UV of s_building_moviestudio_delivery.dae (2 inst.), s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "surv_body",
+        "x": 521,
+        "y": 324,
+        "width": 107,
+        "height": 53,
+        "source": "UV of s_building_moviestudio_delivery.dae (2 inst.), s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "trucks_ent",
+        "x": 645,
+        "y": 261,
+        "width": 119,
+        "height": 88,
+        "source": "UV of s_movie_studio_fences.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "trucks_vis",
+        "x": 649,
+        "y": 348,
+        "width": 112,
+        "height": 30,
+        "source": "UV of s_movie_studio_fences.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "stop_sec",
+        "x": 839,
+        "y": 277,
+        "width": 50,
+        "height": 21,
+        "source": "UV of s_moviestudio_signwarn_004.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "security",
+        "x": 834,
+        "y": 314,
+        "width": 61,
+        "height": 67,
+        "source": "UV of s_moviestudio_signwarn_004.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "exit_only",
+        "x": 903,
+        "y": 267,
+        "width": 114,
+        "height": 26,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "entr_only",
+        "x": 903,
+        "y": 323,
+        "width": 114,
+        "height": 42,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "courier",
+        "x": 518,
+        "y": 392,
+        "width": 116,
+        "height": 71,
+        "source": "UV of s_building_moviestudio_delivery.dae (2 inst.), s_movie_studio_fences.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tour_parking",
+        "x": 651,
+        "y": 402,
+        "width": 106,
+        "height": 51,
+        "source": "UV of s_movie_studio_fences.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "loading_hdr",
+        "x": 903,
+        "y": 387,
+        "width": 114,
+        "height": 21,
+        "source": "UV of s_building_moviestudio_delivery.dae (2 inst.); Phase 6"
+      },
+      {
+        "id": "loading_body",
+        "x": 911,
+        "y": 408,
+        "width": 98,
+        "height": 18,
+        "source": "UV of s_building_moviestudio_delivery.dae (2 inst.); Phase 6"
+      },
+      {
+        "id": "req_title",
+        "x": 902,
+        "y": 450,
+        "width": 116,
+        "height": 10,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "req_closed",
+        "x": 917,
+        "y": 459,
+        "width": 86,
+        "height": 12,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "req_contact",
+        "x": 904,
+        "y": 470,
+        "width": 112,
+        "height": 19,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "req_phones",
+        "x": 904,
+        "y": 489,
+        "width": 112,
+        "height": 19,
+        "source": "UV of s_building_stage_01.dae (1 inst.), s_building_stage_02.dae (1 inst.), s_building_stage_03.dae (1 inst.); Phase 6"
+      }
+    ]
   }
 }

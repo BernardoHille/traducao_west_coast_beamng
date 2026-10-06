@@ -1,0 +1,11 @@
+{
+ "family": "t_movie_studio_signage",
+ "items": [
+  {
+   "png": "working/png/t_movie_studio_signage_b.color.png",
+   "install": [
+    "assets/materials/billboard_label/m_movie_studio_signage"
+   ]
+  }
+ ]
+}

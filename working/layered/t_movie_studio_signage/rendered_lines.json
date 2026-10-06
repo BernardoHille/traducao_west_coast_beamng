@@ -1,0 +1,679 @@
+{
+ "notrucks_box": [
+  {
+   "text": "VEÍCULOS E PERTENCES",
+   "box": [
+    520,
+    58,
+    633,
+    68
+   ]
+  },
+  {
+   "text": "SUJEITOS A INSPEÇÃO",
+   "box": [
+    520,
+    72,
+    633,
+    82
+   ]
+  }
+ ],
+ "notaxi": [
+  {
+   "text": "PROIBIDO",
+   "box": [
+    649,
+    26,
+    760,
+    40
+   ]
+  },
+  {
+   "text": "DESEMBARQUE",
+   "box": [
+    649,
+    45,
+    760,
+    59
+   ]
+  },
+  {
+   "text": "DE TÁXI",
+   "box": [
+    649,
+    63,
+    760,
+    77
+   ]
+  },
+  {
+   "text": "USE O PORTÃO 3",
+   "box": [
+    649,
+    82,
+    760,
+    96
+   ]
+  }
+ ],
+ "closed_top": [
+  {
+   "text": "PROIBIDA A ENTRADA",
+   "box": [
+    905,
+    8,
+    1015,
+    18
+   ]
+  },
+  {
+   "text": "COM LUZ VERMELHA",
+   "box": [
+    905,
+    22,
+    1015,
+    32
+   ]
+  },
+  {
+   "text": "ACESA",
+   "box": [
+    905,
+    35,
+    1015,
+    45
+   ]
+  }
+ ],
+ "closed_set": [
+  {
+   "text": "SET FECHADO",
+   "box": [
+    907,
+    52,
+    1013,
+    61
+   ]
+  }
+ ],
+ "closed_rec": [
+  {
+   "text": "GRAVAÇÕES DE ÁUDIO OU VÍDEO",
+   "box": [
+    907,
+    70,
+    1013,
+    77
+   ]
+  },
+  {
+   "text": "SÓ COM AUTORIZAÇÃO",
+   "box": [
+    907,
+    80,
+    1013,
+    87
+   ]
+  },
+  {
+   "text": "DA PRODUÇÃO",
+   "box": [
+    907,
+    89,
+    1013,
+    96
+   ]
+  }
+ ],
+ "closed_smoke": [
+  {
+   "text": "PROIBIDO FUMAR",
+   "box": [
+    907,
+    109,
+    1013,
+    116
+   ]
+  }
+ ],
+ "tour": [
+  {
+   "text": "VISITA AO ESTÚDIO",
+   "box": [
+    558,
+    199,
+    722,
+    210
+   ]
+  }
+ ],
+ "gate1": [
+  {
+   "text": "PORTÃO 1",
+   "box": [
+    789,
+    140,
+    871,
+    150
+   ]
+  }
+ ],
+ "gate3": [
+  {
+   "text": "PORTÃO 3",
+   "box": [
+    789,
+    204,
+    871,
+    214
+   ]
+  }
+ ],
+ "stop_top": [
+  {
+   "text": "PARE",
+   "box": [
+    903,
+    135,
+    954,
+    154
+   ]
+  }
+ ],
+ "ped": [
+  {
+   "text": "PROIBIDO",
+   "box": [
+    902,
+    165,
+    955,
+    175
+   ]
+  },
+  {
+   "text": "PEDESTRES",
+   "box": [
+    902,
+    178,
+    955,
+    188
+   ]
+  }
+ ],
+ "trucks_only": [
+  {
+   "text": "SOMENTE",
+   "box": [
+    902,
+    226,
+    955,
+    236
+   ]
+  },
+  {
+   "text": "CAMINHÕES",
+   "box": [
+    902,
+    240,
+    955,
+    250
+   ]
+  }
+ ],
+ "tourpark_hdr": [
+  {
+   "text": "VISITA AO ESTÚDIO",
+   "box": [
+    966,
+    146,
+    1018,
+    152
+   ]
+  }
+ ],
+ "tourpark_ent": [
+  {
+   "text": "ENTRADA DO",
+   "box": [
+    968,
+    160,
+    1016,
+    165
+   ]
+  },
+  {
+   "text": "ESTACIONAMENTO",
+   "box": [
+    968,
+    166,
+    1016,
+    171
+   ]
+  }
+ ],
+ "tourpark_vis": [
+  {
+   "text": "SOMENTE",
+   "box": [
+    970,
+    233,
+    1014,
+    240
+   ]
+  },
+  {
+   "text": "VISITANTES",
+   "box": [
+    970,
+    242,
+    1014,
+    249
+   ]
+  }
+ ],
+ "visitors_office": [
+  {
+   "text": "Visitantes e entregadores",
+   "box": [
+    6,
+    351,
+    123,
+    358
+   ]
+  },
+  {
+   "text": "devem se apresentar",
+   "box": [
+    6,
+    360,
+    123,
+    367
+   ]
+  },
+  {
+   "text": "ao escritório.",
+   "box": [
+    6,
+    369,
+    123,
+    376
+   ]
+  }
+ ],
+ "tresp_hdr": [
+  {
+   "text": "ENTRADA",
+   "box": [
+    136,
+    267,
+    250,
+    285
+   ]
+  },
+  {
+   "text": "PROIBIDA",
+   "box": [
+    136,
+    291,
+    250,
+    309
+   ]
+  }
+ ],
+ "tresp_body": [
+  {
+   "text": "INFRATORES",
+   "box": [
+    142,
+    328,
+    246,
+    339
+   ]
+  },
+  {
+   "text": "SERÃO",
+   "box": [
+    142,
+    343,
+    246,
+    354
+   ]
+  },
+  {
+   "text": "PROCESSADOS",
+   "box": [
+    142,
+    358,
+    246,
+    369
+   ]
+  }
+ ],
+ "stage1": [
+  {
+   "text": "ESTÚDIO",
+   "box": [
+    268,
+    269,
+    341,
+    279
+   ]
+  }
+ ],
+ "stage2": [
+  {
+   "text": "ESTÚDIO",
+   "box": [
+    396,
+    269,
+    469,
+    279
+   ]
+  }
+ ],
+ "stage3": [
+  {
+   "text": "ESTÚDIO",
+   "box": [
+    268,
+    397,
+    341,
+    407
+   ]
+  }
+ ],
+ "surv_hdr": [
+  {
+   "text": "AVISO",
+   "box": [
+    524,
+    262,
+    625,
+    283
+   ]
+  }
+ ],
+ "surv_body": [
+  {
+   "text": "PRÉDIO SOB",
+   "box": [
+    524,
+    339,
+    625,
+    345
+   ]
+  },
+  {
+   "text": "VIDEO-",
+   "box": [
+    524,
+    348,
+    625,
+    354
+   ]
+  },
+  {
+   "text": "MONITORAMENTO",
+   "box": [
+    524,
+    356,
+    625,
+    362
+   ]
+  }
+ ],
+ "trucks_ent": [
+  {
+   "text": "ENTRADA",
+   "box": [
+    648,
+    266,
+    761,
+    287
+   ]
+  },
+  {
+   "text": "SÓ PARA",
+   "box": [
+    648,
+    294,
+    761,
+    315
+   ]
+  },
+  {
+   "text": "CAMINHÕES",
+   "box": [
+    648,
+    323,
+    761,
+    344
+   ]
+  }
+ ],
+ "trucks_vis": [
+  {
+   "text": "VISITANTES USEM O",
+   "box": [
+    652,
+    351,
+    758,
+    361
+   ]
+  },
+  {
+   "text": "PORTÃO PRINCIPAL",
+   "box": [
+    652,
+    365,
+    758,
+    375
+   ]
+  }
+ ],
+ "stop_sec": [
+  {
+   "text": "PARE",
+   "box": [
+    842,
+    280,
+    886,
+    295
+   ]
+  }
+ ],
+ "security": [
+  {
+   "text": "INSPEÇÃO DE",
+   "box": [
+    837,
+    325,
+    892,
+    334
+   ]
+  },
+  {
+   "text": "SEGURANÇA",
+   "box": [
+    837,
+    337,
+    892,
+    346
+   ]
+  },
+  {
+   "text": "VEÍCULO EM",
+   "box": [
+    837,
+    349,
+    892,
+    358
+   ]
+  },
+  {
+   "text": "INSPEÇÃO",
+   "box": [
+    837,
+    361,
+    892,
+    370
+   ]
+  }
+ ],
+ "exit_only": [
+  {
+   "text": "SOMENTE SAÍDA",
+   "box": [
+    906,
+    276,
+    1014,
+    284
+   ]
+  }
+ ],
+ "entr_only": [
+  {
+   "text": "SOMENTE",
+   "box": [
+    906,
+    328,
+    1014,
+    342
+   ]
+  },
+  {
+   "text": "ENTRADA",
+   "box": [
+    906,
+    346,
+    1014,
+    360
+   ]
+  }
+ ],
+ "courier": [
+  {
+   "text": "ÁREA DE",
+   "box": [
+    521,
+    400,
+    631,
+    423
+   ]
+  },
+  {
+   "text": "ENTREGAS",
+   "box": [
+    521,
+    432,
+    631,
+    455
+   ]
+  }
+ ],
+ "tour_parking": [
+  {
+   "text": "ESTACIONAMENTO",
+   "box": [
+    654,
+    413,
+    754,
+    425
+   ]
+  },
+  {
+   "text": "DA VISITA",
+   "box": [
+    654,
+    430,
+    754,
+    442
+   ]
+  }
+ ],
+ "loading_hdr": [
+  {
+   "text": "PROIBIDO ESTACIONAR",
+   "box": [
+    906,
+    392,
+    1014,
+    402
+   ]
+  }
+ ],
+ "loading_body": [
+  {
+   "text": "CARGA E DESCARGA",
+   "box": [
+    914,
+    412,
+    1006,
+    422
+   ]
+  }
+ ],
+ "req_title": [
+  {
+   "text": "REQUISITOS PARA ENTRAR NO ESTÚDIO",
+   "box": [
+    905,
+    454,
+    1015,
+    457
+   ]
+  }
+ ],
+ "req_closed": [
+  {
+   "text": "SET FECHADO",
+   "box": [
+    920,
+    462,
+    1000,
+    468
+   ]
+  }
+ ],
+ "req_contact": [
+  {
+   "text": "PARA ENTRAR,",
+   "box": [
+    907,
+    475,
+    1013,
+    479
+   ]
+  },
+  {
+   "text": "FALE COM A ADMINISTRAÇÃO",
+   "box": [
+    907,
+    480,
+    1013,
+    484
+   ]
+  }
+ ],
+ "req_phones": [
+  {
+   "text": "COLOQUE CELULARES E BIPES",
+   "box": [
+    907,
+    494,
+    1013,
+    498
+   ]
+  },
+  {
+   "text": "NO MODO VIBRAR",
+   "box": [
+    907,
+    499,
+    1013,
+    503
+   ]
+  }
+ ]
+}

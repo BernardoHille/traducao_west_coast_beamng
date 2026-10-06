@@ -1,0 +1,1582 @@
+{
+ "family": "t_movie_studio_signage",
+ "_doc": "Lens Flare studio signage (Phase 6, 6D). Material m_movie_studio_signage (no alpha test). Only boxes sampled by instanced West Coast meshes are kept (compose.py regions). Logos 'LENS FLARE' preserved.",
+ "maps": {
+  "color": {
+   "original": "source/originals/png/t_movie_studio_signage_b.color.png",
+   "out": "working/png/t_movie_studio_signage_b.color.png"
+  }
+ },
+ "materials": [
+  "m_movie_studio_signage"
+ ],
+ "usage_texture": "t_movie_studio_signage_b.color",
+ "uv_min_coverage": 0.4,
+ "seed": 20261006,
+ "elements": [
+  {
+   "id": "notrucks_box",
+   "matrix": "studio_no_trucks",
+   "op": "panel",
+   "box": [
+    517,
+    48,
+    636,
+    92
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     518,
+     49,
+     635,
+     91
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      520,
+      51,
+      633,
+      89
+     ],
+     "text": "VEÍCULOS E PERTENCES\nSUJEITOS A INSPEÇÃO",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "notaxi",
+   "matrix": "studio_no_taxi",
+   "op": "panel",
+   "box": [
+    646,
+    21,
+    763,
+    101
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     647,
+     22,
+     762,
+     100
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      649,
+      24,
+      760,
+      98
+     ],
+     "text": "PROIBIDO\nDESEMBARQUE\nDE TÁXI\nUSE O PORTÃO 3",
+     "max_lines": 4,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "closed_top",
+   "matrix": "studio_closed_set",
+   "op": "panel",
+   "box": [
+    902,
+    5,
+    1018,
+    48
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     903,
+     6,
+     1017,
+     47
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      905,
+      8,
+      1015,
+      45
+     ],
+     "text": "PROIBIDA A ENTRADA\nCOM LUZ VERMELHA\nACESA",
+     "max_lines": 3,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "closed_set",
+   "matrix": "studio_closed_set",
+   "op": "panel",
+   "box": [
+    904,
+    48,
+    1016,
+    64
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     905,
+     49,
+     1015,
+     63
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      907,
+      51,
+      1013,
+      61
+     ],
+     "text": "SET FECHADO",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "closed_rec",
+   "matrix": "studio_closed_set",
+   "op": "panel",
+   "box": [
+    904,
+    67,
+    1016,
+    99
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     905,
+     68,
+     1015,
+     98
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      907,
+      70,
+      1013,
+      96
+     ],
+     "text": "GRAVAÇÕES DE ÁUDIO OU VÍDEO\nSÓ COM AUTORIZAÇÃO\nDA PRODUÇÃO",
+     "max_lines": 3,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "closed_smoke",
+   "matrix": "studio_closed_set",
+   "op": "panel",
+   "box": [
+    904,
+    104,
+    1016,
+    121
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     905,
+     105,
+     1015,
+     120
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      907,
+      107,
+      1013,
+      118
+     ],
+     "text": "PROIBIDO FUMAR",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "tour",
+   "matrix": "studio_studio_tour",
+   "op": "panel",
+   "box": [
+    555,
+    190,
+    725,
+    219
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     556,
+     191,
+     724,
+     218
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      558,
+      193,
+      722,
+      216
+     ],
+     "text": "VISITA AO ESTÚDIO",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "gate1",
+   "matrix": "studio_gates",
+   "op": "panel",
+   "box": [
+    786,
+    132,
+    874,
+    158
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     787,
+     133,
+     873,
+     157
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      789,
+      135,
+      871,
+      155
+     ],
+     "text": "PORTÃO 1",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "gate3",
+   "matrix": "studio_gates",
+   "op": "panel",
+   "box": [
+    786,
+    196,
+    874,
+    222
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     787,
+     197,
+     873,
+     221
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      789,
+      199,
+      871,
+      219
+     ],
+     "text": "PORTÃO 3",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "stop_top",
+   "matrix": "studio_stop",
+   "op": "panel",
+   "box": [
+    900,
+    132,
+    957,
+    157
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     901,
+     133,
+     956,
+     156
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      903,
+      135,
+      954,
+      154
+     ],
+     "text": "PARE",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "ped",
+   "matrix": "studio_trucks_only",
+   "op": "panel",
+   "box": [
+    899,
+    157,
+    958,
+    196
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     900,
+     158,
+     957,
+     195
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      902,
+      160,
+      955,
+      193
+     ],
+     "text": "PROIBIDO\nPEDESTRES",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "trucks_only",
+   "matrix": "studio_trucks_only",
+   "op": "panel",
+   "box": [
+    899,
+    221,
+    958,
+    255
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     900,
+     222,
+     957,
+     254
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      902,
+      224,
+      955,
+      252
+     ],
+     "text": "SOMENTE\nCAMINHÕES",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "tourpark_hdr",
+   "matrix": "studio_tour_parking_entrance",
+   "op": "panel",
+   "box": [
+    963,
+    142,
+    1021,
+    155
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     964,
+     143,
+     1020,
+     154
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      966,
+      145,
+      1018,
+      152
+     ],
+     "text": "VISITA AO ESTÚDIO",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "tourpark_ent",
+   "matrix": "studio_tour_parking_entrance",
+   "op": "panel",
+   "box": [
+    965,
+    155,
+    1019,
+    176
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     966,
+     156,
+     1018,
+     175
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      968,
+      158,
+      1016,
+      173
+     ],
+     "text": "ENTRADA DO\nESTACIONAMENTO",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "tourpark_vis",
+   "matrix": "studio_tour_parking_entrance",
+   "op": "panel",
+   "box": [
+    967,
+    229,
+    1017,
+    253
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     968,
+     230,
+     1016,
+     252
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      970,
+      232,
+      1014,
+      250
+     ],
+     "text": "SOMENTE\nVISITANTES",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "visitors_office",
+   "matrix": "studio_restricted",
+   "op": "panel",
+   "box": [
+    3,
+    345,
+    126,
+    382
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     4,
+     346,
+     125,
+     381
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "segoe_semibold"
+   },
+   "blocks": [
+    {
+     "box": [
+      6,
+      348,
+      123,
+      379
+     ],
+     "text": "Visitantes e entregadores\ndevem se apresentar\nao escritório.",
+     "max_lines": 3,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "tresp_hdr",
+   "matrix": "studio_violators",
+   "op": "panel",
+   "box": [
+    133,
+    263,
+    253,
+    313
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     134,
+     264,
+     252,
+     312
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      136,
+      266,
+      250,
+      310
+     ],
+     "text": "ENTRADA\nPROIBIDA",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "tresp_body",
+   "matrix": "studio_violators",
+   "op": "panel",
+   "box": [
+    139,
+    324,
+    249,
+    373
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     140,
+     325,
+     248,
+     372
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      142,
+      327,
+      246,
+      370
+     ],
+     "text": "INFRATORES\nSERÃO\nPROCESSADOS",
+     "max_lines": 3,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "stage1",
+   "matrix": "studio_stages",
+   "op": "panel",
+   "box": [
+    265,
+    262,
+    344,
+    286
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     266,
+     263,
+     343,
+     285
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      268,
+      265,
+      341,
+      283
+     ],
+     "text": "ESTÚDIO",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "stage2",
+   "matrix": "studio_stages",
+   "op": "panel",
+   "box": [
+    393,
+    262,
+    472,
+    286
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     394,
+     263,
+     471,
+     285
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      396,
+      265,
+      469,
+      283
+     ],
+     "text": "ESTÚDIO",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "stage3",
+   "matrix": "studio_stages",
+   "op": "panel",
+   "box": [
+    265,
+    390,
+    344,
+    414
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     266,
+     391,
+     343,
+     413
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      268,
+      393,
+      341,
+      411
+     ],
+     "text": "ESTÚDIO",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "surv_hdr",
+   "matrix": "studio_surveillance",
+   "op": "panel",
+   "box": [
+    521,
+    259,
+    628,
+    286
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     522,
+     260,
+     627,
+     285
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      524,
+      262,
+      625,
+      283
+     ],
+     "text": "AVISO",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "surv_body",
+   "matrix": "studio_surveillance",
+   "op": "panel",
+   "box": [
+    521,
+    324,
+    628,
+    377
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     522,
+     325,
+     627,
+     376
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      524,
+      327,
+      625,
+      374
+     ],
+     "text": "PRÉDIO SOB\nVIDEO-\nMONITORAMENTO",
+     "max_lines": 3,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "trucks_ent",
+   "matrix": "studio_trucks_entrance",
+   "op": "panel",
+   "box": [
+    645,
+    261,
+    764,
+    349
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     646,
+     262,
+     763,
+     348
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      648,
+      264,
+      761,
+      346
+     ],
+     "text": "ENTRADA\nSÓ PARA\nCAMINHÕES",
+     "max_lines": 3,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "trucks_vis",
+   "matrix": "studio_trucks_entrance",
+   "op": "panel",
+   "box": [
+    649,
+    348,
+    761,
+    378
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     650,
+     349,
+     760,
+     377
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      652,
+      351,
+      758,
+      375
+     ],
+     "text": "VISITANTES USEM O\nPORTÃO PRINCIPAL",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "stop_sec",
+   "matrix": "studio_stop",
+   "op": "panel",
+   "box": [
+    839,
+    277,
+    889,
+    298
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     840,
+     278,
+     888,
+     297
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      842,
+      280,
+      886,
+      295
+     ],
+     "text": "PARE",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "security",
+   "matrix": "studio_security_check",
+   "op": "panel",
+   "box": [
+    834,
+    314,
+    895,
+    381
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     835,
+     315,
+     894,
+     380
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      837,
+      317,
+      892,
+      378
+     ],
+     "text": "INSPEÇÃO DE\nSEGURANÇA\nVEÍCULO EM\nINSPEÇÃO",
+     "max_lines": 4,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "exit_only",
+   "matrix": "studio_exit_entrance_only",
+   "op": "panel",
+   "box": [
+    903,
+    267,
+    1017,
+    293
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     904,
+     268,
+     1016,
+     292
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      906,
+      270,
+      1014,
+      290
+     ],
+     "text": "SOMENTE SAÍDA",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "entr_only",
+   "matrix": "studio_exit_entrance_only",
+   "op": "panel",
+   "box": [
+    903,
+    323,
+    1017,
+    365
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     904,
+     324,
+     1016,
+     364
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      906,
+      326,
+      1014,
+      362
+     ],
+     "text": "SOMENTE\nENTRADA",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "courier",
+   "matrix": "studio_courier",
+   "op": "panel",
+   "box": [
+    518,
+    392,
+    634,
+    463
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     519,
+     393,
+     633,
+     462
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      521,
+      395,
+      631,
+      460
+     ],
+     "text": "ÁREA DE\nENTREGAS",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "tour_parking",
+   "matrix": "studio_tour_parking",
+   "op": "panel",
+   "box": [
+    651,
+    402,
+    757,
+    453
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     652,
+     403,
+     756,
+     452
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      654,
+      405,
+      754,
+      450
+     ],
+     "text": "ESTACIONAMENTO\nDA VISITA",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "loading_hdr",
+   "matrix": "studio_loading",
+   "op": "panel",
+   "box": [
+    903,
+    387,
+    1017,
+    408
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     904,
+     388,
+     1016,
+     407
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      906,
+      390,
+      1014,
+      405
+     ],
+     "text": "PROIBIDO ESTACIONAR",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "loading_body",
+   "matrix": "studio_loading",
+   "op": "panel",
+   "box": [
+    911,
+    408,
+    1009,
+    426
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     912,
+     409,
+     1008,
+     425
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      914,
+      411,
+      1006,
+      423
+     ],
+     "text": "CARGA E DESCARGA",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "req_title",
+   "matrix": "studio_stage_requirements",
+   "op": "panel",
+   "box": [
+    902,
+    450,
+    1018,
+    460
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     903,
+     451,
+     1017,
+     459
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      905,
+      453,
+      1015,
+      457
+     ],
+     "text": "REQUISITOS PARA ENTRAR NO ESTÚDIO",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "req_closed",
+   "matrix": "studio_stage_requirements",
+   "op": "panel",
+   "box": [
+    917,
+    459,
+    1003,
+    471
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     918,
+     460,
+     1002,
+     470
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 90,
+    "min_wdth": 72
+   },
+   "blocks": [
+    {
+     "box": [
+      920,
+      462,
+      1000,
+      468
+     ],
+     "text": "SET FECHADO",
+     "max_lines": 1,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "req_contact",
+   "matrix": "studio_stage_requirements",
+   "op": "panel",
+   "box": [
+    904,
+    470,
+    1016,
+    489
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     905,
+     471,
+     1015,
+     488
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      907,
+      473,
+      1013,
+      486
+     ],
+     "text": "PARA ENTRAR,\nFALE COM A ADMINISTRAÇÃO",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  },
+  {
+   "id": "req_phones",
+   "matrix": "studio_stage_requirements",
+   "op": "panel",
+   "box": [
+    904,
+    489,
+    1016,
+    508
+   ],
+   "legend": "auto",
+   "legend_tol": 55,
+   "bg_tol": 26,
+   "erase": [
+    [
+     905,
+     490,
+     1015,
+     507
+    ]
+   ],
+   "erase_dilate": 1,
+   "no_grow": true,
+   "style": {
+    "font": "rockwell_bold"
+   },
+   "blocks": [
+    {
+     "box": [
+      907,
+      492,
+      1013,
+      505
+     ],
+     "text": "COLOQUE CELULARES E BIPES\nNO MODO VIBRAR",
+     "max_lines": 2,
+     "leading": 1.35
+    }
+   ]
+  }
+ ],
+ "_not_used": [
+  "danger_exc",
+  "danger_exc_hdr",
+  "dne",
+  "dne_oneway",
+  "gate2",
+  "gate_oneway",
+  "hardhat",
+  "idling",
+  "notice_body",
+  "notice_hdr",
+  "notrucks_hdr",
+  "notrucks_id",
+  "ppe",
+  "private_body",
+  "private_hdr",
+  "restricted_hdr",
+  "restricted_keep",
+  "soon",
+  "stage4"
+ ]
+}
