@@ -1,0 +1,41 @@
+{
+ "family": "t_bus_routes_wca",
+ "family_entry": {
+  "material": "m_bus_routes_wca",
+  "vfs_checks": [
+   {
+    "path": "/assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_b.color.dds",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": "billboard_label.zip"
+   }
+  ]
+ },
+ "points": [
+  {
+   "id": "bus_map_shelter",
+   "kind": "uv",
+   "mesh": "art_shapes.zip::art/shapes/objects/s_busstop_wcu.dae",
+   "material": "m_bus_routes_wca",
+   "size": [
+    512,
+    512
+   ],
+   "region": [
+    0,
+    0,
+    512,
+    512
+   ],
+   "distance": "auto",
+   "fov": 45,
+   "expected": [
+    "Mapa de linhas de ônibus: título, legenda e nomes de paradas em PT-BR"
+   ],
+   "description": "Abrigo de ônibus (s_busstop_wcu).",
+   "lighting": [
+    "day",
+    "night"
+   ]
+  }
+ ]
+}

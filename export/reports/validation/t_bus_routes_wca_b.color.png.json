@@ -1,0 +1,112 @@
+{
+  "title": "PNG validation",
+  "subject": "working/png/t_bus_routes_wca_b.color.png",
+  "status": "PASS",
+  "counts": {
+    "PASS": 6,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 1
+  },
+  "generated": "2026-10-06T11:57:10",
+  "meta": {
+    "original": "source/originals/png/t_bus_routes_wca_b.color.png",
+    "texture": "t_bus_routes_wca_b.color",
+    "allowed_regions": 30,
+    "metrics": {
+      "pixels": 262144,
+      "rgb": {
+        "changed": 10409,
+        "changed_pct": 3.9707,
+        "mean_abs": 2.2252,
+        "max_abs": 214,
+        "psnr_db": 26.01
+      },
+      "alpha": {
+        "changed": 0,
+        "changed_pct": 0.0,
+        "mean_abs": 0.0,
+        "max_abs": 0,
+        "original": {
+          "transparent_pct": 0.0,
+          "semi_pct": 3.302,
+          "opaque_pct": 96.698,
+          "min": 247,
+          "max": 255,
+          "mean": 254.967
+        },
+        "candidate": {
+          "transparent_pct": 0.0,
+          "semi_pct": 3.302,
+          "opaque_pct": 96.698,
+          "min": 247,
+          "max": 255,
+          "mean": 254.967
+        },
+        "opaque_pixels_modified": 0,
+        "opaque_pixels_modified_outside": 0,
+        "transparent_pixels_modified": 0,
+        "semi_transparent_pixels_modified": 0,
+        "transparent_pixels_original": 0,
+        "semi_pixels_original": 8656
+      },
+      "changed_any": 10409,
+      "changed_any_pct": 3.9707,
+      "changed_inside_regions": 10409,
+      "changed_outside_regions": 0,
+      "changed_outside_pct": 0.0,
+      "outside_area_pixels": 187436,
+      "bbox_changes": {
+        "x": 8,
+        "y": 8,
+        "width": 460,
+        "height": 503
+      },
+      "bbox_changes_outside": null
+    }
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (7d158e869f6d…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "512x512",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Alpha preservation",
+      "message": "original has no fully transparent pixels outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Semi-transparency",
+      "message": "0.00% of 5601 originally semi-transparent pixels changed outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Alpha noise",
+      "message": "no opaque pixel lost opacity outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Pixel diff (global, informative)",
+      "message": "3.9707% changed · RGB mean 2.2252 max 214 · alpha mean 0.0 max 0 · PSNR 26.01 dB · bbox {'x': 8, 'y': 8, 'width': 460, 'height': 503}",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Changes outside allowed regions",
+      "message": "0 px changed outside; 10409 px inside 30 region(s)",
+      "details": {}
+    }
+  ]
+}

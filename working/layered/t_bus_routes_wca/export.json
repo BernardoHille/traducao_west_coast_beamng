@@ -1,0 +1,17 @@
+{
+ "family": "t_bus_routes_wca",
+ "items": [
+  {
+   "png": "working/png/t_bus_routes_wca_b.color.png",
+   "install": [
+    "assets/materials/billboard_label/m_bus_routes_wca"
+   ]
+  },
+  {
+   "png": "working/png/t_bus_routes_wca_nm.normal.png",
+   "install": [
+    "assets/materials/billboard_label/m_bus_routes_wca"
+   ]
+  }
+ ]
+}

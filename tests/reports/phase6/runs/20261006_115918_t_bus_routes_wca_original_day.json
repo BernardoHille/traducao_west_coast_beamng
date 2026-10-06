@@ -1,0 +1,66 @@
+{
+  "started": "2026-10-06T11:59:09",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "t_bus_routes_wca": [
+      {
+        "path": "/assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_b.color.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\billboard_label.zip\\assets\\materials\\billboard_label\\m_bus_routes_wca\\t_bus_routes_wca_b.color.dds",
+        "expected_contains": "billboard_label.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "bus_map_shelter",
+      "object": {
+        "dist": 0.00049783961153414,
+        "id": 102759,
+        "materials": [
+          "ind_glass_transparent",
+          "m_bus_routes_wca",
+          "m_sign_busstop",
+          "industrial_trim",
+          "m_metal_new_01",
+          "m_plastic_trim",
+          "m_plastic_01",
+          "m_billboardsigns_dealers",
+          "ind_concrete",
+          "lod_vertcol",
+          "m_bus_routes_utah"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_bus_routes_wca/bus_map_shelter_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_115917_45.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 45,
+        "pos": {
+          "y": 231.1046,
+          "x": -914.0606,
+          "z": 160.5609
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T11:59:18"
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Family validation",
+  "subject": "t_bus_routes_wca (mod)",
+  "status": "PASS",
+  "counts": {
+    "PASS": 5,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-10-06T11:57:12",
+  "meta": {
+    "scope": "global",
+    "wcusa_usage": "confirmed",
+    "delivered": {
+      "base_color": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_b.color.dds",
+      "normal": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_nm.normal.dds"
+    }
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "base_color (t_bus_routes_wca_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "normal (t_bus_routes_wca_nm.normal.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "ao (t_bus_routes_wca_ao.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "roughness (t_bus_routes_wca_r.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "shape_changed",
+      "message": "all shape-dependent maps delivered: normal",
+      "details": {}
+    }
+  ]
+}

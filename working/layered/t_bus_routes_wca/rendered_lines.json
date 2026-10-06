@@ -1,0 +1,332 @@
+{
+ "title": [
+  {
+   "text": "BELASCO — REDE DE TRANSPORTE",
+   "box": [
+    10,
+    10,
+    266,
+    21
+   ]
+  }
+ ],
+ "bus_lines": [
+  {
+   "text": "LINHAS DE ÔNIBUS",
+   "box": [
+    391,
+    127,
+    464,
+    134
+   ]
+  }
+ ],
+ "leg2b": [
+  {
+   "text": "Avenida Belasco",
+   "box": [
+    408,
+    175,
+    460,
+    180
+   ]
+  }
+ ],
+ "leg3b": [
+  {
+   "text": "Rua da Convenção",
+   "box": [
+    408,
+    195,
+    460,
+    200
+   ]
+  }
+ ],
+ "leg4a": [
+  {
+   "text": "Hospital Central",
+   "box": [
+    408,
+    206,
+    456,
+    211
+   ]
+  }
+ ],
+ "leg4b": [
+  {
+   "text": "Centro de Convenções",
+   "box": [
+    408,
+    215,
+    462,
+    220
+   ]
+  }
+ ],
+ "leg5b": [
+  {
+   "text": "Rua Fjord",
+   "box": [
+    408,
+    235,
+    444,
+    240
+   ]
+  }
+ ],
+ "belasco_boulevard": [
+  {
+   "text": "Avenida Belasco",
+   "box": [
+    52,
+    25,
+    98,
+    30
+   ]
+  }
+ ],
+ "fjord_street": [
+  {
+   "text": "Rua Fjord",
+   "box": [
+    48,
+    52,
+    78,
+    56
+   ]
+  }
+ ],
+ "logan_park": [
+  {
+   "text": "Parque Logan",
+   "box": [
+    31,
+    80,
+    62,
+    84
+   ]
+  }
+ ],
+ "convention_center": [
+  {
+   "text": "Centro de Convenções",
+   "box": [
+    155,
+    74,
+    205,
+    79
+   ]
+  }
+ ],
+ "belasco_pier": [
+  {
+   "text": "Píer Belasco",
+   "box": [
+    199,
+    100,
+    228,
+    105
+   ]
+  }
+ ],
+ "platin_gate": [
+  {
+   "text": "Ponte Platin Gate",
+   "box": [
+    258,
+    49,
+    305,
+    54
+   ]
+  }
+ ],
+ "canal_st": [
+  {
+   "text": "Rua do Canal",
+   "box": [
+    268,
+    145,
+    290,
+    149
+   ]
+  }
+ ],
+ "tennis": [
+  {
+   "text": "Clube de Tênis/Basquete",
+   "box": [
+    266,
+    208,
+    322,
+    212
+   ]
+  }
+ ],
+ "harlem_st": [
+  {
+   "text": "Rua Harlem",
+   "box": [
+    84,
+    260,
+    108,
+    265
+   ]
+  }
+ ],
+ "single_pine": [
+  {
+   "text": "Pousada Single Pine",
+   "box": [
+    424,
+    493,
+    467,
+    497
+   ]
+  }
+ ],
+ "station": [
+  {
+   "text": "Estação",
+   "box": [
+    112,
+    80,
+    128,
+    84
+   ]
+  }
+ ],
+ "stock_market": [
+  {
+   "text": "Bolsa de Valores",
+   "box": [
+    68,
+    132,
+    100,
+    136
+   ]
+  }
+ ],
+ "clinton_hotel": [
+  {
+   "text": "Hotel Clinton",
+   "box": [
+    90,
+    127,
+    121,
+    131
+   ]
+  }
+ ],
+ "central_hospital": [
+  {
+   "text": "Hospital Central",
+   "box": [
+    188,
+    156,
+    230,
+    160
+   ]
+  }
+ ],
+ "church_st": [
+  {
+   "text": "Rua da Igreja",
+   "box": [
+    25,
+    160,
+    50,
+    164
+   ]
+  }
+ ],
+ "winchester_rd": [
+  {
+   "text": "Rua Winchester",
+   "box": [
+    75,
+    185,
+    108,
+    189
+   ]
+  }
+ ],
+ "cloverfield_ln": [
+  {
+   "text": "Rua Cloverfield",
+   "box": [
+    30,
+    215,
+    62,
+    219
+   ]
+  }
+ ],
+ "dockyards": [
+  {
+   "text": "Docas",
+   "box": [
+    245,
+    106,
+    271,
+    110
+   ]
+  }
+ ],
+ "n_horizon": [
+  {
+   "text": "Horizon Estates Norte",
+   "box": [
+    109,
+    365,
+    151,
+    369
+   ]
+  }
+ ],
+ "redwood_motel": [
+  {
+   "text": "Pousada Redwood",
+   "box": [
+    102,
+    465,
+    142,
+    469
+   ]
+  }
+ ],
+ "e_horizon": [
+  {
+   "text": "Horizon Estates Leste",
+   "box": [
+    144,
+    491,
+    184,
+    495
+   ]
+  }
+ ],
+ "motorsports_park": [
+  {
+   "text": "Autódromo",
+   "box": [
+    359,
+    307,
+    402,
+    311
+   ]
+  }
+ ],
+ "agave_lookout": [
+  {
+   "text": "Mirante Agave",
+   "box": [
+    392,
+    420,
+    428,
+    424
+   ]
+  }
+ ]
+}

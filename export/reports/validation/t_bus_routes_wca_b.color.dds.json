@@ -1,0 +1,66 @@
+{
+  "title": "DDS validation",
+  "subject": "export/dds/t_bus_routes_wca/t_bus_routes_wca_b.color.dds",
+  "status": "PASS",
+  "counts": {
+    "PASS": 8,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-10-06T11:57:11",
+  "meta": {
+    "original": "source/originals/dds/t_bus_routes_wca_b.color.dds",
+    "original_format": "512x512 BC7_UNORM_SRGB (DX10) sRGB, 10 mips"
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "DDS header",
+      "message": "512x512 BC7_UNORM_SRGB (DX10) sRGB, 10 mips",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (808bea92dcd1…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "File size",
+      "message": "349700 bytes consistent with header",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Mipmaps",
+      "message": "10 (full chain to 1x1)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "512x512",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "DDS format",
+      "message": "BC7_UNORM_SRGB",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Colour space",
+      "message": "sRGB",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "DX10 alpha mode",
+      "message": "STRAIGHT vs original UNKNOWN (compatible)",
+      "details": {}
+    }
+  ]
+}

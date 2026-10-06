@@ -1,0 +1,26 @@
+[
+ {
+  "png": "working/png/t_bus_routes_wca_b.color.png",
+  "dds": "export/dds/t_bus_routes_wca/t_bus_routes_wca_b.color.dds",
+  "original": "source/originals/dds/t_bus_routes_wca_b.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 10,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_b.color.dds"
+  ]
+ },
+ {
+  "png": "working/png/t_bus_routes_wca_nm.normal.png",
+  "dds": "export/dds/t_bus_routes_wca/t_bus_routes_wca_nm.normal.dds",
+  "original": "source/originals/dds/t_bus_routes_wca_nm.normal.dds",
+  "format": "BC5_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 10,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_nm.normal.dds"
+  ]
+ }
+]
