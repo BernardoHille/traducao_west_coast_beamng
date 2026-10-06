@@ -1,0 +1,11 @@
+{
+ "family": "t_billboards",
+ "items": [
+  {
+   "png": "working/png/t_billboards_b.color.png",
+   "install": [
+    "assets/materials/billboard_label/billboards"
+   ]
+  }
+ ]
+}

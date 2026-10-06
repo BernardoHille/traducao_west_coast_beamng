@@ -1,0 +1,380 @@
+{
+ "family": "t_billboards",
+ "family_entry": {
+  "material": "billboards",
+  "vfs_checks": [
+   {
+    "path": "/assets/materials/billboard_label/billboards/t_billboards_b.color.dds",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": "billboard_label.zip"
+   }
+  ]
+ },
+ "points": [
+  {
+   "id": "bb_turbo_burger",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    1044,
+    20,
+    1516,
+    236
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "NOVO MENU TURBO · R$ 4,99"
+   ],
+   "description": "Outdoor Turbo Burger.",
+   "lighting": [
+    "day",
+    "night"
+   ]
+  },
+  {
+   "id": "bb_feline_racerz",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    532,
+    276,
+    1004,
+    492
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "JÁ DISPONÍVEL · citação · DISPONÍVEL PARA GAMEMASTER720 E PC"
+   ],
+   "description": "Outdoor Feline Racerz.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_tasticola",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    1556,
+    276,
+    2028,
+    492
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "NOVO SABOR! AZUL É O NOVO VERMELHO"
+   ],
+   "description": "Outdoor TastiCola.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_rally_rental",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    532,
+    532,
+    1004,
+    748
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "ECONOMIZE ATÉ R$ 200 · Visite a loja…"
+   ],
+   "description": "Outdoor Rocking Rally Rental.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_gripall",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    532,
+    788,
+    1004,
+    1004
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "A MARCA DE PNEUS DE CONFIANÇA DOS EUA"
+   ],
+   "description": "Outdoor GripAll.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_nodeoline",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    1556,
+    788,
+    2028,
+    1004
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "Resistência testada e comprovada"
+   ],
+   "description": "Outdoor Nodeoline.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_wcusa_warehouse",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_bld_warehouse_002.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    1044,
+    276,
+    1516,
+    492
+   ],
+   "distance": 18,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "WCUSA AUTÓDROMO"
+   ],
+   "description": "Painel WCUSA na fachada do armazém.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_driftgear_diner",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_diner_area_filler.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    1556,
+    20,
+    2028,
+    236
+   ],
+   "distance": 14,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "SUPERANDO OS LIMITES DA INOVAÇÃO"
+   ],
+   "description": "Outdoor DriftGear perto da lanchonete.",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_blastr",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    20,
+    20,
+    492,
+    236
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "SINTA A FÚRIA!!"
+   ],
+   "description": "Outdoor (billboards.dae).",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_brightsmile",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    532,
+    20,
+    1004,
+    236
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "Recomendado por 4 em cada 5 dentistas"
+   ],
+   "description": "Outdoor (billboards.dae).",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_mente",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    20,
+    532,
+    492,
+    748
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "EXPRESSE-SE"
+   ],
+   "description": "Outdoor (billboards.dae).",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_alder",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    1556,
+    532,
+    2028,
+    748
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "Performance Americana Clássica"
+   ],
+   "description": "Outdoor (billboards.dae).",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_eshock",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    20,
+    788,
+    492,
+    1004
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "DESEMPENHO CHOCANTE"
+   ],
+   "description": "Outdoor (billboards.dae).",
+   "lighting": [
+    "day"
+   ]
+  },
+  {
+   "id": "bb_oj",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/objects/billboards.dae",
+   "material": "billboards",
+   "size": [
+    2048,
+    1024
+   ],
+   "region": [
+    1044,
+    788,
+    1516,
+    1004
+   ],
+   "distance": 16,
+   "fov": 50,
+   "side": 1,
+   "expected": [
+    "VIVA SAUDÁVEL, VIVA RÁPIDO"
+   ],
+   "description": "Outdoor (billboards.dae).",
+   "lighting": [
+    "day"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1187 @@
+{
+ "family": "t_billboards",
+ "_doc": "West Coast billboards (Phase 6, 6C). Material 'billboards' -> t_billboards_b.color (assets/materials/billboard_label/billboards). Logos and brand names preserved; only slogans/values changed. Text over photographs is removed by diffusion fill from the surrounding pixels (no generative step) and the new text covers the same area.",
+ "maps": {
+  "color": {
+   "original": "source/originals/png/t_billboards_b.color.png",
+   "out": "working/png/t_billboards_b.color.png"
+  }
+ },
+ "materials": [
+  "billboards"
+ ],
+ "usage_texture": "t_billboards_b.color",
+ "uv_min_coverage": 0.4,
+ "seed": 20261006,
+ "elements": [
+  {
+   "id": "blastr_tagline",
+   "matrix": "billboard_blastr",
+   "op": "panel",
+   "box": [
+    386,
+    198,
+    512,
+    230
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      235,
+      205,
+      40
+     ],
+     [
+      150,
+      40,
+      15
+     ],
+     [
+      200,
+      140,
+      30
+     ]
+    ],
+    "tol": 55
+   },
+   "erase": [
+    [
+     390,
+     204,
+     510,
+     226
+    ]
+   ],
+   "style": {
+    "font": "impact",
+    "italic_shear": 0.18,
+    "stroke": {
+     "px": 1.4,
+     "color": [
+      140,
+      30,
+      10
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "SINTA A FÚRIA!!",
+     "box": [
+      392,
+      207,
+      508,
+      222
+     ]
+    }
+   ],
+   "color": [
+    240,
+    215,
+    45
+   ],
+   "erase_dilate": 2
+  },
+  {
+   "id": "brightsmile_tagline",
+   "matrix": "billboard_brightsmile",
+   "op": "panel",
+   "box": [
+    748,
+    74,
+    1004,
+    98
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      225,
+      232,
+      240
+     ]
+    ],
+    "tol": 60
+   },
+   "erase": [
+    [
+     752,
+     77,
+     1002,
+     96
+    ]
+   ],
+   "style": {
+    "font": "georgia"
+   },
+   "lines": [
+    {
+     "text": "“Recomendado por 4 em cada 5 dentistas”",
+     "box": [
+      756,
+      81,
+      1000,
+      90
+     ]
+    }
+   ],
+   "color": [
+    226,
+    232,
+    240
+   ]
+  },
+  {
+   "id": "turbo_menu",
+   "matrix": "billboard_turbo_burger",
+   "op": "panel",
+   "box": [
+    1050,
+    12,
+    1510,
+    60
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      240,
+      240,
+      240
+     ],
+     [
+      25,
+      25,
+      25
+     ],
+     [
+      60,
+      60,
+      60
+     ]
+    ],
+    "tol": 60
+   },
+   "erase": [
+    [
+     1058,
+     16,
+     1505,
+     56
+    ]
+   ],
+   "style": {
+    "font": "arial_black",
+    "italic_shear": 0.22,
+    "stroke": {
+     "px": 2,
+     "color": [
+      25,
+      25,
+      25
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "NOVO MENU TURBO",
+     "box": [
+      1064,
+      22,
+      1498,
+      50
+     ]
+    }
+   ],
+   "color": [
+    242,
+    242,
+    240
+   ],
+   "erase_dilate": 2
+  },
+  {
+   "id": "turbo_price",
+   "matrix": "billboard_turbo_burger",
+   "op": "panel",
+   "box": [
+    1318,
+    92,
+    1490,
+    150
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      240,
+      215,
+      25
+     ],
+     [
+      200,
+      170,
+      20
+     ]
+    ],
+    "tol": 70
+   },
+   "erase": [
+    [
+     1325,
+     98,
+     1482,
+     144
+    ]
+   ],
+   "style": {
+    "font": "arial_black"
+   },
+   "lines": [
+    {
+     "text": "R$ 4,99",
+     "box": [
+      1332,
+      104,
+      1474,
+      135
+     ]
+    }
+   ],
+   "color": [
+    245,
+    218,
+    22
+   ]
+  },
+  {
+   "id": "driftgear_tagline",
+   "matrix": "billboard_driftgear",
+   "op": "panel",
+   "box": [
+    1620,
+    16,
+    1970,
+    42
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      215,
+      220,
+      226
+     ]
+    ],
+    "tol": 45
+   },
+   "erase": [
+    [
+     1624,
+     19,
+     1966,
+     39
+    ]
+   ],
+   "style": {
+    "font": "arial_bold"
+   },
+   "lines": [
+    {
+     "text": "SUPERANDO OS LIMITES DA INOVAÇÃO",
+     "box": [
+      1628,
+      22,
+      1962,
+      36
+     ]
+    }
+   ],
+   "color": [
+    218,
+    223,
+    228
+   ]
+  },
+  {
+   "id": "feline_out_now",
+   "matrix": "billboard_feline_racerz",
+   "op": "panel",
+   "box": [
+    544,
+    298,
+    594,
+    338
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     548,
+     300,
+     590,
+     336
+    ]
+   ],
+   "style": {
+    "font": "arial_black"
+   },
+   "lines": [
+    {
+     "text": "JÁ",
+     "box": [
+      556,
+      302,
+      582,
+      315
+     ]
+    },
+    {
+     "text": "DISPONÍVEL",
+     "box": [
+      546,
+      321,
+      592,
+      330
+     ]
+    }
+   ],
+   "color": [
+    240,
+    240,
+    240
+   ]
+  },
+  {
+   "id": "feline_quote",
+   "matrix": "billboard_feline_racerz",
+   "op": "panel",
+   "box": [
+    514,
+    404,
+    664,
+    466
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      232,
+      198,
+      150
+     ],
+     [
+      228,
+      182,
+      125
+     ],
+     [
+      236,
+      214,
+      180
+     ]
+    ],
+    "tol": 32
+   },
+   "erase": [
+    [
+     518,
+     408,
+     662,
+     446
+    ],
+    [
+     520,
+     440,
+     630,
+     462
+    ]
+   ],
+   "style": {
+    "font": "arial_bold",
+    "italic_shear": 0.1
+   },
+   "lines": [
+    {
+     "text": "“São gatos em carros, gente! 9/10”",
+     "box": [
+      517,
+      428,
+      647,
+      437
+     ]
+    },
+    {
+     "text": "SeriousGamingJournalism",
+     "box": [
+      530,
+      442,
+      620,
+      451
+     ]
+    }
+   ],
+   "color": [
+    236,
+    206,
+    160
+   ],
+   "rotate": {
+    "deg": 11.5,
+    "pivot": [
+     585,
+     438
+    ]
+   },
+   "erase_dilate": 2,
+   "no_grow": true
+  },
+  {
+   "id": "feline_available",
+   "matrix": "billboard_feline_racerz",
+   "op": "panel",
+   "box": [
+    566,
+    478,
+    836,
+    500
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      240,
+      240,
+      240
+     ],
+     [
+      205,
+      205,
+      210
+     ]
+    ],
+    "tol": 45
+   },
+   "erase": [
+    [
+     569,
+     481,
+     833,
+     497
+    ]
+   ],
+   "style": {
+    "font": "arial_black"
+   },
+   "lines": [
+    {
+     "text": "DISPONÍVEL PARA GAMEMASTER720 E PC",
+     "box": [
+      572,
+      484,
+      830,
+      494
+     ]
+    }
+   ],
+   "color": [
+    238,
+    238,
+    240
+   ]
+  },
+  {
+   "id": "wcusa_racetrack",
+   "matrix": "billboard_wcusa_racetrack",
+   "op": "panel",
+   "box": [
+    1136,
+    382,
+    1410,
+    424
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      215,
+      215,
+      220
+     ],
+     [
+      190,
+      190,
+      195
+     ]
+    ],
+    "tol": 30
+   },
+   "erase": [
+    [
+     1140,
+     385,
+     1406,
+     421
+    ]
+   ],
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 100,
+    "min_wdth": 80,
+    "stroke": {
+     "px": 2.2,
+     "color": [
+      18,
+      18,
+      20
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "AUTÓDROMO",
+     "box": [
+      1150,
+      392,
+      1396,
+      416
+     ]
+    }
+   ],
+   "color": [
+    214,
+    214,
+    218
+   ],
+   "erase_dilate": 3,
+   "no_grow": true
+  },
+  {
+   "id": "tasticola",
+   "matrix": "billboard_tasticola",
+   "op": "panel",
+   "box": [
+    1806,
+    272,
+    2012,
+    460
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      240,
+      240,
+      245
+     ],
+     [
+      205,
+      35,
+      45
+     ],
+     [
+      192,
+      192,
+      196
+     ],
+     [
+      216,
+      198,
+      196
+     ],
+     [
+      8,
+      8,
+      28
+     ]
+    ],
+    "tol": 45
+   },
+   "erase": [
+    [
+     1808,
+     275,
+     2008,
+     312
+    ],
+    [
+     1852,
+     312,
+     1960,
+     360
+    ],
+    [
+     1846,
+     360,
+     1960,
+     390
+    ],
+    [
+     1838,
+     390,
+     1976,
+     463
+    ]
+   ],
+   "style": {
+    "font": "impact",
+    "italic_shear": 0.08,
+    "stroke": {
+     "px": 1.6,
+     "color": [
+      25,
+      35,
+      90
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "NOVO SABOR!",
+     "box": [
+      1818,
+      284,
+      2000,
+      302
+     ]
+    },
+    {
+     "text": "AZUL",
+     "box": [
+      1866,
+      320,
+      1946,
+      350
+     ]
+    },
+    {
+     "text": "É O NOVO",
+     "box": [
+      1858,
+      368,
+      1950,
+      380
+     ]
+    },
+    {
+     "text": "VERMELHO",
+     "box": [
+      1838,
+      408,
+      1976,
+      440
+     ]
+    }
+   ],
+   "color": [
+    240,
+    240,
+    245
+   ],
+   "erase_dilate": 3,
+   "no_grow": true
+  },
+  {
+   "id": "mente_tagline",
+   "matrix": "billboard_mente",
+   "op": "panel",
+   "box": [
+    46,
+    650,
+    154,
+    663
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      120,
+      90,
+      95
+     ],
+     [
+      90,
+      70,
+      75
+     ]
+    ],
+    "tol": 55
+   },
+   "erase": [
+    [
+     48,
+     651,
+     152,
+     662
+    ]
+   ],
+   "style": {
+    "font": "times"
+   },
+   "lines": [
+    {
+     "text": "EXPRESSE-SE",
+     "box": [
+      62,
+      653,
+      138,
+      660
+     ]
+    }
+   ],
+   "color": [
+    105,
+    82,
+    86
+   ]
+  },
+  {
+   "id": "rally_save_line",
+   "matrix": "billboard_rally_rental",
+   "op": "panel",
+   "box": [
+    824,
+    586,
+    994,
+    616
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      30,
+      45,
+      85
+     ]
+    ],
+    "tol": 60
+   },
+   "erase": [
+    [
+     826,
+     589,
+     991,
+     614
+    ]
+   ],
+   "style": {
+    "font": "arial_black"
+   },
+   "color": [
+    32,
+    46,
+    88
+   ],
+   "lines": [
+    {
+     "text": "ECONOMIZE ATÉ",
+     "box": [
+      832,
+      594,
+      988,
+      610
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rally_save_value",
+   "matrix": "billboard_rally_rental",
+   "op": "panel",
+   "box": [
+    820,
+    616,
+    998,
+    674
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      205,
+      155,
+      25
+     ],
+     [
+      180,
+      135,
+      20
+     ]
+    ],
+    "tol": 60
+   },
+   "erase": [
+    [
+     824,
+     619,
+     994,
+     671
+    ]
+   ],
+   "style": {
+    "font": "arial_black"
+   },
+   "color": [
+    206,
+    156,
+    28
+   ],
+   "lines": [
+    {
+     "text": "R$ 200",
+     "box": [
+      834,
+      627,
+      988,
+      665
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rally_visit",
+   "matrix": "billboard_rally_rental",
+   "op": "panel",
+   "box": [
+    566,
+    740,
+    950,
+    762
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     570,
+     742,
+     946,
+     760
+    ]
+   ],
+   "style": {
+    "font": "arial_bold"
+   },
+   "lines": [
+    {
+     "text": "Visite a loja mais próxima ou fale conosco no Friendbook!",
+     "box": [
+      574,
+      745,
+      942,
+      756
+     ]
+    }
+   ],
+   "color": [
+    235,
+    238,
+    242
+   ]
+  },
+  {
+   "id": "alder_banner",
+   "matrix": "billboard_alder",
+   "op": "panel",
+   "box": [
+    1540,
+    678,
+    1752,
+    702
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1542,
+     680,
+     1750,
+     700
+    ]
+   ],
+   "style": {
+    "font": "arial_bold",
+    "italic_shear": 0.18
+   },
+   "lines": [
+    {
+     "text": "Performance Americana Clássica",
+     "box": [
+      1546,
+      684,
+      1744,
+      696
+     ]
+    }
+   ],
+   "color": [
+    236,
+    240,
+    246
+   ]
+  },
+  {
+   "id": "eshock_tagline",
+   "matrix": "billboard_eshock",
+   "op": "panel",
+   "box": [
+    96,
+    780,
+    424,
+    806
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      230,
+      232,
+      235
+     ]
+    ],
+    "tol": 45
+   },
+   "erase": [
+    [
+     98,
+     781,
+     420,
+     805
+    ]
+   ],
+   "style": {
+    "font": "bahnschrift",
+    "wght": 700,
+    "wdth": 95,
+    "min_wdth": 80,
+    "stroke": {
+     "px": 1.2,
+     "color": [
+      25,
+      25,
+      28
+     ]
+    }
+   },
+   "lines": [
+    {
+     "text": "DESEMPENHO CHOCANTE",
+     "box": [
+      104,
+      785,
+      414,
+      801
+     ]
+    }
+   ],
+   "color": [
+    232,
+    234,
+    237
+   ],
+   "erase_dilate": 2,
+   "no_grow": true
+  },
+  {
+   "id": "gripall_tagline",
+   "matrix": "billboard_gripall",
+   "op": "panel",
+   "box": [
+    518,
+    774,
+    850,
+    850
+   ],
+   "legend": {
+    "rgbs": [
+     [
+      225,
+      228,
+      232
+     ],
+     [
+      200,
+      203,
+      207
+     ]
+    ],
+    "tol": 30
+   },
+   "erase": [
+    [
+     520,
+     776,
+     836,
+     804
+    ],
+    [
+     520,
+     807,
+     708,
+     836
+    ]
+   ],
+   "style": {
+    "font": "arial_black",
+    "stroke": {
+     "px": 1.5,
+     "color": [
+      60,
+      62,
+      66
+     ]
+    },
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "A MARCA DE PNEUS",
+     "box": [
+      526,
+      780,
+      780,
+      798
+     ]
+    },
+    {
+     "text": "DE CONFIANÇA",
+     "box": [
+      526,
+      804,
+      720,
+      822
+     ]
+    },
+    {
+     "text": "DOS EUA",
+     "box": [
+      526,
+      828,
+      640,
+      846
+     ]
+    }
+   ],
+   "color": [
+    228,
+    230,
+    234
+   ],
+   "erase_dilate": 3,
+   "no_grow": true
+  },
+  {
+   "id": "oj_tagline",
+   "matrix": "billboard_oj",
+   "op": "panel",
+   "box": [
+    1044,
+    862,
+    1152,
+    892
+   ],
+   "legend": "auto",
+   "erase": [
+    [
+     1046,
+     864,
+     1150,
+     880
+    ],
+    [
+     1072,
+     880,
+     1124,
+     890
+    ]
+   ],
+   "style": {
+    "font": "segoe"
+   },
+   "lines": [
+    {
+     "text": "VIVA SAUDÁVEL,",
+     "box": [
+      1050,
+      867,
+      1146,
+      878
+     ]
+    },
+    {
+     "text": "VIVA RÁPIDO",
+     "box": [
+      1074,
+      882,
+      1122,
+      888
+     ]
+    }
+   ],
+   "color": [
+    38,
+    78,
+    78
+   ],
+   "legend_tol": 35
+  },
+  {
+   "id": "nodeoline_endurance",
+   "matrix": "billboard_nodeoline_oil",
+   "op": "panel",
+   "box": [
+    1540,
+    795,
+    1765,
+    940
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     1546,
+     798,
+     1722,
+     830
+    ],
+    [
+     1546,
+     848,
+     1668,
+     880
+    ],
+    [
+     1544,
+     900,
+     1746,
+     932
+    ]
+   ],
+   "style": {
+    "font": "arial_bold",
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "Resistência",
+     "box": [
+      1552,
+      802,
+      1716,
+      827
+     ]
+    },
+    {
+     "text": "testada e",
+     "box": [
+      1552,
+      853,
+      1660,
+      877
+     ]
+    },
+    {
+     "text": "comprovada",
+     "box": [
+      1550,
+      905,
+      1738,
+      929
+     ]
+    }
+   ],
+   "color": [
+    238,
+    238,
+    238
+   ]
+  }
+ ],
+ "_not_used": {
+  "queenz": "Panel QUEENZ (atlas x 0-512, y 256-512) is not sampled by any instanced West Coast mesh (UV footprint, 06/10/2026) -> not edited."
+ }
+}

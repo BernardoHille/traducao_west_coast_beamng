@@ -1,0 +1,307 @@
+{
+  "started": "2026-10-06T00:49:43",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "day",
+  "mod_active": true,
+  "vfs": {
+    "t_billboards": [
+      {
+        "path": "/assets/materials/billboard_label/billboards/t_billboards_b.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\billboard_label\\billboards\\t_billboards_b.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "bb_turbo_burger",
+      "object": {
+        "dist": 0,
+        "id": 448919,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_turbo_burger_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004949_164.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 74.0582,
+          "x": -493.8569,
+          "z": 109.0855
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 9.999999999995e-07,
+          "x": 0,
+          "w": 0.9999999999995
+        }
+      }
+    },
+    {
+      "location": "bb_feline_racerz",
+      "object": {
+        "dist": 0,
+        "id": 448919,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_feline_racerz_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004954_165.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 173.716,
+          "x": -497.366,
+          "z": 109.0855
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.59694395486358,
+          "x": 0,
+          "w": 0.80228293933738
+        }
+      }
+    },
+    {
+      "location": "bb_tasticola",
+      "object": {
+        "dist": 0,
+        "id": 448919,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_tasticola_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004959_166.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 219.3211,
+          "x": -523.9608,
+          "z": 113.5515
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "bb_rally_rental",
+      "object": {
+        "dist": 0,
+        "id": 448919,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_rally_rental_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_005004_167.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 301.0734,
+          "x": -372.3785,
+          "z": 110.9738
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.41744386738958,
+          "x": 0,
+          "w": 0.90870271133018
+        }
+      }
+    },
+    {
+      "location": "bb_gripall",
+      "object": {
+        "dist": 0,
+        "id": 448919,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_gripall_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_005009_168.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 375.2426,
+          "x": -379.8913,
+          "z": 110.2469
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "bb_nodeoline",
+      "object": {
+        "dist": 0,
+        "id": 448919,
+        "materials": [
+          "billboards",
+          "industrial"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_nodeoline_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_005014_169.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 107.5355,
+          "x": -479.6985,
+          "z": 109.0855
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.9569032023573,
+          "x": 0,
+          "w": 0.29040706141268
+        }
+      }
+    },
+    {
+      "location": "bb_wcusa_warehouse",
+      "object": {
+        "dist": 0,
+        "id": 452934,
+        "materials": [
+          "architraves",
+          "industrial_trim",
+          "windows_doors_reflective",
+          "corrugation",
+          "slabs_large",
+          "m_stucco_scraped_01",
+          "columns",
+          "construction",
+          "clutter_commercial",
+          "billboards",
+          "m_bld_warehouse_002_LOD",
+          "brick_painted"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_wcusa_warehouse_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_005019_170.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 170.4367,
+          "x": -740.0514,
+          "z": 156.6237
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    },
+    {
+      "location": "bb_driftgear_diner",
+      "object": {
+        "dist": 0,
+        "id": 452708,
+        "materials": [
+          "slabs_large",
+          "balustrades",
+          "m_stucco_white",
+          "construction",
+          "brick_plain",
+          "stone_brick_regular",
+          "wirefence",
+          "groundmesh_grass2",
+          "billboards"
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_billboards/bb_driftgear_diner_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_005024_171.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 151.2445,
+          "x": -593.8084,
+          "z": 116.2597
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.38268289803626,
+          "x": 0,
+          "w": 0.92387975383735
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "E GELua.screenshot": 43
+    },
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T00:50:26"
+}

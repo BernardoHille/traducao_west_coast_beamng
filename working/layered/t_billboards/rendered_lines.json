@@ -1,0 +1,301 @@
+{
+ "blastr_tagline": [
+  {
+   "text": "SINTA A FÚRIA!!",
+   "box": [
+    392,
+    207,
+    508,
+    222
+   ]
+  }
+ ],
+ "brightsmile_tagline": [
+  {
+   "text": "“Recomendado por 4 em cada 5 dentistas”",
+   "box": [
+    756,
+    81,
+    1000,
+    90
+   ]
+  }
+ ],
+ "turbo_menu": [
+  {
+   "text": "NOVO MENU TURBO",
+   "box": [
+    1064,
+    22,
+    1498,
+    50
+   ]
+  }
+ ],
+ "turbo_price": [
+  {
+   "text": "R$ 4,99",
+   "box": [
+    1332,
+    104,
+    1474,
+    135
+   ]
+  }
+ ],
+ "driftgear_tagline": [
+  {
+   "text": "SUPERANDO OS LIMITES DA INOVAÇÃO",
+   "box": [
+    1628,
+    22,
+    1962,
+    36
+   ]
+  }
+ ],
+ "feline_out_now": [
+  {
+   "text": "JÁ",
+   "box": [
+    556,
+    302,
+    582,
+    315
+   ]
+  },
+  {
+   "text": "DISPONÍVEL",
+   "box": [
+    546,
+    321,
+    592,
+    330
+   ]
+  }
+ ],
+ "feline_quote": [
+  {
+   "text": "“São gatos em carros, gente! 9/10”",
+   "box": [
+    517,
+    428,
+    647,
+    437
+   ]
+  },
+  {
+   "text": "SeriousGamingJournalism",
+   "box": [
+    530,
+    442,
+    620,
+    451
+   ]
+  }
+ ],
+ "feline_available": [
+  {
+   "text": "DISPONÍVEL PARA GAMEMASTER720 E PC",
+   "box": [
+    572,
+    484,
+    830,
+    494
+   ]
+  }
+ ],
+ "wcusa_racetrack": [
+  {
+   "text": "AUTÓDROMO",
+   "box": [
+    1150,
+    392,
+    1396,
+    416
+   ]
+  }
+ ],
+ "tasticola": [
+  {
+   "text": "NOVO SABOR!",
+   "box": [
+    1818,
+    284,
+    2000,
+    302
+   ]
+  },
+  {
+   "text": "AZUL",
+   "box": [
+    1866,
+    320,
+    1946,
+    350
+   ]
+  },
+  {
+   "text": "É O NOVO",
+   "box": [
+    1858,
+    368,
+    1950,
+    380
+   ]
+  },
+  {
+   "text": "VERMELHO",
+   "box": [
+    1838,
+    408,
+    1976,
+    440
+   ]
+  }
+ ],
+ "mente_tagline": [
+  {
+   "text": "EXPRESSE-SE",
+   "box": [
+    62,
+    653,
+    138,
+    660
+   ]
+  }
+ ],
+ "rally_save_line": [
+  {
+   "text": "ECONOMIZE ATÉ",
+   "box": [
+    832,
+    594,
+    988,
+    610
+   ]
+  }
+ ],
+ "rally_save_value": [
+  {
+   "text": "R$ 200",
+   "box": [
+    834,
+    627,
+    988,
+    665
+   ]
+  }
+ ],
+ "rally_visit": [
+  {
+   "text": "Visite a loja mais próxima ou fale conosco no Friendbook!",
+   "box": [
+    574,
+    745,
+    942,
+    756
+   ]
+  }
+ ],
+ "alder_banner": [
+  {
+   "text": "Performance Americana Clássica",
+   "box": [
+    1546,
+    684,
+    1744,
+    696
+   ]
+  }
+ ],
+ "eshock_tagline": [
+  {
+   "text": "DESEMPENHO CHOCANTE",
+   "box": [
+    104,
+    785,
+    414,
+    801
+   ]
+  }
+ ],
+ "gripall_tagline": [
+  {
+   "text": "A MARCA DE PNEUS",
+   "box": [
+    526,
+    780,
+    780,
+    798
+   ]
+  },
+  {
+   "text": "DE CONFIANÇA",
+   "box": [
+    526,
+    804,
+    720,
+    822
+   ]
+  },
+  {
+   "text": "DOS EUA",
+   "box": [
+    526,
+    828,
+    640,
+    846
+   ]
+  }
+ ],
+ "oj_tagline": [
+  {
+   "text": "VIVA SAUDÁVEL,",
+   "box": [
+    1050,
+    867,
+    1146,
+    878
+   ]
+  },
+  {
+   "text": "VIVA RÁPIDO",
+   "box": [
+    1074,
+    882,
+    1122,
+    888
+   ]
+  }
+ ],
+ "nodeoline_endurance": [
+  {
+   "text": "Resistência",
+   "box": [
+    1552,
+    802,
+    1716,
+    827
+   ]
+  },
+  {
+   "text": "testada e",
+   "box": [
+    1552,
+    853,
+    1660,
+    877
+   ]
+  },
+  {
+   "text": "comprovada",
+   "box": [
+    1550,
+    905,
+    1738,
+    929
+   ]
+  }
+ ]
+}

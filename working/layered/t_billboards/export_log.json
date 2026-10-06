@@ -1,0 +1,14 @@
+[
+ {
+  "png": "working/png/t_billboards_b.color.png",
+  "dds": "export/dds/t_billboards/t_billboards_b.color.dds",
+  "original": "source/originals/dds/t_billboards_b.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 12,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/billboards/t_billboards_b.color.dds"
+  ]
+ }
+]
