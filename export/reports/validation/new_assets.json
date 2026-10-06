@@ -3,12 +3,12 @@
   "subject": "mod/traducao_ptbr_wcusa",
   "status": "PASS",
   "counts": {
-    "PASS": 24,
+    "PASS": 25,
     "WARN": 0,
     "FAIL": 0,
     "SKIP": 0
   },
-  "generated": "2026-10-01T01:04:15",
+  "generated": "2026-10-06T12:20:19",
   "meta": {
     "functional_changed_lines": 1047
   },
@@ -107,6 +107,12 @@
       "status": "PASS",
       "name": "sign_speed25.dae: compiled .cdae",
       "message": "present and newer than the .dae (no recompilation, no temp cache)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Override levels/west_coast_usa/main.decals.json",
+      "message": "only the declared decal instances differ (9 deleted, 6 rectIdx changed)",
       "details": {}
     },
     {

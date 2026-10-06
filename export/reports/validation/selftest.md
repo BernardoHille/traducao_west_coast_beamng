@@ -1,6 +1,6 @@
 # Self-test: originals vs themselves + PoC DDS
 
-**Resultado:** `PASS` · PASS 75 · WARN 0 · FAIL 0 · SKIP 0
+**Resultado:** `PASS` · PASS 121 · WARN 0 · FAIL 0 · SKIP 0
 
 | Status | Verificação | Mensagem |
 |---|---|---|
@@ -74,6 +74,52 @@
 | PASS | original t_sponsors_b.color.png | identical to itself |
 | PASS | original t_decal_roadmarkings_b.color.dds | identical to itself |
 | PASS | original t_decal_roadmarkings_b.color.png | identical to itself |
+| PASS | original t_decal_roadmarkings_o.data.dds | identical to itself |
+| PASS | original t_decal_roadmarkings_o.data.png | identical to itself |
+| PASS | original t_decal_roadmarkings_nm.normal.dds | identical to itself |
+| PASS | original t_decal_roadmarkings_nm.normal.png | identical to itself |
+| PASS | original t_decal_roadmarkings_ao.data.dds | identical to itself |
+| PASS | original t_decal_roadmarkings_ao.data.png | identical to itself |
+| PASS | original t_decal_roadmarkings_r.data.dds | identical to itself |
+| PASS | original t_decal_roadmarkings_r.data.png | identical to itself |
+| PASS | original t_decal_roadmarkings_m.data.dds | identical to itself |
+| PASS | original t_decal_roadmarkings_m.data.png | identical to itself |
+| PASS | original t_eca_genericsigns_o.data.dds | identical to itself |
+| PASS | original t_eca_genericsigns_o.data.png | identical to itself |
+| PASS | original t_eca_genericsigns_nm.normal.dds | identical to itself |
+| PASS | original t_eca_genericsigns_nm.normal.png | identical to itself |
+| PASS | original t_eca_genericsigns_ao.data.dds | identical to itself |
+| PASS | original t_eca_genericsigns_ao.data.png | identical to itself |
+| PASS | original t_eca_genericsigns_r.data.dds | identical to itself |
+| PASS | original t_eca_genericsigns_r.data.png | identical to itself |
+| PASS | original t_billboards_r.data.dds | identical to itself |
+| PASS | original t_billboards_r.data.png | identical to itself |
+| PASS | original t_billboardsigns_dealers_o.data.dds | identical to itself |
+| PASS | original t_billboardsigns_dealers_o.data.png | identical to itself |
+| PASS | original t_steel_factory_brand_nm.normal.dds | identical to itself |
+| PASS | original t_steel_factory_brand_nm.normal.png | identical to itself |
+| PASS | original t_steel_factory_brand_ao.data.dds | identical to itself |
+| PASS | original t_steel_factory_brand_ao.data.png | identical to itself |
+| PASS | original t_steel_factory_brand_r.data.dds | identical to itself |
+| PASS | original t_steel_factory_brand_r.data.png | identical to itself |
+| PASS | original t_bus_routes_wca_nm.normal.dds | identical to itself |
+| PASS | original t_bus_routes_wca_nm.normal.png | identical to itself |
+| PASS | original t_bus_routes_wca_ao.data.dds | identical to itself |
+| PASS | original t_bus_routes_wca_ao.data.png | identical to itself |
+| PASS | original t_bus_routes_wca_r.data.dds | identical to itself |
+| PASS | original t_bus_routes_wca_r.data.png | identical to itself |
+| PASS | original t_bus_routes_utah_d.color.dds | identical to itself |
+| PASS | original t_bus_routes_utah_d.color.png | identical to itself |
+| PASS | original clutter_commercial_b.color.dds | identical to itself |
+| PASS | original clutter_commercial_b.color.png | identical to itself |
+| PASS | original clutter_commercial_o.data.dds | identical to itself |
+| PASS | original clutter_commercial_o.data.png | identical to itself |
+| PASS | original t_decal_roadmarkings_o.data.dds | identical to itself |
+| PASS | original t_decal_roadmarkings_o.data.png | identical to itself |
+| PASS | original t_decal_roadmarkings_ao.data.dds | identical to itself |
+| PASS | original t_decal_roadmarkings_ao.data.png | identical to itself |
+| PASS | original ind_industrial_signs_d.color.dds | identical to itself |
+| PASS | original ind_industrial_signs_d.color.png | identical to itself |
 | PASS | DDS metadata export/dds/poc/t_roadsigns_b.color.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |
 | PASS | DDS metadata export/dds/t_roadsigns/t_roadsigns_b.color.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM_SRGB; Colour space: sRGB; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |
 | PASS | DDS metadata export/dds/t_roadsigns/t_roadsigns_o.data.dds | Mipmaps: 12 (full chain to 1x1); Resolution: 2048x1024; DDS format: BC7_UNORM; Colour space: linear; DX10 alpha mode: STRAIGHT vs original UNKNOWN (compatible) |

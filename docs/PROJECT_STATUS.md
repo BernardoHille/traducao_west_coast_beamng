@@ -1,7 +1,7 @@
 # Status do projeto
 
-**Última atualização:** 02/10/2026
-**Fase atual:** Fase 5.5 — documentação técnica/artigo concluída (produção: Fase 5 — t_roadsigns e R-19 10/40 concluídos)
+**Última atualização:** 06/10/2026
+**Fase atual:** Fase 6 — Produção visual das famílias restantes: **incompleta**. Todas as famílias de textura usadas pelo West Coast foram produzidas e passaram pelo QA; as palavras montadas por glifos no mesh continuam pendentes. A Fase 7 não foi iniciada.
 
 ## Ambiente
 
@@ -11,12 +11,16 @@
 
 ## Estado atual
 
-- **Originais extraídos:** 35 texturas, cada uma em DDS (formato do jogo) e PNG (base de edição). Ficam em `source/originals/`, só localmente, fora do Git.
+- **Originais extraídos:** 35 texturas da auditoria, mais os originais da Fase 6 (`tools/production/originals_phase6.json`, com variantes por pasta: `art_shapes`, `decalroad`, `jungle_rock_island`). Cada uma em DDS (formato do jogo) e PNG (base de edição). Ficam em `source/originals/`, só localmente, fora do Git.
 - **Traduções existentes:** 13 PNG `_ptbr` em `source/reference_ptbr/`, que correspondem a 11 texturas traduzidas e 1 máscara. O `t_sealbrik_logo` `_ptbr` é cópia idêntica do original.
 - **Status das traduções existentes:** servem **só de referência** até serem reconstruídas a partir dos originais. Não são masters aprovados.
-- **DDS PT-BR definitivos:** `t_roadsigns_b.color` e `t_roadsigns_o.data` (`export/dds/t_roadsigns/`), mais os R-19 (`export/dds/r19/`). O DDS do PoC (`export/dds/poc/`) é só histórico.
-- **Mod** (`mod/traducao_ptbr_wcusa/`, versão 0.5.0):
-  - atlas `t_roadsigns` definitivo;
+- **DDS PT-BR definitivos:** 28 no mod.
+  - Fase 5: `t_roadsigns` (2) e R-19 (3).
+  - Fase 6 (23): road markings (2 cópias × 4 mapas), `eca_genericsigns`, `t_billboards`, estúdio, industrial (2 cópias), Spearleaf (cor + opacidade), Hot Rolled (cor + nm/ao/r), mapa de ônibus (cor + normal), `clutter_commercial` (cor + opacidade).
+  - O DDS do PoC (`export/dds/poc/`) é só histórico.
+- **Mod** (`mod/traducao_ptbr_wcusa/`, versão 0.5.0; o 0.6.0 fica para quando a Fase 6 for concluída):
+  - atlas `t_roadsigns` definitivo e as 9 famílias visuais da Fase 6;
+  - override de `main.decals.json` (EXIT ONLY → SÓ SAÍDA, ONLY removido), gerado localmente e não versionado;
   - família `roadsigns_ptbr_r19` (texturas, materiais, meshes e `.cdae`);
   - overrides de dados do nível (limites de via, `slotTraffic.json`, 7 `shapeName`), gerados localmente e não versionados.
 - **Inventário:** `docs/inventory/original_files_manifest.csv` (SHA-256) e `docs/inventory/texture_families.md`.
@@ -31,9 +35,9 @@
 - [x] Proof of Concept do override
 - [x] Regras definitivas de localização
 - [x] Validador
-- [ ] Reconstrução das traduções existentes (`t_roadsigns` concluída na Fase 5; demais famílias legadas pendentes)
-- [ ] Tradução das texturas pendentes
-- [ ] QA West Coast
+- [x] Reconstrução das traduções existentes (Fase 5: `t_roadsigns`; Fase 6: road markings, genericsigns, billboards, estúdio, industrial, Spearleaf. As referências antigas de dealers/sponsors/eca_roadsigns não são usadas no West Coast)
+- [ ] Tradução das texturas pendentes (texturas: concluída; **palavras montadas por glifos no mesh: pendentes**)
+- [ ] QA West Coast (visual da Fase 6 aprovado ponto a ponto; falta o funcional da Fase 7)
 - [ ] QA East Coast / Utah
 - [ ] QA ADAS
 - [ ] Release
@@ -160,21 +164,48 @@ Fase só de documentação: **nenhuma textura, família, limite, radar ou ADAS f
 - **Reprodução:** `docs/article/tools/` (`capture_article.py`, `build_figures.py`, `md_to_html.py`).
 - **Estado do repositório na redação:** no início, os 6 commits da Fase 5 ainda não estavam no remoto (`origin/main` = `0256004`). Ao final, o remoto já estava em `70329b1`.
 
+## Resultado da Fase 6 — Produção visual das famílias restantes
+
+Detalhes em [`production/PHASE6_VISUAL_PRODUCTION.md`](production/PHASE6_VISUAL_PRODUCTION.md) e em `production/phase6/`.
+
+| Bloco | Situação |
+|---|---|
+| 6A road markings | **concluído**: 2 cópias × 4 mapas; override estrutural de `main.decals.json`; QA dia/noite |
+| 6B postos | **concluído**: `eca_genericsigns` PBR, o material carregado de fato. A nota da Fase 3 sobre o emissivo está superada |
+| 6C outdoors/concessionárias | **concluído**: 14 outdoors com QA; os painéis da concessionária não são usados no West Coast |
+| 6D estúdio/indústria/patrocinadores | **concluído**: QA dia/noite; marcas preservadas |
+| 6E transporte | **mapa de linhas concluído**; MAP do abrigo pendente (mesh) |
+| 6F comercial | **atlas concluído** (85 elementos, opacidade recortada refeita); **letreiros por glifos pendentes** (mesh) |
+| 6G placas globais | **classificadas**: 0 instâncias no West Coast |
+| 6H auditoria | 311 linhas classificadas; 0 `needs_context`; 12 pendentes de mesh |
+
+**Validação:**
+- selftest 121, regressão 10/10, mod instalado 117, new 25, unittest 44;
+- velocidade 13 FAIL, idêntico ao da Fase 5 (escopo da Fase 7).
+- **QA:** 84 pontos novos; 82 runs com 0 problemas de VFS.
+
+**Achados técnicos:**
+- O mesmo nome de textura existe em vários caminhos com conteúdo diferente (variantes). Cada cópia que o jogo carrega é refeita a partir do seu original.
+- Atlas com letras recortadas pela opacidade (néons, cartazes, Spearleaf) exigem a máscara refeita junto.
+- Normal maps que gravam o relevo do texto (Hot Rolled, mapa de ônibus, road markings) também são refeitos.
+- Textos girados ou em arco precisam de tela com margem, porque o layout horizontal pode passar da borda do atlas.
+
 ## Problemas conhecidos
 
-Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). **Nenhum foi resolvido ainda.**
+Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). Situação após a Fase 6 na coluna da direita.
 
-| # | Problema | Referência |
-|---|---|---|
-| 1 | **Perda de alfa** em PNG PT-BR (`eca_roadsigns_d`, `t_billboardsigns_dealers_b`, `t_sponsors_b`, `t_spearleaf_refinery_logo_b`, `t_movie_studio_signage_b`) e ruído no alfa de todos os PNG PT-BR | Auditoria §4.3 |
-| 2 | **Imagens regeneradas:** entre 26% e 78% dos pixels mudaram fora das áreas de texto, com risco de desalinhar a UV | Auditoria §4.2 |
-| 3 | **Road markings incompletos:** só o `_b.color` foi traduzido. `_o.data`, `_nm`, `_ao`, `_r` e `_m` continuam com as letras em inglês | Auditoria §4.1 |
-| 4 | **Emissivos incompatíveis:** `eca_genericsigns_emissive` não acompanha o novo layout | Auditoria §4.4 |
-| 5 | **Formatos DDS diferentes** entre texturas (BC7 sRGB, BC7 linear, BC4, DXT1, DXT5). Não dá para exportar tudo como BC7 | Auditoria §4.5 |
-| 6 | **Assets globais afetam outros mapas:** a maioria fica em `assets/materials/` e é usada também por East Coast, Utah etc. | Auditoria §3 |
-| 7 | ~~Política mph/km/h pendente~~ → **definida na Fase 3**. A implementação continua pendente: R-19 com material/mesh próprios e `speedLimit` funcional | `LOCALIZATION_RULES.md` §2–3 |
-| 8 | Mapas auxiliares **não citados na auditoria** (`eca_genericsigns` `_o/_nm/_ao/_r`, `steel_factory_brand` `_nm/_ao/_r`, `billboardsigns_dealers` `_o`…) | `docs/inventory/texture_families.md` |
-| 9 | A auditoria diz "41 texturas", mas são **35** | `docs/inventory/texture_families.md` |
+| # | Problema | Referência | Após a Fase 6 |
+|---|---|---|---|
+| 1 | **Perda de alfa** em PNG PT-BR (`eca_roadsigns_d`, `t_billboardsigns_dealers_b`, `t_sponsors_b`, `t_spearleaf_refinery_logo_b`, `t_movie_studio_signage_b`) e ruído no alfa de todos os PNG PT-BR | Auditoria §4.3 | **Resolvido** para tudo o que o West Coast usa: refeito do original, alfa validado. As referências antigas não são distribuídas |
+| 2 | **Imagens regeneradas:** entre 26% e 78% dos pixels mudaram fora das áreas de texto, com risco de desalinhar a UV | Auditoria §4.2 | **Resolvido:** 0 px fora das regiões com evidência UV em todas as famílias |
+| 3 | **Road markings incompletos:** só o `_b.color` foi traduzido. `_o.data`, `_nm`, `_ao`, `_r` e `_m` continuam com as letras em inglês | Auditoria §4.1 | **Resolvido:** `_b/_o/_nm/_ao` refeitos nas 2 cópias; `_r/_m` não têm letra |
+| 4 | **Emissivos incompatíveis:** `eca_genericsigns_emissive` não acompanha o novo layout | Auditoria §4.4 | **Não se aplica ao West Coast:** o material carregado é o PBR sem emissivo |
+| 5 | **Formatos DDS diferentes** entre texturas (BC7 sRGB, BC7 linear, BC4, DXT1, DXT5). Não dá para exportar tudo como BC7 | Auditoria §4.5 | **Tratado:** cada DDS sai no formato e com os mips do seu original |
+| 6 | **Assets globais afetam outros mapas:** a maioria fica em `assets/materials/` e é usada também por East Coast, Utah etc. | Auditoria §3 | **Aberto** (decisão da Fase 3: globais continuam globais). QA em outros mapas pendente |
+| 7 | ~~Política mph/km/h pendente~~ → **definida na Fase 3**. A implementação continua pendente: R-19 com material/mesh próprios e `speedLimit` funcional | `LOCALIZATION_RULES.md` §2–3 | R-19 feito na Fase 5; radares, zonas e ADAS ficam para a **Fase 7** |
+| 8 | Mapas auxiliares **não citados na auditoria** (`eca_genericsigns` `_o/_nm/_ao/_r`, `steel_factory_brand` `_nm/_ao/_r`, `billboardsigns_dealers` `_o`…) | `docs/inventory/texture_families.md` | **Resolvido:** extraídos; refeitos onde contêm letra (steel nm/ao/r, Spearleaf `_o`, clutter `_o`, ônibus `_nm`) |
+| 9 | A auditoria diz "41 texturas", mas são **35** | `docs/inventory/texture_families.md` | Registrado |
+| 10 | **Palavras montadas por glifos no mesh** (fachadas, MAP do abrigo, pista de arrancada, pedágio) | `production/phase6/COVERAGE_AUDIT.md` | **Aberto:** exige recomposição de mesh (pendência que impede concluir a Fase 6) |
 
 ## Decisões tomadas (Fase 3)
 
@@ -203,14 +234,22 @@ Essas regras estão implementadas no validador (`validate.py speeds`). Nenhuma a
 - **`slotTraffic.json`:** edição determinística das entradas derivadas, porque o editor oficial não vem no jogo.
 - **Overrides de dados do nível não são versionados:** são regenerados a partir da instalação local.
 
+## Decisões tomadas (Fase 6)
+
+- **Uso real decide o escopo:** só se produz região amostrada por mesh/decal instanciado no West Coast. O resto é `not_found`, com evidência.
+- **Variantes de textura:** quando o jogo tem cópias diferentes com o mesmo nome, cada cópia carregada é refeita a partir do seu próprio original.
+- **"% OFF"** mantido (uso corrente no varejo); **SALE% → OFERTA%** (o `%` faz parte da arte); **MOTEL → POUSADA** segue como regra, a implementar junto com os glifos.
+- **ONLY no pavimento:** slot 5 virou "SÓ"; EXIT ONLY → SÓ SAÍDA por troca de `rectIdx`; BUS ONLY/STOP → ÔNIBUS.
+
 ## Decisões pendentes
 
 - **Como aplicar as regras ADAS/radar no mapa** (fase de implementação funcional):
   - rota das missões de 50 km/h: via de 120 km/h hoje;
   - Event 01: 70 km/h numa via de 40,2 km/h;
   - radar 4 a 56,3 km/h numa via de 100 km/h.
-- **`ONLY` no pavimento** (BUS ONLY / EXIT ONLY): proposta de override de `main.decals.json` com slots livres — não investigado além da Fase 3.
-- **Itens `needs_context`** da matriz (nomes de paradas, departamentos do estúdio, letreiros de fachada): não resolvidos. Rush Rd foi resolvido na Fase 5.
+- ~~`ONLY` no pavimento~~ → resolvido na Fase 6 (SÓ SAÍDA / ÔNIBUS).
+- ~~Itens `needs_context`~~ → todos resolvidos na Fase 6 (0 na matriz).
+- **Letreiros por glifos no mesh** (MOTEL, FOOD MART, FULL SERVICE, EXHAUST, FIX, SOUND, STEREO, CAR PARTS, MAP do abrigo, placar da arrancada): definir as palavras PT-BR dentro dos limites de cada totem e acrescentar glifos acentuados.
 - **Placas compostas por glifos compartilhados** (SPEED LIMIT/MPH do `roadsigns.dae`, cabine de pedágio, ONLY, CARPOOLS, ½ MILE): exigem assets/meshes próprios.
 - **Estratégia para mapas auxiliares não extraídos** (quais extrair e quando).
 - **Regiões autorizadas** para as demais texturas: registrar antes de produzir cada uma.

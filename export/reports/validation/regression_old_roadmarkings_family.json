@@ -8,14 +8,14 @@
     "FAIL": 1,
     "SKIP": 0
   },
-  "generated": "2026-10-01T01:04:10",
+  "generated": "2026-10-06T12:20:40",
   "meta": {
     "scope": "global",
     "wcusa_usage": "confirmed",
     "delivered": {
       "base_color": "source/reference_ptbr/t_decal_roadmarkings_b.color_ptbr.png"
     },
-    "notes": "Letter shape lives in opacity + normal + AO (audit §4.1). Roughness/metallic may stay original."
+    "notes": "Letter shape lives in opacity + normal + AO (audit §4.1). Roughness/metallic may stay original. Phase 6: a second copy of the atlas lives in assets/materials/decalroad/lines/roadmarkings1 (opacity 1024, AO 512); both copies are overridden, each rebuilt from its own original (source/originals/*/decalroad/)."
   },
   "checks": [
     {

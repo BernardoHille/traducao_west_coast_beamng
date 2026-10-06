@@ -91,6 +91,6 @@ Pelo mesmo mecanismo:
 
 **O que exige:**
 - recompor a geometria desses `.dae`;
-- o nível traz `.cdae` compilado ao lado de cada `.dae`, então é preciso também confirmar que o motor aceita a malha nova do mod.
+- o nível traz `.cdae` compilado ao lado de cada `.dae`. A Fase 5 já provou o caminho (R-19 com `.dae` e o `.cdae` compilado pelo próprio jogo dentro do mod), então a técnica existe, mas o trabalho não foi feito nesta fase.
 
 Os nomes próprios (TORRES TIRES, SMASH AUTO, BELASCO AUTO, TURBO BURGER, RIVERSIDE PLAZA) seguem `preserve_original`.

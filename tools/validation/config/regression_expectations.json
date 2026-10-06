@@ -55,18 +55,18 @@
    "kind": "texture",
    "file": "source/reference_ptbr/t_movie_studio_signage_b.color_ptbr.png",
    "expect_fail": [
-    "Changes (no allowed regions configured)"
+    "Changes outside allowed regions"
    ],
-   "why": "Audit §4.2: 65% pixels changed."
+   "why": "Audit §4.2: 65% pixels changed. Phase 6: the family now has allowed regions (UV evidence), so the check that rejects it is the out-of-region one."
   },
   {
    "id": "old_industrial",
    "kind": "texture",
    "file": "source/reference_ptbr/ind_industrial_signs_d.color_ptbr.png",
    "expect_fail": [
-    "Changes (no allowed regions configured)"
+    "Changes outside allowed regions"
    ],
-   "why": "Audit §4.2: 78% pixels changed."
+   "why": "Audit §4.2: 78% pixels changed. Phase 6: the family now has allowed regions (UV evidence), so the check that rejects it is the out-of-region one."
   },
   {
    "id": "old_sponsors",

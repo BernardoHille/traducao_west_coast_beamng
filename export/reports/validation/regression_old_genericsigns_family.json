@@ -3,25 +3,25 @@
   "subject": "eca_genericsigns (reference)",
   "status": "FAIL",
   "counts": {
-    "PASS": 6,
+    "PASS": 7,
     "WARN": 0,
-    "FAIL": 2,
+    "FAIL": 1,
     "SKIP": 0
   },
-  "generated": "2026-10-01T01:04:10",
+  "generated": "2026-10-06T12:20:40",
   "meta": {
     "scope": "global (East Coast path)",
     "wcusa_usage": "confirmed",
     "delivered": {
       "base_color": "source/reference_ptbr/t_eca_genericsigns_b.color_ptbr.png"
     },
-    "notes": "West Coast fuel stations load eca_genericsigns_d.dds from the East Coast level path (Phase 3). t_eca_genericsigns_b.color has the same content."
+    "notes": "Phase 6 correction (checked in game 05/10/2026): the West Coast loads the PBR material eca_genericsigns of art_shapes.zip -> t_eca_genericsigns_b.color + _o/_nm/_ao/_r (resolved to assets/materials/billboard_label/eca_genericsigns), with NO emissive. The legacy eca_genericsigns_d + emissive (East Coast / Utah / Hirochi paths) belong to those maps' own materials. Phase 3 note superseded."
   },
   "checks": [
     {
-      "status": "FAIL",
+      "status": "PASS",
       "name": "diffuse_legacy (eca_genericsigns_d.dds)",
-      "message": "required map missing from the package",
+      "message": "not delivered — original stays in use",
       "details": {}
     },
     {
@@ -63,7 +63,7 @@
     {
       "status": "FAIL",
       "name": "shape_changed",
-      "message": "shape changed but these maps were not updated: diffuse_legacy (eca_genericsigns_d.dds), emissive (eca_genericsigns_emissive.dds), opacity (t_eca_genericsigns_o.data.dds)",
+      "message": "shape changed but these maps were not updated: opacity (t_eca_genericsigns_o.data.dds), normal (t_eca_genericsigns_nm.normal.dds), ao (t_eca_genericsigns_ao.data.dds)",
       "details": {}
     }
   ]

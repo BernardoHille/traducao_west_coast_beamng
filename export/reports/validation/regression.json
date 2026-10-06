@@ -8,7 +8,7 @@
     "FAIL": 0,
     "SKIP": 0
   },
-  "generated": "2026-10-01T01:04:12",
+  "generated": "2026-10-06T12:20:41",
   "meta": {
     "cases": [
       {
@@ -65,12 +65,10 @@
       {
         "case": "old_genericsigns_family",
         "expected": [
-          "shape_changed",
-          "diffuse_legacy (eca_genericsigns_d.dds)"
+          "shape_changed"
         ],
         "obtained": "FAIL",
         "fail_checks": [
-          "diffuse_legacy (eca_genericsigns_d.dds)",
           "shape_changed"
         ],
         "ok": true
@@ -78,24 +76,24 @@
       {
         "case": "old_movie_studio",
         "expected": [
-          "Changes (no allowed regions configured)"
+          "Changes outside allowed regions"
         ],
         "obtained": "FAIL",
         "fail_checks": [
           "Alpha noise",
-          "Changes (no allowed regions configured)"
+          "Changes outside allowed regions"
         ],
         "ok": true
       },
       {
         "case": "old_industrial",
         "expected": [
-          "Changes (no allowed regions configured)"
+          "Changes outside allowed regions"
         ],
         "obtained": "FAIL",
         "fail_checks": [
           "Alpha noise",
-          "Changes (no allowed regions configured)"
+          "Changes outside allowed regions"
         ],
         "ok": true
       },
@@ -162,19 +160,19 @@
     {
       "status": "PASS",
       "name": "old_genericsigns_family",
-      "message": "detected as expected — got FAIL; FAIL checks: ['diffuse_legacy (eca_genericsigns_d.dds)', 'shape_changed']",
+      "message": "detected as expected — got FAIL; FAIL checks: ['shape_changed']",
       "details": {}
     },
     {
       "status": "PASS",
       "name": "old_movie_studio",
-      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Changes (no allowed regions configured)']",
+      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Changes outside allowed regions']",
       "details": {}
     },
     {
       "status": "PASS",
       "name": "old_industrial",
-      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Changes (no allowed regions configured)']",
+      "message": "detected as expected — got FAIL; FAIL checks: ['Alpha noise', 'Changes outside allowed regions']",
       "details": {}
     },
     {
