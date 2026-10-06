@@ -1,0 +1,214 @@
+{
+ "family": "eca_genericsigns",
+ "family_entry": {
+  "material": "eca_genericsigns (art_shapes PBR)",
+  "vfs_checks": [
+   {
+    "path": "/assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": "billboard_label.zip"
+   }
+  ]
+ },
+ "points": [
+  {
+   "id": "gs_octane_pump",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_fuel_pump_2015.dae",
+   "material": "eca_genericsigns",
+   "size": [
+    1024,
+    1024
+   ],
+   "region": [
+    120,
+    288,
+    216,
+    400
+   ],
+   "distance": 1.6,
+   "instance": 0,
+   "side": 1,
+   "dz": 0.0,
+   "expected": [
+    "GASOLINA COMUM · OCTANAGEM (R+M)/2 · 87 · APERTE AQUI"
+   ],
+   "description": "Adesivo de octanagem na bomba 2015.",
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "fov": 18
+  },
+  {
+   "id": "gs_stop_engine_structure",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_fuel_structure_05.dae",
+   "material": "eca_genericsigns",
+   "size": [
+    1024,
+    1024
+   ],
+   "region": [
+    355,
+    0,
+    670,
+    212
+   ],
+   "distance": 2.2,
+   "instance": 0,
+   "side": 1,
+   "dz": 0.0,
+   "expected": [
+    "DESLIGUE O MOTOR / EVITE INCÊNDIO + legendas"
+   ],
+   "description": "Painel de segurança da bomba 2015.",
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "fov": 35
+  },
+  {
+   "id": "gs_diesel_pump",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_fuel_pump_2015.dae",
+   "material": "eca_genericsigns",
+   "size": [
+    1024,
+    1024
+   ],
+   "region": [
+    0,
+    278,
+    125,
+    412
+   ],
+   "distance": 1.6,
+   "instance": 0,
+   "side": 1,
+   "dz": 0.0,
+   "expected": [
+    "DIESEL / APERTE AQUI"
+   ],
+   "description": "Botão de diesel.",
+   "lighting": [
+    "day"
+   ],
+   "fov": 20
+  },
+  {
+   "id": "gs_notice_charger",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_fuel_charger_car_2020.dae",
+   "material": "eca_genericsigns",
+   "size": [
+    1024,
+    1024
+   ],
+   "region": [
+    465,
+    212,
+    692,
+    384
+   ],
+   "distance": 1.3,
+   "instance": 0,
+   "side": 1,
+   "dz": 0.0,
+   "expected": [
+    "AVISO / SOMENTE PESSOAL AUTORIZADO"
+   ],
+   "description": "Carregador elétrico 2020.",
+   "lighting": [
+    "day"
+   ],
+   "fov": 14
+  },
+  {
+   "id": "gs_danger_structure",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_fuel_structure_07.dae",
+   "material": "eca_genericsigns",
+   "size": [
+    1024,
+    1024
+   ],
+   "region": [
+    135,
+    0,
+    360,
+    178
+   ],
+   "distance": 2.0,
+   "instance": 0,
+   "side": 1,
+   "dz": 0.0,
+   "expected": [
+    "PERIGO / ALTAMENTE INFLAMÁVEL"
+   ],
+   "description": "Placa PERIGO/ALTAMENTE INFLAMÁVEL na estrutura do posto.",
+   "lighting": [
+    "day"
+   ],
+   "fov": 25
+  },
+  {
+   "id": "gs_no_parking_structure",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_fuel_structure_07.dae",
+   "material": "eca_genericsigns",
+   "size": [
+    1024,
+    1024
+   ],
+   "region": [
+    665,
+    0,
+    810,
+    210
+   ],
+   "distance": 2.0,
+   "instance": 0,
+   "side": 1,
+   "dz": 0.0,
+   "expected": [
+    "PROIBIDO / ESTACIONAR"
+   ],
+   "description": "Estrutura do posto (cobertura).",
+   "lighting": [
+    "day"
+   ],
+   "fov": 25
+  },
+  {
+   "id": "gs_flammable_gas_structure",
+   "kind": "uv",
+   "mesh": "west_coast_usa.zip::levels/west_coast_usa/art/shapes/buildings/s_fuel_structure_07.dae",
+   "material": "eca_genericsigns",
+   "size": [
+    1024,
+    1024
+   ],
+   "region": [
+    0,
+    132,
+    140,
+    272
+   ],
+   "distance": 2.0,
+   "instance": 0,
+   "side": 1,
+   "dz": 0.0,
+   "expected": [
+    "GÁS INFLAMÁVEL 2"
+   ],
+   "description": "Placa de gás inflamável na estrutura do posto.",
+   "lighting": [
+    "day"
+   ],
+   "fov": 25
+  }
+ ],
+ "_not_located": "Standalone NO SMOKING panel (region no_smoking): UV evidence on s_fuel_pump_2000/2015 and s_fuel_structure_05/07, but no rendered face showing it was found with the camera (06/10/2026); kept as implemented, not qa_passed."
+}

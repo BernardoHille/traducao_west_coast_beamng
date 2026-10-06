@@ -1,0 +1,425 @@
+{
+ "no_smoking": [
+  {
+   "text": "PROIBIDO FUMAR",
+   "box": [
+    18,
+    99,
+    120,
+    116
+   ]
+  }
+ ],
+ "danger_header": [
+  {
+   "text": "PERIGO",
+   "box": [
+    182,
+    18,
+    344,
+    42
+   ]
+  }
+ ],
+ "highly_flammable": [
+  {
+   "text": "ALTAMENTE",
+   "box": [
+    212,
+    90,
+    334,
+    108
+   ]
+  },
+  {
+   "text": "INFLAMÁVEL",
+   "box": [
+    210,
+    124,
+    336,
+    142
+   ]
+  }
+ ],
+ "flammable_gas": [
+  {
+   "text": "GÁS INFLAMÁVEL",
+   "box": [
+    2,
+    204,
+    122,
+    216
+   ]
+  }
+ ],
+ "stop_engine": [
+  {
+   "text": "DESLIGUE O MOTOR",
+   "box": [
+    378,
+    22,
+    560,
+    43
+   ]
+  },
+  {
+   "text": "EVITE INCÊNDIO",
+   "box": [
+    404,
+    58,
+    536,
+    73
+   ]
+  }
+ ],
+ "stop_engine_danger": [
+  {
+   "text": "PERIGO",
+   "box": [
+    589,
+    31,
+    642,
+    40
+   ]
+  },
+  {
+   "text": "RISCO DE INCÊNDIO",
+   "box": [
+    580,
+    46,
+    652,
+    52
+   ]
+  },
+  {
+   "text": "AO ENCHER RECIPIENTES",
+   "box": [
+    577,
+    55,
+    655,
+    60
+   ]
+  }
+ ],
+ "cap_naked_flames": [
+  {
+   "text": "PROIBIDO CHAMA ABERTA",
+   "box": [
+    367,
+    123,
+    414,
+    127
+   ]
+  },
+  {
+   "text": "DESLIGUE A CHAMA-PILOTO",
+   "box": [
+    367,
+    129,
+    414,
+    133
+   ]
+  }
+ ],
+ "cap_no_smoking": [
+  {
+   "text": "PROIBIDO FUMAR",
+   "box": [
+    422,
+    125,
+    464,
+    130
+   ]
+  }
+ ],
+ "cap_over16": [
+  {
+   "text": "SÓ MAIORES DE 16 ANOS",
+   "box": [
+    473,
+    120,
+    514,
+    124
+   ]
+  }
+ ],
+ "cap_overfill": [
+  {
+   "text": "NÃO ENCHA DEMAIS",
+   "box": [
+    522,
+    120,
+    563,
+    124
+   ]
+  }
+ ],
+ "cap_when_filling": [
+  {
+   "text": "AO ABASTECER, NÃO VOLTE AO VEÍCULO · MANTENHA OS PÉS NO CHÃO",
+   "box": [
+    472,
+    131,
+    569,
+    134
+   ]
+  }
+ ],
+ "cap_turn_off": [
+  {
+   "text": "DESLIGUE TODOS OS APARELHOS ELÉTRICOS",
+   "box": [
+    401,
+    150,
+    466,
+    154
+   ]
+  }
+ ],
+ "cap_devices": [
+  {
+   "text": "- CELULARES",
+   "box": [
+    413,
+    164,
+    461,
+    170
+   ]
+  },
+  {
+   "text": "- RÁDIOS PX",
+   "box": [
+    413,
+    174,
+    461,
+    180
+   ]
+  },
+  {
+   "text": "- BIPES",
+   "box": [
+    413,
+    185,
+    461,
+    191
+   ]
+  }
+ ],
+ "cap_place": [
+  {
+   "text": "COLOQUE O RECIPIENTE",
+   "box": [
+    507,
+    148,
+    553,
+    152
+   ]
+  },
+  {
+   "text": "NO CHÃO AO ENCHER",
+   "box": [
+    507,
+    154,
+    553,
+    158
+   ]
+  }
+ ],
+ "cap_nozzle": [
+  {
+   "text": "MANTENHA O BICO EM CONTATO",
+   "box": [
+    507,
+    165,
+    560,
+    169
+   ]
+  },
+  {
+   "text": "COM O RECIPIENTE",
+   "box": [
+    507,
+    171,
+    560,
+    175
+   ]
+  }
+ ],
+ "cap_fill_only": [
+  {
+   "text": "USE SÓ RECIPIENTES DE METAL",
+   "box": [
+    507,
+    180,
+    571,
+    184
+   ]
+  },
+  {
+   "text": "OU DE PLÁSTICO APROVADOS",
+   "box": [
+    507,
+    186,
+    571,
+    190
+   ]
+  }
+ ],
+ "no_parking_top": [
+  {
+   "text": "PROIBIDO",
+   "box": [
+    688,
+    40,
+    786,
+    66
+   ]
+  }
+ ],
+ "no_parking_bottom": [
+  {
+   "text": "ESTACIONAR",
+   "box": [
+    684,
+    118,
+    790,
+    142
+   ]
+  }
+ ],
+ "notice_header": [
+  {
+   "text": "AVISO",
+   "box": [
+    540,
+    243,
+    620,
+    260
+   ]
+  }
+ ],
+ "notice_body": [
+  {
+   "text": "SOMENTE",
+   "box": [
+    520,
+    304,
+    632,
+    318
+   ]
+  },
+  {
+   "text": "PESSOAL AUTORIZADO",
+   "box": [
+    482,
+    325,
+    672,
+    339
+   ]
+  }
+ ],
+ "diesel_push": [
+  {
+   "text": "APERTE AQUI",
+   "box": [
+    24,
+    384,
+    98,
+    393
+   ]
+  }
+ ],
+ "octane_87_header": [
+  {
+   "text": "GASOLINA COMUM",
+   "box": [
+    135,
+    292,
+    211,
+    300
+   ]
+  },
+  {
+   "text": "OCTANAGEM (R+M)/2",
+   "box": [
+    140,
+    303,
+    206,
+    310
+   ]
+  }
+ ],
+ "octane_87_push": [
+  {
+   "text": "APERTE AQUI",
+   "box": [
+    142,
+    383,
+    206,
+    393
+   ]
+  }
+ ],
+ "octane_89_header": [
+  {
+   "text": "GASOLINA ADITIVADA",
+   "box": [
+    249,
+    292,
+    325,
+    300
+   ]
+  },
+  {
+   "text": "OCTANAGEM (R+M)/2",
+   "box": [
+    254,
+    303,
+    320,
+    310
+   ]
+  }
+ ],
+ "octane_89_push": [
+  {
+   "text": "APERTE AQUI",
+   "box": [
+    256,
+    383,
+    320,
+    393
+   ]
+  }
+ ],
+ "octane_93_header": [
+  {
+   "text": "GASOLINA PREMIUM",
+   "box": [
+    366,
+    292,
+    442,
+    300
+   ]
+  },
+  {
+   "text": "OCTANAGEM (R+M)/2",
+   "box": [
+    371,
+    303,
+    437,
+    310
+   ]
+  }
+ ],
+ "octane_93_push": [
+  {
+   "text": "APERTE AQUI",
+   "box": [
+    373,
+    383,
+    437,
+    393
+   ]
+  }
+ ]
+}

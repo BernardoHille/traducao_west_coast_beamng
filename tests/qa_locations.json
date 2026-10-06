@@ -72,6 +72,16 @@
      "original_origin_contains": "billboard_label.zip"
     }
    ]
+  },
+  "t_billboards": {
+   "material": "billboards",
+   "vfs_checks": [
+    {
+     "path": "/assets/materials/billboard_label/billboards/t_billboards_b.color.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "billboard_label.zip"
+    }
+   ]
   }
  },
  "locations": [
@@ -2701,6 +2711,623 @@
      0.707107
     ],
     "fov": 25,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_turbo_burger",
+   "family": "t_billboards",
+   "description": "Outdoor Turbo Burger.",
+   "expected_elements": [
+    "NOVO MENU TURBO · R$ 4,99"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1044,
+     20,
+     1516,
+     236
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -493.8569,
+     74.0582,
+     109.0855
+    ],
+    "rotation": [
+     0,
+     0,
+     1e-06,
+     1.0
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_feline_racerz",
+   "family": "t_billboards",
+   "description": "Outdoor Feline Racerz.",
+   "expected_elements": [
+    "JÁ DISPONÍVEL · citação · DISPONÍVEL PARA GAMEMASTER720 E PC"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     532,
+     276,
+     1004,
+     492
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -497.366,
+     173.716,
+     109.0855
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.596944,
+     0.802283
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_tasticola",
+   "family": "t_billboards",
+   "description": "Outdoor TastiCola.",
+   "expected_elements": [
+    "NOVO SABOR! AZUL É O NOVO VERMELHO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1556,
+     276,
+     2028,
+     492
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -523.9608,
+     219.3211,
+     113.5515
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_rally_rental",
+   "family": "t_billboards",
+   "description": "Outdoor Rocking Rally Rental.",
+   "expected_elements": [
+    "ECONOMIZE ATÉ R$ 200 · Visite a loja…"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     532,
+     532,
+     1004,
+     748
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -372.3785,
+     301.0734,
+     110.9738
+    ],
+    "rotation": [
+     0,
+     0,
+     0.417444,
+     0.908703
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_gripall",
+   "family": "t_billboards",
+   "description": "Outdoor GripAll.",
+   "expected_elements": [
+    "A MARCA DE PNEUS DE CONFIANÇA DOS EUA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     532,
+     788,
+     1004,
+     1004
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -379.8913,
+     375.2426,
+     110.2469
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_nodeoline",
+   "family": "t_billboards",
+   "description": "Outdoor Nodeoline.",
+   "expected_elements": [
+    "Resistência testada e comprovada"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1556,
+     788,
+     2028,
+     1004
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -479.6985,
+     107.5355,
+     109.0855
+    ],
+    "rotation": [
+     0,
+     0,
+     0.956903,
+     -0.290407
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_wcusa_warehouse",
+   "family": "t_billboards",
+   "description": "Painel WCUSA na fachada do armazém.",
+   "expected_elements": [
+    "WCUSA AUTÓDROMO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_bld_warehouse_002.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1044,
+     276,
+     1516,
+     492
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -740.0514,
+     170.4367,
+     156.6237
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_driftgear_diner",
+   "family": "t_billboards",
+   "description": "Outdoor DriftGear perto da lanchonete.",
+   "expected_elements": [
+    "SUPERANDO OS LIMITES DA INOVAÇÃO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_diner_area_filler.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1556,
+     20,
+     2028,
+     236
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -593.8084,
+     151.2445,
+     116.2597
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_blastr",
+   "family": "t_billboards",
+   "description": "Outdoor (billboards.dae).",
+   "expected_elements": [
+    "SINTA A FÚRIA!!"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     20,
+     20,
+     492,
+     236
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -736.1652,
+     165.7702,
+     145.1323
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382683,
+     0.92388
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_brightsmile",
+   "family": "t_billboards",
+   "description": "Outdoor (billboards.dae).",
+   "expected_elements": [
+    "Recomendado por 4 em cada 5 dentistas"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     532,
+     20,
+     1004,
+     236
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -784.5968,
+     58.8929,
+     140.1818
+    ],
+    "rotation": [
+     0,
+     0,
+     0.92388,
+     -0.382683
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_mente",
+   "family": "t_billboards",
+   "description": "Outdoor (billboards.dae).",
+   "expected_elements": [
+    "EXPRESSE-SE"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     20,
+     532,
+     492,
+     748
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -312.067,
+     355.8111,
+     110.434
+    ],
+    "rotation": [
+     0,
+     0,
+     0.92388,
+     -0.382683
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_alder",
+   "family": "t_billboards",
+   "description": "Outdoor (billboards.dae).",
+   "expected_elements": [
+    "Performance Americana Clássica"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1556,
+     532,
+     2028,
+     748
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -612.2651,
+     113.6376,
+     113.8536
+    ],
+    "rotation": [
+     0,
+     0,
+     0.382683,
+     0.92388
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_eshock",
+   "family": "t_billboards",
+   "description": "Outdoor (billboards.dae).",
+   "expected_elements": [
+    "DESEMPENHO CHOCANTE"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     20,
+     788,
+     492,
+     1004
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -533.5243,
+     177.4252,
+     109.0855
+    ],
+    "rotation": [
+     0,
+     0,
+     0.594346,
+     0.804209
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "bb_oj",
+   "family": "t_billboards",
+   "description": "Outdoor (billboards.dae).",
+   "expected_elements": [
+    "VIVA SAUDÁVEL, VIVA RÁPIDO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/billboards.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     1044,
+     788,
+     1516,
+     1004
+    ],
+    "face_triangles": 1,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     -539.6272,
+     203.6544,
+     113.5515
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.382674,
+     0.923883
+    ],
+    "fov": 50,
     "source": "tools/beamng/catalog_add.py (uv)"
    }
   }

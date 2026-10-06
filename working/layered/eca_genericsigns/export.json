@@ -1,0 +1,12 @@
+{
+ "family": "eca_genericsigns",
+ "_doc": "West Coast loads t_eca_genericsigns_b.color through the art_shapes material (resolved to assets/materials/billboard_label/eca_genericsigns).",
+ "items": [
+  {
+   "png": "working/png/t_eca_genericsigns_b.color.png",
+   "install": [
+    "assets/materials/billboard_label/eca_genericsigns"
+   ]
+  }
+ ]
+}

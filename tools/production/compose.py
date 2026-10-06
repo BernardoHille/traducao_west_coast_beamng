@@ -183,6 +183,11 @@ def legend_mask(rgb: np.ndarray, spec) -> np.ndarray:
     a = rgb.astype(int)
     if isinstance(spec, str):
         return NAMED[spec](a)
+    if "rgbs" in spec:  # several colours (e.g. fill + outline of a display text)
+        m = np.zeros(a.shape[:-1], bool)
+        for c in spec["rgbs"]:
+            m |= np.linalg.norm(a - np.array(c, float), axis=-1) < spec.get("tol", 60)
+        return m
     ref = np.array(spec["rgb"], float)
     return np.linalg.norm(a - ref, axis=-1) < spec.get("tol", 60)
 

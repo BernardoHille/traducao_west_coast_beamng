@@ -15,6 +15,11 @@
    "status": "production",
    "shape_changed": false,
    "note": "Phase 6 (6B): texts of the panels used in the West Coast changed inside the same panels; opacity/normal/AO/roughness hold only panel outlines -> unchanged."
+  },
+  "t_billboards": {
+   "status": "production",
+   "shape_changed": false,
+   "note": "Phase 6 (6C): slogans/prices on the billboard atlas; roughness map is a generic panel texture."
   }
  },
  "reference": {

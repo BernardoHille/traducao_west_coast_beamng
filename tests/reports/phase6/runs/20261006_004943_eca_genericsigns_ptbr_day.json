@@ -1,0 +1,289 @@
+{
+  "started": "2026-10-06T00:49:06",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "day",
+  "mod_active": true,
+  "vfs": {
+    "eca_genericsigns": [
+      {
+        "path": "/assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\billboard_label\\eca_genericsigns\\t_eca_genericsigns_b.color.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "gs_octane_pump",
+      "object": {
+        "dist": 0.00059384980432052,
+        "id": 442615,
+        "materials": [
+          "m_metal_trim_01",
+          "bld_glass_transparent",
+          "m_plastic_trim",
+          "lod_vertcol",
+          "eca_genericsigns",
+          "clutter_commercial",
+          "SOFT_COLLISION_GENERAL"
+        ]
+      },
+      "file": "tests/screenshots/phase6/eca_genericsigns/gs_octane_pump_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004911_157.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 18,
+        "pos": {
+          "y": 850.9343,
+          "x": -811.0689,
+          "z": 76.1021
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0,
+          "x": 0.087156028601641,
+          "w": 0.99619467308272
+        }
+      }
+    },
+    {
+      "location": "gs_stop_engine_structure",
+      "object": {
+        "dist": 0.00057962887316517,
+        "id": 442500,
+        "materials": [
+          "m_metal_trim_01",
+          "m_plastic_trim",
+          "corrugation",
+          "vertcolor_glow",
+          "industrial_trim",
+          "m_gasstation_tyrannos",
+          "metal_plates",
+          "eca_genericsigns",
+          "lod_vertcol",
+          "slabs_large",
+          "SOFT_COLLISION_GENERAL"
+        ]
+      },
+      "file": "tests/screenshots/phase6/eca_genericsigns/gs_stop_engine_structure_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004917_158.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 35,
+        "pos": {
+          "y": 1766.1439,
+          "x": 148.4036,
+          "z": 103.5085
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.99026808132428,
+          "x": 0,
+          "w": 0.13917301142938
+        }
+      }
+    },
+    {
+      "location": "gs_diesel_pump",
+      "object": {
+        "dist": 0.00059384980432052,
+        "id": 442615,
+        "materials": [
+          "m_metal_trim_01",
+          "bld_glass_transparent",
+          "m_plastic_trim",
+          "lod_vertcol",
+          "eca_genericsigns",
+          "clutter_commercial",
+          "SOFT_COLLISION_GENERAL"
+        ]
+      },
+      "file": "tests/screenshots/phase6/eca_genericsigns/gs_diesel_pump_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004922_159.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 20,
+        "pos": {
+          "y": 850.9343,
+          "x": -811.1888,
+          "z": 76.1021
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0,
+          "x": 0.087156028601641,
+          "w": 0.99619467308272
+        }
+      }
+    },
+    {
+      "location": "gs_notice_charger",
+      "object": {
+        "dist": 0.00051143061922675,
+        "id": 442603,
+        "materials": [
+          "m_metal_trim_01",
+          "m_plastic_trim",
+          "eca_genericsigns",
+          "lod_vertcol",
+          "bld_glass_transparent",
+          "SOFT_COLLISION_GENERAL"
+        ]
+      },
+      "file": "tests/screenshots/phase6/eca_genericsigns/gs_notice_charger_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004927_160.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 14,
+        "pos": {
+          "y": 842.2029,
+          "x": -826.124,
+          "z": 76.2224
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": -0.0084720009485253,
+          "x": 0,
+          "w": 0.99996411195599
+        }
+      }
+    },
+    {
+      "location": "gs_danger_structure",
+      "object": {
+        "dist": 0.00059939785496051,
+        "id": 442599,
+        "materials": [
+          "m_metal_trim_01",
+          "m_plastic_trim",
+          "eca_genericsigns",
+          "lod_vertcol",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/eca_genericsigns/gs_danger_structure_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004932_161.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 25,
+        "pos": {
+          "y": 855.0621,
+          "x": -813.0095,
+          "z": 76.2158
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 1,
+          "x": 0,
+          "w": 6.1232339957368e-17
+        }
+      }
+    },
+    {
+      "location": "gs_no_parking_structure",
+      "object": {
+        "dist": 0.00059939785496051,
+        "id": 442599,
+        "materials": [
+          "m_metal_trim_01",
+          "m_plastic_trim",
+          "eca_genericsigns",
+          "lod_vertcol",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/eca_genericsigns/gs_no_parking_structure_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004937_162.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 25,
+        "pos": {
+          "y": 852.7409,
+          "x": -815.492,
+          "z": 76.2845
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.70710678118655,
+          "x": 0,
+          "w": 0.70710678118655
+        }
+      }
+    },
+    {
+      "location": "gs_flammable_gas_structure",
+      "object": {
+        "dist": 0.00059939785496051,
+        "id": 442599,
+        "materials": [
+          "m_metal_trim_01",
+          "m_plastic_trim",
+          "eca_genericsigns",
+          "lod_vertcol",
+          "slabs_large"
+        ]
+      },
+      "file": "tests/screenshots/phase6/eca_genericsigns/gs_flammable_gas_structure_ptbr.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_004942_163.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 25,
+        "pos": {
+          "y": 852.7401,
+          "x": -815.492,
+          "z": 76.7238
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0,
+          "z": 0.70710678118655,
+          "x": 0,
+          "w": 0.70710678118655
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {
+      "E GELua.screenshot": 42
+    },
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T00:49:43"
+}

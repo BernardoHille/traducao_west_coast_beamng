@@ -1,0 +1,1217 @@
+{
+ "family": "eca_genericsigns",
+ "_doc": "Fuel-station generic signs (Phase 6, 6B). The West Coast loads the PBR material eca_genericsigns of art_shapes.zip (t_eca_genericsigns_b.color + _o/_nm/_ao/_r, no emissive), confirmed in game on 05/10/2026. Aux maps hold only the panel shapes -> colour-only edits. Only atlas areas sampled by instanced West Coast meshes are edited (UV footprint).",
+ "maps": {
+  "color": {
+   "original": "source/originals/png/t_eca_genericsigns_b.color.png",
+   "out": "working/png/t_eca_genericsigns_b.color.png"
+  }
+ },
+ "materials": [
+  "eca_genericsigns"
+ ],
+ "usage_texture": "t_eca_genericsigns_b.color",
+ "uv_min_coverage": 0.4,
+ "seed": 20261006,
+ "elements": [
+  {
+   "id": "no_smoking",
+   "matrix": "fuel_no_smoking",
+   "op": "panel",
+   "box": [
+    10,
+    90,
+    128,
+    123
+   ],
+   "legend": "black",
+   "erase": [
+    [
+     13,
+     94,
+     126,
+     121
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO FUMAR",
+     "box": [
+      18,
+      99,
+      120,
+      116
+     ]
+    }
+   ]
+  },
+  {
+   "id": "danger_header",
+   "matrix": "fuel_danger_flammable",
+   "op": "panel",
+   "box": [
+    170,
+    10,
+    352,
+    50
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     176,
+     14,
+     350,
+     46
+    ]
+   ],
+   "style": {
+    "font": "arial_bold"
+   },
+   "lines": [
+    {
+     "text": "PERIGO",
+     "box": [
+      182,
+      18,
+      344,
+      42
+     ]
+    }
+   ]
+  },
+  {
+   "id": "highly_flammable",
+   "matrix": "fuel_danger_flammable",
+   "op": "panel",
+   "box": [
+    200,
+    80,
+    352,
+    150
+   ],
+   "legend": "black",
+   "erase": [
+    [
+     206,
+     84,
+     342,
+     147
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "ALTAMENTE",
+     "box": [
+      212,
+      90,
+      334,
+      108
+     ]
+    },
+    {
+     "text": "INFLAMÁVEL",
+     "box": [
+      210,
+      124,
+      336,
+      142
+     ]
+    }
+   ]
+  },
+  {
+   "id": "flammable_gas",
+   "matrix": "fuel_flammable_gas",
+   "op": "panel",
+   "box": [
+    12,
+    145,
+    126,
+    258
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     18,
+     168,
+     62,
+     214
+    ],
+    [
+     36,
+     196,
+     100,
+     252
+    ]
+   ],
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "GÁS INFLAMÁVEL",
+     "box": [
+      2,
+      204,
+      122,
+      216
+     ]
+    }
+   ],
+   "keep": [
+    [
+     60,
+     148,
+     125,
+     207
+    ],
+    [
+     12,
+     228,
+     40,
+     256
+    ]
+   ],
+   "rotate": {
+    "deg": -45,
+    "pivot": [
+     62,
+     210
+    ]
+   }
+  },
+  {
+   "id": "stop_engine",
+   "matrix": "fuel_stop_engine",
+   "op": "panel",
+   "box": [
+    370,
+    15,
+    570,
+    78
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     376,
+     19,
+     562,
+     46
+    ],
+    [
+     420,
+     54,
+     520,
+     76
+    ]
+   ],
+   "style": {
+    "font": "arial_bold"
+   },
+   "lines": [
+    {
+     "text": "DESLIGUE O MOTOR",
+     "box": [
+      378,
+      22,
+      560,
+      43
+     ]
+    },
+    {
+     "text": "EVITE INCÊNDIO",
+     "box": [
+      404,
+      58,
+      536,
+      73
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stop_engine_danger",
+   "matrix": "fuel_danger_containers",
+   "op": "panel",
+   "box": [
+    575,
+    26,
+    658,
+    63
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     585,
+     28,
+     646,
+     42
+    ],
+    [
+     594,
+     44,
+     645,
+     53
+    ],
+    [
+     576,
+     53,
+     656,
+     62
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "PERIGO",
+     "box": [
+      589,
+      31,
+      642,
+      40
+     ]
+    },
+    {
+     "text": "RISCO DE INCÊNDIO",
+     "box": [
+      580,
+      46,
+      652,
+      52
+     ]
+    },
+    {
+     "text": "AO ENCHER RECIPIENTES",
+     "box": [
+      577,
+      55,
+      655,
+      60
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_naked_flames",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    365,
+    121,
+    416,
+    134
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     366,
+     122,
+     415,
+     133
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "center"
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO CHAMA ABERTA",
+     "box": [
+      367,
+      123,
+      414,
+      127
+     ]
+    },
+    {
+     "text": "DESLIGUE A CHAMA-PILOTO",
+     "box": [
+      367,
+      129,
+      414,
+      133
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_no_smoking",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    420,
+    123,
+    466,
+    132
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     421,
+     124,
+     465,
+     131
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "center"
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO FUMAR",
+     "box": [
+      422,
+      125,
+      464,
+      130
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_over16",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    471,
+    118,
+    516,
+    126
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     472,
+     119,
+     515,
+     125
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "center"
+   },
+   "lines": [
+    {
+     "text": "SÓ MAIORES DE 16 ANOS",
+     "box": [
+      473,
+      120,
+      514,
+      124
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_overfill",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    520,
+    118,
+    565,
+    126
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     521,
+     119,
+     564,
+     125
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "center"
+   },
+   "lines": [
+    {
+     "text": "NÃO ENCHA DEMAIS",
+     "box": [
+      522,
+      120,
+      563,
+      124
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_when_filling",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    470,
+    128,
+    571,
+    136
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     471,
+     129,
+     570,
+     135
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "center"
+   },
+   "lines": [
+    {
+     "text": "AO ABASTECER, NÃO VOLTE AO VEÍCULO · MANTENHA OS PÉS NO CHÃO",
+     "box": [
+      472,
+      131,
+      569,
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_turn_off",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    399,
+    148,
+    468,
+    156
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     400,
+     149,
+     467,
+     155
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "center"
+   },
+   "lines": [
+    {
+     "text": "DESLIGUE TODOS OS APARELHOS ELÉTRICOS",
+     "box": [
+      401,
+      150,
+      466,
+      154
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_devices",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    410,
+    160,
+    463,
+    195
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     411,
+     161,
+     462,
+     194
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "- CELULARES",
+     "box": [
+      413,
+      164,
+      461,
+      170
+     ]
+    },
+    {
+     "text": "- RÁDIOS PX",
+     "box": [
+      413,
+      174,
+      461,
+      180
+     ]
+    },
+    {
+     "text": "- BIPES",
+     "box": [
+      413,
+      185,
+      461,
+      191
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_place",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    504,
+    146,
+    555,
+    159
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     505,
+     147,
+     554,
+     158
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "COLOQUE O RECIPIENTE",
+     "box": [
+      507,
+      148,
+      553,
+      152
+     ]
+    },
+    {
+     "text": "NO CHÃO AO ENCHER",
+     "box": [
+      507,
+      154,
+      553,
+      158
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_nozzle",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    504,
+    163,
+    562,
+    176
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     505,
+     164,
+     561,
+     175
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "MANTENHA O BICO EM CONTATO",
+     "box": [
+      507,
+      165,
+      560,
+      169
+     ]
+    },
+    {
+     "text": "COM O RECIPIENTE",
+     "box": [
+      507,
+      171,
+      560,
+      175
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cap_fill_only",
+   "matrix": "fuel_stop_engine_captions",
+   "op": "panel",
+   "box": [
+    504,
+    178,
+    573,
+    192
+   ],
+   "legend": "auto",
+   "legend_tol": 45,
+   "bg_tol": 30,
+   "erase": [
+    [
+     505,
+     179,
+     572,
+     191
+    ]
+   ],
+   "color": [
+    28,
+    24,
+    22
+   ],
+   "style": {
+    "font": "arial_narrow_bold",
+    "align": "left"
+   },
+   "lines": [
+    {
+     "text": "USE SÓ RECIPIENTES DE METAL",
+     "box": [
+      507,
+      180,
+      571,
+      184
+     ]
+    },
+    {
+     "text": "OU DE PLÁSTICO APROVADOS",
+     "box": [
+      507,
+      186,
+      571,
+      190
+     ]
+    }
+   ]
+  },
+  {
+   "id": "no_parking_top",
+   "matrix": "fuel_no_parking",
+   "op": "panel",
+   "box": [
+    676,
+    10,
+    798,
+    98
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     684,
+     16,
+     792,
+     97
+    ]
+   ],
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "PROIBIDO",
+     "box": [
+      688,
+      40,
+      786,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "no_parking_bottom",
+   "matrix": "fuel_no_parking",
+   "op": "panel",
+   "box": [
+    676,
+    100,
+    798,
+    162
+   ],
+   "legend": "red",
+   "erase": [
+    [
+     685,
+     103,
+     793,
+     161
+    ]
+   ],
+   "style": {
+    "font": "bahnschrift",
+    "wght": 650,
+    "wdth": 85,
+    "min_wdth": 75
+   },
+   "lines": [
+    {
+     "text": "ESTACIONAR",
+     "box": [
+      684,
+      118,
+      790,
+      142
+     ]
+    }
+   ]
+  },
+  {
+   "id": "notice_header",
+   "matrix": "fuel_notice_authorized",
+   "op": "panel",
+   "box": [
+    515,
+    235,
+    645,
+    268
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     533,
+     241,
+     628,
+     262
+    ]
+   ],
+   "style": {
+    "font": "arial_bold"
+   },
+   "lines": [
+    {
+     "text": "AVISO",
+     "box": [
+      540,
+      243,
+      620,
+      260
+     ]
+    }
+   ]
+  },
+  {
+   "id": "notice_body",
+   "matrix": "fuel_notice_authorized",
+   "op": "panel",
+   "box": [
+    476,
+    296,
+    676,
+    354
+   ],
+   "legend": "black",
+   "erase": [
+    [
+     478,
+     300,
+     674,
+     342
+    ]
+   ],
+   "style": {
+    "font": "arial_bold"
+   },
+   "lines": [
+    {
+     "text": "SOMENTE",
+     "box": [
+      520,
+      304,
+      632,
+      318
+     ]
+    },
+    {
+     "text": "PESSOAL AUTORIZADO",
+     "box": [
+      482,
+      325,
+      672,
+      339
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diesel_push",
+   "matrix": "fuel_diesel",
+   "op": "panel",
+   "box": [
+    22,
+    378,
+    102,
+    397
+   ],
+   "legend": "white",
+   "erase": [
+    [
+     26,
+     380,
+     96,
+     396
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "APERTE AQUI",
+     "box": [
+      24,
+      384,
+      98,
+      393
+     ]
+    }
+   ]
+  },
+  {
+   "id": "octane_87_header",
+   "matrix": "fuel_octane_87",
+   "op": "panel",
+   "box": [
+    128,
+    286,
+    220,
+    314
+   ],
+   "legend": "black",
+   "erase": [
+    [
+     132,
+     290,
+     214,
+     311
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "GASOLINA COMUM",
+     "box": [
+      135,
+      292,
+      211,
+      300
+     ]
+    },
+    {
+     "text": "OCTANAGEM (R+M)/2",
+     "box": [
+      140,
+      303,
+      206,
+      310
+     ]
+    }
+   ]
+  },
+  {
+   "id": "octane_87_push",
+   "matrix": "fuel_octane_87",
+   "op": "panel",
+   "box": [
+    138,
+    379,
+    210,
+    397
+   ],
+   "legend": {
+    "rgb": [
+     230,
+     200,
+     20
+    ],
+    "tol": 90
+   },
+   "erase": [
+    [
+     140,
+     381,
+     208,
+     395
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "APERTE AQUI",
+     "box": [
+      142,
+      383,
+      206,
+      393
+     ]
+    }
+   ]
+  },
+  {
+   "id": "octane_89_header",
+   "matrix": "fuel_octane_89",
+   "op": "panel",
+   "box": [
+    242,
+    286,
+    334,
+    314
+   ],
+   "legend": "black",
+   "erase": [
+    [
+     246,
+     290,
+     328,
+     311
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "GASOLINA ADITIVADA",
+     "box": [
+      249,
+      292,
+      325,
+      300
+     ]
+    },
+    {
+     "text": "OCTANAGEM (R+M)/2",
+     "box": [
+      254,
+      303,
+      320,
+      310
+     ]
+    }
+   ]
+  },
+  {
+   "id": "octane_89_push",
+   "matrix": "fuel_octane_89",
+   "op": "panel",
+   "box": [
+    252,
+    379,
+    324,
+    397
+   ],
+   "legend": {
+    "rgb": [
+     230,
+     200,
+     20
+    ],
+    "tol": 90
+   },
+   "erase": [
+    [
+     254,
+     381,
+     322,
+     395
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "APERTE AQUI",
+     "box": [
+      256,
+      383,
+      320,
+      393
+     ]
+    }
+   ]
+  },
+  {
+   "id": "octane_93_header",
+   "matrix": "fuel_octane_93",
+   "op": "panel",
+   "box": [
+    359,
+    286,
+    451,
+    314
+   ],
+   "legend": "black",
+   "erase": [
+    [
+     363,
+     290,
+     445,
+     311
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "GASOLINA PREMIUM",
+     "box": [
+      366,
+      292,
+      442,
+      300
+     ]
+    },
+    {
+     "text": "OCTANAGEM (R+M)/2",
+     "box": [
+      371,
+      303,
+      437,
+      310
+     ]
+    }
+   ]
+  },
+  {
+   "id": "octane_93_push",
+   "matrix": "fuel_octane_93",
+   "op": "panel",
+   "box": [
+    369,
+    379,
+    441,
+    397
+   ],
+   "legend": {
+    "rgb": [
+     230,
+     200,
+     20
+    ],
+    "tol": 90
+   },
+   "erase": [
+    [
+     371,
+     381,
+     439,
+     395
+    ]
+   ],
+   "style": {
+    "font": "arial_narrow_bold"
+   },
+   "lines": [
+    {
+     "text": "APERTE AQUI",
+     "box": [
+      373,
+      383,
+      437,
+      393
+     ]
+    }
+   ]
+  }
+ ]
+}

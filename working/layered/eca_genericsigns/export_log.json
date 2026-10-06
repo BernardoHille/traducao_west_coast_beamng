@@ -1,0 +1,14 @@
+[
+ {
+  "png": "working/png/t_eca_genericsigns_b.color.png",
+  "dds": "export/dds/eca_genericsigns/t_eca_genericsigns_b.color.dds",
+  "original": "source/originals/dds/t_eca_genericsigns_b.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds"
+  ]
+ }
+]

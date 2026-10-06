@@ -1,0 +1,70 @@
+{
+  "title": "Family validation",
+  "subject": "eca_genericsigns (mod)",
+  "status": "PASS",
+  "counts": {
+    "PASS": 8,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "generated": "2026-10-06T00:08:58",
+  "meta": {
+    "scope": "global (East Coast path)",
+    "wcusa_usage": "confirmed",
+    "delivered": {
+      "base_color": "mod/traducao_ptbr_wcusa/assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds"
+    },
+    "notes": "Phase 6 correction (checked in game 05/10/2026): the West Coast loads the PBR material eca_genericsigns of art_shapes.zip -> t_eca_genericsigns_b.color + _o/_nm/_ao/_r (resolved to assets/materials/billboard_label/eca_genericsigns), with NO emissive. The legacy eca_genericsigns_d + emissive (East Coast / Utah / Hirochi paths) belong to those maps' own materials. Phase 3 note superseded."
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "diffuse_legacy (eca_genericsigns_d.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "emissive (eca_genericsigns_emissive.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "base_color (t_eca_genericsigns_b.color.dds)",
+      "message": "delivered",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "opacity (t_eca_genericsigns_o.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "normal (t_eca_genericsigns_nm.normal.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "ao (t_eca_genericsigns_ao.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "roughness (t_eca_genericsigns_r.data.dds)",
+      "message": "not delivered — original stays in use",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "shape_changed",
+      "message": "declared false (only colours/text inside the original silhouette)",
+      "details": {}
+    }
+  ]
+}

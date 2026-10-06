@@ -1071,5 +1071,165 @@
         "source": "UV of s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.); Phase 6"
       }
     ]
+  },
+  "t_billboards_b.color": {
+    "size": [
+      2048,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "blastr_tagline",
+        "x": 386,
+        "y": 198,
+        "width": 126,
+        "height": 32,
+        "source": "UV of billboards.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "brightsmile_tagline",
+        "x": 748,
+        "y": 74,
+        "width": 256,
+        "height": 24,
+        "source": "UV of billboards.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "turbo_menu",
+        "x": 1050,
+        "y": 12,
+        "width": 460,
+        "height": 48,
+        "source": "UV of billboards.dae (1 inst.), dragbillboard_sign07.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "turbo_price",
+        "x": 1318,
+        "y": 92,
+        "width": 172,
+        "height": 58,
+        "source": "UV of billboards.dae (1 inst.), dragbillboard_sign07.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "driftgear_tagline",
+        "x": 1620,
+        "y": 16,
+        "width": 350,
+        "height": 26,
+        "source": "UV of dragbillboard_sign02.dae (3 inst.), s_diner_area_filler.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "feline_out_now",
+        "x": 544,
+        "y": 298,
+        "width": 50,
+        "height": 40,
+        "source": "UV of billboards.dae (1 inst.), s_building_stage_01.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "feline_quote",
+        "x": 514,
+        "y": 404,
+        "width": 150,
+        "height": 62,
+        "source": "UV of billboards.dae (1 inst.), s_building_stage_01.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "feline_available",
+        "x": 566,
+        "y": 478,
+        "width": 270,
+        "height": 22,
+        "source": "UV of billboards.dae (1 inst.), s_building_stage_01.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "wcusa_racetrack",
+        "x": 1136,
+        "y": 382,
+        "width": 274,
+        "height": 42,
+        "source": "UV of s_bld_warehouse_002.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "tasticola",
+        "x": 1806,
+        "y": 272,
+        "width": 206,
+        "height": 188,
+        "source": "UV of billboards.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "mente_tagline",
+        "x": 46,
+        "y": 650,
+        "width": 108,
+        "height": 13,
+        "source": "UV of billboards.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "rally_save_line",
+        "x": 824,
+        "y": 586,
+        "width": 170,
+        "height": 30,
+        "source": "UV of billboards.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "rally_save_value",
+        "x": 820,
+        "y": 616,
+        "width": 178,
+        "height": 58,
+        "source": "UV of billboards.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "rally_visit",
+        "x": 566,
+        "y": 740,
+        "width": 384,
+        "height": 22,
+        "source": "UV of billboards.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "alder_banner",
+        "x": 1540,
+        "y": 678,
+        "width": 212,
+        "height": 24,
+        "source": "UV of billboards.dae (1 inst.), dragbillboard_sign01.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "eshock_tagline",
+        "x": 96,
+        "y": 780,
+        "width": 328,
+        "height": 26,
+        "source": "UV of billboards.dae (1 inst.), dragbillboard_sign04.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "gripall_tagline",
+        "x": 518,
+        "y": 774,
+        "width": 332,
+        "height": 76,
+        "source": "UV of billboards.dae (1 inst.), dragbillboard_sign05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "oj_tagline",
+        "x": 1044,
+        "y": 862,
+        "width": 108,
+        "height": 30,
+        "source": "UV of billboards.dae (1 inst.), dragbillboard_sign08.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "nodeoline_endurance",
+        "x": 1540,
+        "y": 795,
+        "width": 225,
+        "height": 145,
+        "source": "UV of billboards.dae (1 inst.), dragbillboard_sign03.dae (4 inst.); Phase 6"
+      }
+    ]
   }
 }
