@@ -1,0 +1,116 @@
+{
+  "title": "PNG validation",
+  "subject": "working/png/decalroad/t_decal_roadmarkings_nm.normal.png",
+  "status": "PASS",
+  "counts": {
+    "PASS": 5,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 2
+  },
+  "generated": "2026-10-05T23:52:39",
+  "meta": {
+    "original": "source/originals/png/t_decal_roadmarkings_nm.normal.png",
+    "texture": "t_decal_roadmarkings_nm.normal",
+    "allowed_regions": 7,
+    "metrics": {
+      "pixels": 1048576,
+      "rgb": {
+        "changed": 72730,
+        "changed_pct": 6.9361,
+        "mean_abs": 2.1554,
+        "max_abs": 159,
+        "psnr_db": 33.7
+      },
+      "alpha": {
+        "changed": 0,
+        "changed_pct": 0.0,
+        "mean_abs": 0.0,
+        "max_abs": 0,
+        "original": {
+          "transparent_pct": 0.0,
+          "semi_pct": 0.0,
+          "opaque_pct": 100.0,
+          "min": 255,
+          "max": 255,
+          "mean": 255.0
+        },
+        "candidate": {
+          "transparent_pct": 0.0,
+          "semi_pct": 0.0,
+          "opaque_pct": 100.0,
+          "min": 255,
+          "max": 255,
+          "mean": 255.0
+        },
+        "opaque_pixels_modified": 0,
+        "opaque_pixels_modified_outside": 0,
+        "transparent_pixels_modified": 0,
+        "semi_transparent_pixels_modified": 0,
+        "transparent_pixels_original": 0,
+        "semi_pixels_original": 0
+      },
+      "changed_any": 72730,
+      "changed_any_pct": 6.9361,
+      "changed_inside_regions": 72730,
+      "changed_outside_regions": 0,
+      "changed_outside_pct": 0.0,
+      "outside_area_pixels": 589824,
+      "bbox_changes": {
+        "x": 2,
+        "y": 40,
+        "width": 994,
+        "height": 700
+      },
+      "bbox_changes_outside": null
+    },
+    "heatmaps": [
+      "export/reports/validation/images/t_decal_roadmarkings_nm.normal_diff.png",
+      "export/reports/validation/images/t_decal_roadmarkings_nm.normal_alpha_diff.png"
+    ]
+  },
+  "checks": [
+    {
+      "status": "PASS",
+      "name": "Original integrity",
+      "message": "SHA-256 matches manifest (d1f0f829b01b…)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Resolution",
+      "message": "1024x1024",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Alpha preservation",
+      "message": "original has no fully transparent pixels outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Semi-transparency",
+      "message": "original has no semi-transparent pixels outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Alpha noise",
+      "message": "no opaque pixel lost opacity outside allowed regions",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Pixel diff (global, informative)",
+      "message": "6.9361% changed · RGB mean 2.1554 max 159 · alpha mean 0.0 max 0 · PSNR 33.7 dB · bbox {'x': 2, 'y': 40, 'width': 994, 'height': 700}",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Changes outside allowed regions",
+      "message": "0 px changed outside; 72730 px inside 7 region(s)",
+      "details": {}
+    }
+  ]
+}

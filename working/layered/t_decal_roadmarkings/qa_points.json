@@ -1,0 +1,168 @@
+{
+ "family": "t_decal_roadmarkings",
+ "family_entry": {
+  "vfs_checks": [
+   {
+    "path": "/assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_o.data.dds",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": "decal.zip"
+   },
+   {
+    "path": "/assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": "decalroad.zip"
+   },
+   {
+    "path": "/levels/west_coast_usa/main.decals.json",
+    "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+    "original_origin_contains": "west_coast_usa.zip"
+   }
+  ],
+  "material": "roadmarkings1 (decal_roadmarkings1)"
+ },
+ "points": [
+  {
+   "id": "rm_pare_chinatown_top",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    1
+   ],
+   "view": "top",
+   "expected": [
+    "PARE no pavimento"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "description": "Legenda STOP->PARE junto à placa PARE do ponto de QA de Chinatown."
+  },
+  {
+   "id": "rm_pare_chinatown_oblique",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    1
+   ],
+   "view": "oblique",
+   "expected": [
+    "PARE no pavimento (vista do motorista)"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "description": "Mesma legenda vista da posição de um motorista que se aproxima."
+  },
+  {
+   "id": "rm_nao_bloqueie_top",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    78,
+    77
+   ],
+   "view": "top",
+   "expected": [
+    "NÃO BLOQUEIE"
+   ],
+   "description": "KEEP CLEAR (par lado a lado) -> NÃO BLOQUEIE."
+  },
+  {
+   "id": "rm_nao_bloqueie_oblique",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    78,
+    77
+   ],
+   "view": "oblique",
+   "expected": [
+    "NÃO BLOQUEIE (vista do motorista)"
+   ],
+   "description": "KEEP CLEAR -> NÃO BLOQUEIE, vista oblíqua."
+  },
+  {
+   "id": "rm_sem_saida_top",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    1136,
+    1137
+   ],
+   "view": "top",
+   "expected": [
+    "SEM SAÍDA"
+   ],
+   "description": "NO EXIT -> SEM SAÍDA (docas)."
+  },
+  {
+   "id": "rm_onibus_lane_top",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    136
+   ],
+   "view": "top",
+   "expected": [
+    "ÔNIBUS (ONLY removido)"
+   ],
+   "description": "BUS ONLY -> ÔNIBUS na faixa exclusiva."
+  },
+  {
+   "id": "rm_onibus_lane_oblique",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    136
+   ],
+   "view": "oblique",
+   "expected": [
+    "ÔNIBUS (vista do motorista)"
+   ],
+   "description": "BUS ONLY -> ÔNIBUS, vista oblíqua."
+  },
+  {
+   "id": "rm_onibus_stop_top",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    606
+   ],
+   "view": "top",
+   "expected": [
+    "ÔNIBUS (STOP removido)"
+   ],
+   "description": "BUS STOP -> ÔNIBUS."
+  },
+  {
+   "id": "rm_so_saida_dock_gate",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    413,
+    414
+   ],
+   "view": "top",
+   "height": 3.2,
+   "expected": [
+    "SÓ SAÍDA no topo da barreira"
+   ],
+   "description": "EXIT ONLY (decalques de 0,9 m no topo da barreira do portão das docas) -> SÓ SAÍDA."
+  },
+  {
+   "id": "rm_saida_top",
+   "kind": "decal",
+   "decal_set": "decal_roadmarkings1",
+   "indices": [
+    66
+   ],
+   "view": "top",
+   "expected": [
+    "SAÍDA"
+   ],
+   "description": "EXIT isolado -> SAÍDA."
+  }
+ ]
+}

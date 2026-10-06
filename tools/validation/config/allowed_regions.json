@@ -372,7 +372,7 @@
         "y": 0,
         "width": 256,
         "height": 256,
-        "source": "managedDecalData.json textureCoords (4x4 grid), Phase 3"
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
       },
       {
         "id": "slot5_only",
@@ -380,7 +380,7 @@
         "y": 256,
         "width": 256,
         "height": 256,
-        "source": "idem"
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
       },
       {
         "id": "slot6_bus",
@@ -388,7 +388,7 @@
         "y": 256,
         "width": 256,
         "height": 256,
-        "source": "idem"
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
       },
       {
         "id": "slot7_keep",
@@ -396,7 +396,7 @@
         "y": 256,
         "width": 256,
         "height": 256,
-        "source": "idem"
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
       },
       {
         "id": "slot8_clear",
@@ -404,7 +404,7 @@
         "y": 512,
         "width": 256,
         "height": 256,
-        "source": "idem"
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
       },
       {
         "id": "slot9_no",
@@ -412,23 +412,7 @@
         "y": 512,
         "width": 256,
         "height": 256,
-        "source": "idem"
-      },
-      {
-        "id": "slot10_left_unused",
-        "x": 512,
-        "y": 512,
-        "width": 256,
-        "height": 256,
-        "source": "idem (slot not used by West Coast)"
-      },
-      {
-        "id": "slot11_turn_unused",
-        "x": 768,
-        "y": 512,
-        "width": 256,
-        "height": 256,
-        "source": "idem (slot not used by West Coast)"
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
       },
       {
         "id": "slot14_exit",
@@ -436,7 +420,7 @@
         "y": 768,
         "width": 256,
         "height": 256,
-        "source": "idem"
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
       }
     ]
   },
@@ -669,6 +653,422 @@
         "width": 113,
         "height": 39,
         "source": "UV quads of roadsigns.dae (1 inst.); Phase 5"
+      }
+    ]
+  },
+  "t_decal_roadmarkings_o.data": {
+    "size": [
+      512,
+      512
+    ],
+    "regions": [
+      {
+        "id": "slot3_stop",
+        "x": 384,
+        "y": 0,
+        "width": 128,
+        "height": 128,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot5_only",
+        "x": 128,
+        "y": 128,
+        "width": 128,
+        "height": 128,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot6_bus",
+        "x": 256,
+        "y": 128,
+        "width": 128,
+        "height": 128,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot7_keep",
+        "x": 384,
+        "y": 128,
+        "width": 128,
+        "height": 128,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot8_clear",
+        "x": 0,
+        "y": 256,
+        "width": 128,
+        "height": 128,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot9_no",
+        "x": 128,
+        "y": 256,
+        "width": 128,
+        "height": 128,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot14_exit",
+        "x": 256,
+        "y": 384,
+        "width": 128,
+        "height": 128,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      }
+    ]
+  },
+  "t_decal_roadmarkings_nm.normal": {
+    "size": [
+      1024,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "slot3_stop",
+        "x": 768,
+        "y": 0,
+        "width": 256,
+        "height": 256,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot5_only",
+        "x": 256,
+        "y": 256,
+        "width": 256,
+        "height": 256,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot6_bus",
+        "x": 512,
+        "y": 256,
+        "width": 256,
+        "height": 256,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot7_keep",
+        "x": 768,
+        "y": 256,
+        "width": 256,
+        "height": 256,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot8_clear",
+        "x": 0,
+        "y": 512,
+        "width": 256,
+        "height": 256,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot9_no",
+        "x": 256,
+        "y": 512,
+        "width": 256,
+        "height": 256,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot14_exit",
+        "x": 512,
+        "y": 768,
+        "width": 256,
+        "height": 256,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      }
+    ]
+  },
+  "t_decal_roadmarkings_ao.data": {
+    "size": [
+      2048,
+      2048
+    ],
+    "regions": [
+      {
+        "id": "slot3_stop",
+        "x": 1536,
+        "y": 0,
+        "width": 512,
+        "height": 512,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot5_only",
+        "x": 512,
+        "y": 512,
+        "width": 512,
+        "height": 512,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot6_bus",
+        "x": 1024,
+        "y": 512,
+        "width": 512,
+        "height": 512,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot7_keep",
+        "x": 1536,
+        "y": 512,
+        "width": 512,
+        "height": 512,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot8_clear",
+        "x": 0,
+        "y": 1024,
+        "width": 512,
+        "height": 512,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot9_no",
+        "x": 512,
+        "y": 1024,
+        "width": 512,
+        "height": 512,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      },
+      {
+        "id": "slot14_exit",
+        "x": 1024,
+        "y": 1536,
+        "width": 512,
+        "height": 512,
+        "source": "managedDecalData.json decal_roadmarkings1 textureCoords (4x4 grid; one word per cell); edited words of Phase 6 (6A)"
+      }
+    ]
+  },
+  "t_eca_genericsigns_b.color": {
+    "size": [
+      1024,
+      1024
+    ],
+    "regions": [
+      {
+        "id": "no_smoking",
+        "x": 10,
+        "y": 90,
+        "width": 118,
+        "height": 33,
+        "source": "UV of s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.), s_fuel_structure_05.dae (1 inst.), s_fuel_structure_07.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "danger_header",
+        "x": 170,
+        "y": 10,
+        "width": 182,
+        "height": 40,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.), s_fuel_structure_07.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "highly_flammable",
+        "x": 200,
+        "y": 80,
+        "width": 152,
+        "height": 70,
+        "source": "UV of s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.), s_fuel_structure_07.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "flammable_gas",
+        "x": 12,
+        "y": 145,
+        "width": 114,
+        "height": 113,
+        "source": "UV of s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.), s_fuel_structure_07.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "stop_engine",
+        "x": 370,
+        "y": 15,
+        "width": 200,
+        "height": 63,
+        "source": "UV of s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "stop_engine_danger",
+        "x": 575,
+        "y": 26,
+        "width": 83,
+        "height": 37,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.) …; Phase 6"
+      },
+      {
+        "id": "cap_naked_flames",
+        "x": 365,
+        "y": 121,
+        "width": 51,
+        "height": 13,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "cap_no_smoking",
+        "x": 420,
+        "y": 123,
+        "width": 46,
+        "height": 9,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "cap_over16",
+        "x": 471,
+        "y": 118,
+        "width": 45,
+        "height": 8,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "cap_overfill",
+        "x": 520,
+        "y": 118,
+        "width": 45,
+        "height": 8,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.) …; Phase 6"
+      },
+      {
+        "id": "cap_when_filling",
+        "x": 470,
+        "y": 128,
+        "width": 101,
+        "height": 8,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "cap_turn_off",
+        "x": 399,
+        "y": 148,
+        "width": 69,
+        "height": 8,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "cap_devices",
+        "x": 410,
+        "y": 160,
+        "width": 53,
+        "height": 35,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "cap_place",
+        "x": 504,
+        "y": 146,
+        "width": 51,
+        "height": 13,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "cap_nozzle",
+        "x": 504,
+        "y": 163,
+        "width": 58,
+        "height": 13,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "cap_fill_only",
+        "x": 504,
+        "y": 178,
+        "width": 69,
+        "height": 14,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.), s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.); Phase 6"
+      },
+      {
+        "id": "no_parking_top",
+        "x": 676,
+        "y": 10,
+        "width": 122,
+        "height": 88,
+        "source": "UV of s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.), s_fuel_structure_07.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "no_parking_bottom",
+        "x": 676,
+        "y": 100,
+        "width": 122,
+        "height": 62,
+        "source": "UV of s_fuel_structure_01.dae (1 inst.), s_fuel_structure_03.dae (1 inst.), s_fuel_structure_05.dae (1 inst.), s_fuel_structure_07.dae (4 inst.); Phase 6"
+      },
+      {
+        "id": "notice_header",
+        "x": 515,
+        "y": 235,
+        "width": 130,
+        "height": 33,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "notice_body",
+        "x": 476,
+        "y": 296,
+        "width": 200,
+        "height": 58,
+        "source": "UV of s_fuel_charger_car_2020.dae (9 inst.), s_fuel_charger_car_2022.dae (3 inst.); Phase 6"
+      },
+      {
+        "id": "diesel_push",
+        "x": 22,
+        "y": 378,
+        "width": 80,
+        "height": 19,
+        "source": "UV of s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.); Phase 6"
+      },
+      {
+        "id": "octane_87_header",
+        "x": 128,
+        "y": 286,
+        "width": 92,
+        "height": 28,
+        "source": "UV of s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.); Phase 6"
+      },
+      {
+        "id": "octane_87_push",
+        "x": 138,
+        "y": 379,
+        "width": 72,
+        "height": 18,
+        "source": "UV of s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.); Phase 6"
+      },
+      {
+        "id": "octane_89_header",
+        "x": 242,
+        "y": 286,
+        "width": 92,
+        "height": 28,
+        "source": "UV of s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.); Phase 6"
+      },
+      {
+        "id": "octane_89_push",
+        "x": 252,
+        "y": 379,
+        "width": 72,
+        "height": 18,
+        "source": "UV of s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.); Phase 6"
+      },
+      {
+        "id": "octane_93_header",
+        "x": 359,
+        "y": 286,
+        "width": 92,
+        "height": 28,
+        "source": "UV of s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.); Phase 6"
+      },
+      {
+        "id": "octane_93_push",
+        "x": 369,
+        "y": 379,
+        "width": 72,
+        "height": 18,
+        "source": "UV of s_fuel_pump_2000.dae (10 inst.), s_fuel_pump_2015.dae (18 inst.); Phase 6"
       }
     ]
   }

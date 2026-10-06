@@ -1,25 +1,98 @@
 {
-  "_doc": "Negative dataset: legacy PT-BR images in source/reference_ptbr/. Each case lists checks that MUST come out FAIL (the validator is right when it catches them). Inputs are never corrected.",
-  "cases": [
-    {"id": "old_eca_roadsigns_alpha", "kind": "texture", "file": "source/reference_ptbr/eca_roadsigns_d_ptbr.png",
-     "expect_fail": ["Alpha preservation"], "why": "Audit §4.3: 11% transparent -> 0% (background became opaque)."},
-    {"id": "old_dealers_alpha", "kind": "texture", "file": "source/reference_ptbr/t_billboardsigns_dealers_b.color_ptbr.png",
-     "expect_fail": ["Alpha preservation", "Alpha noise"], "why": "Audit §4.3: 13.9% fully transparent -> 0% (100% of alpha=0 pixels lost). The audit's '22% semi' are mostly alpha 253-254 (near-opaque): their change to 255 is within alpha_tolerance, so 'Semi-transparency' is only a WARN (4.87%) — measured in Phase 4."},
-    {"id": "old_roadsigns_pixel_diff", "kind": "texture", "file": "source/reference_ptbr/t_roadsigns_b.color_ptbr.png",
-     "expect_fail": ["Changes outside allowed regions", "Alpha noise"], "why": "Audit §4.2: whole atlas regenerated (45% pixels) + alpha 201-254 noise."},
-    {"id": "old_roadmarkings_family", "kind": "family", "family": "t_decal_roadmarkings", "source": "reference",
-     "expect_fail": ["shape_changed"], "why": "Audit §4.1: only _b.color translated; opacity/normal/AO still carry English letters."},
-    {"id": "old_genericsigns_family", "kind": "family", "family": "eca_genericsigns", "source": "reference",
-     "expect_fail": ["shape_changed", "diffuse_legacy (eca_genericsigns_d.dds)"], "why": "Layout changed without emissive/opacity; West Coast uses eca_genericsigns_d.dds (Phase 3)."},
-    {"id": "old_movie_studio", "kind": "texture", "file": "source/reference_ptbr/t_movie_studio_signage_b.color_ptbr.png",
-     "expect_fail": ["Changes (no allowed regions configured)"], "why": "Audit §4.2: 65% pixels changed."},
-    {"id": "old_industrial", "kind": "texture", "file": "source/reference_ptbr/ind_industrial_signs_d.color_ptbr.png",
-     "expect_fail": ["Changes (no allowed regions configured)"], "why": "Audit §4.2: 78% pixels changed."},
-    {"id": "old_sponsors", "kind": "texture", "file": "source/reference_ptbr/t_sponsors_b.color_ptbr.png",
-     "expect_fail": ["Alpha preservation"], "why": "Audit §4.3: transparent corner became opaque."},
-    {"id": "old_roadmarkings_texture", "kind": "texture", "file": "source/reference_ptbr/t_decal_roadmarkings_b.color_ptbr.png",
-     "expect_fail": ["Changes outside allowed regions"], "why": "Audit §4.2: 50% pixels changed, including non-text slots."},
-    {"id": "old_sealbrik_identical", "kind": "texture", "file": "source/reference_ptbr/t_sealbrik_logo_b.color_ptbr.png",
-     "expect_fail": [], "expect_status": "PASS", "why": "Byte-identical copy of the original: must PASS (no false positive)."}
-  ]
+ "_doc": "Negative dataset: legacy PT-BR images in source/reference_ptbr/. Each case lists checks that MUST come out FAIL (the validator is right when it catches them). Inputs are never corrected.",
+ "cases": [
+  {
+   "id": "old_eca_roadsigns_alpha",
+   "kind": "texture",
+   "file": "source/reference_ptbr/eca_roadsigns_d_ptbr.png",
+   "expect_fail": [
+    "Alpha preservation"
+   ],
+   "why": "Audit §4.3: 11% transparent -> 0% (background became opaque)."
+  },
+  {
+   "id": "old_dealers_alpha",
+   "kind": "texture",
+   "file": "source/reference_ptbr/t_billboardsigns_dealers_b.color_ptbr.png",
+   "expect_fail": [
+    "Alpha preservation",
+    "Alpha noise"
+   ],
+   "why": "Audit §4.3: 13.9% fully transparent -> 0% (100% of alpha=0 pixels lost). The audit's '22% semi' are mostly alpha 253-254 (near-opaque): their change to 255 is within alpha_tolerance, so 'Semi-transparency' is only a WARN (4.87%) — measured in Phase 4."
+  },
+  {
+   "id": "old_roadsigns_pixel_diff",
+   "kind": "texture",
+   "file": "source/reference_ptbr/t_roadsigns_b.color_ptbr.png",
+   "expect_fail": [
+    "Changes outside allowed regions",
+    "Alpha noise"
+   ],
+   "why": "Audit §4.2: whole atlas regenerated (45% pixels) + alpha 201-254 noise."
+  },
+  {
+   "id": "old_roadmarkings_family",
+   "kind": "family",
+   "family": "t_decal_roadmarkings",
+   "source": "reference",
+   "expect_fail": [
+    "shape_changed"
+   ],
+   "why": "Audit §4.1: only _b.color translated; opacity/normal/AO still carry English letters."
+  },
+  {
+   "id": "old_genericsigns_family",
+   "kind": "family",
+   "family": "eca_genericsigns",
+   "source": "reference",
+   "expect_fail": [
+    "shape_changed"
+   ],
+   "why": "Layout changed (Pousada Firwood, Nodeoline redrawn) without the opacity/normal/AO maps of the PBR material. Phase 6 correction: the West Coast loads t_eca_genericsigns_b.color (art_shapes PBR material), so eca_genericsigns_d.dds is no longer a required map; the legacy delivery is still caught by shape_changed."
+  },
+  {
+   "id": "old_movie_studio",
+   "kind": "texture",
+   "file": "source/reference_ptbr/t_movie_studio_signage_b.color_ptbr.png",
+   "expect_fail": [
+    "Changes (no allowed regions configured)"
+   ],
+   "why": "Audit §4.2: 65% pixels changed."
+  },
+  {
+   "id": "old_industrial",
+   "kind": "texture",
+   "file": "source/reference_ptbr/ind_industrial_signs_d.color_ptbr.png",
+   "expect_fail": [
+    "Changes (no allowed regions configured)"
+   ],
+   "why": "Audit §4.2: 78% pixels changed."
+  },
+  {
+   "id": "old_sponsors",
+   "kind": "texture",
+   "file": "source/reference_ptbr/t_sponsors_b.color_ptbr.png",
+   "expect_fail": [
+    "Alpha preservation"
+   ],
+   "why": "Audit §4.3: transparent corner became opaque."
+  },
+  {
+   "id": "old_roadmarkings_texture",
+   "kind": "texture",
+   "file": "source/reference_ptbr/t_decal_roadmarkings_b.color_ptbr.png",
+   "expect_fail": [
+    "Changes outside allowed regions"
+   ],
+   "why": "Audit §4.2: 50% pixels changed, including non-text slots."
+  },
+  {
+   "id": "old_sealbrik_identical",
+   "kind": "texture",
+   "file": "source/reference_ptbr/t_sealbrik_logo_b.color_ptbr.png",
+   "expect_fail": [],
+   "expect_status": "PASS",
+   "why": "Byte-identical copy of the original: must PASS (no false positive)."
+  }
+ ]
 }

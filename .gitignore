@@ -50,7 +50,11 @@ temp/
 #   python tools/production/speed_overrides.py   (decisions: working/speed/speed_changes.json)
 mod/traducao_ptbr_wcusa/levels/west_coast_usa/main/
 mod/traducao_ptbr_wcusa/levels/west_coast_usa/slotTraffic.json
+# Phase 6 — pavement phrases: copy of the game's main.decals.json with 15 instances changed
+#   python tools/production/decal_overrides.py   (decisions: working/layered/t_decal_roadmarkings/decal_overrides.json)
+mod/traducao_ptbr_wcusa/levels/west_coast_usa/main.decals.json
 
 # Generated renders (sources: working/layered/t_roadsigns, working/layered/r19)
 working/png/*.png
 working/png/r19/
+working/png/*/

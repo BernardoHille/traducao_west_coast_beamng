@@ -1,0 +1,73 @@
+{
+  "started": "2026-10-06T00:14:53",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "t_decal_roadmarkings": [
+      {
+        "path": "/assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_o.data.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\decal.zip\\assets\\materials\\decal\\marking\\m_decal_roadmarkings_01\\t_decal_roadmarkings_o.data.dds",
+        "expected_contains": "decal.zip",
+        "ok": true
+      },
+      {
+        "path": "/assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\decalroad.zip\\assets\\materials\\decalroad\\lines\\roadmarkings1\\t_decal_roadmarkings_o.data.dds",
+        "expected_contains": "decalroad.zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/main.decals.json",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main.decals.json",
+        "expected_contains": "west_coast_usa.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "rm_nao_bloqueie_oblique",
+      "object": {
+        "kind": "decal",
+        "set": "decal_roadmarkings1",
+        "uid": [
+          763327995,
+          3863337531
+        ],
+        "rectIdx": [
+          7,
+          8
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_decal_roadmarkings/rm_nao_bloqueie_oblique_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_001458_42.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 766.9047,
+          "x": -751.0114,
+          "z": 87.9953
+        },
+        "mode": "free",
+        "rot": {
+          "y": -0.092698982238185,
+          "z": 0.69610014905934,
+          "x": 0.084402979806096,
+          "w": 0.70691415191056
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T00:14:59"
+}

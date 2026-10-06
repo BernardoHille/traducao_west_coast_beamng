@@ -1,0 +1,179 @@
+{
+ "_doc": "Decisions for the pavement phrases (Phase 6, 6A; docs/production/phase6/ROADMARKINGS.md). Instances found by tools/production analysis of reading axis (text up = T x N, text right = -T). index = position in instances.decal_roadmarkings1 of the game file; uid checked.",
+ "decal_set": "decal_roadmarkings1",
+ "delete": [
+  {
+   "index": 135,
+   "uid": 2424613787,
+   "rectIdx": 5,
+   "pos": [
+    -448.33,
+    501.62,
+    95.14
+   ],
+   "why": "BUS ONLY -> 'ÔNIBUS' (ONLY removed; Brazilian bus-lane legend)"
+  },
+  {
+   "index": 166,
+   "uid": 2795220486,
+   "rectIdx": 5,
+   "pos": [
+    -402.76,
+    455.74,
+    95.04
+   ],
+   "why": "BUS ONLY -> 'ÔNIBUS'"
+  },
+  {
+   "index": 710,
+   "uid": 1024386631,
+   "rectIdx": 3,
+   "pos": [
+    -621.86,
+    447.7,
+    113.94
+   ],
+   "why": "BUS STOP -> 'ÔNIBUS' (STOP would read 'ÔNIBUS PARE')"
+  },
+  {
+   "index": 646,
+   "uid": 632278953,
+   "rectIdx": 3,
+   "pos": [
+    -623.47,
+    206.09,
+    112.91
+   ],
+   "why": "BUS STOP -> 'ÔNIBUS'"
+  },
+  {
+   "index": 959,
+   "uid": 2274569818,
+   "rectIdx": 5,
+   "pos": [
+    -363.56,
+    416.89,
+    97.18
+   ],
+   "why": "lane arrow + ONLY -> arrow only (Brazilian practice)"
+  },
+  {
+   "index": 396,
+   "uid": 1368996917,
+   "rectIdx": 5,
+   "pos": [
+    432.28,
+    1602.79,
+    75.15
+   ],
+   "why": "lone ONLY on a dock gate barrier (no EXIT next to it)"
+  },
+  {
+   "index": 397,
+   "uid": 3172714951,
+   "rectIdx": 5,
+   "pos": [
+    436.64,
+    1602.79,
+    75.15
+   ],
+   "why": "lone ONLY on a dock gate barrier"
+  },
+  {
+   "index": 402,
+   "uid": 3708959238,
+   "rectIdx": 5,
+   "pos": [
+    432.26,
+    1624.06,
+    75.15
+   ],
+   "why": "lone ONLY on a dock gate barrier"
+  },
+  {
+   "index": 404,
+   "uid": 266668498,
+   "rectIdx": 5,
+   "pos": [
+    427.91,
+    1624.06,
+    75.15
+   ],
+   "why": "lone ONLY on a dock gate barrier"
+  }
+ ],
+ "set_rectIdx": [
+  {
+   "index": 413,
+   "uid": 3677960174,
+   "from": 14,
+   "to": 5,
+   "pos": [
+    431.13,
+    1625.07,
+    75.19
+   ],
+   "why": "EXIT ONLY -> 'SÓ SAÍDA': left word shows slot 5 (SÓ)"
+  },
+  {
+   "index": 414,
+   "uid": 2966114538,
+   "from": 5,
+   "to": 14,
+   "pos": [
+    430.31,
+    1625.18,
+    75.26
+   ],
+   "why": "EXIT ONLY -> 'SÓ SAÍDA': right word shows slot 14 (SAÍDA)"
+  },
+  {
+   "index": 419,
+   "uid": 3890867415,
+   "from": 14,
+   "to": 5,
+   "pos": [
+    437.27,
+    1625.06,
+    75.13
+   ],
+   "why": "EXIT ONLY -> 'SÓ SAÍDA' (left)"
+  },
+  {
+   "index": 418,
+   "uid": 1476616619,
+   "from": 5,
+   "to": 14,
+   "pos": [
+    436.45,
+    1625.18,
+    75.19
+   ],
+   "why": "EXIT ONLY -> 'SÓ SAÍDA' (right)"
+  },
+  {
+   "index": 423,
+   "uid": 402956214,
+   "from": 14,
+   "to": 5,
+   "pos": [
+    430.61,
+    1641.61,
+    75.11
+   ],
+   "why": "EXIT ONLY -> 'SÓ SAÍDA' (left)"
+  },
+  {
+   "index": 424,
+   "uid": 202151596,
+   "from": 5,
+   "to": 14,
+   "pos": [
+    431.46,
+    1641.71,
+    75.16
+   ],
+   "why": "EXIT ONLY -> 'SÓ SAÍDA' (right)"
+  }
+ ]
+}

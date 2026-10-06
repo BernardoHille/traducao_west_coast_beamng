@@ -1,0 +1,71 @@
+{
+  "started": "2026-10-06T00:23:15",
+  "map": "west_coast_usa",
+  "state": "ptbr",
+  "preset": "night",
+  "mod_active": true,
+  "vfs": {
+    "t_decal_roadmarkings": [
+      {
+        "path": "/assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_o.data.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\decal\\marking\\m_decal_roadmarkings_01\\t_decal_roadmarkings_o.data.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      },
+      {
+        "path": "/assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\assets\\materials\\decalroad\\lines\\roadmarkings1\\t_decal_roadmarkings_o.data.dds",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/main.decals.json",
+        "realPath": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\levels\\west_coast_usa\\main.decals.json",
+        "expected_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "rm_pare_chinatown_top",
+      "object": {
+        "kind": "decal",
+        "set": "decal_roadmarkings1",
+        "uid": [
+          1156256949
+        ],
+        "rectIdx": [
+          3
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_decal_roadmarkings/rm_pare_chinatown_top_ptbr_night.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_002320_88.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 548.5503,
+          "x": -712.0706,
+          "z": 125.6836
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.26031734551601,
+          "z": -0.26654351189754,
+          "x": 0.64324677903159,
+          "w": 0.66889686585774
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T00:23:21"
+}

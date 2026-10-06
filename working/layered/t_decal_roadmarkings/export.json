@@ -1,0 +1,54 @@
+{
+ "family": "t_decal_roadmarkings",
+ "_doc": "Two copies of the atlas exist in the game (decal/ and decalroad/, with different opacity/AO resolutions); the West Coast material path is legacy and resolved by name, so both are overridden, each built from its own original.",
+ "items": [
+  {
+   "png": "working/png/t_decal_roadmarkings_b.color.png",
+   "install": [
+    "assets/materials/decal/marking/m_decal_roadmarkings_01"
+   ]
+  },
+  {
+   "png": "working/png/t_decal_roadmarkings_o.data.png",
+   "install": [
+    "assets/materials/decal/marking/m_decal_roadmarkings_01"
+   ]
+  },
+  {
+   "png": "working/png/t_decal_roadmarkings_nm.normal.png",
+   "install": [
+    "assets/materials/decal/marking/m_decal_roadmarkings_01"
+   ]
+  },
+  {
+   "png": "working/png/t_decal_roadmarkings_ao.data.png",
+   "install": [
+    "assets/materials/decal/marking/m_decal_roadmarkings_01"
+   ]
+  },
+  {
+   "png": "working/png/decalroad/t_decal_roadmarkings_b.color.png",
+   "install": [
+    "assets/materials/decalroad/lines/roadmarkings1"
+   ]
+  },
+  {
+   "png": "working/png/decalroad/t_decal_roadmarkings_o.data.png",
+   "install": [
+    "assets/materials/decalroad/lines/roadmarkings1"
+   ]
+  },
+  {
+   "png": "working/png/decalroad/t_decal_roadmarkings_nm.normal.png",
+   "install": [
+    "assets/materials/decalroad/lines/roadmarkings1"
+   ]
+  },
+  {
+   "png": "working/png/decalroad/t_decal_roadmarkings_ao.data.png",
+   "install": [
+    "assets/materials/decalroad/lines/roadmarkings1"
+   ]
+  }
+ ]
+}

@@ -1,1870 +1,2708 @@
 {
-  "schema_version": 1,
-  "map": "west_coast_usa",
-  "mod_name": "traducao_ptbr_wcusa",
-  "_notes": [
-    "Scene object ids change on every level load (Phase 1 stop sign was 94335, later 281094). Objects are identified by object.shape + object.position; object.last_seen_id is informational only.",
-    "camera.* values are read back from the game with get_camera_state (never hand-written).",
-    "object.materials is the material list returned by TSStatic:getMaterialNames() in-game."
-  ],
-  "families": {
-    "t_roadsigns": {
-      "material": "roadsigns",
-      "vfs_checks": [
-        {
-          "path": "/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
-          "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
-          "original_origin_contains": "signage.zip"
-        },
-        {
-          "path": "/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds",
-          "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
-          "original_origin_contains": "signage.zip"
-        }
-      ]
+ "schema_version": 1,
+ "map": "west_coast_usa",
+ "mod_name": "traducao_ptbr_wcusa",
+ "_notes": [
+  "Scene object ids change on every level load (Phase 1 stop sign was 94335, later 281094). Objects are identified by object.shape + object.position; object.last_seen_id is informational only.",
+  "camera.* values are read back from the game with get_camera_state (never hand-written).",
+  "object.materials is the material list returned by TSStatic:getMaterialNames() in-game."
+ ],
+ "families": {
+  "t_roadsigns": {
+   "material": "roadsigns",
+   "vfs_checks": [
+    {
+     "path": "/assets/materials/signage/roadsigns/t_roadsigns_b.color.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "signage.zip"
     },
-    "roadsigns_ptbr_r19": {
-      "material": "roadsigns_ptbr_r19_10 / roadsigns_ptbr_r19_40 / roadsigns_ptbr_r19_back",
-      "vfs_checks": [
-        {
-          "path": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
-          "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
-          "original_origin_contains": "west_coast_usa.zip"
-        },
-        {
-          "path": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.cdae",
-          "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
-          "original_origin_contains": "west_coast_usa.zip"
-        },
-        {
-          "path": "/levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json",
-          "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
-          "original_origin_contains": "west_coast_usa.zip"
-        }
-      ]
+    {
+     "path": "/assets/materials/signage/roadsigns/t_roadsigns_o.data.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "signage.zip"
     }
+   ]
   },
-  "locations": [
+  "roadsigns_ptbr_r19": {
+   "material": "roadsigns_ptbr_r19_10 / roadsigns_ptbr_r19_40 / roadsigns_ptbr_r19_back",
+   "vfs_checks": [
     {
-      "id": "roadsigns_chinatown_stop",
-      "family": "t_roadsigns",
-      "description": "Placa STOP usada no PoC da Fase 1 (cruzamento em Chinatown).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/sign_stop.dae",
-        "position": [
-          -712.667,
-          552.899,
-          122.435
-        ],
-        "match_tolerance_m": 1.0,
-        "last_seen_id": 281094,
-        "materials": [
-          "roadsigns",
-          "metal_galvanized"
-        ]
-      },
-      "camera": {
-        "position": [
-          -710.782,
-          550.313,
-          122.835
-        ],
-        "rotation": [
-          0.00743,
-          0.00242,
-          -0.309899,
-          0.950737
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T16:01:29",
-        "source": "get_camera_state"
-      },
-      "lighting": [
-        "day",
-        "night"
-      ],
-      "expected_elements": [
-        "STOP / PARE"
-      ],
-      "notes": "Fase 1: com a referência PT-BR antiga o octógono aparece deslocado (UV) e o 'E' cortado."
+     "path": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "west_coast_usa.zip"
     },
     {
-      "id": "roadsigns_downtown_yield",
-      "family": "t_roadsigns",
-      "description": "Placa YIELD junto a uma cerca, perto do depósito Rent-a-Box.",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/sign_yield.dae",
-        "position": [
-          -108.5,
-          93.2,
-          127.0
-        ],
-        "match_tolerance_m": 1.0,
-        "last_seen_id": 281020,
-        "materials": [
-          "roadsigns",
-          "metal_galvanized"
-        ]
-      },
-      "camera": {
-        "position": [
-          -110.5606,
-          96.0784,
-          126.7581
-        ],
-        "rotation": [
-          -0.008825,
-          0.027138,
-          0.950593,
-          0.309125
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T16:01:31",
-        "source": "get_camera_state"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "YIELD / DÊ A PREFERÊNCIA"
-      ],
-      "notes": ""
+     "path": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.cdae",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "west_coast_usa.zip"
     },
     {
-      "id": "roadsigns_hill_speed25",
-      "family": "t_roadsigns",
-      "description": "Placa SPEED LIMIT 25 com placa STOP no mesmo poste (rua em declive perto da ponte).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
-        "position": [
-          -169.321,
-          155.466,
-          123.426
-        ],
-        "match_tolerance_m": 1.0,
-        "last_seen_id": 281008,
-        "materials": [
-          "roadsigns",
-          "metal_galvanized"
-        ]
-      },
-      "camera": {
-        "position": [
-          -171.7348,
-          158.6505,
-          123.1267
-        ],
-        "rotation": [
-          -0.011993,
-          0.035447,
-          0.94659,
-          0.320262
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T16:01:32",
-        "source": "get_camera_state"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "SPEED LIMIT 25",
-        "STOP / PARE (sign_stop no mesmo poste)"
-      ],
-      "notes": "Relevante para a futura decisão mph/km/h."
-    },
-    {
-      "id": "roadsigns_gantry_mount_wallis",
-      "family": "t_roadsigns",
-      "description": "Pórtico composto (roadsigns.dae): nome de via + EXIT + direção (tiles recortados por opacidade).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -207.53,
-          214.76,
-          122.13
-        ],
-        "normal": [
-          0.703,
-          0.711,
-          0
-        ],
-        "distance": 9,
-        "dz": -1.0,
-        "fov": 40,
-        "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "Monte Wallis",
-        "SAÍDA 194",
-        "54 LESTE"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -201.2021,
-          221.1599,
-          121.13
-        ],
-        "rotation": [
-          -0.021018,
-          -0.051151,
-          -0.923543,
-          0.379487
-        ],
-        "fov": 40,
-        "captured": "2026-09-30T21:39:36",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_do_not_enter_wrong_way",
-      "family": "t_roadsigns",
-      "description": "R-3 + CONTRAMÃO (roadsigns.dae).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -229.65,
-          335.16,
-          103.52
-        ],
-        "normal": [
-          0.93,
-          0.367,
-          0
-        ],
-        "distance": 4.5,
-        "dz": -0.5,
-        "fov": 50,
-        "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "R-3 sem texto",
-        "CONTRAMÃO"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -225.4641,
-          336.8118,
-          103.02
-        ],
-        "rotation": [
-          -0.031109,
-          -0.04572,
-          -0.825498,
-          0.561689
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:38",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_no_parking",
-      "family": "t_roadsigns",
-      "description": "PROIBIDO ESTACIONAR (roadsigns.dae).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -717.43,
-          539.87,
-          121.97
-        ],
-        "normal": [
-          0.024,
-          1.0,
-          0
-        ],
-        "distance": 3.5,
-        "dz": -0.5,
-        "fov": 50,
-        "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "PROIBIDO ESTACIONAR"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -717.346,
-          543.369,
-          121.47
-        ],
-        "rotation": [
-          -0.00085,
-          -0.070884,
-          -0.997412,
-          0.011967
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:39",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_red_light_violation",
-      "family": "t_roadsigns",
-      "description": "Avanço de sinal vermelho — multa (roadsigns.dae).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -420.17,
-          693.63,
-          77.17
-        ],
-        "normal": [
-          0.545,
-          -0.838,
-          0
-        ],
-        "distance": 3.5,
-        "dz": -0.5,
-        "fov": 50,
-        "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "AVANÇO DE SINAL VERMELHO",
-        "MULTA R$ 400"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -418.2618,
-          690.6959,
-          76.67
-        ],
-        "rotation": [
-          -0.067963,
-          -0.020156,
-          -0.28362,
-          0.956313
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:41",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_do_not_block",
-      "family": "t_roadsigns",
-      "description": "NÃO BLOQUEIE O CRUZAMENTO (roadsigns.dae).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -436.53,
-          678.24,
-          80.82
-        ],
-        "normal": [
-          -0.626,
-          0.78,
-          0
-        ],
-        "distance": 3.5,
-        "dz": -0.5,
-        "fov": 50,
-        "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "NÃO BLOQUEIE O CRUZAMENTO"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -438.7207,
-          680.9696,
-          80.32
-        ],
-        "rotation": [
-          -0.023517,
-          0.066875,
-          0.940996,
-          0.330909
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:42",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_parking_2h",
-      "family": "t_roadsigns",
-      "description": "Estacionamento 2 h (roadsigns.dae).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -511.73,
-          754.39,
-          77.67
-        ],
-        "normal": [
-          0.106,
-          0.994,
-          0
-        ],
-        "distance": 3.5,
-        "dz": -0.5,
-        "fov": 50,
-        "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "2 h ESTACIONAMENTO"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -511.3589,
-          757.8703,
-          77.17
-        ],
-        "rotation": [
-          -0.003764,
-          -0.070789,
-          -0.996077,
-          0.052961
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:43",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_left_turn",
-      "family": "t_roadsigns",
-      "description": "Conversão à esquerda somente com seta verde (roadsigns.dae).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -775.22,
-          665.47,
-          111.84
-        ],
-        "normal": [
-          1.0,
-          0.014,
-          0
-        ],
-        "distance": 3.5,
-        "dz": -0.5,
-        "fov": 50,
-        "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "CONVERSÃO À ESQUERDA SOMENTE COM SETA VERDE"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -771.7203,
-          665.519,
-          111.34
-        ],
-        "rotation": [
-          -0.049774,
-          -0.050476,
-          -0.710248,
-          0.700374
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:45",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_bus_stop",
-      "family": "t_roadsigns",
-      "description": "Proibido estacionar — ponto de ônibus (roadsigns.dae).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -453.73,
-          696.36,
-          77.46
-        ],
-        "normal": [
-          -0.17,
-          0.985,
-          0
-        ],
-        "distance": 3.5,
-        "dz": -0.5,
-        "fov": 50,
-        "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "PROIBIDO ESTACIONAR",
-        "PONTO DE ÔNIBUS"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -454.3253,
-          699.809,
-          76.96
-        ],
-        "rotation": [
-          -0.00605,
-          0.07063,
-          0.993845,
-          0.085134
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:46",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_speed_camera",
-      "family": "t_roadsigns",
-      "description": "Placa de radar s_sign_speedcam (speedCamera_*).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/s_sign_speedcam.dae",
-        "position": [
-          -283.03,
-          346.38,
-          104.34
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          -283.03,
-          346.38,
-          105.34
-        ],
-        "normal": [
-          0.987,
-          -0.163,
-          0
-        ],
-        "distance": 4.0,
-        "dz": 0.0,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "FISCALIZAÇÃO ELETRÔNICA DE VELOCIDADE"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -279.0835,
-          345.7282,
-          105.34
-        ],
-        "rotation": [
-          0,
-          0,
-          -0.646939,
-          0.762542
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:48",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_red_light_camera",
-      "family": "t_roadsigns",
-      "description": "Placa de fiscalização de semáforo s_sign_lightcam.",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/s_sign_lightcam.dae",
-        "position": [
-          -520.6,
-          288.46,
-          104.22
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          -520.6,
-          288.46,
-          105.22
-        ],
-        "normal": [
-          -0.932,
-          -0.361,
-          0
-        ],
-        "distance": 4.0,
-        "dz": 0.0,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "FISCALIZAÇÃO ELETRÔNICA",
-        "AVANÇO DE SINAL"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -524.33,
-          287.0152,
-          105.22
-        ],
-        "rotation": [
-          0,
-          0,
-          0.565159,
-          0.824982
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:49",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_danger_high_voltage",
-      "family": "t_roadsigns",
-      "description": "Transformador com placa de perigo.",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/transformer_ground.dae",
-        "position": [
-          -1167.61,
-          -588.96,
-          105.08
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          -1167.61,
-          -588.96,
-          106.0
-        ],
-        "normal": [
-          -0.729,
-          0.684,
-          0
-        ],
-        "distance": 6.0,
-        "dz": 0.3,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "PERIGO",
-        "ALTA TENSÃO"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -1171.9855,
-          -584.8546,
-          106.3
-        ],
-        "rotation": [
-          0.009924,
-          -0.02292,
-          0.917385,
-          0.397217
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:51",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_construction_caution",
-      "family": "t_roadsigns",
-      "description": "Cavalete de obra.",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/construction_sign_small_a.dae",
-        "position": [
-          -348.55,
-          584.75,
-          74.7
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          -348.55,
-          584.75,
-          76.7
-        ],
-        "normal": [
-          0.421,
-          0.907,
-          0
-        ],
-        "distance": 5.0,
-        "dz": -0.3,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "ATENÇÃO",
-        "EM OBRAS"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -346.4449,
-          589.2852,
-          76.4
-        ],
-        "rotation": [
-          -0.006459,
-          -0.029255,
-          -0.976048,
-          0.215484
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:52:40",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_road_closed",
-      "family": "t_roadsigns",
-      "description": "Cavalete VIA INTERDITADA (praia).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/construction_sign_small_c.dae",
-        "position": [
-          49.22,
-          760.46,
-          75.56
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          49.22,
-          760.46,
-          77.56
-        ],
-        "normal": [
-          -0.996,
-          -0.086,
-          0
-        ],
-        "distance": 5.0,
-        "dz": -0.3,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "VIA INTERDITADA"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          44.2385,
-          760.0299,
-          77.26
-        ],
-        "rotation": [
-          -0.022077,
-          0.020253,
-          0.675705,
-          0.736563
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:52:41",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "r19_40_hill",
-      "family": "roadsigns_ptbr_r19",
-      "description": "R-19 40 (ex-SPEED LIMIT 25) com PARE no mesmo poste — mesmo ponto da Fase 2.",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
-        "position": [
-          -169.321,
-          155.466,
-          123.426
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          -169.321,
-          155.466,
-          123.426
-        ],
-        "normal": [
-          -0.607,
-          0.795,
-          0
-        ],
-        "distance": 3.2,
-        "dz": 0.0,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day",
-        "night"
-      ],
-      "expected_elements": [
-        "R-19 40 km/h"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -171.2629,
-          158.0094,
-          123.426
-        ],
-        "rotation": [
-          0,
-          0,
-          0.947315,
-          0.320303
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:55",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "r19_40_downtown",
-      "family": "roadsigns_ptbr_r19",
-      "description": "R-19 40 na via 515427bb (três placas de 25 mph ao longo da rua).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
-        "position": [
-          -274.33,
-          -58.19,
-          121.94
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          -274.33,
-          -58.19,
-          121.94
-        ],
-        "normal": [
-          0.356,
-          0.935,
-          0
-        ],
-        "distance": 3.2,
-        "dz": 0.0,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day",
-        "night"
-      ],
-      "expected_elements": [
-        "R-19 40 km/h"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -273.1913,
-          -55.1994,
-          121.94
-        ],
-        "rotation": [
-          0,
-          0,
-          -0.983502,
-          0.180899
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:57",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "r19_40_dock_gate",
-      "family": "roadsigns_ptbr_r19",
-      "description": "R-19 40 no portão de entrada das docas (4 placas lado a lado).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
-        "position": [
-          476.94,
-          1613.09,
-          76.16
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          476.94,
-          1613.09,
-          76.16
-        ],
-        "normal": [
-          -1.0,
-          -0.0,
-          0
-        ],
-        "distance": 6.0,
-        "dz": 0.6,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "R-19 40 km/h"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          470.94,
-          1613.09,
-          76.76
-        ],
-        "rotation": [
-          0.035224,
-          -0.035224,
-          0.706229,
-          0.706229
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:39:58",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "r19_10_dock_exit",
-      "family": "roadsigns_ptbr_r19",
-      "description": "R-19 10 na saída das docas.",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
-        "position": [
-          444.4,
-          1687.93,
-          76.46
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          444.4,
-          1687.93,
-          76.46
-        ],
-        "normal": [
-          0.501,
-          0.865,
-          0
-        ],
-        "distance": 3.2,
-        "dz": 0.0,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "R-19 10 km/h"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          446.0038,
-          1690.6991,
-          76.46
-        ],
-        "rotation": [
-          0,
-          0,
-          -0.965747,
-          0.259485
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:40:00",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "r19_10_downtown_parking",
-      "family": "roadsigns_ptbr_r19",
-      "description": "R-19 10 na entrada do estacionamento (-144,4; 22,3), ao lado da via pública 69a8ea4e que recebe R-19 40 (§42: estacionamento 10, via pública não reduzida).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
-        "position": [
-          -144.35,
-          22.31,
-          124.08
-        ],
-        "match_tolerance_m": 1.0
-      },
-      "target": {
-        "center": [
-          -144.35,
-          22.31,
-          124.08
-        ],
-        "normal": [
-          -0.0508,
-          0.9987,
-          0
-        ],
-        "distance": 3.2,
-        "dz": 0.0,
-        "fov": 50,
-        "source": "TSStatic position + transform column(1) (face normal = -Y local)"
-      },
-      "lighting": [
-        "day",
-        "night"
-      ],
-      "expected_elements": [
-        "R-19 10 km/h"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -144.5126,
-          25.5059,
-          124.08
-        ],
-        "rotation": [
-          0,
-          0,
-          0.999677,
-          0.025408
-        ],
-        "fov": 50,
-        "captured": "2026-09-30T21:40:01",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_gantry_next_exit",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 122).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          344.36,
-          642.86,
-          124.54
-        ],
-        "normal": [
-          0.839,
-          0.544,
-          0.0
-        ],
-        "distance": 9,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "PRÓXIMA SAÍDA",
-        "Monte Wallis",
-        "Praia Casilda",
-        "LESTE",
-        "SUL"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          351.9115,
-          647.7564,
-          123.74
-        ],
-        "rotation": [
-          -0.021158,
-          -0.038936,
-          -0.877783,
-          0.477004
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:04",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_gantry_mojave",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 121).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          724.28,
-          824.08,
-          126.07
-        ],
-        "normal": [
-          -0.923,
-          -0.385,
-          -0.0
-        ],
-        "distance": 8,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "SAÍDA 76",
-        "Estrada Mojave",
-        "LESTE"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          716.8966,
-          821.0002,
-          125.27
-        ],
-        "rotation": [
-          -0.041453,
-          0.027624,
-          0.553852,
-          0.831124
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:06",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_gantry_belasco_canal",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 123).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          337.82,
-          652.91,
-          125.14
-        ],
-        "normal": [
-          0.839,
-          0.544,
-          0.0
-        ],
-        "distance": 8,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "SAÍDA 194",
-        "Belasco",
-        "Rua do Canal"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          344.5325,
-          657.2623,
-          124.34
-        ],
-        "rotation": [
-          -0.023785,
-          -0.043769,
-          -0.877556,
-          0.47688
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:07",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_gantry_brittlebush",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 132).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -140.85,
-          -758.27,
-          126.35
-        ],
-        "normal": [
-          -0.649,
-          0.761,
-          0.0
-        ],
-        "distance": 13,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "Monte Wallis",
-        "SAÍDA 21",
-        "Rua Brittlebush",
-        "ONLY (preservado)"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -149.2856,
-          -748.3786,
-          125.55
-        ],
-        "rotation": [
-          -0.010624,
-          0.02883,
-          0.937874,
-          0.345613
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:09",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_gantry_downtown",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 264).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -114.87,
-          473.44,
-          103.97
-        ],
-        "normal": [
-          0.898,
-          -0.44,
-          0.0
-        ],
-        "distance": 11,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "Centro de Belasco",
-        "Centro Financeiro",
-        "PRÓXIMA SAÍDA",
-        "Calçadão",
-        "Docas"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -104.992,
-          468.6,
-          103.17
-        ],
-        "rotation": [
-          -0.030795,
-          -0.019204,
-          -0.528802,
-          0.847969
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:10",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_gantry_spearleaf",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 300).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          189.84,
-          758.13,
-          109.31
-        ],
-        "normal": [
-          0.008,
-          -1.0,
-          0.0
-        ],
-        "distance": 14,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "Docas",
-        "Calçadão",
-        "Ilha / Spearleaf",
-        "San Amaro",
-        "Estrada Mojave"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          189.952,
-          744.1304,
-          108.51
-        ],
-        "rotation": [
-          -0.028536,
-          -0.000114,
-          -0.003998,
-          0.999585
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:12",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_gantry_autodromo",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 304).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          945.0,
-          393.93,
-          157.56
-        ],
-        "normal": [
-          -0.324,
-          0.946,
-          0.0
-        ],
-        "distance": 14,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "Monte Wallis",
-        "PRÓXIMA SAÍDA",
-        "Autódromo",
-        "Estrada Agave Trail"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          940.4638,
-          407.1747,
-          156.76
-        ],
-        "rotation": [
-          -0.004687,
-          0.028149,
-          0.986019,
-          0.164172
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:13",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_gantry_oeste",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 135).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          798.9,
-          -313.38,
-          162.69
-        ],
-        "normal": [
-          -0.917,
-          -0.399,
-          -0.0
-        ],
-        "distance": 11,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "OESTE Estrada Mojave",
-        "Belasco",
-        "SAÍDA 44",
-        "ONLY (preservado)"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          788.8135,
-          -317.7688,
-          161.89
-        ],
-        "rotation": [
-          -0.030353,
-          0.019895,
-          0.547826,
-          0.835805
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:14",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_toll_plaza",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 124).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          301.66,
-          570.23,
-          125.42
-        ],
-        "normal": [
-          -0.808,
-          -0.59,
-          0.0
-        ],
-        "distance": 20,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "ATENÇÃO / PEDÁGIO / À FRENTE",
-        "½ MILE (preservado)",
-        "CARPOOLS (preservado)"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          285.5078,
-          558.4357,
-          124.62
-        ],
-        "rotation": [
-          -0.01782,
-          0.009053,
-          0.452836,
-          0.89137
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:16",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_toll_north",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 128).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -184.26,
-          169.08,
-          121.35
-        ],
-        "normal": [
-          -0.7,
-          -0.714,
-          -0.0
-        ],
-        "distance": 9,
-        "dz": -0.8,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "NORTE",
-        "PEDÁGIO",
-        "SPEED LIMIT 70 (preservado)"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -190.5606,
-          162.6533,
-          120.55
-        ],
-        "rotation": [
-          -0.041024,
-          0.016755,
-          0.377734,
-          0.924853
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:17",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_road_work_ahead",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face 292).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -816.66,
-          -418.43,
-          105.71
-        ],
-        "normal": [
-          0.711,
-          0.704,
-          -0.0
-        ],
-        "distance": 4,
-        "dz": -0.2,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "OBRAS / NA VIA / À FRENTE"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -813.8176,
-          -415.6156,
-          105.51
-        ],
-        "rotation": [
-          -0.009615,
-          -0.023052,
-          -0.922642,
-          0.384847
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:19",
-        "source": "get_camera_state"
-      }
-    },
-    {
-      "id": "roadsigns_parking_2h_7am",
-      "family": "t_roadsigns",
-      "description": "Composição do roadsigns.dae (face p76_167).",
-      "object": {
-        "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "match_tolerance_m": 1.0,
-        "materials": [
-          "roadsigns"
-        ]
-      },
-      "target": {
-        "center": [
-          -692.31,
-          514.73,
-          120.55
-        ],
-        "normal": [
-          0.389,
-          0.921,
-          0.0
-        ],
-        "distance": 2.6,
-        "dz": -0.2,
-        "fov": 50,
-        "source": "render_signs.py face (world coords)"
-      },
-      "lighting": [
-        "day"
-      ],
-      "expected_elements": [
-        "2 h",
-        "ESTACIONAMENTO",
-        "7h ÀS 18h",
-        "EXCETO DOMINGOS"
-      ],
-      "added": "phase5",
-      "camera": {
-        "position": [
-          -691.2984,
-          517.1251,
-          120.35
-        ],
-        "rotation": [
-          -0.007617,
-          -0.037613,
-          -0.97938,
-          0.198346
-        ],
-        "fov": 50,
-        "captured": "2026-10-01T00:53:20",
-        "source": "get_camera_state"
-      }
+     "path": "/levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "west_coast_usa.zip"
     }
-  ]
+   ]
+  },
+  "t_decal_roadmarkings": {
+   "vfs_checks": [
+    {
+     "path": "/assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_o.data.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "decal.zip"
+    },
+    {
+     "path": "/assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "decalroad.zip"
+    },
+    {
+     "path": "/levels/west_coast_usa/main.decals.json",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "west_coast_usa.zip"
+    }
+   ],
+   "material": "roadmarkings1 (decal_roadmarkings1)"
+  },
+  "eca_genericsigns": {
+   "material": "eca_genericsigns (art_shapes PBR)",
+   "vfs_checks": [
+    {
+     "path": "/assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds",
+     "mod_origin_contains": "mods\\unpacked\\traducao_ptbr_wcusa",
+     "original_origin_contains": "billboard_label.zip"
+    }
+   ]
+  }
+ },
+ "locations": [
+  {
+   "id": "roadsigns_chinatown_stop",
+   "family": "t_roadsigns",
+   "description": "Placa STOP usada no PoC da Fase 1 (cruzamento em Chinatown).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/sign_stop.dae",
+    "position": [
+     -712.667,
+     552.899,
+     122.435
+    ],
+    "match_tolerance_m": 1.0,
+    "last_seen_id": 281094,
+    "materials": [
+     "roadsigns",
+     "metal_galvanized"
+    ]
+   },
+   "camera": {
+    "position": [
+     -710.782,
+     550.313,
+     122.835
+    ],
+    "rotation": [
+     0.00743,
+     0.00242,
+     -0.309899,
+     0.950737
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T16:01:29",
+    "source": "get_camera_state"
+   },
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "expected_elements": [
+    "STOP / PARE"
+   ],
+   "notes": "Fase 1: com a referência PT-BR antiga o octógono aparece deslocado (UV) e o 'E' cortado."
+  },
+  {
+   "id": "roadsigns_downtown_yield",
+   "family": "t_roadsigns",
+   "description": "Placa YIELD junto a uma cerca, perto do depósito Rent-a-Box.",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/sign_yield.dae",
+    "position": [
+     -108.5,
+     93.2,
+     127.0
+    ],
+    "match_tolerance_m": 1.0,
+    "last_seen_id": 281020,
+    "materials": [
+     "roadsigns",
+     "metal_galvanized"
+    ]
+   },
+   "camera": {
+    "position": [
+     -110.5606,
+     96.0784,
+     126.7581
+    ],
+    "rotation": [
+     -0.008825,
+     0.027138,
+     0.950593,
+     0.309125
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T16:01:31",
+    "source": "get_camera_state"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "YIELD / DÊ A PREFERÊNCIA"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "roadsigns_hill_speed25",
+   "family": "t_roadsigns",
+   "description": "Placa SPEED LIMIT 25 com placa STOP no mesmo poste (rua em declive perto da ponte).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
+    "position": [
+     -169.321,
+     155.466,
+     123.426
+    ],
+    "match_tolerance_m": 1.0,
+    "last_seen_id": 281008,
+    "materials": [
+     "roadsigns",
+     "metal_galvanized"
+    ]
+   },
+   "camera": {
+    "position": [
+     -171.7348,
+     158.6505,
+     123.1267
+    ],
+    "rotation": [
+     -0.011993,
+     0.035447,
+     0.94659,
+     0.320262
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T16:01:32",
+    "source": "get_camera_state"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "SPEED LIMIT 25",
+    "STOP / PARE (sign_stop no mesmo poste)"
+   ],
+   "notes": "Relevante para a futura decisão mph/km/h."
+  },
+  {
+   "id": "roadsigns_gantry_mount_wallis",
+   "family": "t_roadsigns",
+   "description": "Pórtico composto (roadsigns.dae): nome de via + EXIT + direção (tiles recortados por opacidade).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -207.53,
+     214.76,
+     122.13
+    ],
+    "normal": [
+     0.703,
+     0.711,
+     0
+    ],
+    "distance": 9,
+    "dz": -1.0,
+    "fov": 40,
+    "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "Monte Wallis",
+    "SAÍDA 194",
+    "54 LESTE"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -201.2021,
+     221.1599,
+     121.13
+    ],
+    "rotation": [
+     -0.021018,
+     -0.051151,
+     -0.923543,
+     0.379487
+    ],
+    "fov": 40,
+    "captured": "2026-09-30T21:39:36",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_do_not_enter_wrong_way",
+   "family": "t_roadsigns",
+   "description": "R-3 + CONTRAMÃO (roadsigns.dae).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -229.65,
+     335.16,
+     103.52
+    ],
+    "normal": [
+     0.93,
+     0.367,
+     0
+    ],
+    "distance": 4.5,
+    "dz": -0.5,
+    "fov": 50,
+    "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "R-3 sem texto",
+    "CONTRAMÃO"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -225.4641,
+     336.8118,
+     103.02
+    ],
+    "rotation": [
+     -0.031109,
+     -0.04572,
+     -0.825498,
+     0.561689
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:38",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_no_parking",
+   "family": "t_roadsigns",
+   "description": "PROIBIDO ESTACIONAR (roadsigns.dae).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -717.43,
+     539.87,
+     121.97
+    ],
+    "normal": [
+     0.024,
+     1.0,
+     0
+    ],
+    "distance": 3.5,
+    "dz": -0.5,
+    "fov": 50,
+    "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "PROIBIDO ESTACIONAR"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -717.346,
+     543.369,
+     121.47
+    ],
+    "rotation": [
+     -0.00085,
+     -0.070884,
+     -0.997412,
+     0.011967
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:39",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_red_light_violation",
+   "family": "t_roadsigns",
+   "description": "Avanço de sinal vermelho — multa (roadsigns.dae).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -420.17,
+     693.63,
+     77.17
+    ],
+    "normal": [
+     0.545,
+     -0.838,
+     0
+    ],
+    "distance": 3.5,
+    "dz": -0.5,
+    "fov": 50,
+    "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "AVANÇO DE SINAL VERMELHO",
+    "MULTA R$ 400"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -418.2618,
+     690.6959,
+     76.67
+    ],
+    "rotation": [
+     -0.067963,
+     -0.020156,
+     -0.28362,
+     0.956313
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:41",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_do_not_block",
+   "family": "t_roadsigns",
+   "description": "NÃO BLOQUEIE O CRUZAMENTO (roadsigns.dae).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -436.53,
+     678.24,
+     80.82
+    ],
+    "normal": [
+     -0.626,
+     0.78,
+     0
+    ],
+    "distance": 3.5,
+    "dz": -0.5,
+    "fov": 50,
+    "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "NÃO BLOQUEIE O CRUZAMENTO"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -438.7207,
+     680.9696,
+     80.32
+    ],
+    "rotation": [
+     -0.023517,
+     0.066875,
+     0.940996,
+     0.330909
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:42",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_parking_2h",
+   "family": "t_roadsigns",
+   "description": "Estacionamento 2 h (roadsigns.dae).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -511.73,
+     754.39,
+     77.67
+    ],
+    "normal": [
+     0.106,
+     0.994,
+     0
+    ],
+    "distance": 3.5,
+    "dz": -0.5,
+    "fov": 50,
+    "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "2 h ESTACIONAMENTO"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -511.3589,
+     757.8703,
+     77.17
+    ],
+    "rotation": [
+     -0.003764,
+     -0.070789,
+     -0.996077,
+     0.052961
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:43",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_left_turn",
+   "family": "t_roadsigns",
+   "description": "Conversão à esquerda somente com seta verde (roadsigns.dae).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -775.22,
+     665.47,
+     111.84
+    ],
+    "normal": [
+     1.0,
+     0.014,
+     0
+    ],
+    "distance": 3.5,
+    "dz": -0.5,
+    "fov": 50,
+    "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "CONVERSÃO À ESQUERDA SOMENTE COM SETA VERDE"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -771.7203,
+     665.519,
+     111.34
+    ],
+    "rotation": [
+     -0.049774,
+     -0.050476,
+     -0.710248,
+     0.700374
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:45",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_bus_stop",
+   "family": "t_roadsigns",
+   "description": "Proibido estacionar — ponto de ônibus (roadsigns.dae).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -453.73,
+     696.36,
+     77.46
+    ],
+    "normal": [
+     -0.17,
+     0.985,
+     0
+    ],
+    "distance": 3.5,
+    "dz": -0.5,
+    "fov": 50,
+    "source": "render_signs.py face of roadsigns.dae (world coordinates; object at origin)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "PROIBIDO ESTACIONAR",
+    "PONTO DE ÔNIBUS"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -454.3253,
+     699.809,
+     76.96
+    ],
+    "rotation": [
+     -0.00605,
+     0.07063,
+     0.993845,
+     0.085134
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:46",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_speed_camera",
+   "family": "t_roadsigns",
+   "description": "Placa de radar s_sign_speedcam (speedCamera_*).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/s_sign_speedcam.dae",
+    "position": [
+     -283.03,
+     346.38,
+     104.34
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     -283.03,
+     346.38,
+     105.34
+    ],
+    "normal": [
+     0.987,
+     -0.163,
+     0
+    ],
+    "distance": 4.0,
+    "dz": 0.0,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "FISCALIZAÇÃO ELETRÔNICA DE VELOCIDADE"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -279.0835,
+     345.7282,
+     105.34
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.646939,
+     0.762542
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:48",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_red_light_camera",
+   "family": "t_roadsigns",
+   "description": "Placa de fiscalização de semáforo s_sign_lightcam.",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/s_sign_lightcam.dae",
+    "position": [
+     -520.6,
+     288.46,
+     104.22
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     -520.6,
+     288.46,
+     105.22
+    ],
+    "normal": [
+     -0.932,
+     -0.361,
+     0
+    ],
+    "distance": 4.0,
+    "dz": 0.0,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "FISCALIZAÇÃO ELETRÔNICA",
+    "AVANÇO DE SINAL"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -524.33,
+     287.0152,
+     105.22
+    ],
+    "rotation": [
+     0,
+     0,
+     0.565159,
+     0.824982
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:49",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_danger_high_voltage",
+   "family": "t_roadsigns",
+   "description": "Transformador com placa de perigo.",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/transformer_ground.dae",
+    "position": [
+     -1167.61,
+     -588.96,
+     105.08
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     -1167.61,
+     -588.96,
+     106.0
+    ],
+    "normal": [
+     -0.729,
+     0.684,
+     0
+    ],
+    "distance": 6.0,
+    "dz": 0.3,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "PERIGO",
+    "ALTA TENSÃO"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -1171.9855,
+     -584.8546,
+     106.3
+    ],
+    "rotation": [
+     0.009924,
+     -0.02292,
+     0.917385,
+     0.397217
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:51",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_construction_caution",
+   "family": "t_roadsigns",
+   "description": "Cavalete de obra.",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/construction_sign_small_a.dae",
+    "position": [
+     -348.55,
+     584.75,
+     74.7
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     -348.55,
+     584.75,
+     76.7
+    ],
+    "normal": [
+     0.421,
+     0.907,
+     0
+    ],
+    "distance": 5.0,
+    "dz": -0.3,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "ATENÇÃO",
+    "EM OBRAS"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -346.4449,
+     589.2852,
+     76.4
+    ],
+    "rotation": [
+     -0.006459,
+     -0.029255,
+     -0.976048,
+     0.215484
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:52:40",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_road_closed",
+   "family": "t_roadsigns",
+   "description": "Cavalete VIA INTERDITADA (praia).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/construction_sign_small_c.dae",
+    "position": [
+     49.22,
+     760.46,
+     75.56
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     49.22,
+     760.46,
+     77.56
+    ],
+    "normal": [
+     -0.996,
+     -0.086,
+     0
+    ],
+    "distance": 5.0,
+    "dz": -0.3,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "VIA INTERDITADA"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     44.2385,
+     760.0299,
+     77.26
+    ],
+    "rotation": [
+     -0.022077,
+     0.020253,
+     0.675705,
+     0.736563
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:52:41",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "r19_40_hill",
+   "family": "roadsigns_ptbr_r19",
+   "description": "R-19 40 (ex-SPEED LIMIT 25) com PARE no mesmo poste — mesmo ponto da Fase 2.",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
+    "position": [
+     -169.321,
+     155.466,
+     123.426
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     -169.321,
+     155.466,
+     123.426
+    ],
+    "normal": [
+     -0.607,
+     0.795,
+     0
+    ],
+    "distance": 3.2,
+    "dz": 0.0,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "expected_elements": [
+    "R-19 40 km/h"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -171.2629,
+     158.0094,
+     123.426
+    ],
+    "rotation": [
+     0,
+     0,
+     0.947315,
+     0.320303
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:55",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "r19_40_downtown",
+   "family": "roadsigns_ptbr_r19",
+   "description": "R-19 40 na via 515427bb (três placas de 25 mph ao longo da rua).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
+    "position": [
+     -274.33,
+     -58.19,
+     121.94
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     -274.33,
+     -58.19,
+     121.94
+    ],
+    "normal": [
+     0.356,
+     0.935,
+     0
+    ],
+    "distance": 3.2,
+    "dz": 0.0,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "expected_elements": [
+    "R-19 40 km/h"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -273.1913,
+     -55.1994,
+     121.94
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.983502,
+     0.180899
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:57",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "r19_40_dock_gate",
+   "family": "roadsigns_ptbr_r19",
+   "description": "R-19 40 no portão de entrada das docas (4 placas lado a lado).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae",
+    "position": [
+     476.94,
+     1613.09,
+     76.16
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     476.94,
+     1613.09,
+     76.16
+    ],
+    "normal": [
+     -1.0,
+     -0.0,
+     0
+    ],
+    "distance": 6.0,
+    "dz": 0.6,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "R-19 40 km/h"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     470.94,
+     1613.09,
+     76.76
+    ],
+    "rotation": [
+     0.035224,
+     -0.035224,
+     0.706229,
+     0.706229
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:39:58",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "r19_10_dock_exit",
+   "family": "roadsigns_ptbr_r19",
+   "description": "R-19 10 na saída das docas.",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
+    "position": [
+     444.4,
+     1687.93,
+     76.46
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     444.4,
+     1687.93,
+     76.46
+    ],
+    "normal": [
+     0.501,
+     0.865,
+     0
+    ],
+    "distance": 3.2,
+    "dz": 0.0,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "R-19 10 km/h"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     446.0038,
+     1690.6991,
+     76.46
+    ],
+    "rotation": [
+     0,
+     0,
+     -0.965747,
+     0.259485
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:40:00",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "r19_10_downtown_parking",
+   "family": "roadsigns_ptbr_r19",
+   "description": "R-19 10 na entrada do estacionamento (-144,4; 22,3), ao lado da via pública 69a8ea4e que recebe R-19 40 (§42: estacionamento 10, via pública não reduzida).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
+    "position": [
+     -144.35,
+     22.31,
+     124.08
+    ],
+    "match_tolerance_m": 1.0
+   },
+   "target": {
+    "center": [
+     -144.35,
+     22.31,
+     124.08
+    ],
+    "normal": [
+     -0.0508,
+     0.9987,
+     0
+    ],
+    "distance": 3.2,
+    "dz": 0.0,
+    "fov": 50,
+    "source": "TSStatic position + transform column(1) (face normal = -Y local)"
+   },
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "expected_elements": [
+    "R-19 10 km/h"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -144.5126,
+     25.5059,
+     124.08
+    ],
+    "rotation": [
+     0,
+     0,
+     0.999677,
+     0.025408
+    ],
+    "fov": 50,
+    "captured": "2026-09-30T21:40:01",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_gantry_next_exit",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 122).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     344.36,
+     642.86,
+     124.54
+    ],
+    "normal": [
+     0.839,
+     0.544,
+     0.0
+    ],
+    "distance": 9,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "PRÓXIMA SAÍDA",
+    "Monte Wallis",
+    "Praia Casilda",
+    "LESTE",
+    "SUL"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     351.9115,
+     647.7564,
+     123.74
+    ],
+    "rotation": [
+     -0.021158,
+     -0.038936,
+     -0.877783,
+     0.477004
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:04",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_gantry_mojave",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 121).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     724.28,
+     824.08,
+     126.07
+    ],
+    "normal": [
+     -0.923,
+     -0.385,
+     -0.0
+    ],
+    "distance": 8,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "SAÍDA 76",
+    "Estrada Mojave",
+    "LESTE"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     716.8966,
+     821.0002,
+     125.27
+    ],
+    "rotation": [
+     -0.041453,
+     0.027624,
+     0.553852,
+     0.831124
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:06",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_gantry_belasco_canal",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 123).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     337.82,
+     652.91,
+     125.14
+    ],
+    "normal": [
+     0.839,
+     0.544,
+     0.0
+    ],
+    "distance": 8,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "SAÍDA 194",
+    "Belasco",
+    "Rua do Canal"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     344.5325,
+     657.2623,
+     124.34
+    ],
+    "rotation": [
+     -0.023785,
+     -0.043769,
+     -0.877556,
+     0.47688
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:07",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_gantry_brittlebush",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 132).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -140.85,
+     -758.27,
+     126.35
+    ],
+    "normal": [
+     -0.649,
+     0.761,
+     0.0
+    ],
+    "distance": 13,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "Monte Wallis",
+    "SAÍDA 21",
+    "Rua Brittlebush",
+    "ONLY (preservado)"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -149.2856,
+     -748.3786,
+     125.55
+    ],
+    "rotation": [
+     -0.010624,
+     0.02883,
+     0.937874,
+     0.345613
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:09",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_gantry_downtown",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 264).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -114.87,
+     473.44,
+     103.97
+    ],
+    "normal": [
+     0.898,
+     -0.44,
+     0.0
+    ],
+    "distance": 11,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "Centro de Belasco",
+    "Centro Financeiro",
+    "PRÓXIMA SAÍDA",
+    "Calçadão",
+    "Docas"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -104.992,
+     468.6,
+     103.17
+    ],
+    "rotation": [
+     -0.030795,
+     -0.019204,
+     -0.528802,
+     0.847969
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:10",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_gantry_spearleaf",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 300).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     189.84,
+     758.13,
+     109.31
+    ],
+    "normal": [
+     0.008,
+     -1.0,
+     0.0
+    ],
+    "distance": 14,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "Docas",
+    "Calçadão",
+    "Ilha / Spearleaf",
+    "San Amaro",
+    "Estrada Mojave"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     189.952,
+     744.1304,
+     108.51
+    ],
+    "rotation": [
+     -0.028536,
+     -0.000114,
+     -0.003998,
+     0.999585
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:12",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_gantry_autodromo",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 304).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     945.0,
+     393.93,
+     157.56
+    ],
+    "normal": [
+     -0.324,
+     0.946,
+     0.0
+    ],
+    "distance": 14,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "Monte Wallis",
+    "PRÓXIMA SAÍDA",
+    "Autódromo",
+    "Estrada Agave Trail"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     940.4638,
+     407.1747,
+     156.76
+    ],
+    "rotation": [
+     -0.004687,
+     0.028149,
+     0.986019,
+     0.164172
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:13",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_gantry_oeste",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 135).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     798.9,
+     -313.38,
+     162.69
+    ],
+    "normal": [
+     -0.917,
+     -0.399,
+     -0.0
+    ],
+    "distance": 11,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "OESTE Estrada Mojave",
+    "Belasco",
+    "SAÍDA 44",
+    "ONLY (preservado)"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     788.8135,
+     -317.7688,
+     161.89
+    ],
+    "rotation": [
+     -0.030353,
+     0.019895,
+     0.547826,
+     0.835805
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:14",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_toll_plaza",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 124).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     301.66,
+     570.23,
+     125.42
+    ],
+    "normal": [
+     -0.808,
+     -0.59,
+     0.0
+    ],
+    "distance": 20,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "ATENÇÃO / PEDÁGIO / À FRENTE",
+    "½ MILE (preservado)",
+    "CARPOOLS (preservado)"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     285.5078,
+     558.4357,
+     124.62
+    ],
+    "rotation": [
+     -0.01782,
+     0.009053,
+     0.452836,
+     0.89137
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:16",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_toll_north",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 128).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -184.26,
+     169.08,
+     121.35
+    ],
+    "normal": [
+     -0.7,
+     -0.714,
+     -0.0
+    ],
+    "distance": 9,
+    "dz": -0.8,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "NORTE",
+    "PEDÁGIO",
+    "SPEED LIMIT 70 (preservado)"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -190.5606,
+     162.6533,
+     120.55
+    ],
+    "rotation": [
+     -0.041024,
+     0.016755,
+     0.377734,
+     0.924853
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:17",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_road_work_ahead",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face 292).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -816.66,
+     -418.43,
+     105.71
+    ],
+    "normal": [
+     0.711,
+     0.704,
+     -0.0
+    ],
+    "distance": 4,
+    "dz": -0.2,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "OBRAS / NA VIA / À FRENTE"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -813.8176,
+     -415.6156,
+     105.51
+    ],
+    "rotation": [
+     -0.009615,
+     -0.023052,
+     -0.922642,
+     0.384847
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:19",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "roadsigns_parking_2h_7am",
+   "family": "t_roadsigns",
+   "description": "Composição do roadsigns.dae (face p76_167).",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "position": [
+     0,
+     0,
+     0
+    ],
+    "match_tolerance_m": 1.0,
+    "materials": [
+     "roadsigns"
+    ]
+   },
+   "target": {
+    "center": [
+     -692.31,
+     514.73,
+     120.55
+    ],
+    "normal": [
+     0.389,
+     0.921,
+     0.0
+    ],
+    "distance": 2.6,
+    "dz": -0.2,
+    "fov": 50,
+    "source": "render_signs.py face (world coords)"
+   },
+   "lighting": [
+    "day"
+   ],
+   "expected_elements": [
+    "2 h",
+    "ESTACIONAMENTO",
+    "7h ÀS 18h",
+    "EXCETO DOMINGOS"
+   ],
+   "added": "phase5",
+   "camera": {
+    "position": [
+     -691.2984,
+     517.1251,
+     120.35
+    ],
+    "rotation": [
+     -0.007617,
+     -0.037613,
+     -0.97938,
+     0.198346
+    ],
+    "fov": 50,
+    "captured": "2026-10-01T00:53:20",
+    "source": "get_camera_state"
+   }
+  },
+  {
+   "id": "rm_pare_chinatown_top",
+   "family": "t_decal_roadmarkings",
+   "description": "Legenda STOP->PARE junto à placa PARE do ponto de QA de Chinatown.",
+   "expected_elements": [
+    "PARE no pavimento"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     1
+    ],
+    "uid": [
+     1156256949
+    ],
+    "rectIdx": [
+     3
+    ],
+    "position": [
+     -712.196,
+     548.726,
+     119.909
+    ],
+    "size": [
+     3.875
+    ]
+   },
+   "camera": {
+    "position": [
+     -712.0706,
+     548.5503,
+     125.6836
+    ],
+    "rotation": [
+     0.643237,
+     0.260315,
+     -0.266546,
+     0.668907
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "rm_pare_chinatown_oblique",
+   "family": "t_decal_roadmarkings",
+   "description": "Mesma legenda vista da posição de um motorista que se aproxima.",
+   "expected_elements": [
+    "PARE no pavimento (vista do motorista)"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     1
+    ],
+    "uid": [
+     1156256949
+    ],
+    "rectIdx": [
+     3
+    ],
+    "position": [
+     -712.196,
+     548.726,
+     119.909
+    ],
+    "size": [
+     3.875
+    ]
+   },
+   "camera": {
+    "position": [
+     -705.6165,
+     541.8444,
+     120.9577
+    ],
+    "rotation": [
+     0.049886,
+     0.022906,
+     -0.371868,
+     0.926661
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "rm_nao_bloqueie_top",
+   "family": "t_decal_roadmarkings",
+   "description": "KEEP CLEAR (par lado a lado) -> NÃO BLOQUEIE.",
+   "expected_elements": [
+    "NÃO BLOQUEIE"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     78,
+     77
+    ],
+    "uid": [
+     763327995,
+     3863337531
+    ],
+    "rectIdx": [
+     7,
+     8
+    ],
+    "position": [
+     -744.668,
+     766.997,
+     85.727
+    ],
+    "size": [
+     2.237,
+     2.272
+    ]
+   },
+   "camera": {
+    "position": [
+     -737.1025,
+     766.909,
+     101.7416
+    ],
+    "rotation": [
+     -0.531973,
+     0.532768,
+     -0.45957,
+     -0.471125
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "rm_nao_bloqueie_oblique",
+   "family": "t_decal_roadmarkings",
+   "description": "KEEP CLEAR -> NÃO BLOQUEIE, vista oblíqua.",
+   "expected_elements": [
+    "NÃO BLOQUEIE (vista do motorista)"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     78,
+     77
+    ],
+    "uid": [
+     763327995,
+     3863337531
+    ],
+    "rectIdx": [
+     7,
+     8
+    ],
+    "position": [
+     -744.668,
+     766.997,
+     85.727
+    ],
+    "size": [
+     2.237,
+     2.272
+    ]
+   },
+   "camera": {
+    "position": [
+     -751.0114,
+     766.9047,
+     87.9953
+    ],
+    "rotation": [
+     0.084403,
+     -0.092699,
+     0.6961,
+     0.706914
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "rm_sem_saida_top",
+   "family": "t_decal_roadmarkings",
+   "description": "NO EXIT -> SEM SAÍDA (docas).",
+   "expected_elements": [
+    "SEM SAÍDA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     1136,
+     1137
+    ],
+    "uid": [
+     241828138,
+     156355657
+    ],
+    "rectIdx": [
+     9,
+     14
+    ],
+    "position": [
+     419.118,
+     1819.927,
+     73.764
+    ],
+    "size": [
+     2.454,
+     2.314
+    ]
+   },
+   "camera": {
+    "position": [
+     419.0968,
+     1820.8851,
+     80.1551
+    ],
+    "rotation": [
+     0.489126,
+     0.510689,
+     -0.510592,
+     0.489131
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "rm_onibus_lane_top",
+   "family": "t_decal_roadmarkings",
+   "description": "BUS ONLY -> ÔNIBUS na faixa exclusiva.",
+   "expected_elements": [
+    "ÔNIBUS (ONLY removido)"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     136
+    ],
+    "uid": [
+     1723740439
+    ],
+    "rectIdx": [
+     6
+    ],
+    "position": [
+     -443.117,
+     496.337,
+     96.397
+    ],
+    "size": [
+     3.393
+    ]
+   },
+   "camera": {
+    "position": [
+     -443.0268,
+     496.3821,
+     101.5801
+    ],
+    "rotation": [
+     0.652484,
+     0.266657,
+     -0.280384,
+     0.65157
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "rm_onibus_lane_oblique",
+   "family": "t_decal_roadmarkings",
+   "description": "BUS ONLY -> ÔNIBUS, vista oblíqua.",
+   "expected_elements": [
+    "ÔNIBUS (vista do motorista)"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     136
+    ],
+    "uid": [
+     1723740439
+    ],
+    "rectIdx": [
+     6
+    ],
+    "position": [
+     -443.117,
+     496.337,
+     96.397
+    ],
+    "size": [
+     3.393
+    ]
+   },
+   "camera": {
+    "position": [
+     -436.9523,
+     490.3176,
+     97.7426
+    ],
+    "rotation": [
+     0.074902,
+     0.021476,
+     -0.386341,
+     0.919059
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "rm_onibus_stop_top",
+   "family": "t_decal_roadmarkings",
+   "description": "BUS STOP -> ÔNIBUS.",
+   "expected_elements": [
+    "ÔNIBUS (STOP removido)"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     606
+    ],
+    "uid": [
+     3778274114
+    ],
+    "rectIdx": [
+     6
+    ],
+    "position": [
+     -627.655,
+     453.504,
+     114.724
+    ],
+    "size": [
+     3.57
+    ]
+   },
+   "camera": {
+    "position": [
+     -627.2817,
+     453.1539,
+     120.1019
+    ],
+    "rotation": [
+     -0.280949,
+     0.684391,
+     -0.623432,
+     -0.253001
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "rm_so_saida_dock_gate",
+   "family": "t_decal_roadmarkings",
+   "description": "EXIT ONLY (decalques de 0,9 m no topo da barreira do portão das docas) -> SÓ SAÍDA.",
+   "expected_elements": [
+    "SÓ SAÍDA no topo da barreira"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     413,
+     414
+    ],
+    "uid": [
+     3677960174,
+     2966114538
+    ],
+    "rectIdx": [
+     14,
+     5
+    ],
+    "position": [
+     431.133,
+     1625.071,
+     75.192
+    ],
+    "size": [
+     0.846,
+     0.91
+    ]
+   },
+   "camera": {
+    "position": [
+     430.7232,
+     1628.2295,
+     76.0034
+    ],
+    "rotation": [
+     0.004484,
+     -0.122621,
+     0.992443,
+     0.000253
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "rm_saida_top",
+   "family": "t_decal_roadmarkings",
+   "description": "EXIT isolado -> SAÍDA.",
+   "expected_elements": [
+    "SAÍDA"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "kind": "decal",
+    "decal_set": "decal_roadmarkings1",
+    "indices": [
+     66
+    ],
+    "uid": [
+     2341026749
+    ],
+    "rectIdx": [
+     14
+    ],
+    "position": [
+     -649.346,
+     112.16,
+     116.742
+    ],
+    "size": [
+     3
+    ]
+   },
+   "camera": {
+    "position": [
+     -649.346,
+     112.16,
+     121.4408
+    ],
+    "rotation": [
+     0.655921,
+     -0.264135,
+     0.264135,
+     0.655921
+    ],
+    "fov": 50,
+    "source": "tools/beamng/catalog_add.py (decal)"
+   }
+  },
+  {
+   "id": "gs_octane_pump",
+   "family": "eca_genericsigns",
+   "description": "Adesivo de octanagem na bomba 2015.",
+   "expected_elements": [
+    "GASOLINA COMUM · OCTANAGEM (R+M)/2 · 87 · APERTE AQUI"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_pump_2015.dae",
+    "position": [
+     -811.059,
+     852.771,
+     75.018
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     120,
+     288,
+     216,
+     400
+    ],
+    "face_triangles": 20,
+    "instances_in_level": 18
+   },
+   "camera": {
+    "position": [
+     -811.0689,
+     850.9343,
+     76.1021
+    ],
+    "rotation": [
+     0.087156,
+     -0.0,
+     0.0,
+     0.996195
+    ],
+    "fov": 18,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "gs_stop_engine_structure",
+   "family": "eca_genericsigns",
+   "description": "Painel de segurança da bomba 2015.",
+   "expected_elements": [
+    "DESLIGUE O MOTOR / EVITE INCÊNDIO + legendas"
+   ],
+   "lighting": [
+    "day",
+    "night"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_structure_05.dae",
+    "position": [
+     150.341,
+     1759.395,
+     102.375
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     355,
+     0,
+     670,
+     212
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 1
+   },
+   "camera": {
+    "position": [
+     148.4036,
+     1766.1439,
+     103.5085
+    ],
+    "rotation": [
+     0,
+     0,
+     0.990268,
+     0.139173
+    ],
+    "fov": 35,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "gs_diesel_pump",
+   "family": "eca_genericsigns",
+   "description": "Botão de diesel.",
+   "expected_elements": [
+    "DIESEL / APERTE AQUI"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_pump_2015.dae",
+    "position": [
+     -811.059,
+     852.771,
+     75.018
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     0,
+     278,
+     125,
+     412
+    ],
+    "face_triangles": 20,
+    "instances_in_level": 18
+   },
+   "camera": {
+    "position": [
+     -811.1888,
+     850.9343,
+     76.1021
+    ],
+    "rotation": [
+     0.087156,
+     -0.0,
+     0.0,
+     0.996195
+    ],
+    "fov": 20,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "gs_notice_charger",
+   "family": "eca_genericsigns",
+   "description": "Carregador elétrico 2020.",
+   "expected_elements": [
+    "AVISO / SOMENTE PESSOAL AUTORIZADO"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_charger_car_2020.dae",
+    "position": [
+     -826.15,
+     843.754,
+     74.945
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     465,
+     212,
+     692,
+     384
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 9
+   },
+   "camera": {
+    "position": [
+     -826.124,
+     842.2029,
+     76.2224
+    ],
+    "rotation": [
+     -0.0,
+     -0.0,
+     -0.008472,
+     0.999964
+    ],
+    "fov": 14,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "gs_danger_structure",
+   "family": "eca_genericsigns",
+   "description": "Placa PERIGO/ALTAMENTE INFLAMÁVEL na estrutura do posto.",
+   "expected_elements": [
+    "PERIGO / ALTAMENTE INFLAMÁVEL"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_structure_07.dae",
+    "position": [
+     -813.009,
+     852.74,
+     74.984
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     135,
+     0,
+     360,
+     178
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 4
+   },
+   "camera": {
+    "position": [
+     -813.0095,
+     855.0621,
+     76.2158
+    ],
+    "rotation": [
+     0,
+     0,
+     1,
+     -0.0
+    ],
+    "fov": 25,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "gs_no_parking_structure",
+   "family": "eca_genericsigns",
+   "description": "Estrutura do posto (cobertura).",
+   "expected_elements": [
+    "PROIBIDO / ESTACIONAR"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_structure_07.dae",
+    "position": [
+     -813.009,
+     852.74,
+     74.984
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     665,
+     0,
+     810,
+     210
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 4
+   },
+   "camera": {
+    "position": [
+     -815.492,
+     852.7409,
+     76.2845
+    ],
+    "rotation": [
+     0,
+     0,
+     0.707107,
+     0.707107
+    ],
+    "fov": 25,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  },
+  {
+   "id": "gs_flammable_gas_structure",
+   "family": "eca_genericsigns",
+   "description": "Placa de gás inflamável na estrutura do posto.",
+   "expected_elements": [
+    "GÁS INFLAMÁVEL 2"
+   ],
+   "lighting": [
+    "day"
+   ],
+   "added": "phase6",
+   "object": {
+    "shape": "/levels/west_coast_usa/art/shapes/buildings/s_fuel_structure_07.dae",
+    "position": [
+     -813.009,
+     852.74,
+     74.984
+    ],
+    "match_tolerance_m": 1.0,
+    "atlas_region": [
+     0,
+     132,
+     140,
+     272
+    ],
+    "face_triangles": 2,
+    "instances_in_level": 4
+   },
+   "camera": {
+    "position": [
+     -815.492,
+     852.7401,
+     76.7238
+    ],
+    "rotation": [
+     0,
+     0,
+     0.707107,
+     0.707107
+    ],
+    "fov": 25,
+    "source": "tools/beamng/catalog_add.py (uv)"
+   }
+  }
+ ]
 }

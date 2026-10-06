@@ -6,9 +6,17 @@ from common import (FAIL, IMAGE_DIR, PASS, SKIP, WARN, Report, check_original_in
 import image_diff
 
 
-def allowed_regions(stem):
-    entry = load_config("allowed_regions.json").get(stem)
-    return (entry or {}).get("regions", [])
+def allowed_regions(stem, size=None):
+    """Regions of `stem`; scaled when the candidate has another resolution than the declared `size`
+    (same texture name with a different resolution in another game path, e.g. decal/ vs decalroad/)."""
+    entry = load_config("allowed_regions.json").get(stem) or {}
+    regs = entry.get("regions", [])
+    ref = entry.get("size")
+    if size and ref and tuple(ref) != tuple(size):
+        sx, sy = size[0] / ref[0], size[1] / ref[1]
+        regs = [dict(r, x=int(round(r["x"] * sx)), y=int(round(r["y"] * sy)), width=int(round(r["width"] * sx)),
+                     height=int(round(r["height"] * sy))) for r in regs]
+    return regs
 
 
 def validate_png(candidate, original=None, regions=None, heatmap=True, report=None, verify_manifest=True):
@@ -20,18 +28,17 @@ def validate_png(candidate, original=None, regions=None, heatmap=True, report=No
         return rep
     row = None
     if original is None:
-        original, row = find_original(stem, "png")
+        original, row = find_original(stem, "png", hint_path=candidate)
         if original is None:
             rep.add(FAIL, "Original lookup", f"no original PNG named '{stem}' in the manifest")
             return rep
     if verify_manifest and row is not None and not check_original_integrity(rep, original, row):
         return rep
-    if regions is None:
-        regions = allowed_regions(stem)
-    rep.meta.update(original=rel(original), texture=stem, allowed_regions=len(regions))
-
     orig = image_diff.load_rgba(original)
     cand = image_diff.load_rgba(candidate)
+    if regions is None:
+        regions = allowed_regions(stem, (cand.shape[1], cand.shape[0]))
+    rep.meta.update(original=rel(original), texture=stem, allowed_regions=len(regions))
     (oh, ow), (ch, cw) = orig.shape[:2], cand.shape[:2]
     if (ow, oh) != (cw, ch):
         rep.add(FAIL, "Resolution", f"{cw}x{ch} differs from original {ow}x{oh} (no up/downscale allowed)")

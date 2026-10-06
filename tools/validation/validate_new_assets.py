@@ -185,6 +185,17 @@ def check_functional(rep, spec):
     total = 0
     with zipfile.ZipFile(zpath) as z:
         for f in sorted(files):
+            if f.endswith("main.decals.json"):  # Phase 6: pavement phrases (instances deleted / rectIdx changed)
+                sys.path.insert(0, os.path.join(REPO, "tools", "production"))
+                import decal_overrides
+                with open(decal_overrides.DECISIONS, encoding="utf-8") as fh:
+                    dec = json.load(fh)
+                with open(os.path.join(MOD_DIR, f), encoding="utf-8") as fh:
+                    errs = decal_overrides.verify(fh.read(), dec)
+                rep.add(FAIL if errs else PASS, f"Override {f}", "; ".join(errs) if errs else
+                        f"only the declared decal instances differ ({len(dec['delete'])} deleted, "
+                        f"{len(dec['set_rectIdx'])} rectIdx changed)")
+                continue
             a = z.read(f).decode("utf-8").split("\n")
             with open(os.path.join(MOD_DIR, f), encoding="utf-8") as fh:
                 b = fh.read().split("\n")

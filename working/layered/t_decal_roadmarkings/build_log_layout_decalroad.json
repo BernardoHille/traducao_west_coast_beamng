@@ -1,0 +1,100 @@
+[
+ {
+  "slot": 3,
+  "text": "PARE",
+  "cap_box_1024": [
+   788,
+   41,
+   993,
+   216
+  ],
+  "b_pixels_changed": 39476,
+  "o_pixels_changed": 24549,
+  "nm_pixels_changed": 54083,
+  "ao_pixels_changed": 15436
+ },
+ {
+  "slot": 5,
+  "text": "SÓ",
+  "cap_box_1024": [
+   261,
+   341,
+   456,
+   475
+  ],
+  "b_pixels_changed": 39962,
+  "o_pixels_changed": 22990,
+  "nm_pixels_changed": 58496,
+  "ao_pixels_changed": 11116
+ },
+ {
+  "slot": 6,
+  "text": "ÔNIBUS",
+  "cap_box_1024": [
+   526,
+   343,
+   754,
+   482
+  ],
+  "b_pixels_changed": 41802,
+  "o_pixels_changed": 26952,
+  "nm_pixels_changed": 57453,
+  "ao_pixels_changed": 13218
+ },
+ {
+  "slot": 7,
+  "text": "NÃO",
+  "cap_box_1024": [
+   785,
+   345,
+   978,
+   477
+  ],
+  "b_pixels_changed": 39719,
+  "o_pixels_changed": 24044,
+  "nm_pixels_changed": 58602,
+  "ao_pixels_changed": 11747
+ },
+ {
+  "slot": 8,
+  "text": "BLOQUEIE",
+  "cap_box_1024": [
+   6,
+   570,
+   250,
+   730
+  ],
+  "b_pixels_changed": 42311,
+  "o_pixels_changed": 30802,
+  "nm_pixels_changed": 53769,
+  "ao_pixels_changed": 12697
+ },
+ {
+  "slot": 9,
+  "text": "SEM",
+  "cap_box_1024": [
+   280,
+   568,
+   418,
+   728
+  ],
+  "b_pixels_changed": 38724,
+  "o_pixels_changed": 16792,
+  "nm_pixels_changed": 58889,
+  "ao_pixels_changed": 10373
+ },
+ {
+  "slot": 14,
+  "text": "SAÍDA",
+  "cap_box_1024": [
+   526,
+   845,
+   754,
+   979
+  ],
+  "b_pixels_changed": 41024,
+  "o_pixels_changed": 25751,
+  "nm_pixels_changed": 48830,
+  "ao_pixels_changed": 6516
+ }
+]

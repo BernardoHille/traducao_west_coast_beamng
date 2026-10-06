@@ -1,0 +1,81 @@
+{
+ "_doc": "Pavement words (Phase 6, 6A). slot = rectIdx of managedDecalData.json decal_roadmarkings1 (4x4 grid). Texts: LOCALIZATION_RULES.md section 12 + ONLY decision of docs/production/phase6/ROADMARKINGS.md. Font: Bahnschrift Bold Condensed (system font) stretched to the original word box -> human_typography_review_required (original is a condensed stencil).",
+ "family": "t_decal_roadmarkings",
+ "seed": 20261005,
+ "maps": {
+  "b": {
+   "original": "source/originals/png/t_decal_roadmarkings_b.color.png",
+   "out": "working/png/t_decal_roadmarkings_b.color.png"
+  },
+  "o": {
+   "original": "source/originals/png/t_decal_roadmarkings_o.data.png",
+   "out": "working/png/t_decal_roadmarkings_o.data.png"
+  },
+  "nm": {
+   "original": "source/originals/png/t_decal_roadmarkings_nm.normal.png",
+   "out": "working/png/t_decal_roadmarkings_nm.normal.png"
+  },
+  "ao": {
+   "original": "source/originals/png/t_decal_roadmarkings_ao.data.png",
+   "out": "working/png/t_decal_roadmarkings_ao.data.png"
+  }
+ },
+ "style": {
+  "font": "bahnschrift",
+  "wght": 700,
+  "wdth": 75,
+  "min_wdth": 75
+ },
+ "cells": [
+  {
+   "slot": 3,
+   "text": "PARE",
+   "matrix": "roadmark_slot3_stop"
+  },
+  {
+   "slot": 5,
+   "text": "SÓ",
+   "accent_room": 0.17,
+   "matrix": "roadmark_slot5_only"
+  },
+  {
+   "slot": 6,
+   "text": "ÔNIBUS",
+   "accent_room": 0.17,
+   "full_width": true,
+   "margin": 14,
+   "matrix": "roadmark_slot6_bus"
+  },
+  {
+   "slot": 7,
+   "text": "NÃO",
+   "accent_room": 0.17,
+   "matrix": "roadmark_slot7_keep"
+  },
+  {
+   "slot": 8,
+   "text": "BLOQUEIE",
+   "full_width": true,
+   "margin": 6,
+   "matrix": "roadmark_slot8_clear"
+  },
+  {
+   "slot": 9,
+   "text": "SEM",
+   "matrix": "roadmark_slot9_no",
+   "x_range": [
+    280,
+    418
+   ],
+   "note": "NO EXIT is a side-by-side pair 1.9 m apart: SEM must end where NO ended (x 418) to keep the gap before SAÍDA"
+  },
+  {
+   "slot": 14,
+   "text": "SAÍDA",
+   "accent_room": 0.17,
+   "full_width": true,
+   "margin": 14,
+   "matrix": "roadmark_slot14_exit"
+  }
+ ]
+}

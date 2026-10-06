@@ -139,13 +139,24 @@ def texture_stem(path):
     return name
 
 
-def find_original(stem, kind):
-    """Return (absolute path, manifest row) of the original DDS/PNG copy in source/originals."""
+def find_original(stem, kind, hint_path=None):
+    """Return (absolute path, manifest row) of the original DDS/PNG copy in source/originals.
+
+    Some textures exist with the same name in two game paths with different content (Phase 6:
+    clutter_commercial in the level zip and in art_shapes.zip). Those variants live in
+    source/originals/<kind>/<variant>/; a candidate stored under a folder with the same variant name
+    (e.g. working/png/art_shapes/x.png) is compared with that variant, otherwise the first row wins."""
     cls = {"dds": "original_dds", "png": "original_png"}[kind]
-    for row in manifest():
-        if row["classification"] == cls and texture_stem(row["filename"]).lower() == stem.lower():
+    rows = [r for r in manifest() if r["classification"] == cls and texture_stem(r["filename"]).lower() == stem.lower()]
+    if not rows:
+        return None, None
+    variant = os.path.basename(os.path.dirname(os.path.abspath(hint_path))) if hint_path else None
+    for row in rows:
+        if variant and row["copied_to"].replace("\\", "/").split("/")[-2] == variant:
             return os.path.join(REPO, row["copied_to"]), row
-    return None, None
+    base = [r for r in rows if r["copied_to"].replace("\\", "/").split("/")[-2] in ("dds", "png")]
+    row = (base or rows)[0]
+    return os.path.join(REPO, row["copied_to"]), row
 
 
 def check_original_integrity(report, path, row):

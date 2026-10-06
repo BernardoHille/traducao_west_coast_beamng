@@ -97,7 +97,10 @@ def validate_mod_tree(mod_dir=MOD_DIR, installed_dir=None, report=None):
     dup_names = {n: p for n, p in by_name.items() if len(p) > 1 and n.endswith((".dds", ".png"))}
     for n, p in dup_names.items():
         fams = {known.get(x.lower(), ("?",))[0] for x in p}
-        rep.add(WARN if len(fams) == 1 and "?" not in fams else FAIL, "Duplicate file name", f"{n} at {p}")
+        if len(fams) == 1 and "?" not in fams:  # every copy is a declared path (main + extra_paths) of the same family
+            rep.add(PASS, "Duplicate file name", f"{n} at {len(p)} declared paths of {fams.pop()} (texture_families.json extra_paths)")
+        else:
+            rep.add(FAIL, "Duplicate file name", f"{n} at {p}")
 
     if installed_dir:
         if not os.path.isdir(installed_dir):

@@ -115,14 +115,15 @@ def uv_to_px(uv: np.ndarray, size: tuple[int, int]) -> np.ndarray:
     return np.stack([u * w, (1.0 - v) * h], axis=-1)
 
 
-def footprint(paths, material: str, size=(2048, 1024)) -> tuple[np.ndarray, list[dict]]:
-    """Union mask of UV triangles (pixels) + one record per triangle."""
+def footprint(paths, material, size=(2048, 1024)) -> tuple[np.ndarray, list[dict]]:
+    """Union mask of UV triangles (pixels) + one record per triangle. `material`: name or list of names."""
+    wanted = {material} if isinstance(material, str) else set(material)
     w, h = size
     mask = np.zeros((h, w), dtype=bool)
     items = []
     for path in paths:
         for prim in primitives(load(path)):
-            if prim["material"] != material or prim["uvs"] is None:
+            if prim["material"] not in wanted or prim["uvs"] is None:
                 continue
             for t in uv_to_px(prim["uvs"], size):
                 area = abs((t[1, 0] - t[0, 0]) * (t[2, 1] - t[0, 1]) - (t[2, 0] - t[0, 0]) * (t[1, 1] - t[0, 1]))
@@ -180,3 +181,78 @@ def main(argv=None) -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+# ---------------------------------------------------------------- Phase 6: where a texture region sits on the mesh
+def _node_matrices(root):
+    """geometry id -> list of 4x4 world matrices of the visual-scene nodes that instance it (+ node name)."""
+    out = {}
+
+    def walk(node, parent):
+        m = node.find("c:matrix", NS)
+        local = np.array(_floats(m.text)).reshape(4, 4) if m is not None else np.eye(4)
+        world = parent @ local
+        for ig in node.findall("c:instance_geometry", NS):
+            out.setdefault(ig.get("url", "")[1:], []).append((world, node.get("name") or ""))
+        for ch in node.findall("c:node", NS):
+            walk(ch, world)
+
+    for vs in root.iterfind(".//c:library_visual_scenes/c:visual_scene", NS):
+        for n in vs.findall("c:node", NS):
+            walk(n, np.eye(4))
+    return out
+
+
+def region_faces(path, material, size, region):
+    """Triangles of `material` whose UV centroid falls in `region` (pixels), on the most detailed LOD.
+
+    Returns {"centroid": xyz, "normal": xyz (area weighted, winding order), "triangles": n, "node": name}
+    in the mesh's local space (node matrices applied), or None."""
+    root = load(path)
+    mats = _node_matrices(root)
+    geoms = {g.get("id"): g.get("name") or g.get("id") for g in root.iterfind(".//c:library_geometries/c:geometry", NS)}
+    x0, y0, x1, y1 = region
+    best = None
+    for gid, gname in geoms.items():
+        inst = mats.get(gid, [(np.eye(4), "")])
+        node = inst[0][1]
+        if node.lower().startswith(("col", "collision")):
+            continue
+        lod = 0
+        import re as _re
+        mm = _re.search(r"_?[lL](\d+)$", node)
+        if mm:
+            lod = int(mm.group(1))
+        tris = []
+        for prim in primitives(root):
+            if prim["geometry"] not in (gname, gid) or prim["material"] != material or prim["uvs"] is None:
+                continue
+            px = uv_to_px(prim["uvs"], size)
+            c = px.mean(1)
+            sel = (c[:, 0] >= x0) & (c[:, 0] < x1) & (c[:, 1] >= y0) & (c[:, 1] < y1)
+            if sel.any():
+                w = inst[0][0]
+                pos = prim["positions"][sel] @ w[:3, :3].T + w[:3, 3]
+                tris.append(pos)
+        if not tris:
+            continue
+        pos = np.concatenate(tris)
+        key = (lod, len(pos))
+        if best is None or key > best[0]:
+            best = (key, pos, node)
+    if best is None:
+        return None
+    pos = best[1]
+    cr = np.cross(pos[:, 1] - pos[:, 0], pos[:, 2] - pos[:, 0])
+    area = np.linalg.norm(cr, axis=1)
+    # the same atlas region is often mapped on several faces (both sides of a pump): keep one face cluster =
+    # triangles facing like the largest one and lying close to it
+    un = cr / (area[:, None] + 1e-12)
+    ref = int(area.argmax())
+    cen_t = pos.mean(1)
+    keep = (un @ un[ref] > 0.7) & (np.linalg.norm(cen_t - cen_t[ref], axis=1) < 1.5)
+    pos, cr, area = pos[keep], cr[keep], area[keep]
+    n = cr.sum(0)
+    cen = (pos.mean(1) * area[:, None]).sum(0) / max(area.sum(), 1e-9)
+    return {"centroid": cen.tolist(), "normal": (n / (np.linalg.norm(n) + 1e-9)).tolist(), "triangles": int(len(pos)),
+            "node": best[2], "extent": (pos.reshape(-1, 3).max(0) - pos.reshape(-1, 3).min(0)).tolist()}

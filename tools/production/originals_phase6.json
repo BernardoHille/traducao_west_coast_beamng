@@ -1,0 +1,240 @@
+{
+ "_doc": "Game textures needed by Phase 6 (read-only extraction). Existing local originals are verified byte-for-byte against the game file the mod will override.",
+ "textures": [
+  {
+   "zip": "assets/materials/decal.zip",
+   "path": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_b.color.dds",
+   "family": "t_decal_roadmarkings",
+   "role": "color",
+   "category": "09 - Marcacoes no Asfalto (Road Surface Markings)"
+  },
+  {
+   "zip": "assets/materials/decal.zip",
+   "path": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_o.data.dds",
+   "family": "t_decal_roadmarkings",
+   "role": "data",
+   "category": "09 - Marcacoes no Asfalto (Road Surface Markings)"
+  },
+  {
+   "zip": "assets/materials/decal.zip",
+   "path": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_nm.normal.dds",
+   "family": "t_decal_roadmarkings",
+   "role": "normal",
+   "category": "09 - Marcacoes no Asfalto (Road Surface Markings)"
+  },
+  {
+   "zip": "assets/materials/decal.zip",
+   "path": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_ao.data.dds",
+   "family": "t_decal_roadmarkings",
+   "role": "data",
+   "category": "09 - Marcacoes no Asfalto (Road Surface Markings)"
+  },
+  {
+   "zip": "assets/materials/decal.zip",
+   "path": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_r.data.dds",
+   "family": "t_decal_roadmarkings",
+   "role": "data",
+   "category": "09 - Marcacoes no Asfalto (Road Surface Markings)"
+  },
+  {
+   "zip": "assets/materials/decal.zip",
+   "path": "assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_m.data.dds",
+   "family": "t_decal_roadmarkings",
+   "role": "data",
+   "category": "09 - Marcacoes no Asfalto (Road Surface Markings)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_b.color.dds",
+   "family": "eca_genericsigns",
+   "role": "color",
+   "category": "03 - Postos de Gasolina (Fuel Stations)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_o.data.dds",
+   "family": "eca_genericsigns",
+   "role": "data",
+   "category": "03 - Postos de Gasolina (Fuel Stations)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_nm.normal.dds",
+   "family": "eca_genericsigns",
+   "role": "normal",
+   "category": "03 - Postos de Gasolina (Fuel Stations)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_ao.data.dds",
+   "family": "eca_genericsigns",
+   "role": "data",
+   "category": "03 - Postos de Gasolina (Fuel Stations)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/eca_genericsigns/t_eca_genericsigns_r.data.dds",
+   "family": "eca_genericsigns",
+   "role": "data",
+   "category": "03 - Postos de Gasolina (Fuel Stations)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/billboards/t_billboards_b.color.dds",
+   "family": "t_billboards",
+   "role": "color",
+   "category": "04 - Outdoors e Paineis Publicitarios (Billboards)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/billboards/t_billboards_r.data.dds",
+   "family": "t_billboards",
+   "role": "data",
+   "category": "04 - Outdoors e Paineis Publicitarios (Billboards)"
+  },
+  {
+   "zip": "assets/materials/atlas.zip",
+   "path": "assets/materials/atlas/m_billboardsigns_dealers/t_billboardsigns_dealers_b.color.dds",
+   "family": "t_billboardsigns_dealers",
+   "role": "color",
+   "category": "04 - Outdoors e Paineis Publicitarios (Billboards)"
+  },
+  {
+   "zip": "assets/materials/atlas.zip",
+   "path": "assets/materials/atlas/m_billboardsigns_dealers/t_billboardsigns_dealers_o.data.dds",
+   "family": "t_billboardsigns_dealers",
+   "role": "data",
+   "category": "04 - Outdoors e Paineis Publicitarios (Billboards)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_movie_studio_signage/t_movie_studio_signage_b.color.dds",
+   "family": "t_movie_studio_signage",
+   "role": "color",
+   "category": "06 - Estudios de Cinema (Belasco Movie Studios)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/industrial_signs/ind_industrial_signs_d.color.dds",
+   "family": "ind_industrial_signs",
+   "role": "color",
+   "category": "07 - Industria e Logistica (Industrial & Logistics)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_b.color.dds",
+   "family": "t_spearleaf_refinery_logo",
+   "role": "color",
+   "category": "07 - Industria e Logistica (Industrial & Logistics)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_refinery_logo/t_spearleaf_refinery_logo_o.data.dds",
+   "family": "t_spearleaf_refinery_logo",
+   "role": "data",
+   "category": "07 - Industria e Logistica (Industrial & Logistics)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_b.color.dds",
+   "family": "t_steel_factory_brand",
+   "role": "color",
+   "category": "07 - Industria e Logistica (Industrial & Logistics)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_nm.normal.dds",
+   "family": "t_steel_factory_brand",
+   "role": "normal",
+   "category": "07 - Industria e Logistica (Industrial & Logistics)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_ao.data.dds",
+   "family": "t_steel_factory_brand",
+   "role": "data",
+   "category": "07 - Industria e Logistica (Industrial & Logistics)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_steel_factory_brand/t_steel_factory_brand_r.data.dds",
+   "family": "t_steel_factory_brand",
+   "role": "data",
+   "category": "07 - Industria e Logistica (Industrial & Logistics)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_b.color.dds",
+   "family": "t_bus_routes_wca",
+   "role": "color",
+   "category": "05 - Ponto de Onibus e Transporte Publico (Transit & Bus Stops)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_nm.normal.dds",
+   "family": "t_bus_routes_wca",
+   "role": "normal",
+   "category": "05 - Ponto de Onibus e Transporte Publico (Transit & Bus Stops)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_ao.data.dds",
+   "family": "t_bus_routes_wca",
+   "role": "data",
+   "category": "05 - Ponto de Onibus e Transporte Publico (Transit & Bus Stops)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_bus_routes_wca/t_bus_routes_wca_r.data.dds",
+   "family": "t_bus_routes_wca",
+   "role": "data",
+   "category": "05 - Ponto de Onibus e Transporte Publico (Transit & Bus Stops)"
+  },
+  {
+   "zip": "assets/materials/billboard_label.zip",
+   "path": "assets/materials/billboard_label/m_bus_routes_utah/t_bus_routes_utah_d.color.dds",
+   "family": "t_bus_routes_utah",
+   "role": "color",
+   "category": "05 - Ponto de Onibus e Transporte Publico (Transit & Bus Stops)"
+  },
+  {
+   "zip": "art_shapes.zip",
+   "path": "art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds",
+   "family": "clutter_commercial",
+   "role": "color",
+   "category": "02 - Estabelecimentos Comerciais e Fachadas (Commercial)",
+   "variant": "art_shapes"
+  },
+  {
+   "zip": "art_shapes.zip",
+   "path": "art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds",
+   "family": "clutter_commercial",
+   "role": "data",
+   "category": "02 - Estabelecimentos Comerciais e Fachadas (Commercial)",
+   "variant": "art_shapes"
+  },
+  {
+   "zip": "assets/materials/signage.zip",
+   "path": "assets/materials/signage/signs_usa/eca_roadsigns_d.dds",
+   "family": "eca_roadsigns",
+   "role": "diffuse_legacy",
+   "category": "01 - Placas de Transito (Road Signs)"
+  },
+  {
+   "zip": "assets/materials/decalroad.zip",
+   "path": "assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds",
+   "family": "t_decal_roadmarkings",
+   "role": "data",
+   "category": "09 - Marcacoes no Asfalto (Road Surface Markings)",
+   "variant": "decalroad"
+  },
+  {
+   "zip": "assets/materials/decalroad.zip",
+   "path": "assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_ao.data.dds",
+   "family": "t_decal_roadmarkings",
+   "role": "data",
+   "category": "09 - Marcacoes no Asfalto (Road Surface Markings)",
+   "variant": "decalroad"
+  }
+ ]
+}

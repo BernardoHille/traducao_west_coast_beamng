@@ -168,7 +168,12 @@ def apply_preset(m, pre):
 
 
 def resolve_object(m, obj):
-    """Object ids change on every level load: resolve by shape + position."""
+    """Object ids change on every level load: resolve by shape + position.
+
+    Phase 6: pavement decals are not scene objects (main.decals.json instances) -> the catalog entry
+    carries kind 'decal' and the decal data, which is reported as is."""
+    if obj and obj.get("kind") == "decal":
+        return {"kind": "decal", "set": obj.get("decal_set"), "uid": obj.get("uid"), "rectIdx": obj.get("rectIdx")}
     x, y, z = obj["position"]
     code = f"""
 local best, bestd = nil, 1e9
@@ -270,12 +275,12 @@ def cmd_capture(m, a):
         entry = {"location": loc["id"], "object": obj, "file": os.path.relpath(dest, REPO).replace("\\", "/"),
                  "source": src, "resolution": size, "resolution_ok": size == exp, "camera_after": cam}
         run["captures"].append(entry)
-        log(f"{loc['id']}: object={obj and obj['id']} -> {entry['file']} {size}")
+        log(f"{loc['id']}: object={obj and obj.get('id', obj.get('kind'))} -> {entry['file']} {size}")
     if a.restore_ui:
         m.call("toggle_ui", show=True)
     run["logs"] = scan_logs(m.call("get_logs"), families + [cat["mod_name"]])
     run["finished"] = dt.datetime.now().isoformat(timespec="seconds")
-    out = os.path.join(REPO, "tests", "reports", "runs",
+    out = os.path.join(REPO, "tests", "reports", *( [a.out_dir, "runs"] if a.out_dir else ["runs"] ),
                        f"{dt.datetime.now():%Y%m%d_%H%M%S}_{a.family or a.location}_{a.state}_{a.preset}.json")
     os.makedirs(os.path.dirname(out), exist_ok=True)
     save_json(out, run)
@@ -325,7 +330,7 @@ def cmd_repro(m, a):
     res = {"location": loc["id"], "preset": a.preset, "noise_floor_A_vs_A2": metrics(A, A2),
            "restored_A_vs_B": metrics(A, B), "files": shots,
            "date": dt.datetime.now().isoformat(timespec="seconds")}
-    out = os.path.join(REPO, "tests", "reports", "runs", f"{dt.datetime.now():%Y%m%d_%H%M%S}_repro_{loc['id']}_{a.preset}.json")
+    out = os.path.join(REPO, "tests", "reports", *( [a.out_dir, "runs"] if a.out_dir else ["runs"] ), f"{dt.datetime.now():%Y%m%d_%H%M%S}_repro_{loc['id']}_{a.preset}.json")
     os.makedirs(os.path.dirname(out), exist_ok=True)
     save_json(out, res)
     print(json.dumps(res, indent=2))

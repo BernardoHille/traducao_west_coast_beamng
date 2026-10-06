@@ -1,0 +1,71 @@
+{
+  "started": "2026-10-06T00:14:59",
+  "map": "west_coast_usa",
+  "state": "original",
+  "preset": "day",
+  "mod_active": false,
+  "vfs": {
+    "t_decal_roadmarkings": [
+      {
+        "path": "/assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_o.data.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\decal.zip\\assets\\materials\\decal\\marking\\m_decal_roadmarkings_01\\t_decal_roadmarkings_o.data.dds",
+        "expected_contains": "decal.zip",
+        "ok": true
+      },
+      {
+        "path": "/assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\decalroad.zip\\assets\\materials\\decalroad\\lines\\roadmarkings1\\t_decal_roadmarkings_o.data.dds",
+        "expected_contains": "decalroad.zip",
+        "ok": true
+      },
+      {
+        "path": "/levels/west_coast_usa/main.decals.json",
+        "realPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main.decals.json",
+        "expected_contains": "west_coast_usa.zip",
+        "ok": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "location": "rm_onibus_lane_oblique",
+      "object": {
+        "kind": "decal",
+        "set": "decal_roadmarkings1",
+        "uid": [
+          1723740439
+        ],
+        "rectIdx": [
+          6
+        ]
+      },
+      "file": "tests/screenshots/phase6/t_decal_roadmarkings/rm_onibus_lane_oblique_original.jpg",
+      "source": "C:/Users/Desktop/AppData/Local/BeamNG/BeamNG.drive/current/screenshots/mcp/shot_20261006_001504_43.jpg",
+      "resolution": [
+        1920,
+        993
+      ],
+      "resolution_ok": true,
+      "camera_after": {
+        "fov": 50,
+        "pos": {
+          "y": 490.3176,
+          "x": -436.9523,
+          "z": 97.7426
+        },
+        "mode": "free",
+        "rot": {
+          "y": 0.021476006677344,
+          "z": -0.38634093291678,
+          "x": 0.074902011713981,
+          "w": 0.91905884106046
+        }
+      }
+    }
+  ],
+  "logs": {
+    "error_warning_counts": {},
+    "relevant_lines": []
+  },
+  "finished": "2026-10-06T00:15:05"
+}

@@ -24,7 +24,7 @@ def validate_dds(candidate, original=None, report=None, verify_manifest=True):
 
     row = None
     if original is None:
-        original, row = find_original(stem, "dds")
+        original, row = find_original(stem, "dds", hint_path=candidate)
     if original is None:
         rep.add(SKIP, "Original comparison", f"no original DDS named '{stem}' in the manifest (standalone checks only)")
         o = None

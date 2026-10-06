@@ -5,6 +5,16 @@
    "status": "production",
    "shape_changed": true,
    "note": "Phase 5: glyph tiles (street names, EXIT/NEXT, directions, TOLL, CAUTION/TOLL PLAZA/AHEAD, ROAD/WORK, ROAD CLOSED stencil, CAUTION UNDER CONSTRUCTION) are cut by the opacity map -> t_roadsigns_o.data rebuilt and delivered. Panel texts change only the base colour."
+  },
+  "t_decal_roadmarkings": {
+   "status": "production",
+   "shape_changed": true,
+   "note": "Phase 6 (6A): words of slots 3,5,6,7,8,9,14 rewritten in colour, opacity, normal and AO (both atlas copies); roughness/metallic not tied to the letters -> original."
+  },
+  "eca_genericsigns": {
+   "status": "production",
+   "shape_changed": false,
+   "note": "Phase 6 (6B): texts of the panels used in the West Coast changed inside the same panels; opacity/normal/AO/roughness hold only panel outlines -> unchanged."
   }
  },
  "reference": {

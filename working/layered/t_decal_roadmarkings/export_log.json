@@ -1,0 +1,98 @@
+[
+ {
+  "png": "working/png/t_decal_roadmarkings_b.color.png",
+  "dds": "export/dds/t_decal_roadmarkings/t_decal_roadmarkings_b.color.dds",
+  "original": "source/originals/dds/t_decal_roadmarkings_b.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_b.color.dds"
+  ]
+ },
+ {
+  "png": "working/png/t_decal_roadmarkings_o.data.png",
+  "dds": "export/dds/t_decal_roadmarkings/t_decal_roadmarkings_o.data.dds",
+  "original": "source/originals/dds/t_decal_roadmarkings_o.data.dds",
+  "format": "BC4_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 10,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_o.data.dds"
+  ]
+ },
+ {
+  "png": "working/png/t_decal_roadmarkings_nm.normal.png",
+  "dds": "export/dds/t_decal_roadmarkings/t_decal_roadmarkings_nm.normal.dds",
+  "original": "source/originals/dds/t_decal_roadmarkings_nm.normal.dds",
+  "format": "BC5_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_nm.normal.dds"
+  ]
+ },
+ {
+  "png": "working/png/t_decal_roadmarkings_ao.data.png",
+  "dds": "export/dds/t_decal_roadmarkings/t_decal_roadmarkings_ao.data.dds",
+  "original": "source/originals/dds/t_decal_roadmarkings_ao.data.dds",
+  "format": "BC4_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 12,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/decal/marking/m_decal_roadmarkings_01/t_decal_roadmarkings_ao.data.dds"
+  ]
+ },
+ {
+  "png": "working/png/decalroad/t_decal_roadmarkings_b.color.png",
+  "dds": "export/dds/t_decal_roadmarkings/decalroad/t_decal_roadmarkings_b.color.dds",
+  "original": "source/originals/dds/t_decal_roadmarkings_b.color.dds",
+  "format": "BC7_UNORM_SRGB",
+  "srgb": true,
+  "dx10": true,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_b.color.dds"
+  ]
+ },
+ {
+  "png": "working/png/decalroad/t_decal_roadmarkings_o.data.png",
+  "dds": "export/dds/t_decal_roadmarkings/decalroad/t_decal_roadmarkings_o.data.dds",
+  "original": "source/originals/dds/decalroad/t_decal_roadmarkings_o.data.dds",
+  "format": "BC4_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds"
+  ]
+ },
+ {
+  "png": "working/png/decalroad/t_decal_roadmarkings_nm.normal.png",
+  "dds": "export/dds/t_decal_roadmarkings/decalroad/t_decal_roadmarkings_nm.normal.dds",
+  "original": "source/originals/dds/t_decal_roadmarkings_nm.normal.dds",
+  "format": "BC5_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 11,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_nm.normal.dds"
+  ]
+ },
+ {
+  "png": "working/png/decalroad/t_decal_roadmarkings_ao.data.png",
+  "dds": "export/dds/t_decal_roadmarkings/decalroad/t_decal_roadmarkings_ao.data.dds",
+  "original": "source/originals/dds/decalroad/t_decal_roadmarkings_ao.data.dds",
+  "format": "BC4_UNORM",
+  "srgb": null,
+  "dx10": false,
+  "mips": 10,
+  "installed": [
+   "mod/traducao_ptbr_wcusa/assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_ao.data.dds"
+  ]
+ }
+]
