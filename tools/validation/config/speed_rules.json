@@ -14,7 +14,7 @@
   "sign_shapes": {
     "pattern": "sign_(?:speed|r19_)(\\d+)\\.dae$",
     "current_unit": "mph",
-    "doc": "Value from the shape name: sign_speed<N> = N mph (US); R-19 meshes of the mod are read in km/h (r19_overrides: sign_speed25 replaced in place, sign_r19_10 is a new mesh assigned to the 7 real 5 mph signs). TSStatics with a decalType are mesh decals (port bay-number plates), not signs.",
+    "doc": "Value from the shape name: sign_speed<N> = N mph (US); R-19 meshes of the mod are read in km/h (r19_overrides: sign_speed25 replaced in place, sign_r19_10 is a new mesh assigned to the 7 real 5 mph signs). TSStatics with a decalType are mesh decals (port bay-number plates), not signs. Phase 7: sign_r19_50/70/120 are new meshes placed by the mod (group ptbr_functional_signs) for the ADAS 50 zone, its 120 exit and the Event 01 70 corridor.",
     "r19_overrides": {
       "sign_speed25": {
         "value": 40,
@@ -27,6 +27,24 @@
         "unit": "km/h",
         "mod_file": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae",
         "material": "roadsigns_ptbr_r19_10"
+      },
+      "sign_r19_50": {
+        "value": 50,
+        "unit": "km/h",
+        "mod_file": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_50.dae",
+        "material": "roadsigns_ptbr_r19_50"
+      },
+      "sign_r19_70": {
+        "value": 70,
+        "unit": "km/h",
+        "mod_file": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_70.dae",
+        "material": "roadsigns_ptbr_r19_70"
+      },
+      "sign_r19_120": {
+        "value": 120,
+        "unit": "km/h",
+        "mod_file": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_120.dae",
+        "material": "roadsigns_ptbr_r19_120"
       }
     },
     "regulation": "tools/validation/config/sign_regulation.json"

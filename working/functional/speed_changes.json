@@ -1,0 +1,228 @@
+{
+ "_doc": "Phase 7 functional speed decisions for level objects (DecalRoad / inert BeamNGWaypoint), one record per object. Values in m/s. Applied together with Phase 5 (working/speed/speed_changes.json) by tools/production/apply_phase7_functional.py. Every record points to an entry of working/functional/phase7_plan.json (plan_id).",
+ "changes": [
+  {
+   "id": "r60_dr571",
+   "plan_id": "ex35mph_60",
+   "pid": "2388e8bc-a616-45a0-8826-d90f9844df7f",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR571",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "60_explicit_35mph",
+   "reason": "Via herdada de 35 mph (15,6464 m/s = 56,3 km/h) -> 60 km/h (16,6667 m/s): hierarquia da Fase 7, docas/vias anteriormente 35 mph = 60. Contexto: via urbana de mão única (2 faixas) que sai do fim da avenida do Event 01 para sudoeste; o radar speedCamera_003 fiscaliza este sentido.",
+   "center_xy": [
+    -245.5,
+    350.1
+   ],
+   "length_m": 93.8
+  },
+  {
+   "id": "r60_dr666",
+   "plan_id": "ex35mph_60",
+   "pid": "af746a38-3ff6-4785-96c2-447ba39c5238",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR666",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "60_explicit_35mph",
+   "reason": "Via herdada de 35 mph (15,6464 m/s = 56,3 km/h) -> 60 km/h (16,6667 m/s): hierarquia da Fase 7, docas/vias anteriormente 35 mph = 60. Contexto: pista sul da avenida dividida (2 faixas); o Event 01 usa só a pista norte (DR652), que vai a 70.",
+   "center_xy": [
+    -379.2,
+    258.0
+   ],
+   "length_m": 235.3
+  },
+  {
+   "id": "r60_dr625",
+   "plan_id": "ex35mph_60",
+   "pid": "6777a576-5d4d-491e-912a-04faa6c393d2",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR625",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "60_explicit_35mph",
+   "reason": "Via herdada de 35 mph (15,6464 m/s = 56,3 km/h) -> 60 km/h (16,6667 m/s): hierarquia da Fase 7, docas/vias anteriormente 35 mph = 60. Contexto: alça de 1 faixa que desce do trevo junction1 para a via local DR568/DR91 (40).",
+   "center_xy": [
+    -455.0,
+    679.8
+   ],
+   "length_m": 22.9
+  },
+  {
+   "id": "r60_dr989",
+   "plan_id": "ex35mph_60",
+   "pid": "d241454f-d83c-41e8-9b5e-7aaa5a4b1b93",
+   "file": "island/island_ai_roads/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR989",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "60_explicit_35mph",
+   "reason": "Via herdada de 35 mph (15,6464 m/s = 56,3 km/h) -> 60 km/h (16,6667 m/s): hierarquia da Fase 7, docas/vias anteriormente 35 mph = 60. Contexto: via da ilha (2 faixas, mão única); radar speedCamera_005.",
+   "center_xy": [
+    -945.0,
+    1868.4
+   ],
+   "length_m": 390.6
+  },
+  {
+   "id": "r60_dr1003",
+   "plan_id": "ex35mph_60",
+   "pid": "be0f5b74-eae0-4b46-bbe9-183e11e4c1f2",
+   "file": "island/island_ai_roads/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR1003",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "60_explicit_35mph",
+   "reason": "Via herdada de 35 mph (15,6464 m/s = 56,3 km/h) -> 60 km/h (16,6667 m/s): hierarquia da Fase 7, docas/vias anteriormente 35 mph = 60. Contexto: acesso da ilha às docas.",
+   "center_xy": [
+    367.8,
+    1580.7
+   ],
+   "length_m": 100.7
+  },
+  {
+   "id": "r60_dr1009",
+   "plan_id": "ex35mph_60",
+   "pid": "1e4035d1-538f-4321-a7bd-dfc1e33485df",
+   "file": "island/island_ai_roads/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR1009",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "60_explicit_35mph",
+   "reason": "Via herdada de 35 mph (15,6464 m/s = 56,3 km/h) -> 60 km/h (16,6667 m/s): hierarquia da Fase 7, docas/vias anteriormente 35 mph = 60. Contexto: via da ilha junto às docas; radar speedCamera_007.",
+   "center_xy": [
+    269.9,
+    1864.1
+   ],
+   "length_m": 618.9
+  },
+  {
+   "id": "r60_dr1213",
+   "plan_id": "ex35mph_60",
+   "pid": "c5865b41-6662-47ee-82b2-e8cbe59e8ee2",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR1213",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "60_explicit_35mph",
+   "reason": "Via herdada de 35 mph (15,6464 m/s = 56,3 km/h) -> 60 km/h (16,6667 m/s): hierarquia da Fase 7, docas/vias anteriormente 35 mph = 60. Contexto: via das docas (portaria); radar speedCamera_006.",
+   "center_xy": [
+    414.9,
+    1625.0
+   ],
+   "length_m": 33.3
+  },
+  {
+   "id": "r60_dr1216",
+   "plan_id": "ex35mph_60",
+   "pid": "af1085ba-4d01-48d1-be41-c58d021c8f9c",
+   "file": "island_shippingYard/dock_aiRoads/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR1216",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "60_explicit_35mph",
+   "reason": "Via herdada de 35 mph (15,6464 m/s = 56,3 km/h) -> 60 km/h (16,6667 m/s): hierarquia da Fase 7, docas/vias anteriormente 35 mph = 60. Contexto: via interna das docas.",
+   "center_xy": [
+    409.7,
+    1754.0
+   ],
+   "length_m": 232.3
+  },
+  {
+   "id": "r70_dr652",
+   "plan_id": "event01_corridor_70",
+   "pid": "989ef979-49ee-419e-919f-2bf1c6d08e9d",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR652",
+   "from": "15.6464",
+   "to": "19.4444",
+   "category": "70_event01_corridor",
+   "reason": "Corredor regulamentado de 70 km/h do Event 01 (alerta 70 / rearme 65, inalterados): pista norte da avenida dividida (2 faixas, 216 m), originalmente 35 mph. R-19 70 na entrada e depois dos cruzamentos laterais.",
+   "center_xy": [
+    -373.9,
+    250.6
+   ],
+   "length_m": 215.5
+  },
+  {
+   "id": "r50_dr312",
+   "plan_id": "adas50_zone",
+   "pid": "cfca014d-87c1-48ab-abdd-98dd3bd4d1d6",
+   "file": "DecalRoads/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR312",
+   "from": null,
+   "old_effective_mps": 33.3333,
+   "to": "13.8889",
+   "category": "50_adas_zone",
+   "reason": "Zona funcional de 50 km/h do ADAS Speed Alert (SpeedLimitKmh = 50, inalterado): o spawn fica sobre o DR312 (via expressa, 4 faixas, automático 120). DR312 é uma via de IA invisível de 1268 m; o limite é por objeto DecalRoad, então a zona é o DR312 inteiro (~190 m antes do spawn a ~1030 m depois). R-19 50 na entrada (dois lados) e à frente do spawn.",
+   "center_xy": [
+    74.6,
+    412.2
+   ],
+   "length_m": 1268.1
+  },
+  {
+   "id": "r120_dr758",
+   "plan_id": "adas50_exit_120",
+   "pid": "512c9f8f-76c7-4cb7-89a7-389483b6b717",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR758",
+   "from": null,
+   "old_effective_mps": 33.3333,
+   "to": "33.3333",
+   "category": "120_explicit_zone_exit",
+   "reason": "Fim da zona de 50 na mesma pista: o trecho seguinte (DR758, automático 120) recebe o mesmo valor explícito (sem mudança funcional), para a placa R-19 120 de saída regulamentar uma via com limite declarado.",
+   "center_xy": [
+    -637.4,
+    -250.5
+   ],
+   "length_m": 577.0
+  },
+  {
+   "id": "wp100_junction1_wp19",
+   "plan_id": "junction1_waypoints_inert",
+   "pid": "8e3763b3-96f5-4df1-99c7-adf1680e6092",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "BeamNGWaypoint",
+   "dr": "junction1_wp19",
+   "from": "15.6464",
+   "to": "27.7778",
+   "category": "inert_waypoint_metadata",
+   "reason": "O campo speedLimit de BeamNGWaypoint é inerte no 0.39.4 (map.lua usa só posição e raio do waypoint; o limite vem do DecalRoad). A aresta junction1_wp25 -> wp19 do navgraph é 100 km/h; o campo é alinhado ao limite funcional e ao radar speedCamera_004 (100), sem efeito na IA.",
+   "center_xy": [
+    -395.3,
+    644.0
+   ],
+   "length_m": 0
+  },
+  {
+   "id": "wp100_junction1_wp25",
+   "plan_id": "junction1_waypoints_inert",
+   "pid": "f9da8bdf-7d65-443c-b199-43b7fac5356e",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "BeamNGWaypoint",
+   "dr": "junction1_wp25",
+   "from": "15.6464",
+   "to": "27.7778",
+   "category": "inert_waypoint_metadata",
+   "reason": "O campo speedLimit de BeamNGWaypoint é inerte no 0.39.4 (map.lua usa só posição e raio do waypoint; o limite vem do DecalRoad). A aresta junction1_wp25 -> wp19 do navgraph é 100 km/h; o campo é alinhado ao limite funcional e ao radar speedCamera_004 (100), sem efeito na IA.",
+   "center_xy": [
+    -432.8,
+    681.3
+   ],
+   "length_m": 0
+  }
+ ]
+}

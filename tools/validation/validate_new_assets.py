@@ -257,6 +257,14 @@ def check_functional(rep, spec):
                         f"only the declared decal instances differ ({len(dec['delete'])} deleted, "
                         f"{len(dec['set_rectIdx'])} rectIdx changed)")
                 continue
+            # Phase 7: new / appended level files, zone files and level info are checked against the declared decisions
+            sys.path.insert(0, os.path.join(REPO, "tools", "production"))
+            import apply_phase7_functional
+            special = apply_phase7_functional.verify_mod_file(f)
+            if special is not None:
+                errs, what = special
+                rep.add(FAIL if errs else PASS, f"Override {f}", "; ".join(errs) if errs else what)
+                continue
             a = z.read(f).decode("utf-8").split("\n")
             with open(os.path.join(MOD_DIR, f), encoding="utf-8") as fh:
                 b = fh.read().split("\n")

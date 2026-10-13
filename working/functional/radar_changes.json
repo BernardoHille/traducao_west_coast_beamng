@@ -1,0 +1,101 @@
+{
+ "_doc": "Phase 7 radar decisions (BeamNGTrigger speedTrapType=speed, speedLimit in m/s). Rule: radar == regulated limit of the road it enforces (enforced direction measured in game: trigger y axis vs road flow). No trigger sets speedLimitTolerance: the game default (10 % of the limit) is kept.",
+ "changes": [
+  {
+   "id": "radar_2",
+   "plan_id": "event01_corridor_70",
+   "pid": "4d7dbade-e5aa-492a-be62-f16a5e6cb602",
+   "file": "trafficCameras_wip/speedCamera_002/items.level.json",
+   "class": "BeamNGTrigger",
+   "name": "speedTrapTrigger2",
+   "from": "15.6464",
+   "to": "19.4444",
+   "category": "radar_follows_road",
+   "reason": "O radar acompanha o limite regulamentado da via fiscalizada: DR652 (corredor 70 do Event 01). O gatilho fiscaliza o sentido do fluxo dessa via (produto escalar 1,0). Tolerância original preservada (speedLimit * 0,1).",
+   "center_xy": [
+    -416.1,
+    197.7
+   ]
+  },
+  {
+   "id": "radar_3",
+   "plan_id": "ex35mph_60",
+   "pid": "8f20ac08-cc40-4201-b99b-aa27a4eabb70",
+   "file": "trafficCameras_wip/speedCamera_003/items.level.json",
+   "class": "BeamNGTrigger",
+   "name": "speedTrapTrigger3",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "radar_follows_road",
+   "reason": "O radar acompanha o limite regulamentado da via fiscalizada: DR571 (60). O gatilho fiscaliza o sentido do fluxo dessa via (produto escalar 1,0). Tolerância original preservada (speedLimit * 0,1).",
+   "center_xy": [
+    -305.4,
+    325.2
+   ]
+  },
+  {
+   "id": "radar_4",
+   "plan_id": "radar4_outlier_100",
+   "pid": "dbe59e36-13ff-48fc-b7b5-fade5654269b",
+   "file": "trafficCameras_wip/speedCamera_004/items.level.json",
+   "class": "BeamNGTrigger",
+   "name": "speedTrapTrigger4",
+   "from": "15.6464",
+   "to": "27.7778",
+   "category": "radar_follows_road",
+   "reason": "O radar acompanha o limite regulamentado da via fiscalizada: aresta junction1_wp25 -> wp19 (100, automático); não há zona, placa nem transição de 60. O gatilho fiscaliza o sentido do fluxo dessa via (produto escalar 1,0). Tolerância original preservada (speedLimit * 0,1).",
+   "center_xy": [
+    -423.7,
+    672.8
+   ]
+  },
+  {
+   "id": "radar_5",
+   "plan_id": "ex35mph_60",
+   "pid": "2777327b-5b83-4db0-8a77-47d2e7ad3b7b",
+   "file": "trafficCameras_wip/speedCamera_005/items.level.json",
+   "class": "BeamNGTrigger",
+   "name": "speedTrapTrigger5",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "radar_follows_road",
+   "reason": "O radar acompanha o limite regulamentado da via fiscalizada: DR989 (60, ilha). O gatilho fiscaliza o sentido do fluxo dessa via (produto escalar 1,0). Tolerância original preservada (speedLimit * 0,1).",
+   "center_xy": [
+    -1001.7,
+    1902.1
+   ]
+  },
+  {
+   "id": "radar_6",
+   "plan_id": "ex35mph_60",
+   "pid": "0a259251-76f0-4b8f-9f8c-6bbb9d7e803e",
+   "file": "trafficCameras_wip/speedCamera_006/items.level.json",
+   "class": "BeamNGTrigger",
+   "name": "speedTrapTrigger6",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "radar_follows_road",
+   "reason": "O radar acompanha o limite regulamentado da via fiscalizada: DR1213 (60, docas). O gatilho fiscaliza o sentido do fluxo dessa via (produto escalar 1,0). Tolerância original preservada (speedLimit * 0,1).",
+   "center_xy": [
+    414.3,
+    1646.2
+   ]
+  },
+  {
+   "id": "radar_7",
+   "plan_id": "ex35mph_60",
+   "pid": "68bbd35b-d35c-4c78-bc0a-515479b535cf",
+   "file": "trafficCameras_wip/speedCamera_007/items.level.json",
+   "class": "BeamNGTrigger",
+   "name": "speedTrapTrigger7",
+   "from": "15.6464",
+   "to": "16.6667",
+   "category": "radar_follows_road",
+   "reason": "O radar acompanha o limite regulamentado da via fiscalizada: DR1009 (60, ilha). O gatilho fiscaliza o sentido do fluxo dessa via (produto escalar 1,0). Tolerância original preservada (speedLimit * 0,1).",
+   "center_xy": [
+    393.0,
+    1848.0
+   ]
+  }
+ ]
+}

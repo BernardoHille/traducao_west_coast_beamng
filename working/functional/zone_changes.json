@@ -1,0 +1,75 @@
+{
+ "_doc": "Phase 7 zone decisions (customFields.values.speedLimit, m/s) for the map zones (city.sites.json, level zip) and the garageToGarage mission zones (gameplay/, install). No Lua or flowgraph of 0.39.4 reads these values (searched lua/ and gameplay/missionTypes/garageToGarage): they are data, kept coherent with the km/h hierarchy. Shipped as mod overrides of the whole file; only these values may differ.",
+ "changes": [
+  {
+   "id": "zone_horizon_estates",
+   "plan_id": "zones_50",
+   "file": "levels/west_coast_usa/city.sites.json",
+   "source": "level_zip",
+   "zone": "levels.west_coast_usa.zones.horizon_estates",
+   "from": 13.3999996,
+   "to": 13.8889,
+   "reason": "30 mph (13,4 m/s = 48,2 km/h) -> 50 km/h; zona residencial urbana (trafficType residential)."
+  },
+  {
+   "id": "zone_the_dockyards",
+   "plan_id": "ex35mph_60",
+   "file": "levels/west_coast_usa/city.sites.json",
+   "source": "level_zip",
+   "zone": "levels.west_coast_usa.zones.the_dockyards",
+   "from": 15.6000004,
+   "to": 16.6667,
+   "reason": "35 mph (15,6 m/s = 56,2 km/h) -> 60 km/h; docas (trafficType commercial)."
+  },
+  {
+   "id": "zone_mount_wallis",
+   "plan_id": "zones_80",
+   "file": "levels/west_coast_usa/city.sites.json",
+   "source": "level_zip",
+   "zone": "levels.west_coast_usa.zones.mount_wallis",
+   "from": 22.3999996,
+   "to": 22.2222,
+   "reason": "50 mph (22,4 m/s = 80,6 km/h) -> 80 km/h; região serrana. As vias dentro do polígono têm limites automáticos menores (30/60, pela geometria), que continuam valendo em cada via."
+  },
+  {
+   "id": "g2g_downtownBelasco",
+   "plan_id": "zones_50",
+   "file": "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json",
+   "source": "install",
+   "zone": "missions.wcusa.garage.zones.downtownBelasco.name",
+   "from": 13.3999996,
+   "to": 13.8889,
+   "reason": "30 mph -> 50 km/h (centro)."
+  },
+  {
+   "id": "g2g_residential",
+   "plan_id": "zones_50",
+   "file": "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json",
+   "source": "install",
+   "zone": "missions.wcusa.garage.zones.residential.name",
+   "from": 13.3999996,
+   "to": 13.8889,
+   "reason": "30 mph -> 50 km/h (residencial)."
+  },
+  {
+   "id": "g2g_dockyard",
+   "plan_id": "ex35mph_60",
+   "file": "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json",
+   "source": "install",
+   "zone": "missions.wcusa.garage.zones.dockyard.name",
+   "from": 15.6000004,
+   "to": 16.6667,
+   "reason": "35 mph -> 60 km/h (docas)."
+  },
+  {
+   "id": "g2g_mountWallis",
+   "plan_id": "zones_80",
+   "file": "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json",
+   "source": "install",
+   "zone": "missions.wcusa.garage.zones.mountWallis.name",
+   "from": 22.3999996,
+   "to": 22.2222,
+   "reason": "50 mph -> 80 km/h (Mount Wallis)."
+  }
+ ]
+}

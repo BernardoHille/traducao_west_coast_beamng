@@ -53,6 +53,13 @@ mod/traducao_ptbr_wcusa/levels/west_coast_usa/slotTraffic.json
 # Phase 6 — pavement phrases: copy of the game's main.decals.json with 15 instances changed
 #   python tools/production/decal_overrides.py   (decisions: working/layered/t_decal_roadmarkings/decal_overrides.json)
 mod/traducao_ptbr_wcusa/levels/west_coast_usa/main.decals.json
+# Phase 7 — functional overrides (radars, zones, R-19 signs added to the level, fuel units): copies of game files with the
+# declared values changed, regenerated deterministically (decisions: working/functional/):
+#   python tools/production/apply_phase7_functional.py
+# (main/ and slotTraffic.json above are produced by the same build)
+mod/traducao_ptbr_wcusa/levels/west_coast_usa/city.sites.json
+mod/traducao_ptbr_wcusa/levels/west_coast_usa/info.json
+mod/traducao_ptbr_wcusa/gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json
 
 # Generated renders (sources: working/layered/t_roadsigns, working/layered/r19)
 working/png/*.png

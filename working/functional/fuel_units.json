@@ -1,0 +1,18 @@
+{
+ "_doc": "Phase 7 block H: fuel units. levels/west_coast_usa/info.json declares localUnits gasoline/diesel = gallonUS. The only unit string the game recognises is 'gallonUS' (lua/ge/extensions/freeroam/facilities/fuelPrice.lua multiplies the per-litre price by 3.78541 for the pump displays; ui/ui-vue/src/modules/refuel/refuelStore.js maps gallonUS -> 'gal', factor 0.26417; anything else falls back to 'L', factor 1). No other level ships localUnits: the metric default is the absence of the entry. Decision: remove localUnits (no invented string).",
+ "changes": [
+  {
+   "id": "fuel_local_units_metric",
+   "plan_id": "fuel_liter",
+   "file": "levels/west_coast_usa/info.json",
+   "source": "level_zip",
+   "remove_key": "localUnits",
+   "from": {
+    "gasoline": "gallonUS",
+    "diesel": "gallonUS"
+   },
+   "to": null,
+   "reason": "Litro é o padrão métrico do jogo (fallback 'L'); o preço interno já é por litro (getFuelPrice: 'always metric unit'); o custo do abastecimento não muda."
+  }
+ ]
+}

@@ -106,7 +106,14 @@ def load_static():
                     data["radars"].append(rec)
                 else:
                     data["explicit_roads"].append(rec)
-        sites = json.loads(z.read("levels/west_coast_usa/city.sites.json"))
+        # zone files follow the same VFS precedence (Phase 7: the mod overrides city.sites.json)
+        cs = os.path.join(mod_dir, "levels/west_coast_usa/city.sites.json")
+        if os.path.exists(cs):
+            with open(cs, encoding="utf-8") as f:
+                sites = json.load(f)
+            data["overridden_files"].append("levels/west_coast_usa/city.sites.json")
+        else:
+            sites = json.loads(z.read("levels/west_coast_usa/city.sites.json"))
         for zn in sites.get("zones", []):
             vals = zn.get("customFields", {}).get("values", {})
             if "speedLimit" in vals:
@@ -114,6 +121,9 @@ def load_static():
                                       "polygon": [v[:2] if isinstance(v, list) else v["pos"][:2] for v in zn.get("vertices", [])],
                                       "source": "city.sites.json"})
     gpath = os.path.join(install, p["garages_sites"])
+    if os.path.exists(os.path.join(mod_dir, p["garages_sites"])):  # mod file first, as the game's VFS does
+        gpath = os.path.join(mod_dir, p["garages_sites"])
+        data["overridden_files"].append(p["garages_sites"])
     if os.path.exists(gpath):
         with open(gpath, encoding="utf-8") as f:
             for zn in json.load(f).get("zones", []):

@@ -36,6 +36,51 @@
      "source_png": "working/png/r19/t_r19_40_b.color.png"
     },
     {
+     "file": "t_r19_50_b.color.dds",
+     "role": "base_color",
+     "width": 512,
+     "height": 1024,
+     "format": "BC7_UNORM_SRGB",
+     "srgb": true,
+     "mips": "full",
+     "alpha_modes": [
+      "STRAIGHT",
+      "UNKNOWN",
+      "OPAQUE"
+     ],
+     "source_png": "working/png/r19/t_r19_50_b.color.png"
+    },
+    {
+     "file": "t_r19_70_b.color.dds",
+     "role": "base_color",
+     "width": 512,
+     "height": 1024,
+     "format": "BC7_UNORM_SRGB",
+     "srgb": true,
+     "mips": "full",
+     "alpha_modes": [
+      "STRAIGHT",
+      "UNKNOWN",
+      "OPAQUE"
+     ],
+     "source_png": "working/png/r19/t_r19_70_b.color.png"
+    },
+    {
+     "file": "t_r19_120_b.color.dds",
+     "role": "base_color",
+     "width": 512,
+     "height": 1024,
+     "format": "BC7_UNORM_SRGB",
+     "srgb": true,
+     "mips": "full",
+     "alpha_modes": [
+      "STRAIGHT",
+      "UNKNOWN",
+      "OPAQUE"
+     ],
+     "source_png": "working/png/r19/t_r19_120_b.color.png"
+    },
+    {
      "file": "t_r19_o.data.dds",
      "role": "opacity",
      "width": 512,
@@ -58,7 +103,10 @@
    "halo_check": {
     "color": [
      "t_r19_10_b.color.dds",
-     "t_r19_40_b.color.dds"
+     "t_r19_40_b.color.dds",
+     "t_r19_50_b.color.dds",
+     "t_r19_70_b.color.dds",
+     "t_r19_120_b.color.dds"
     ],
     "opacity": "t_r19_o.data.dds",
     "border_rgb": [
@@ -79,6 +127,24 @@
     },
     "roadsigns_ptbr_r19_40": {
      "baseColorMap": "t_r19_40_b.color.dds",
+     "opacityMap": "t_r19_o.data.dds",
+     "alphaTest": true,
+     "alphaRef": 128
+    },
+    "roadsigns_ptbr_r19_50": {
+     "baseColorMap": "t_r19_50_b.color.dds",
+     "opacityMap": "t_r19_o.data.dds",
+     "alphaTest": true,
+     "alphaRef": 128
+    },
+    "roadsigns_ptbr_r19_70": {
+     "baseColorMap": "t_r19_70_b.color.dds",
+     "opacityMap": "t_r19_o.data.dds",
+     "alphaTest": true,
+     "alphaRef": 128
+    },
+    "roadsigns_ptbr_r19_120": {
+     "baseColorMap": "t_r19_120_b.color.dds",
      "opacityMap": "t_r19_o.data.dds",
      "alphaTest": true,
      "alphaRef": 128
@@ -113,18 +179,52 @@
      ],
      "cdae": "levels/west_coast_usa/art/shapes/objects/sign_speed25.cdae",
      "doc": "Replaced in place: all 11 instances are real 25 mph signs."
+    },
+    {
+     "file": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_50.dae",
+     "original": "source/originals/meshes/objects/sign_speed25.dae",
+     "materials": [
+      "roadsigns_ptbr_r19_50",
+      "roadsigns_ptbr_r19_back"
+     ],
+     "cdae": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_50.cdae",
+     "doc": "Phase 7: NEW mesh for the 50 km/h R-19 signs the mod adds (ADAS 50 zone / its 120 exit / Event 01 70 corridor); built from sign_speed25.dae exactly like the 40 (only materials and UVs differ)."
+    },
+    {
+     "file": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_70.dae",
+     "original": "source/originals/meshes/objects/sign_speed25.dae",
+     "materials": [
+      "roadsigns_ptbr_r19_70",
+      "roadsigns_ptbr_r19_back"
+     ],
+     "cdae": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_70.cdae",
+     "doc": "Phase 7: NEW mesh for the 70 km/h R-19 signs the mod adds (ADAS 50 zone / its 120 exit / Event 01 70 corridor); built from sign_speed25.dae exactly like the 40 (only materials and UVs differ)."
+    },
+    {
+     "file": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_120.dae",
+     "original": "source/originals/meshes/objects/sign_speed25.dae",
+     "materials": [
+      "roadsigns_ptbr_r19_120",
+      "roadsigns_ptbr_r19_back"
+     ],
+     "cdae": "levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_120.cdae",
+     "doc": "Phase 7: NEW mesh for the 120 km/h R-19 signs the mod adds (ADAS 50 zone / its 120 exit / Event 01 70 corridor); built from sign_speed25.dae exactly like the 40 (only materials and UVs differ)."
     }
    ]
   }
  },
  "functional_files": {
-  "doc": "Level data overridden for the 10/40 km/h limits and the 7 R-19 10 sign instances (tools/production/speed_overrides.py). Each must differ from the game file only in declared speedLimit values or declared TSStatic shapeName values. Phase 6: main.decals.json (pavement phrases) may differ only in the instances declared by working/layered/t_decal_roadmarkings/decal_overrides.json.",
+  "doc": "Level data overridden for the 10/40 km/h limits and the 7 R-19 10 sign instances (tools/production/speed_overrides.py). Each must differ from the game file only in declared speedLimit values or declared TSStatic shapeName values. Phase 6: main.decals.json (pavement phrases) may differ only in the instances declared by working/layered/t_decal_roadmarkings/decal_overrides.json. Phase 7 (tools/production/apply_phase7_functional.py, decisions in working/functional/): radar and waypoint speedLimit values in existing level files; the SimGroup ptbr_functional_signs appended to MissionGroup/items.level.json and its new items.level.json (R-19 signs + poles); city.sites.json and garageToGarage garages.sites.json (declared zone speedLimit values only); info.json (localUnits removed). Each is verified by the generator's own verify functions.",
   "patterns": [
    "levels/west_coast_usa/main/MissionGroup/*/items.level.json",
    "levels/west_coast_usa/main/MissionGroup/*/*/items.level.json",
    "levels/west_coast_usa/main/MissionGroup/*/*/*/items.level.json",
    "levels/west_coast_usa/slotTraffic.json",
-   "levels/west_coast_usa/main.decals.json"
+   "levels/west_coast_usa/main.decals.json",
+   "levels/west_coast_usa/main/MissionGroup/items.level.json",
+   "levels/west_coast_usa/city.sites.json",
+   "levels/west_coast_usa/info.json",
+   "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json"
   ]
  },
  "glyph_meshes": {

@@ -1,0 +1,426 @@
+{
+ "_doc": "Phase 7, blocks E/F: regulated corridors for the ADAS research scenarios, their R-19 signs and the Event 01 start. Road speed values live in working/functional/speed_changes.json (plan ids adas50_zone, adas50_exit_120, event01_corridor_70); this file holds the scenario geometry. Sign/spawn positions are measured in the game by working/functional/place_signs.py and frozen under _measured (the generator never talks to the game).",
+ "routes": {
+  "adas50": {
+   "doc": "Southwest freeway carriageway (one-way, 4 lanes) at the start of the zone: DR694 (120) -> DR312 (DR694_9, 556.8 / 790.0).",
+   "start": [
+    590.0,
+    810.0,
+    115.1
+   ],
+   "dir": [
+    -0.86,
+    -0.5
+   ],
+   "length_m": 200
+  },
+  "adas50_spawn": {
+   "doc": "From the ADAS Speed Alert spawn along DR312 (edge DR253_6 -> DR312_9; the DR253 exit ramp diverges here, the route stays on the freeway).",
+   "start": [
+    431.22614,
+    701.59303,
+    115.9
+   ],
+   "dir": [
+    -0.8025,
+    -0.5967
+   ],
+   "length_m": 260
+  },
+  "adas50_exit": {
+   "doc": "From the DR312 -> DR758 junction (end of the 50 zone) onwards.",
+   "start": [
+    -415.2,
+    -20.3,
+    110.3
+   ],
+   "dir": [
+    -0.697,
+    -0.717
+   ],
+   "length_m": 120
+  },
+  "event01": {
+   "doc": "Northbound avenue carriageway DR652 (one-way, 2 lanes), from the signalised junction DR192_5 to the ramp DR663/DR659.",
+   "start": [
+    -435.0,
+    154.5,
+    100.3
+   ],
+   "dir": [
+    0.364,
+    0.931
+   ],
+   "length_m": 230
+  }
+ },
+ "zones": [
+  {
+   "id": "adas50_zone",
+   "target_kph": 50,
+   "road": {
+    "dr": "DR312",
+    "pid": "cfca014d-87c1-48ab-abdd-98dd3bd4d1d6"
+   },
+   "scenarios": [
+    "adasSpeedAlertTest",
+    "adasSpeedAlertWeb"
+   ],
+   "doc": "Spawn (431.2, 701.6) lies on DR312 (navgraph edge DR253_6 -> DR312_9, 1 m from the axis). DR312 is a road_invisible AI road (no visual mesh): its whole length (1268 m) becomes 50, from ~190 m before the spawn to ~1030 m after it. Speed granularity is one value per DecalRoad; shortening the zone would need splitting the road object (geometry change), which this phase does not do."
+  },
+  {
+   "id": "event01_corridor_70",
+   "target_kph": 70,
+   "road": {
+    "dr": "DR652",
+    "pid": "989ef979-49ee-419e-919f-2bf1c6d08e9d"
+   },
+   "scenarios": [
+    "event01SpeedLimitRecognition"
+   ],
+   "doc": "Northbound carriageway of the divided avenue (2 lanes, 216 m) that Event 01 takes after the signalised junction. Original explicit value 35 mph (15.6464 m/s). The old start (DR272, a local road at 40 km/h since Phase 5) cannot carry 70: the start moves 45 m forward onto DR652 (scenario_patches)."
+  }
+ ],
+ "signs": [
+  {
+   "id": "r19_50_entry_right",
+   "plan_id": "adas50_zone",
+   "value": 50,
+   "regulates": [
+    "cfca014d-87c1-48ab-abdd-98dd3bd4d1d6"
+   ],
+   "placement": {
+    "route": "adas50",
+    "distance_m": 64,
+    "side": "right",
+    "clearance_m": 2.0
+   },
+   "_measured": {
+    "road_point": [
+     535.11,
+     777.269,
+     115.284
+    ],
+    "flow": [
+     -0.823,
+     -0.5681
+    ],
+    "half_width_m": 6.11,
+    "edge": [
+     "DR694_9",
+     "DR312_11"
+    ],
+    "xy": [
+     530.505,
+     783.94
+    ],
+    "road_z": 115.284,
+    "ground_z": 115.585
+   }
+  },
+  {
+   "id": "r19_50_entry_left",
+   "plan_id": "adas50_zone",
+   "value": 50,
+   "regulates": [
+    "cfca014d-87c1-48ab-abdd-98dd3bd4d1d6"
+   ],
+   "placement": {
+    "route": "adas50",
+    "distance_m": 64,
+    "side": "left",
+    "clearance_m": 5.9
+   },
+   "_measured": {
+    "road_point": [
+     535.11,
+     777.269,
+     115.284
+    ],
+    "flow": [
+     -0.823,
+     -0.5681
+    ],
+    "half_width_m": 6.11,
+    "edge": [
+     "DR694_9",
+     "DR312_11"
+    ],
+    "xy": [
+     541.93,
+     767.389
+    ],
+    "road_z": 115.284,
+    "ground_z": 115.15
+   },
+   "doc": "Median side, 0.8 m in front of the concrete barrier (measured: barrier 12.8 m from the axis)."
+  },
+  {
+   "id": "r19_50_spawn_right",
+   "plan_id": "adas50_zone",
+   "value": 50,
+   "regulates": [
+    "cfca014d-87c1-48ab-abdd-98dd3bd4d1d6"
+   ],
+   "doc": "Right-side repeat once the DR253 exit ramp has separated (~160 m after the spawn).",
+   "placement": {
+    "route": "adas50_spawn",
+    "distance_m": 200,
+    "side": "right",
+    "clearance_m": 2.0
+   },
+   "_measured": {
+    "road_point": [
+     270.243,
+     582.854,
+     116.189
+    ],
+    "flow": [
+     -0.7915,
+     -0.6112
+    ],
+    "half_width_m": 7.25,
+    "edge": [
+     "DR312_9",
+     "DR312_8"
+    ],
+    "xy": [
+     264.591,
+     590.172
+    ],
+    "road_z": 116.189,
+    "ground_z": 116.456
+   }
+  },
+  {
+   "id": "r19_50_spawn_left",
+   "plan_id": "adas50_zone",
+   "value": 50,
+   "regulates": [
+    "cfca014d-87c1-48ab-abdd-98dd3bd4d1d6"
+   ],
+   "placement": {
+    "route": "adas50_spawn",
+    "distance_m": 45,
+    "side": "left",
+    "clearance_m": 5.9
+   },
+   "_measured": {
+    "road_point": [
+     393.1,
+     677.358,
+     115.835
+    ],
+    "flow": [
+     -0.7933,
+     -0.6088
+    ],
+    "half_width_m": 5.88,
+    "edge": [
+     "DR253_6",
+     "DR312_9"
+    ],
+    "xy": [
+     400.271,
+     668.015
+    ],
+    "road_z": 115.835,
+    "ground_z": 115.734
+   },
+   "doc": "Repeat ~45 m ahead of the scenario spawn, in view at the start (the participant never starts under an unsigned rule). Median side, 0.8 m in front of the barrier: the right side here is the DR253 exit ramp splitting off."
+  },
+  {
+   "id": "r19_120_exit_right",
+   "plan_id": "adas50_exit_120",
+   "value": 120,
+   "regulates": [
+    "512c9f8f-76c7-4cb7-89a7-389483b6b717"
+   ],
+   "doc": "End of the 50 zone on the same carriageway: the freeway limit (120, DR758) is restored with a sign.",
+   "placement": {
+    "route": "adas50_exit",
+    "distance_m": 25,
+    "side": "right",
+    "clearance_m": 2.0
+   },
+   "_measured": {
+    "road_point": [
+     -432.669,
+     -38.17,
+     109.053
+    ],
+    "flow": [
+     -0.6927,
+     -0.7212
+    ],
+    "half_width_m": 7.23,
+    "edge": [
+     "DR312_2",
+     "Bridge30_2"
+    ],
+    "xy": [
+     -439.326,
+     -31.776
+    ],
+    "road_z": 109.053,
+    "ground_z": 109.091
+   }
+  },
+  {
+   "id": "r19_70_entry_right",
+   "plan_id": "event01_corridor_70",
+   "value": 70,
+   "regulates": [
+    "989ef979-49ee-419e-919f-2bf1c6d08e9d"
+   ],
+   "doc": "At the corridor entry, ~20 m ahead of the Event 01 start.",
+   "placement": {
+    "route": "event01",
+    "distance_m": 32,
+    "side": "right",
+    "clearance_m": 1.5
+   },
+   "_measured": {
+    "road_point": [
+     -422.886,
+     183.706,
+     100.287
+    ],
+    "flow": [
+     0.4365,
+     0.8997
+    ],
+    "half_width_m": 4.19,
+    "edge": [
+     "DR652_2",
+     "autojunction_86"
+    ],
+    "xy": [
+     -417.765,
+     181.221
+    ],
+    "road_z": 100.287,
+    "ground_z": 100.351
+   }
+  },
+  {
+   "id": "r19_70_repeat_right",
+   "plan_id": "event01_corridor_70",
+   "value": 70,
+   "regulates": [
+    "989ef979-49ee-419e-919f-2bf1c6d08e9d"
+   ],
+   "doc": "Repeat after the side junctions (autojunction_86, DR187_2) where traffic joins the corridor.",
+   "placement": {
+    "route": "event01",
+    "distance_m": 105,
+    "side": "right",
+    "clearance_m": 1.5
+   },
+   "_measured": {
+    "road_point": [
+     -386.85,
+     247.014,
+     100.932
+    ],
+    "flow": [
+     0.5895,
+     0.8078
+    ],
+    "half_width_m": 3.96,
+    "edge": [
+     "DR652_5",
+     "DR652_6"
+    ],
+    "xy": [
+     -382.44,
+     243.795
+    ],
+    "road_z": 100.932,
+    "ground_z": 100.987
+   }
+  }
+ ],
+ "spawns": [
+  {
+   "id": "event01_start",
+   "plan_id": "event01_corridor_70",
+   "doc": "New Event 01 start: right lane of DR652, 12 m after the junction, heading along the corridor.",
+   "placement": {
+    "route": "event01",
+    "distance_m": 12,
+    "side": "lane",
+    "lane_offset_m": 2.2
+   },
+   "_measured": {
+    "road_point": [
+     -430.274,
+     165.124,
+     100.11
+    ],
+    "flow": [
+     0.3661,
+     0.9306
+    ],
+    "half_width_m": 4.02,
+    "edge": [
+     "DR192_5",
+     "DR652_2"
+    ],
+    "xy": [
+     -428.227,
+     164.318
+    ],
+    "road_z": 100.11,
+    "ground_z": 100.07
+   }
+  }
+ ],
+ "sign_template": {
+  "doc": "Mounting copied from an original West Coast 25 mph sign (road_signs group, sign_speed25 a083b8aa + pole_fence1 f77160d4): sign centre 2.224 m above ground, pole_fence1 upside down (z axis -1) 0.11 m behind the face, origin 1.098 m above ground. Sign face = local -Y (R-19 mesh), so local +Y points along the traffic flow.",
+  "sign_height_m": 2.224,
+  "pole_shape": "/levels/west_coast_usa/art/shapes/objects/pole_fence1.dae",
+  "pole_height_m": 1.098,
+  "pole_behind_m": 0.11,
+  "group": "ptbr_functional_signs"
+ },
+ "scenario_patches": [
+  {
+   "id": "event01_start_on_corridor",
+   "plan_id": "event01_corridor_70",
+   "mod": "adas_event01_speed_limit",
+   "file": "lua/ge/extensions/event01SpeedLimitRecognition.lua",
+   "doc": "Spec section 32: the start may move when the original route cannot carry 70. Only the start point/heading change; alertSpeedKmh = 70 and rearmSpeedKmh = 65 stay as they are.",
+   "replace": [
+    {
+     "old": "-- Validated in West Coast USA 0.39.4. The start is in the legal eastbound lane\n-- immediately before the signalized intersection near DR272_7 -> DR192_1.\nlocal worldUp = vec3(0, 0, 1)\nlocal startRoadDirection = vec3(0.951, -0.307, 0):normalized()\nlocal startRoadRight = startRoadDirection:cross(worldUp):normalized()\nlocal playerSpawn = vec3(-472.5, 155.03, 100.30) + startRoadRight * 2.0",
+     "new_template": "-- PT-BR localisation, Phase 7 (70 km/h corridor): the start moved from the signalised approach on\n-- DR272 (a local road, 40 km/h) to the right lane of the avenue DR652, 12 m after the junction, where the\n-- regulated 70 km/h corridor begins (R-19 70 sign ~20 m ahead). Original start: vec3(-472.5, 155.03, 100.30)\n-- + right * 2.0, heading (0.951, -0.307).\nlocal worldUp = vec3(0, 0, 1)\nlocal startRoadDirection = vec3({fx}, {fy}, 0):normalized()\nlocal startRoadRight = startRoadDirection:cross(worldUp):normalized()\nlocal playerSpawn = vec3({x}, {y}, {z})",
+     "spawn": "event01_start"
+    }
+   ]
+  },
+  {
+   "id": "event01_mission_start_marker",
+   "plan_id": "event01_corridor_70",
+   "mod": "adas_event01_speed_limit",
+   "file": "gameplay/missions/west_coast_usa/adasEvent01/001-speedLimitRecognition/info.json",
+   "doc": "Mission start marker follows the new start; the card text no longer says the run starts at the traffic light.",
+   "replace": [
+    {
+     "old": "\"pos\": [-473.11441, 153.12671, 100.30],",
+     "new_template": "\"pos\": [{x}, {y}, {z}],",
+     "spawn": "event01_start"
+    },
+    {
+     "old": "\"rot\": [0, 0, 0.8084576164, 0.5885544006],",
+     "new_template": "\"rot\": [0, 0, {qz}, {qw}],",
+     "spawn": "event01_start"
+    },
+    {
+     "old": "\"description\": \"Parta do semáforo e siga em frente pela avenida principal.",
+     "new": "\"description\": \"Parta no início da avenida principal, trecho regulamentado de 70 km/h, e siga em frente."
+    }
+   ]
+  }
+ ]
+}

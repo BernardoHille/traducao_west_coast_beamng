@@ -1,26 +1,29 @@
 """Apply the functional speed-limit decisions as minimal mod overrides of the West Coast level files.
 
-Input : working/speed/speed_changes.json   (one record per DecalRoad: persistentId, file, from, to, reason)
+Input : working/speed/speed_changes.json   (Phase 5: one record per DecalRoad: persistentId, file, from, to, reason)
+        working/functional/speed_changes.json, radar_changes.json   (Phase 7: same format plus "class": DecalRoad,
+        BeamNGWaypoint or BeamNGTrigger); objects ADDED to the level (Phase 7 R-19 signs) are passed in by
+        tools/production/apply_phase7_functional.py, which is the build entry point since Phase 7
 Output: mod/traducao_ptbr_wcusa/levels/west_coast_usa/main/MissionGroup/<group>/items.level.json
         mod/traducao_ptbr_wcusa/levels/west_coast_usa/slotTraffic.json
-        tests/reports/phase5_speed_diff.json (+ printed summary)
 
 Rules (docs/production/slotTraffic_update.md):
 - level files are one JSON object per line: only the target lines change, and only the "speedLimit"
   field (replaced, or inserted in alphabetical key position); every other byte is copied from the game zip;
+  added objects are whole new lines after the last object of a file, or a new file (new SimGroup);
 - every edited line is re-parsed and compared with the original object: only speedLimit may differ;
 - slotTraffic.json is derived from the navgraph: its lanes are matched to the edited DecalRoads by
   geometry (lane centerline samples within MATCH_M of the road polyline, >= 90 % of samples) and only
   the "speedLimit" lines of those lanes (roads.*.properties and nodes.*.links.*) are rewritten, keeping
   the file's formatting. Lanes are only touched if their current value equals the road's old effective
-  value (explicit value, or the auto value read from the navgraph snapshot).
+  value (explicit value, or the auto value read from the navgraph snapshot). Explicit mph-derived values
+  (11.18 / 11.5 / 12 / 15.6464 m/s) are also replaced by value class (see build_slot).
 
-    python tools/production/speed_overrides.py            # build overrides + diff report
+    python tools/production/speed_overrides.py            # = python tools/production/apply_phase7_functional.py
     python tools/production/speed_overrides.py --check    # verify the mod files against the zip
 """
 from __future__ import annotations
 
-import argparse
 import json
 import re
 import sys
@@ -32,21 +35,41 @@ import numpy as np
 REPO = Path(__file__).resolve().parents[2]
 GAME_ZIP = Path(r"C:/Program Files (x86)/Steam/steamapps/common/BeamNG.drive/content/levels/west_coast_usa.zip")
 CHANGES = REPO / "working/speed/speed_changes.json"
+PHASE7_CHANGES = [REPO / "working/functional/speed_changes.json", REPO / "working/functional/radar_changes.json"]
 INSTANCES = REPO / "working/speed/sign_instances.json"
 MOD_LEVEL = REPO / "mod/traducao_ptbr_wcusa/levels/west_coast_usa"
-REPORT = REPO / "tests/reports/phase5_speed_diff.json"
+REPORT = REPO / "tests/reports/phase5_speed_diff.json"   # Phase 5 record (kept as committed; Phase 7 reports go to tests/reports/phase7/)
 LEVEL_PREFIX = "levels/west_coast_usa/main/MissionGroup/"
 SLOT = "levels/west_coast_usa/slotTraffic.json"
 MATCH_M = 1.6
 TOL = 1e-3
 TOL_AUTO = 2e-3  # navgraph auto values are read with 4 decimals
+EQUAL_MPS = 1e-4  # a slotTraffic value already equal to the target (explicit value == automatic one) is left untouched
+# explicit values that come from mph signs (never from the automatic metric list 30/50/60/80/100/120 km/h)
+MPH_VALUES = {11.18, 11.5, 12.0, 15.6464}
+VALUE_CLASS_CATEGORIES = ("40_explicit", "60_explicit")
+NO_ADDITIONS = {"append": {}, "new": {}}
+
+
+def load_changes():
+    """Phase 5 records (DecalRoad) followed by the Phase 7 ones (DecalRoad, BeamNGWaypoint, BeamNGTrigger)."""
+    changes = json.loads(CHANGES.read_text(encoding="utf8"))["changes"]
+    for p in PHASE7_CHANGES:
+        if p.exists():
+            changes += json.loads(p.read_text(encoding="utf8"))["changes"]
+    seen = set()
+    for c in changes:
+        if (c["file"], c["pid"]) in seen:
+            raise SystemExit(f"{c['pid']}: declared twice")
+        seen.add((c["file"], c["pid"]))
+    return changes
 
 
 # ---------------------------------------------------------------- level files
-def edit_line(line: str, pid: str, old, new: str) -> str:
+def edit_line(line: str, pid: str, old, new: str, cls: str = "DecalRoad") -> str:
     obj = json.loads(line)
-    if obj.get("persistentId") != pid or obj.get("class") != "DecalRoad":
-        raise SystemExit(f"{pid}: line is not that DecalRoad")
+    if obj.get("persistentId") != pid or obj.get("class") != cls:
+        raise SystemExit(f"{pid}: line is not that {cls}")
     cur = obj.get("speedLimit")
     if (cur is None and old is not None) or (cur is not None and old is None) or (cur is not None and float(cur) != float(old)):
         raise SystemExit(f"{pid}: expected speedLimit {old!r}, found {cur!r}")
@@ -90,19 +113,29 @@ def load_instances():
     return json.loads(INSTANCES.read_text(encoding="utf8"))["instances"] if INSTANCES.exists() else []
 
 
-def build_level_files(changes, zf):
+def build_level_files(changes, zf, additions=NO_ADDITIONS):
+    """additions: {"append": {rel: [lines]}, "new": {rel: [lines]}} - whole objects added after the last object of a
+    game file, or files that do not exist in the game (a new SimGroup)."""
     by_file = {}
     for c in changes:
         by_file.setdefault(c["file"], []).append(c)
     for inst in load_instances():
         by_file.setdefault(inst["file"], []).append(dict(inst, kind="shape"))
+    for rel in additions["append"]:
+        by_file.setdefault(rel, [])
     # stale overrides from earlier decisions are removed (only files this tool generates live here)
     root = MOD_LEVEL / "main/MissionGroup"
     if root.exists():
         for f in root.rglob("items.level.json"):
-            if f.relative_to(root).as_posix() not in by_file:
+            rel = f.relative_to(root).as_posix()
+            if rel not in by_file and rel not in additions["new"]:
                 f.unlink()
     out = []
+    for rel, new_lines in sorted(additions["new"].items()):
+        dst = root / rel
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        dst.write_bytes(("\n".join(new_lines) + "\n").encode("utf8"))
+        out.append({"file": rel, "new_file": True, "added_objects": len(new_lines)})
     for rel, items in sorted(by_file.items()):
         raw = zf.read(LEVEL_PREFIX + rel).decode("utf8")
         lines = raw.split("\n")
@@ -116,11 +149,15 @@ def build_level_files(changes, zf):
             if c.get("kind") == "shape":
                 lines[i] = edit_shape(lines[i], c["pid"], c["from"], c["to"])
             else:
-                lines[i] = edit_line(lines[i], c["pid"], c["from"], c["to"])
-        dst = MOD_LEVEL / "main/MissionGroup" / rel
+                lines[i] = edit_line(lines[i], c["pid"], c["from"], c["to"], c.get("class", "DecalRoad"))
+        app = additions["append"].get(rel, [])
+        if app:
+            tail = 1 if lines[-1] == "" else 0
+            lines = lines[:len(lines) - tail] + list(app) + [""] * tail
+        dst = root / rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         dst.write_bytes("\n".join(lines).encode("utf8"))
-        out.append({"file": rel, "edited_objects": len(items), "lines_total": len(lines)})
+        out.append({"file": rel, "edited_objects": len(items), "appended_objects": len(app), "lines_total": len(lines)})
     return out
 
 
@@ -199,8 +236,9 @@ def build_slot(changes, zf, report):
     raw = zf.read(SLOT).decode("utf8")
     slot = json.loads(raw)
     lines = raw.split("\n")
+    roads = [c for c in changes if c.get("class", "DecalRoad") == "DecalRoad"]  # waypoints/triggers have no lanes
     level = {}
-    for c in changes:
+    for c in roads:
         for l in zf.read(LEVEL_PREFIX + c["file"]).decode("utf8").split("\n"):
             if c["pid"] in l:
                 o = json.loads(l)
@@ -208,40 +246,53 @@ def build_slot(changes, zf, report):
                 roads_width[c["pid"]] = float(np.median([n[3] for n in o["nodes"]]))
                 break
     lanes = match_lanes(slot, level)
-    want = {}
-    for c in changes:
+    want, conflicts = {}, []
+    for c in roads:
         old_eff = float(c["from"]) if c["from"] is not None else c["old_effective_mps"]
         for rid in lanes.get(c["pid"], []):
-            want[rid] = (old_eff, float(c["to"]), c["pid"])
-    # Explicit mph-derived values (11.18 / 11.5 / 12 m/s) never come from the automatic metric list
-    # (30/50/60/80/100/120 km/h), and EVERY navgraph road holding one of them is converted in this
-    # phase, so in the derived file the value itself identifies the source: exact value replacement.
+            prev = want.get(rid)
+            if prev and abs(prev[1] - float(c["to"])) > TOL:
+                conflicts.append({"lane": rid, "roads": [prev[2], c["pid"]]})
+            want[rid] = (old_eff, float(c["to"]), c["pid"])  # same target: the last record wins (Phase 5 behaviour)
+    if conflicts:
+        raise SystemExit(f"slotTraffic: lanes matched to roads with different decisions: {conflicts[:5]}")
+    # Explicit mph-derived values never come from the automatic metric list (30/50/60/80/100/120 km/h), and EVERY
+    # navgraph road holding one of them is converted, so in the derived file the value itself identifies the source:
+    # exact value replacement towards the class target. Lanes matched by geometry to a road with its own decision
+    # (Phase 7: DR652, 35 mph -> 70 corridor instead of 60) take that decision first.
     explicit = {}
-    for c in changes:
-        if c["from"] is not None and c.get("category", "").startswith("40_explicit"):
-            explicit[float(c["from"])] = float(c["to"])
-    navgraph_explicit = {float(o) for o in data_explicit_values(zf)}
-    if not set(explicit) >= (navgraph_explicit & {11.18, 11.5, 12.0}):
-        raise SystemExit("value-class replacement requires converting every road of the class")
-    edits, skipped, geo_hits = [], [], 0
+    for c in roads:
+        if c["from"] is not None and c.get("category", "").startswith(VALUE_CLASS_CATEGORIES):
+            k = float(c["from"])
+            if k in explicit and abs(explicit[k] - float(c["to"])) > TOL:
+                raise SystemExit(f"value class {k}: two targets")
+            explicit[k] = float(c["to"])
+    decided = {c["pid"] for c in roads}
+    missing = [pid for pid, v in data_explicit_roads(zf).items() if float(v) in MPH_VALUES and pid not in decided]
+    if missing or not set(explicit) >= ({float(v) for v in data_explicit_values(zf)} & MPH_VALUES):
+        raise SystemExit(f"value-class replacement requires converting every road of the class (missing: {missing[:5]})")
+    edits, skipped, equal, geo_hits = [], [], [], 0
     for i, kind, owner, val in walk_speed_lines(lines):
-        if any(abs(val - k) <= TOL for k in explicit):
-            new = next(v for k, v in explicit.items() if abs(val - k) <= TOL)
-            in_geo = owner in want
-            geo_hits += in_geo
-            lines[i] = re.sub(r'("speedLimit":\s*)[-0-9.eE+]+', lambda m: m.group(1) + c_num(new), lines[i])
-            edits.append({"line": i + 1, "kind": kind, "lane": owner, "old": val, "new": float(c_num(new)),
-                          "rule": "value_class", "geometry_match": in_geo})
+        w = want.get(owner)
+        if w and abs(val - w[0]) <= TOL_AUTO:
+            new, rule, road = w[1], "geometry", w[2]
+        elif any(abs(val - k) <= TOL for k in explicit):
+            new, rule, road = next(v for k, v in explicit.items() if abs(val - k) <= TOL), "value_class", None
+        else:
+            if w:
+                skipped.append({"line": i + 1, "kind": kind, "lane": owner, "value": val, "expected_old": w[0], "road": w[2]})
             continue
-        if owner not in want:
+        if abs(new - val) <= EQUAL_MPS:
+            equal.append({"line": i + 1, "kind": kind, "lane": owner, "value": val, "road": road})
             continue
-        old_eff, new, pid = want[owner]
-        if abs(val - old_eff) > TOL_AUTO:
-            skipped.append({"line": i + 1, "kind": kind, "lane": owner, "value": val, "expected_old": old_eff, "road": pid})
-            continue
+        geo_hits += rule == "value_class" and owner in want
         lines[i] = re.sub(r'("speedLimit":\s*)[-0-9.eE+]+', lambda m: m.group(1) + c_num(new), lines[i])
-        edits.append({"line": i + 1, "kind": kind, "lane": owner, "old": val, "new": float(c_num(new)), "road": pid,
-                      "rule": "geometry"})
+        e = {"line": i + 1, "kind": kind, "lane": owner, "old": val, "new": float(c_num(new)), "rule": rule}
+        if road:
+            e["road"] = road
+        if rule == "value_class":
+            e["geometry_match"] = owner in want
+        edits.append(e)
     dst = MOD_LEVEL / "slotTraffic.json"
     dst.parent.mkdir(parents=True, exist_ok=True)
     dst.write_bytes("\n".join(lines).encode("utf8"))
@@ -251,17 +302,23 @@ def build_slot(changes, zf, report):
         "unmatched_roads": [pid for pid, v in lanes.items() if not v],
         "edited_lines": len(edits), "edited_road_properties": sum(e["kind"] == "road" for e in edits),
         "edited_links": sum(e["kind"] == "link" for e in edits), "value_class_lines_also_matched_by_geometry": geo_hits,
-        "skipped_value_mismatch": skipped, "edits": edits}
+        "already_equal_untouched": equal, "skipped_value_mismatch": skipped, "edits": edits}
 
 
-def data_explicit_values(zf):
-    vals = set()
+def data_explicit_roads(zf):
+    """persistentId -> explicit speedLimit of every DecalRoad of the level (game zip)."""
+    out = {}
     for n in zf.namelist():
         if n.startswith(LEVEL_PREFIX) and n.endswith("items.level.json"):
             for l in zf.read(n).decode("utf8", "replace").splitlines():
                 if '"class":"DecalRoad"' in l and '"speedLimit"' in l:
-                    vals.add(json.loads(l)["speedLimit"])
-    return vals
+                    o = json.loads(l)
+                    out[o["persistentId"]] = o["speedLimit"]
+    return out
+
+
+def data_explicit_values(zf):
+    return set(data_explicit_roads(zf).values())
 
 
 def c_num(v: float) -> str:
@@ -269,41 +326,12 @@ def c_num(v: float) -> str:
     return f"{v:.14g}"
 
 
-def main(argv=None) -> int:
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--check", action="store_true", help="only verify existing overrides against the zip")
-    a = ap.parse_args(argv)
-    data = json.loads(CHANGES.read_text(encoding="utf8"))
-    changes = data["changes"]
-    zf = zipfile.ZipFile(GAME_ZIP)
-    report = {"changes": len(changes), "by_target": {}}
-    for c in changes:
-        report["by_target"][c["to"]] = report["by_target"].get(c["to"], 0) + 1
-    if not a.check:
-        report["level_files"] = build_level_files(changes, zf)
-        build_slot(changes, zf, report)
-    report["verification"] = verify(changes, zf)
-    if not a.check:
-        write_sign_regulation(changes, zf)
-    REPORT.parent.mkdir(parents=True, exist_ok=True)
-    REPORT.write_text(json.dumps(report, indent=1) + "\n", encoding="utf8")
-    s = report.get("slotTraffic", {})
-    print(json.dumps({k: report[k] for k in ("changes", "by_target")}, indent=1))
-    for f in report.get("level_files", []):
-        print(f"  {f['file']}: {f['edited_objects']} objects edited")
-    if s:
-        print(f"  slotTraffic.json: {s['edited_lines']} lines ({s['edited_road_properties']} lanes, {s['edited_links']} links), "
-              f"unmatched roads {len(s['unmatched_roads'])}, skipped {len(s['skipped_value_mismatch'])}")
-    v = report["verification"]
-    print(f"verification: {'OK' if v['ok'] else 'FAIL'} {v['summary']}")
-    return 0 if v["ok"] else 1
-
-
 SIGN_REG = REPO / "tools/validation/config/sign_regulation.json"
 
 
-def write_sign_regulation(changes, zf):
-    """Config for validate.py speeds: each speed sign -> roads it regulates (declared, reviewed decision)."""
+def write_sign_regulation(changes, zf, added_signs=()):
+    """Config for validate.py speeds: each speed sign -> roads it regulates (declared, reviewed decision).
+    added_signs (Phase 7): signs the mod adds to the level, already with their regulated_roads."""
     signs = []
     shape_of = {i["pid"]: i["to"] for i in load_instances()}
     for n in zf.namelist():
@@ -327,22 +355,43 @@ def write_sign_regulation(changes, zf):
                 if abs(sp[0] - sg["position"][0]) < 1.0 and abs(sp[1] - sg["position"][1]) < 1.0:
                     regs.append({"persistentId": c["pid"], "file": c["file"], "to_mps": float(c["to"]), "category": c["category"]})
         sg["regulated_roads"] = regs
-    out = {"_doc": "Generated by tools/production/speed_overrides.py from working/speed/speed_changes.json. Each West Coast "
-                   "speed sign with the DecalRoads it regulates (semantic + spatial decision, docs/production/PHASE5_ROADSIGNS.md). "
+    signs += list(added_signs)
+    out = {"_doc": "Generated by tools/production/apply_phase7_functional.py (speed_overrides.write_sign_regulation) from "
+                   "working/speed/speed_changes.json + working/functional/. Each West Coast speed sign (original sign_speed* "
+                   "and the R-19 signs added in Phase 7, group ptbr_functional_signs) with the DecalRoads it regulates "
+                   "(semantic + spatial decision, docs/production/PHASE5_ROADSIGNS.md, docs/production/phase7/). "
                    "validate.py speeds checks sign value == explicit limit of every regulated road.",
            "signs": signs}
     SIGN_REG.write_text(json.dumps(out, indent=1) + "\n", encoding="utf8")
 
 
-def verify(changes, zf):
-    """Every mod level file differs from the zip only in the speedLimit of the declared objects."""
+def verify(changes, zf, additions=NO_ADDITIONS):
+    """Every mod level file differs from the zip only in the speedLimit of the declared objects (and the shapeName
+    of the declared R-19 10 instances); appended / new files hold exactly the declared objects."""
     want = {(c["file"], c["pid"]): c["to"] for c in changes}
     shapes = {(i["file"], i["pid"]): i["to"] for i in load_instances()}
-    problems, n_diff = [], 0
-    for dst in sorted((MOD_LEVEL / "main/MissionGroup").rglob("items.level.json")):
-        rel = dst.relative_to(MOD_LEVEL / "main/MissionGroup").as_posix()
-        a = zf.read(LEVEL_PREFIX + rel).decode("utf8").split("\n")
+    problems, n_diff, n_added = [], 0, 0
+    root = MOD_LEVEL / "main/MissionGroup"
+    for dst in sorted(root.rglob("items.level.json")):
+        rel = dst.relative_to(root).as_posix()
         b = dst.read_text(encoding="utf8").split("\n")
+        if rel in additions["new"]:
+            exp = list(additions["new"][rel]) + [""]
+            if b != exp:
+                problems.append(f"{rel}: new file differs from the declared objects")
+            n_added += len(additions["new"][rel])
+            continue
+        if LEVEL_PREFIX + rel not in zf.namelist():
+            problems.append(f"{rel}: not in the game and not declared")
+            continue
+        a = zf.read(LEVEL_PREFIX + rel).decode("utf8").split("\n")
+        app = list(additions["append"].get(rel, []))
+        if app:
+            tail = 1 if a[-1] == "" else 0
+            if b[len(a) - tail:len(a) - tail + len(app)] != app:
+                problems.append(f"{rel}: appended objects differ from the declared ones")
+            b = b[:len(a) - tail] + b[len(a) - tail + len(app):]
+            n_added += len(app)
         if len(a) != len(b):
             problems.append(f"{rel}: line count {len(a)} -> {len(b)}")
             continue
@@ -364,8 +413,18 @@ def verify(changes, zf):
             if oy.pop("speedLimit") != want[(rel, pid)] or ox != oy:
                 problems.append(f"{rel}: {pid} changed beyond speedLimit")
     declared = len(want) + len(shapes)
-    return {"ok": not problems and n_diff == declared, "summary": f"{n_diff} changed lines / {declared} declared",
+    n_decl_add = sum(len(v) for v in additions["append"].values()) + sum(len(v) for v in additions["new"].values())
+    return {"ok": not problems and n_diff == declared and n_added == n_decl_add,
+            "summary": f"{n_diff} changed lines / {declared} declared; {n_added} added objects / {n_decl_add} declared",
             "problems": problems}
+
+
+def main(argv=None) -> int:
+    # Since Phase 7 the level overrides are built together with the Phase 7 decisions (one deterministic build):
+    # running this file alone must not drop the Phase 7 objects, so it delegates.
+    sys.path.insert(0, str(Path(__file__).parent))
+    import apply_phase7_functional
+    return apply_phase7_functional.main(argv)
 
 
 if __name__ == "__main__":

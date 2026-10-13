@@ -1,0 +1,504 @@
+{
+ "_doc": "Phase 7 structured plan (spec section 7). Nothing in the mod changes unless it appears here: tools/production/apply_phase7_functional.py refuses records whose plan_id is not listed and checks that every object listed here is changed exactly as declared. Units: target_kph / target_mps; per-object values in m/s.",
+ "phase": 7,
+ "created": "2026-10-06",
+ "entries": [
+  {
+   "id": "phase5_10_40_preserved",
+   "type": "guard",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "Os 101 limites de 10/40 km/h e as 7 placas R-19 10 da Fase 5 (working/speed/speed_changes.json, sign_instances.json) são reaplicados sem alteração pelo mesmo motor (tools/production/speed_overrides.py); a verificação compara com a Fase 5.",
+   "status": "no_change"
+  },
+  {
+   "id": "ex35mph_60",
+   "type": "regulatory_speed",
+   "target_kph": 60,
+   "target_mps": 16.6667,
+   "roads": [
+    {
+     "dr": "DR571",
+     "persistentId": "2388e8bc-a616-45a0-8826-d90f9844df7f",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "dr": "DR666",
+     "persistentId": "af746a38-3ff6-4785-96c2-447ba39c5238",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "dr": "DR625",
+     "persistentId": "6777a576-5d4d-491e-912a-04faa6c393d2",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "dr": "DR989",
+     "persistentId": "d241454f-d83c-41e8-9b5e-7aaa5a4b1b93",
+     "file": "island/island_ai_roads/items.level.json",
+     "class": "DecalRoad",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "dr": "DR1003",
+     "persistentId": "be0f5b74-eae0-4b46-bbe9-183e11e4c1f2",
+     "file": "island/island_ai_roads/items.level.json",
+     "class": "DecalRoad",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "dr": "DR1009",
+     "persistentId": "1e4035d1-538f-4321-a7bd-dfc1e33485df",
+     "file": "island/island_ai_roads/items.level.json",
+     "class": "DecalRoad",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "dr": "DR1213",
+     "persistentId": "c5865b41-6662-47ee-82b2-e8cbe59e8ee2",
+     "file": "island_shippingYard/dock_aiRoads/items.level.json",
+     "class": "DecalRoad",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "dr": "DR1216",
+     "persistentId": "af1085ba-4d01-48d1-be41-c58d021c8f9c",
+     "file": "island_shippingYard/dock_aiRoads/items.level.json",
+     "class": "DecalRoad",
+     "from": "15.6464",
+     "to": "16.6667"
+    }
+   ],
+   "zones": [
+    {
+     "zone": "levels.west_coast_usa.zones.the_dockyards",
+     "file": "levels/west_coast_usa/city.sites.json",
+     "from": 15.6000004,
+     "to": 16.6667
+    }
+   ],
+   "radars": [
+    {
+     "name": "speedTrapTrigger3",
+     "persistentId": "8f20ac08-cc40-4201-b99b-aa27a4eabb70",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "name": "speedTrapTrigger5",
+     "persistentId": "2777327b-5b83-4db0-8a77-47d2e7ad3b7b",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "name": "speedTrapTrigger6",
+     "persistentId": "0a259251-76f0-4b8f-9f8c-6bbb9d7e803e",
+     "from": "15.6464",
+     "to": "16.6667"
+    },
+    {
+     "name": "speedTrapTrigger7",
+     "persistentId": "68bbd35b-d35c-4c78-bc0a-515479b535cf",
+     "from": "15.6464",
+     "to": "16.6667"
+    }
+   ],
+   "missions": [
+    {
+     "mission": "garageToGarage",
+     "zone": "missions.wcusa.garage.zones.dockyard.name",
+     "file": "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json",
+     "from": 15.6000004,
+     "to": 16.6667
+    }
+   ],
+   "visual_signs": [],
+   "reason": "Vias e zonas herdadas de 35 mph (56,3 / 56,2 km/h) -> 60 km/h (docas, ilha, malha urbana do AIWaypoints). IDs reconfirmados no zip 0.39.4 e no navgraph (todas as 96 arestas de 56,3 km/h pertencem a estes DecalRoads ou ao DR652). Os radares 3, 5, 6 e 7 fiscalizam essas vias (direção medida no jogo) e vão a 60. Sem placa visual: o mapa original não sinaliza essas vias.",
+   "status": "planned"
+  },
+  {
+   "id": "event01_corridor_70",
+   "type": "regulatory_speed",
+   "target_kph": 70,
+   "target_mps": 19.4444,
+   "roads": [
+    {
+     "dr": "DR652",
+     "persistentId": "989ef979-49ee-419e-919f-2bf1c6d08e9d",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": "15.6464",
+     "to": "19.4444"
+    }
+   ],
+   "zones": [],
+   "radars": [
+    {
+     "name": "speedTrapTrigger2",
+     "persistentId": "4d7dbade-e5aa-492a-be62-f16a5e6cb602",
+     "from": "15.6464",
+     "to": "19.4444"
+    }
+   ],
+   "missions": [
+    {
+     "scenario": "adas_event01_speed_limit / event01SpeedLimitRecognition",
+     "alertSpeedKmh": 70,
+     "rearmSpeedKmh": 65,
+     "threshold_change": null,
+     "start_change": "moved 45 m forward onto DR652 (adas_zones.json scenario_patches)"
+    }
+   ],
+   "visual_signs": [
+    {
+     "id": "r19_70_entry_right",
+     "value_kph": 70,
+     "shape": "sign_r19_70.dae"
+    },
+    {
+     "id": "r19_70_repeat_right",
+     "value_kph": 70,
+     "shape": "sign_r19_70.dae"
+    }
+   ],
+   "reason": "Corredor regulamentado de 70 km/h para o Event 01 na pista norte da avenida dividida (DR652, 2 faixas, 216 m). O início original (DR272, via local de 40 km/h da Fase 5) não comporta 70; o início passa para o próprio corredor. Radar 2 está nesse corredor -> 70.",
+   "status": "planned"
+  },
+  {
+   "id": "radar4_outlier_100",
+   "type": "radar",
+   "target_kph": 100,
+   "target_mps": 27.7778,
+   "roads": [],
+   "zones": [],
+   "radars": [
+    {
+     "name": "speedTrapTrigger4",
+     "persistentId": "dbe59e36-13ff-48fc-b7b5-fade5654269b",
+     "from": "15.6464",
+     "to": "27.7778"
+    }
+   ],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "Radar speedCamera_004 fiscaliza a aresta junction1_wp25 -> wp19 (100 km/h automático, 2 faixas do trevo). Não existe zona, placa nem transição regulamentada de 60 no local (o único dado de 35 mph são os campos inertes dos waypoints) -> radar 100.",
+   "status": "planned"
+  },
+  {
+   "id": "junction1_waypoints_inert",
+   "type": "inert_metadata",
+   "target_kph": 100,
+   "target_mps": 27.7778,
+   "roads": [
+    {
+     "dr": "junction1_wp19",
+     "persistentId": "8e3763b3-96f5-4df1-99c7-adf1680e6092",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "BeamNGWaypoint",
+     "from": "15.6464",
+     "to": "27.7778"
+    },
+    {
+     "dr": "junction1_wp25",
+     "persistentId": "f9da8bdf-7d65-443c-b199-43b7fac5356e",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "BeamNGWaypoint",
+     "from": "15.6464",
+     "to": "27.7778"
+    }
+   ],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "Campos speedLimit dos BeamNGWaypoint junction1_wp19/wp25 (inertes no navgraph 0.39.4) alinhados ao limite funcional (100) e ao radar 4.",
+   "status": "planned"
+  },
+  {
+   "id": "zones_50",
+   "type": "zone_metadata",
+   "target_kph": 50,
+   "target_mps": 13.8889,
+   "roads": [],
+   "zones": [
+    {
+     "zone": "levels.west_coast_usa.zones.horizon_estates",
+     "file": "levels/west_coast_usa/city.sites.json",
+     "from": 13.3999996,
+     "to": 13.8889
+    }
+   ],
+   "radars": [],
+   "missions": [
+    {
+     "mission": "garageToGarage",
+     "zone": "missions.wcusa.garage.zones.downtownBelasco.name",
+     "file": "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json",
+     "from": 13.3999996,
+     "to": 13.8889
+    },
+    {
+     "mission": "garageToGarage",
+     "zone": "missions.wcusa.garage.zones.residential.name",
+     "file": "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json",
+     "from": 13.3999996,
+     "to": 13.8889
+    }
+   ],
+   "visual_signs": [],
+   "reason": "Zonas herdadas de 30 mph (48,2 km/h) -> 50 km/h: horizon_estates (city.sites) e garageToGarage downtownBelasco/residential.",
+   "status": "planned"
+  },
+  {
+   "id": "zones_80",
+   "type": "zone_metadata",
+   "target_kph": 80,
+   "target_mps": 22.2222,
+   "roads": [],
+   "zones": [
+    {
+     "zone": "levels.west_coast_usa.zones.mount_wallis",
+     "file": "levels/west_coast_usa/city.sites.json",
+     "from": 22.3999996,
+     "to": 22.2222
+    }
+   ],
+   "radars": [],
+   "missions": [
+    {
+     "mission": "garageToGarage",
+     "zone": "missions.wcusa.garage.zones.mountWallis.name",
+     "file": "gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json",
+     "from": 22.3999996,
+     "to": 22.2222
+    }
+   ],
+   "visual_signs": [],
+   "reason": "Zona herdada de 50 mph (80,6 km/h) -> 80 km/h: mount_wallis (city.sites) e garageToGarage mountWallis. Região serrana: 80 é o teto regional; cada via dentro dela mantém o limite automático menor dado pela geometria.",
+   "status": "planned"
+  },
+  {
+   "id": "adas50_zone",
+   "type": "regulatory_speed",
+   "target_kph": 50,
+   "target_mps": 13.8889,
+   "roads": [
+    {
+     "dr": "DR312",
+     "persistentId": "cfca014d-87c1-48ab-abdd-98dd3bd4d1d6",
+     "file": "DecalRoads/items.level.json",
+     "class": "DecalRoad",
+     "from": null,
+     "to": "13.8889"
+    }
+   ],
+   "zones": [],
+   "radars": [],
+   "missions": [
+    {
+     "scenario": "adas_speed_alert_test / adasSpeedAlertTest",
+     "SpeedLimitKmh": 50,
+     "threshold_change": null,
+     "start_change": null
+    },
+    {
+     "scenario": "adas_speed_alert_web / adasSpeedAlertWeb",
+     "SpeedLimitKmh": 50,
+     "threshold_change": null,
+     "start_change": null
+    }
+   ],
+   "visual_signs": [
+    {
+     "id": "r19_50_entry_right",
+     "value_kph": 50,
+     "shape": "sign_r19_50.dae"
+    },
+    {
+     "id": "r19_50_entry_left",
+     "value_kph": 50,
+     "shape": "sign_r19_50.dae"
+    },
+    {
+     "id": "r19_50_spawn_right",
+     "value_kph": 50,
+     "shape": "sign_r19_50.dae"
+    },
+    {
+     "id": "r19_50_spawn_left",
+     "value_kph": 50,
+     "shape": "sign_r19_50.dae"
+    }
+   ],
+   "reason": "Zona funcional de 50 km/h no trecho da via expressa onde começam os cenários ADAS Speed Alert (spawn sobre o DR312, hoje 120). O limiar 50 não muda. Placas R-19 50 na entrada (dois lados) e à frente do spawn.",
+   "status": "planned"
+  },
+  {
+   "id": "adas50_exit_120",
+   "type": "regulatory_speed",
+   "target_kph": 120,
+   "target_mps": 33.3333,
+   "roads": [
+    {
+     "dr": "DR758",
+     "persistentId": "512c9f8f-76c7-4cb7-89a7-389483b6b717",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": null,
+     "to": "33.3333"
+    }
+   ],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [
+    {
+     "id": "r19_120_exit_right",
+     "value_kph": 120,
+     "shape": "sign_r19_120.dae"
+    }
+   ],
+   "reason": "Saída da zona de 50 na mesma pista: o limite da via expressa (120) é restaurado com R-19 120; o DR758 recebe o valor explícito igual ao automático (sem mudança funcional) para a placa regulamentar uma via com limite declarado.",
+   "status": "planned"
+  },
+  {
+   "id": "r19_50_70_120_assets",
+   "type": "visual_asset",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "Variantes R-19 50, 70 e 120 derivadas do master aprovado da Fase 5 (working/layered/r19/build_r19.py + tools/production/r19_mesh.py, mesmo mesh sign_speed25 de origem): textura, material, mesh .dae e .cdae compilado pelo jogo. Instâncias novas (TSStatic placa + poste pole_fence1, montagem copiada de uma placa original) num grupo novo MissionGroup/ptbr_functional_signs.",
+   "status": "planned",
+   "assets": [
+    "roadsigns_ptbr/sign_r19_50.dae",
+    "roadsigns_ptbr/sign_r19_70.dae",
+    "roadsigns_ptbr/sign_r19_120.dae"
+   ]
+  },
+  {
+   "id": "speedtraps_11176_preserved",
+   "type": "investigation",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "lua/ge/extensions/gameplay/speedTraps.lua: 11.176 só aparece no comentário 'example data' (bloco --[[ ]]). Não é default, fallback nem constante: código morto. Preservado.",
+   "status": "no_change"
+  },
+  {
+   "id": "radar_tolerance_preserved",
+   "type": "investigation",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "speedLimitTolerance = data.speedLimitTolerance or speedLimit * 0.1; nenhum gatilho do West Coast define o campo. A regra de 10 % do jogo é mantida (ex.: radar 60 dispara acima de 66 km/h).",
+   "status": "no_change"
+  },
+  {
+   "id": "arrive_missions_inactive",
+   "type": "mission",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "Missões arrive: speedLimit presente mas maxSpeedActive = false (reconfirmado pelo validador). Funcionalidade inativa: não alterar (SKIP — inactive functionality).",
+   "status": "skip_inactive"
+  },
+  {
+   "id": "reaction_test_preserved",
+   "type": "scenario",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [
+    {
+     "scenario": "reaction_test / reactionTest",
+     "range_kmh": [
+      40,
+      70
+     ],
+     "classification": "experimental_speed_range"
+    }
+   ],
+   "visual_signs": [],
+   "reason": "Faixa 40–70 experimental: sem zona, sem navgraph, sem placa. O cenário usa o mesmo spawn da zona ADAS 50; efeito colateral documentado (tráfego ambiente segue o limite da via) e smoke test.",
+   "status": "no_change"
+  },
+  {
+   "id": "slottraffic_regen",
+   "type": "derived_data",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "slotTraffic.json regenerado pelo método da Fase 5 (substituição por classe de valor para o valor explícito 15.6464, que some do navgraph, e geometria das faixas para DR652 70, DR312 50 e DR758 120), nunca à mão.",
+   "status": "planned"
+  },
+  {
+   "id": "fuel_liter",
+   "type": "functional_units",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "levels/west_coast_usa/info.json: localUnits gallonUS removido (o padrão métrico do jogo é a ausência da entrada; nenhum outro nível a declara). Preço interno já é por litro; sem conversão cambial; o custo não muda, só a unidade exibida.",
+   "status": "planned",
+   "files": [
+    "levels/west_coast_usa/info.json"
+   ]
+  },
+  {
+   "id": "validator_vfs_zone_files",
+   "type": "tooling",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "validate.py speeds passa a ler city.sites.json e garages.sites.json com a precedência do VFS (arquivo do mod antes do jogo), como já fazia com items.level.json; regras, tolerâncias e SKIPs não mudam. r19_overrides recebe os meshes novos (50/70/120).",
+   "status": "planned"
+  }
+ ]
+}
