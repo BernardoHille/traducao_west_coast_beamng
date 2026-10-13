@@ -47,6 +47,78 @@
     "translucentBlendOp": "None",
     "version": 1.5
   },
+  "roadsigns_ptbr_r19_50": {
+    "name": "roadsigns_ptbr_r19_50",
+    "mapTo": "roadsigns_ptbr_r19_50",
+    "class": "Material",
+    "persistentId": "5ec185f7-9615-577e-abbc-40062370db99",
+    "Stages": [
+      {
+        "baseColorMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_50_b.color.dds",
+        "opacityMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_o.data.dds",
+        "retroreflectivity": 0.5,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 128,
+    "alphaTest": true,
+    "annotation": "TRAFFIC_SIGNS",
+    "materialTag0": "beamng",
+    "specularColor0": "1 1 1 1",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "roadsigns_ptbr_r19_70": {
+    "name": "roadsigns_ptbr_r19_70",
+    "mapTo": "roadsigns_ptbr_r19_70",
+    "class": "Material",
+    "persistentId": "a221442d-ff3e-5189-83a9-c283ac8f9dba",
+    "Stages": [
+      {
+        "baseColorMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_70_b.color.dds",
+        "opacityMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_o.data.dds",
+        "retroreflectivity": 0.5,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 128,
+    "alphaTest": true,
+    "annotation": "TRAFFIC_SIGNS",
+    "materialTag0": "beamng",
+    "specularColor0": "1 1 1 1",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "roadsigns_ptbr_r19_120": {
+    "name": "roadsigns_ptbr_r19_120",
+    "mapTo": "roadsigns_ptbr_r19_120",
+    "class": "Material",
+    "persistentId": "7920725a-c7e9-5c32-a1cb-14df82f4cd6c",
+    "Stages": [
+      {
+        "baseColorMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_120_b.color.dds",
+        "opacityMap": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_o.data.dds",
+        "retroreflectivity": 0.5,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 128,
+    "alphaTest": true,
+    "annotation": "TRAFFIC_SIGNS",
+    "materialTag0": "beamng",
+    "specularColor0": "1 1 1 1",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
   "roadsigns_ptbr_r19_back": {
     "name": "roadsigns_ptbr_r19_back",
     "mapTo": "roadsigns_ptbr_r19_back",

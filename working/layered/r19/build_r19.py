@@ -37,6 +37,9 @@ UNIT_H = 0.085 * D                       # "k" ascender height
 UNIT_Y = 0.255 * D                       # km/h baseline offset from centre (down)
 COLORS = {"white": (236, 236, 232), "red": (196, 32, 40), "black": (22, 22, 22)}
 NUM_STYLE = {"wght": 700, "wdth": 88}
+# Phase 7: three-digit values (120) use the narrowest width of the same face, as MBST R-19 condenses 3-digit numerals;
+# 1- and 2-digit values keep NUM_STYLE (10/40 outputs unchanged)
+NUM_STYLE_3 = {"wght": 700, "wdth": 75}
 UNIT_STYLE = {"wght": 600, "wdth": 100}
 
 
@@ -52,6 +55,10 @@ def _fit_font(text, cap_px, style, ref="0"):
     return _font(max(4, int(400 * cap_px / (b[3] - b[1]))), style)
 
 
+def num_style(value: int) -> dict:
+    return NUM_STYLE_3 if len(str(value)) >= 3 else NUM_STYLE
+
+
 def render(value: int) -> tuple[Image.Image, Image.Image]:
     W, H = int(round(PANEL_W * SS)), int(round(PANEL_H * SS))
     cx, cy = W / 2, H / 2
@@ -63,7 +70,7 @@ def render(value: int) -> tuple[Image.Image, Image.Image]:
     ri = r - ORLA * SS
     dc.ellipse([cx - ri, cy - ri, cx + ri, cy + ri], fill=COLORS["white"])
     # numerals
-    f = _fit_font(str(value), NUM_H * SS, NUM_STYLE)
+    f = _fit_font(str(value), NUM_H * SS, num_style(value))
     b = f.getbbox(str(value))
     tx = cx - (b[0] + b[2]) / 2
     ty = cy + NUM_Y * SS - (b[1] + b[3]) / 2
@@ -105,8 +112,8 @@ def svg(value: int) -> str:
 <svg xmlns="http://www.w3.org/2000/svg" width="{PANEL_W * 1000:.1f}mm" height="{PANEL_H * 1000:.1f}mm" viewBox="0 0 {PANEL_W} {PANEL_H}">
   <circle cx="{cx:.5f}" cy="{cy:.5f}" r="{r:.5f}" fill="{c('red')}"/>
   <circle cx="{cx:.5f}" cy="{cy:.5f}" r="{ri:.5f}" fill="{c('white')}"/>
-  <text x="{cx:.5f}" y="{cy + NUM_Y + NUM_H / 2:.5f}" text-anchor="middle" font-family="Bahnschrift" font-weight="{NUM_STYLE['wght']}"
-        font-stretch="{NUM_STYLE['wdth']}%" font-size="{NUM_H / 0.7:.5f}" fill="{c('black')}">{value}</text>
+  <text x="{cx:.5f}" y="{cy + NUM_Y + NUM_H / 2:.5f}" text-anchor="middle" font-family="Bahnschrift" font-weight="{num_style(value)['wght']}"
+        font-stretch="{num_style(value)['wdth']}%" font-size="{NUM_H / 0.7:.5f}" fill="{c('black')}">{value}</text>
   <text x="{cx:.5f}" y="{cy + UNIT_Y:.5f}" text-anchor="middle" font-family="Bahnschrift" font-weight="{UNIT_STYLE['wght']}"
         font-size="{UNIT_H / 0.72:.5f}" fill="{c('black')}">km/h</text>
 </svg>
