@@ -59,7 +59,8 @@ Relatórios em `export/reports/validation/<nome>.md` + `.json` (JSON estável pa
 | `regression_expectations.json` | Dataset negativo: quais verificações **precisam** falhar nas traduções antigas. |
 | `speed_rules.json` | Caminhos do jogo, padrão das placas (`sign_speed<N>` = mph; `r19_overrides` = meshes R-19 do mod em km/h), classificação ADAS e política de radares. |
 | `new_assets.json` | Especificação dos assets novos (R-19) e padrões dos arquivos funcionais permitidos no mod. |
-| `sign_regulation.json` | Gerado por `tools/production/speed_overrides.py`: cada placa de velocidade real → vias que ela regulamenta. `speeds` exige placa = limite explícito dessas vias. Decalques de malha (placas das baias do porto) não contam. |
+| `sign_regulation.json` | Gerado por `tools/production/apply_phase7_functional.py` (antes `speed_overrides.py`): cada placa de velocidade real (os `sign_speed*` do mapa e as R-19 acrescentadas na Fase 7) → vias que ela regulamenta. `speeds` exige placa = limite explícito dessas vias. Decalques de malha (placas das baias do porto) não contam. |
+| `speed_rules.json` → `speed_plates` | Fase 7: placas de velocidade embutidas no `roadsigns.dae` (decisões em `working/functional/speed_plates.json`) e cabines da praça de pedágio. `speeds` lê a face que a malha do mod mostra, compara o R-19 com o navgraph da via regulada (snapshot `plate:<id>`), as advertências com a tabela mph → km/h e as faixas das cabines com 40 explícito. |
 
 `data/wcusa_speed_snapshot.json`: limite da via no navgraph junto às placas, radares e pontos de início ADAS (coletado via MCP com `--refresh`).
 
@@ -76,5 +77,5 @@ Antes de produzir uma tradução, registre a região que será editada com a **f
 - A validação de UV é **indireta** (mudança fora das regiões confirmadas). Só há regiões para `t_roadsigns_b.color` e `t_decal_roadmarkings_b.color`.
 - DDS legados (DXT1/DXT5/BC4) não guardam sRGB/linear no cabeçalho: nesses casos só formato e header são comparados.
 - A consistência de velocidade depende do snapshot do navgraph; após alterar vias, rode `speeds --refresh`.
-- `speeds` lê os `items.level.json` com a mesma precedência do VFS (arquivo do mod primeiro). Num clone novo, rode `python tools/production/speed_overrides.py` antes, porque os overrides não são versionados.
+- `speeds` lê os `items.level.json`, o `city.sites.json` e o `garages.sites.json` com a mesma precedência do VFS (arquivo do mod primeiro). Num clone novo, rode `python tools/production/apply_phase7_functional.py` antes, porque os overrides não são versionados.
 - `validate_family` confere presença de arquivos, não se o mapa auxiliar realmente acompanha a nova forma (comparar máscaras é trabalho futuro).

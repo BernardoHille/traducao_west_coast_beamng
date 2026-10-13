@@ -1,7 +1,7 @@
 # Status do projeto
 
-**Última atualização:** 06/10/2026
-**Fase atual:** Fase 6 — Produção visual das famílias restantes concluída. A Fase 7 (integração funcional de velocidades, radares, zonas e ADAS) não foi iniciada.
+**Última atualização:** 13/10/2026
+**Fase atual:** Fase 7 — Integração funcional concluída.
 
 ## Ambiente
 
@@ -14,16 +14,17 @@
 - **Originais extraídos:** 35 texturas da auditoria, mais os originais da Fase 6 (`tools/production/originals_phase6.json`, com variantes por pasta: `art_shapes`, `decalroad`, `jungle_rock_island`). Cada uma em DDS (formato do jogo) e PNG (base de edição). Ficam em `source/originals/`, só localmente, fora do Git.
 - **Traduções existentes:** 13 PNG `_ptbr` em `source/reference_ptbr/`, que correspondem a 11 texturas traduzidas e 1 máscara. O `t_sealbrik_logo` `_ptbr` é cópia idêntica do original.
 - **Status das traduções existentes:** servem **só de referência** até serem reconstruídas a partir dos originais. Não são masters aprovados.
-- **DDS PT-BR definitivos:** 28 no mod.
+- **DDS PT-BR definitivos:** 31 no mod (Fase 7: R-19 50/70/120; `t_roadsigns` re-exportado com as faces das placas de velocidade).
   - Fase 5: `t_roadsigns` (2) e R-19 (3).
   - Fase 6 (23): road markings (2 cópias × 4 mapas), `eca_genericsigns`, `t_billboards`, estúdio, industrial (2 cópias), Spearleaf (cor + opacidade), Hot Rolled (cor + nm/ao/r), mapa de ônibus (cor + normal), `clutter_commercial` (cor + opacidade).
   - O DDS do PoC (`export/dds/poc/`) é só histórico.
-- **Mod** (`mod/traducao_ptbr_wcusa/`, versão 0.6.0):
+- **Mod** (`mod/traducao_ptbr_wcusa/`, versão 0.7.0):
   - atlas `t_roadsigns` definitivo e as 9 famílias visuais da Fase 6;
   - 25 malhas de letreiros montados por glifos, cada uma com o `.cdae` compilado pelo jogo;
   - override de `main.decals.json` (EXIT ONLY → SÓ SAÍDA, ONLY removido), gerado localmente e não versionado;
   - família `roadsigns_ptbr_r19` (texturas, materiais, meshes e `.cdae`);
-  - overrides de dados do nível (limites de via, `slotTraffic.json`, 7 `shapeName`), gerados localmente e não versionados.
+  - overrides de dados do nível (limites de via, radares, grupo `ptbr_functional_signs`, `slotTraffic.json`, zonas, `info.json`, 7 `shapeName`) e de `gameplay/…/garages.sites.json`, gerados localmente por `tools/production/apply_phase7_functional.py` e não versionados;
+  - R-19 50/70/120 (Fase 7) e as faces km/h das placas de velocidade do `roadsigns.dae` e das cabines de pedágio.
 - **Inventário:** `docs/inventory/original_files_manifest.csv` (SHA-256) e `docs/inventory/texture_families.md`.
 - **Especificação de localização:** `docs/LOCALIZATION_RULES.md` (fonte de verdade) + `docs/localization/` + `docs/inventory/speed_*.md`.
 - **Auditoria inicial:** `docs/AUDITORIA_PROJETO_TRADUCAO.md`, snapshot de 30/09/2026 que não deve ser editado.
@@ -38,7 +39,10 @@
 - [x] Validador
 - [x] Reconstrução das traduções existentes (Fase 5: `t_roadsigns`; Fase 6: road markings, genericsigns, billboards, estúdio, industrial, Spearleaf. As referências antigas de dealers/sponsors/eca_roadsigns não são usadas no West Coast)
 - [x] Tradução das texturas pendentes (texturas e palavras montadas por glifos no mesh; só o que é limite de velocidade fica para a Fase 7)
-- [ ] QA West Coast (visual da Fase 6 aprovado ponto a ponto; falta o funcional da Fase 7)
+- [x] Limites, radares e zonas integrados (Fase 7)
+- [x] ADAS de limite integrado (ADAS Speed Alert 50 e Event 01 70 em trechos regulamentados)
+- [x] Reaction Test preservado como faixa experimental (40–70, sem zona)
+- [ ] QA global West Coast (Fase 8)
 - [ ] QA East Coast / Utah
 - [ ] QA ADAS
 - [ ] Release
@@ -192,6 +196,28 @@ Detalhes em [`production/PHASE6_VISUAL_PRODUCTION.md`](production/PHASE6_VISUAL_
 - Normal maps que gravam o relevo do texto (Hot Rolled, mapa de ônibus, road markings) também são refeitos.
 - Textos girados ou em arco precisam de tela com margem, porque o layout horizontal pode passar da borda do atlas.
 
+## Resultado da Fase 7 — Integração funcional
+
+Detalhes em [`production/PHASE7_FUNCTIONAL_INTEGRATION.md`](production/PHASE7_FUNCTIONAL_INTEGRATION.md) e em `production/phase7/`; relatórios em `tests/reports/phase7/`.
+
+| Item | Situação |
+|---|---|
+| Limites | 8 vias ex-35 mph → 60; avenida do Event 01 → 70; via sob o spawn do ADAS → 50 (+ 120 explícito na saída); 5 faixas da praça de pedágio → 40; 10/40 da Fase 5 intactos; automáticos 100/120 preservados |
+| Radares | acompanham a via: 2 → 70, 3/5/6/7 → 60, 4 → 100; tolerância de 10 % do jogo; 18/18 passagens no jogo |
+| Zonas e missões | city.sites e garageToGarage em 50/60/80 (dado sem consumidor no 0.39.4); arrive inativas (SKIP) |
+| slotTraffic | regenerado (1109 linhas), 0 valores de mph |
+| ADAS | Speed Alert 50 numa zona de 50 sinalizada (limiar inalterado); Event 01 num corredor de 70 sinalizado, com o início movido para o corredor (patch do mod de pesquisa, com backup) |
+| Placas | R-19 50/70/120 novas; 23 SPEED LIMIT do `roadsigns.dae` → R-19 = via; 24 advertências MPH → km/h; cabine NÃO PARE / R-19 40 |
+| Combustível | `localUnits` removido (litro, padrão do jogo); preço por litro; sem câmbio |
+| Validador de velocidade | 13 → **0 FAIL** (WARN informativo da Fase 5; SKIP: Reaction Test e arrive inativas) |
+| Validação | selftest 121, regressão 10/10, mod 273, instalado 274, new 108, unittest 59 |
+
+**Achados técnicos:**
+- O `speedLimit` de `BeamNGWaypoint` é inerte no 0.39.4; o limite vem do DecalRoad (um valor por objeto).
+- `gameplay_speedTraps` é preset do freeroam: um nível carregado pelo MCP não fiscaliza sem carregar a extensão.
+- Cenários ADAS deixados ativos re-teleportam o carro do jogador a cada reset: o QA isola um cenário por vez.
+- Malhas compartilhadas com UV sobreposta (placa esticada 2 × 2) exigem face assada por quad.
+
 ## Problemas conhecidos
 
 Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). Situação após a Fase 6 na coluna da direita.
@@ -204,10 +230,10 @@ Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). Situaç�
 | 4 | **Emissivos incompatíveis:** `eca_genericsigns_emissive` não acompanha o novo layout | Auditoria §4.4 | **Não se aplica ao West Coast:** o material carregado é o PBR sem emissivo |
 | 5 | **Formatos DDS diferentes** entre texturas (BC7 sRGB, BC7 linear, BC4, DXT1, DXT5). Não dá para exportar tudo como BC7 | Auditoria §4.5 | **Tratado:** cada DDS sai no formato e com os mips do seu original |
 | 6 | **Assets globais afetam outros mapas:** a maioria fica em `assets/materials/` e é usada também por East Coast, Utah etc. | Auditoria §3 | **Aberto** (decisão da Fase 3: globais continuam globais). QA em outros mapas pendente |
-| 7 | ~~Política mph/km/h pendente~~ → **definida na Fase 3**. A implementação continua pendente: R-19 com material/mesh próprios e `speedLimit` funcional | `LOCALIZATION_RULES.md` §2–3 | R-19 feito na Fase 5; radares, zonas e ADAS ficam para a **Fase 7** |
+| 7 | ~~Política mph/km/h pendente~~ → **definida na Fase 3**. A implementação continua pendente: R-19 com material/mesh próprios e `speedLimit` funcional | `LOCALIZATION_RULES.md` §2–3 | **Resolvido:** R-19 (Fase 5), radares, zonas, ADAS e placas embutidas (Fase 7) |
 | 8 | Mapas auxiliares **não citados na auditoria** (`eca_genericsigns` `_o/_nm/_ao/_r`, `steel_factory_brand` `_nm/_ao/_r`, `billboardsigns_dealers` `_o`…) | `docs/inventory/texture_families.md` | **Resolvido:** extraídos; refeitos onde contêm letra (steel nm/ao/r, Spearleaf `_o`, clutter `_o`, ônibus `_nm`) |
 | 9 | A auditoria diz "41 texturas", mas são **35** | `docs/inventory/texture_families.md` | Registrado |
-| 10 | **Palavras montadas por glifos no mesh** (fachadas, MAP do abrigo, pista de arrancada, pedágio) | `production/phase6/GLYPH_SIGNS.md` | **Resolvido** (6I), exceto a placa de limite de velocidade da cabine de pedágio (Fase 7) |
+| 10 | **Palavras montadas por glifos no mesh** (fachadas, MAP do abrigo, pista de arrancada, pedágio) | `production/phase6/GLYPH_SIGNS.md` | **Resolvido** (6I; a placa de limite da cabine de pedágio na Fase 7) |
 
 ## Decisões tomadas (Fase 3)
 
@@ -245,15 +271,23 @@ Essas regras estão implementadas no validador (`validate.py speeds`). Nenhuma a
 - **Distâncias em milhas** dos pórticos: 1/4 → 400 m, 1/2 → 800 m, 3/4 → 1,2 km, com a unidade no próprio tile.
 - **ONLY no pavimento:** slot 5 virou "SÓ"; EXIT ONLY → SÓ SAÍDA por troca de `rectIdx`; BUS ONLY/STOP → ÔNIBUS.
 
+## Decisões tomadas (Fase 7)
+
+- **Radar e placa embutida acompanham a via** que regulam; não se reduz uma via por causa de um valor americano antigo (radar 4 = 100).
+- **Zonas ADAS/Event 01 por DecalRoad inteiro** (granularidade do jogo), sinalizadas na entrada, à frente do início do cenário e na saída na mesma pista.
+- **Início de cenário de pesquisa pode mudar** quando a via original não comporta o limite do experimento (Event 01), documentado e com backup.
+- **Placas embutidas em malha compartilhada:** face nova em espaço livre do atlas, re-apontamento quad a quad, célula compartilhada nunca editada.
+- **Combustível:** litro = ausência de `localUnits` (o jogo só reconhece `gallonUS`).
+
 ## Decisões pendentes
 
-- **Como aplicar as regras ADAS/radar no mapa** (fase de implementação funcional):
-  - rota das missões de 50 km/h: via de 120 km/h hoje;
-  - Event 01: 70 km/h numa via de 40,2 km/h;
-  - radar 4 a 56,3 km/h numa via de 100 km/h.
+- ~~Como aplicar as regras ADAS/radar no mapa~~ → resolvido na Fase 7.
+- **Limite urbano das avenidas a 100 automático** (Chinatown, trevo junction1, onde as placas originais diziam 30 mph): manter o automático (estado atual, placa = via) ou reduzir as vias a 50 — revisão humana.
+- **Reaction Test sob a zona ADAS de 50:** instrução 40–70 com R-19 50 à vista — avaliação do pesquisador.
+- **Velocidade em mph nas placas da arrancada** (código global do jogo, todos os mapas) e **painel de preço do posto em inglês** (`s_fuel_sign_trilobite.dae`): Fase 8.
 - ~~`ONLY` no pavimento~~ → resolvido na Fase 6 (SÓ SAÍDA / ÔNIBUS).
 - ~~Itens `needs_context`~~ → todos resolvidos na Fase 6 (0 na matriz).
 - ~~Letreiros por glifos no mesh~~ → resolvidos na Fase 6 (6I).
-- **Placas de velocidade compostas por glifos** (SPEED LIMIT/MPH do `roadsigns.dae`, DO NOT STOP / SPEED LIMIT 25 da cabine de pedágio): Fase 7, junto com os limites funcionais. ONLY, CARPOOLS e ½ MILE foram resolvidos no 6I.
+- ~~Placas de velocidade compostas por glifos~~ → resolvidas na Fase 7 (R-19 = via; advertências em km/h; cabine NÃO PARE / R-19 40).
 - **Estratégia para mapas auxiliares não extraídos** (quais extrair e quando).
 - **Regiões autorizadas** para as demais texturas: registrar antes de produzir cada uma.
