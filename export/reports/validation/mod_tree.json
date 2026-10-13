@@ -8,13 +8,13 @@
     "FAIL": 0,
     "SKIP": 0
   },
-  "generated": "2026-10-13T10:03:02",
+  "generated": "2026-10-13T10:10:05",
   "meta": {},
   "checks": [
     {
       "status": "PASS",
       "name": "mod_info",
-      "message": "Tradução PT-BR — West Coast USA 0.6.0",
+      "message": "Tradução PT-BR — West Coast USA 0.7.0",
       "details": {}
     },
     {

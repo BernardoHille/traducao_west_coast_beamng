@@ -6,7 +6,7 @@
 
 | Status | Verificação | Mensagem |
 |---|---|---|
-| PASS | mod_info | Tradução PT-BR — West Coast USA 0.6.0 |
+| PASS | mod_info | Tradução PT-BR — West Coast USA 0.7.0 |
 | PASS | Case-insensitive duplicates | none |
 | PASS | Asset path | art/shapes/garage_and_dealership/Clutter/clutter_commercial_b.color.dds → clutter_commercial/base_color |
 | PASS | Asset path | art/shapes/garage_and_dealership/Clutter/clutter_commercial_o.data.dds → clutter_commercial/opacity |
