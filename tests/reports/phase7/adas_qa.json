@@ -1,0 +1,3868 @@
+{
+ "speed_alert": {
+  "scenario": "adasSpeedAlertTest",
+  "spawn": [
+   431.73486328125,
+   702.34759521484,
+   115.88053131104
+  ],
+  "navgraph_at_spawn_kmh": 50.0,
+  "edge_at_spawn": [
+   "DR253_6",
+   "DR312_9"
+  ],
+  "threshold_kmh": 50,
+  "steps": {
+   "A_below_50": [
+    {
+     "t": 0.0,
+     "kmh": 0.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      431.7,
+      702.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 2.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      431.7,
+      702.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.0,
+     "kmh": 6.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      431.1,
+      701.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.6,
+     "kmh": 12.5,
+     "limit_kmh": 50.0,
+     "xy": [
+      430.1,
+      701.1
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.1,
+     "kmh": 18.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      428.3,
+      699.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 26.6,
+     "limit_kmh": 50.0,
+     "xy": [
+      425.6,
+      697.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 33.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      422.1,
+      695.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 38.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      417.8,
+      692.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.1,
+     "kmh": 38.6,
+     "limit_kmh": 50.0,
+     "xy": [
+      413.4,
+      689.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.6,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      408.7,
+      686.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.2,
+     "kmh": 38.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      404.0,
+      682.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.7,
+     "kmh": 39.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      399.4,
+      679.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.2,
+     "kmh": 39.6,
+     "limit_kmh": 50.0,
+     "xy": [
+      394.8,
+      676.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.7,
+     "kmh": 39.7,
+     "limit_kmh": 50.0,
+     "xy": [
+      390.3,
+      673.1
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.2,
+     "kmh": 39.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      385.5,
+      669.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.7,
+     "kmh": 39.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      381.0,
+      666.6
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.2,
+     "kmh": 39.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      376.3,
+      663.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.7,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      371.8,
+      660.1
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 9.2,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      367.2,
+      656.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 9.7,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      362.7,
+      653.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 10.2,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      358.1,
+      650.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 10.8,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      353.3,
+      647.1
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 11.3,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      348.8,
+      644.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 11.8,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      344.0,
+      640.6
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 12.3,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      339.5,
+      637.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 12.8,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      334.9,
+      634.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 13.3,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      330.3,
+      630.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 13.8,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      325.7,
+      627.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    }
+   ],
+   "B_above_50": [
+    {
+     "t": 0.0,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      321.1,
+      624.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 40.6,
+     "limit_kmh": 50.0,
+     "xy": [
+      316.5,
+      620.6
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.0,
+     "kmh": 41.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      311.8,
+      617.2
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.5,
+     "kmh": 41.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      307.3,
+      613.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.1,
+     "kmh": 42.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      302.5,
+      610.2
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 47.6,
+     "limit_kmh": 50.0,
+     "xy": [
+      297.4,
+      606.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 53.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      291.6,
+      601.9
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 56.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      285.4,
+      597.3
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.1,
+     "kmh": 57.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      278.8,
+      592.2
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.6,
+     "kmh": 57.3,
+     "limit_kmh": 50.0,
+     "xy": [
+      272.6,
+      587.4
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.1,
+     "kmh": 56.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      266.2,
+      582.5
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.6,
+     "kmh": 57.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      259.9,
+      577.7
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.1,
+     "kmh": 57.3,
+     "limit_kmh": 50.0,
+     "xy": [
+      253.5,
+      572.7
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.6,
+     "kmh": 57.5,
+     "limit_kmh": 50.0,
+     "xy": [
+      247.1,
+      567.8
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.1,
+     "kmh": 57.6,
+     "limit_kmh": 50.0,
+     "xy": [
+      240.7,
+      562.8
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.6,
+     "kmh": 57.7,
+     "limit_kmh": 50.0,
+     "xy": [
+      234.4,
+      557.9
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.1,
+     "kmh": 57.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      227.8,
+      552.8
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.7,
+     "kmh": 57.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      221.5,
+      547.9
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    }
+   ],
+   "C_reduce": [
+    {
+     "t": 0.0,
+     "kmh": 57.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      190.8,
+      524.0
+     ],
+     "alertActive": true,
+     "audioPlaying": true,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 42.3,
+     "limit_kmh": 50.0,
+     "xy": [
+      185.2,
+      519.6
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.0,
+     "kmh": 39.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      180.7,
+      516.1
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.6,
+     "kmh": 38.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      176.4,
+      512.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.1,
+     "kmh": 38.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      172.2,
+      509.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 39.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      168.0,
+      506.1
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      163.5,
+      502.6
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 40.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      159.1,
+      499.2
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.1,
+     "kmh": 40.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      154.4,
+      495.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.6,
+     "kmh": 40.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      150.1,
+      492.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.1,
+     "kmh": 40.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      145.6,
+      488.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.7,
+     "kmh": 40.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      141.0,
+      484.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.2,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      136.5,
+      481.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.7,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      132.3,
+      478.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.2,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      127.7,
+      474.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.7,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      123.3,
+      471.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.2,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      118.7,
+      467.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.7,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      114.3,
+      464.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    }
+   ]
+  },
+  "screens": {
+   "spawn_driver_view": "tests/screenshots/phase7/adas/speed_alert_spawn.jpg",
+   "alert_active": "tests/screenshots/phase7/adas/speed_alert_alert_active.jpg"
+  },
+  "log": [
+   "17548.23889|I|GELua.adasSpeedAlertTest.adasSpeedAlertTest| [ADAS Speed Test] Scenario stopped; audio and state cleared",
+   "17549.38717|I|GELua.adasSpeedAlertTest.adasSpeedAlertTest| [ADAS Speed Test] Scenario started",
+   "17549.38721|I|GELua.adasSpeedAlertTest.adasSpeedAlertTest| [ADAS Speed Test] Honda City detected (id=311401)"
+  ],
+  "checks": {
+   "spawn_on_50": true,
+   "A_no_alert_below_50": true,
+   "B_alert_above_50": true,
+   "C_alert_stops_below_50": true,
+   "all_samples_in_zone_are_50": true,
+   "state_transitions_start_stop": true
+  },
+  "result": "PASS"
+ },
+ "speed_alert_web": {
+  "scenario": "adasSpeedAlertWeb",
+  "spawn": [
+   431.71884155273,
+   702.33703613281,
+   115.88080596924
+  ],
+  "navgraph_at_spawn_kmh": 50.0,
+  "edge_at_spawn": [
+   "DR253_6",
+   "DR312_9"
+  ],
+  "threshold_kmh": 50,
+  "steps": {
+   "A_below_50": [
+    {
+     "t": 0.0,
+     "kmh": 0.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      431.7,
+      702.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 2.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      431.6,
+      702.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.1,
+     "kmh": 7.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      431.1,
+      701.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.6,
+     "kmh": 13.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      429.9,
+      701.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.1,
+     "kmh": 19.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      428.0,
+      699.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 27.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      425.2,
+      697.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 35.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      421.4,
+      695.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.7,
+     "kmh": 38.5,
+     "limit_kmh": 50.0,
+     "xy": [
+      416.9,
+      691.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.2,
+     "kmh": 38.6,
+     "limit_kmh": 50.0,
+     "xy": [
+      412.4,
+      688.6
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.7,
+     "kmh": 39.7,
+     "limit_kmh": 50.0,
+     "xy": [
+      407.9,
+      685.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.2,
+     "kmh": 38.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      403.3,
+      682.2
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.7,
+     "kmh": 39.3,
+     "limit_kmh": 50.0,
+     "xy": [
+      398.7,
+      679.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.2,
+     "kmh": 39.6,
+     "limit_kmh": 50.0,
+     "xy": [
+      394.1,
+      675.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.7,
+     "kmh": 39.7,
+     "limit_kmh": 50.0,
+     "xy": [
+      389.6,
+      672.6
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.2,
+     "kmh": 39.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      385.2,
+      669.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.8,
+     "kmh": 39.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      380.4,
+      666.1
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.3,
+     "kmh": 39.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      375.8,
+      662.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.8,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      371.2,
+      659.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 9.3,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      366.6,
+      656.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 9.8,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      361.8,
+      653.1
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 10.3,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      357.3,
+      649.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 10.8,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      352.7,
+      646.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 11.3,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      347.7,
+      643.2
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 11.8,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      343.3,
+      640.1
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 12.4,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      338.7,
+      636.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 12.9,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      334.1,
+      633.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 13.4,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      329.3,
+      630.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 13.9,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      324.9,
+      626.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    }
+   ],
+   "B_above_50": [
+    {
+     "t": 0.0,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      320.3,
+      623.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 40.7,
+     "limit_kmh": 50.0,
+     "xy": [
+      315.7,
+      620.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.0,
+     "kmh": 41.5,
+     "limit_kmh": 50.0,
+     "xy": [
+      311.0,
+      616.6
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.5,
+     "kmh": 41.7,
+     "limit_kmh": 50.0,
+     "xy": [
+      306.3,
+      613.0
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.0,
+     "kmh": 42.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      301.6,
+      609.5
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 48.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      296.5,
+      605.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 0,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 54.5,
+     "limit_kmh": 50.0,
+     "xy": [
+      290.5,
+      601.2
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 56.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      284.2,
+      596.4
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.1,
+     "kmh": 57.4,
+     "limit_kmh": 50.0,
+     "xy": [
+      277.9,
+      591.5
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.6,
+     "kmh": 57.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      271.5,
+      586.6
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.1,
+     "kmh": 56.3,
+     "limit_kmh": 50.0,
+     "xy": [
+      265.4,
+      581.8
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.6,
+     "kmh": 57.3,
+     "limit_kmh": 50.0,
+     "xy": [
+      258.8,
+      576.8
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.1,
+     "kmh": 57.3,
+     "limit_kmh": 50.0,
+     "xy": [
+      252.5,
+      571.9
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.6,
+     "kmh": 57.5,
+     "limit_kmh": 50.0,
+     "xy": [
+      245.9,
+      566.8
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.1,
+     "kmh": 57.7,
+     "limit_kmh": 50.0,
+     "xy": [
+      239.5,
+      561.9
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.7,
+     "kmh": 57.7,
+     "limit_kmh": 50.0,
+     "xy": [
+      233.0,
+      556.8
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.2,
+     "kmh": 57.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      226.4,
+      551.7
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.7,
+     "kmh": 57.8,
+     "limit_kmh": 50.0,
+     "xy": [
+      219.9,
+      546.6
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    }
+   ],
+   "C_reduce": [
+    {
+     "t": 0.0,
+     "kmh": 57.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      189.6,
+      523.1
+     ],
+     "alertActive": true,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 0,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 42.7,
+     "limit_kmh": 50.0,
+     "xy": [
+      184.0,
+      518.7
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.0,
+     "kmh": 39.3,
+     "limit_kmh": 50.0,
+     "xy": [
+      179.5,
+      515.2
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 1.6,
+     "kmh": 38.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      174.9,
+      511.6
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.1,
+     "kmh": 38.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      170.8,
+      508.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 39.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      166.4,
+      504.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 39.9,
+     "limit_kmh": 50.0,
+     "xy": [
+      162.0,
+      501.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 40.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      157.5,
+      497.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.1,
+     "kmh": 40.2,
+     "limit_kmh": 50.0,
+     "xy": [
+      153.1,
+      494.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 4.6,
+     "kmh": 40.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      148.5,
+      490.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.1,
+     "kmh": 40.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      144.2,
+      487.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 5.6,
+     "kmh": 40.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      139.7,
+      483.9
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.2,
+     "kmh": 40.1,
+     "limit_kmh": 50.0,
+     "xy": [
+      135.1,
+      480.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 6.7,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      130.6,
+      476.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.2,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      126.3,
+      473.4
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 7.7,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      121.8,
+      469.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.2,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      117.4,
+      466.3
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    },
+    {
+     "t": 8.7,
+     "kmh": 40.0,
+     "limit_kmh": 50.0,
+     "xy": [
+      112.9,
+      462.8
+     ],
+     "alertActive": false,
+     "audioPlaying": false,
+     "alertStartCount": 1,
+     "alertStopCount": 1,
+     "armed": null,
+     "alertCount": null,
+     "alertPlaying": null,
+     "phase": "running"
+    }
+   ]
+  },
+  "screens": {
+   "spawn_driver_view": "tests/screenshots/phase7/adas/speed_alert_web_spawn.jpg",
+   "alert_active": "tests/screenshots/phase7/adas/speed_alert_web_alert_active.jpg"
+  },
+  "log": [
+   "17572.44969|I|GELua.adasSpeedAlertTest.adasSpeedAlertTest| [ADAS Speed Test] Speed: 50.0 km/h",
+   "17572.44973|I|GELua.adasSpeedAlertTest.adasSpeedAlertTest| [ADAS Speed Test] ALERT START",
+   "17579.39447|I|GELua.adasSpeedAlertTest.adasSpeedAlertTest| [ADAS Speed Test] Alert audio repeated without overlap",
+   "17581.04100|I|GELua.adasSpeedAlertTest.adasSpeedAlertTest| [ADAS Speed Test] Speed: 49.6 km/h",
+   "17581.04104|I|GELua.adasSpeedAlertTest.adasSpeedAlertTest| [ADAS Speed Test] ALERT STOP",
+   "17589.99855|I|GELua.adasSpeedAlertTest.adasSpeedAlertTest| [ADAS Speed Test] Scenario stopped; audio and state cleared",
+   "17590.01296|I|GELua.adasSpeedAlertWeb.adasSpeedAlertWeb| [ADAS Speed WEB] Scenario stopped; audio and state cleared",
+   "17591.08093|I|GELua.adasSpeedAlertWeb.adasSpeedAlertWeb| [ADAS Speed WEB] Scenario started",
+   "17591.08096|I|GELua.adasSpeedAlertWeb.adasSpeedAlertWeb| [ADAS Speed WEB] Honda City detected (id=311401)",
+   "17591.16674|I|GELua.adasSpeedAlertWeb.adasSpeedAlertWeb| [ADAS Speed WEB] [EVENT] FIRST_PERSON_CAMERA_APPLIED",
+   "17592.09957|I|GELua.adasSpeedAlertWeb.adasSpeedAlertWeb| [ADAS Speed WEB] [EVENT] INSTRUCTION_POPUP_AUTO_SHOW"
+  ],
+  "checks": {
+   "spawn_on_50": true,
+   "A_no_alert_below_50": true,
+   "B_alert_above_50": true,
+   "C_alert_stops_below_50": true,
+   "all_samples_in_zone_are_50": true,
+   "state_transitions_start_stop": true
+  },
+  "result": "PASS"
+ },
+ "event01": {
+  "scenario": "event01SpeedLimitRecognition",
+  "spawn": [
+   -428.23724365234,
+   163.31756591797,
+   100.25736236572
+  ],
+  "navgraph_at_spawn_kmh": 70.0,
+  "edge_at_spawn": [
+   "DR192_5",
+   "DR652_2"
+  ],
+  "runs": {
+   "run1_65_69": [
+    {
+     "t": 0.0,
+     "kmh": 0.0,
+     "limit_kmh": 70.0,
+     "xy": [
+      -428.2,
+      163.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 1.9,
+     "limit_kmh": 70.0,
+     "xy": [
+      -428.2,
+      163.4
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 1.0,
+     "kmh": 6.5,
+     "limit_kmh": 70.0,
+     "xy": [
+      -428.0,
+      164.0
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 1.5,
+     "kmh": 12.0,
+     "limit_kmh": 70.0,
+     "xy": [
+      -427.5,
+      165.2
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 2.0,
+     "kmh": 18.6,
+     "limit_kmh": 70.0,
+     "xy": [
+      -426.7,
+      167.2
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 26.5,
+     "limit_kmh": 70.0,
+     "xy": [
+      -425.6,
+      170.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 33.7,
+     "limit_kmh": 70.0,
+     "xy": [
+      -424.1,
+      174.2
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 40.3,
+     "limit_kmh": 70.0,
+     "xy": [
+      -422.2,
+      179.0
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 4.1,
+     "kmh": 46.6,
+     "limit_kmh": 70.0,
+     "xy": [
+      -419.7,
+      184.8
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 4.6,
+     "kmh": 52.8,
+     "limit_kmh": 70.0,
+     "xy": [
+      -416.7,
+      191.1
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 5.1,
+     "kmh": 58.7,
+     "limit_kmh": 70.0,
+     "xy": [
+      -413.0,
+      198.5
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 5.6,
+     "kmh": 62.2,
+     "limit_kmh": 70.0,
+     "xy": [
+      -409.2,
+      206.4
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 6.1,
+     "kmh": 63.2,
+     "limit_kmh": 70.0,
+     "xy": [
+      -405.0,
+      214.5
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 6.6,
+     "kmh": 64.7,
+     "limit_kmh": 70.0,
+     "xy": [
+      -400.6,
+      222.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 7.2,
+     "kmh": 64.6,
+     "limit_kmh": 30,
+     "xy": [
+      -395.7,
+      230.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 7.7,
+     "kmh": 63.7,
+     "limit_kmh": 70.0,
+     "xy": [
+      -390.4,
+      238.2
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 8.2,
+     "kmh": 63.5,
+     "limit_kmh": 70.0,
+     "xy": [
+      -385.5,
+      245.1
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 8.7,
+     "kmh": 63.7,
+     "limit_kmh": 70.0,
+     "xy": [
+      -380.0,
+      252.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 0.0,
+     "kmh": 64.0,
+     "limit_kmh": 70.0,
+     "xy": [
+      -374.0,
+      259.6
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 64.1,
+     "limit_kmh": 70.0,
+     "xy": [
+      -367.8,
+      266.4
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 1.0,
+     "kmh": 64.3,
+     "limit_kmh": 70.0,
+     "xy": [
+      -361.5,
+      272.7
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 1.5,
+     "kmh": 64.4,
+     "limit_kmh": 70.0,
+     "xy": [
+      -354.8,
+      278.8
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 2.0,
+     "kmh": 64.3,
+     "limit_kmh": 70.0,
+     "xy": [
+      -347.7,
+      284.9
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 65.4,
+     "limit_kmh": 70.0,
+     "xy": [
+      -340.9,
+      290.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 68.4,
+     "limit_kmh": 70.0,
+     "xy": [
+      -333.6,
+      295.9
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 68.4,
+     "limit_kmh": 70.0,
+     "xy": [
+      -325.9,
+      301.4
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    }
+   ],
+   "run2_72_60_72": [
+    {
+     "t": 0.0,
+     "kmh": 0.0,
+     "limit_kmh": 70.0,
+     "xy": [
+      -428.2,
+      163.4
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 1.9,
+     "limit_kmh": 70.0,
+     "xy": [
+      -428.2,
+      163.5
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 1.1,
+     "kmh": 6.3,
+     "limit_kmh": 70.0,
+     "xy": [
+      -428.0,
+      164.0
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 1.6,
+     "kmh": 12.8,
+     "limit_kmh": 70.0,
+     "xy": [
+      -427.5,
+      165.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 2.1,
+     "kmh": 20.0,
+     "limit_kmh": 70.0,
+     "xy": [
+      -426.7,
+      167.4
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 27.8,
+     "limit_kmh": 70.0,
+     "xy": [
+      -425.4,
+      170.6
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 34.9,
+     "limit_kmh": 70.0,
+     "xy": [
+      -423.9,
+      174.8
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 41.9,
+     "limit_kmh": 70.0,
+     "xy": [
+      -421.7,
+      180.1
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 4.1,
+     "kmh": 47.9,
+     "limit_kmh": 70.0,
+     "xy": [
+      -419.2,
+      185.8
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 4.7,
+     "kmh": 54.1,
+     "limit_kmh": 70.0,
+     "xy": [
+      -416.1,
+      192.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 5.2,
+     "kmh": 59.8,
+     "limit_kmh": 70.0,
+     "xy": [
+      -412.5,
+      199.7
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 5.7,
+     "kmh": 64.5,
+     "limit_kmh": 70.0,
+     "xy": [
+      -408.7,
+      207.4
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 6.2,
+     "kmh": 67.5,
+     "limit_kmh": 70.0,
+     "xy": [
+      -404.2,
+      215.9
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 6.7,
+     "kmh": 69.0,
+     "limit_kmh": 70.0,
+     "xy": [
+      -399.5,
+      224.2
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 0,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 7.2,
+     "kmh": 70.8,
+     "limit_kmh": 70.0,
+     "xy": [
+      -394.1,
+      232.7
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 7.7,
+     "kmh": 71.3,
+     "limit_kmh": 70.0,
+     "xy": [
+      -388.4,
+      241.1
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 8.2,
+     "kmh": 70.9,
+     "limit_kmh": 70.0,
+     "xy": [
+      -382.7,
+      248.8
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 8.7,
+     "kmh": 70.5,
+     "limit_kmh": 70.0,
+     "xy": [
+      -376.4,
+      256.7
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 9.2,
+     "kmh": 70.5,
+     "limit_kmh": 70.0,
+     "xy": [
+      -369.9,
+      264.1
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 9.7,
+     "kmh": 70.6,
+     "limit_kmh": 70.0,
+     "xy": [
+      -363.0,
+      271.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 0.0,
+     "kmh": 70.8,
+     "limit_kmh": 70.0,
+     "xy": [
+      -326.9,
+      300.7
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 61.8,
+     "limit_kmh": 70.0,
+     "xy": [
+      -319.5,
+      305.7
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 1.0,
+     "kmh": 60.4,
+     "limit_kmh": 70.0,
+     "xy": [
+      -312.3,
+      310.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 1.6,
+     "kmh": 59.8,
+     "limit_kmh": 70.0,
+     "xy": [
+      -304.9,
+      314.7
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 2.1,
+     "kmh": 60.2,
+     "limit_kmh": 100,
+     "xy": [
+      -297.2,
+      318.8
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 60.5,
+     "limit_kmh": 100,
+     "xy": [
+      -288.3,
+      323.2
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 60.3,
+     "limit_kmh": 100,
+     "xy": [
+      -280.8,
+      327.0
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 60.0,
+     "limit_kmh": 100,
+     "xy": [
+      -273.5,
+      331.1
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 4.1,
+     "kmh": 60.0,
+     "limit_kmh": 100,
+     "xy": [
+      -266.3,
+      334.9
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 4.6,
+     "kmh": 60.1,
+     "limit_kmh": 100,
+     "xy": [
+      -258.4,
+      338.4
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 5.1,
+     "kmh": 60.1,
+     "limit_kmh": 100,
+     "xy": [
+      -251.4,
+      341.1
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 5.6,
+     "kmh": 60.1,
+     "limit_kmh": 80,
+     "xy": [
+      -243.3,
+      344.0
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 0.0,
+     "kmh": 60.0,
+     "limit_kmh": 80,
+     "xy": [
+      -234.7,
+      346.7
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 0.5,
+     "kmh": 60.3,
+     "limit_kmh": 80,
+     "xy": [
+      -226.4,
+      348.7
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 1.0,
+     "kmh": 60.7,
+     "limit_kmh": 80,
+     "xy": [
+      -218.0,
+      350.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 1.5,
+     "kmh": 60.5,
+     "limit_kmh": 80,
+     "xy": [
+      -209.4,
+      351.8
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 2.0,
+     "kmh": 61.4,
+     "limit_kmh": 60,
+     "xy": [
+      -200.9,
+      353.2
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 2.6,
+     "kmh": 66.0,
+     "limit_kmh": 60,
+     "xy": [
+      -191.6,
+      354.5
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": true,
+     "alertCount": 1,
+     "alertPlaying": false,
+     "phase": "running"
+    },
+    {
+     "t": 3.1,
+     "kmh": 70.0,
+     "limit_kmh": 60,
+     "xy": [
+      -182.1,
+      355.8
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 2,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 3.6,
+     "kmh": 70.5,
+     "limit_kmh": 80,
+     "xy": [
+      -172.3,
+      356.9
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 2,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 4.1,
+     "kmh": 71.4,
+     "limit_kmh": 80,
+     "xy": [
+      -162.3,
+      358.0
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 2,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 4.6,
+     "kmh": 70.3,
+     "limit_kmh": 80,
+     "xy": [
+      -152.4,
+      359.0
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 2,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 5.1,
+     "kmh": 71.0,
+     "limit_kmh": 80,
+     "xy": [
+      -142.4,
+      359.9
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 2,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 5.6,
+     "kmh": 71.2,
+     "limit_kmh": 80,
+     "xy": [
+      -132.3,
+      360.8
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 2,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 6.1,
+     "kmh": 71.3,
+     "limit_kmh": 80,
+     "xy": [
+      -122.1,
+      361.9
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 2,
+     "alertPlaying": true,
+     "phase": "running"
+    },
+    {
+     "t": 6.7,
+     "kmh": 71.5,
+     "limit_kmh": 100,
+     "xy": [
+      -111.6,
+      363.3
+     ],
+     "alertActive": null,
+     "audioPlaying": null,
+     "alertStartCount": null,
+     "alertStopCount": null,
+     "armed": false,
+     "alertCount": 2,
+     "alertPlaying": true,
+     "phase": "running"
+    }
+   ]
+  },
+  "screens": {
+   "spawn_driver_view": "tests/screenshots/phase7/adas/event01_spawn.jpg",
+   "alert": "tests/screenshots/phase7/adas/event01_alert.jpg"
+  },
+  "log_run1": [
+   "imitRecognition| [Event01] Speed: 35.1 km/h",
+   "17457.61878|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 24.1 km/h",
+   "17458.59907|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 19.6 km/h",
+   "17459.60124|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 7.3 km/h",
+   "17494.21575|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Stopped; alert sound and state cleared",
+   "17495.30688|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Run started (manualLoad): Honda City at the signal; alert armed (>= 70 km/h, rearm <= 65 km/h)",
+   "17502.43631|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 7.6 km/h",
+   "17503.44101|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 20.2 km/h",
+   "17504.44971|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 34.9 km/h",
+   "17505.44543|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 47.5 km/h",
+   "17506.43824|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 59.2 km/h",
+   "17507.43469|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 63.3 km/h",
+   "17508.45239|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 64.6 km/h",
+   "17509.44882|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 63.5 km/h",
+   "17510.46359|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 64.0 km/h"
+  ],
+  "log_run2": [
+   "| [Event01] Speed: 64.2 km/h",
+   "17512.46489|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 64.3 km/h",
+   "17513.51985|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 68.4 km/h",
+   "17514.56048|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 68.1 km/h",
+   "17514.61845|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Run started (manualRestart): Honda City at the signal; alert armed (>= 70 km/h, rearm <= 65 km/h)",
+   "17519.60669|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 5.2 km/h",
+   "17520.61579|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 17.9 km/h",
+   "17521.62152|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 32.8 km/h",
+   "17522.61591|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 45.5 km/h",
+   "17523.61815|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 57.4 km/h",
+   "17524.62838|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 66.4 km/h",
+   "17525.62333|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 70.0 km/h",
+   "17525.62337|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] SPEED LIMIT REACHED",
+   "17525.62341|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Playing ADAS speed alert (#1)",
+   "17525.63676|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 70.1 km/h",
+   "17526.64939|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 71.2 km/h",
+   "17527.65394|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 70.5 km/h",
+   "17528.67226|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 70.6 km/h",
+   "17529.66302|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 70.7 km/h",
+   "17530.72688|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 70.8 km/h",
+   "17531.08292|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed alert rearmed (64.8 km/h)",
+   "17531.75101|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 60.7 km/h",
+   "17532.74406|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 60.2 km/h",
+   "17533.65907|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 60.5 km/h",
+   "17534.68960|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 60.0 km/h",
+   "17535.74127|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 60.2 km/h",
+   "17536.75233|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 60.0 km/h",
+   "17537.74856|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 60.6 km/h",
+   "17538.73837|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 60.3 km/h",
+   "17539.73398|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 68.1 km/h",
+   "17540.00000|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 70.0 km/h",
+   "17540.00003|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] SPEED LIMIT REACHED",
+   "17540.00006|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Playing ADAS speed alert (#2)",
+   "17540.75077|I|GELua.event01SpeedLimitRecognition.event01SpeedLimitRecognition| [Event01] Speed: 71.0 km/h"
+  ],
+  "checks": {
+   "spawn_on_70": true,
+   "run1_no_alert_at_65_69": true,
+   "run2_alert_at_70": true,
+   "run2_first_alert_inside_corridor": true,
+   "run2_single_alert_while_above": true,
+   "run2_rearm_below_65": true,
+   "run2_second_alert": true
+  },
+  "result": "PASS"
+ },
+ "reaction": {
+  "scenario": "reactionTest",
+  "phases": [
+   "playerSettling",
+   "waitingTraffic",
+   "armed",
+   "event",
+   "finished"
+  ],
+  "state_armed": {
+   "scheduleTimer": 0,
+   "npcTargetSpeedKmh": 0,
+   "cutInDelay": 25.061162580878,
+   "playerId": 311401,
+   "npcId": 314193,
+   "eventStarted": false,
+   "phase": "armed",
+   "collision": false
+  },
+  "screens": {
+   "armed": "tests/screenshots/phase7/adas/reaction_armed.jpg"
+  },
+  "final_state": {
+   "scheduleTimer": 25.065500641242,
+   "resultFile": "/settings/reaction_test/results/reaction_1791337000_8277.json",
+   "aggressorLane": 4,
+   "playerLaneStableTime": 20.081500502303,
+   "aggressorTargetLane": 4,
+   "npcTargetSpeedKmh": 60.007884549702,
+   "npcMinimumSpeedAfterBrakeKmh": 11.21599017235,
+   "playerLane": 3,
+   "cutInCompleted": true,
+   "trackingTargetSide": 1,
+   "playerLaneCount": 4,
+   "cutInDelay": 25.061162580878,
+   "brakeCheckElapsed": 2.7065000757575,
+   "laneTrackingReady": true,
+   "lateralOffset": -1.5248960969975,
+   "trackingLateralError": -0.63052104192941,
+   "gap": 3.6433203854701,
+   "playerId": 311401,
+   "npcId": 314193,
+   "eventStarted": true,
+   "brakeCheckStarted": true,
+   "phase": "finished",
+   "collision": true
+  },
+  "traffic_samples": [
+   [
+    {
+     "limit": 50.00004,
+     "id": 313662,
+     "kmh": 38.413571824332
+    },
+    {
+     "limit": 50.00004,
+     "id": 313914,
+     "kmh": 37.124400273222
+    },
+    {
+     "limit": 50.00004,
+     "id": 313979,
+     "kmh": 36.358543056287
+    },
+    {
+     "limit": 50.00004,
+     "id": 314045,
+     "kmh": 37.266932394935
+    },
+    {
+     "limit": 50.00004,
+     "id": 314123,
+     "kmh": 38.434414715598
+    },
+    {
+     "limit": 50.00004,
+     "id": 314193,
+     "kmh": 0.00037911732563096
+    }
+   ],
+   [
+    {
+     "limit": 50.00004,
+     "id": 313662,
+     "kmh": 49.327581778912
+    },
+    {
+     "limit": 50.00004,
+     "id": 313914,
+     "kmh": 49.727267020782
+    },
+    {
+     "limit": 50.00004,
+     "id": 313979,
+     "kmh": 49.9324364487
+    },
+    {
+     "limit": 50.00004,
+     "id": 314045,
+     "kmh": 49.455882400194
+    },
+    {
+     "limit": 50.00004,
+     "id": 314123,
+     "kmh": 49.774368072468
+    },
+    {
+     "limit": 50.00004,
+     "id": 314193,
+     "kmh": 45.745051900634
+    }
+   ],
+   [
+    {
+     "limit": 50.00004,
+     "id": 313662,
+     "kmh": 50.000070149529
+    },
+    {
+     "limit": 50.00004,
+     "id": 313914,
+     "kmh": 49.961515827491
+    },
+    {
+     "limit": 50.00004,
+     "id": 313979,
+     "kmh": 50.004826827889
+    },
+    {
+     "limit": 50.00004,
+     "id": 314045,
+     "kmh": 50.01630103385
+    },
+    {
+     "limit": 50.00004,
+     "id": 314123,
+     "kmh": 49.978931159509
+    },
+    {
+     "limit": 50.00004,
+     "id": 314193,
+     "kmh": 60.191940983982
+    }
+   ],
+   [
+    {
+     "limit": 50.00004,
+     "id": 313662,
+     "kmh": 50.00150236688
+    },
+    {
+     "limit": 50.00004,
+     "id": 313914,
+     "kmh": 50.010881229195
+    },
+    {
+     "limit": 50.00004,
+     "id": 313979,
+     "kmh": 49.998125822792
+    },
+    {
+     "limit": 50.00004,
+     "id": 314045,
+     "kmh": 50.033471374414
+    },
+    {
+     "limit": 50.00004,
+     "id": 314123,
+     "kmh": 49.922278588861
+    },
+    {
+     "limit": 50.00004,
+     "id": 314193,
+     "kmh": 60.547507279624
+    }
+   ],
+   [
+    {
+     "limit": 50.00004,
+     "id": 313662,
+     "kmh": 50.03418751844
+    },
+    {
+     "limit": 50.00004,
+     "id": 313914,
+     "kmh": 50.028961518015
+    },
+    {
+     "limit": 50.00004,
+     "id": 313979,
+     "kmh": 50.022560454372
+    },
+    {
+     "limit": 50.00004,
+     "id": 314045,
+     "kmh": 49.989652685731
+    },
+    {
+     "limit": 50.00004,
+     "id": 314123,
+     "kmh": 50.007332014895
+    },
+    {
+     "limit": 50.00004,
+     "id": 314193,
+     "kmh": 59.910600941762
+    }
+   ],
+   [
+    {
+     "limit": 50.00004,
+     "id": 313662,
+     "kmh": 50.038824569213
+    },
+    {
+     "limit": 50.00004,
+     "id": 313914,
+     "kmh": 50.04181801635
+    },
+    {
+     "limit": 50.00004,
+     "id": 313979,
+     "kmh": 50.036039514258
+    },
+    {
+     "limit": 50.00004,
+     "id": 314045,
+     "kmh": 49.993863028244
+    },
+    {
+     "limit": 50.00004,
+     "id": 314123,
+     "kmh": 50.041724384864
+    },
+    {
+     "limit": 50.00004,
+     "id": 314193,
+     "kmh": 60.073381709901
+    }
+   ],
+   [
+    {
+     "limit": 50.00004,
+     "id": 313662,
+     "kmh": 50.048400006697
+    },
+    {
+     "limit": 50.00004,
+     "id": 313914,
+     "kmh": 50.025782830189
+    },
+    {
+     "limit": 50.00004,
+     "id": 313979,
+     "kmh": 50.011443825689
+    },
+    {
+     "limit": 50.00004,
+     "id": 314045,
+     "kmh": 50.027560391079
+    },
+    {
+     "limit": 50.00004,
+     "id": 314123,
+     "kmh": 50.10548758635
+    },
+    {
+     "limit": 50.00004,
+     "id": 314193,
+     "kmh": 25.533029892665
+    }
+   ]
+  ],
+  "log": [
+   "17635.96622|I|GELua.reactionTest.reactionTest| [REACTION TEST] Mission stopped and experiment state cleared",
+   "17636.99744|I|GELua.reactionTest.reactionTest| [REACTION TEST] Scenario started",
+   "17636.99747|I|GELua.reactionTest.reactionTest| [REACTION TEST] Honda City identified: hcity7 / 1.5L LX (Sedan) [Facelift] (CVT)",
+   "elem = table: 0x01e5344380d0  {type:mission, date:1788260400, missionId:west_coast_usa/reactionTest/001-driverReaction}",
+   "m = table: 0x01e6904c4a20  {getMissionTips:function: 0x01e4bafaeed0, missionTypeData:table: 0x01e6904c4a68, defaultUserSettings:table: 0x01e690425378, defaultProgressKey:default, missionFolder:/gameplay/missions/west_coast_usa/reactionTest/001-driverReaction, autoAggregates:table: 0x01e690423a60, currentProgressKey:default, missionType:flowgraph, retryBehaviour:infiniteRetries, name:Teste de Reação — Fechada, progressKeyTranslations:table: 0x01e690435690, startCondition:table: 0x01e69044c590, official:false, grouping:table: 0x01e6904bab28, id:west_coast_usa/reactionTest/001-driverReaction, onFlowgraphStateStopped:function: 0x01e4bad3cad0, saveData:table: 0x01e66ea2b118, visibleCondition:table: 0x01e69043bf70, additionalAttributes:table: 0x01e69044c620 (more...)}",
+   "17646.37096|I|GELua.reactionTest.reactionTest| [REACTION TEST] Traffic spawned: 5 ambient vehicles",
+   "17648.83685|I|GELua.reactionTest.reactionTest| [REACTION TEST] Cut-in vehicle ready in adjacent lane (offset 14.7 m)",
+   "17648.83689|I|GELua.reactionTest.reactionTest| [REACTION TEST] Cut-in scheduled: 25.06 seconds after motion starts",
+   "elem = table: 0x01e5344380d0  {type:mission, date:1788260400, missionId:west_coast_usa/reactionTest/001-driverReaction}",
+   "m = table: 0x01e6904c4a20  {getMissionTips:function: 0x01e4bafaeed0, missionTypeData:table: 0x01e6904c4a68, defaultUserSettings:table: 0x01e690425378, defaultProgressKey:default, missionFolder:/gameplay/missions/west_coast_usa/reactionTest/001-driverReaction, autoAggregates:table: 0x01e690423a60, currentProgressKey:default, missionType:flowgraph, retryBehaviour:infiniteRetries, name:Teste de Reação — Fechada, progressKeyTranslations:table: 0x01e690435690, startCondition:table: 0x01e69044c590, official:false, grouping:table: 0x01e6904bab28, id:west_coast_usa/reactionTest/001-driverReaction, onFlowgraphStateStopped:function: 0x01e4bad3cad0, saveData:table: 0x01e66ea2b118, visibleCondition:table: 0x01e69043bf70, additionalAttributes:table: 0x01e69044c620 (more...)}"
+  ],
+  "checks": {
+   "armed_with_vehicles": true,
+   "event_or_finished": true,
+   "no_error_phase": true
+  },
+  "result": "PASS"
+ }
+}

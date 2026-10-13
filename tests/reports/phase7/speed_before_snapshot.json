@@ -1,0 +1,381 @@
+{
+ "points": [
+  {
+   "id": "radar:speedTrapTrigger2",
+   "road": {
+    "lanes": "++",
+    "node": "DR652_2",
+    "limit": 15.6464,
+    "dist": 3.1092792552564,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "radar:speedTrapTrigger3",
+   "road": {
+    "lanes": "++",
+    "node": "DR571_5",
+    "limit": 15.6464,
+    "dist": 3.350238067697,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "radar:speedTrapTrigger4",
+   "road": {
+    "lanes": "++",
+    "node": "junction1_wp25",
+    "limit": 27.777777777778,
+    "dist": 3.162797113744,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "radar:speedTrapTrigger5",
+   "road": {
+    "lanes": "++",
+    "node": "DR989_14",
+    "limit": 15.6464,
+    "dist": 2.446147276352,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "radar:speedTrapTrigger6",
+   "road": {
+    "lanes": "+",
+    "node": "DR1213_4",
+    "limit": 15.6464,
+    "dist": 1.7498913633429,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "radar:speedTrapTrigger7",
+   "road": {
+    "lanes": "+",
+    "node": "DR1009_26",
+    "limit": 15.6464,
+    "dist": 1.6713207250808,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "adas:event01SpeedLimitRecognition",
+   "road": {
+    "lanes": "-+",
+    "node": "DR272_7",
+    "limit": 11.1111,
+    "dist": 0.064716013330863,
+    "oneWay": false
+   }
+  },
+  {
+   "id": "adas:adasSpeedAlertTest",
+   "road": {
+    "lanes": "++++",
+    "node": "DR253_6",
+    "limit": 33.333333333333,
+    "dist": 3.9908546646502,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "adas:adasSpeedAlertWeb",
+   "road": {
+    "lanes": "++++",
+    "node": "DR253_6",
+    "limit": 33.333333333333,
+    "dist": 3.9908546646502,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "adas:reactionTest",
+   "road": {
+    "lanes": "++++",
+    "node": "DR253_6",
+    "limit": 33.333333333333,
+    "dist": 3.9908546646502,
+    "oneWay": true
+   }
+  }
+ ],
+ "signs": [
+  {
+   "pos": [
+    -274.32595825195,
+    -58.189437866211,
+    121.93811035156
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "autojunction_134",
+    "limit": 11.1111,
+    "dist": 7.4753535934484,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    -150.86845397949,
+    21.885776519775,
+    125.19425964355
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "DR459_7",
+    "limit": 11.1111,
+    "dist": 5.9182699195681,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    -193.94639587402,
+    -78.406372070312,
+    121.95592498779
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "DR728_1",
+    "limit": 11.1111,
+    "dist": 10.128015696614,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    -169.32122802734,
+    155.46627807617,
+    123.42597198486
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "DR286_1",
+    "limit": 11.1111,
+    "dist": 6.3590913510413,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    -195.75660705566,
+    -57.109222412109,
+    121.850730896
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "DR726_4",
+    "limit": 11.1111,
+    "dist": 5.5440520274683,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    -260.34390258789,
+    -54.294761657715,
+    122.42981719971
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "autojunction_134",
+    "limit": 11.1111,
+    "dist": 7.5101883326321,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    -258.84912109375,
+    -43.843563079834,
+    122.49312591553
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "DR725_2",
+    "limit": 2.7778,
+    "dist": 7.0455600473441,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae"
+  },
+  {
+   "pos": [
+    -191.11293029785,
+    -10.91089630127,
+    123.20397186279
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "DR773_3",
+    "limit": 2.7778,
+    "dist": 5.5189221752392,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae"
+  },
+  {
+   "pos": [
+    -144.34715270996,
+    22.307456970215,
+    124.08234405518
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "DR459_7",
+    "limit": 2.7778,
+    "dist": 5.3332208905204,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae"
+  },
+  {
+   "pos": [
+    -54.256942749023,
+    77.958602905273,
+    124.93994140625
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "DR730_2",
+    "limit": 2.7778,
+    "dist": 4.5246590853963,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae"
+  },
+  {
+   "pos": [
+    -1043.9001464844,
+    2044.7481689453,
+    76.432159423828
+   ],
+   "road": {
+    "lanes": "-+",
+    "node": "DR1130_2",
+    "limit": 11.1111,
+    "dist": 4.967581302806,
+    "oneWay": false
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    476.94317626953,
+    1613.0946044922,
+    76.161010742188
+   ],
+   "road": {
+    "lanes": "+",
+    "node": "DR1212_2",
+    "limit": 2.7778,
+    "dist": 2.9239241151785,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    476.94317626953,
+    1608.08203125,
+    76.132247924805
+   ],
+   "road": {
+    "lanes": "+",
+    "node": "DR1212_2",
+    "limit": 2.7778,
+    "dist": 2.9002987293655,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    476.94317626953,
+    1618.0458984375,
+    76.076850891113
+   ],
+   "road": {
+    "lanes": "+",
+    "node": "DR1235_1",
+    "limit": 2.7778,
+    "dist": 2.7790683000157,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    476.94317626953,
+    1623.0848388672,
+    76.106369018555
+   ],
+   "road": {
+    "lanes": "+",
+    "node": "DR1221_5",
+    "limit": 2.7778,
+    "dist": 2.7959473327177,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/sign_speed25.dae"
+  },
+  {
+   "pos": [
+    447.48663330078,
+    1623.8736572266,
+    76.717842102051
+   ],
+   "road": {
+    "lanes": "+",
+    "node": "DR1221_5",
+    "limit": 2.7778,
+    "dist": 3.8886864212049,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae"
+  },
+  {
+   "pos": [
+    444.40087890625,
+    1687.9306640625,
+    76.455192565918
+   ],
+   "road": {
+    "lanes": "+",
+    "node": "DR1246_5",
+    "limit": 2.7778,
+    "dist": 3.6508431483351,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae"
+  },
+  {
+   "pos": [
+    461.35992431641,
+    1687.9886474609,
+    76.452766418457
+   ],
+   "road": {
+    "lanes": "+",
+    "node": "DR1261_7",
+    "limit": 2.7778,
+    "dist": 4.0695569020943,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae"
+  }
+ ],
+ "meta": {
+  "collected": "2026-10-06T21:32:06",
+  "level": "/levels/west_coast_usa/main.level.json",
+  "source": "MCP map.getMap() + map.findClosestRoad, TSStatic sign_speed*.dae"
+ }
+}

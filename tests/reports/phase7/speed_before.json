@@ -1,0 +1,524 @@
+{
+  "title": "Speed consistency",
+  "subject": "west_coast_usa",
+  "status": "FAIL",
+  "counts": {
+    "PASS": 9,
+    "WARN": 1,
+    "FAIL": 13,
+    "SKIP": 7
+  },
+  "generated": "2026-10-06T21:32:06",
+  "meta": {
+    "snapshot": {
+      "collected": "2026-10-06T21:32:06",
+      "level": "/levels/west_coast_usa/main.level.json",
+      "source": "MCP map.getMap() + map.findClosestRoad, TSStatic sign_speed*.dae"
+    },
+    "rows": [
+      {
+        "location": "radar speedTrapTrigger2 @ [-416, 198]",
+        "sign": "—",
+        "radar": "56.3 km/h (15.65 m/s)",
+        "zone": "—",
+        "road": "56.3 km/h (15.65 m/s)",
+        "result": "PASS"
+      },
+      {
+        "location": "radar speedTrapTrigger3 @ [-305, 325]",
+        "sign": "—",
+        "radar": "56.3 km/h (15.65 m/s)",
+        "zone": "—",
+        "road": "56.3 km/h (15.65 m/s)",
+        "result": "PASS"
+      },
+      {
+        "location": "radar speedTrapTrigger4 @ [-424, 673]",
+        "sign": "—",
+        "radar": "56.3 km/h (15.65 m/s)",
+        "zone": "—",
+        "road": "100.0 km/h (27.78 m/s)",
+        "result": "FAIL"
+      },
+      {
+        "location": "radar speedTrapTrigger5 @ [-1002, 1902]",
+        "sign": "—",
+        "radar": "56.3 km/h (15.65 m/s)",
+        "zone": "—",
+        "road": "56.3 km/h (15.65 m/s)",
+        "result": "PASS"
+      },
+      {
+        "location": "radar speedTrapTrigger6 @ [414, 1646]",
+        "sign": "—",
+        "radar": "56.3 km/h (15.65 m/s)",
+        "zone": "—",
+        "road": "56.3 km/h (15.65 m/s)",
+        "result": "PASS"
+      },
+      {
+        "location": "radar speedTrapTrigger7 @ [393, 1848]",
+        "sign": "—",
+        "radar": "56.3 km/h (15.65 m/s)",
+        "zone": "—",
+        "road": "56.3 km/h (15.65 m/s)",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-1044, 2045]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [477, 1613]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [477, 1608]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [477, 1618]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [477, 1623]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [447, 1624]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [444, 1688]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [461, 1688]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-274, -58]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-151, 22]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-194, -78]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-169, 155]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-196, -57]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_speed25.dae @ [-260, -54]",
+        "sign": "40 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [-259, -44]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [-191, -11]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [-144, 22]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "sign_r19_10.dae @ [-54, 78]",
+        "sign": "10 km/h",
+        "road": "10.0 km/h (2.778 m/s)",
+        "radar": "—",
+        "zone": "—",
+        "result": "PASS"
+      },
+      {
+        "location": "ADAS event01SpeedLimitRecognition spawn [-472, 155]",
+        "sign": "—",
+        "radar": "—",
+        "zone": "—",
+        "adas": "70.0 km/h",
+        "road": "40.0 km/h (11.11 m/s)",
+        "result": "FAIL"
+      },
+      {
+        "location": "ADAS adasSpeedAlertTest spawn [431, 702]",
+        "sign": "—",
+        "radar": "—",
+        "zone": "—",
+        "adas": "50.0 km/h",
+        "road": "120.0 km/h (33.33 m/s)",
+        "result": "FAIL"
+      },
+      {
+        "location": "ADAS adasSpeedAlertWeb spawn [431, 702]",
+        "sign": "—",
+        "radar": "—",
+        "zone": "—",
+        "adas": "50.0 km/h",
+        "road": "120.0 km/h (33.33 m/s)",
+        "result": "FAIL"
+      },
+      {
+        "location": "ADAS reactionTest",
+        "sign": "—",
+        "road": "—",
+        "radar": "—",
+        "zone": "—",
+        "adas": "range [40, 70] km/h (experimental)",
+        "result": "SKIP"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "status": "FAIL",
+      "name": "Road limits: multiples of 10 km/h",
+      "message": "11 explicit road limits are not multiples of 10: 56.3 km/h (15.65 m/s) ×11",
+      "details": {
+        "objects": [
+          {
+            "file": "AIWaypointsGroup/items.level.json",
+            "persistentId": "8e3763b3-96f5-4df1-99c7-adf1680e6092",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "AIWaypointsGroup/items.level.json",
+            "persistentId": "f9da8bdf-7d65-443c-b199-43b7fac5356e",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "AIWaypointsGroup/items.level.json",
+            "persistentId": "2388e8bc-a616-45a0-8826-d90f9844df7f",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "AIWaypointsGroup/items.level.json",
+            "persistentId": "6777a576-5d4d-491e-912a-04faa6c393d2",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "AIWaypointsGroup/items.level.json",
+            "persistentId": "989ef979-49ee-419e-919f-2bf1c6d08e9d",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "AIWaypointsGroup/items.level.json",
+            "persistentId": "af746a38-3ff6-4785-96c2-447ba39c5238",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "island/island_ai_roads/items.level.json",
+            "persistentId": "d241454f-d83c-41e8-9b5e-7aaa5a4b1b93",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "island/island_ai_roads/items.level.json",
+            "persistentId": "be0f5b74-eae0-4b46-bbe9-183e11e4c1f2",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "island/island_ai_roads/items.level.json",
+            "persistentId": "1e4035d1-538f-4321-a7bd-dfc1e33485df",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "island_shippingYard/dock_aiRoads/items.level.json",
+            "persistentId": "c5865b41-6662-47ee-82b2-e8cbe59e8ee2",
+            "speed_mps": 15.6464
+          },
+          {
+            "file": "island_shippingYard/dock_aiRoads/items.level.json",
+            "persistentId": "af1085ba-4d01-48d1-be41-c58d021c8f9c",
+            "speed_mps": 15.6464
+          }
+        ]
+      }
+    },
+    {
+      "status": "FAIL",
+      "name": "Map zones",
+      "message": "not multiples of 10: horizon_estates 48.2 km/h (13.4 m/s); mount_wallis 80.6 km/h (22.4 m/s); the_dockyards 56.2 km/h (15.6 m/s)",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Mission zones (garageToGarage)",
+      "message": "not multiples of 10: downtownBelasco 48.2 km/h (13.4 m/s); residential 48.2 km/h (13.4 m/s); dockyard 56.2 km/h (15.6 m/s); mountWallis 80.6 km/h (22.4 m/s)",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Radar speedTrapTrigger2: regulatory value",
+      "message": "56.3 km/h (15.65 m/s) is not a multiple of 10 km/h",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Radar speedTrapTrigger2 vs road",
+      "message": "radar 56.3 km/h (15.65 m/s) == road",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Radar speedTrapTrigger3: regulatory value",
+      "message": "56.3 km/h (15.65 m/s) is not a multiple of 10 km/h",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Radar speedTrapTrigger3 vs road",
+      "message": "radar 56.3 km/h (15.65 m/s) == road",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Radar speedTrapTrigger4: regulatory value",
+      "message": "56.3 km/h (15.65 m/s) is not a multiple of 10 km/h",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Radar speedTrapTrigger4 vs road",
+      "message": "radar 56.3 km/h (15.65 m/s) ≠ road 100.0 km/h (27.78 m/s) and no zone regulates the radar value",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Radar speedTrapTrigger5: regulatory value",
+      "message": "56.3 km/h (15.65 m/s) is not a multiple of 10 km/h",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Radar speedTrapTrigger5 vs road",
+      "message": "radar 56.3 km/h (15.65 m/s) == road",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Radar speedTrapTrigger6: regulatory value",
+      "message": "56.3 km/h (15.65 m/s) is not a multiple of 10 km/h",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Radar speedTrapTrigger6 vs road",
+      "message": "radar 56.3 km/h (15.65 m/s) == road",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "Radar speedTrapTrigger7: regulatory value",
+      "message": "56.3 km/h (15.65 m/s) is not a multiple of 10 km/h",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Radar speedTrapTrigger7 vs road",
+      "message": "radar 56.3 km/h (15.65 m/s) == road",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Speed sign 10 km/h: unit",
+      "message": "7 signs show km/h (R-19 mesh of the mod)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Speed sign 10 km/h vs regulated roads",
+      "message": "7 signs == explicit limit of the 18 distinct road(s) they regulate",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Speed sign 40 km/h: unit",
+      "message": "11 signs show km/h (R-19 mesh of the mod)",
+      "details": {}
+    },
+    {
+      "status": "PASS",
+      "name": "Speed sign 40 km/h vs regulated roads",
+      "message": "11 signs == explicit limit of the 9 distinct road(s) they regulate",
+      "details": {}
+    },
+    {
+      "status": "WARN",
+      "name": "Speed signs: nearest navgraph edge",
+      "message": "14/18 signs: nearest edge == sign value; 4 differ (sign at a transition: e.g. dock booths, where the sign regulates the next road)",
+      "details": {
+        "differ": [
+          {
+            "shape": "sign_speed25.dae",
+            "pos": [
+              476.9,
+              1613.1
+            ],
+            "nearest_edge": "10.0 km/h (2.778 m/s)"
+          },
+          {
+            "shape": "sign_speed25.dae",
+            "pos": [
+              476.9,
+              1608.1
+            ],
+            "nearest_edge": "10.0 km/h (2.778 m/s)"
+          },
+          {
+            "shape": "sign_speed25.dae",
+            "pos": [
+              476.9,
+              1618.0
+            ],
+            "nearest_edge": "10.0 km/h (2.778 m/s)"
+          },
+          {
+            "shape": "sign_speed25.dae",
+            "pos": [
+              476.9,
+              1623.1
+            ],
+            "nearest_edge": "10.0 km/h (2.778 m/s)"
+          }
+        ]
+      }
+    },
+    {
+      "status": "FAIL",
+      "name": "ADAS event01SpeedLimitRecognition (speed_limit_detection)",
+      "message": "threshold 70.0 km/h ≠ road limit at the scenario start (40.0 km/h (11.11 m/s)); limit-alert systems must follow the regulated road",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "ADAS adasSpeedAlertTest (speed_limit_alert)",
+      "message": "threshold 50.0 km/h ≠ road limit at the scenario start (120.0 km/h (33.33 m/s)); limit-alert systems must follow the regulated road",
+      "details": {}
+    },
+    {
+      "status": "FAIL",
+      "name": "ADAS adasSpeedAlertWeb (speed_limit_alert)",
+      "message": "threshold 50.0 km/h ≠ road limit at the scenario start (120.0 km/h (33.33 m/s)); limit-alert systems must follow the regulated road",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "ADAS reactionTest (experimental_speed_instruction)",
+      "message": "experimental_speed_range [40, 70] km/h — excluded from sign == road rule by policy",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Mission arrive/001-bruckellA",
+      "message": "speedLimit 216.0 km/h (60 m/s) (maxSpeedActive=false, inactive)",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Mission arrive/002-bruckellB",
+      "message": "speedLimit 216.0 km/h (60 m/s) (maxSpeedActive=false, inactive)",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Mission arrive/003-bruckellC",
+      "message": "speedLimit 216.0 km/h (60 m/s) (maxSpeedActive=false, inactive)",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Mission arrive/004-bruckellD",
+      "message": "speedLimit 216.0 km/h (60 m/s) (maxSpeedActive=false, inactive)",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Mission arrive/005-Gas",
+      "message": "speedLimit 216.0 km/h (60 m/s) (maxSpeedActive=false, inactive)",
+      "details": {}
+    },
+    {
+      "status": "SKIP",
+      "name": "Mission arrive/006-Picolina",
+      "message": "speedLimit 216.0 km/h (60 m/s) (maxSpeedActive=false, inactive)",
+      "details": {}
+    }
+  ]
+}

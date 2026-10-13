@@ -1,0 +1,404 @@
+{
+ "ok": true,
+ "rows": [
+  {
+   "expected_kmh": 10,
+   "label": "Docas: pista da cabine de saída (Fase 5, R-19 10)",
+   "point": [
+    458.1,
+    1620.6
+   ],
+   "edge": [
+    "DR1221_5",
+    "DR1236_2"
+   ],
+   "distance_m": 1.5,
+   "navgraph_kmh": 10.0,
+   "navgraph_mps": 2.7778,
+   "lanes": "+",
+   "source": "explícito (Fase 5)",
+   "sign": "R-19 10",
+   "radar": "—",
+   "zone": "the_dockyards 60",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 10,
+   "label": "Docas: pátio norte (Fase 5)",
+   "point": [
+    457.7,
+    1680.1
+   ],
+   "edge": [
+    "DR1261_7",
+    "DR1252_1"
+   ],
+   "distance_m": 1.5,
+   "navgraph_kmh": 10.0,
+   "navgraph_mps": 2.7778,
+   "lanes": "+",
+   "source": "explícito (Fase 5)",
+   "sign": "R-19 10",
+   "radar": "—",
+   "zone": "the_dockyards 60",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 40,
+   "label": "DR272, via local oeste (antigo início do Event 01)",
+   "point": [
+    -520.0,
+    163.0
+   ],
+   "edge": [
+    "DR766_4",
+    "DR272_5"
+   ],
+   "distance_m": 0.3,
+   "navgraph_kmh": 40.0,
+   "navgraph_mps": 11.1111,
+   "lanes": "-+",
+   "source": "explícito (Fase 5, ex-25 mph)",
+   "sign": "—",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 40,
+   "label": "Malha residencial oeste (Fase 5)",
+   "point": [
+    -844.5,
+    555.1
+   ],
+   "edge": [
+    "DR384_2",
+    "DR384_3"
+   ],
+   "distance_m": 0.0,
+   "navgraph_kmh": 40.0,
+   "navgraph_mps": 11.1111,
+   "lanes": "-+",
+   "source": "explícito (Fase 5, ex-25 mph)",
+   "sign": "R-19 40 (malha)",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 40,
+   "label": "Praça de pedágio, faixa DR630 entre as cabines",
+   "point": [
+    -878.8,
+    -548.1
+   ],
+   "edge": [
+    "DR630_3",
+    "DR630_4"
+   ],
+   "distance_m": 0.2,
+   "navgraph_kmh": 40.0,
+   "navgraph_mps": 11.1111,
+   "lanes": "+",
+   "source": "explícito (Fase 7, praça de pedágio)",
+   "sign": "R-19 40 (cabines)",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 50,
+   "label": "DR312, spawn do ADAS Speed Alert",
+   "point": [
+    431.2,
+    701.6
+   ],
+   "edge": [
+    "DR253_6",
+    "DR312_9"
+   ],
+   "distance_m": 4.0,
+   "navgraph_kmh": 50.0,
+   "navgraph_mps": 13.8889,
+   "lanes": "++++",
+   "source": "explícito (Fase 7, zona ADAS)",
+   "sign": "R-19 50 (entrada e à frente do spawn)",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 50,
+   "label": "DR312, ~600 m depois do spawn",
+   "point": [
+    -42.0,
+    339.0
+   ],
+   "edge": [
+    "DR312_7",
+    "BeamNGWaypoint_1"
+   ],
+   "distance_m": 0.5,
+   "navgraph_kmh": 50.0,
+   "navgraph_mps": 13.8889,
+   "lanes": "++++",
+   "source": "explícito (Fase 7, zona ADAS)",
+   "sign": "R-19 50",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 60,
+   "label": "DR571, radar speedCamera_003",
+   "point": [
+    -305.4,
+    325.2
+   ],
+   "edge": [
+    "DR571_5",
+    "DR655_1"
+   ],
+   "distance_m": 0.3,
+   "navgraph_kmh": 60.0,
+   "navgraph_mps": 16.6667,
+   "lanes": "++",
+   "source": "explícito (Fase 7, ex-35 mph)",
+   "sign": "—",
+   "radar": "speedTrapTrigger3 60",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 60,
+   "label": "DR666, avenida pista sul",
+   "point": [
+    -374.3,
+    275.5
+   ],
+   "edge": [
+    "DR666_4",
+    "DR666_5"
+   ],
+   "distance_m": 0.1,
+   "navgraph_kmh": 60.0,
+   "navgraph_mps": 16.6667,
+   "lanes": "++",
+   "source": "explícito (Fase 7, ex-35 mph)",
+   "sign": "—",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 60,
+   "label": "DR989, ilha, radar speedCamera_005",
+   "point": [
+    -1001.7,
+    1902.1
+   ],
+   "edge": [
+    "DR989_14",
+    "autojunction_711"
+   ],
+   "distance_m": 0.7,
+   "navgraph_kmh": 60.0,
+   "navgraph_mps": 16.6667,
+   "lanes": "++",
+   "source": "explícito (Fase 7, ex-35 mph)",
+   "sign": "—",
+   "radar": "speedTrapTrigger5 60",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 60,
+   "label": "DR1213, docas, radar speedCamera_006",
+   "point": [
+    414.3,
+    1646.2
+   ],
+   "edge": [
+    "DR1213_4",
+    "DR1253_5"
+   ],
+   "distance_m": 0.9,
+   "navgraph_kmh": 60.0,
+   "navgraph_mps": 16.6667,
+   "lanes": "+",
+   "source": "explícito (Fase 7, ex-35 mph)",
+   "sign": "—",
+   "radar": "speedTrapTrigger6 60",
+   "zone": "the_dockyards 60",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 60,
+   "label": "DR1009, ilha, radar speedCamera_007",
+   "point": [
+    393.0,
+    1848.0
+   ],
+   "edge": [
+    "DR1009_26",
+    "DR1009_27"
+   ],
+   "distance_m": 0.8,
+   "navgraph_kmh": 60.0,
+   "navgraph_mps": 16.6667,
+   "lanes": "+",
+   "source": "explícito (Fase 7, ex-35 mph)",
+   "sign": "—",
+   "radar": "speedTrapTrigger7 60",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 70,
+   "label": "DR652, corredor do Event 01, radar speedCamera_002",
+   "point": [
+    -416.1,
+    197.7
+   ],
+   "edge": [
+    "DR652_2",
+    "autojunction_86"
+   ],
+   "distance_m": 0.1,
+   "navgraph_kmh": 70.0,
+   "navgraph_mps": 19.4444,
+   "lanes": "++",
+   "source": "explícito (Fase 7, corredor 70)",
+   "sign": "R-19 70 (entrada, repetição)",
+   "radar": "speedTrapTrigger2 70",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 70,
+   "label": "DR652, novo início do Event 01",
+   "point": [
+    -428.2,
+    164.3
+   ],
+   "edge": [
+    "DR192_5",
+    "DR652_2"
+   ],
+   "distance_m": 2.2,
+   "navgraph_kmh": 70.0,
+   "navgraph_mps": 19.4444,
+   "lanes": "++",
+   "source": "explícito (Fase 7, corredor 70)",
+   "sign": "R-19 70 a ~20 m",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 80,
+   "label": "Alça Bridge36 depois do corredor do Event 01 (automático)",
+   "point": [
+    -217.5,
+    350.5
+   ],
+   "edge": [
+    "DR659_5",
+    "Bridge36_3"
+   ],
+   "distance_m": 0.4,
+   "navgraph_kmh": 80.0,
+   "navgraph_mps": 22.2222,
+   "lanes": "+",
+   "source": "automático do jogo",
+   "sign": "—",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 80,
+   "label": "DR501, via de mão dupla perto da zona ADAS (automático)",
+   "point": [
+    422.0,
+    791.0
+   ],
+   "edge": [
+    "DR577_51",
+    "DR501_16"
+   ],
+   "distance_m": 0.1,
+   "navgraph_kmh": 80.0,
+   "navgraph_mps": 22.2222,
+   "lanes": "-+",
+   "source": "automático do jogo",
+   "sign": "—",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 100,
+   "label": "Trevo junction1, radar speedCamera_004",
+   "point": [
+    -423.7,
+    672.8
+   ],
+   "edge": [
+    "junction1_wp25",
+    "junction1_wp19"
+   ],
+   "distance_m": 0.4,
+   "navgraph_kmh": 100.0,
+   "navgraph_mps": 27.7778,
+   "lanes": "++",
+   "source": "automático do jogo (waypoints inertes alinhados)",
+   "sign": "—",
+   "radar": "speedTrapTrigger4 100",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 120,
+   "label": "DR758, saída da zona ADAS",
+   "point": [
+    -432.7,
+    -38.2
+   ],
+   "edge": [
+    "Bridge30_1",
+    "Bridge30_2"
+   ],
+   "distance_m": 0.3,
+   "navgraph_kmh": 120.0,
+   "navgraph_mps": 33.3333,
+   "lanes": "++++",
+   "source": "explícito = automático (Fase 7)",
+   "sign": "R-19 120",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  },
+  {
+   "expected_kmh": 120,
+   "label": "DR694, antes da zona ADAS",
+   "point": [
+    590.0,
+    810.0
+   ],
+   "edge": [
+    "DR694_8",
+    "DR694_9"
+   ],
+   "distance_m": 0.1,
+   "navgraph_kmh": 120.0,
+   "navgraph_mps": 33.3333,
+   "lanes": "++++",
+   "source": "automático do jogo",
+   "sign": "—",
+   "radar": "—",
+   "zone": "—",
+   "result": "PASS"
+  }
+ ]
+}

@@ -2,7 +2,7 @@
 
 **Alvo:** `mod/traducao_ptbr_wcusa`  
 
-**Resultado:** `PASS` · PASS 217 · WARN 0 · FAIL 0 · SKIP 0
+**Resultado:** `PASS` · PASS 274 · WARN 0 · FAIL 0 · SKIP 0
 
 | Status | Verificação | Mensagem |
 |---|---|---|
@@ -42,6 +42,7 @@
 | PASS | Asset path | assets/materials/decalroad/lines/roadmarkings1/t_decal_roadmarkings_o.data.dds → t_decal_roadmarkings/opacity |
 | PASS | Asset path | assets/materials/signage/roadsigns/t_roadsigns_b.color.dds → t_roadsigns/base_color |
 | PASS | Asset path | assets/materials/signage/roadsigns/t_roadsigns_o.data.dds → t_roadsigns/opacity |
+| PASS | Declared functional override | gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Asset path | levels/jungle_rock_island/art/shapes/buildings/ind_industrial_signs_d.color.dds → ind_industrial_signs/base_color |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/diner_building.cdae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/buildings/diner_building.dae (config/new_assets.json; checked by validate.py new) |
@@ -82,15 +83,30 @@
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/main.materials.json (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.cdae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_120.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_120.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_50.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_50.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_70.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_70.dae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_10_b.color.dds (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_120_b.color.dds (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_40_b.color.dds (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_50_b.color.dds (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_70_b.color.dds (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/t_r19_o.data.dds (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/s_toll_booth_center.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/s_toll_booth_center.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/s_toll_booth_center_alt.cdae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/s_toll_booth_center_alt.dae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/sign_speed25.cdae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/objects/sign_speed25.dae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/roads/roadsigns.cdae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/roads/roadsigns.dae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.cdae (config/new_assets.json; checked by validate.py new) |
 | PASS | Declared new asset | levels/west_coast_usa/art/shapes/roads/tunnel_mainTrackEntrance.dae (config/new_assets.json; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/city.sites.json (speedLimit-only override; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/info.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main.decals.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json (speedLimit-only override; checked by validate.py new) |
@@ -98,14 +114,22 @@
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_aiRoads/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_entrance/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_exit/items.level.json (speedLimit-only override; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/items.level.json (speedLimit-only override; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/ptbr_functional_signs/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json (speedLimit-only override; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_002/items.level.json (speedLimit-only override; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_003/items.level.json (speedLimit-only override; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_004/items.level.json (speedLimit-only override; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_005/items.level.json (speedLimit-only override; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_006/items.level.json (speedLimit-only override; checked by validate.py new) |
+| PASS | Declared functional override | levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_007/items.level.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Declared functional override | levels/west_coast_usa/slotTraffic.json (speedLimit-only override; checked by validate.py new) |
 | PASS | Duplicate file name | ind_industrial_signs_d.color.dds at 2 declared paths of ind_industrial_signs (texture_families.json extra_paths) |
 | PASS | Duplicate file name | t_decal_roadmarkings_ao.data.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
 | PASS | Duplicate file name | t_decal_roadmarkings_b.color.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
 | PASS | Duplicate file name | t_decal_roadmarkings_nm.normal.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
 | PASS | Duplicate file name | t_decal_roadmarkings_o.data.dds at 2 declared paths of t_decal_roadmarkings (texture_families.json extra_paths) |
-| PASS | Installed copy | identical to repo (93 files) |
+| PASS | Installed copy | identical to repo (117 files) |
 | PASS | t_roadsigns: base_color (t_roadsigns_b.color.dds) | delivered |
 | PASS | t_roadsigns: opacity (t_roadsigns_o.data.dds) | delivered |
 | PASS | t_roadsigns: shape_changed | all shape-dependent maps delivered: opacity |
@@ -150,13 +174,22 @@
 | PASS | t_decal_roadmarkings: shape_changed | all shape-dependent maps delivered: opacity, normal, ao |
 | PASS | t_r19_10_b.color.dds: spec | 512x1024 BC7_UNORM_SRGB (DX10) sRGB, 11 mips |
 | PASS | t_r19_40_b.color.dds: spec | 512x1024 BC7_UNORM_SRGB (DX10) sRGB, 11 mips |
+| PASS | t_r19_50_b.color.dds: spec | 512x1024 BC7_UNORM_SRGB (DX10) sRGB, 11 mips |
+| PASS | t_r19_70_b.color.dds: spec | 512x1024 BC7_UNORM_SRGB (DX10) sRGB, 11 mips |
+| PASS | t_r19_120_b.color.dds: spec | 512x1024 BC7_UNORM_SRGB (DX10) sRGB, 11 mips |
 | PASS | t_r19_o.data.dds: spec | 512x1024 BC4_UNORM (legacy BC4U) unspecified (legacy header), 11 mips |
 | PASS | t_r19_o.data.dds: disc mask | corners transparent, centre opaque, coverage 0.564 (alphaTest 128) |
 | PASS | t_r19_10_b.color.dds: edge halo | 1904 edge pixels carry the border colour (no halo) |
 | PASS | t_r19_40_b.color.dds: edge halo | 1904 edge pixels carry the border colour (no halo) |
-| PASS | Materials: no game material redefined | 3 own materials, none named ['roadsigns', 'metal_galvanized'] |
+| PASS | t_r19_50_b.color.dds: edge halo | 1904 edge pixels carry the border colour (no halo) |
+| PASS | t_r19_70_b.color.dds: edge halo | 1904 edge pixels carry the border colour (no halo) |
+| PASS | t_r19_120_b.color.dds: edge halo | 1904 edge pixels carry the border colour (no halo) |
+| PASS | Materials: no game material redefined | 6 own materials, none named ['roadsigns', 'metal_galvanized'] |
 | PASS | Material roadsigns_ptbr_r19_10 | baseColor t_r19_10_b.color.dds · opacity t_r19_o.data.dds · alphaTest 128 |
 | PASS | Material roadsigns_ptbr_r19_40 | baseColor t_r19_40_b.color.dds · opacity t_r19_o.data.dds · alphaTest 128 |
+| PASS | Material roadsigns_ptbr_r19_50 | baseColor t_r19_50_b.color.dds · opacity t_r19_o.data.dds · alphaTest 128 |
+| PASS | Material roadsigns_ptbr_r19_70 | baseColor t_r19_70_b.color.dds · opacity t_r19_o.data.dds · alphaTest 128 |
+| PASS | Material roadsigns_ptbr_r19_120 | baseColor t_r19_120_b.color.dds · opacity t_r19_o.data.dds · alphaTest 128 |
 | PASS | Material roadsigns_ptbr_r19_back | baseColor t_metal_galvanized_01_b.color.png · opacity t_r19_o.data.dds · alphaTest 128 |
 | PASS | sign_r19_10.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
 | PASS | sign_r19_10.dae: materials | ['roadsigns_ptbr_r19_10', 'roadsigns_ptbr_r19_back'] |
@@ -164,6 +197,15 @@
 | PASS | sign_speed25.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
 | PASS | sign_speed25.dae: materials | ['roadsigns_ptbr_r19_40', 'roadsigns_ptbr_r19_back'] |
 | PASS | sign_speed25.dae: compiled .cdae | present and newer than the .dae (no recompilation, no temp cache) |
+| PASS | sign_r19_50.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
+| PASS | sign_r19_50.dae: materials | ['roadsigns_ptbr_r19_50', 'roadsigns_ptbr_r19_back'] |
+| PASS | sign_r19_50.dae: compiled .cdae | present and newer than the .dae (no recompilation, no temp cache) |
+| PASS | sign_r19_70.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
+| PASS | sign_r19_70.dae: materials | ['roadsigns_ptbr_r19_70', 'roadsigns_ptbr_r19_back'] |
+| PASS | sign_r19_70.dae: compiled .cdae | present and newer than the .dae (no recompilation, no temp cache) |
+| PASS | sign_r19_120.dae: structure vs original | geometry, normals, vertex colours, triangle lists, node transforms and bounding box identical; only materials/UVs differ |
+| PASS | sign_r19_120.dae: materials | ['roadsigns_ptbr_r19_120', 'roadsigns_ptbr_r19_back'] |
+| PASS | sign_r19_120.dae: compiled .cdae | present and newer than the .dae (no recompilation, no temp cache) |
 | PASS | s_motel_sign.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
 | PASS | s_motel_sign.dae: compiled .cdae | present and newer than the .dae |
 | PASS | s_food_mart_sign_001.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
@@ -214,12 +256,27 @@
 | PASS | s_busstop_wcu_04.dae: compiled .cdae | present and newer than the .dae |
 | PASS | roadsigns.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
 | PASS | roadsigns.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_toll_booth_center.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_toll_booth_center.dae: compiled .cdae | present and newer than the .dae |
+| PASS | s_toll_booth_center_alt.dae: structure vs original | other materials, node tree and transforms identical; only glyph quads of clutter_commercial/m_billboardsigns_dealers/roadsigns changed, inside the original sign |
+| PASS | s_toll_booth_center_alt.dae: compiled .cdae | present and newer than the .dae |
+| PASS | Override gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json | only the 4 declared zone speedLimit values differ |
+| PASS | Override levels/west_coast_usa/city.sites.json | only the 3 declared zone speedLimit values differ |
+| PASS | Override levels/west_coast_usa/info.json | only the key localUnits removed |
 | PASS | Override levels/west_coast_usa/main.decals.json | only the declared decal instances differ (9 deleted, 6 rectIdx changed) |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json | 43 line(s) differ from the game file, only in speedLimit / declared shapeName |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json | 38 line(s) differ from the game file, only in speedLimit / declared shapeName |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/island/island_ai_roads/items.level.json | 8 line(s) differ from the game file, only in speedLimit / declared shapeName |
-| PASS | Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_aiRoads/items.level.json | 12 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/AIWaypointsGroup/items.level.json | 55 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/DecalRoads/items.level.json | 39 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/island/island_ai_roads/items.level.json | 11 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_aiRoads/items.level.json | 14 line(s) differ from the game file, only in speedLimit / declared shapeName |
 | PASS | Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_entrance/items.level.json | 1 line(s) differ from the game file, only in speedLimit / declared shapeName |
 | PASS | Override levels/west_coast_usa/main/MissionGroup/island_shippingYard/dock_exit/items.level.json | 2 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/items.level.json | game file + 1 declared object(s) appended, nothing else |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/ptbr_functional_signs/items.level.json | new file: exactly the 14 declared objects |
 | PASS | Override levels/west_coast_usa/main/MissionGroup/road_signs/items.level.json | 4 line(s) differ from the game file, only in speedLimit / declared shapeName |
-| PASS | Override levels/west_coast_usa/slotTraffic.json | 939 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_002/items.level.json | 1 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_003/items.level.json | 1 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_004/items.level.json | 1 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_005/items.level.json | 1 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_006/items.level.json | 1 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/main/MissionGroup/trafficCameras_wip/speedCamera_007/items.level.json | 1 line(s) differ from the game file, only in speedLimit / declared shapeName |
+| PASS | Override levels/west_coast_usa/slotTraffic.json | 1109 line(s) differ from the game file, only in speedLimit / declared shapeName |

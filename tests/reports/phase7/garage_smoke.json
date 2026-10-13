@@ -1,0 +1,77 @@
+{
+ "vfs": {
+  "garages": {
+   "missions.wcusa.garage.zones.dockyard.name": 16.6667,
+   "missions.wcusa.garage.zones.downtownBelasco.name": 13.8889,
+   "missions.wcusa.garage.zones.residential.name": 13.8889,
+   "missions.wcusa.garage.zones.mountWallis.name": 22.2222
+  },
+  "garages_real": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\gameplay\\missions\\west_coast_usa\\garageToGarage\\globalinfo\\garages.sites.json",
+  "city_real": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\levels\\west_coast_usa\\city.sites.json",
+  "localUnits": "absent",
+  "info_real": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\levels\\west_coast_usa\\info.json",
+  "city": {
+   "levels.west_coast_usa.zones.the_dockyards": 16.6667,
+   "levels.west_coast_usa.zones.mount_wallis": 22.2222,
+   "levels.west_coast_usa.zones.horizon_estates": 13.8889
+  }
+ },
+ "mission": "west_coast_usa/garageToGarage/003-Dockyard",
+ "start": "started",
+ "states": [
+  {
+   "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+   "veh": "hcity7"
+  },
+  {
+   "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+   "veh": "hcity7"
+  },
+  {
+   "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+   "veh": "hcity7"
+  },
+  {
+   "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+   "veh": "hcity7"
+  },
+  {
+   "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+   "veh": "hcity7"
+  },
+  {
+   "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+   "veh": "hcity7"
+  },
+  {
+   "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+   "veh": "hcity7"
+  },
+  {
+   "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+   "veh": "hcity7"
+  }
+ ],
+ "screenshot": "tests/screenshots/phase7/adas/garage_dockyard_running.jpg",
+ "error_lines": [],
+ "after_40s": {
+  "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+  "pos": [
+   334.64007568359,
+   634.58782958984
+  ],
+  "veh": "hcity7"
+ },
+ "after_start_click": {
+  "fg": "west_coast_usa/garageToGarage/003-Dockyard",
+  "pos": [
+   -35.977462768555,
+   657.14611816406
+  ],
+  "veh": "lansdale"
+ },
+ "error_lines_after_start": [
+  "17814.52893|E|GELua.gameplay_missions_missionManager.| This step timed out (5s). Step will be set to complete."
+ ],
+ "screenshot_started": "tests/screenshots/phase7/adas/garage_dockyard_started.jpg"
+}

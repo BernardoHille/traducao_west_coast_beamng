@@ -1,0 +1,73 @@
+{
+ "mod_off": {
+  "city_zones": {
+   "levels.west_coast_usa.zones.the_dockyards": 15.6000004,
+   "levels.west_coast_usa.zones.mount_wallis": 22.3999996,
+   "levels.west_coast_usa.zones.horizon_estates": 13.3999996
+  },
+  "radars": {
+   "speedTrapTrigger5": "15.6464",
+   "speedTrapTrigger4": "15.6464",
+   "speedTrapTrigger3": "15.6464",
+   "speedTrapTrigger7": "15.6464",
+   "speedTrapTrigger2": "15.6464",
+   "speedTrapTrigger6": "15.6464"
+  },
+  "signs_group": "absent",
+  "localUnits": {
+   "diesel": "gallonUS",
+   "gasoline": "gallonUS"
+  },
+  "vfs": {
+   "/levels/west_coast_usa/city.sites.json": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\city.sites.json",
+   "/gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\gameplay\\missions\\west_coast_usa\\garageToGarage\\globalinfo\\garages.sites.json",
+   "/levels/west_coast_usa/slotTraffic.json": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\slotTraffic.json",
+   "/levels/west_coast_usa/info.json": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\info.json"
+  },
+  "roads": {
+   "DR989": 56.3,
+   "junction1": 100,
+   "DR272_phase5": 40.2,
+   "DR652_event01": 56.3,
+   "DR1009": 56.3,
+   "DR666": 56.3,
+   "DR571": 56.3,
+   "DR312_adas": 120
+  },
+  "screenshot": "tests/screenshots/phase7/adas/mod_off_event01_entry.jpg"
+ },
+ "mod_on": {
+  "city_zones": {
+   "levels.west_coast_usa.zones.the_dockyards": 16.6667,
+   "levels.west_coast_usa.zones.mount_wallis": 22.2222,
+   "levels.west_coast_usa.zones.horizon_estates": 13.8889
+  },
+  "radars": {
+   "speedTrapTrigger5": "16.6667",
+   "speedTrapTrigger4": "27.7778",
+   "speedTrapTrigger3": "16.6667",
+   "speedTrapTrigger7": "16.6667",
+   "speedTrapTrigger2": "19.4444",
+   "speedTrapTrigger6": "16.6667"
+  },
+  "signs_group": 14,
+  "localUnits": "absent",
+  "vfs": {
+   "/levels/west_coast_usa/city.sites.json": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\levels\\west_coast_usa\\city.sites.json",
+   "/gameplay/missions/west_coast_usa/garageToGarage/globalinfo/garages.sites.json": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\gameplay\\missions\\west_coast_usa\\garageToGarage\\globalinfo\\garages.sites.json",
+   "/levels/west_coast_usa/slotTraffic.json": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\levels\\west_coast_usa\\slotTraffic.json",
+   "/levels/west_coast_usa/info.json": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\unpacked\\traducao_ptbr_wcusa\\levels\\west_coast_usa\\info.json"
+  },
+  "roads": {
+   "DR989": 60,
+   "junction1": 100,
+   "DR272_phase5": 40,
+   "DR652_event01": 70,
+   "DR1009": 60,
+   "DR666": 60,
+   "DR571": 60,
+   "DR312_adas": 50
+  },
+  "screenshot": "tests/screenshots/phase7/adas/mod_on_event01_entry.jpg"
+ }
+}

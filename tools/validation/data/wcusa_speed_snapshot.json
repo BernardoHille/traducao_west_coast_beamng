@@ -5,7 +5,7 @@
    "road": {
     "lanes": "++",
     "node": "DR652_2",
-    "limit": 15.6464,
+    "limit": 19.4444,
     "dist": 3.1092792552564,
     "oneWay": true
    }
@@ -15,7 +15,7 @@
    "road": {
     "lanes": "++",
     "node": "DR571_5",
-    "limit": 15.6464,
+    "limit": 16.6667,
     "dist": 3.350238067697,
     "oneWay": true
    }
@@ -35,7 +35,7 @@
    "road": {
     "lanes": "++",
     "node": "DR989_14",
-    "limit": 15.6464,
+    "limit": 16.6667,
     "dist": 2.446147276352,
     "oneWay": true
    }
@@ -45,7 +45,7 @@
    "road": {
     "lanes": "+",
     "node": "DR1213_4",
-    "limit": 15.6464,
+    "limit": 16.6667,
     "dist": 1.7498913633429,
     "oneWay": true
    }
@@ -55,7 +55,7 @@
    "road": {
     "lanes": "+",
     "node": "DR1009_26",
-    "limit": 15.6464,
+    "limit": 16.6667,
     "dist": 1.6713207250808,
     "oneWay": true
    }
@@ -63,11 +63,11 @@
   {
    "id": "adas:event01SpeedLimitRecognition",
    "road": {
-    "lanes": "-+",
-    "node": "DR272_7",
-    "limit": 11.1111,
-    "dist": 0.064716013330863,
-    "oneWay": false
+    "lanes": "++",
+    "node": "DR192_5",
+    "limit": 19.4444,
+    "dist": 2.2093100746557,
+    "oneWay": true
    }
   },
   {
@@ -75,7 +75,7 @@
    "road": {
     "lanes": "++++",
     "node": "DR253_6",
-    "limit": 33.333333333333,
+    "limit": 13.8889,
     "dist": 3.9908546646502,
     "oneWay": true
    }
@@ -85,7 +85,7 @@
    "road": {
     "lanes": "++++",
     "node": "DR253_6",
-    "limit": 33.333333333333,
+    "limit": 13.8889,
     "dist": 3.9908546646502,
     "oneWay": true
    }
@@ -95,8 +95,238 @@
    "road": {
     "lanes": "++++",
     "node": "DR253_6",
-    "limit": 33.333333333333,
+    "limit": 13.8889,
     "dist": 3.9908546646502,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_00",
+   "road": {
+    "lanes": "-+",
+    "node": "DR435_3",
+    "limit": 11.1111,
+    "dist": 0.0048458071042233,
+    "oneWay": false
+   }
+  },
+  {
+   "id": "plate:reg_01",
+   "road": {
+    "lanes": "--++",
+    "node": "DR92_1",
+    "limit": 11.1111,
+    "dist": 0.0038157298654621,
+    "oneWay": false
+   }
+  },
+  {
+   "id": "plate:reg_02",
+   "road": {
+    "lanes": "++++",
+    "node": "DR527_1",
+    "limit": 33.333333333333,
+    "dist": 0.0042808548211327,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_03",
+   "road": {
+    "lanes": "++",
+    "node": "DR554_71",
+    "limit": 27.777777777778,
+    "dist": 0.0050062228536578,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_04",
+   "road": {
+    "lanes": "+",
+    "node": "DR641_6",
+    "limit": 22.222222222222,
+    "dist": 0.0011019880070784,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_05",
+   "road": {
+    "lanes": "+",
+    "node": "DR555_30",
+    "limit": 22.222222222222,
+    "dist": 0.0046810239744097,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_06",
+   "road": {
+    "lanes": "++",
+    "node": "Bridge13_A",
+    "limit": 27.777777777778,
+    "dist": 0.0051024525450899,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_07",
+   "road": {
+    "lanes": "+",
+    "node": "junction1_wp10",
+    "limit": 27.777777777778,
+    "dist": 0.0018571823186923,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_08",
+   "road": {
+    "lanes": "++",
+    "node": "DR455_1",
+    "limit": 27.777777777778,
+    "dist": 0.0038370758334373,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_09",
+   "road": {
+    "lanes": "++++",
+    "node": "DR294_19",
+    "limit": 33.333333333333,
+    "dist": 0.0058318061176476,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_10",
+   "road": {
+    "lanes": "++++",
+    "node": "DR294_19",
+    "limit": 33.333333333333,
+    "dist": 0.0028336145250629,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_11",
+   "road": {
+    "lanes": "++",
+    "node": "Bridge32_1",
+    "limit": 27.777777777778,
+    "dist": 0.0029215612151826,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_12",
+   "road": {
+    "lanes": "++",
+    "node": "DR661_2",
+    "limit": 27.777777777778,
+    "dist": 0.0039099438817163,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_13",
+   "road": {
+    "lanes": "+",
+    "node": "DR580_4",
+    "limit": 22.222222222222,
+    "dist": 0.0043278310392971,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_14",
+   "road": {
+    "lanes": "-+",
+    "node": "DR149_24",
+    "limit": 16.666666666667,
+    "dist": 0.0043427616206453,
+    "oneWay": false
+   }
+  },
+  {
+   "id": "plate:reg_15",
+   "road": {
+    "lanes": "++++",
+    "node": "DR294_16",
+    "limit": 33.333333333333,
+    "dist": 0.0047260254086223,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_16",
+   "road": {
+    "lanes": "-+",
+    "node": "DR149_4",
+    "limit": 16.666666666667,
+    "dist": 0.0045404159520623,
+    "oneWay": false
+   }
+  },
+  {
+   "id": "plate:reg_17",
+   "road": {
+    "lanes": "-+",
+    "node": "DR252_21",
+    "limit": 16.666666666667,
+    "dist": 0.005176208154915,
+    "oneWay": false
+   }
+  },
+  {
+   "id": "plate:reg_18",
+   "road": {
+    "lanes": "-+",
+    "node": "DR230_1",
+    "limit": 16.666666666667,
+    "dist": 0.0029310610826068,
+    "oneWay": false
+   }
+  },
+  {
+   "id": "plate:reg_19",
+   "road": {
+    "lanes": "++",
+    "node": "DR251_28",
+    "limit": 27.777777777778,
+    "dist": 0.0044017500153498,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_20",
+   "road": {
+    "lanes": "++++",
+    "node": "DR294_12",
+    "limit": 33.333333333333,
+    "dist": 0.0033443538739436,
+    "oneWay": true
+   }
+  },
+  {
+   "id": "plate:reg_21",
+   "road": {
+    "lanes": "-+",
+    "node": "DR676_3",
+    "limit": 16.666666666667,
+    "dist": 0.0031165431966817,
+    "oneWay": false
+   }
+  },
+  {
+   "id": "plate:reg_22",
+   "road": {
+    "lanes": "++",
+    "node": "DR698_2",
+    "limit": 27.777777777778,
+    "dist": 0.0032867713217861,
     "oneWay": true
    }
   }
@@ -371,10 +601,115 @@
     "oneWay": true
    },
    "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_10.dae"
+  },
+  {
+   "pos": [
+    530.50500488281,
+    783.94000244141,
+    117.80899810791
+   ],
+   "road": {
+    "lanes": "++++",
+    "node": "DR694_9",
+    "limit": 13.8889,
+    "dist": 8.4899783654211,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_50.dae"
+  },
+  {
+   "pos": [
+    541.92999267578,
+    767.38897705078,
+    117.37400054932
+   ],
+   "road": {
+    "lanes": "++++",
+    "node": "DR694_9",
+    "limit": 13.8889,
+    "dist": 12.186214501728,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_50.dae"
+  },
+  {
+   "pos": [
+    264.59100341797,
+    590.17199707031,
+    118.68000030518
+   ],
+   "road": {
+    "lanes": "++++",
+    "node": "DR312_9",
+    "limit": 13.8889,
+    "dist": 9.5758994031986,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_50.dae"
+  },
+  {
+   "pos": [
+    400.27099609375,
+    668.01501464844,
+    117.95800018311
+   ],
+   "road": {
+    "lanes": "++++",
+    "node": "DR253_6",
+    "limit": 13.8889,
+    "dist": 11.967391151954,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_50.dae"
+  },
+  {
+   "pos": [
+    -439.32598876953,
+    -31.775999069214,
+    111.31500244141
+   ],
+   "road": {
+    "lanes": "++++",
+    "node": "Bridge30_1",
+    "limit": 33.333333333333,
+    "dist": 9.808238678758,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_120.dae"
+  },
+  {
+   "pos": [
+    -417.76501464844,
+    181.22099304199,
+    102.57499694824
+   ],
+   "road": {
+    "lanes": "++",
+    "node": "DR652_2",
+    "limit": 19.4444,
+    "dist": 6.1342588543666,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_70.dae"
+  },
+  {
+   "pos": [
+    -382.44000244141,
+    243.79499816895,
+    103.21099853516
+   ],
+   "road": {
+    "lanes": "++",
+    "node": "DR652_5",
+    "limit": 19.4444,
+    "dist": 5.916687301962,
+    "oneWay": true
+   },
+   "shape": "/levels/west_coast_usa/art/shapes/objects/roadsigns_ptbr/sign_r19_70.dae"
   }
  ],
  "meta": {
-  "collected": "2026-09-30T21:38:06",
+  "collected": "2026-10-13T09:53:52",
   "level": "/levels/west_coast_usa/main.level.json",
   "source": "MCP map.getMap() + map.findClosestRoad, TSStatic sign_speed*.dae"
  }
