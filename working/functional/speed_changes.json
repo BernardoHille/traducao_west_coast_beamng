@@ -223,6 +223,126 @@
     681.3
    ],
    "length_m": 0
+  },
+  {
+   "id": "r40_dr535",
+   "plan_id": "toll_plaza_40",
+   "pid": "ae1e74da-89e2-497d-b91e-1bdd61ad38e6",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR535",
+   "from": null,
+   "old_effective_mps": [
+    13.8889,
+    16.6667,
+    22.2222,
+    27.7778,
+    33.3333
+   ],
+   "to": "11.1111",
+   "category": "40_toll_plaza",
+   "reason": "Faixa que atravessa as cabines da praça de pedágio (5 cabines, prefab p_toll_booth): a placa SPEED LIMIT 25 das cabines vira R-19 40 (25 mph -> 40, LOCALIZATION_RULES 2.3), e a faixa recebe 40 explícito, como as cabines das docas na Fase 5. Limite automático atual varia ao longo da faixa (50/60/80/100/120 km/h, pela geometria).",
+   "center_xy": [
+    -870.5,
+    -541.5
+   ],
+   "length_m": 84
+  },
+  {
+   "id": "r40_dr559",
+   "plan_id": "toll_plaza_40",
+   "pid": "13d4fcdd-126c-4f76-8d31-e4ebf76bf459",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR559",
+   "from": null,
+   "old_effective_mps": [
+    13.8889,
+    16.6667,
+    22.2222,
+    27.7778,
+    33.3333
+   ],
+   "to": "11.1111",
+   "category": "40_toll_plaza",
+   "reason": "Faixa que atravessa as cabines da praça de pedágio (5 cabines, prefab p_toll_booth): a placa SPEED LIMIT 25 das cabines vira R-19 40 (25 mph -> 40, LOCALIZATION_RULES 2.3), e a faixa recebe 40 explícito, como as cabines das docas na Fase 5. Limite automático atual varia ao longo da faixa (50/60/80/100/120 km/h, pela geometria).",
+   "center_xy": [
+    -896.0,
+    -579.5
+   ],
+   "length_m": 76
+  },
+  {
+   "id": "r40_dr595",
+   "plan_id": "toll_plaza_40",
+   "pid": "3e983d96-8fea-4410-bee3-bd9bc3d3ec49",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR595",
+   "from": null,
+   "old_effective_mps": [
+    13.8889,
+    16.6667,
+    22.2222,
+    27.7778,
+    33.3333
+   ],
+   "to": "11.1111",
+   "category": "40_toll_plaza",
+   "reason": "Faixa que atravessa as cabines da praça de pedágio (5 cabines, prefab p_toll_booth): a placa SPEED LIMIT 25 das cabines vira R-19 40 (25 mph -> 40, LOCALIZATION_RULES 2.3), e a faixa recebe 40 explícito, como as cabines das docas na Fase 5. Limite automático atual varia ao longo da faixa (50/60/80/100/120 km/h, pela geometria).",
+   "center_xy": [
+    -882.5,
+    -557.5
+   ],
+   "length_m": 126
+  },
+  {
+   "id": "r40_dr630",
+   "plan_id": "toll_plaza_40",
+   "pid": "6c12511f-0832-40b6-ba60-84c8a70c8014",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR630",
+   "from": null,
+   "old_effective_mps": [
+    13.8889,
+    16.6667,
+    22.2222,
+    27.7778,
+    33.3333
+   ],
+   "to": "11.1111",
+   "category": "40_toll_plaza",
+   "reason": "Faixa que atravessa as cabines da praça de pedágio (5 cabines, prefab p_toll_booth): a placa SPEED LIMIT 25 das cabines vira R-19 40 (25 mph -> 40, LOCALIZATION_RULES 2.3), e a faixa recebe 40 explícito, como as cabines das docas na Fase 5. Limite automático atual varia ao longo da faixa (50/60/80/100/120 km/h, pela geometria).",
+   "center_xy": [
+    -883.0,
+    -558.0
+   ],
+   "length_m": 125
+  },
+  {
+   "id": "r40_dr672",
+   "plan_id": "toll_plaza_40",
+   "pid": "b9b67a72-18c4-41f5-ac62-60340973fe0d",
+   "file": "AIWaypointsGroup/items.level.json",
+   "class": "DecalRoad",
+   "dr": "DR672",
+   "from": null,
+   "old_effective_mps": [
+    13.8889,
+    16.6667,
+    22.2222,
+    27.7778,
+    33.3333
+   ],
+   "to": "11.1111",
+   "category": "40_toll_plaza",
+   "reason": "Faixa que atravessa as cabines da praça de pedágio (5 cabines, prefab p_toll_booth): a placa SPEED LIMIT 25 das cabines vira R-19 40 (25 mph -> 40, LOCALIZATION_RULES 2.3), e a faixa recebe 40 explícito, como as cabines das docas na Fase 5. Limite automático atual varia ao longo da faixa (50/60/80/100/120 km/h, pela geometria).",
+   "center_xy": [
+    -888.0,
+    -564.5
+   ],
+   "length_m": 146
   }
  ]
 }

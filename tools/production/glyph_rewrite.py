@@ -477,11 +477,14 @@ def plan_dealer_word(path, old, new_text):
 
 def plan_uv_map(path, material, size, mapping):
     """Re-target quads of `material` whose UV rect matches a 'from' rect (±1.5 px) to the 'to' rect (same size);
-    geometry unchanged (the quad is rebuilt on its own frame)."""
+    geometry unchanged (the quad is rebuilt on its own frame). Phase 7: an entry with "at" (mesh-space points) only
+    takes the quads whose centroid lies within "radius" of one of them (cells shared with other signs)."""
     qs = G.read_quads(path, material, tuple(size))
     deleted, new, rep = [], [], {}
     for q in qs:
         for m in mapping:
+            if "at" in m and min(np.linalg.norm(q["centroid"] - np.array(a)) for a in m["at"]) > m.get("radius", 0.05):
+                continue
             if max(abs(a - b) for a, b in zip(q["rect"], m["from"])) <= 1.5:
                 fr = Frame(q)
                 b = quad_box(fr, q)

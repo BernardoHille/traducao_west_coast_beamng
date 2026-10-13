@@ -93,5 +93,34 @@
   "adas_classes_compared_to_road": [
     "speed_limit_detection",
     "speed_limit_alert"
-  ]
+  ],
+  "speed_plates": {
+    "doc": "Phase 7: speed plates built into roadsigns.dae (23 regulatory, 24 advisory). Decisions and the regulated edge of each plate: speed_plates.json (working/functional/speed_plates_survey.py); new faces: speed_plate_tiles.json. Regulatory plate value must equal the navgraph limit of its regulated edge (snapshot point plate:<id>).",
+    "decisions": "working/functional/speed_plates.json",
+    "tiles": "working/layered/t_roadsigns/speed_plate_tiles.json",
+    "mod_mesh": "levels/west_coast_usa/art/shapes/roads/roadsigns.dae",
+    "advisory_table_mph_kmh": {
+      "15": 20,
+      "20": 30,
+      "25": 40,
+      "30": 50,
+      "35": 60
+    },
+    "toll_booth": {
+      "doc": "5 booths of the toll plaza (prefab p_toll_booth): DO NOT STOP / SPEED LIMIT 25 -> NÃO PARE / R-19 40 (toll_booth_tiles.py); the 5 lanes through the booths explicit 40 (plan entry toll_plaza_40).",
+      "tiles": "working/layered/t_roadsigns/toll_booth_tiles.json",
+      "value_kmh": 40,
+      "mod_meshes": [
+        "levels/west_coast_usa/art/shapes/objects/s_toll_booth_center.dae",
+        "levels/west_coast_usa/art/shapes/objects/s_toll_booth_center_alt.dae"
+      ],
+      "regulated_roads": [
+        "ae1e74da-89e2-497d-b91e-1bdd61ad38e6",
+        "13d4fcdd-126c-4f76-8d31-e4ebf76bf459",
+        "3e983d96-8fea-4410-bee3-bd9bc3d3ec49",
+        "6c12511f-0832-40b6-ba60-84c8a70c8014",
+        "b9b67a72-18c4-41f5-ac62-60340973fe0d"
+      ]
+    }
+  }
 }

@@ -1134,8 +1134,8 @@
   "out": "working\\glyph_meshes\\art\\shapes\\objects\\s_busstop_wcu_04.dae"
  },
  "roadsigns": {
-  "deleted_quads": 20,
-  "new_quads": 20,
+  "deleted_quads": 209,
+  "new_quads": 209,
   "lines": [
    {
     "face": 0,
@@ -1191,8 +1191,1027 @@
     "face": 0,
     "old": "rs_only_1",
     "new": "3 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_10_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_10_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_10_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_10_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_09_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_09_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_09_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_09_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_17_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_17_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_17_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_17_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_18_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_18_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_18_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_18_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_21_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_21_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_21_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_21_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_18_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_18_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_18_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_18_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_06_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_06_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_06_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_06_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_04_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_04_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_04_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_04_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_07_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_07_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_07_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_07_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_17_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_17_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_17_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_17_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_15_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_15_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_15_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_15_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_20_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_20_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_20_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_20_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_14_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_14_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_14_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_14_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_08_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_08_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_08_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_08_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_05_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_05_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_05_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_05_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_23_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_23_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_23_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_23_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_22_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_22_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_22_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_22_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_16_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_16_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_16_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_16_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_11_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_11_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_11_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_11_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_13_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_13_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_13_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_13_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_12_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_12_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_12_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_12_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_13_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_13_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_13_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_13_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_19_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_19_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_19_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_19_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_22_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_22_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_22_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_22_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_11_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_11_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_11_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_11_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_07_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_07_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_07_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_07_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_03_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_03_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_03_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_03_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_00_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_00_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_00_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_00_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_01_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_01_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_01_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_01_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_06_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_06_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_06_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_06_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_10_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_10_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_10_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_10_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_09_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_09_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_09_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_09_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_15_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_15_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_15_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_15_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_20_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_20_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_20_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_20_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_02_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_02_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_02_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_02_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_05_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_05_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_05_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_05_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_12_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_12_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_12_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_12_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_19_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_19_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_19_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_19_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_04_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_04_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_04_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_04_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_08_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_08_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_08_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_08_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_21_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_21_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_21_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_21_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_03_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_03_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_14_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_14_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_14_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_14_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_01_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_01_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_01_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_01_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_00_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_00_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_00_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_00_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_02_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_02_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_02_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_02_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_16_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_16_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_16_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "reg_16_legend",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_03_digit0",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_03_digit1",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "adv_03_digit2",
+    "new": "1 quads"
    }
   ],
   "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\roads\\roadsigns.dae"
+ },
+ "s_toll_booth_center": {
+  "deleted_quads": 34,
+  "new_quads": 34,
+  "lines": [
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_s_toll_booth_center_L400_lower_board",
+    "new": "4 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_s_toll_booth_center_L400_upper_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_s_toll_booth_center_L400_lower_legend",
+    "new": "6 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+    "new": "18 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_s_toll_booth_center_L900_lower_board",
+    "new": "4 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_s_toll_booth_center_L900_upper_board",
+    "new": "1 quads"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\objects\\s_toll_booth_center.dae"
+ },
+ "s_toll_booth_center_alt": {
+  "deleted_quads": 34,
+  "new_quads": 34,
+  "lines": [
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_lower_board",
+    "new": "4 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_board",
+    "new": "1 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_lower_legend",
+    "new": "6 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+    "new": "18 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_lower_board",
+    "new": "4 quads"
+   },
+   {
+    "face": 0,
+    "old": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_board",
+    "new": "1 quads"
+   }
+  ],
+  "out": "working\\glyph_meshes\\levels\\west_coast_usa\\art\\shapes\\objects\\s_toll_booth_center_alt.dae"
  }
 }

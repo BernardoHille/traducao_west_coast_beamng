@@ -248,7 +248,10 @@ def build_slot(changes, zf, report):
     lanes = match_lanes(slot, level)
     want, conflicts = {}, []
     for c in roads:
+        # old effective value(s): the explicit value, or the automatic one(s) - an automatic road may carry several
+        # values along its length (the engine derives them per edge), Phase 7 toll lanes
         old_eff = float(c["from"]) if c["from"] is not None else c["old_effective_mps"]
+        old_eff = tuple(float(v) for v in old_eff) if isinstance(old_eff, list) else (float(old_eff),)
         for rid in lanes.get(c["pid"], []):
             prev = want.get(rid)
             if prev and abs(prev[1] - float(c["to"])) > TOL:
@@ -274,13 +277,14 @@ def build_slot(changes, zf, report):
     edits, skipped, equal, geo_hits = [], [], [], 0
     for i, kind, owner, val in walk_speed_lines(lines):
         w = want.get(owner)
-        if w and abs(val - w[0]) <= TOL_AUTO:
+        if w and any(abs(val - o) <= TOL_AUTO for o in w[0]):
             new, rule, road = w[1], "geometry", w[2]
         elif any(abs(val - k) <= TOL for k in explicit):
             new, rule, road = next(v for k, v in explicit.items() if abs(val - k) <= TOL), "value_class", None
         else:
             if w:
-                skipped.append({"line": i + 1, "kind": kind, "lane": owner, "value": val, "expected_old": w[0], "road": w[2]})
+                skipped.append({"line": i + 1, "kind": kind, "lane": owner, "value": val, "expected_old": w[0][0] if len(w[0]) == 1 else list(w[0]),
+                                "road": w[2]})
             continue
         if abs(new - val) <= EQUAL_MPS:
             equal.append({"line": i + 1, "kind": kind, "lane": owner, "value": val, "road": road})

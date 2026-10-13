@@ -9,6 +9,8 @@ import os
 import sys
 import unittest
 
+import numpy as np
+
 HERE = os.path.dirname(__file__)
 sys.path.insert(0, os.path.abspath(os.path.join(HERE, "..")))
 sys.path.insert(0, os.path.abspath(os.path.join(HERE, "..", "..", "production")))
@@ -150,3 +152,36 @@ class TestTriggerEdit(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestPlatesPlan(unittest.TestCase):
+    def test_plates_must_match_plan(self):
+        plan = {"entries": [{"id": "roadsigns_speed_plates", "roads": [], "radars": [], "zones": [], "missions": [], "visual_signs": [],
+                             "visual_plates": [{"id": "reg_00", "value_kmh": 60}]},
+                            {"id": "toll_plaza_40", "roads": [], "radars": [], "zones": [], "missions": [], "visual_signs": [],
+                             "visual_plates": [{"id": "toll_booth", "value_kmh": 40}]}]}
+        ok = {"speed": [], "radar": [], "zone": [], "sign": [], "plate": [{"id": "reg_00", "value_kmh": 60}]}
+        self.assertEqual(P7.check_plan(plan, ok), [])
+        bad = {"speed": [], "radar": [], "zone": [], "sign": [], "plate": [{"id": "reg_00", "value_kmh": 80}, {"id": "reg_01", "value_kmh": 60}]}
+        errs = P7.check_plan(plan, bad)
+        self.assertTrue(any("reg_00" in e for e in errs) and any("reg_01" in e for e in errs))
+
+
+class TestUvMapSelection(unittest.TestCase):
+    """glyph_rewrite.plan_uv_map: an entry with "at" only re-targets the quad at that point (shared atlas cells)."""
+
+    def test_at_selects_one_quad(self):
+        import glyph_rewrite as GR
+        fake = [{"rect": (370.0, 188.0, 517.0, 381.0), "centroid": np.array([0.0, 0.0, 0.0])},
+                {"rect": (370.0, 188.0, 517.0, 381.0), "centroid": np.array([5.0, 0.0, 0.0])}]
+        orig = (GR.G.read_quads, GR.Frame, GR.quad_box)
+        GR.G.read_quads = lambda *a, **k: fake
+        GR.Frame = lambda q: None
+        GR.quad_box = lambda fr, q: {"Xa": 0, "Xb": 1, "Ya": 0, "Yb": 1, "depth": 0}
+        try:
+            d, n, _ = GR.plan_uv_map("x.dae", "roadsigns", (2048, 1024),
+                                     [{"id": "a", "from": [370, 188, 517, 381], "to": [0, 0, 147, 193], "at": [[5.0, 0.0, 0.0]], "radius": 0.02}])
+        finally:
+            GR.G.read_quads, GR.Frame, GR.quad_box = orig
+        self.assertEqual(len(d), 1)
+        self.assertEqual(float(d[0]["centroid"][0]), 5.0)

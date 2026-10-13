@@ -499,6 +499,365 @@
    "visual_signs": [],
    "reason": "validate.py speeds passa a ler city.sites.json e garages.sites.json com a precedência do VFS (arquivo do mod antes do jogo), como já fazia com items.level.json; regras, tolerâncias e SKIPs não mudam. r19_overrides recebe os meshes novos (50/70/120).",
    "status": "planned"
+  },
+  {
+   "id": "roadsigns_speed_plates",
+   "type": "visual_coherence",
+   "target_kph": null,
+   "target_mps": null,
+   "roads": [],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "Placas de velocidade embutidas no roadsigns.dae (1 TSStatic em StaticObjects; itens deixados pela Fase 6 para a Fase 7): 23 regulamentares SPEED LIMIT 30/40/45/50/70 (mph) viram R-19 com o limite aplicado na via que cada uma regula (mesma regra dos radares, spec 14/15; nenhuma via muda por causa delas; vias da Fase 5 a 40 prevalecem); 24 de advertência 15/20/25/30 MPH viram 20/30/40/50 km/h (tabela LOCALIZATION_RULES 2.3, sem efeito funcional). Novas faces em espaço livre do t_roadsigns; quads re-apontados um a um (working/layered/t_roadsigns/speed_plate_tiles.py).",
+   "status": "planned",
+   "visual_plates": [
+    {
+     "id": "reg_00",
+     "kind": "regulatory",
+     "mph": 30,
+     "value_kmh": 40
+    },
+    {
+     "id": "reg_01",
+     "kind": "regulatory",
+     "mph": 30,
+     "value_kmh": 40
+    },
+    {
+     "id": "reg_02",
+     "kind": "regulatory",
+     "mph": 70,
+     "value_kmh": 120
+    },
+    {
+     "id": "reg_03",
+     "kind": "regulatory",
+     "mph": 30,
+     "value_kmh": 100
+    },
+    {
+     "id": "reg_04",
+     "kind": "regulatory",
+     "mph": 50,
+     "value_kmh": 80
+    },
+    {
+     "id": "reg_05",
+     "kind": "regulatory",
+     "mph": 70,
+     "value_kmh": 80
+    },
+    {
+     "id": "reg_06",
+     "kind": "regulatory",
+     "mph": 40,
+     "value_kmh": 100
+    },
+    {
+     "id": "reg_07",
+     "kind": "regulatory",
+     "mph": 30,
+     "value_kmh": 100
+    },
+    {
+     "id": "reg_08",
+     "kind": "regulatory",
+     "mph": 50,
+     "value_kmh": 100
+    },
+    {
+     "id": "reg_09",
+     "kind": "regulatory",
+     "mph": 70,
+     "value_kmh": 120
+    },
+    {
+     "id": "reg_10",
+     "kind": "regulatory",
+     "mph": 70,
+     "value_kmh": 120
+    },
+    {
+     "id": "reg_11",
+     "kind": "regulatory",
+     "mph": 40,
+     "value_kmh": 100
+    },
+    {
+     "id": "reg_12",
+     "kind": "regulatory",
+     "mph": 50,
+     "value_kmh": 100
+    },
+    {
+     "id": "reg_13",
+     "kind": "regulatory",
+     "mph": 40,
+     "value_kmh": 80
+    },
+    {
+     "id": "reg_14",
+     "kind": "regulatory",
+     "mph": 40,
+     "value_kmh": 60
+    },
+    {
+     "id": "reg_15",
+     "kind": "regulatory",
+     "mph": 70,
+     "value_kmh": 120
+    },
+    {
+     "id": "reg_16",
+     "kind": "regulatory",
+     "mph": 40,
+     "value_kmh": 60
+    },
+    {
+     "id": "reg_17",
+     "kind": "regulatory",
+     "mph": 40,
+     "value_kmh": 60
+    },
+    {
+     "id": "reg_18",
+     "kind": "regulatory",
+     "mph": 40,
+     "value_kmh": 60
+    },
+    {
+     "id": "reg_19",
+     "kind": "regulatory",
+     "mph": 45,
+     "value_kmh": 100
+    },
+    {
+     "id": "reg_20",
+     "kind": "regulatory",
+     "mph": 70,
+     "value_kmh": 120
+    },
+    {
+     "id": "reg_21",
+     "kind": "regulatory",
+     "mph": 40,
+     "value_kmh": 60
+    },
+    {
+     "id": "reg_22",
+     "kind": "regulatory",
+     "mph": 40,
+     "value_kmh": 100
+    },
+    {
+     "id": "adv_00",
+     "kind": "advisory",
+     "mph": 20,
+     "value_kmh": 30
+    },
+    {
+     "id": "adv_01",
+     "kind": "advisory",
+     "mph": 20,
+     "value_kmh": 30
+    },
+    {
+     "id": "adv_02",
+     "kind": "advisory",
+     "mph": 30,
+     "value_kmh": 50
+    },
+    {
+     "id": "adv_03",
+     "kind": "advisory",
+     "mph": 20,
+     "value_kmh": 30
+    },
+    {
+     "id": "adv_04",
+     "kind": "advisory",
+     "mph": 15,
+     "value_kmh": 20
+    },
+    {
+     "id": "adv_05",
+     "kind": "advisory",
+     "mph": 15,
+     "value_kmh": 20
+    },
+    {
+     "id": "adv_06",
+     "kind": "advisory",
+     "mph": 30,
+     "value_kmh": 50
+    },
+    {
+     "id": "adv_07",
+     "kind": "advisory",
+     "mph": 25,
+     "value_kmh": 40
+    },
+    {
+     "id": "adv_08",
+     "kind": "advisory",
+     "mph": 30,
+     "value_kmh": 50
+    },
+    {
+     "id": "adv_09",
+     "kind": "advisory",
+     "mph": 15,
+     "value_kmh": 20
+    },
+    {
+     "id": "adv_10",
+     "kind": "advisory",
+     "mph": 15,
+     "value_kmh": 20
+    },
+    {
+     "id": "adv_11",
+     "kind": "advisory",
+     "mph": 25,
+     "value_kmh": 40
+    },
+    {
+     "id": "adv_12",
+     "kind": "advisory",
+     "mph": 15,
+     "value_kmh": 20
+    },
+    {
+     "id": "adv_13",
+     "kind": "advisory",
+     "mph": 15,
+     "value_kmh": 20
+    },
+    {
+     "id": "adv_14",
+     "kind": "advisory",
+     "mph": 25,
+     "value_kmh": 40
+    },
+    {
+     "id": "adv_15",
+     "kind": "advisory",
+     "mph": 25,
+     "value_kmh": 40
+    },
+    {
+     "id": "adv_16",
+     "kind": "advisory",
+     "mph": 25,
+     "value_kmh": 40
+    },
+    {
+     "id": "adv_17",
+     "kind": "advisory",
+     "mph": 25,
+     "value_kmh": 40
+    },
+    {
+     "id": "adv_18",
+     "kind": "advisory",
+     "mph": 15,
+     "value_kmh": 20
+    },
+    {
+     "id": "adv_19",
+     "kind": "advisory",
+     "mph": 25,
+     "value_kmh": 40
+    },
+    {
+     "id": "adv_20",
+     "kind": "advisory",
+     "mph": 20,
+     "value_kmh": 30
+    },
+    {
+     "id": "adv_21",
+     "kind": "advisory",
+     "mph": 15,
+     "value_kmh": 20
+    },
+    {
+     "id": "adv_22",
+     "kind": "advisory",
+     "mph": 15,
+     "value_kmh": 20
+    },
+    {
+     "id": "adv_23",
+     "kind": "advisory",
+     "mph": 20,
+     "value_kmh": 30
+    }
+   ]
+  },
+  {
+   "id": "toll_plaza_40",
+   "type": "regulatory_speed",
+   "target_kph": 40,
+   "target_mps": 11.1111,
+   "roads": [
+    {
+     "dr": "DR535",
+     "persistentId": "ae1e74da-89e2-497d-b91e-1bdd61ad38e6",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": null,
+     "to": "11.1111"
+    },
+    {
+     "dr": "DR559",
+     "persistentId": "13d4fcdd-126c-4f76-8d31-e4ebf76bf459",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": null,
+     "to": "11.1111"
+    },
+    {
+     "dr": "DR595",
+     "persistentId": "3e983d96-8fea-4410-bee3-bd9bc3d3ec49",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": null,
+     "to": "11.1111"
+    },
+    {
+     "dr": "DR630",
+     "persistentId": "6c12511f-0832-40b6-ba60-84c8a70c8014",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": null,
+     "to": "11.1111"
+    },
+    {
+     "dr": "DR672",
+     "persistentId": "b9b67a72-18c4-41f5-ac62-60340973fe0d",
+     "file": "AIWaypointsGroup/items.level.json",
+     "class": "DecalRoad",
+     "from": null,
+     "to": "11.1111"
+    }
+   ],
+   "zones": [],
+   "radars": [],
+   "missions": [],
+   "visual_signs": [],
+   "reason": "Praça de pedágio (5 cabines s_toll_booth_center/_alt): DO NOT STOP / SPEED LIMIT 25 -> NÃO PARE / R-19 40 nas duas malhas das cabines; as 5 faixas que atravessam as cabines -> 40 explícito (precedente das cabines das docas, Fase 5).",
+   "status": "planned",
+   "visual_plates": [
+    {
+     "id": "toll_booth",
+     "kind": "toll_booth",
+     "mph": 25,
+     "value_kmh": 40
+    }
+   ]
   }
  ]
 }

@@ -838,6 +838,234 @@
    ],
    "meshes": {},
    "uv_coverage": {}
+  },
+  {
+   "id": "sp_r19_40",
+   "op": "r19_plate",
+   "box": [
+    1542,
+    290,
+    1660,
+    444
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "sp_r19_60",
+   "op": "r19_plate",
+   "box": [
+    1822,
+    296,
+    1940,
+    450
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "sp_r19_80",
+   "op": "r19_plate",
+   "box": [
+    1672,
+    302,
+    1790,
+    456
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "sp_r19_100",
+   "op": "r19_plate",
+   "box": [
+    1412,
+    330,
+    1530,
+    484
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "sp_r19_120",
+   "op": "r19_plate",
+   "box": [
+    1542,
+    456,
+    1660,
+    610
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "sp_adv_20",
+   "op": "advisory_plate",
+   "box": [
+    1802,
+    462,
+    1920,
+    580
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "sp_adv_30",
+   "op": "advisory_plate",
+   "box": [
+    1672,
+    468,
+    1790,
+    586
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "sp_adv_40",
+   "op": "advisory_plate",
+   "box": [
+    1396,
+    496,
+    1514,
+    614
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "sp_adv_50",
+   "op": "advisory_plate",
+   "box": [
+    1802,
+    592,
+    1920,
+    710
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_upper_00",
+   "op": "image",
+   "box": [
+    1952,
+    240,
+    2020,
+    336
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_upper_01",
+   "op": "image",
+   "box": [
+    1952,
+    348,
+    2024,
+    444
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_lower_02",
+   "op": "image",
+   "box": [
+    1692,
+    240,
+    1728,
+    288
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_lower_03",
+   "op": "image",
+   "box": [
+    1296,
+    348,
+    1338,
+    421
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_lower_04",
+   "op": "image",
+   "box": [
+    142,
+    348,
+    184,
+    396
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_lower_05",
+   "op": "image",
+   "box": [
+    212,
+    388,
+    248,
+    461
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_lower_06",
+   "op": "image",
+   "box": [
+    1350,
+    390,
+    1386,
+    438
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_lower_07",
+   "op": "image",
+   "box": [
+    1290,
+    434,
+    1332,
+    507
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_lower_08",
+   "op": "image",
+   "box": [
+    1952,
+    456,
+    1994,
+    504
+   ],
+   "meshes": {},
+   "uv_coverage": {}
+  },
+  {
+   "id": "toll_lower_09",
+   "op": "image",
+   "box": [
+    1344,
+    450,
+    1380,
+    523
+   ],
+   "meshes": {},
+   "uv_coverage": {}
   }
  ]
 }

@@ -4,7 +4,7 @@ Starts from the ORIGINAL game PNGs (source/originals/png, SHA-256 checked agains
 manifest), edits only the elements listed in layout.json, and writes:
 
     working/png/t_roadsigns_b.color.png   (base colour)
-    working/png/t_roadsigns_o.data.png    (opacity: only glyph tiles change)
+    working/png/t_roadsigns_o.data.png    (opacity: only glyph tiles and the Phase 7 speed plate tiles change)
 
     python working/layered/t_roadsigns/build_t_roadsigns.py regions   # UV evidence -> regions.json + allowed_regions.json
     python working/layered/t_roadsigns/build_t_roadsigns.py build     # compose the PNGs
@@ -463,7 +463,79 @@ def op_r3(el, color, opacity, rng, cover_log):
     cover_log.append(el["id"])
 
 
-OPS = {"panel": op_panel, "glyph": op_glyph, "r2": op_r2, "r3": op_r3}
+def _board_copy(el):
+    """Phase 7: the original board cell (colour + opacity), resampled to the new tile."""
+    w, h = el["box"][2] - el["box"][0], el["box"][3] - el["box"][1]
+    src = tuple(el["board_from"])
+    col = np.asarray(Image.open(ORIG_COLOR).convert("RGBA").crop(src).resize((w, h), Image.LANCZOS)).astype(np.float64)
+    opa = np.asarray(Image.open(ORIG_OPACITY).convert("RGBA").crop(src).resize((w, h), Image.LANCZOS))
+    return col, opa
+
+
+def _r19():
+    sys.path.insert(0, str(REPO / "working/layered/r19"))
+    import build_r19
+    return build_r19
+
+
+def op_r19_plate(el, color, opacity, rng, cover_log):
+    """Phase 7 speed plate: original white bordered board + the R-19 disc of the approved master (build_r19.render,
+    drawn in metres at the board's aspect so the disc is round on the plate)."""
+    sy, sx = box_slices(el["box"])
+    w, h = el["box"][2] - el["box"][0], el["box"][3] - el["box"][1]
+    col, opa = _board_copy(el)
+    pw, ph = el["panel"]
+    disc = el.get("disc_frac", 0.86) * min(pw, ph)
+    face, mask = _r19().render(el["value"], panel=(pw, ph), tex=(w, h), disc=disc)
+    m = np.asarray(mask, np.float64)[..., None] / 255.0
+    col[..., :3] = col[..., :3] * (1 - m) + np.asarray(face.convert("RGB"), np.float64) * m
+    color[sy, sx] = col.round().clip(0, 255).astype(np.uint8)
+    opacity[sy, sx] = opa
+    cover_log.append(el["id"])
+
+
+def op_advisory_plate(el, color, opacity, rng, cover_log):
+    """Phase 7 speed plate: original yellow advisory board + "nn" over "km/h" in black, same face as the R-19
+    numerals (drawn in metres at the board's aspect, then resampled to the tile)."""
+    sy, sx = box_slices(el["box"])
+    w, h = el["box"][2] - el["box"][0], el["box"][3] - el["box"][1]
+    col, opa = _board_copy(el)
+    r19 = _r19()
+    pw, ph = el["panel"]
+    S = 1600
+    W, H = int(round(pw * S)), int(round(ph * S))
+    mask = Image.new("L", (W, H), 0)
+    d = ImageDraw.Draw(mask)
+    txt = str(el["value"])
+    f = r19._fit_font(txt, 0.44 * ph * S, r19.num_style(el["value"]))
+    b = f.getbbox(txt)
+    d.text((W / 2 - (b[0] + b[2]) / 2, 0.37 * H - (b[1] + b[3]) / 2), txt, font=f, fill=255)
+    fu = r19._fit_font("km/h", 0.17 * ph * S, r19.UNIT_STYLE, ref="k")
+    bu, kb = fu.getbbox("km/h"), fu.getbbox("k")
+    d.text((W / 2 - (bu[0] + bu[2]) / 2, 0.84 * H - kb[3]), "km/h", font=fu, fill=255)
+    m = np.asarray(mask.resize((w, h), Image.LANCZOS), np.float64)[..., None] / 255.0
+    ink = np.array(r19.COLORS["black"], np.float64)
+    col[..., :3] = col[..., :3] * (1 - m) + ink * m
+    color[sy, sx] = col.round().clip(0, 255).astype(np.uint8)
+    opacity[sy, sx] = opa
+    cover_log.append(el["id"])
+
+
+def op_image(el, color, opacity, rng, cover_log):
+    """Phase 7 toll booth: tile baked by toll_booth_tiles.py (colour + opacity images of exactly the box size)."""
+    sy, sx = box_slices(el["box"])
+    col = np.asarray(Image.open(REPO / el["image"]).convert("RGBA"))
+    opa = np.asarray(Image.open(REPO / el["opacity_image"]).convert("L"))
+    assert col.shape[:2] == opa.shape == (sy.stop - sy.start, sx.stop - sx.start), el["id"]
+    color[sy, sx, :3] = col[..., :3]
+    for ch in range(3):
+        opacity[sy, sx, ch] = opa
+    cover_log.append(el["id"])
+
+
+OPS = {"panel": op_panel, "glyph": op_glyph, "r2": op_r2, "r3": op_r3, "r19_plate": op_r19_plate, "advisory_plate": op_advisory_plate,
+       "image": op_image}
+OPACITY_OPS = ("glyph", "r19_plate", "advisory_plate", "image")   # ops that also write the opacity map
 
 
 # ---------------------------------------------------------------- UV evidence
@@ -511,7 +583,7 @@ def cmd_regions(layout):
         src = ("UV quads of " + ", ".join(f"{m}.dae ({n} inst.)" for m, n in sorted(ev["meshes"].items())) + "; Phase 5")             if ev["meshes"] else el["uv_override"]
         reg = {"id": el["id"], "x": x0, "y": y0, "width": x1 - x0, "height": y1 - y0, "source": src}
         regions_color.append(reg)
-        if el["op"] == "glyph":
+        if el["op"] in OPACITY_OPS:
             regions_opacity.append(reg)
     REGIONS.write_text(json.dumps(out, indent=1) + "\n", encoding="utf8")
     allowed = json.loads(ALLOWED.read_text(encoding="utf8"))
@@ -578,6 +650,9 @@ def main(argv=None):
     tiles = HERE / "glyph_tiles.json"  # Phase 6: new word tiles for the glyph-built gantry plates
     if tiles.exists():
         layout["elements"] += json.loads(tiles.read_text(encoding="utf8"))["elements"]
+    for extra in ("speed_plate_tiles.json", "toll_booth_tiles.json"):  # Phase 7: speed plates of roadsigns.dae, toll booths
+        if (HERE / extra).exists():
+            layout["elements"] += json.loads((HERE / extra).read_text(encoding="utf8"))["elements"]
     if a.only:
         layout["elements"] = [e for e in layout["elements"] if e["id"] in a.only]
     if a.cmd == "regions":

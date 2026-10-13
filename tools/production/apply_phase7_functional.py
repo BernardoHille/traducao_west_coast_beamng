@@ -71,6 +71,8 @@ def check_plan(plan, records):
     errs = []
     ids = {e["id"]: e for e in plan["entries"]}
     for kind, recs in records.items():
+        if kind == "plate" or recs is None:   # plates are matched against the plan entries listing them (below)
+            continue
         for r in recs:
             if r.get("plan_id") not in ids:
                 errs.append(f"{kind} {r.get('id')}: plan_id {r.get('plan_id')!r} not in the plan")
@@ -94,6 +96,13 @@ def check_plan(plan, records):
         got[("zone", r["file"], r["zone"])] = (r["plan_id"], r["to"])
     for s in records["sign"]:
         got[("sign", s["id"])] = (s["plan_id"], s["value"])
+    for e in plan["entries"]:
+        for o in e.get("visual_plates", []):
+            listed[("plate", o["id"])] = (e["id"], o["value_kmh"])
+    for pl in records.get("plate", []):
+        got[("plate", pl["id"])] = ("roadsigns_speed_plates", pl["value_kmh"])
+    if records.get("plate") is not None:
+        got[("plate", "toll_booth")] = ("toll_plaza_40", 40)
     for k in sorted(set(listed) | set(got), key=str):
         if listed.get(k) != got.get(k):
             errs.append(f"plan vs decisions: {k}: plan {listed.get(k)} / decisions {got.get(k)}")
@@ -367,7 +376,9 @@ def slot_checks(zf, report):
 
 def run(check=False, scenarios=False):
     plan, p7, radar, zones, fuel, adas = decisions()
-    records = {"speed": p7, "radar": radar, "zone": zones, "sign": adas["signs"]}
+    plates_path = FUNC / "speed_plates.json"
+    plates = json.loads(plates_path.read_text(encoding="utf8"))["plates"] if plates_path.exists() else None
+    records = {"speed": p7, "radar": radar, "zone": zones, "sign": adas["signs"], "plate": plates}
     report = {"plan_errors": check_plan(plan, records)}
     if report["plan_errors"]:
         raise SystemExit("plan check failed:\n  " + "\n  ".join(report["plan_errors"]))

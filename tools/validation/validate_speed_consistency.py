@@ -153,6 +153,43 @@ def load_static():
     return data
 
 
+# ------------------------------------------------------------------ speed plates of roadsigns.dae (Phase 7)
+def load_plates():
+    rules = load_config("speed_rules.json")
+    path = os.path.join(REPO, rules.get("speed_plates", {}).get("decisions", ""))
+    if not rules.get("speed_plates") or not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)["plates"]
+
+
+def plate_faces(plates, rules):
+    """What each plate shows in the mod mesh: the atlas rect its board quad samples, and whether any legend / digit quad
+    still samples its original cell (the US legend would remain visible)."""
+    cfg = rules["speed_plates"]
+    mesh = os.path.join(REPO, rules["paths"].get("mod_dir", "mod/traducao_ptbr_wcusa"), cfg["mod_mesh"])
+    if not os.path.exists(mesh):
+        return None
+    sys.path.insert(0, os.path.join(REPO, "tools", "production"))
+    import numpy as np
+    import glyph_signs
+    q = glyph_signs.read_quads(mesh, "roadsigns", (2048, 1024))
+    C = np.array([x["centroid"] for x in q])
+    rect = lambda x: [round(v) for v in x["rect"]]
+
+    def at(c):
+        i = int(np.argmin(np.linalg.norm(C - np.array(c), axis=1)))
+        return q[i] if np.linalg.norm(C[i] - np.array(c)) < 0.02 else None
+    out = {}
+    for pl in plates:
+        b = at(pl["quads"]["board"][1])
+        old = [at(c) for _, c in [pl["quads"]["legend"]] + pl["quads"]["digits"]]
+        stale = [x for x, (r, _) in zip(old, [pl["quads"]["legend"]] + pl["quads"]["digits"]) if x is not None and
+                 max(abs(u - v) for u, v in zip(rect(x), r)) <= 1.5]
+        out[pl["id"]] = {"board_rect": rect(b) if b else None, "stale_legend_quads": len(stale)}
+    return out
+
+
 # ------------------------------------------------------------------ runtime snapshot (MCP)
 SNAPSHOT_LUA = r"""
 local pts = jsonDecode(%s)
@@ -191,6 +228,7 @@ def refresh_snapshot(static):
         raise ToolError(f"load {rules['map']} in BeamNG before --refresh (current level: {status.get('level')})")
     pts = [[*r["position"], f"radar:{r['name']}"] for r in static["radars"]]
     pts += [[*a["spawn"], f"adas:{a['id']}"] for a in static["adas"] if a.get("spawn")]
+    pts += [[*pl["regulated_edge"]["point"], f"plate:{pl['id']}"] for pl in load_plates() if pl["kind"] == "regulatory"]
     raw = m.lua(SNAPSHOT_LUA % json.dumps(json.dumps(pts)))
     snap = json.loads(raw)
     snap["meta"] = {"collected": dt.datetime.now().isoformat(timespec="seconds"), "level": status.get("level"),
@@ -328,6 +366,80 @@ def validate_speeds(refresh=False, report=None, static=None, snapshot=None):
                 f"{agree}/{agree + len(differ)} signs: nearest edge == sign value"
                 + (f"; {len(differ)} differ (sign at a transition: e.g. dock booths, where the sign regulates the next road)" if differ else ""),
                 differ=differ)
+
+    # 3b. speed plates built into roadsigns.dae (Phase 7): face shown by the mod mesh == decided value == road limit
+    plates = load_plates()
+    if plates:
+        tiles_path = os.path.join(REPO, rules["speed_plates"]["tiles"])
+        with open(tiles_path, encoding="utf-8") as f:
+            tiles = {(e["op"], e["value"]): e["box"] for e in json.load(f)["elements"]}
+        faces = plate_faces(plates, rules)
+        table = {int(k): v for k, v in rules["speed_plates"]["advisory_table_mph_kmh"].items()}
+        bad_face, bad_road, ok_road, skip_road, bad_adv = [], [], 0, 0, []
+        for pl in plates:
+            op = "r19_plate" if pl["kind"] == "regulatory" else "advisory_plate"
+            f = (faces or {}).get(pl["id"])
+            if faces is None or not f or f["board_rect"] != tiles.get((op, pl["value_kmh"])) or f["stale_legend_quads"]:
+                bad_face.append({"plate": pl["id"], "face": f, "expected_tile": tiles.get((op, pl["value_kmh"]))})
+            if pl["kind"] == "advisory":
+                if table.get(pl["mph"]) != pl["value_kmh"]:
+                    bad_adv.append(pl["id"])
+                continue
+            road = next((x["road"] for x in (snapshot or {}).get("points", []) if x["id"] == f"plate:{pl['id']}"), None)
+            row = {"location": f"placa {pl['id']} (roadsigns.dae) @ {[round(x) for x in pl['center'][:2]]}", "sign": f"{pl['value_kmh']} km/h (R-19)",
+                   "radar": "—", "zone": "—"}
+            if not road or road.get("limit") is None:
+                skip_road += 1
+                row.update(road="?", result="SKIP")
+            elif same_speed(mps(pl["value_kmh"]), road["limit"]):
+                ok_road += 1
+                row.update(road=fmt(road["limit"]), result="PASS")
+            else:
+                bad_road.append({"plate": pl["id"], "plate_kmh": pl["value_kmh"], "road": fmt(road["limit"])})
+                row.update(road=fmt(road["limit"]), result="FAIL")
+            rows.append(row)
+        n_reg = sum(p["kind"] == "regulatory" for p in plates)
+        rep.add(FAIL if bad_face else PASS, "Speed plates (roadsigns.dae): face in the mod mesh",
+                f"{len(bad_face)} plates do not show their decided face" if bad_face else
+                f"{len(plates)} plates show the decided R-19 / km/h face; no US legend or digit quad left", bad=bad_face)
+        rep.add(FAIL if bad_adv else PASS, "Speed plates: advisory conversion", f"{len(plates) - n_reg} advisory plates follow the mph -> km/h table"
+                + (f"; wrong: {bad_adv}" if bad_adv else ""))
+        if bad_road:
+            rep.add(FAIL, "Speed plates vs regulated road (navgraph)", f"{len(bad_road)}/{n_reg} R-19 plates differ from the road they regulate", bad=bad_road)
+        elif skip_road:
+            rep.add(SKIP, "Speed plates vs regulated road (navgraph)", "no navgraph snapshot (run: validate.py speeds --refresh with the map loaded)")
+        else:
+            rep.add(PASS, "Speed plates vs regulated road (navgraph)", f"{ok_road} R-19 plates == limit of the road they regulate")
+
+    # 3c. toll plaza booths (Phase 7): NÃO PARE / R-19 40 in both booth meshes, lanes through the booths at 40 (explicit)
+    tb = rules.get("speed_plates", {}).get("toll_booth")
+    if tb:
+        with open(os.path.join(REPO, tb["tiles"]), encoding="utf-8") as f:
+            tt = json.load(f)
+        with open(os.path.join(REPO, rules["speed_plates"]["tiles"]), encoding="utf-8") as f:
+            blank = json.load(f)["blank"]
+        allowed = [e["box"] for e in tt["elements"]] + [blank]
+        sys.path.insert(0, os.path.join(REPO, "tools", "production"))
+        import glyph_signs
+        mod_dir = os.path.join(REPO, rules["paths"].get("mod_dir", "mod/traducao_ptbr_wcusa"))
+        bad = []
+        for mesh in tb["mod_meshes"]:
+            path = os.path.join(mod_dir, mesh)
+            if not os.path.exists(path):
+                bad.append(f"{mesh}: missing")
+                continue
+            for x in glyph_signs.read_quads(path, "roadsigns", (2048, 1024)):
+                if x["centroid"][2] > 2.2 and abs(x["normal"][1]) > 0.9:   # the two plates on the booth end facing traffic
+                    r = [round(v) for v in x["rect"]]
+                    if not any(max(abs(a - b) for a, b in zip(r, box)) <= 1.5 for box in allowed):
+                        bad.append(f"{os.path.basename(mesh)}: quad still samples {r}")
+        rep.add(FAIL if bad else PASS, "Toll booth plates: face in the mod meshes", "; ".join(bad[:4]) if bad else
+                f"{len(tb['mod_meshes'])} booth meshes show NÃO PARE / R-19 {tb['value_kmh']}; no US legend or digit quad left")
+        vals = {r["persistentId"]: r["speed_mps"] for r in static["explicit_roads"]}
+        wrong = [pid for pid in tb["regulated_roads"] if pid not in vals or not same_speed(vals[pid], mps(tb["value_kmh"]))]
+        rep.add(FAIL if wrong else PASS, "Toll booth R-19 vs lanes through the booths",
+                f"{len(wrong)} lanes without an explicit {tb['value_kmh']} km/h: {wrong}" if wrong else
+                f"{len(tb['regulated_roads'])} lanes through the booths == {tb['value_kmh']} km/h (explicit)")
 
     # 4. ADAS
     for a in static["adas"]:

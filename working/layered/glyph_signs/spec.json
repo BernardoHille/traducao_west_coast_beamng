@@ -514,6 +514,54 @@
       1024
      ],
      "map_file": "working/layered/t_roadsigns/glyph_tiles.json"
+    },
+    {
+     "old": "(speed plates: SPEED LIMIT nn / nn MPH)",
+     "new": "R-19 (limite da via regulada) / nn km/h (advertência)",
+     "custom": "uv_map",
+     "material": "roadsigns",
+     "size": [
+      2048,
+      1024
+     ],
+     "map_file": "working/layered/t_roadsigns/speed_plate_tiles.json",
+     "phase": 7
+    }
+   ]
+  },
+  "s_toll_booth_center": {
+   "src": "source/originals/meshes/objects/s_toll_booth_center.dae",
+   "install": "levels/west_coast_usa/art/shapes/objects",
+   "lines": [
+    {
+     "old": "DO NOT STOP / SPEED LIMIT 25",
+     "new": "NÃO PARE / R-19 40",
+     "custom": "uv_map",
+     "material": "roadsigns",
+     "size": [
+      2048,
+      1024
+     ],
+     "map_file": "working/layered/t_roadsigns/toll_booth_tiles.json",
+     "phase": 7
+    }
+   ]
+  },
+  "s_toll_booth_center_alt": {
+   "src": "source/originals/meshes/objects/s_toll_booth_center_alt.dae",
+   "install": "levels/west_coast_usa/art/shapes/objects",
+   "lines": [
+    {
+     "old": "DO NOT STOP / SPEED LIMIT 25",
+     "new": "NÃO PARE / R-19 40",
+     "custom": "uv_map",
+     "material": "roadsigns",
+     "size": [
+      2048,
+      1024
+     ],
+     "map_file": "working/layered/t_roadsigns/toll_booth_tiles.json",
+     "phase": 7
     }
    ]
   }

@@ -437,6 +437,158 @@
         "width": 52,
         "height": 53,
         "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [461, 85, 513, 138]); Phase 6 glyph signs"
+      },
+      {
+        "id": "sp_r19_40",
+        "x": 1542,
+        "y": 290,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_r19_60",
+        "x": 1822,
+        "y": 296,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_r19_80",
+        "x": 1672,
+        "y": 302,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_r19_100",
+        "x": 1412,
+        "y": 330,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_r19_120",
+        "x": 1542,
+        "y": 456,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_adv_20",
+        "x": 1802,
+        "y": 462,
+        "width": 118,
+        "height": 118,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_adv_30",
+        "x": 1672,
+        "y": 468,
+        "width": 118,
+        "height": 118,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_adv_40",
+        "x": 1396,
+        "y": 496,
+        "width": 118,
+        "height": 118,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_adv_50",
+        "x": 1802,
+        "y": 592,
+        "width": 118,
+        "height": 118,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "toll_upper_00",
+        "x": 1952,
+        "y": 240,
+        "width": 68,
+        "height": 96,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_upper_01",
+        "x": 1952,
+        "y": 348,
+        "width": 72,
+        "height": 96,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_02",
+        "x": 1692,
+        "y": 240,
+        "width": 36,
+        "height": 48,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_03",
+        "x": 1296,
+        "y": 348,
+        "width": 42,
+        "height": 73,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_04",
+        "x": 142,
+        "y": 348,
+        "width": 42,
+        "height": 48,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_05",
+        "x": 212,
+        "y": 388,
+        "width": 36,
+        "height": 73,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_06",
+        "x": 1350,
+        "y": 390,
+        "width": 36,
+        "height": 48,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_07",
+        "x": 1290,
+        "y": 434,
+        "width": 42,
+        "height": 73,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_08",
+        "x": 1952,
+        "y": 456,
+        "width": 42,
+        "height": 48,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_09",
+        "x": 1344,
+        "y": 450,
+        "width": 36,
+        "height": 73,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
       }
     ]
   },
@@ -813,6 +965,158 @@
         "width": 52,
         "height": 53,
         "source": "UV of the PT-BR roadsigns.dae of the mod (quads re-targeted from [461, 85, 513, 138]); Phase 6 glyph signs"
+      },
+      {
+        "id": "sp_r19_40",
+        "x": 1542,
+        "y": 290,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_r19_60",
+        "x": 1822,
+        "y": 296,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_r19_80",
+        "x": 1672,
+        "y": 302,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_r19_100",
+        "x": 1412,
+        "y": 330,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_r19_120",
+        "x": 1542,
+        "y": 456,
+        "width": 118,
+        "height": 154,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_adv_20",
+        "x": 1802,
+        "y": 462,
+        "width": 118,
+        "height": 118,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_adv_30",
+        "x": 1672,
+        "y": 468,
+        "width": 118,
+        "height": 118,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_adv_40",
+        "x": 1396,
+        "y": 496,
+        "width": 118,
+        "height": 118,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "sp_adv_50",
+        "x": 1802,
+        "y": 592,
+        "width": 118,
+        "height": 118,
+        "source": "UV of the PT-BR roadsigns.dae of the mod (board quads of the speed plates re-targeted here); Phase 7 speed plates"
+      },
+      {
+        "id": "toll_upper_00",
+        "x": 1952,
+        "y": 240,
+        "width": 68,
+        "height": 96,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_upper_01",
+        "x": 1952,
+        "y": 348,
+        "width": 72,
+        "height": 96,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_02",
+        "x": 1692,
+        "y": 240,
+        "width": 36,
+        "height": 48,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_03",
+        "x": 1296,
+        "y": 348,
+        "width": 42,
+        "height": 73,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_04",
+        "x": 142,
+        "y": 348,
+        "width": 42,
+        "height": 48,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_05",
+        "x": 212,
+        "y": 388,
+        "width": 36,
+        "height": 73,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_06",
+        "x": 1350,
+        "y": 390,
+        "width": 36,
+        "height": 48,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_07",
+        "x": 1290,
+        "y": 434,
+        "width": 42,
+        "height": 73,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_08",
+        "x": 1952,
+        "y": 456,
+        "width": 42,
+        "height": 48,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+      },
+      {
+        "id": "toll_lower_09",
+        "x": 1344,
+        "y": 450,
+        "width": 36,
+        "height": 73,
+        "source": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
       }
     ]
   },

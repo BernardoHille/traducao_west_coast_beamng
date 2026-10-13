@@ -1,0 +1,1711 @@
+{
+ "_doc": "New faces for the two plates on the toll booths (s_toll_booth_center.dae / _alt.dae, 5 booths of the toll plaza),\nPhase 7. The booth end facing traffic carries a \"DO NOT STOP\" plate and a \"SPEED LIMIT 25\" plate built from shared\nt_roadsigns cells (white board, letters of ONLY/STOP, SPEED LIMIT, the digit row). The lower board is a 2 x 2 set of\nquads with overlapping UVs (a stretched board), so the new face is BAKED: the whole plate is drawn in metres, then each\nboard quad gets its own new tile holding exactly the part of the plate it covers (sampled through the quad's own\ntexture frame), and the legend/letter/digit quads point at the empty cell of speed_plate_tiles.json.\n\n  DO NOT STOP     -> NÃO PARE\n  SPEED LIMIT 25  -> R-19 40 (25 mph -> 40 km/h, LOCALIZATION_RULES 2.3; the 5 lanes through the booths are set to 40,\n                     working/functional/speed_changes.json, plan entry toll_plaza_40 - as the Phase 5 dock booths)\n\nWrites toll_booth_tiles.json ({\"elements\": op \"image\", \"uv_map\"}) and the tile images in working/png/toll_booth/.\n\n    python working/layered/t_roadsigns/toll_booth_tiles.py\n",
+ "elements": [
+  {
+   "id": "toll_upper_00",
+   "matrix": "roadsigns_do_not_stop",
+   "op": "image",
+   "box": [
+    1952,
+    240,
+    2020,
+    336
+   ],
+   "image": "working/png/toll_booth/toll_upper_00.png",
+   "opacity_image": "working/png/toll_booth/toll_upper_00_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  },
+  {
+   "id": "toll_upper_01",
+   "matrix": "roadsigns_do_not_stop",
+   "op": "image",
+   "box": [
+    1952,
+    348,
+    2024,
+    444
+   ],
+   "image": "working/png/toll_booth/toll_upper_01.png",
+   "opacity_image": "working/png/toll_booth/toll_upper_01_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  },
+  {
+   "id": "toll_lower_02",
+   "matrix": "roadsigns_speed_limit_tile",
+   "op": "image",
+   "box": [
+    1692,
+    240,
+    1728,
+    288
+   ],
+   "image": "working/png/toll_booth/toll_lower_02.png",
+   "opacity_image": "working/png/toll_booth/toll_lower_02_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  },
+  {
+   "id": "toll_lower_03",
+   "matrix": "roadsigns_speed_limit_tile",
+   "op": "image",
+   "box": [
+    1296,
+    348,
+    1338,
+    421
+   ],
+   "image": "working/png/toll_booth/toll_lower_03.png",
+   "opacity_image": "working/png/toll_booth/toll_lower_03_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  },
+  {
+   "id": "toll_lower_04",
+   "matrix": "roadsigns_speed_limit_tile",
+   "op": "image",
+   "box": [
+    142,
+    348,
+    184,
+    396
+   ],
+   "image": "working/png/toll_booth/toll_lower_04.png",
+   "opacity_image": "working/png/toll_booth/toll_lower_04_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  },
+  {
+   "id": "toll_lower_05",
+   "matrix": "roadsigns_speed_limit_tile",
+   "op": "image",
+   "box": [
+    212,
+    388,
+    248,
+    461
+   ],
+   "image": "working/png/toll_booth/toll_lower_05.png",
+   "opacity_image": "working/png/toll_booth/toll_lower_05_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  },
+  {
+   "id": "toll_lower_06",
+   "matrix": "roadsigns_speed_limit_tile",
+   "op": "image",
+   "box": [
+    1350,
+    390,
+    1386,
+    438
+   ],
+   "image": "working/png/toll_booth/toll_lower_06.png",
+   "opacity_image": "working/png/toll_booth/toll_lower_06_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  },
+  {
+   "id": "toll_lower_07",
+   "matrix": "roadsigns_speed_limit_tile",
+   "op": "image",
+   "box": [
+    1290,
+    434,
+    1332,
+    507
+   ],
+   "image": "working/png/toll_booth/toll_lower_07.png",
+   "opacity_image": "working/png/toll_booth/toll_lower_07_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  },
+  {
+   "id": "toll_lower_08",
+   "matrix": "roadsigns_speed_limit_tile",
+   "op": "image",
+   "box": [
+    1952,
+    456,
+    1994,
+    504
+   ],
+   "image": "working/png/toll_booth/toll_lower_08.png",
+   "opacity_image": "working/png/toll_booth/toll_lower_08_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  },
+  {
+   "id": "toll_lower_09",
+   "matrix": "roadsigns_speed_limit_tile",
+   "op": "image",
+   "box": [
+    1344,
+    450,
+    1380,
+    523
+   ],
+   "image": "working/png/toll_booth/toll_lower_09.png",
+   "opacity_image": "working/png/toll_booth/toll_lower_09_o.png",
+   "uv_override": "UV of the PT-BR s_toll_booth_center(_alt).dae of the mod (board quads re-targeted here); Phase 7 toll booth"
+  }
+ ],
+ "uv_map": [
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_board",
+   "from": [
+    375,
+    189,
+    511,
+    380
+   ],
+   "to": [
+    1952,
+    240,
+    2020,
+    336
+   ],
+   "at": [
+    [
+     -0.0,
+     -3.06,
+     3.015
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_board",
+   "from": [
+    371,
+    189,
+    515,
+    380
+   ],
+   "to": [
+    1952,
+    348,
+    2024,
+    444
+   ],
+   "at": [
+    [
+     -0.0,
+     -3.06,
+     3.015
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+   "from": [
+    339,
+    298,
+    351,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0234,
+     -3.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+   "from": [
+    319,
+    340,
+    343,
+    373
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0293,
+     -3.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+   "from": [
+    260,
+    297,
+    284,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0859,
+     -3.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+   "from": [
+    239,
+    298,
+    261,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0834,
+     -3.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+   "from": [
+    319,
+    340,
+    343,
+    373
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0536,
+     -3.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+   "from": [
+    355,
+    148,
+    377,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0023,
+     -3.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+   "from": [
+    378,
+    148,
+    400,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0522,
+     -3.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+   "from": [
+    329,
+    297,
+    351,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0289,
+     -3.062,
+     3.1276
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_upper_legend",
+   "from": [
+    355,
+    148,
+    377,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0261,
+     -3.062,
+     3.1276
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_legend",
+   "from": [
+    339,
+    298,
+    351,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0234,
+     -3.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_legend",
+   "from": [
+    319,
+    340,
+    343,
+    373
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0293,
+     -3.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_legend",
+   "from": [
+    260,
+    297,
+    284,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0859,
+     -3.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_legend",
+   "from": [
+    239,
+    298,
+    261,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0834,
+     -3.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_legend",
+   "from": [
+    319,
+    340,
+    343,
+    373
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0536,
+     -3.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_legend",
+   "from": [
+    355,
+    148,
+    377,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0023,
+     -3.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_legend",
+   "from": [
+    378,
+    148,
+    400,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0522,
+     -3.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_legend",
+   "from": [
+    329,
+    297,
+    351,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0289,
+     -3.062,
+     3.1276
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_upper_legend",
+   "from": [
+    355,
+    148,
+    377,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0261,
+     -3.062,
+     3.1276
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_lower_board",
+   "from": [
+    443,
+    189,
+    515,
+    285
+   ],
+   "to": [
+    1692,
+    240,
+    1728,
+    288
+   ],
+   "at": [
+    [
+     0.08,
+     -3.06,
+     2.7048
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_lower_board",
+   "from": [
+    371,
+    234,
+    454,
+    380
+   ],
+   "to": [
+    1296,
+    348,
+    1338,
+    421
+   ],
+   "at": [
+    [
+     -0.07,
+     -3.06,
+     2.4752
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_lower_board",
+   "from": [
+    371,
+    189,
+    454,
+    285
+   ],
+   "to": [
+    142,
+    348,
+    184,
+    396
+   ],
+   "at": [
+    [
+     -0.07,
+     -3.06,
+     2.7048
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_lower_board",
+   "from": [
+    443,
+    234,
+    515,
+    380
+   ],
+   "to": [
+    212,
+    388,
+    248,
+    461
+   ],
+   "at": [
+    [
+     0.08,
+     -3.06,
+     2.4752
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_lower_board",
+   "from": [
+    443,
+    189,
+    515,
+    285
+   ],
+   "to": [
+    1350,
+    390,
+    1386,
+    438
+   ],
+   "at": [
+    [
+     0.0869,
+     -3.06,
+     2.7357
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_lower_board",
+   "from": [
+    371,
+    234,
+    454,
+    380
+   ],
+   "to": [
+    1290,
+    434,
+    1332,
+    507
+   ],
+   "at": [
+    [
+     -0.078,
+     -3.06,
+     2.4277
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_lower_board",
+   "from": [
+    371,
+    189,
+    454,
+    285
+   ],
+   "to": [
+    1952,
+    456,
+    1994,
+    504
+   ],
+   "at": [
+    [
+     -0.078,
+     -3.06,
+     2.7357
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_lower_board",
+   "from": [
+    443,
+    234,
+    515,
+    380
+   ],
+   "to": [
+    1344,
+    450,
+    1380,
+    523
+   ],
+   "at": [
+    [
+     0.0869,
+     -3.06,
+     2.4277
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_lower_legend",
+   "from": [
+    237,
+    295,
+    371,
+    380
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0145,
+     -3.061,
+     2.6726
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_lower_legend",
+   "from": [
+    401,
+    19,
+    439,
+    69
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0536,
+     -3.061,
+     2.4846
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L400_lower_legend",
+   "from": [
+    571,
+    19,
+    608,
+    69
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0651,
+     -3.061,
+     2.4846
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_lower_legend",
+   "from": [
+    237,
+    295,
+    371,
+    380
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0145,
+     -3.061,
+     2.6726
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_lower_legend",
+   "from": [
+    401,
+    19,
+    439,
+    69
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0536,
+     -3.061,
+     2.4846
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_s_toll_booth_center_L900_lower_legend",
+   "from": [
+    571,
+    19,
+    608,
+    69
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0651,
+     -3.061,
+     2.4846
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_board",
+   "from": [
+    371,
+    189,
+    515,
+    380
+   ],
+   "to": [
+    1952,
+    348,
+    2024,
+    444
+   ],
+   "at": [
+    [
+     -0.0,
+     -7.06,
+     3.015
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_board",
+   "from": [
+    375,
+    189,
+    511,
+    380
+   ],
+   "to": [
+    1952,
+    240,
+    2020,
+    336
+   ],
+   "at": [
+    [
+     -0.0,
+     -7.06,
+     3.015
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+   "from": [
+    339,
+    298,
+    351,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0234,
+     -7.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+   "from": [
+    319,
+    340,
+    343,
+    373
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0293,
+     -7.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+   "from": [
+    260,
+    297,
+    284,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0859,
+     -7.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+   "from": [
+    239,
+    298,
+    261,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0834,
+     -7.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+   "from": [
+    319,
+    340,
+    343,
+    373
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0536,
+     -7.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+   "from": [
+    355,
+    148,
+    377,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0023,
+     -7.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+   "from": [
+    378,
+    148,
+    400,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0522,
+     -7.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+   "from": [
+    329,
+    297,
+    351,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0289,
+     -7.062,
+     3.1276
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_upper_legend",
+   "from": [
+    355,
+    148,
+    377,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0261,
+     -7.062,
+     3.1276
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_legend",
+   "from": [
+    339,
+    298,
+    351,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0234,
+     -7.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_legend",
+   "from": [
+    319,
+    340,
+    343,
+    373
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0293,
+     -7.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_legend",
+   "from": [
+    260,
+    297,
+    284,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0859,
+     -7.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_legend",
+   "from": [
+    239,
+    298,
+    261,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0834,
+     -7.062,
+     2.92
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_legend",
+   "from": [
+    319,
+    340,
+    343,
+    373
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0536,
+     -7.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_legend",
+   "from": [
+    355,
+    148,
+    377,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0023,
+     -7.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_legend",
+   "from": [
+    378,
+    148,
+    400,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0522,
+     -7.062,
+     3.0236
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_legend",
+   "from": [
+    329,
+    297,
+    351,
+    330
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0289,
+     -7.062,
+     3.1276
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_upper_legend",
+   "from": [
+    355,
+    148,
+    377,
+    181
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0261,
+     -7.062,
+     3.1276
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_lower_board",
+   "from": [
+    443,
+    189,
+    515,
+    285
+   ],
+   "to": [
+    1350,
+    390,
+    1386,
+    438
+   ],
+   "at": [
+    [
+     0.0869,
+     -7.06,
+     2.7357
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_lower_board",
+   "from": [
+    371,
+    234,
+    454,
+    380
+   ],
+   "to": [
+    1290,
+    434,
+    1332,
+    507
+   ],
+   "at": [
+    [
+     -0.078,
+     -7.06,
+     2.4277
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_lower_board",
+   "from": [
+    371,
+    189,
+    454,
+    285
+   ],
+   "to": [
+    1952,
+    456,
+    1994,
+    504
+   ],
+   "at": [
+    [
+     -0.078,
+     -7.06,
+     2.7357
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_lower_board",
+   "from": [
+    443,
+    234,
+    515,
+    380
+   ],
+   "to": [
+    1344,
+    450,
+    1380,
+    523
+   ],
+   "at": [
+    [
+     0.0869,
+     -7.06,
+     2.4277
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_lower_board",
+   "from": [
+    443,
+    189,
+    515,
+    285
+   ],
+   "to": [
+    1692,
+    240,
+    1728,
+    288
+   ],
+   "at": [
+    [
+     0.08,
+     -7.06,
+     2.7048
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_lower_board",
+   "from": [
+    371,
+    234,
+    454,
+    380
+   ],
+   "to": [
+    1296,
+    348,
+    1338,
+    421
+   ],
+   "at": [
+    [
+     -0.07,
+     -7.06,
+     2.4752
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_lower_board",
+   "from": [
+    371,
+    189,
+    454,
+    285
+   ],
+   "to": [
+    142,
+    348,
+    184,
+    396
+   ],
+   "at": [
+    [
+     -0.07,
+     -7.06,
+     2.7048
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_lower_board",
+   "from": [
+    443,
+    234,
+    515,
+    380
+   ],
+   "to": [
+    212,
+    388,
+    248,
+    461
+   ],
+   "at": [
+    [
+     0.08,
+     -7.06,
+     2.4752
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_lower_legend",
+   "from": [
+    237,
+    295,
+    371,
+    380
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0145,
+     -7.061,
+     2.6726
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_lower_legend",
+   "from": [
+    401,
+    19,
+    439,
+    69
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0536,
+     -7.061,
+     2.4846
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L400_lower_legend",
+   "from": [
+    571,
+    19,
+    608,
+    69
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0651,
+     -7.061,
+     2.4846
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_lower_legend",
+   "from": [
+    237,
+    295,
+    371,
+    380
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0145,
+     -7.061,
+     2.6726
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_lower_legend",
+   "from": [
+    401,
+    19,
+    439,
+    69
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     -0.0536,
+     -7.061,
+     2.4846
+    ]
+   ],
+   "radius": 0.005
+  },
+  {
+   "id": "s_toll_booth_center_alt_s_toll_booth_center_alt_L1100_lower_legend",
+   "from": [
+    571,
+    19,
+    608,
+    69
+   ],
+   "to": [
+    904,
+    6,
+    928,
+    30
+   ],
+   "at": [
+    [
+     0.0651,
+     -7.061,
+     2.4846
+    ]
+   ],
+   "radius": 0.005
+  }
+ ]
+}

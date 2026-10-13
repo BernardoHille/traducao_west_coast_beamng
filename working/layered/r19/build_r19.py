@@ -59,28 +59,37 @@ def num_style(value: int) -> dict:
     return NUM_STYLE_3 if len(str(value)) >= 3 else NUM_STYLE
 
 
-def render(value: int) -> tuple[Image.Image, Image.Image]:
-    W, H = int(round(PANEL_W * SS)), int(round(PANEL_H * SS))
+def render(value: int, panel=None, tex=None, disc=None) -> tuple[Image.Image, Image.Image]:
+    """R-19 face + disc mask. Defaults: the sign_speed*.dae panel (0.7317 x 1.0 m -> 512 x 1024 px).
+    Phase 7: `panel` (w, h in metres), `tex` (w, h in px) and `disc` (diameter in metres) let the same master draw
+    the R-19 on other boards (roadsigns.dae speed plates); the drawing is done in metres, so the disc stays round
+    whatever the texel aspect of the target."""
+    pw, ph = panel or (PANEL_W, PANEL_H)
+    tw, th = tex or (TEX_W, TEX_H)
+    d = D if disc is None else disc
+    orla, num_h, num_y, unit_h, unit_y = ((ORLA, NUM_H, NUM_Y, UNIT_H, UNIT_Y) if disc is None else
+                                          (0.10 * d, 0.40 * d, -0.045 * d, 0.085 * d, 0.255 * d))
+    W, H = int(round(pw * SS)), int(round(ph * SS))
     cx, cy = W / 2, H / 2
-    r = D * SS / 2
+    r = d * SS / 2
     color = Image.new("RGB", (W, H), COLORS["red"])        # outside the disc = border colour (no halo)
     mask = Image.new("L", (W, H), 0)
     dc, dm = ImageDraw.Draw(color), ImageDraw.Draw(mask)
     dm.ellipse([cx - r, cy - r, cx + r, cy + r], fill=255)
-    ri = r - ORLA * SS
+    ri = r - orla * SS
     dc.ellipse([cx - ri, cy - ri, cx + ri, cy + ri], fill=COLORS["white"])
     # numerals
-    f = _fit_font(str(value), NUM_H * SS, num_style(value))
+    f = _fit_font(str(value), num_h * SS, num_style(value))
     b = f.getbbox(str(value))
     tx = cx - (b[0] + b[2]) / 2
-    ty = cy + NUM_Y * SS - (b[1] + b[3]) / 2
+    ty = cy + num_y * SS - (b[1] + b[3]) / 2
     dc.text((tx, ty), str(value), font=f, fill=COLORS["black"])
     # km/h
-    fu = _fit_font("km/h", UNIT_H * SS, UNIT_STYLE, ref="k")
+    fu = _fit_font("km/h", unit_h * SS, UNIT_STYLE, ref="k")
     bu = fu.getbbox("km/h")
     kb = fu.getbbox("k")
     ux = cx - (bu[0] + bu[2]) / 2
-    uy = cy + UNIT_Y * SS - kb[3]
+    uy = cy + unit_y * SS - kb[3]
     dc.text((ux, uy), "km/h", font=fu, fill=COLORS["black"])
     # subtle weathering: low-frequency luminance from the ORIGINAL white speed board of the atlas
     board = REPO / "source/originals/png/t_roadsigns_b.color.png"
@@ -94,8 +103,8 @@ def render(value: int) -> tuple[Image.Image, Image.Image]:
     noise = np.asarray(Image.fromarray(small.astype(np.float32)).resize((W, H), Image.BICUBIC))
     col += noise[..., None]
     color = Image.fromarray(col.clip(0, 255).astype(np.uint8))
-    color = color.resize((TEX_W, TEX_H), Image.LANCZOS).convert("RGBA")
-    mask = mask.resize((TEX_W, TEX_H), Image.LANCZOS)
+    color = color.resize((tw, th), Image.LANCZOS).convert("RGBA")
+    mask = mask.resize((tw, th), Image.LANCZOS)
     return color, mask
 
 
