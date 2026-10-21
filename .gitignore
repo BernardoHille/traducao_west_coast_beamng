@@ -68,3 +68,9 @@ working/png/*/
 
 # Phase 6 glyph signs: build output of tools/production/glyph_rewrite.py (the shipped copies live in mod/)
 working/glyph_meshes/
+
+# Phase 9 — release build (python tools/release/build_release.py): the staging copy and the ZIP are build output.
+# The ZIP is published as a GitHub Release asset; its .sha256, manifest and build record are versioned.
+release/staging/
+release/output/*.zip
+release/output/*.zip.part

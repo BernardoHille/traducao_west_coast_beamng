@@ -1,0 +1,8 @@
+{
+ "_doc": "Release build settings for tools/release/build_release.py. zip_timestamp is fixed per release so the ZIP bytes depend only on the mod files.",
+ "title": "West Coast USA — Localização PT-BR",
+ "version": "1.0.0",
+ "zip_timestamp": "2026-10-21T00:00:00",
+ "beamng_version": "BeamNG.drive 0.39.4.0",
+ "game_install": "C:/Program Files (x86)/Steam/steamapps/common/BeamNG.drive"
+}
