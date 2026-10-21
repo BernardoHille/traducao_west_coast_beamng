@@ -5,6 +5,8 @@
 
 **Versão publicada:** 1.0.0 (`traducao_ptbr_wcusa_v1.0.0.zip`, SHA-256 `684bcf6c2e93c9397fa1acc667dd37792d2e55b05973c32bc1a1bd33396e3b57`). Estado congelado em [`release/FINAL_PROJECT_STATUS.md`](release/FINAL_PROJECT_STATUS.md).
 
+**Artigo técnico final:** [`article_final/ARTIGO_TECNICO_FINAL_PTBR.md`](article_final/ARTIGO_TECNICO_FINAL_PTBR.md) (também em HTML e PDF), segunda edição, de 21/10/2026, cobrindo as Fases 0–9 e a versão 1.0.0. A primeira edição, em `article/`, é o snapshot da Fase 5 e não foi alterada.
+
 ## Ambiente
 
 - BeamNG.drive **0.39.4.0** (Steam)

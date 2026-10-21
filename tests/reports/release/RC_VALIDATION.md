@@ -119,6 +119,8 @@ Noite (`*_night.jpg`): outdoor Turbo Burger iluminado, néon UNHAS E DEPILAÇÃO
 
 Capturas em `tests/screenshots/release/on/adas/`. O pacote não depende desse mod.
 
+> **Errata (21/10/2026, artigo técnico final).** As duas capturas de `tests/screenshots/release/on/adas/` mostram o menu principal do jogo sobre a cena e não servem como evidência visual. O resultado acima não depende delas: ele vem dos contadores do controlador do cenário, registrados em `tests/reports/release/release_smoke.json` (`adas_speed_alert_optional`). Para a evidência visual da zona de 50, ver `tests/screenshots/release/on/signs/r19_50_*.jpg` (placas R-19 50 capturadas com o ZIP) e as capturas da Fase 7 em `tests/screenshots/phase7/adas/`. Nenhum resultado, arquivo de runtime ou a tag foram alterados.
+
 ## 7. Logs
 
 Coletados com `get_logs` do MCP: na inicialização, na sessão com o ZIP (carga, capturas, radar, ADAS) e na sessão com o mod desligado. Filtro: linhas E/W com `mod|dds|material|mesh|cdae|dae|json|missing|unable to load|invalid|not found|failed|error`.

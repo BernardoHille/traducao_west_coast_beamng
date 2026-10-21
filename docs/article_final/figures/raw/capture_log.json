@@ -1,0 +1,698 @@
+[
+ {
+  "file": "docs/article_final/figures/raw/chinatown_street__on_day.png",
+  "name": "chinatown_street",
+  "state": "on",
+  "preset": "day",
+  "taken": "2026-10-21T15:48:54",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 55,
+   "pos": {
+    "y": 529,
+    "x": -694,
+    "z": 122.6
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.0088177709011385,
+    "z": -0.35193160283541,
+    "x": 0.023444057513509,
+    "w": 0.93569053111023
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/decal_stop_chinatown_oblique__on_day.png",
+  "name": "decal_stop_chinatown_oblique",
+  "state": "on",
+  "preset": "day",
+  "taken": "2026-10-21T15:49:00",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 539,
+    "x": -703,
+    "z": 128
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.082002093941172,
+    "z": -0.3363925281631,
+    "x": 0.22218447985294,
+    "w": 0.91145476053273
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/aerial_downtown__on_day.png",
+  "name": "aerial_downtown",
+  "state": "on",
+  "preset": "day",
+  "taken": "2026-10-21T15:49:10",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 330,
+    "x": -420,
+    "z": 760
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/decal_bus_only_top__on_day.png",
+  "name": "decal_bus_only_top",
+  "state": "on",
+  "preset": "day",
+  "taken": "2026-10-21T15:49:16",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 499,
+    "x": -445.7,
+    "z": 118
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/decal_keep_clear_top__on_day.png",
+  "name": "decal_keep_clear_top",
+  "state": "on",
+  "preset": "day",
+  "taken": "2026-10-21T15:49:22",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 477.9,
+    "x": -335.4,
+    "z": 108
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/roadsigns_chinatown_stop__on_day.png",
+  "name": "roadsigns_chinatown_stop",
+  "state": "on",
+  "preset": "day",
+  "taken": "2026-10-21T15:49:28",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 550.313,
+    "x": -710.782,
+    "z": 122.835
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.0024199991452618,
+    "z": -0.30989910930395,
+    "x": 0.0074299973797647,
+    "w": 0.95073733533279
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/roadsigns_downtown_yield__on_day.png",
+  "name": "roadsigns_downtown_yield",
+  "state": "on",
+  "preset": "day",
+  "taken": "2026-10-21T15:49:34",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 96.0784,
+    "x": -110.5606,
+    "z": 126.7581
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.027137995500564,
+    "z": 0.95059315760697,
+    "x": -0.0088249985368117,
+    "w": 0.30912505125249
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/r19_40_hill__on_day.png",
+  "name": "r19_40_hill",
+  "state": "on",
+  "preset": "day",
+  "taken": "2026-10-21T15:49:40",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 158.0094,
+    "x": -171.2629,
+    "z": 123.426
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0.94731513213437,
+    "x": 0,
+    "w": 0.32030304467683
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/chinatown_driver_a__on_opening.png",
+  "name": "chinatown_driver_a",
+  "state": "on",
+  "preset": "opening",
+  "taken": "2026-10-21T15:50:14",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 55,
+   "pos": {
+    "y": 534.5,
+    "x": -699.5,
+    "z": 122.4
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.011785279323026,
+    "z": -0.33992250839409,
+    "x": 0.032583842202419,
+    "w": 0.93981492258086
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/chinatown_driver_b__on_opening.png",
+  "name": "chinatown_driver_b",
+  "state": "on",
+  "preset": "opening",
+  "taken": "2026-10-21T15:50:20",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 60,
+   "pos": {
+    "y": 531.5,
+    "x": -697,
+    "z": 123
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.016188524871291,
+    "z": -0.33061083911599,
+    "x": 0.046149940082027,
+    "w": 0.94249911817038
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/chinatown_driver_a__on_night.png",
+  "name": "chinatown_driver_a",
+  "state": "on",
+  "preset": "night",
+  "taken": "2026-10-21T15:50:55",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 55,
+   "pos": {
+    "y": 534.5,
+    "x": -699.5,
+    "z": 122.4
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.011785279323026,
+    "z": -0.33992250839409,
+    "x": 0.032583842202419,
+    "w": 0.93981492258086
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/decal_stop_chinatown_oblique__on_night.png",
+  "name": "decal_stop_chinatown_oblique",
+  "state": "on",
+  "preset": "night",
+  "taken": "2026-10-21T15:51:01",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 539,
+    "x": -703,
+    "z": 128
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.082002093941172,
+    "z": -0.3363925281631,
+    "x": 0.22218447985294,
+    "w": 0.91145476053273
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "traducao_ptbr_wcusa_v1.0.0": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Users\\Desktop\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\mods\\traducao_ptbr_wcusa_v1.0.0.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/chinatown_driver_a__off_day.png",
+  "name": "chinatown_driver_a",
+  "state": "off",
+  "preset": "day",
+  "taken": "2026-10-21T15:53:07",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 55,
+   "pos": {
+    "y": 534.5,
+    "x": -699.5,
+    "z": 122.4
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.011785279323026,
+    "z": -0.33992250839409,
+    "x": 0.032583842202419,
+    "w": 0.93981492258086
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/decal_stop_chinatown_oblique__off_day.png",
+  "name": "decal_stop_chinatown_oblique",
+  "state": "off",
+  "preset": "day",
+  "taken": "2026-10-21T15:53:13",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 539,
+    "x": -703,
+    "z": 128
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.082002093941172,
+    "z": -0.3363925281631,
+    "x": 0.22218447985294,
+    "w": 0.91145476053273
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/decal_keep_clear_top__off_day.png",
+  "name": "decal_keep_clear_top",
+  "state": "off",
+  "preset": "day",
+  "taken": "2026-10-21T15:53:20",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 477.9,
+    "x": -335.4,
+    "z": 108
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0,
+    "x": 0.7070373657758,
+    "w": 0.70717618978358
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/roadsigns_chinatown_stop__off_day.png",
+  "name": "roadsigns_chinatown_stop",
+  "state": "off",
+  "preset": "day",
+  "taken": "2026-10-21T15:53:26",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 550.313,
+    "x": -710.782,
+    "z": 122.835
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.0024199991452618,
+    "z": -0.30989910930395,
+    "x": 0.0074299973797647,
+    "w": 0.95073733533279
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/roadsigns_downtown_yield__off_day.png",
+  "name": "roadsigns_downtown_yield",
+  "state": "off",
+  "preset": "day",
+  "taken": "2026-10-21T15:53:32",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 96.0784,
+    "x": -110.5606,
+    "z": 126.7581
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0.027137995500564,
+    "z": 0.95059315760697,
+    "x": -0.0088249985368117,
+    "w": 0.30912505125249
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main.decals.json"
+ },
+ {
+  "file": "docs/article_final/figures/raw/r19_40_hill__off_day.png",
+  "name": "r19_40_hill",
+  "state": "off",
+  "preset": "day",
+  "taken": "2026-10-21T15:53:38",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "camera": {
+   "fov": 50,
+   "pos": {
+    "y": 158.0094,
+    "x": -171.2629,
+    "z": 123.426
+   },
+   "mode": "free",
+   "rot": {
+    "y": 0,
+    "z": 0.94731513213437,
+    "x": 0,
+    "w": 0.32030304467683
+   }
+  },
+  "active_mods": {
+   "adas_speed_alert_test": true,
+   "adas_speed_alert_web": true,
+   "hcity7_baixx0_v1.3.3": true,
+   "adas_event01_speed_limit": true,
+   "reaction_test": true,
+   "reaction_test_vr": true,
+   "adas_lab_first_person": true,
+   "gniar_br_costa_oeste": true
+  },
+  "vfs_t_roadsigns_b_color": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\assets\\materials\\signage.zip\\assets\\materials\\signage\\roadsigns\\t_roadsigns_b.color.dds",
+  "vfs_decal_items": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BeamNG.drive\\content\\levels\\west_coast_usa.zip\\levels\\west_coast_usa\\main.decals.json"
+ }
+]
