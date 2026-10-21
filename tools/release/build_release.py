@@ -93,7 +93,8 @@ def step(msg):
 
 def check_git(allow_dirty):
     head = git("rev-parse", "HEAD")
-    dirty = git("status", "--porcelain")
+    # the build's own output folder does not count: the previous build's records are written there before they are committed
+    dirty = git("status", "--porcelain", "--", ".", ":(exclude)release/output")
     if dirty and not allow_dirty:
         raise BuildError("working tree is not clean (commit first, or --allow-dirty for a test build):\n" + dirty)
     print(f"   HEAD {head}{' (dirty tree: TEST BUILD)' if dirty else ''}")
