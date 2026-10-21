@@ -1,0 +1,107 @@
+[
+ {
+  "id": "r19_50_entry_right",
+  "value": 50,
+  "camera": [
+   544.99,
+   784.09,
+   116.68
+  ],
+  "target": [
+   530.5,
+   783.94,
+   117.78
+  ],
+  "file": "r19_50_entry_right.jpg"
+ },
+ {
+  "id": "r19_50_entry_left",
+  "value": 50,
+  "camera": [
+   544.99,
+   784.09,
+   116.68
+  ],
+  "target": [
+   541.93,
+   767.39,
+   117.35
+  ],
+  "file": "r19_50_entry_left.jpg"
+ },
+ {
+  "id": "r19_50_spawn_right",
+  "value": 50,
+  "camera": [
+   279.74,
+   590.19,
+   117.59
+  ],
+  "target": [
+   264.59,
+   590.17,
+   118.66
+  ],
+  "file": "r19_50_spawn_right.jpg"
+ },
+ {
+  "id": "r19_50_spawn_left",
+  "value": 50,
+  "camera": [
+   402.62,
+   684.66,
+   117.23
+  ],
+  "target": [
+   400.27,
+   668.01,
+   117.93
+  ],
+  "file": "r19_50_spawn_left.jpg"
+ },
+ {
+  "id": "r19_120_exit_right",
+  "value": 120,
+  "camera": [
+   -424.36,
+   -29.52,
+   110.45
+  ],
+  "target": [
+   -439.33,
+   -31.78,
+   111.29
+  ],
+  "file": "r19_120_exit_right.jpg"
+ },
+ {
+  "id": "r19_70_entry_right",
+  "value": 70,
+  "camera": [
+   -428.12,
+   172.91,
+   101.69
+  ],
+  "target": [
+   -417.76,
+   181.22,
+   102.55
+  ],
+  "file": "r19_70_entry_right.jpg"
+ },
+ {
+  "id": "r19_70_repeat_right",
+  "value": 70,
+  "camera": [
+   -393.92,
+   237.32,
+   102.33
+  ],
+  "target": [
+   -382.44,
+   243.79,
+   103.19
+  ],
+  "file": "r19_70_repeat_right.jpg"
+ }
+]
