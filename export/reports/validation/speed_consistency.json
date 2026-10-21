@@ -8,10 +8,10 @@
     "FAIL": 0,
     "SKIP": 7
   },
-  "generated": "2026-10-13T09:53:52",
+  "generated": "2026-10-21T14:44:53",
   "meta": {
     "snapshot": {
-      "collected": "2026-10-13T09:53:52",
+      "collected": "2026-10-21T14:44:52",
       "level": "/levels/west_coast_usa/main.level.json",
       "source": "MCP map.getMap() + map.findClosestRoad, TSStatic sign_speed*.dae"
     },

@@ -114,7 +114,7 @@
    "id": "plate:reg_01",
    "road": {
     "lanes": "--++",
-    "node": "DR92_1",
+    "node": "DR311_4",
     "limit": 11.1111,
     "dist": 0.0038157298654621,
     "oneWay": false
@@ -340,7 +340,7 @@
    ],
    "road": {
     "lanes": "-+",
-    "node": "autojunction_134",
+    "node": "DR725_3",
     "limit": 11.1111,
     "dist": 7.4753535934484,
     "oneWay": false
@@ -415,7 +415,7 @@
    ],
    "road": {
     "lanes": "-+",
-    "node": "autojunction_134",
+    "node": "DR725_3",
     "limit": 11.1111,
     "dist": 7.5101883326321,
     "oneWay": false
@@ -709,7 +709,7 @@
   }
  ],
  "meta": {
-  "collected": "2026-10-13T09:53:52",
+  "collected": "2026-10-21T14:44:52",
   "level": "/levels/west_coast_usa/main.level.json",
   "source": "MCP map.getMap() + map.findClosestRoad, TSStatic sign_speed*.dae"
  }

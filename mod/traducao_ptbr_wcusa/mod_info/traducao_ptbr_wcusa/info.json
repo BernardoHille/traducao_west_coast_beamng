@@ -1,6 +1,6 @@
 {
-  "name": "Tradução PT-BR — West Coast USA",
+  "name": "West Coast USA — Localização PT-BR",
   "author": "Bernardo Hille",
-  "version": "0.7.0",
-  "description": "Tradução PT-BR do West Coast USA: placas de trânsito (t_roadsigns, R-19 10/40/50/70/120 km/h), marcações no pavimento, postos, outdoors, estúdio, indústria, mapa de ônibus, comércio e concessionárias, letreiros montados por glifos, e a camada funcional em km/h (limites, radares, zonas, slotTraffic, cenários ADAS, combustível em litro). Fases 5, 6 e 7."
+  "version": "1.0.0",
+  "description": "Localização PT-BR do mapa West Coast USA para o BeamNG.drive 0.39.4.0: sinalização brasileira (R-1 PARE, R-2, R-19 em km/h), marcações no pavimento, postos, outdoors, comércio, indústria e transporte em português, e uma camada funcional coerente em km/h (limites de via, radares, zonas, tráfego), com combustível em litro."
 }
