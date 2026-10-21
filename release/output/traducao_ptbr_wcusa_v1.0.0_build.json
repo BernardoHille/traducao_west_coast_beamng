@@ -1,0 +1,22 @@
+{
+ "version": "1.0.0",
+ "commit": "896fa36914d95aa07dc4c58190634853e906603c",
+ "dirty_tree": false,
+ "zip": "traducao_ptbr_wcusa_v1.0.0.zip",
+ "zip_size": 29846362,
+ "zip_sha256": "684bcf6c2e93c9397fa1acc667dd37792d2e55b05973c32bc1a1bd33396e3b57",
+ "files": 117,
+ "uncompressed_size": 98973556,
+ "by_kind": {
+  "textures (DDS)": 31,
+  "compiled meshes (CDAE)": 32,
+  "meshes (DAE)": 32,
+  "level/gameplay data": 20,
+  "materials": 1,
+  "metadata": 1
+ },
+ "overrides_game_file": 100,
+ "new_files": 16,
+ "beamng_compatibility": "BeamNG.drive 0.39.4.0",
+ "built_at": "2026-10-21T14:46:54-03:00"
+}

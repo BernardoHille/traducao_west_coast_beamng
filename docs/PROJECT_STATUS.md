@@ -1,7 +1,9 @@
 # Status do projeto
 
-**Última atualização:** 13/10/2026
-**Fase atual:** Fase 7 — Integração funcional concluída.
+**Última atualização:** 21/10/2026
+**Fase atual:** Fase 9 — Release 1.0.0 concluída.
+
+**Versão publicada:** 1.0.0 (`traducao_ptbr_wcusa_v1.0.0.zip`, SHA-256 `684bcf6c2e93c9397fa1acc667dd37792d2e55b05973c32bc1a1bd33396e3b57`). Estado congelado em [`release/FINAL_PROJECT_STATUS.md`](release/FINAL_PROJECT_STATUS.md).
 
 ## Ambiente
 
@@ -18,7 +20,7 @@
   - Fase 5: `t_roadsigns` (2) e R-19 (3).
   - Fase 6 (23): road markings (2 cópias × 4 mapas), `eca_genericsigns`, `t_billboards`, estúdio, industrial (2 cópias), Spearleaf (cor + opacidade), Hot Rolled (cor + nm/ao/r), mapa de ônibus (cor + normal), `clutter_commercial` (cor + opacidade).
   - O DDS do PoC (`export/dds/poc/`) é só histórico.
-- **Mod** (`mod/traducao_ptbr_wcusa/`, versão 0.7.0):
+- **Mod** (`mod/traducao_ptbr_wcusa/`, versão 1.0.0; pacote público gerado por `tools/release/build_release.py`):
   - atlas `t_roadsigns` definitivo e as 9 famílias visuais da Fase 6;
   - 25 malhas de letreiros montados por glifos, cada uma com o `.cdae` compilado pelo jogo;
   - override de `main.decals.json` (EXIT ONLY → SÓ SAÍDA, ONLY removido), gerado localmente e não versionado;
@@ -42,10 +44,11 @@
 - [x] Limites, radares e zonas integrados (Fase 7)
 - [x] ADAS de limite integrado (ADAS Speed Alert 50 e Event 01 70 em trechos regulamentados)
 - [x] Reaction Test preservado como faixa experimental (40–70, sem zona)
-- [ ] QA global West Coast (Fase 8)
-- [ ] QA East Coast / Utah
-- [ ] QA ADAS
-- [ ] Release
+- [x] QA global West Coast (Fase 8, aceite externo)
+- [x] QA com usuários (Fase 8, testadores externos)
+- [x] QA ADAS (Fase 7 e smoke da release; os mods de pesquisa são externos ao pacote)
+- [x] Release 1.0.0 (Fase 9)
+- [ ] QA documentado em East Coast / Utah: fora do escopo da 1.0.0 (texturas globais registradas em `release/KNOWN_ISSUES.md`)
 
 ## Resultado da Fase 1 — PoC do override
 
@@ -218,6 +221,31 @@ Detalhes em [`production/PHASE7_FUNCTIONAL_INTEGRATION.md`](production/PHASE7_FU
 - Cenários ADAS deixados ativos re-teleportam o carro do jogador a cada reset: o QA isola um cenário por vez.
 - Malhas compartilhadas com UV sobreposta (placa esticada 2 × 2) exigem face assada por quad.
 
+## Resultado da Fase 8 — QA global e testes externos
+
+Registro em [`production/PHASE8_GLOBAL_QA.md`](production/PHASE8_GLOBAL_QA.md). A Fase 8 foi conduzida fora do repositório. O responsável do projeto aprovou a versão **0.7.0** (`1973cdb`) depois de testes com usuários externos, sem problemas bloqueadores reportados. Não há relatório local dos testes, e os campos sem evidência estão marcados assim no registro.
+
+**Veredito:** FASE 8 APROVADA — QA global e testes externos concluídos.
+
+## Resultado da Fase 9 — Release 1.0.0
+
+Detalhes em `release/` ([build](release/BUILD_1.0.0.md), [escopo](release/SCOPE_AUDIT.md), [limitações](release/KNOWN_ISSUES.md)) e em [`tests/reports/release/RC_VALIDATION.md`](../tests/reports/release/RC_VALIDATION.md).
+
+| Item | Situação |
+|---|---|
+| Pacote | `traducao_ptbr_wcusa_v1.0.0.zip`: 117 arquivos (31 DDS, 32 DAE, 32 CDAE, 1 materials, 20 JSON de nível/gameplay, 1 metadado), 29,8 MB; 0 cópias idênticas a originais; sem dados locais |
+| Build | `tools/release/build_release.py`: determinístico (o mesmo SHA-256 em três builds), manifesto por arquivo, conferência da extração |
+| Validação automática | unittest 63, selftest 121, regressão 10/10, mod 273, instalado 274, new 108, speeds FAIL 0 |
+| Instalação limpa | só o ZIP montado (cópia de desenvolvimento retirada); VFS: 116/116 arquivos vêm do ZIP; nenhum `.cdae` no cache |
+| Smoke | visual de dia e de noite, navgraph 19/19 (10–120), radares 3 e 4, ADAS Speed Alert (externo), logs sem erro do mod |
+| Mod OFF | 0/116 do ZIP; originais visuais e funcionais de volta |
+| Documentação | README, INSTALLATION, CHANGELOG, RELEASE_NOTES, KNOWN_ISSUES, CREDITS, CONTRIBUTING (SemVer), FINAL_PROJECT_STATUS |
+
+**Decisões da Fase 9:**
+- Os trechos regulamentados criados para os cenários de pesquisa (zona de 50 da via expressa, corredor de 70 do Event 01) ficam no pacote principal. A 1.0.0 fica igual à versão aprovada, e os trechos não dependem de nenhum mod externo.
+- O `mod_info/.../info.json` continua como metadado do projeto. O jogo só lê esse arquivo para mods do repositório oficial, e fazer o jogo lê-lo passaria um `tagid` falso à checagem de atualizações.
+- Não há arquivo `LICENSE`. Os direitos estão descritos em `docs/CREDITS.md`, sem reivindicar direitos sobre os assets derivados do jogo.
+
 ## Problemas conhecidos
 
 Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). Situação após a Fase 6 na coluna da direita.
@@ -229,7 +257,7 @@ Resumo da auditoria (detalhes em `docs/AUDITORIA_PROJETO_TRADUCAO.md`). Situaç�
 | 3 | **Road markings incompletos:** só o `_b.color` foi traduzido. `_o.data`, `_nm`, `_ao`, `_r` e `_m` continuam com as letras em inglês | Auditoria §4.1 | **Resolvido:** `_b/_o/_nm/_ao` refeitos nas 2 cópias; `_r/_m` não têm letra |
 | 4 | **Emissivos incompatíveis:** `eca_genericsigns_emissive` não acompanha o novo layout | Auditoria §4.4 | **Não se aplica ao West Coast:** o material carregado é o PBR sem emissivo |
 | 5 | **Formatos DDS diferentes** entre texturas (BC7 sRGB, BC7 linear, BC4, DXT1, DXT5). Não dá para exportar tudo como BC7 | Auditoria §4.5 | **Tratado:** cada DDS sai no formato e com os mips do seu original |
-| 6 | **Assets globais afetam outros mapas:** a maioria fica em `assets/materials/` e é usada também por East Coast, Utah etc. | Auditoria §3 | **Aberto** (decisão da Fase 3: globais continuam globais). QA em outros mapas pendente |
+| 6 | **Assets globais afetam outros mapas:** a maioria fica em `assets/materials/` e é usada também por East Coast, Utah etc. | Auditoria §3 | **Limitação documentada** na 1.0.0 (`release/KNOWN_ISSUES.md`); globais continuam globais (decisão da Fase 3); sem QA documentado em outros mapas |
 | 7 | ~~Política mph/km/h pendente~~ → **definida na Fase 3**. A implementação continua pendente: R-19 com material/mesh próprios e `speedLimit` funcional | `LOCALIZATION_RULES.md` §2–3 | **Resolvido:** R-19 (Fase 5), radares, zonas, ADAS e placas embutidas (Fase 7) |
 | 8 | Mapas auxiliares **não citados na auditoria** (`eca_genericsigns` `_o/_nm/_ao/_r`, `steel_factory_brand` `_nm/_ao/_r`, `billboardsigns_dealers` `_o`…) | `docs/inventory/texture_families.md` | **Resolvido:** extraídos; refeitos onde contêm letra (steel nm/ao/r, Spearleaf `_o`, clutter `_o`, ônibus `_nm`) |
 | 9 | A auditoria diz "41 texturas", mas são **35** | `docs/inventory/texture_families.md` | Registrado |
@@ -279,12 +307,12 @@ Essas regras estão implementadas no validador (`validate.py speeds`). Nenhuma a
 - **Placas embutidas em malha compartilhada:** face nova em espaço livre do atlas, re-apontamento quad a quad, célula compartilhada nunca editada.
 - **Combustível:** litro = ausência de `localUnits` (o jogo só reconhece `gallonUS`).
 
-## Decisões pendentes
+## Decisões pendentes (para versões futuras; a 1.0.0 está congelada)
 
 - ~~Como aplicar as regras ADAS/radar no mapa~~ → resolvido na Fase 7.
 - **Limite urbano das avenidas a 100 automático** (Chinatown, trevo junction1, onde as placas originais diziam 30 mph): manter o automático (estado atual, placa = via) ou reduzir as vias a 50 — revisão humana.
 - **Reaction Test sob a zona ADAS de 50:** instrução 40–70 com R-19 50 à vista — avaliação do pesquisador.
-- **Velocidade em mph nas placas da arrancada** (código global do jogo, todos os mapas) e **painel de preço do posto em inglês** (`s_fuel_sign_trilobite.dae`): Fase 8.
+- **Velocidade em mph nas placas da arrancada** (código global do jogo, todos os mapas) e **painel de preço do posto em inglês** (`s_fuel_sign_trilobite.dae`): não tratados na Fase 8; limitações da 1.0.0.
 - ~~`ONLY` no pavimento~~ → resolvido na Fase 6 (SÓ SAÍDA / ÔNIBUS).
 - ~~Itens `needs_context`~~ → todos resolvidos na Fase 6 (0 na matriz).
 - ~~Letreiros por glifos no mesh~~ → resolvidos na Fase 6 (6I).
